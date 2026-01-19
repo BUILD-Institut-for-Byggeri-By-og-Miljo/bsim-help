@@ -27,9 +27,9 @@ Resultaterne kan vises individuelt som grafik eller som tabeller for de følgend
 *Copy to clipboard* danner en kopi af den aktuelle graf eller tabel i pc'ens hukommelse, som derefter kan indsættes i et andet Windows-baseret program, fx et tekstbehandlingsprogram eller et regnearksprogram.
 
 <div id="gray_background">
-
-**NB:** *Nyere versioner af Microsoft Office-programmer understøtter ikke denne måde at kopiere grafik. Det er derfor nødvendigt først at indsætte den kopierede grafik ind i et tegneprogram, fx Paint, og derefter at kopiere grafikken herfra og ind i Office-programmet.*
-
+<em>
+NB: Nyere versioner af Microsoft Office-programmer understøtter ikke denne måde at kopiere grafik. Det er derfor nødvendigt først at indsætte den kopierede grafik ind i et tegneprogram, fx Paint, og derefter at kopiere grafikken herfra og ind i Office-programmet.
+</em>
 </div>
 
 Diverse forudsætninger for beregningerne:
