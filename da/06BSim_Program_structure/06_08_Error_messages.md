@@ -45,130 +45,23 @@ Fejlmeddelelser optræder følgende steder:
 
 
 
-<style>
-  :root{
-    --blue-border:#1f4e8a;   /* frame + row rules */
-    --blue-link:#1f4e8a;     /* link color like screenshot */
-    --band-gray:#d9dee6;     /* title band */
-    --cell-bg:#ffffff;
-    --text:#111;
-  }
+## Parametre i gruppen *Outdoors*
 
-  .panel{
-    border:3px solid var(--blue-border);
-    border-radius:2px;
-    width: 900px; /* adjust as needed */
-    border-collapse:separate;
-    overflow:hidden;
-  }
+Inddata fra klimafil og beregnet position af solen.  
+Disse parametre er **kun** tilgængelige i resultatloggen hvis der er sat “hak” ud for  
+[Weather] på [Options fanebladet] før simuleringen.
 
-  .panel thead .title{
-    background:var(--band-gray);
-    border-bottom:1px solid var(--blue-border);
-  }
-  .panel thead .title th{
-    padding:12px 14px;
-    font-weight:700;
-    text-align:left;
-  }
-
-  /* Explanatory row lives in thead so there’s no “line” gap */
-  .panel thead .explainer td{
-    background:var(--cell-bg);
-    padding:10px 14px 12px;
-    border-bottom:1px solid var(--blue-border);
-  }
-
-  .panel tbody td{
-    background:var(--cell-bg);
-    padding:8px 14px;
-    border-bottom:1px solid var(--blue-border);
-  }
-
-  /* First column looks like a label */
-  .panel tbody td:first-child{
-    width: 180px;
-    font-weight:700;
-    white-space:nowrap;
-  }
-
-  /* Remove last inner rule to match screenshot feel */
-  .panel tbody tr:last-child td{
-    border-bottom:0;
-  }
-
-  a{
-    color:var(--blue-link);
-    text-decoration:underline;
-  }
-</style>
-
-  <table class="panel">
-    <thead>
-      <tr class="title">
-        <th colspan="2">Parametre i gruppen <em>Outdoors</em></th>
-      </tr>
-      <tr class="explainer">
-        <td colspan="2">
-          Inddata fra klimafil og beregnet position af solen.
-          <br>
-          Disse parametre er <strong>kun</strong> tilgængelige i resultatloggen hvis der er sat “hak” ud for
-          <a href="#">Weather</a> på <a href="#">Options fanebladet</a> før simuleringen.
-        </td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>AtmPres</td>
-        <td>
-          Lufttrykket, Pascal<br>
-          Hvis lufttrykket er konstant 0 kan der stadig simuleres naturlig ventilation med
-          <a href="#">multizone-modellen</a>, men med reduceret præcision.
-        </td>
-      </tr>
-      <tr>
-        <td>CldCover</td>
-        <td>Skydække, ottendedele (8 = helt overskyet, 0 = skyfrit)</td>
-      </tr>
-      <tr>
-        <td>DifRad</td>
-        <td>Diffus solstråling på vandret, kW/m²</td>
-      </tr>
-      <tr>
-        <td>ExtTmp</td>
-        <td>Temperaturen af udeluften (tør), °C</td>
-      </tr>
-      <tr>
-        <td>HumRatio</td>
-        <td>Absolut fugtindhold i udeluften, kg/kg tør luft</td>
-      </tr>
-      <tr>
-        <td>NormRad</td>
-        <td>Direkte solindfald ved vinkelret indstråling, kW/m²</td>
-      </tr>
-      <tr>
-        <td>RelHumid</td>
-        <td>Relativ fugtighed i udeluften, %</td>
-      </tr>
-      <tr>
-        <td>SkyTemp</td>
-        <td>Himmeltemperatur, °C</td>
-      </tr>
-      <tr>
-        <td>SunAz</td>
-        <td>Solens position regnet fra nord (nord = 0°) og positiv mod øst (øst = 90°), grader</td>
-      </tr>
-      <tr>
-        <td>SunH</td>
-        <td>Solhøjde i forhold til vandret (zenit = 90°), grader</td>
-      </tr>
-      <tr>
-        <td>WindDir</td>
-        <td>Vindretning (nord = 0°), grader</td>
-      </tr>
-      <tr>
-        <td>WindSpeed</td>
-        <td>Vindhastighed, m/s</td>
-      </tr>
-    </tbody>
-  </table>
+| Parameter   | Beskrivelse |
+|-------------|-------------|
+| **AtmPres** | Lufttrykket, Pascal.  <br> Hvis lufttrykket er konstant 0 kan der stadig simuleres naturlig ventilation med [multizone-modellen], men med reduceret præcision. |
+| **CldCover** | Skydække, ottendedele (8 = helt overskyet, 0 = skyfrit) |
+| **DifRad** | Diffus solstråling på vandret, kW/m² |
+| **ExtTmp** | Temperaturen af udeluften (tør), °C |
+| **HumRatio** | Absolut fugtindhold i udeluften, kg/kg tør luft |
+| **NormRad** | Direkte solindfald ved vinkelret indstråling, kW/m² |
+| **RelHumid** | Relativ fugtighed i udeluften, % |
+| **SkyTemp** | Himmeltemperatur, °C |
+| **SunAz** | Solens position regnet fra nord (nord = 0°) og positiv mod øst (øst = 90°), grader |
+| **SunH** | Solhøjde i forhold til vandret (zenit = 90°), grader |
+| **WindDir** | Vindretning (nord = 0°), grader |
+| **WindSpeed** | Vindhastighed, m/s |
