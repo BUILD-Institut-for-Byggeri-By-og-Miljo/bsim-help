@@ -41,14 +41,14 @@ I henhold til [DS418, tillæg 4](https://bsim.outseta.com/support/kb/articles/A9
 
 Terrændækkonstruktioner skal dog opbygges så en del af jordlaget under bygningen medregnes. Transmissionskoefficienten for et gulv eller en kældervæg direkte mod jord kan bestemmes af formlen:
 
-$$ U = \frac{1}{R_I + R_M + R_J} $$
+$$ U' = \frac{1}{R_{si} + \sum R_m + R_j} $$
 
 hvor
 
-*   **R<sub>I</sub>** er overgangsisolansen ved den indvendige overflade i enheden m²K/W. Denne størrelse fremgår ikke af oplysningerne om konstruktionerne i visningen med [SimDB](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement).
+*   **R<sub>si</sub>** er overgangsisolansen ved den indvendige overflade i enheden m²K/W. Denne størrelse fremgår ikke af oplysningerne om konstruktionerne i visningen med [SimDB](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement).
 
-*   **R<sub>M</sub>** er isolansen for materialelag i selve gulv- eller vægkonstruktionen i enheden m²K/W. Vises som en information i [SimDB](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement).
+*   **R<sub>m</sub>** er isolansen for materialelag i selve gulv- eller vægkonstruktionen i enheden m²K/W. Vises som en information i [SimDB](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement).
 
-*   **R<sub>J</sub>** er en isolans af jorden i enheden m²K/W. Her kan en terrændækkonstruktion med fordel opbygges med et ekstra materialelag (jord) på ydersiden.
+*   **R<sub>j</sub>** er en isolans af jorden i enheden m²K/W. Her kan en terrændækkonstruktion med fordel opbygges med et ekstra materialelag (jord) på ydersiden.
 
 
