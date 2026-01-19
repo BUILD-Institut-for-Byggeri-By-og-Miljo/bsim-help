@@ -1,0 +1,2 @@
+# Virus
+The Danish Building Research Institute actively works to prevent the spread of computer viruses and therefore continuously updates our virus protection. All software versions of BSim have thus been checked with the latest version of Sweep from [Sophos Anti-Virus](https://www.sophos.com/en-us).

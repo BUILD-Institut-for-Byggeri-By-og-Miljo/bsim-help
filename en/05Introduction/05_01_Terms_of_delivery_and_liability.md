@@ -1,0 +1,6 @@
+# Terms of delivery and liability
+The *BSim* computer program has been developed by the Danish Building Research Institute, which owns all rights to the software, concept and relevant documentation. The software is supplied on CD-ROM as an object program for the machine configuration specified by the user/buyer. The user is only entitled to use the software on the PCs installed at his address in accordance with the supply contract entered into.
+
+Danish Building Research Institute undertakes to correct any software errors demonstrated by the user and recognized as such by Danish Building Research Institute free of charge for a period of 6 months from the dispatch date.
+
+Danish Building Research Institute accepts no liability over and above the obligations arising from the supply contract for errors or omissions in the supplied software or relevant instructions, or for the consequences of such errors. Nor can Danish Building Research Institute guarantee or be held liable for the correctness or adequacy of results or the possible applications of the software.
