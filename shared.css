@@ -1,24 +1,39 @@
-#center_img {
-  text-align: center;
-}
 
-#center_img img {
-  max-width: 300px; /* optional */
-}
-
-#center_img figcaption {
-  margin-top: 0.5em;
-  font-style: italic;
-  color: #555;
-}
 
 
 #gray_background {
-  background-color: gray;
+  background-color: rgb(172, 172, 172);
   padding: 10px;
 }
+
 
 #red_text {
   color: red;
 
 }
+
+#green_text {
+  color: green;
+
+}
+
+
+#center_img {
+  text-align: center;
+}
+
+#center_img img {
+  max-width: 300px;/* optional */
+}
+
+#center_img figcaption {
+  margin-top: 0.5em;
+  font-style: italic;
+  color: #929090;
+}
+
+#pink_text {
+  color: rgb(253, 35, 184);
+
+}
+
