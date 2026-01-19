@@ -9,40 +9,40 @@
 ----
 
 ### Introduktion 
-* [Leveringsbetingelser og ansvarsforhold](05Introduktion/05_01_Leveringsbetingelser_og_ansvarsforhold.md)
-* [Opbygning af hjælp](05Introduktion/05_02_Opbygning_af_hjælp.md)
-* [Udskrift af hjælpesider](05Introduktion/05_03_Udskrift_af_hjælpesider.md)
-* [Læsevejledning](05Introduktion/05_04_Læsevejledning.md)
-* [Begrænsninger](05Introduktion/05_05_Begrænsninger.md)
-* [Genvejstaster](05Introduktion/05_06_Genvejstaster.md)
-* [Ordbog](05Introduktion/05_07_Ordbog.md)
-* [Filtyper](05Introduktion/05_08_Filtyper.md)
-* [Spørgsmål via e-mail](05Introduktion/05_09_Spørgsmål_via_e-mail.md)
-* [Virus](05Introduktion/05_10_Virus.md)
+* [Leveringsbetingelser og ansvarsforhold](05Introduction/05_01_Terms_of_delivery_and_liability.md)
+* [Opbygning af hjælp](05Introduction/05_02_Help_structure.md)
+* [Udskrift af hjælpesider](05Introduction/05_03_Printing_help_pages.md)
+* [Læsevejledning](05Introduction/05_04_Reader_guidelines.md)
+* [Begrænsninger](05Introduction/05_05_Limitations.md)
+* [Genvejstaster](05Introduction/05_06_Shortcut_keys.md)
+* [Ordbog](05Introduction/05_07_Dictionary.md)
+* [Filtyper](05Introduction/05_08_File_types.md)
+* [Spørgsmål via e-mail](05Introduction/05_09_Questions_via_e-mail.md)
+* [Virus](05Introduction/05_10_Virus.md)
 
 ----
 
 ### BSim Programstruktur
 
-* [Strukturen i BSim](06Bsim_Programstruktur/06_01_Strukturen_i_BSim.md)
-* [About BSim](06Bsim_Programstruktur/06_02_About_BSim.md)
-* [Operationer med musen i SimView](06Bsim_Programstruktur/06_03_Operationer_med_musen_i_SimView.md)
-* [Programmenuer i BSim](06Bsim_Programstruktur/06_04_Programmenuer_i_BSim.md)
-* [SimView - Værktøjsbjælken](06Bsim_Programstruktur/06_05_SimView_Værktøjsbjælken.md)
-* [SimView - Menu](06Bsim_Programstruktur/06_06_SimView_Menu.md)
-* [SimView - Udskrift af model](06Bsim_Programstruktur/06_07_SimView_Udskrift_af_model.md)
-* [Fejlmeddelelser](06Bsim_Programstruktur/06_08_Fejlmeddelelser.md)
-* [SimView - Oprette en bygning](06Bsim_Programstruktur/06_09_SimView_Oprette_en_bygning.md)
+* [Strukturen i BSim](06BSim_Program_structure/06_01_Structure_of_BSim.md)
+* [About BSim](06BSim_Program_structure/06_02_About_BSim.md)
+* [Operationer med musen i SimView](06BSim_Program_structure/06_03_Mouse_operations_in_SimView.md)
+* [Programmenuer i BSim](06BSim_Program_structure/06_04_Program_menus_in_BSim.md)
+* [SimView - Værktøjsbjælken](06BSim_Program_structure/06_05_SimView_Toolbar.md)
+* [SimView - Menu](06BSim_Program_structure/06_06_SimView_Menu.md)
+* [SimView - Udskrift af model](06BSim_Program_structure/06_07_SimView_Printing_a_model.md)
+* [Fejlmeddelelser](06BSim_Program_structure/06_08_Error_messages.md)
+* [SimView - Oprette en bygning](06BSim_Program_structure/06_09_SimView_Creating_a_building.md)
 
 ----
 
 ### SimDB Database
 
-* [Databasen SimDB](07SimDB_Database/07_01_Databasen_SimDB.md)
+* [Databasen SimDB](07SimDB_Database/07_01_The_SimDB_database.md)
 * [SimDB - BuildingElement](07SimDB_Database/07_02_SimDB_BuildingElement.md)
 * [SimDB - BuildingElement, ConstructionLayer](07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)
 * [SimDB - BuildingElement, MaterialAmount](07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)
-* [Materialelag for WinDoor](07SimDB_Database/07_05_Materialelag_for_WinDoor.md)
+* [Materialelag for WinDoor](07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md)
 * [SimDB - BuildingMaterial](07SimDB_Database/07_06_SimDB_BuildingMaterial.md)
 * [SimDB - BuildingMaterial, Environment](07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.md)
 * [SimDB - BuildingMaterial, Finish](07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md)
@@ -50,9 +50,9 @@
 * [SimDB - BuildingMaterial, Glazing](07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 * [SimDB - BuildingMaterial, Material](07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md)
 * [SimDB - BuildingMaterial, Thermal](07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
-* [SimDb - BuildingMaterial, PCM](07SimDB_Database/07_13_SimDb_BuildingMaterial_PCM.md)
+* [SimDb - BuildingMaterial, PCM](07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
 * [SimDB - BuildingMaterial, Moisture](07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
-* [SimDB - PV-materialer](07SimDB_Database/07_15_SimDB_PV_materialer.md)
+* [SimDB - PV-materialer](07SimDB_Database/07_15_SimDB_PV-materials.md)
 * [SimDB - BuildingMaterial, UserDefined](07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)
 
 ----
@@ -60,15 +60,15 @@
 ### Cad tegninger som grundlag for geometri
 
 
-* [Cad-tegninger som grundlag for geometri](08Cad_tegninger_som_grundlag_for_geometri/08_01_Cad_tegninger_som_grundlag_for_geometri.md)
-* [SimDXF - Åbne DXF-tegning](08Cad_tegninger_som_grundlag_for_geometri/08_02_SimDXF_Åbne_DXF_tegning.md)
-* [SimDXF - Vælg DXF-filter](08Cad_tegninger_som_grundlag_for_geometri/08_03_SimDXF_Vælg_DXF_filter.md)
-* [SimDXF - Tilføje som applikation](08Cad_tegninger_som_grundlag_for_geometri/08_04_SimDXF_Tilføje_som_applikation.md)
-* [SimDXF - Flader](08Cad_tegninger_som_grundlag_for_geometri/08_05_SimDXF_Flader.md)
-* [SimDXF - Rum](08Cad_tegninger_som_grundlag_for_geometri/08_06_SimDXF_Rum.md)
-* [SimDXF - Tegningsrevisioner](08Cad_tegninger_som_grundlag_for_geometri/08_07_SimDXF_Tegningsrevisioner.md)
-* [SimDXF - WinDoor](08Cad_tegninger_som_grundlag_for_geometri/08_08_SimDXF_WinDoor.md)
-* [SimDXF - oprette knuder (nodes)](08Cad_tegninger_som_grundlag_for_geometri/08_09_SimDXF_oprette_knuder_(nodes).md)
+* [Cad-tegninger som grundlag for geometri](08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md)
+* [SimDXF - Åbne DXF-tegning](08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.md)
+* [SimDXF - Vælg DXF-filter](08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md)
+* [SimDXF - Tilføje som applikation](08SimDXF_CAD_drawings_as_basis_for_geometry/08_04_SimDXF_Adding_as_an_application.md)
+* [SimDXF - Flader](08SimDXF_CAD_drawings_as_basis_for_geometry/08_05_SimDXF_Faces.md)
+* [SimDXF - Rum](08SimDXF_CAD_drawings_as_basis_for_geometry/08_06_SimDXF_Spaces.md)
+* [SimDXF - Tegningsrevisioner](08SimDXF_CAD_drawings_as_basis_for_geometry/08_07_SimDXF_Drawing_revisions.md)
+* [SimDXF - WinDoor](08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.md)
+* [SimDXF - oprette knuder (nodes)](08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.md)
 
 ----
 
