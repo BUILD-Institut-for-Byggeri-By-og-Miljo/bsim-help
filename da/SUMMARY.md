@@ -95,15 +95,15 @@
 
 ### Termiske zoner
 
-* [Thermal Zone property](10Termiske_zoner/10_01_Thermal_Zone_property.md)
-* [Tilføje rum til termiske zoner](10Termiske_zoner/10_02_Tilføje_rum_til_termiske_zoner.md)
-* [Referencepunkt](10Termiske_zoner/10_03_Referencepunkt.md)
-* [Redigere modelgeometri](10Termiske_zoner/10_04_Redigere_modelgeometri.md)
-* [Skygger fra omgivelser](10Termiske_zoner/10_05_Skygger_fra_omgivelser.md)
-* [Standardkonstruktioner](10Termiske_zoner/10_06_Standardkonstruktioner.md)
-* [Sollysfaktorer for WinDoors](10Termiske_zoner/10_07_Sollysfaktorer_for_WinDoors.md)
-* [Tilføje åbning eller WinDoor](10Termiske_zoner/10_08_Tilføje_aabning_eller_WinDoor.md)
-* [Udskrift af model](10Termiske_zoner/10_09_Udskrift_af_model.md)
+* [Thermal Zone property](10Thermal_zones/10_01_Thermal_Zone_property.md)
+* [Tilføje rum til termiske zoner](10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
+* [Referencepunkt](10Thermal_zones/10_03_Reference_point.md)
+* [Redigere modelgeometri](10Thermal_zones/10_04_SimView_Editing_the_model_geometry.md)
+* [Skygger fra omgivelser](10Thermal_zones/10_05_Shadows_from_the_surroundings.md)
+* [Standardkonstruktioner](10Thermal_zones/10_06_Standardkonstruktioner.md)
+* [Sollysfaktorer for WinDoors](10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md)
+* [Tilføje åbning eller WinDoor](10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
+* [Udskrift af model](10Thermal_zones/10_09_SimView_Printing_a_model.md)
 
 ----
 
