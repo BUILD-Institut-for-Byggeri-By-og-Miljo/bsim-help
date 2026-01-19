@@ -402,17 +402,19 @@ Ligningssystemet opstilles så der sikres masse- og energibevarelse.
 
 For zonerne gælder kontinuitetsligningen, der siger at den mængde luft (masse) der tilføres skal være lig den mængde luft der fjernes:
 
-$$ \sum \dot m_{ind} - \sum \dot m_{ud} = \dot m_{fjernet} $$
+$$ \sum \dot m_{ind} - \sum \dot m_{ud} = \dot m_{resulterende,fjernet} $$
 
 og
 
-$$ \dot m_{fjernet} = \dot m_{Mekanisk, fjernet} - \dot m_{Mekanisk, tilført} $$
+$$ \dot m_{resulterende,fjernet} = \dot m_{mekanisk, fjernet} - \dot m_{mekanisk, tilført} $$
 
 hvor: 
 
 *m<sub>ind </sub>* er massestrømmen ind i zonen gennem åbningerne [kg/s]   
 *m<sub>ud</sub>* er massestrømmen ud fra zonen gennem åbningerne [kg/s]   
-*m<sub>fjernet</sub>* er massestømmen fjernet ved mekanisk ventilation [kg/s]
+*m<sub>resulterende,fjernet</sub>* er den resulterende massestømmen fjernet ved mekanisk ventilation [kg/s] <br>
+*m<sub>mekanisk,fjernet</sub>* er massestrømmen ud fra zonen gennem mekanisk ventilation [kg/s] <br>
+*m<sub>mekanisk,tilført</sub>* er massestrømmen ind i zonen gennem mekanisk ventilation [kg/s]
 
 #### **Energibevarelse**
 
