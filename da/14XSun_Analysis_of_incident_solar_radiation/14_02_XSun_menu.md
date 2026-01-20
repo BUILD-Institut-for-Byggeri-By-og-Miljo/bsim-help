@@ -5,7 +5,7 @@
 Menuen i *XSun* kaldes frem ved at højre-klikke i den grafiske visning.
 
 <figure id="center_img">
-<img src="./assets/image42.gif" alt="XSun-visning af model (klik på figuren for at se en animation).">
+<img src="./assets/IMAGE42.GIF" alt="XSun-visning af model (klik på figuren for at se en animation).">
 <figcaption>XSun-visning af model (klik på figuren for at se en animation).</figcaption>
 </figure>
 

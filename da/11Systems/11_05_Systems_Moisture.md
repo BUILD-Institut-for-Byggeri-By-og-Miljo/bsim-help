@@ -39,8 +39,9 @@ Fugtafgivelsen beregnes efter følgende formler afhængig af den valgte model:
 For antal personer N anvendes det antal personer som er angivet i den termiske zones [PeopleLoad](/11Systems/11_13_Systems_Persons.html).
 
 hvor:
-|            |                                                                                              |
-|-----------------------|------------------------------------------------------------------------------------------------------------|
+
+| Parameter | Beskrivelse |
+|-----------|-------------|
 | A                     | Areal af vandoverflade, [m²]                                                                              |
 | C                     | C = 35 for (ρ<sub>a</sub> - ρ<sub>w</sub>) > 0,02<br>C = 40 for (ρ<sub>a</sub> - ρ<sub>w</sub>) ≤ 0,02<br>hvis (ρ<sub>a</sub> - ρ<sub>w</sub>) < 0 benyttes den absolutte værdi. |
 | E                     | Fugtafgivelse [kg/m²/s]                                                                                   |
