@@ -24,10 +24,10 @@ Da U-værdien for en WinDoor er defineret inklusive indvendig og udvendig overga
 
 *Transmit.* angiver transmittansen for solstråling (varme) gennem skodden. Angivelse af en transmittans forskellig fra 0 giver mulighed for at definere fx forsatsruder, som benyttes en del af året, eller mere avancerede skoddesystemer med en isoleringstype, der er transparent eller translucent.
 
-[Tidsplanen](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) for skodde består af en '[skodderegulering](https://help.bsim.dk/support/kb/articles/Rm8JXX94/skodderegulering)' og en [tidsangivelse](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse). I reguleringen defineres ved hvilken udetemperatur, skodden skal lukkes, samt en solfaktor for WinDoor med lukket skodde.
+[Tidsplanen](/11Systems/11_02_Systems_schedule.html) for skodde består af en '[skodderegulering](/11Systems/11_15_Systems_shutter.html)' og en [tidsangivelse](/11Systems/11_17_Systems_Time.html). I reguleringen defineres ved hvilken udetemperatur, skodden skal lukkes, samt en solfaktor for WinDoor med lukket skodde.
 
 Se også
 
-*   Faneblad [ShutterCtrl](https://help.bsim.dk/support/kb/articles/Rm8JXX94/skodderegulering)
-*   Faneblad [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   Faneblad [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   Faneblad [ShutterCtrl](/11Systems/11_15_Systems_shutter.html)
+*   Faneblad [Schedule](/11Systems/11_02_Systems_schedule.html)
+*   Faneblad [Time](/11Systems/11_17_Systems_Time.html)

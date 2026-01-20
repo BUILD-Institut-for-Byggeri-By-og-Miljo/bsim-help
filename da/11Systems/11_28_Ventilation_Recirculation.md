@@ -10,7 +10,7 @@ Regulering af ventilationen med henblik på udnyttelse af recirkulation.
 </figure>
 
 
-*   *Min Supply Ratio* er den mindst tilladelige andel (af *Supply* givet på fanebladet [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation)) af luft (udeluft + recirkuleret luft) som anlægget forsyner zonen med.
+*   *Min Supply Ratio* er den mindst tilladelige andel (af *Supply* givet på fanebladet [Ventilation](/11Systems/11_21_Systems_Ventilation.html)) af luft (udeluft + recirkuleret luft) som anlægget forsyner zonen med.
 
 *   *Min Return Ratio* er den mindste andel af recirkuleret luft i anlægget.
 
@@ -22,12 +22,12 @@ Regulering af ventilationen med henblik på udnyttelse af recirkulation.
 
 *   *Setp Dehumid* er setpunktet for fugtindholdet i zonens indeluft som anlægget skal styre efter. Hvis fugtindholdet er over setpunktet startes affugteren for igen at bringe fugtindholdet ned på det ønskede niveau. Hvis *Setp Dehumid* = 0 styres der ikke efter en øvre grænse for fugtindholdet i indeluften. Reguleringen tilstræber at holde den relative fugtighed i zonen under setpunktet. Setpunktet bør altid være større end setpunktet for befugtning.
 
-*   *Min Inlet Temp* er den mindste indblæsningstemperatur som accepteres i zonen. Indblæsningstemperaturen vil opnå *Min Inlet Temp* hvis der er aggregater tilgængelige i ventilationssystemet (faneblad [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation)) som kan hæve lufttemperaturen.
+*   *Min Inlet Temp* er den mindste indblæsningstemperatur som accepteres i zonen. Indblæsningstemperaturen vil opnå *Min Inlet Temp* hvis der er aggregater tilgængelige i ventilationssystemet (faneblad [Ventilation](/11Systems/11_21_Systems_Ventilation.html)) som kan hæve lufttemperaturen.
 
-*   *Max Inlet Temp* er den højeste indblæsningstemperatur som accepteres i zonen. Indblæsningstemperaturen vil opnå *Max Inlet Temp* hvis der er aggregater tilgængelige i ventilationssystemet (faneblad [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation)) som kan sænke lufttemperaturen.
+*   *Max Inlet Temp* er den højeste indblæsningstemperatur som accepteres i zonen. Indblæsningstemperaturen vil opnå *Max Inlet Temp* hvis der er aggregater tilgængelige i ventilationssystemet (faneblad [Ventilation](/11Systems/11_21_Systems_Ventilation.html)) som kan sænke lufttemperaturen.
 
 *   *Setp Temp* er den ønskede operative temperatur for zonen.
 
-Reguleringen af ventilationsluften med recirkulation af ventilationsluften sker i henhold til beskrivelsen i [teoriafsnittet](https://bsim.outseta.com/support/kb/articles/dQG2VDm4/recirkulation).
+Reguleringen af ventilationsluften med recirkulation af ventilationsluften sker i henhold til beskrivelsen i [teoriafsnittet](/11Systems/11_28_Ventilation_Recirculation.html).
 
 

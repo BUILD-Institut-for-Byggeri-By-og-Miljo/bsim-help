@@ -25,25 +25,25 @@ Til hvert vindue i en BSim-model kan der tilknyttes en solafskærmning, som besk
 | Position       | Placering af afskærmning i forhold til vindue.                                                               | External; Internal; Integrated | Internal
  
 
-Solafskærmningens funktion beskrives, som for alle andre systemer i BSim, gennem en [tidsplan](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) (Schedule), hvori der for en eller flere [tidsangivelser](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse) (Time) angives, hvilken regulering (Control), der er aktuel. Der kan angives et ubegrænset antal tidsangivelser og tilhørende reguleringer for solafskærmningen.
+Solafskærmningens funktion beskrives, som for alle andre systemer i BSim, gennem en [tidsplan](/11Systems/11_02_Systems_schedule.html) (Schedule), hvori der for en eller flere [tidsangivelser](/11Systems/11_17_Systems_Time.html) (Time) angives, hvilken regulering (Control), der er aktuel. Der kan angives et ubegrænset antal tidsangivelser og tilhørende reguleringer for solafskærmningen.
 
 Der kan vælges følgende fire forskellige afskærmningsformer:
 
-*   [SolarCtrl](https://help.bsim.dk/support/kb/articles/49Ed16Q7/solafskarmning---regulering-efter-solindfald-og-temperatur), der regulerer efter solindfald og operativ temperatur,
+*   [SolarCtrl](/11Systems/11_16_Systems_shading.html), der regulerer efter solindfald og operativ temperatur,
 
-*   [SensorCtrl](https://help.bsim.dk/support/kb/articles/BWzd23QE/solafskarmning---regulering-efter-lysfoler-pa-facaden), der styrer efter lysindfald på facaden,
+*   [SensorCtrl](/11Systems/11_16_Systems_shading.html), der styrer efter lysindfald på facaden,
 
-*   [BlindCtrl](https://help.bsim.dk/support/kb/articles/ZmNrBwm2/solafskarmning---regulering-med-lameller-efter-solindfald-og-direkte-solstraling), der for en afskærmning af lameltype regulerer efter solindfald og direkte sol,
+*   [BlindCtrl](/11Systems/11_16_Systems_shading.html), der for en afskærmning af lameltype regulerer efter solindfald og direkte sol,
 
-*   [GlareCtrl](https://help.bsim.dk/support/kb/articles/4966wd9X/solafskarmning---regulering-efter-blandingsforhold-og-belysningsstyrke), der styrer efter at minimere blændingen fra vinduet.
+*   [GlareCtrl](/11Systems/11_16_Systems_shading.html), der styrer efter at minimere blændingen fra vinduet.
 
 *Table values:* giver mulighed for at benytte detaljerede data om lamellerne i et afskærmningssystem ved at tilknytte en ekstern fil. Ved tryk på knappen åbnes en dialog til at lokalisere filen på pc'en.
 
-*Remove table:* bruges til at fjerne tilknytningen af en [ekstern fil](https://help.bsim.dk/support/kb/articles/y9q82qQA/standardtabeller-for-lamel-afskarmninger) til definition og styring af solafskærmningen.
+*Remove table:* bruges til at fjerne tilknytningen af en [ekstern fil](/24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.html) til definition og styring af solafskærmningen.
 
-I [tidsplanen](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) for solafskærmningen indgår en [afskærmningsregulering](https://help.bsim.dk/support/kb/articles/49Ed16Q7/solafskarmning---regulering-efter-solindfald-og-temperatur), som giver mulighed for at definere en regulering af afskærmningen efter temperaturen i zonen. I dialogen er der desuden indgang til en valgmenu, hvori reguleringsformen defineres.
+I [tidsplanen](/11Systems/11_02_Systems_schedule.html) for solafskærmningen indgår en [afskærmningsregulering](/24Miscellaneous/24_04_Shading_Control.html), som giver mulighed for at definere en regulering af afskærmningen efter temperaturen i zonen. I dialogen er der desuden indgang til en valgmenu, hvori reguleringsformen defineres.
 
 Se også
 
-*   [Faneblad Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   [Faneblad Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Faneblad Schedule](/11Systems/11_02_Systems_schedule.html)
+*   [Faneblad Time](/11Systems/11_17_Systems_Time.html)

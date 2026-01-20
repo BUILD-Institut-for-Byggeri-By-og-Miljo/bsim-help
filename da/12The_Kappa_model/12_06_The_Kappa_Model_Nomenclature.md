@@ -27,8 +27,8 @@
 
 Se også:
 
-*   [Baggrund](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund)
-*   [Kappa-modellen](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen---modelbeskrivelse)
-*   [Implementering af modellen](https://help.bsim.dk/support/kb/articles/DmwA6g94/kappa-modellen---implementering-i-tsbi5)
-*   [Inddata i SimView](https://help.bsim.dk/support/kb/articles/yW1xGP9B/kappa-modellen-inddata)
-*   [Referencer](https://help.bsim.dk/support/kb/articles/gWKDo0mp/kappa-modellen---referencer)
+*   [Baggrund](/12The_Kappa_model/12_02_Background.html)
+*   [Kappa-modellen](/12The_Kappa_model/12_03_The_Kappa_Model_Model_description.html)
+*   [Implementering af modellen](/12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.html)
+*   [Inddata i SimView](/12The_Kappa_model/12_05_The_Kappa_Model_input_data.html)
+*   [Referenser](/12The_Kappa_model/12_07_The_Kappa_Model_References.html)

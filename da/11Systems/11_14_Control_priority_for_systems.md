@@ -8,29 +8,29 @@ Den ønskede operative temperatur kan søges opnået ved hjælp af flere af de i
 
 Følgende systemer kan bidrage til at hæve temperaturen:
 
-*   [Radiator](https://help.bsim.dk/support/kb/articles/wmjnq7mV/opvarmning)
+*   [Radiator](/11Systems/11_12_Systems_Heating.html)
 
-*   [Ventilationsanlæg (varmegenvinding, varmeflade)](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation)
+*   [Ventilationsanlæg (varmegenvinding, varmeflade)](/11Systems/11_21_Systems_Ventilation.html)
 
 Det system, der har det højeste setpunkt, aktiveres først, dog således at grænserne for de til rådighed værende effekter samt grænser for indblæsningstemperaturer altid overholdes (hvis dette er muligt).
 
 **Eksempel**
 
-I 'varmeregulering' for en [radiator](https://help.bsim.dk/support/kb/articles/wmjnq7mV/opvarmning) er setpunktet sat til 21,5 °C, mens der i '[rumtemperaturregulering](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)' for et [ventilationsanlæg](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation) er angivet en minimum indblæsningstemperatur på 16,0 °C samt et setpunkt for opvarmning på 21,0 °C. Funktionen vil da være, at temperaturen på indblæsningsluften vil være 16,0 °C, mens der ved stigende varmebehov afgives mere og mere varme fra radiatoren for at holde rumtemperaturen på 21,5 °C. Hvis den til rådighed værende effekt på radiatoren er utilstrækkelig til at holde 21,0 °C, vil indblæsningstemperaturen blive hævet for at holde denne rumtemperatur.
+I 'varmeregulering' for en [radiator](/11Systems/11_12_Systems_Heating.html) er setpunktet sat til 21,5 °C, mens der i '[rumtemperaturregulering](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)' for et [ventilationsanlæg](/11Systems/11_21_Systems_Ventilation.html) er angivet en minimum indblæsningstemperatur på 16,0 °C samt et setpunkt for opvarmning på 21,0 °C. Funktionen vil da være, at temperaturen på indblæsningsluften vil være 16,0 °C, mens der ved stigende varmebehov afgives mere og mere varme fra radiatoren for at holde rumtemperaturen på 21,5 °C. Hvis den til rådighed værende effekt på radiatoren er utilstrækkelig til at holde 21,0 °C, vil indblæsningstemperaturen blive hævet for at holde denne rumtemperatur.
 
 **Regulering ved kølebehov (temperaturen ønskes sænket)**
 
 Følgende systemer kan bidrage til at sænke temperaturen:
 
-*   [Solafskærmning](https://help.bsim.dk/support/kb/articles/7maw8X9E/solafskarmning)
+*   [Solafskærmning](/11Systems/11_16_Systems_shading.html)
 
-*   [Udluftning](https://help.bsim.dk/support/kb/articles/gWKDJlmp/udluftning)
+*   [Udluftning](/11Systems/11_18_Systems_Venting.html)
 
-*   [Køling (køleradiator)](https://help.bsim.dk/support/kb/articles/y9gBNGQM/koling)
+*   [Køling (køleradiator)](/11Systems/11_09_Systems_cooling.html)
 
-*   [Ventilationsanlæg](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation) (kuldegenvinding, [VAV](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering), køleflade)
+*   [Ventilationsanlæg](/11Systems/11_21_Systems_Ventilation.html) (kuldegenvinding, [VAV](/11Systems/11_26_Ventilation_VAV_control.html), køleflade)
 
-*   ([Belysning](https://help.bsim.dk/support/kb/articles/wQXxbnQK/belysning))
+*   ([Belysning](/11Systems/11_03_Systems_Lighting.html))
 
 I dette tilfælde aktiveres de enkelte systemer/komponenter efter laveste setpunkt.
 

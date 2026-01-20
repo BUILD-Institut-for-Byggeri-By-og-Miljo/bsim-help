@@ -21,13 +21,13 @@ VAV-regulering (Variable Air Volume) er en anden form for regulering efter en ru
 *Setp Cooling:* Setpunkt for rumføleren ved luftregulering og køling. Ved kølebehov øges luftmængden gradvist for at holde setpunktet. Såfremt dette ikke er tilstrækkeligt, åbnes der gradvist for kølefladen, indtil enten den maksimale køleydelse nås, eller indblæsningstemperaturen kommer ned på minimumværdien. Setpunktet for køling bør altid vælges højere (2-4 K) end setpunktet for opvarmning, således at anlægget ikke pendler mellem opvarmning og luftregulering/køling.
 
 *Setp. CO2:* Angiver setpunktet for VAV regulering for opnåelse af ønsket CO2 indhold i indeluften. Regulering efter CO2 indholdet har prioritet i forhold til indetemperatur, dvs. der reguleres først efter opnåelse af det ønskede CO2 indhold og dernæst efter den ønskede indetemparatur. Hvis der ikke ønskes regulering efter CO2 indholdet indtastes 0 som *Setp. CO2.*   
-CO2 indholdet i udeluften angives som en information på bygningens [Site](https://bsim.outseta.com/support/kb/articles/dQG2Kom4/site-property).
+CO2 indholdet i udeluften angives som en information på bygningens [Site](/24Miscellaneous/24_25_Site_Property.html).
 
 *Air Hum:* Angiver det ønskede absolutte fugtindhold i indblæsningsluften. Denne parameter har kun betydning, såfremt der er defineret en befugter i anlægget. Der vil således ikke foregå en affugtning i denne reguleringstype.
 
 Se også:
 
-*   [Indblæsningsstyring](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/ventilation---indblasningsstyring)
-*   [Rumtemperaturregulering](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)
-*   [Fugtregulering](https://help.bsim.dk/support/kb/articles/E9LwjGQw/ventilation---fugtregulering)
-*   [Natkøling](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation)
+*   [Indblæsningsstyring](/11Systems/11_23_Ventilation_Inlet_Control.html)
+*   [Rumtemperaturregulering](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)
+*   [Fugtregulerering](/11Systems/11_22_Ventilation_Moisture_control.html)
+*   [Natkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html)

@@ -46,9 +46,9 @@ For varmepumper i kombineret drift til varmt brugsvand og rumopvarmning, hvor de
 
     *   Varmeanlæg.
 
-Inden det er muligt at gennemføre en simulering af en varmepumpe er det nødvendigt at definere designparametrene for varmepumpen. Dette gøres ved fra *SimView* at højreklikke i grafikken og fra [menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu) vælge *Defaults.* Skift til fanebladet [Heatloss](https://bsim.outseta.com/support/kb/articles/MQvE8bmY/modeloplysninger), og vælg ok.
+Inden det er muligt at gennemføre en simulering af en varmepumpe er det nødvendigt at definere designparametrene for varmepumpen. Dette gøres ved fra *SimView* at højreklikke i grafikken og fra [menuen](/06BSim_Program_structure/06_06_SimView_Menu.html) vælge *Defaults.* Skift til fanebladet [Heatloss](/09SimView/09_11_Model_information.html), og vælg ok.
 
-Varmepumen kan først aktiveres som kilde til varmetsystemet når programmet [PackCalc](https://bsim.outseta.com/support/kb/articles/Nmdd3wm0/packcalc) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
+Varmepumpen kan først aktiveres som kilde til varmetsystemet når programmet [PackCalc](/24Miscellaneous/24_01_PackCalc_Cooling.html) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
  
 
@@ -58,6 +58,6 @@ Varmepumen kan først aktiveres som kilde til varmetsystemet når programmet [Pa
 
 Se også:
 
-*   [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   [DayProfile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dognprofil)
-*   [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Schedule](/11Systems/11_02_Systems_schedule.html)
+*   [DayProfile](/11Systems/11_04_Systems_DayProfile.html)
+*   [Time](/11Systems/11_17_Systems_Time.html)

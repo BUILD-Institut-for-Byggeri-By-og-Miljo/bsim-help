@@ -20,7 +20,7 @@ Indblæsningsstyring er en styring af indblæsningstemperaturen som funktion af 
 
 Se også:
 
-*   [Rumtemperaturregulering](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)
-*   [Fugtregulering](https://help.bsim.dk/support/kb/articles/E9LwjGQw/ventilation---fugtregulering)
-*   [VAV-regulering](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)
-*   [Natkøling](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation)
+*   [Rumtemperaturregulering](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)
+*   [Fugtregulerering](/11Systems/11_22_Ventilation_Moisture_control.html)
+*   [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html)
+*   [Natkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html)

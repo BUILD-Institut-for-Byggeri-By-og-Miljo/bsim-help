@@ -24,7 +24,7 @@ Angiver en regulering, hvor en rumføler (via en reguleringscentral) regulerer a
 
 Se også:
 
-*   [Indblæsningsstyring](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/ventilation---indblasningsstyring)
-*   [Fugtregulering](https://help.bsim.dk/support/kb/articles/E9LwjGQw/ventilation---fugtregulering)
-*   [VAV-regulering](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)
-*   [Natkøling](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation)
+*   [Indblæsningsstyring](/11Systems/11_23_Ventilation_Inlet_Control.html)
+*   [Fugtregulerering](/11Systems/11_22_Ventilation_Moisture_control.html)
+*   [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html)
+*   [Natkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html)

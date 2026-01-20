@@ -28,8 +28,8 @@ Kvaliteten af CFD-simuleringer afhænger meget af, om det er muligt at fastsætt
 
 Se også:
 
-*   [Kappa-modellen](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen---modelbeskrivelse)
-*   [Implementering af modellen](https://help.bsim.dk/support/kb/articles/DmwA6g94/kappa-modellen---implementering-i-tsbi5)
-*   [Inddata i SimView](https://help.bsim.dk/support/kb/articles/yW1xGP9B/kappa-modellen-inddata)
-*   [Referencer](https://help.bsim.dk/support/kb/articles/gWKDo0mp/kappa-modellen---referencer)
-*   [Nomenclatur](https://help.bsim.dk/support/kb/articles/VmAOoa9a/kappa-modellen---nomenklatur)
+*   [Kappa-modellen](/12The_Kappa_model/12_03_The_Kappa_Model_Model_description.html)
+*   [Implementering af modellen](/12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.html)
+*   [Inddata i SimView](/12The_Kappa_model/12_05_The_Kappa_Model_input_data.html)
+*   [Referencer](/12The_Kappa_model/12_07_The_Kappa_Model_References.html)
+*   [Nomenclatur](/12The_Kappa_model/12_06_The_Kappa_Model_Nomenclature.html)

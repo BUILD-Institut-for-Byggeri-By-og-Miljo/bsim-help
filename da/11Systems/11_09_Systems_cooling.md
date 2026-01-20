@@ -16,13 +16,13 @@ Modellen simulerer en termostatstyret køleradiator, fx et køleloft eller en an
 
 *Part To Air* er den andel af køleydelsen, der regnes afgivet ved konvektion til rumluften. Den resterende del tilføres ved stråling til overfladen af konstruktionerne i zonens flader.
 
-Central Cooling System angiver at køleeffekten til anlægget kommer fra et centralt system. Et centralt kølesystem kan først aktiveres som kilde til kølesystemet når programmet [PackCalc](https://help.bsim.dk/support/kb/articles/j9b8ZOmn/packcalc-koling) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
+Central Cooling System angiver at køleeffekten til anlægget kommer fra et centralt system. Et centralt kølesystem kan først aktiveres som kilde til kølesystemet når programmet [PackCalc](/24Miscellaneous/24_01_PackCalc_Cooling.html) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
 *Cooling data* åbner en dialog som giver mulighed for at indtaste data for et centralt køleanlæg.
 
-I [tidsplanen](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---tidsplan) findes en liste med sammenhørende sæt af reguleringer og tidsangivelser.
+I [tidsplanen](/11Systems/11_02_Systems_schedule.html) findes en liste med sammenhørende sæt af reguleringer og tidsangivelser.
 
 Se også:
 
-*   [Faneblad Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---tidsplan)
-*   [Faneblad Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Faneblad Schedule](/11Systems/11_02_Systems_schedule.html)
+*   [Faneblad Time](/11Systems/11_17_Systems_Time.html)
