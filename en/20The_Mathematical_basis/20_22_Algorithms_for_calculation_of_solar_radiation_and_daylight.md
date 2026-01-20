@@ -2,29 +2,29 @@
 
 # Algorithms for calculation of solar radiation and daylight
 
-*   [Solar radiation]()
+*   <a href="#solar-radiation">Solar radiation</a>
 
-*   [Daylight]()
+*   <a href="#daylight">Daylight</a>
 
-*   [Illumination of a space by daylight]()
+*   <a href="#illumination-space-daylight">Illumination of a space by daylight</a>
 
-*   [Solar light factors]()
+*   <a href="#solar-light-factors">Solar light factors</a>
 
-*   [Determination of the solar light factors SF1 - SF4]()
+*   <a href="#determination-sf1-sf4">Determination of the solar light factors SF1 - SF4</a>
 
-*   [Determination of solar light factors from an example]()
+*   <a href="#determination-example">Determination of solar light factors from an example</a>
 
-*   [Direct sunlight SF1]()
+*   <a href="#direct-sunlight-sf1">Direct sunlight SF1</a>
 
-*   [Diffuse sky radiation SF2]()
+*   <a href="#diffuse-sky-radiation-sf2">Diffuse sky radiation SF2</a>
 
-*   [Reflected light SF3]()
+*   <a href="#reflected-light-sf3">Reflected light SF3</a>
 
-*   [Light from sun shading SF4]()
+*   <a href="#light-sun-shading-sf4">Light from sun shading SF4</a>
 
-*  [Maximum and minimum values for the IR-component]()
+*   <a href="#maximum-minimum-ir">Maximum and minimum values for the IR-component</a>
 
-*   [Other corrections]()
+*   <a href="#other-corrections">Other corrections</a>
 
 From the weather data in the reference year TRY [3], the values for diffuse sky radiation on horizontal, normal radiation (i.e. direct solar radiation at normal incidence), as well as the cloud cover are used. From these values it is possible to calculate the solar incidence on an arbitrarily orientated surface, when the distribution of the sky radiation is known. In the previous tsbi program, version 3, the luminance distribution was assumed to be constant and even over the whole hemisphere at completely overcast, but uneven for a completely clear sky, in accordance with measurements in the USA [[Therlkeld, 1962](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)].
 
@@ -32,15 +32,15 @@ More recent measurements, for example in Denmark, [[Petersen, 1982](https://help
 
  
 
-### **Solar radiation**
+<h3 id="solar-radiation"><strong>Solar radiation</strong></h3>
 
-This solar radiation model described below is the one named Lund on the Options tab of tsbi5. All solar radiation models in BSim are named after their author and described in the following references:
+This solar radiation model described below is the one named Lund on the [Options tab of tsbi5](). All solar radiation models in BSim are named after their author and described in the following references: 
 
-*   Muneer T. (1989). *Algorithms for estimating hourly solar irradiation on slopes.* Journal of Building Services, Enginering, Research and Technology 10(2).
+*   Muneer T. (1989). *Algorithms for estimating hourly solar irradiation on slopes*. Journal of Building Services, Enginering, Research and Technology 10(2).
 
-*   Lund H. (1979). *Revised splitting procedure for calculation of direct normal radiation and diffuse radiation.* Thermal Insulation Laboratory (now BYG*DTU), Technical University of Denmark, Lyngby, DENMARK.
+*   Lund H. (1979). *Revised splitting procedure for calculation of direct normal radiation and diffuse radiation*. Thermal Insulation Laboratory (now BYG*DTU), Technical University of Denmark, Lyngby, DENMARK.
 
-*   Perez
+*   Perez 
 
 *   Petersen E.
 
@@ -112,7 +112,7 @@ where
 
  
 
-### **Daylight**
+<h3 id="daylight"><strong>Daylight</strong></h3>
 
 The solar radiation can be converted to daylight when the luminous efficiency of the radiation is known. The three radiations are differentiated, and according to [[Petersen, 1982](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)] are reckoned to have the following average efficiencies:
 
@@ -124,7 +124,7 @@ For the reflected radiation, it is assumed that the luminous efficiency is not c
 
  
 
-**Illumination of a space by daylight**
+<h4 id="illumination-space-daylight"><strong>Illumination of a space by daylight</strong></h4>
 
 The illuminance in a point of a room is dependent on the point's position. As a reference is often used the illuminance on a horizontal working plane 0.85 m above the floor.
 
@@ -136,7 +136,7 @@ The relative illuminance in the room must therefore be expressed in comparison t
 
  
 
-**Solar light factors**
+<h4 id="solar-light-factors"><strong>Solar light factors</strong></h4>
 
 The solar light factor SF at a point on a given plane is therefore defined as the ratio of the illuminance at the point to the illuminance outdoors on the surface of the facade, without any shadows. The illuminance at a point cannot be described by a single value of the solar light factor, but must be divided into different contributions as follows:
 
@@ -170,7 +170,7 @@ When sun-shading is used and the light is "diffused" after passing through the s
 
  
 
-***Determination of the solar light factors SF1 - SF4***
+<h4 id="determination-sf1-sf4"><strong>Determination of the solar light factors SF1 - SF4</strong></h4>
 
 The light which strikes a point consists of two contributions, namely:
 
@@ -186,7 +186,7 @@ With normally used window sizes and room dimensions, general, indicative values 
 
  
 
-***Determination of solar light factors from an example***
+<h4 id="determination-example"><strong>Determination of solar light factors from an example</strong></h4>
 
 In the following, formulas are given for calculation of the solar light factors for the inter-reflected contributions to SF1-SF4, and here, curves are shown both the direct contributions, for the inter-reflected contributions as well as for the total factors, from which normative values for the four solar light factors can determined.
 
@@ -196,7 +196,7 @@ A pre-requisite for using the curves is primarily that the windows, for which so
 
  
 
-***Direct sunlight SF1***
+<h4 id="direct-sunlight-sf1"><strong>Direct sunlight SF1</strong></h4>
 
 The average value of the inter-reflected contribution to SF1 can be calculated from:
 
@@ -232,7 +232,7 @@ It is apparent that the factor SF1 is increased slightly in smaller rooms, but t
 </figure>
 
 
-**Diffuse sky radiation SF2**
+<h4 id="diffuse-sky-radiation-sf2"><strong>Diffuse sky radiation SF2</strong></h4>
 
 According to the definition of the solar light factor, there is the following connection between SF and the daylight factor DF:
 
@@ -320,6 +320,8 @@ The solar light factors are in all cases calculated at a point on a horizontal s
 </figure>
 
 
+<h4 id="reflected-light-sf3"><strong>Reflected light SF3</strong></h4>
+
 As normally only reflection of radiation from the earth's surface (or horizontal surface outside the windows) is reckoned with, this contribution contains only the inter-reflected contribution. The average value for this contribution, SF3 can be determined by:
 
 $$ 
@@ -352,7 +354,7 @@ The variation of SF3 with room depth and window size is shown in figure f.7 and 
 </figure>
 
 
-***Light from sun-shading SF4***
+<h4 id="light-sun-shading-sf4"><strong>Light from sun-shading SF4</strong></h4>
 
 The light from sun-shading gives a direct contribution and an inter-reflected contribution.
 
@@ -408,7 +410,7 @@ The total contribution to the daylight from a diffusing sun-shading is shown in 
 </figure>
 
 
-***Maximum and minimum values for the IR-component***
+<h4 id="maximum-minimum-ir"><strong>Maximum and minimum values for the IR-component</strong></h4>
 
 In the table below some guiding factors are given by which the average IRC-value must be multiplied, in order to give the maximum value in the window zone and the minimum value in the zone by the back wall, as a function of the room's depth.
 
@@ -426,9 +428,7 @@ In the table below some guiding factors are given by which the average IRC-value
 
 *Table f.13. Guiding factors for determination of maximum and minimum values of the inter-reflected contribution to the four solar light factors. Distances refer to room depth.*
 
- 
-
-***Other corrections***
+<h4 id="other-corrections"><strong>Other corrections</strong></h4>
 
 In the tsbi5 calculation, automatic correction is made for the transmission loss in the glass and possible reduction of solar incidence due to shadows from the surroundings or from building projections and such like.
 
