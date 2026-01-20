@@ -12,21 +12,21 @@ Når der oprettes en ny model, ved tryk på "ny" i værktøjsbjælken eller ved 
 
 Valget af navn vil samtidig være navnet på den lokale version af databasen som tilknyttes projektet. Ved tryk på dobbeltpilen ">>" er det også muligt at vælge en alternativ placering til projektets filer. Et projekt må **ikke** hedde "SBIdata" eller "empty".
 
-[Næste >](https://help.bsim.dk/support/kb/articles/nmDBeK9y/projekt-wizard-2) dialog i Wizard'en
+[Næste >](/24Miscellaneous/24_52_Projekt_Wizard_2.html) dialog i Wizard'en
 
 Relaterede emner:
 
-*   [Oprette en ny model](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard---oprette-en-ny-model)
-*   [Værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)
-*   [Oprette en bygning](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
-*   [Tilføje et rum](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Konstruktioner](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Oprette en termisk zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property)
-*   [Tilføje rum til termiske zoner](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Tilføje systemer til termiske zoner](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
-*   [Redigere geometrien](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
-*   [Tilføje en åbning eller en WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
-*   [Tilknytte fiktive zoner](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview---fiktive-zoner)
-*   [Tilknytte klimadata og jord](https://help.bsim.dk/support/kb/articles/vWyP8M9b/klimadata)
-*   [Udskrift af model](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model)
-*   [SimView menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [Oprette en ny model](/09SimView/09_12_Model_wizard_creating_a_new_model.html)
+*   [Værktøjsbjælken](/06BSim_Program_structure/06_05_SimView_Toolbar.html)
+*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
+*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
+*   [Konstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
+*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
+*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
+*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems.html)
+*   [Redigere geometrien](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Tilføje en åbning eller en WinDoor](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html)
+*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
+*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
+*   [Udskrift af model](/10Thermal_zones/10_09_SimView_Printing_a_model.html)
+*   [SimView menuen](/06BSim_Program_structure/06_06_SimView_Menu.html)

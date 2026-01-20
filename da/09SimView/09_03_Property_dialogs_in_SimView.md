@@ -2,11 +2,11 @@
 
 # Property dialoger i SimView
 
-*   [Site property](https://help.bsim.dk/support/kb/articles/dQG2Kom4/site-property)
-*   [Building property](https://help.bsim.dk/support/kb/articles/XQYde4mP/building-property)
-*   [Thermal Zone property](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property)
-*   [Room property](https://help.bsim.dk/support/kb/articles/7mawaK9E/room-propery)
-*   [Construction property](https://help.bsim.dk/support/kb/articles/B9lw4vQ8/construction-property)
-*   [Windoor property](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property)
-*   [Finish property](https://help.bsim.dk/support/kb/articles/NmdKazW0/finish-property)
+*   [Site property](/24Miscellaneous/24_25_Site_Property.html)
+*   [Building property](/24Miscellaneous/24_27_Building_Property.html)
+*   [Thermal Zone property](/10Thermal_zones/10_01_Thermal_Zone_property.html)
+*   [Room property](/24Miscellaneous/24_55_Room_property.html)
+*   [Construction property](/09SimView/09_06_Construction_Property.html)
+*   [Windoor property](/09SimView/09_07_Windoor_property.html)
+*   [Finish property](/24Miscellaneous/24_34_Finish_Property.html)
 

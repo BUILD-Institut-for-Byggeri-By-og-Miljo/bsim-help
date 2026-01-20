@@ -48,7 +48,7 @@ Bounding Box
 
 *   *Hide Inner Shells* skjuler tykkelsen af konstruktioner - letter overskueligheden og reducerer opdateringstiden ved store modeller
 
-*   *Floating toolbar* giver mulighed for at have [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken) placeret valgfrit på skærmen (trækkes til en ny placering med musen). Funktionen træder først i kraft næste gang programmet startes.
+*   *Floating toolbar* giver mulighed for at have [værktøjsbjælken](/06BSim_Program_structure/06_05_SimView_Toolbar.html) placeret valgfrit på skærmen (trækkes til en ny placering med musen). Funktionen træder først i kraft næste gang programmet startes.
 
 *   *Auto Arrange FaceSides* sikrer at en model automatisk ændres så:
 
@@ -68,6 +68,6 @@ Bounding Box
 
 Se også:
 
-*   [SimView-menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [SimView-menuen](/06BSim_Program_structure/06_06_SimView_Menu.html)
 
 <span style="letter-spacing: -0.01em;">The general data for the model view and program setup can be adjusted in the </span><em style="letter-spacing: -0.01em;">Options*<span style="letter-spacing: -0.01em;"> menu.</span></em>

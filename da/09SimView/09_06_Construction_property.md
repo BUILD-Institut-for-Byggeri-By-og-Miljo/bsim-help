@@ -18,4 +18,4 @@ I *Construction Property* dialogen findes en række informationer om den aktuell
 
 *   Endelig er vises hvilke overflader som findes på de to sider af konstruktionen.
 
-Se også [kuldebroer](https://help.bsim.dk/support/kb/articles/NmdK5OW0/kuldebroer) langs konstruktionens kanter.
+Se også [kuldebroer](/09SimView/09_08_Thermal_bridges.html) langs konstruktionens kanter.
