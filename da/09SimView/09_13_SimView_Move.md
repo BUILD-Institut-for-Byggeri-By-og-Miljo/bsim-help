@@ -4,13 +4,13 @@
 
 Indgangen *Move* i *SimView*-menuen benyttes ved flytning af:
 
-*   [Bygninger](https://help.bsim.dk/support/kb/articles/vWyPK69b/move-bygninger)
-*   [Flader](https://help.bsim.dk/support/kb/articles/gWKD7Rmp/move-flader)
-*   [WinDoor](https://help.bsim.dk/support/kb/articles/z9MKlLm4/move-windoor)
+*   [Bygninger](/24Miscellaneous/24_36_Move_Building.html)
+*   [Flader](/24Miscellaneous/24_37_Move_Face.html)
+*   [WinDoor](/24Miscellaneous/24_38_Move_WinDoor.html)
 
 Se også:
 
-*   [SimView menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [SimView menuen](/06BSim_Program_structure/06_06_SimView_Menu.html)
 
  
 

@@ -12,24 +12,24 @@ Tredje faneblad (*Environment*) indeholder informationer om materialets miljøbe
 
 Se også:
 
-*   [Faneblad Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
+*   [Faneblad Material](/07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.html)
 
-*   [Faneblad Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
+*   [Faneblad Thermal](/07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html)
 
-*   [Faneblad PCM](https://help.bsim.dk/support/kb/articles/dQG26zm4/simdb---buildingmaterial-pcm)
+*   [Faneblad PCM](/07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.html)
 
-*   [Faneblad Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
+*   [Faneblad Moisture](/07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.html)
 
-*   [Faneblad Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
+*   [Faneblad Environment](/07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.html)
 
- 
+ 
 
 For materialelag til WinDoors
 
-*   [Faneblad Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
+*   [Faneblad Glazing](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html)
 
-*   [Faneblad UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
+*   [Faneblad UserDefined](/07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.html)
 
-*   [Faneblad Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
+*   [Faneblad Frame](/07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.html)
 
-*   [Faneblad Finish](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish)
+*   [Faneblad Finish](/07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.html)

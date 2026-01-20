@@ -19,7 +19,7 @@ WinDoors defineres i samme struktur i databasen som de øvrige konstruktioner, m
 
         *   For lag 3 (fyldningen) angiver felt 2 hvor stor en del af det resterende areal - når ramme/karm er trukket fra - som udgøres af fyldningen.
 
-*   Tabellen nederst i dialogen angiver rækkefølgen af materialerne. I en WinDoor er det **ikke** ligegyldigt, i hvilken rækkefølge lagene kommer. Første "lag" **skal** være glasset, andet "lag" **skal** være ramme/karm, og tredje "lag" **skal** være fyldningen. Fyldningen behøver **kun** at optræde ved bygningselementer, der benyttes med et [layout](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor), som svarer til døre. Det er muligt at ændre på rækkefølgen af "lagene" ved at trække et lag til en anden position i tabellen med venstre knap på musen holdt nede.
+*   Tabellen nederst i dialogen angiver rækkefølgen af materialerne. I en WinDoor er det **ikke** ligegyldigt, i hvilken rækkefølge lagene kommer. Første "lag" **skal** være glasset, andet "lag" **skal** være ramme/karm, og tredje "lag" **skal** være fyldningen. Fyldningen behøver **kun** at optræde ved bygningselementer, der benyttes med et [layout](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html), som svarer til døre. Det er muligt at ændre på rækkefølgen af "lagene" ved at trække et lag til en anden position i tabellen med venstre knap på musen holdt nede.
 
 *   Nederst til højre findes et felt med information om hvordan tabellen til venstre skal opfattes.
 
@@ -30,7 +30,7 @@ WinDoors defineres i samme struktur i databasen som de øvrige konstruktioner, m
 
 Dialogen for redigering af materialedata kan åbnes ved at højre-klikke på materialets navn.
 
-Den lineære transmissionskoefficient (*LinTrCoeff* eller Ψ<sub>g </sub> værdien) i W/m K for afstandsprofiler af aluminium eller almindeligt stål i afhængighed af rudens U-værdi (jvf. [DS 418](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)). Der kan interpoleres i tabellen.
+Den lineære transmissionskoefficient (*LinTrCoeff* eller Ψ<sub>g </sub> værdien) i W/m K for afstandsprofiler af aluminium eller almindeligt stål i afhængighed af rudens U-værdi (jvf. [DS 418](/20The_Mathematical_Basis/20_02_References.html)). Der kan interpoleres i tabellen.
 
 | **Rudens U-værdi<br>W/m²K** | **Linjetab<br>W/mK** |
 |-----------------------------|----------------------|
@@ -40,6 +40,6 @@ Den lineære transmissionskoefficient (*LinTrCoeff* eller Ψ<sub>g </sub> værdi
 
 Se også:
 
-*   [Faneblad BuildingElement](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement)
+*   [Faneblad BuildingElement](/07SimDB_Database/07_02_SimDB_BuildingElement.html)
 
-*   [Faneblad MaterialAmount](https://help.bsim.dk/support/kb/articles/Rm8JaZ94/simdb---buildingelement-materialamount)
+*   [Faneblad MaterialAmount](/07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.html)

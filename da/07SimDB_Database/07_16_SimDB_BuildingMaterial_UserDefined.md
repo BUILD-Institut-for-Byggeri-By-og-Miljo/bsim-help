@@ -2,9 +2,9 @@
 
 # SimDB - BuildingMaterial, UserDefined
 
-Dette faneblad giver mulighed for at indtaste detaljeret information om transmittansens afhængighed af indfaldsvinklen og vises alene for materialer fra [SfB-materialegruppe](https://bsim.outseta.com/support/kb/articles/DQ2xwBWV/sfb-i-bsim) "a". Der skal opgives mindst 3 sammenhørende værdier af indfaldsvinkel og transmittans ud over den første, som er fast. Det kan især have betydning at kende kurven for transmittansen, hvis der benyttes transparente isoleringsmaterialer eller ruder med specielle belægninger, idet disse kan have en transmittanskurve, som afviger fra den, der kendes fra almindeligt bygningsglas.
+Dette faneblad giver mulighed for at indtaste detaljeret information om transmittansens afhængighed af indfaldsvinklen og vises alene for materialer fra [SfB-materialegruppe](/24Miscellaneous/24_39_SfB_in_BSim.html) "a". Der skal opgives mindst 3 sammenhørende værdier af indfaldsvinkel og transmittans ud over den første, som er fast. Det kan særligt have betydning at kende kurven for transmittansen, hvis der benyttes transparente isoleringsmaterialer eller ruder med specielle belægninger, idet disse kan have en transmittanskurve, som afviger fra den, der kendes fra almindeligt bygningsglas.
 
-Det er ikke muligt at vise den beregnede kurve korrekt på fanebladet [*Glazing*](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing), før det sidst redigerede felt er forladt ved brug af pil-tasterne.
+Det er ikke muligt at vise den beregnede kurve korrekt på fanebladet [*Glazing*](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html), før det sidst redigerede felt er forladt ved brug af pil-tasterne.
 
 <figure id="center_img">
 <img src="./assets/DBTRANSM.GIF" alt="Tabel (Edit Material | Transmittance) for inddatering af detaljeret information om transmittansens afhængighed af indfaldsvinklen.">
@@ -14,24 +14,24 @@ Det er ikke muligt at vise den beregnede kurve korrekt på fanebladet [*Glazing*
 
 Se også:
 
-*   [Faneblad Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
+*   [Faneblad Material](/07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.html)
 
-*   [Faneblad Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
+*   [Faneblad Moisture](/07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.html)
 
-*   [Faneblad Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
+*   [Faneblad Thermal](/07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html)
 
-*   [Faneblad Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
+*   [Faneblad Environment](/07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.html)
 
- 
+ 
 
 For transparente materialer til WinDoors
 
-*   [Faneblad Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
+*   [Faneblad Glazing](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html)
 
-*   [Faneblad Additional](https://help.bsim.dk/support/kb/articles/Rm8JDx94/simdb---glazing-additional-data)
+*   [Faneblad Additional](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html)
 
-*   [Faneblad Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
+*   [Faneblad Frame](/07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.html)
 
-*   [Faneblad Finish](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish)
+*   [Faneblad Finish](/07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.html)
 
-*   [Materialelag for WinDoor](https://bsim.outseta.com/support/kb/articles/49EdNJQ7/materialelag-for-windoor)
+*   [Materialelag for WinDoor](/07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.html)

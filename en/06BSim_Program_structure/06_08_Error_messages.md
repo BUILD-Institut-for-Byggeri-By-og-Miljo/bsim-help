@@ -25,7 +25,7 @@ Error messages occurs at:
 | No time | The system do not have a [time plan](). Right-click on the system in the tree, jump to the *Time* tab and define a time plan for the control of the system. If the system is not to be used in this simulation, it can be turned off by right-clicking the thermal zone and mark it by a grey tick marker. |
 | Unknown (Mixing) | The source for air into the thermal zone via [*Mixing*]() is undefined. |
 | General Lux | The general lighting level [lux] is undefined (<= 0). |
-| Unknown (Ventilation \| Natkøling) | The sensor zone for controlling the ventilation system for night cooling is undefined. Right-click on the system in the tree, jump to the [*NightCoolCtrl* tab]() and define a sensor zone for the ventilation system. |
+| Unknown (Ventilation - Natkøling) | The sensor zone for controlling the ventilation system for night cooling is undefined. Right-click on the system in the tree, jump to the [*NightCoolCtrl* tab]() and define a sensor zone for the ventilation system. |
 | Thickness = x m | The thickness of a material layer in the construction is less than 0.0001 m. |
 | Missing material | Material properties are not defined – thermal and/or moisture properties. |
 | Spacer = x | The length of the spacer profile in the WinDoor is negative or zero. |

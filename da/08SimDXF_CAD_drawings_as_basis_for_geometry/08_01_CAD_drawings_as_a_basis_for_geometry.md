@@ -9,7 +9,8 @@
 
 <center>
 
-*Der kan importeres en etage ad gangen via SimDXF. Hvis der ønskes oprettet en model med mere end en etage er det nødvendigt at oprette hver etage for sig i SimDXF, og [importere](https://bsim.outseta.com/support/kb/articles/E9LwJGQw/skygger-fra-omgivelser) etage nummer 2 og følgende i SimView. Herved fås en model med flere bygninger (en for hver etage). Det er **kun** muligt at simulere en bygning ad gangen (current building) med tsbi5. Ved at trække (i træstrukturen i [SimView](https://bsim.outseta.com/support/kb/articles/wQXx2xQK/simview)) den eller de nye bygninger ind i den først oprettede bygning (etage), tilføjes disse til modellen for den aktuelle bygning, og kan simuleres samtidigt i [tsbi5](https://bsim.outseta.com/support/kb/articles/A93z0lQ0/tsbi5). Det kan være nødvendigt at flytte nye etager (fx. opad) i modellen med kommandoen [Move](https://help.bsim.dk/support/kb/articles/DmwA8o94/simview---move) fra SimView-menuen.*
+*Der kan importeres en etage ad gangen via SimDXF. Hvis der ønskes oprettet en model med mere end en etage er det nødvendigt at oprette hver etage for sig i SimDXF, og [importere](/10Thermal_zones/10_05_Shadows_from_the_surroundings.html) etage nummer 2 og følgende i SimView. Herved fås en model med flere bygninger (en for hver etage). Det er **kun** muligt at simulere en bygning ad gangen (current building) med tsbi5. Ved at trække (i træstrukturen i [SimView](/09SimView/09_01_SimView.html)) den eller de nye bygninger ind i den først oprettede bygning (etage), tilføjes disse til modellen for den aktuelle bygning, og kan simuleres samtidigt i [tsbi5](/13tsbi5_thermal_simulation/13_01_tsbi5.html). Det kan være nødvendigt at flytte nye etager (fx. opad) i modellen med kommandoen [Move](/09SimView/09_13_SimView_Move.html) fra SimView-menuen.*
+
 </center>
  
 
@@ -45,28 +46,28 @@ Det er en god ide altid at gemme en arkivfil samtidig med at der gemmes en STEP-
 
 ### **Programversion**
 
-Via menu-indgangen [*Help* | *About SimDXF* ...](https://help.bsim.dk/support/kb/articles/1QpnypWE/about-simdxf) kan information om programversionen ses.
+Via menu-indgangen *Help* | *About SimDXF* ... kan information om programversionen ses.
 
  
 
 Se også:
 
-*   [Vælg DXF-filter - Edit DXF-filter](https://help.bsim.dk/support/kb/articles/ZmNrexm2/simdxf---valg-dxf-filter)
+*   [Vælg DXF-filter - Edit DXF-filter](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.html)
 
-*   [Hent DXF-fil - Open DXF-file](https://help.bsim.dk/support/kb/articles/BWzdblQE/simdxf---abne-dxf-tegning)
+*   [Hent DXF-fil - Open DXF-file](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.html)
 
-*   [Oprette hjælpelinier](https://help.bsim.dk/support/kb/articles/amRGMZQJ/simdxf---oprette-hjalpelinier)
+*   [Oprette hjælpelinier](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.html)
 
-*   [Knudepunkter (nodes)](https://help.bsim.dk/support/kb/articles/XQYdOMmP/simdxf---oprette-knuder-nodes)
+*   [Knudepunkter (nodes)](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.html)
 
-*   [Flade - Face](https://help.bsim.dk/support/kb/articles/4966zA9X/simdxf---flader)
+*   [Flade - Face](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_05_SimDXF_Faces.html)
 
-*   [Rum - Room](https://help.bsim.dk/support/kb/articles/y9q8DNQA/simdxf---rum)
+*   [Rum - Room](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_06_SimDXF_Spaces.html)
 
-*   [WinDoor](https://help.bsim.dk/support/kb/articles/OW4N0pQg/simdxf---windoor)
+*   [WinDoor](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.html)
 
-*   [Tegningsrevisioner](https://help.bsim.dk/support/kb/articles/dQG2xem4/simdxf---tegningsrevisioner)
+*   [Tegningsrevisioner](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_07_SimDXF_Drawing_revisions.html)
 
-*   [Tilføjelse af SimDXF som applikation](https://help.bsim.dk/support/kb/articles/7maw2X9E/simdxf---tilfoje-som-applikation)
+*   [Tilføjelse af SimDXF som applikation](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_04_SimDXF_Adding_as_an_application.html)
 
  
