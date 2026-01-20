@@ -147,7 +147,7 @@
 * [Kappa-modellen - Implementering i tsbi5](12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.md)
 * [Kappa-modellen, inddata](12The_Kappa_model/12_05_The_Kappa_Model_input_data.md)
 * [Kappa-modellen - Nomenklatur](12The_Kappa_model/12_06_The_Kappa_Model_Nomenclature.md)
-* [Kappa-modellen - Referenser](12The_Kappa_model/12_07_The_Kappa_Model_References.md)
+* [Kappa-modellen - Referencer](12The_Kappa_model/12_07_The_Kappa_Model_References.md)
 
 ----
 
