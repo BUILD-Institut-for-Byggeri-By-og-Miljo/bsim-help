@@ -41,9 +41,9 @@ hvor q<sub>v,CO2</sub> er CO<sub>2</sub>-strømmen, l/h,
 | Høj aktivitet <br> Nøgen <br> 0,5 clo <br> 1,0 clo <br> 1,5 clo |<br> 177 <br> 173 <br> 171 <br> 169 |<br> 192 <br> 198 <br> 202 <br> 205 | <br> 129 <br> 133 <br> 135 <br> 137
 
 
-[Tidsplanen](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) (Schedule) definerer sammenhørende sæt af regulering og tidsangivelse. Der kan angives flere tidsplaner, således at det er muligt at definere forskellige døgnvariationer på forskellige tider af året. Hvis bygningsmodellen fx er en skole, kan én af tidsplanerne angive ferieperioder, hvor personlasten måske er 0.
+[Tidsplanen](/11Systems/11_02_Systems_schedule.html) (Schedule) definerer sammenhørende sæt af regulering og tidsangivelse. Der kan angives flere tidsplaner, således at det er muligt at definere forskellige døgnvariationer på forskellige tider af året. Hvis bygningsmodellen fx er en skole, kan én af tidsplanerne angive ferieperioder, hvor personlasten måske er 0.
 
-For personlast er reguleringen af typen [døgnprofil](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dognprofil). For hver af de indlæste tidsplaner, skal der således defineres et døgnprofil, som angiver den procentvise variation af belastningen over døgnet inden for den tilhørende [tidsangivelse](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse).
+For personlast er reguleringen af typen [døgnprofil](/11Systems/11_04_Systems_DayProfile.html). For hver af de indlæste tidsplaner, skal der således defineres et døgnprofil, som angiver den procentvise variation af belastningen over døgnet inden for den tilhørende [tidsangivelse](/11Systems/11_17_Systems_Time.html).
 
 Tidsangivelserne angiver således forskellige perioder af året, hvor der ønskes specificeret forskellige reguleringer (døgnprofiler).
 
@@ -51,6 +51,6 @@ Tidsangivelserne angiver således forskellige perioder af året, hvor der ønske
 
 Se også
 
-*   Faneblad *[Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)*
-*   Faneblad [*DayProfile*](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dognprofil)
-*   Faneblad [*Time*](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   Faneblad *[Schedule](/11Systems/11_02_Systems_schedule.html)*
+*   Faneblad [*DayProfile*](/11Systems/11_04_Systems_DayProfile.html)
+*   Faneblad [*Time*](/11Systems/11_17_Systems_Time.html)

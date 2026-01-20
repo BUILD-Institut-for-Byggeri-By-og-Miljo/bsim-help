@@ -21,7 +21,7 @@ $$ n_{udeluft} = n_0 + c_t \cdot (t_i - t_u)^{tp} + c_v \cdot v \tag{1} $$
 
 Den til udluftningen hørende regulering simulerer, at vinduer eller ventilationsåbninger åbnes, såfremt temperaturen kommer over et vist niveau defineret ved et brugerbestemt setpunkt. Når der er tendens til, at setpunktet overskrides, forøges den naturlige ventilation så meget, som det er nødvendigt for at opretholde den ønskede temperatur, dog ikke mere end svarende til et brugerbestemt maksimalt luftskifte.
 
-I modsætning til infiltration er udluftning defineret sådan, at der går en lige så stor luftstrøm ud af den termiske zone (til udeluften), som der kommer ind i den termiske zone (fra udeluften). Udluftning er altså pr. definition i (luft)balance og vil således ikke influere på størrelsen af infiltration eller eksfiltration, jf. afsnittet [Infiltration](https://help.bsim.dk/support/kb/articles/Rm8JRZ94/infiltration).
+I modsætning til infiltration er udluftning defineret sådan, at der går en lige så stor luftstrøm ud af den termiske zone (til udeluften), som der kommer ind i den termiske zone (fra udeluften). Udluftning er altså pr. definition i (luft)balance og vil således ikke influere på størrelsen af infiltration eller eksfiltration, jf. afsnittet [Infiltration](/10Thermal_zones/10_08_Infiltration.html).
 
 <figure id="center_img">
 <img src="./assets/Venting_old.gif " alt="Definition af udluftningen i en termisk zone.">
@@ -32,7 +32,7 @@ Værdien af grundluftskiftet (*Basic AirChange, n<sub>0</sub>*) vil ofte angive 
 
 Reguleringen, som defineres i tidsplanen, er bestemmende for, om der skal udluftes og hvor meget, 'vinduerne skal åbnes', dvs. hvilket luftskifte der er nødvendigt for at opnå den ønskede operative indetemperatur.
 
-Faktoren [*TmpFactor*](https://help.bsim.dk/support/kb/articles/dQG2Gom4/udluftnings-temperaturfaktor) (c<sub>t</sub>) udtrykker hvor meget, luftskiftet stiger med stigende temperaturforskel mellem inde og ude. Dette felt er indgang til en dialog, som kan benyttes til at analysere betydningen af ind- og udløbsåbningernes størrelse samt den lodrette afstand imellem disse. For små rum antager faktoren små værdier, ned til ca. 0,2, mens den for store rum med åbningsarealer på 1 m² og rumhøjde 10 meter kan blive op til ca. 20.
+Faktoren [*TmpFactor*](/11Systems/11_18_Systems_Venting.html) (c<sub>t</sub>) udtrykker hvor meget, luftskiftet stiger med stigende temperaturforskel mellem inde og ude. Dette felt er indgang til en dialog, som kan benyttes til at analysere betydningen af ind- og udløbsåbningernes størrelse samt den lodrette afstand imellem disse. For små rum antager faktoren små værdier, ned til ca. 0,2, mens den for store rum med åbningsarealer på 1 m² og rumhøjde 10 meter kan blive op til ca. 20.
 
 Et tryk på knappen *TmpFactor* åbner en dialog til dimensionering af åbningsarealerne for at opnå en ønsket temperaturfaktor. Det bemærkes, at denne dialog primært fungerer som en hjælpedialog, som kan benyttes, hvis der ikke indlæses en værdi for faktoren direkte i udluftningsdialogen.
 
@@ -50,22 +50,22 @@ Et tryk på knappen *TmpFactor* åbner en dialog til dimensionering af åbningsa
 | Modeltype                                                                                                   | Beskrivelse                                                                                                         |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | (Disabled)                                                                                                 | Den oprindelige BSim model for venting.                                                                             |
-| (Automatic)                                                                                                | BSim vælger, ud fra rummets geometri ([oversigt](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation) med anvendte/mulige geometrier), den model som skal anvendes. |
-| [Single Sided](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)<br>[Cross](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation) | Se [oversigt](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)!                          |
-| [Combined Two](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)<br>[Levels](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation) |                                                                                          |
-| [Combined](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)                                                          | Generel model, se [oversigt](MANGLER.SE.BSIM)!
+| (Automatic)                                                                                                | BSim vælger, ud fra rummets geometri ([oversigt](/11Systems/11_18_Systems_Venting.html) med anvendte/mulige geometrier), den model som skal anvendes. |
+| [Single Sided](/11Systems/11_18_Systems_Venting.html)<br>[Cross](/11Systems/11_18_Systems_Venting.html) | Se [oversigt](/11Systems/11_18_Systems_Venting.html)!                          |
+| [Combined Two](/11Systems/11_18_Systems_Venting.html)<br>[Levels](/11Systems/11_18_Systems_Venting.html) |                                                                                          |
+| [Combined](/11Systems/11_18_Systems_Venting.html)                                                          | Generel model, se [oversigt](/11Systems/11_18_Systems_Venting.html)!
  
 
-[Naturlig ventilation](https://bsim.outseta.com/support/kb/articles/49EdKkQ7/naturlig-ventilation) kan simuleres ved enkeltzone modellen eller ved multizone modellen. Enkeltzone modellen simulerer luftudveksling mellem enkelte termiske zoner og omgivelserne. Multizone modellen simulerer luftudveksling mellem omgivelserne og termiske zone samt internt mellem termiske zoner afhængigt af det opståede drivtryk og setpunkterne for regulering af Venting.
+Naturlig ventilation kan simuleres ved enkeltzone modellen eller ved multizone modellen. Enkeltzone modellen simulerer luftudveksling mellem enkelte termiske zoner og omgivelserne. Multizone modellen simulerer luftudveksling mellem omgivelserne og termiske zone samt internt mellem termiske zoner afhængigt af det opståede drivtryk og setpunkterne for regulering af Venting.
 
-Hvis modellen for simulering af[ naturlig ventilation](https://bsim.outseta.com/support/kb/articles/49EdKkQ7/naturlig-ventilation) ved [multi-zone modellen](https://bsim.outseta.com/support/kb/articles/VmAOXP9a/multizone-modellen) ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options) under tsbi5.
+Hvis modellen for simulering af naturlig ventilation ved multi-zone modellen ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](/13tsbi5_thermal_simulation/13_XX_tsbi5_Options.html) under tsbi5.
 
-[Tidsplanen](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) for udluftning definerer sammenhørende sæt af [regulering](https://help.bsim.dk/support/kb/articles/OW4NDGQg/venting---udluftningskontrol) og tidsangivelse. I almindelige opholdsrum vil udluftningen simulere brugernes åbning af vinduer, når indetemperaturen bliver for høj, og udluftningen vil da normalt kun være 'aktiv' inden for bygningens brugstid. I større bygninger, hvor der er udstyr for automatisk udluftning ved overskridelse af setpunktet for en temperaturføler, må det vurderes, om det opnåelige luftskifte afhænger af tiden på døgnet og på året.
+[Tidsplanen](/11Systems/11_02_Systems_schedule.html) for udluftning definerer sammenhørende sæt af regulering og tidsangivelse. I almindelige opholdsrum vil udluftningen simulere brugernes åbning af vinduer, når indetemperaturen bliver for høj, og udluftningen vil da normalt kun være 'aktiv' inden for bygningens brugstid. I større bygninger, hvor der er udstyr for automatisk udluftning ved overskridelse af setpunktet for en temperaturføler, må det vurderes, om det opnåelige luftskifte afhænger af tiden på døgnet og på året.
 
 Se også:
 
-*   [Fanebladet VentingCtrl](https://help.bsim.dk/support/kb/articles/OW4NDGQg/venting---udluftningskontrol)
-*   [Faneblad Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   [Faneblad Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Fanebladet VentingCtrl](/24Miscellaneous/24_08_Venting_Control.html)
+*   [Faneblad Schedule](/11Systems/11_02_Systems_schedule.html)
+*   [Faneblad Time](/11Systems/11_17_Systems_Time.html)
 
 

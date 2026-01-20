@@ -2,7 +2,7 @@
 
 # Referencepunkt
 
-Det er muligt at definere flere referencepunkter i et rum som reguleringen af den kunstige belysning og solafskærmning kan styre efter. Beregningen og overførsel til den enkelte WinDoor af sollysfaktorerne for styring af kunstlyset i de enkelte referencepunkter sker i [SimLight](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt).
+Det er muligt at definere flere referencepunkter i et rum som reguleringen af den kunstige belysning og solafskærmning kan styre efter. Beregningen og overførsel til den enkelte WinDoor af sollysfaktorerne for styring af kunstlyset i de enkelte referencepunkter sker i [SimLight](/15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html).
 
 Det aktuelle referencepunkt er vist i SimView som et **X**. Det er muligt at flytte referencepunktet med musen ved at dobbeltklikke et sted i en af de tre plantegninger eller ved at holde Ctrl-knappen nede samtidig med at punktet trækkes til en anden placering med musen når venstre-knappen holdes nede.
 

@@ -64,7 +64,7 @@ Beregningsmodellen forudsætter, at genvindingen sker modulerende (optimalt) eft
 
 *Max Power*: Maksimal effekt, der kan afgives fra ventilationsanlæggets varmeflade. Ud fra den valgte reguleringsstrategi og de valgte temperatursetpunkter beregnes behovet for opvarmning af ventilationsluften gennem varmefladen. Reguleringen regnes at fungere optimalt, dvs. med fuldt modulerende varmeafgivelse inden for det aktuelle tidsstep.
 
-Central Heat Pump angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Varmepumen kan først aktiveres som kilde til ventilationssystemet når programmet [PackCalc](https://help.bsim.dk/support/kb/articles/j9b8ZOmn/packcalc-koling) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
+Central Heat Pump angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Varmepumen kan først aktiveres som kilde til ventilationssystemet når programmet [PackCalc](/24Miscellaneous/24_01_PackCalc_Cooling.html) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
 Heat Pump: Åbner en dialog hvor data for varmepumpen angives.
 
@@ -74,7 +74,7 @@ Heat Pump: Åbner en dialog hvor data for varmepumpen angives.
 
 *Surface temperature*: Overfladetemperaturen på kølefladen, som anvendes i forbindelse med beregninger af fugtmængden, der udfældes på kølefladen. Temperaturen antages at være konstant og større end 0 °C.
 
-Central Heat Pump angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Den centrale køling kan først aktiveres som kilde til ventilationssystemet når programmet[ PackCalc](https://help.bsim.dk/support/kb/articles/j9b8ZOmn/packcalc-koling) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
+Central Heat Pump angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Den centrale køling kan først aktiveres som kilde til ventilationssystemet når programmet [PackCalc](/24Miscellaneous/24_01_PackCalc_Cooling.html) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
 Coolig: Åbner en dialog som giver mulighed for at give inddata til køleanlægget.
 
@@ -86,16 +86,16 @@ Max Output: Maksimal ydelse af befugteren. Modellen for fugtberegninger er foren
 
 **Tidsplan:** For ethvert ventilationsanlæg skal der defineres en reguleringsstrategi, som omfatter i én eller flere tidsplaner. Tidsplan er den generelt anvendte betegnelse i programmet for et sammenhørende sæt af regulering og tidsangivelse. Der skelnes således nøje mellem anlæggets fysiske komponenter, der principielt kan findes i et firmakatalog, og reguleringsfunktionen, der kan etableres ved hjælp af reguleringsudstyr, som fungerer automatisk eller betjenes manuelt sammen med anlægget. I reguleringsstrategien kan fx indgå ændring af kurve for indblæsningstemperaturen, omstilling af spjældfunktioner, fx bypass af varmegenvinding i sommerperioden, eller lukning af vandstrømmen til varme- eller kølefladen.
 
-**Regulering:** Programmet har fem former for regulering, kaldet [indblæsningsstyring](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/indblasningsstyring), [rumtemperaturregulering](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering), [fugtregulering](https://help.bsim.dk/support/kb/articles/E9LwjGQw/ventilation---fugtregulering), [VAV-regulering](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering) samt [natkøling](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation). Den ønskede reguleringstype defineres via de fem faneblade i ventilationsdialogen.
+**Regulering:** Programmet har fem former for regulering, kaldet [indblæsningsstyring](/11Systems/11_23_Ventilation_Inlet_Control.html), [rumtemperaturregulering](/11Systems/11_25_Ventilation_Zone_Temperature_control.html), [fugtregulerering](/11Systems/11_22_Ventilation_Moisture_control.html), [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html) samt [natkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html). Den ønskede reguleringstype defineres via de fem faneblade i ventilationsdialogen.
 
-*   [Indblæsningsstyring](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/indblasningsstyring)
-*   [Rumtemperaturregulering](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)
-*   [Fugtregulering](https://help.bsim.dk/support/kb/articles/E9LwjGQw/ventilation---fugtregulering)
-*   [VAV-regulering](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)
-*   [Vatkøling](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation)
+*   [Indblæsningsstyring](/11Systems/11_23_Ventilation_Inlet_Control.html)
+*   [Rumtemperaturregulering](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)
+*   [Fugtregulerering](/11Systems/11_22_Ventilation_Moisture_control.html)
+*   [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html)
+*   [Vatkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html)
 
 Se også
 
-*   [Faneblad Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   [Faneblad Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Faneblad Schedule](/11Systems/11_02_Systems_schedule.html)
+*   [Faneblad Time](/11Systems/11_17_Systems_Time.html)
 

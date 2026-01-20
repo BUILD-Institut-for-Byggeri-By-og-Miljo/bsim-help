@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Skygger fra omgivelser
-Omgivelsernes skygger på bygningen defineres lige som modellen for en bygning. Der kan indsættes bygninger fra en tidligere model som skygge i den aktuelle model. Ved simulering med *tsbi5* vil kun den [aktuelle](https://help.bsim.dk/support/kb/articles/ZmNrOwm2/termisk-simulering) bygning blive simuleret.
+Omgivelsernes skygger på bygningen defineres lige som modellen for en bygning. Der kan indsættes bygninger fra en tidligere model som skygge i den aktuelle model. Ved simulering med *tsbi5* vil kun den [aktuelle](/24Miscellaneous/24_22_Thermal_simulation.html) bygning blive simuleret.
 
 Bygninger fra en eksisterende model indsættes ved først at markere (dobbelt klik) et referencepunkt i planen (visningen nederst til venstre i SimView) som lokalt koordinatsystem for den indsatte model og derefter vælge *Insert* fra menuen Edit (*Alt-e + i*).
 
@@ -28,4 +28,4 @@ Bygningerne fra det indsatte projekt kan umiddelbart ses i SimView.
 
 Se også:
 
-*   [Simulering med XSun](https://help.bsim.dk/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun)
+*   [Simulering med XSun](/14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.html)

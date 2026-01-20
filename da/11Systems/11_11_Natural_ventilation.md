@@ -32,8 +32,8 @@ Naturlig ventilation kan aktiveres på termisk zone niveau.
 
 *   I simuleringerne med MZM tages der tillige hensyn til luftstrømning gennem åbninger imellem termiske zoner. MZM kan dermed erstatte luftoverførsel mellem termiske zoner ved Mixing.
 
-Naturlig ventilation ved EZM er implementeret som en speciel form for *Venting* (udluftning) i et udvidelsesmodul til BSim, og er baseret på [By og Byg Anvisning 202](https://bsim.outseta.com/support/kb/articles/yW1xrD9B/uddrag-fra-by-og-byg-anvisning-202), Naturlig ventilation i erhvervsbygninger, Beregning og dimensionering (2002).   
-MZM er ligeledes implementeret som en form for *Venting* og er baseret på [Jensen R.L.](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) *Modellering af naturlig ventilation og natkøling - ved hjælp af ringmetoden.*
+Naturlig ventilation ved EZM er implementeret som en speciel form for *Venting* (udluftning) i et udvidelsesmodul til BSim, og er baseret på [By og Byg Anvisning 202](/11Systems/11_11_Natural_ventilation.html), Naturlig ventilation i erhvervsbygninger, Beregning og dimensionering (2002).   
+MZM er ligeledes implementeret som en form for *Venting* og er baseret på Jensen R.L. *Modellering af naturlig ventilation og natkøling - ved hjælp af ringmetoden.*
 
  
 
@@ -53,7 +53,7 @@ MZM er ligeledes implementeret som en form for *Venting* og er baseret på [Jens
 
 *   *Co2:* Koncentrationen af CO<sub>2</sub> i udeluften (foreløbig konstant) opgives som en egenskab for bygningsmodellens lokalitet.
 
-*   *Terrain Type*: Terræntypen vælges (se [Anvisning 202, side 35](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)) fra listen:
+*   *Terrain Type*: Terræntypen vælges (se [Anvisning 202, side 35](/20The_Mathematical_Basis/20_28_Literature.html)) fra listen:
 
     *   Open flat country: Åbent fladt land,
 
@@ -91,9 +91,9 @@ MZM er ligeledes implementeret som en form for *Venting* og er baseret på [Jens
 <figcaption>I Opening Property dialogen er den naturlige ventilation knyttet til Cd-værdien.</figcaption>
 </figure>
 
-*   *Cd:* Udstrømningskoefficienten *[Cd](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) findes* jvf. [Anvisning 202, side 70-71.](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)
+*   *Cd:* Udstrømningskoefficienten *[Cd](/20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.html) findes* jvf. [Anvisning 202, side 70-71](/20The_Mathematical_Basis/20_28_Literature.html).
 
-*   *Ka:* [Koefficienten](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) bruges i forbindelse med bestemmelse af størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
+*   *Ka:* [Koefficienten](/20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.html) bruges i forbindelse med bestemmelse af størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
 
 I simuleringerne benyttes det fulde (geometriske) areal af åbningen.
 
@@ -104,15 +104,15 @@ I simuleringerne benyttes det fulde (geometriske) areal af åbningen.
 <figcaption>På WinDoor Property dialogens andet faneblad er inddata til simulering af naturlig ventilation samlet.</figcaption>
 </figure>
 
-*   *Cd:* Udstrømningskoefficienten [*Cd*](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) findes jvf. [Anvisning 202, side 70-71.](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)
+*   *Cd:* Udstrømningskoefficienten [*Cd*](/20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.html) findes jvf. Anvisning 202, side 70-71.
 
 *   *Cnt:* Åbningens center (0-1) er placeret i afstanden *Cnt**H over vinduets underkant, hvor H er vinduets højde. Åbningens bredde antages at være bredden af vinduet.
 
 *   *Afrac:* Andelen af det aktuelle vindues totale areal som kan åbnes. Hvis *Afrac* = 0 kan vinduet ikke åbnes, og kan således ikke bidrage til naturlig ventilation af den termiske zone
 
-*   *Ka:* [Koefficienten](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) bruges i forbindelse med bestemmelse af størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
+*   *Ka:* [Koefficienten](/20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.html) bruges i forbindelse med bestemmelse af størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
 
-Som vindtrykkoefficienter - der afhængiger af åbningernes orientering og vindens retning - anvendes værdierne angivet i [Anvisning 202, Appendiks A, side 109-110](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur).
+Som vindtrykkoefficienter - der afhængiger af åbningernes orientering og vindens retning - anvendes værdierne angivet i [Anvisning 202, Appendiks A, side 109-110](/20The_Mathematical_Basis/20_28_Literature.html).
 
  
 
@@ -131,7 +131,7 @@ Som vindtrykkoefficienter - der afhængiger af åbningernes orientering og vinde
 
     *   *(Disabled):* Den oprindelige BSim model for venting.
 
-    *   *(Automatic):* BSim vælger den model som skal anvendes, bestemt af rummets geometri, se [det matematiske grundlag](https://help.bsim.dk/support/kb/articles/xmerqBQV/naturlig-ventilation) for illustration af modelgeometrier svarende til nedenstående modeller for naturlig ventilation.
+    *   *(Automatic):* BSim vælger den model som skal anvendes, bestemt af rummets geometri, se det [matematiske grundlag](/20The_Mathematical_Basis/20_12_Natural_ventilation.html) for illustration af modelgeometrier svarende til nedenstående modeller for naturlig ventilation.
 
     *   *Single Sided:* Ét sæt åbninger i én flade, i samme lodrette niveau.
 
@@ -172,10 +172,10 @@ Som vindtrykkoefficienter - der afhængiger af åbningernes orientering og vinde
 
 *   *VentSpeed:* Lufthastighed, m/s.
 
-*   *VentCp:* Vindtrykkoefficient ([Anvisning 202, side 69](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)).
+*   *VentCp:* Vindtrykkoefficient ([Anvisning 202, side 69](/20The_Mathematical_Basis/20_28_Literature.html)).
 
-Se alle [parametre i resultatloggen](https://bsim.outseta.com/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) her.
+Se alle [parametre i resultatloggen](/13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.html) her.
 
 **tsbi5 Options**  
-Hvis modellen for simulering af naturlig ventilation ved [multi-zone modellen](https://bsim.outseta.com/support/kb/articles/VmAOXP9a/multizone-modellen) ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options) under tsbi5.
+Hvis modellen for simulering af naturlig ventilation ved [multi-zone modellen](/20The_Mathematical_Basis/20_14_The_multizone_model.html) ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](/13tsbi5_thermal_simulation/13_XX_tsbi5_Options.html) under tsbi5.
 

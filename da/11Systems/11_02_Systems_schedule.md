@@ -23,5 +23,5 @@ Det er således **kun** den regulering som ligger inden for den første tidsangi
 
 Tidsangivelser som indeholder **hele** året (simuleringsperioden) skal derfor altid være placeret nederst i schedule tabellen, og bruges normalt til at "fange" de tidspunkter som falder uden for de øvrige tidsangivelser.
 
-Se også tidsangivelse ([Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)).
+Se også tidsangivelse ([Time](/11Systems/11_17_Systems_Time.html)).
 

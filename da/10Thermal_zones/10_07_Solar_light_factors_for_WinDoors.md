@@ -44,7 +44,7 @@ Lyset, som rammer et punkt, består af to bidrag, nemlig
 
 Sollysfaktorerne kan i et givet tilfælde beregnes ved hjælp af edb eller bestemmes ved mere eller mindre nøjagtige håndberegningsmetoder, eller ved måling i eksisterende bygninger. I håndberegningsmetoderne for dagslysfaktorer indgår kun bidrag fra diffus himmelstråling og stråling fra reflekteret lys.
 
-Beskrivelse af, hvorledes de to bidrag for hver af sollysfaktorerne kan beregnes eller bestemmes ud fra kurver findes i: [Algoritmer til beregning af solstråling og dagslys.](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys)
+Beskrivelse af, hvorledes de to bidrag for hver af sollysfaktorerne kan beregnes eller bestemmes ud fra kurver findes i: [Algoritmer til beregning af solstråling og dagslys.](/20The_Mathematical_Basis/20_03_Algorithms_for_solar_radiation_and_daylight_calculations.html)
 
 For normalt anvendte vinduesstørrelser og lokaledimensioner, er der nedenfor angivet retningsgivende formeludtryk til beregning af sollysfaktorerne, men i tilfælde med særlige facader eller konstruktioner, hvor det er nødvendigt med mere nøjagtige faktorer, må disse bestemmes på anden måde.
 
@@ -65,7 +65,7 @@ De anførte formler er tilnærmede udtryk ud fra beregninger på et lokale med e
 
 Den direkte sol vil give en lysende plet et sted i lokalet, og det reflekterede lys fra pletten vil virke som en lyskilde. Da plettens placering i lokalet er meget afhængig af solens højde og azimut vil SF1 i et punkt langt fra være konstant. I beregningerne ønskes der dog en enkelt værdi, som er repræsentativ for SF1. I punktet, som rammes af den direkte stråling, vil der være en meget høj belysningsstyrke, som der dog ses bort fra ved beregningen af SF1, idet der kun medtages den interreflekterede komponent IRK.
 
-Figuren nedenfor viser eksempler på beregnede værdier af SF1 på arbejdsplanet i en linie midt i rummet for forskellige vinduesstørrelser og som funktion af afstanden fra vinduet (jf. ([Johnsen, Grau & Christensen, 1993](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)).
+Figuren nedenfor viser eksempler på beregnede værdier af SF1 på arbejdsplanet i en linie midt i rummet for forskellige vinduesstørrelser og som funktion af afstanden fra vinduet (jf. ([Johnsen, Grau & Christensen, 1993](/20The_Mathematical_Basis/20_04_Literature_references.html)).
 
 <figure id="center_img">
 <img src="./assets/SF1-8M.JPG" alt="Vinduesstørrelsen er angivet som rudens procentvise andel af den samlede facade (glasprocent GP), og SF1 er proportional med denne glasprocent og med reflektansen for den flade, som det direkte sollys rammer (Rf,sol). SF1 er omvendt proportional med rummets samlede overfladeareal og med faktoren (1 - Rmid), hvor Rmid er middelreflektansen for alle rummets overflader."> 
@@ -77,9 +77,9 @@ Det skal bemærkes, at den direkte solstråling i beregningerne antages at ramme
 
 **Himmellys SF2**
 
-SF2 giver normalt det største bidrag til belysningsstyrken i et punkt, der kan "se" himlen. Ved beregningerne antages, at uanset himlens tilstand (skyet eller skyfri), er luminansfordelingen som en CIE-overskyet himmel eller ensartet overskyet, og SF2 beregnes svarende til en af disse tilstande. *Størrelsen* af dagslysindfaldet beregnes efter algoritmer fundet ved målinger under danske forhold ([Petersen, 1982](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)).
+SF2 giver normalt det største bidrag til belysningsstyrken i et punkt, der kan "se" himlen. Ved beregningerne antages, at uanset himlens tilstand (skyet eller skyføri), er luminansfordelingen som en CIE-overskyet himmel eller ensartet overskyet, og SF2 beregnes svarende til en af disse tilstande. *Størrelsen* af dagslysindfaldeberes efter algoritmer fundet ved målinger under danske forhold ([Petersen, 1982](/20The_Mathematical_Basis/20_04_Literature_references.html)).
 
-De to bidrag til sollysfaktoren SF2 fra henholdsvis den direkte og den interreflekterede del af den diffuse himmelstråling kan bestemmes hver for sig, som beskrevet i [algoritmer for beregning af solstråling og dagslys](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstr-ling-og-dagslys).
+De to bidrag til sollysfaktoren SF2 fra henholdsvis den direkte og den interreflekterede del af den diffuse himmelstråling kan bestemmes hver for sig, som beskrevet i [algoritmer for beregning af solstråling og dagslys](/20The_Mathematical_Basis/20_03_Algorithms_for_solar_radiation_and_daylight_calculations.html).
 
 Summen af de to bidrag er vist på den følgende figur, der viser sollysfaktorerne for et 8 meter dybt lokale med forskellige vinduesarealer.
 
@@ -99,13 +99,13 @@ SF3 bestemmer bidraget fra det reflekterede sollys fra jordoverfladen, og heri i
 
 **Korrektionsfaktorer for sollysfaktorer**
 
-Ved definition af WinDoor i databasen indlæses værdier af varme- og lystransmission for den aktuelle rudetype. Normalt anvendes standardværdier for transmissionstallene, som ikke tager hensyn til snavs på ruden, ligesom der ikke korrigeres for lokalt forøget luftforurening, som reducerer solindfaldet. For solvarmeberegninger har sådanne forhold kun lille betydning, mens det i forbindelse med dagslys kan være vigtigt at tage hensyn hertil. I [algoritmer for beregning af solstråling og dagslys](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstr-ling-og-dagslys), er angivet en tabel med vejledende værdier for de vigtigste korrektioner.
+Ved definition af WinDoor i databasen indlæses værdier af varme- og lystransmission for den aktuelle rudetype. Normalt anvendes standardværdier for transmissionstallene, som ikke tager hensyn til snavs på ruden, ligesom der ikke korrigeres for lokalt forøget luftforurening, som reducerer solindfaldet. For solvarmeberegninger har sådanne forhold kun lille betydning, mens det i forbindelse med dagslys kan være vigtigt at tage hensyn hertil. I [algoritmer for beregning af solstråling og dagslys](/20The_Mathematical_Basis/20_03_Algorithms_for_solar_radiation_and_daylight_calculations.html), er angivet en tabel med vejledende værdier for de vigtigste korrektioner.
 
 **Lys fra solafskærmning (eller skodde) SF4**
 
 Når der anvendes en solafskærmning og lyset "diffuseres" efter passagen af afskærmningen anvendes *SF4* for afskærmningen, jf. figuren. *SF4* angives som de øvrige sollysfaktorer for et vindue med transmittansen 1, da transmissionsfaktorer er indeholdt i data for WinDoor og afskærmning. Det bør bemærkes, at afskærmningsfaktoren ikke har indflydelse på størrelsen af *SF4.*
 
-Lyset fra solafskærmningen giver et direkte bidrag SF4<sub>d</sub> og et interreflekteret bidrag SF4<sub>i</sub> til belysningsstyrken, der kan bestemmes hver for sig som beskrevet i [algoritmer for beregning af solstråling og dagslys](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstr-ling-og-dagslys).
+Lyset fra solafskærmningen giver et direkte bidrag SF4<sub>d</sub> og et interreflekteret bidrag SF4<sub>i</sub> til belysningsstyrken, der kan bestemmes hver for sig som beskrevet i [algoritmer for beregning af solstråling og dagslys](/20The_Mathematical_Basis/20_03_Algorithms_for_solar_radiation_and_daylight_calculations.html).
 
 <figure id="center_img">
 <img src="./assets/SF4-8M.JPG" alt="Sollysfaktoren SF4 for sollys, der diffuseres gennem en solafskærmning for et 8 meter dybt lokale ved forskellige vinduesprocenter. ">

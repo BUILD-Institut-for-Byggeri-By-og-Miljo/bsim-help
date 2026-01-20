@@ -29,7 +29,7 @@ Parameteren *Min Inlet Temp* angiver en nedre grænse for indblæsningstemperatu
 
 Se også:
 
-*   [Indblæsningsstyring](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/ventilation---indblasningsstyring)
-*   [*Rumtemperaturregulering*](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)
-*   [VAV-regulering](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)
-*   [Natkøling](https://help.bsim.dk/support/kb/articles/zWZAkq9p/ventilation---nvcool-regulering)
+*   [Indblæsningsstyring](/11Systems/11_23_Ventilation_Inlet_Control.html)
+*   [*Rumtemperaturregulering*](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)
+*   [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html)
+*   [Natkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html)

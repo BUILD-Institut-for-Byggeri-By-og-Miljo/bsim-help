@@ -18,7 +18,7 @@ $$ n_{udeluft} = n_0 + c_t \cdot \left( t_i - t_u \right)^{tp} + c_v \cdot v \ta
 
 **Definition af infiltration**
 
-Infiltration regnes altid som en udeluftstrøm, ind i den termiske zone. Eksfiltration, dvs. luft, der passerer utætheder ud af den termiske zone, kan ikke angives direkte. Beregningsmodellen kontrollerer for hvert tidsstep af simuleringen, at der er balance mellem de luftstrømme, der går ind og ud af den termiske zone. Ud over infiltration kan bidragene stamme fra udluftning (åbning af vinduer), mekanisk ventilation samt mixing (luftoverførsel mellem termiske zoner eller rum). Såfremt der er ubalance, vil et luftunderskud i en termisk zone blive udlignet ved infiltration, mens et luftoverskud vil blive udlignet ved eksfiltration. Det betyder fx, at det resulterende luftskifte ved infiltration godt kan være større end det, der er bestemt af parameterværdierne i ovenstående formel. Luftbalancen er nærmere beskrevet i [det matematiske grundlag](https://help.bsim.dk/support/kb/articles/BWzd4NQE/det-matematiske-grundlag).
+Infiltration regnes altid som en udeluftstrøm, ind i den termiske zone. Eksfiltration, dvs. luft, der passerer utætheder ud af den termiske zone, kan ikke angives direkte. Beregningsmodellen kontrollerer for hvert tidsstep af simuleringen, at der er balance mellem de luftstrømme, der går ind og ud af den termiske zone. Ud over infiltration kan bidragene stamme fra udluftning (åbning af vinduer), mekanisk ventilation samt mixing (luftoverførsel mellem termiske zoner eller rum). Såfremt der er ubalance, vil et luftunderskud i en termisk zone blive udlignet ved infiltration, mens et luftoverskud vil blive udlignet ved eksfiltration. Det betyder fx, at det resulterende luftskifte ved infiltration godt kan være større end det, der er bestemt af parameterværdierne i ovenstående formel. Luftbalancen er nærmere beskrevet i [det matematiske grundlag](/20The_Mathematical_Basis/20_00_The_Mathematical_Basis.html).
 
 
 <figure id="center_img">
@@ -37,12 +37,12 @@ Infiltration regnes altid som en udeluftstrøm, ind i den termiske zone. Eksfilt
 
 Til højre for inddatafelterne, under trykknapperne findes to informationsfelter som løbende viser hvad infiltrationen er ved en vindhastighed på 4 m/s og en temperaturforskel mellem ude og inde på 4 hhv. 10 °C.
 
-[Tidsplanen](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---tidsplan) definerer sammenhørende sæt af regulering og tidsangivelse. Der kan angives flere tidsplaner, således at det er muligt at definere forskellige døgnvariationer på forskellige tider af året. Normalt kan det antages, at luftskiftet ved infiltration er størst i bygningens brugstid, dvs. på tidspunkter hvor der opholder sig personer i en bygning, udvendige døre går op og i, og indvendige døre står åbne. Reguleringen for infiltration er af typen [døgnprofil](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dognprofil).
+[Tidsplanen](/11Systems/11_02_Systems_schedule.html) definerer sammenhørende sæt af regulering og tidsangivelse. Der kan angives flere tidsplaner, således at det er muligt at definere forskellige døgnvariationer på forskellige tider af året. Normalt kan det antages, at luftskiftet ved infiltration er størst i bygningens brugstid, dvs. på tidspunkter hvor der opholder sig personer i en bygning, udvendige døre går op og i, og indvendige døre står åbne. Reguleringen for infiltration er af typen [døgnprofil](/11Systems/11_04_Systems_DayProfile.html).
 
 Det bemærkes, at når der defineres flere tidsplaner, vil programmet under simuleringen gennemløbe dem i den rækkefølge, de optræder i dialogen, således at den første tidsangivelse, som indeholder den aktuelle simuleringstime, vil være aktiv.
 
 Se også
 
-*   [Faneblad Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---tidsplan)
-*   [Faneblad DayProfile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dognprofil)
-*   [Faneblad Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Faneblad Schedule](/11Systems/11_02_Systems_schedule.html)
+*   [Faneblad DayProfile](/11Systems/11_04_Systems_DayProfile.html)
+*   [Faneblad Time](/11Systems/11_17_Systems_Time.html)

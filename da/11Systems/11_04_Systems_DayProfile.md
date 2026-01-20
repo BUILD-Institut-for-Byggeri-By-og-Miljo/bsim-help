@@ -7,7 +7,7 @@ For hver periode af døgnet, hvor der ønskes specificeret en bestemt belastning
 
 Hvis den samme time angives to gange i døgnprofilet, er det belastningen for den sidste angivelse, der vil være gældende. Fx er profilerne 50 % 1-24 100 % 8-16 og 100 % 8-16 50 % 17-7 identiske.
 
-Der kan angives flere [tidsplaner](http://bsim.outseta.com/support/kb/articles/79O3DZ9E/systemer---tidsplan) med sammenhørende døgnprofil og tidsangivelse, således at der kan simuleres forskellige belastningsvariationer på forskellige dage i ugen, måneden eller året. Der kan endvidere refereres fra forskellige komponenter til det samme døgnprofil, og kombinationen af døgnprofil og tidsangivelse giver mulighed for store variationsmuligheder for komponenternes 'regulering'.
+Der kan angives flere [tidsplaner](/11Systems/11_02_Systems_schedule.html) med sammenhørende døgnprofil og tidsangivelse, således at der kan simuleres forskellige belastningsvariationer på forskellige dage i ugen, måneden eller året. Der kan endvidere refereres fra forskellige komponenter til det samme døgnprofil, og kombinationen af døgnprofil og tidsangivelse giver mulighed for store variationsmuligheder for komponenternes 'regulering'.
 
 Et døgnprofil angiver hvornår i løbet af et døgn et simpelt system er i drift og med hvor stor en andel af den nominelle belastning der afsættes i den enkelte time. Det er muligt at angive en procent større end 100, men tsbi5 vil da afsættes en effekt der er lig den nominelle belastning. Tilsvarende kan der gives en procent mindre end 0, men tsbi5 afsætter effekten 0.
 
@@ -22,8 +22,8 @@ I inddataboksen *Profile* indtastes oplysningerne om døgnprofilets sammensætni
 
 Se også:
 
-*   [Tidsangivelse](http://bsim.outseta.com/support/kb/articles/VmAOwo9a/tidsangivelse) (Time)
-*   [Tidsplan](http://bsim.outseta.com/support/kb/articles/79O3DZ9E/systemer---tidsplan) (Schedule)
+*   [Tidsangivelse](/11Systems/11_17_Systems_Time.html) (Time)
+*   [Tidsplan](/11Systems/11_02_Systems_schedule.html) (Schedule)
 
  
 

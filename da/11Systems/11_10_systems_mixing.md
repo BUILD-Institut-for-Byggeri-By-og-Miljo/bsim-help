@@ -21,10 +21,10 @@ Mixing er defineret som en luftudveksling mellem termiske zoner og rum i modelle
 
 **Note:** Det er muligt at vælge mixing fra en fiktiv zone (et rum med samme termiske egenskaber som en egentlig termisk zone) som støder op til den termiske zone som skal modtage luften. Det er dog <u>kun</u> muligt at have en mixing fra hver termiske zone, og den fiktive zone opfattes som værende den samme som den termiske zone den har samme egenskaber som. Derfor vil der <u>kun</u> optræde mixing fra den egentlige termiske zone.
 
-Ved hjælp af [reguleringen](https://help.bsim.dk/support/kb/articles/zWZAEb9p/mixing-regulering) er der mulighed for at kontrollere en ønsket varme- (eller kulde-) overførsel fra en tilstødende zone til den aktuelle zone. Mixing reguleres on/off med en procentdel af luftstrømmen defineret i det tilhørende døgnprofil.
+Ved hjælp af [reguleringen](/11Systems/11_10_systems_mixing.html) er der mulighed for at kontrollere en ønsket varme- (eller kulde-) overførsel fra en tilstødende zone til den aktuelle zone. Mixing reguleres on/off med en procentdel af luftstrømmen defineret i det tilhørende døgnprofil.
 
-Se også
+Se også:
 
-*   [Faneblad MixingCtrl](https://help.bsim.dk/support/kb/articles/zWZAEb9p/mixing-regulering)
-*   [Faneblad Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---tidsplan)
-*   [Faneblad Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Faneblad MixingCtrl](/11Systems/11_10_systems_mixing.html)
+*   [Faneblad Schedule](/11Systems/11_02_Systems_schedule.html)
+*   [Faneblad Time](/11Systems/11_17_Systems_Time.html)
