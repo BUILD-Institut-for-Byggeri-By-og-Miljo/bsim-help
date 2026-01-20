@@ -18,17 +18,17 @@ In this section there is a description of the making of a BSim building model wi
 
 Additional issues compared to the single zone model is:
 
-*   Choice of wind profile for the site
+*   <a href="#windprofile">Choice of wind profile for the site</a>
 
-*   Choice of thermal zones
+*   <a href="#thermalzones">Choice of thermal zones</a>
 
-*   Definition of openings
+*   <a href="#openings">Definition of openings</a>
 
-*   Choice of CP-values
+*   <a href="#cpvalues">Choice of CP-values</a>
 
-*   Control of natural ventilation
+*   <a href="#controlventilation">Control of natural ventilation</a>
 
-**Choice of wind profile**
+**<span id="windprofile">Choice of wind profile</span>**
 
 At building level (Site) a wind profile have to be selected. This is used to calculate the wind velocity in other heights than 10 meters, where the wind velocity in weather data is being measured.
 
@@ -41,8 +41,8 @@ hvor: 
 *V<sub>h</sub>* is the wind velocity in height h [m/s]   
 *V<sub>10</sub>* is the measured wind velocity 10 meters above the free terrain [m/s]   
 *h* is the actual height above terrain [m]   
-*k* is a factor dependant on the terrain, Table 1 [-]   
-*α* is an exponent, dependant in the terrain, Table 1 [-]
+*k* is a factor dependant on the terrain, <a href="#table1">Table 1</a> [-]   
+*α* is an exponent, dependant in the terrain, <a href="#table1">Table 1</a> [-]
 
 
 | Terrain type                          | k    | α    |
@@ -52,19 +52,19 @@ hvor: 
 | Forstadsområder                      | 0.35 | 0.25 |
 | Bycentrum                            | 0.21 | 0.33 |
 
-*Table 1 Factors characterizing different terrain types.*
+<span id="table1"></span>*Table 1 Factors characterizing different terrain types.*
 
-**Choice of thermal zones**
+**<span id="thermalzones">Choice of thermal zones</span>**
 
-Using the single zone model it is necessary to consider which of the rooms in the building that must be part of the thermal zones. In a normal thermal simulation rooms with the same thermal characteristics can be merged together in the same thermal zone. This is for instance the case for offices having the same orientation, as shown with the blue circles in Figure 1. Modeling cross ventilation will as a contract require division of the rooms into thermal zones as indicated by the red circles.
+Using the single zone model it is necessary to consider which of the rooms in the building that must be part of the thermal zones. In a normal thermal simulation rooms with the same thermal characteristics can be merged together in the same thermal zone. This is for instance the case for offices having the same orientation, as shown with the blue circles in <a href="#figure1">Figure 1</a>. Modeling cross ventilation will as a contract require division of the rooms into thermal zones as indicated by the red circles.
 
-<figure id="center_img">
+<figure id="figure1">
 <img src="./assets/mzm_im2.gif" alt="Figure 1. Different division of rooms into thermal zones. Blue circles is equal to a division of thermal zones according to thermal considerations while red circles indicates a division according to natural ventilation considerations using the single zone model.">
 <figcaption>Figure 1. Different division of rooms into thermal zones. Blue circles is equal to a division of thermal zones according to thermal considerations while red circles indicates a division according to natural ventilation considerations using the single zone model.</figcaption>
 </figure>
 
 
-**Definitions on openings**
+**<span id="openings">Definitions on openings</span>**
 
 To be able to calculate the natural ventilation it is necessary to define the openings that air flows through. BSim have two types of openings; openings and WinDoor's. Openings are holes in the constructions and can not be controlled - they are always fully open. WinDoor's covers windows and doors, and the degree of opening for these openings can be controlled.
 
@@ -74,13 +74,13 @@ For WinDoors the open-able fraction of the WinDoor have to be defined, and in wh
 
 Only openings in the thermal envelope need to be defined as the single zone model assumes that all rooms in the same thermal zone is connected in one single open space. It must therefore be considered if there are flow resistances between the individual rooms of the thermal zone as these are not part of the simulations. REsistances from internal openings can be added at the openings of the thermal envelope.
 
-<figure id="center_img">
+<figure id="figure2">
 <img src="./assets/mzm_im3.jpg" alt="Figure 2. Dialogs for activating openings and WinDoor's in the single zone model.">
 <figcaption>Figure 2. Dialogs for activating openings and WinDoor's in the single zone model.</figcaption>
 </figure>
 
 
-**Choice of CP-values**
+**<span id="cpvalues">Choice of CP-values</span>**
 
 The used CP-values originates from ([Orme et al. 1998](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)) and is determined as average values for the faces. The user can not give his own CP-values. Orme et al. (1998) gives CP-values for rectangular buildings with equal side lengths and buildings with a side-proportion of 1:2. CP-values are also given for different roof-tilts. BSim chooses CP-values from these standards based on the geometry of the building model.
 
@@ -91,15 +91,15 @@ It is thus important to create a building model that is representative for the e
 
 </div>
 
-CP-values is defined for three different degree of wind exposure due to the surrounding buildings as defined as a property on the external face of the opening, see Figure 3.
+CP-values is defined for three different degree of wind exposure due to the surrounding buildings as defined as a property on the external face of the opening, see <a href="#figure3">Figure 3</a>.
 
-<figure id="center_img">
+<figure id="figure3">
 <img src="./assets/mzm_im4.gif" alt="Figure 3. Definition of degree of wind exposure due to surrounding buildings.">
 <figcaption>Figure 3. Definition of degree of wind exposure due to surrounding buildings.</figcaption>
 </figure>
 
 
-**Control of natural ventilation**
+**<span id="controlventilation">Control of natural ventilation</span>**
 
 The single zone model is activated from by using the system [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system). [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) is a natural cooling system and will only come into action if the temperature in the thermal zone that is being used as the controlling zone exceeds the defined set-point.
 
@@ -113,9 +113,9 @@ In this section issues that have changed in a model where mzm is being used comp
 
 **Thermal zones**
 
-By implementing the multi-zone model division into thermal zones can by advantage be made according to the boue circles shown in Figure 1, which is the thermal most correct. If it was possible to give CP-values for each opening, it would be necessary to divide all rooms into one thermal zone, as shown in Figure 4.
+By implementing the multi-zone model division into thermal zones can by advantage be made according to the boue circles shown in <a href="#figure1">Figure 1</a>, which is the thermal most correct. If it was possible to give CP-values for each opening, it would be necessary to divide all rooms into one thermal zone, as shown in <a href="#figure4">Figure 4</a>.
 
-<figure id="center_img">
+<figure id="figure4">
 <img src="./assets/mzm_im5.gif" alt="Figure 4. Division of rooms into thermal zones when using mzm.">
 <figcaption>Figure 4. Division of rooms into thermal zones when using mzm.</figcaption>
 </figure>
@@ -143,9 +143,9 @@ It has been necessary to implement three iterations in conjunction to:
 
 Implementation of iterations means that the user needs to (should) decide one's attitude to the convergence criteria and the maximum number of allowed iterations.
 
-The dialog box that define these issues are shown in Figure 5. For the two first iterations a convergence criteria and a maximum number of iterations must be given. This will ensure that the simulation do run wild. In the third iteration, control of the WinDoor's, the maximum number of opening fractions plus additional opening control to determine max number of iterations. The three iterations are described in section [Control of mzm](https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen).
+The dialog box that define these issues are shown in <a href="#figure5">Figure 5</a>. For the two first iterations a convergence criteria and a maximum number of iterations must be given. This will ensure that the simulation do run wild. In the third iteration, control of the WinDoor's, the maximum number of opening fractions plus additional opening control to determine max number of iterations. The three iterations are described in section [Control of mzm](https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen).
 
-<figure id="center_img">
+<figure id="figure5">
 <img src="./assets/mzm_im6.jpg" alt="Figure 5. Dialog with settings for eg the three iterations. The dialog opens by clicking "Edit + Options" with tsbi5 active.">
 <figcaption>Figure 5. Dialog with settings for eg the three iterations. The dialog opens by clicking "Edit + Options" with tsbi5 active.</figcaption>
 </figure>
@@ -187,9 +187,9 @@ There are two types of nodes:
 
 *   Opening nodes
 
-Zone nodes are connected to thermal zones and the outdoor climate. One node is defined in each thermal zone with activated openings. The node is located in the same height as SensorHgt (Figure 6). SensorHgt indicates in which height the temperature of the thermal zone is recorded and which temperature the systems of the zone use as reference point. This is only relevant when vertical temperature gradients are taken into account in the simulations by means of the [Cappa model](https://help.bsim.dk/support/kb/articles/BWzdGlQE/kappa-modellen).
+Zone nodes are connected to thermal zones and the outdoor climate. One node is defined in each thermal zone with activated openings. The node is located in the same height as SensorHgt (<a href="#figure6">Figure 6</a>). SensorHgt indicates in which height the temperature of the thermal zone is recorded and which temperature the systems of the zone use as reference point. This is only relevant when vertical temperature gradients are taken into account in the simulations by means of the [Cappa model](https://help.bsim.dk/support/kb/articles/BWzdGlQE/kappa-modellen).
 
-<figure id="center_img">
+<figure id="figure6">
 <img src="./assets/mzm_im7.gif" alt="Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature.">
 <figcaption>Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature.</figcaption>
 </figure>
@@ -210,9 +210,9 @@ The following arches are made:
 Two lists are made, one with all nodes and one with all arches. The lists can be shown by clicking "check" from the "[Simulation](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5-simulation)" tab of tsbi5. The lists are called "Nodes" "Arches".
 
 **Making of a spanning tree**  
-Making of a spanning tree must include those zones that are connected to the ambient, eventually via other adjacent zones. This means that air-flow between zones can not be calculated if they are are not connected to the ambient, see Figure 7.
+Making of a spanning tree must include those zones that are connected to the ambient, eventually via other adjacent zones. This means that air-flow between zones can not be calculated if they are are not connected to the ambient, see <a href="#figure7">Figure 7</a>.
 
-<figure id="center_img">
+<figure id="figure7">
 <img src="./assets/mzm_im8.gif" alt="Figure 7. BSim model with only internal openings. Mzm can not be activated.">
 <figcaption>Figure 7. BSim model with only internal openings. Mzm can not be activated.</figcaption>
 </figure>
@@ -274,7 +274,7 @@ By making a spanning tree it has been chosen always to start in the node for the
 
 **Explanation of calculation routines by making the spanning tree**
 
-Explanation of calculation routines by making the spanning tree is based on Figure 8 from ([Savić et al. 1996](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)) .
+Explanation of calculation routines by making the spanning tree is based on <a href="#figure8">Figure 8</a> from ([Savić et al. 1996](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)) .
 
 Calculation routines are:
 
@@ -297,7 +297,7 @@ Calculation routines are:
 </div>
 
 
-<figure id="center_img">
+<figure id="figure8">
 <img src="./assets/mzm_im10.gif" alt="Figure 8. Explanation of making of spanning tree (Savić et al. 1996).">
 <figcaption>Figure 8. Explanation of making of spanning tree (Savić et al. 1996).</figcaption>
 </figure>
@@ -307,7 +307,7 @@ Calculation routines are:
 
 A reduction of the lists are made so they only contains nodes and arches that belongs to multi-zones. Those zone nodes which was used in the creation of the spanning tree are multi-zones and the remaining zones are not. The lists "Nodes" and "Arches" are reduced so they only contains nodes from multi-zones, the ambient and arches connected to openings between multi-zones and the ambient.
 
-If all arches have been used in the creation of the tree, the model will not contain any lops and the mzm will thus not be activated. This situation complies to the case where arch no. 1, 3, 6 and 7 are missing in F and it will thus be impossible to create a loop.
+If all arches have been used in the creation of the tree, the model will not contain any lops and the mzm will thus not be activated. This situation complies to the case where arch no. 1, 3, 6 and 7 are missing in <a href="#figure8">Figure 8</a> and it will thus be impossible to create a loop.
 
 #### **Creation of loops**
 
@@ -352,7 +352,7 @@ A list with all loops is saved in the variable L.
 
 The number of loops to be made is equal to the number of arches in Act. For each arch in Act a loop with the least possible number of arches is made. The loop is made solely by using arches from the spanning tree. This means that no other arch is part of Act.
 
-The way tings are made id described below. With take-off from Figure 8, (f) the description of a loop for arch no. 1 is made:
+The way tings are made id described below. With take-off from <a href="#figure8">Figure 8</a>, (f) the description of a loop for arch no. 1 is made:
 
 <div id="gray_background">
 
@@ -406,7 +406,7 @@ The possibility of thermal zones shifting category are also taken into account, 
 
 In this section a description of creation of the calculation matrices is given. The calculation matrices is made from the actual loop system, the characteristics of zones and openings, and the driving pressure from wind and temperature gradients.
 
-By making the matrices a simplified version of the loops are being used. The arches that connect zone nodes with openings gives no resistance and are therefore excluded from the matrices, see F.
+By making the matrices a simplified version of the loops are being used. The arches that connect zone nodes with openings gives no resistance and are therefore excluded from the matrices, see <a href="#figure9">Figure 9</a>.
 
 The calculation matrices are made with air flows as the unknown factor. This is most convenient as this is used in the calculation of the resistance through the individual opening and takes part in the preservation of the mass balance.
 
@@ -476,13 +476,13 @@ hvor:
 
 #### **Example for making calculation matrices**
 
-In Figure 9 there is a sketch of a BSim model with nodes and loops. The nodes and arches are numbered continuously from 0 and the number of the arches have been underlined. The model consists of two zones and four openings. This gives two loops shown by red and green arrows.
+In <a href="#figure9">Figure 9</a> there is a sketch of a BSim model with nodes and loops. The nodes and arches are numbered continuously from 0 and the number of the arches have been underlined. The model consists of two zones and four openings. This gives two loops shown by red and green arrows.
 
-As described earlier, only loops that belongs to an opening are being used. This is arch number 1, 4, 7 and 10 in Figure 9. The flow through these arches are in the following denoted Q and the resistance over the openings c.
+As described earlier, only loops that belongs to an opening are being used. This is arch number 1, 4, 7 and 10 in <a href="#figure9">Figure 9</a>. The flow through these arches are in the following denoted Q and the resistance over the openings c.
 
 The loops are denoted a and b, where the red loop is a and the green loop b. The positive direction for the loops are shown by arrows.
 
-<figure id="center_img">
+<figure id="figure9">
 <img src="./assets/mzm_im16.gif" alt="Figure 9. Sketch of BSim model with nodes, arches and loops. Nodes and arches are numbered from continuously from 0 and the number of the arches are underlined. The dashed arrows shows the positive direction of the two loops.">
 <figcaption>Figure 9. Sketch of BSim model with nodes, arches and loops. Nodes and arches are numbered from continuously from 0 and the number of the arches are underlined. The dashed arrows shows the positive direction of the two loops.</figcaption>
 </figure>
@@ -561,6 +561,7 @@ As the density of air is reverse proportional to the temperature, an integration
 
 At constant temperature an integration of the equation above gives the following:
 
+<a id="eq9"></a>
 $$ 
 \Delta p_{e (\Delta Z_{i,j})} = - \rho_e g\Delta z_{i,j} \tag{9} 
 $$
@@ -572,8 +573,7 @@ $$
 
 For a linear, vertical temperature gradient an integration of the equation above gives the following:
 
- 
-
+<a id="eq10"></a>
 $$ 
 \Delta p_{e (\Delta Z_{i,j})} = - g \cdot \frac{K_1}{K_2} \left[ \ln(T_j + K_2 z_j) - \ln(T_i + K_2 z_i) \right] \tag{10} 
 $$
@@ -607,34 +607,35 @@ T is the temperature [K]
 **Level-definitions**   
 The level for all openings must be known to be able to calculate the driving pressure from temperature gradients. All openings can be located in any level.
 
-For external openings, the level for the node facing the ambient is being used. In most cases this will give a correct level for calculation of the driving pressure, see Figure 10 and Figure 11.
+For external openings, the level for the node facing the ambient is being used. In most cases this will give a correct level for calculation of the driving pressure, see <a href="#figure10">Figure 10</a> and <a href="#figure11">Figure 11</a>.
 
 The average level is being used in case of internal openings.
 
 All changes in temperature, moisture content and density happens at the node for the ambient. For this reason all openings are calculated as indoor air. For internal openings, changes is assumed to happen in the centre of the opening.
 
-<figure id="center_img">
+<figure id="figure10">
 <img src="./assets/mzm_im26.gif" alt="Figure 10. Illustration of opening nodes and definition of used levels.">
 <figcaption>Figure 10. Illustration of opening nodes and definition of used levels.</figcaption>
 </figure>
 
-<figure id="center_img">
+<figure id="figure11">
 <img src="./assets/mzm_im27.gif" alt="Figure 11. Model with two horizontal openings. The level definition cause an error in the calculation of differences in heights.">
 <figcaption>Figure 11. Model with two horizontal openings. The level definition cause an error in the calculation of differences in heights.</figcaption>
 </figure>
 
 **Calculation**
 
-An integration is made for each zone being part of the loop and for outdoor if the loop contains the node for outdoor. In every zone, the level for the two openings being part of the loop are calculated. So is the thermal driving pressure according to equation (18.12), [Cappa](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund) is equal to 1 or equation (18.13) if [C](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund) differs from 1.
+An integration is made for each zone being part of the loop and for outdoor if the loop contains the node for outdoor. In every zone, the level for the two openings being part of the loop are calculated. So is the thermal driving pressure according to <a href="#eq9">Equation 9</a>, [Cappa](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund) is equal to 1 or <a href="#eq10">Equation 10</a> if [C](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund) differs from 1.
 
  
 
 #### **Driving pressure from wind**
 
-A loop may contain the node for the ambient. If the loop do not contain the node for the ambient, it is an internal loop and the driving pressure thus not influenced by the wind. If the loop contains the ambient node, there will always be a contribution from the wind. This is because the loop starts outdoors and afterwards enters the building to finally returning to the ambient. As there is only one node for the ambient, a loop will never cross the therma envelope more than twice, see Figure 9.
+A loop may contain the node for the ambient. If the loop do not contain the node for the ambient, it is an internal loop and the driving pressure thus not influenced by the wind. If the loop contains the ambient node, there will always be a contribution from the wind. This is because the loop starts outdoors and afterwards enters the building to finally returning to the ambient. As there is only one node for the ambient, a loop will never cross the therma envelope more than twice, see <a href="#figure9">Figure 9</a>.
 
 For those loops containing the node for the ambient, the driving pressure from the wind is determined as:
 
+<a id="eq13"></a>
 $$ 
 \Delta p_{vind} = \Delta C_p \cdot \frac{\rho \cdot U_{ref}^2}{2} \tag{13} $$
 
@@ -642,11 +643,12 @@ where:
 ΔC*<sub>P</sub>* is the difference between the two C*<sub>P</sub>* values [-]   
 U*<sub>ref</sub>* is the reference wind speed, calculated at the highest point f the building [m/s]   
 
+<a id="eq14"></a>
 $$ 
 \Delta C_p = C_{p, første} - C_{p, anden} \tag{14} 
 $$
 
-The first C*<sub>P</sub>*-value is always attached to that node in arch number 2 of the loop-list that faces ”outdoors”. The second CP-value is always attached to that node in the last arch in the loop-list that faces ”outdoors”, respectively node 9 and 2 in Figure 9.
+The first C*<sub>P</sub>*-value is always attached to that node in arch number 2 of the loop-list that faces "outdoors". The second CP-value is always attached to that node in the last arch in the loop-list that faces "outdoors", respectively node 9 and 2 in <a href="#figure9">Figure 9</a>.
 
 The determination of the driving pressure in a bulleted list form looks like:
 
@@ -660,7 +662,7 @@ The determination of the driving pressure in a bulleted list form looks like:
 
 *   Find C*<sub>P</sub>* for the second and the last arch in the list (node number 2 and n-1)
 
-*   Calculate ΔC*<sub>P</sub>* according to equation (18.17) and Δp*<sub>wind</sub>* according to equation (18.16)
+*   Calculate ΔC*<sub>P</sub>* according to <a href="#eq14">Equation 14</a> and Δp*<sub>wind</sub>* according to <a href="#eq13">Equation 13</a>
 
  
 
@@ -698,6 +700,7 @@ A is the area of the opening [m²]
 
 or given by the pressure difference:
 
+<a id="eq18"></a>
 $$ 
 \Delta p = Q^2 \frac{\rho}{C_d^2 \cdot A^2 \cdot 2} \tag{18} 
 $$
@@ -761,11 +764,10 @@ The solving routine, given as a bulleted list, is as follows:
 
 7.  Point 4 to 6 repeated until convergence of the equation system is found
 
-####  
 
 #### **Convergence criteria**
 
-The convergence criteria is calculated according to the equation below. The driving pressure is compared to the resistance over the opening, calculated according to (18.21). The maximum deviation must be less than the convergence criteria "MaxDif".
+The convergence criteria is calculated according to the equation below. The driving pressure is compared to the resistance over the opening, calculated according to <a href="#eq18">Equation 18</a>. The maximum deviation must be less than the convergence criteria "MaxDif".
 
 $$ \max \left( |p_{Total} - \Delta p_{Resistance}| \right) \leq MaxDif \tag{22} $$
 
@@ -774,9 +776,9 @@ where:
 *Δp<sub>*Resistance*</sub>* is the resistance through the openings [Pa]  
 *MaxDif* is the convergence criteria [Pa]
 
-The convergence criteria is as default given as 0.01 Pa. The user have the option to change the criteria, Figure 12.
+The convergence criteria is as default given as 0.01 Pa. The user have the option to change the criteria, <a href="#figure12">Figure 12</a>.
 
-<figure id="center_img">
+<figure id="figure12">
 <img src="./assets/mzm_eq27.jpg" alt="Figure 12. Dialog where the user have the option to change the convergence criteria. The dialog is opened by clicking 'Edit + Options' when tsbi5 is active.">
 <figcaption>Figure 12. Dialog where the user have the option to change the convergence criteria. The dialog is opened by clicking "Edit + Options" when tsbi5 is active.</figcaption>
 </figure>
