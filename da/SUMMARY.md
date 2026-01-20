@@ -327,7 +327,7 @@
 * [Projekt Wizard 2](24Miscellaneous/24_52_Projekt_Wizard_2.md)
 * [Projekt Wizard 3](24Miscellaneous/24_53_Projekt_Wizard_3.md)
 * [Udhæng og sidefinner](24Miscellaneous/24_54_WinDoor_overhangs_and_side-fins.md)
-* [Room Propery](24Miscellaneous/24_55_Room_property.md)
+* [Room Property](24Miscellaneous/24_55_Room_property.md)
 * [Rumtemperatur](24Miscellaneous/24_56_Room_Temperature.md)
 * [Konvertering af vejrdata til tsbi5](24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md)
 * [Klimadata definition](24Miscellaneous/24_58_Climate_data_definition.md)

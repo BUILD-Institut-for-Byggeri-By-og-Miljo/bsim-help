@@ -4,9 +4,7 @@
 The general data for the model view and program setup can be adjusted in the *Options* menu.
 
 <span id="red_text">
-
-*Some changes in the options will not come into action until next time BSim is started.*
-
+Some changes in the options will not come into action until next time BSim is started.
 </span>
 
 <figure id="center_img">
