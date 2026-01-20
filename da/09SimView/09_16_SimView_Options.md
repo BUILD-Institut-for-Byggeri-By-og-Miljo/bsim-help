@@ -70,4 +70,4 @@ Se også:
 
 *   [SimView-menuen](/06BSim_Program_structure/06_06_SimView_Menu.html)
 
-<span style="letter-spacing: -0.01em;">The general data for the model view and program setup can be adjusted in the </span><em style="letter-spacing: -0.01em;">Options*<span style="letter-spacing: -0.01em;"> menu.</span></em>
+The general data for the model view and program setup can be adjusted in the *Options menu.*

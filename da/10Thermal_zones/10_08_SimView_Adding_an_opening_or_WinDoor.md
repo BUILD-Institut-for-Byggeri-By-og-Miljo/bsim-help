@@ -33,31 +33,31 @@ Vinduer og åbninger kan ikke placeres helt ude ved kanten af de konstruktioner 
 
 Hver gang der trykkes på *Apply* tilføjes et objekt *(Opening* eller *WinDoor)* med den givne geometri. Alle åbninger og *WinDoor* tilhørende den samme flade kan derfor med fordel oprettes fra dialogen på en gang.
 
-Hvis et vindue eller en åbning ønskes placeret midt i en flade med lige stor afstand til alle kanter, kan funktionen [Insert Windoor](https://help.bsim.dk/support/kb/articles/xmer2wQV/simview---insert-windoor) benyttes i stedet.
+Hvis et vindue eller en åbning ønskes placeret midt i en flade med lige stor afstand til alle kanter, kan funktionen [Insert Windoor](/24Miscellaneous/24_72_Insert_Windoor_Function.html) benyttes i stedet.
 
-Den geometriske beskrivelse af en WinDoor (rammer, sprosser, udhæng og sidefinner samt systemer der knytter sig hertil - skodder og solafskærmning) sker ved at højre-klikke på objektet i træ-oversigten, hvorved dialogen [Windoor Property](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property) vises.
+Den geometriske beskrivelse af en WinDoor (rammer, sprosser, udhæng og sidefinner samt systemer der knytter sig hertil - skodder og solafskærmning) sker ved at højre-klikke på objektet i træ-oversigten, hvorved dialogen [Windoor Property](/24Miscellaneous/24_73_Windoor_Property.html) vises.
 
-Et bestemt vindue knyttes til modellen ved at trække det fra [databasen](https://help.bsim.dk/support/kb/articles/49EdNJQ7/materialelag-for-windoor) til det rigtige sted i modellens træ-oversigt.
+Et bestemt vindue knyttes til modellen ved at trække det fra [databasen](/07SimDB_Database/07_08_WinDoor_material_layers.html) til det rigtige sted i modellens træ-oversigt.
 
 Systemer tilknyttet en WinDoor:
 
-*   [Regulering](https://help.bsim.dk/support/kb/articles/y9gB57QM/regulation) (af naturlig ventilation)
-*   [Skodder](https://help.bsim.dk/support/kb/articles/ZmNrMxm2/shutter-system) (for reduktions af varmetab om natten)
-*   [Solafskærmning](https://help.bsim.dk/support/kb/articles/7maw8X9E/shading-system) (for reduktion af overhedning)
+*   [Regulering](/11Systems/11_03_Regulation.html) (af naturlig ventilation)
+*   [Skodder](/11Systems/11_04_Shutter_System.html) (for reduktions af varmetab om natten)
+*   [Solafskærmning](/11Systems/11_05_Shading_System.html) (for reduktion af overhedning)
 
 Se også:
 
-*   [Oprette en bygning](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
-*   [Tilføje et rum](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Standardkonstruktioner](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Tilknytte ikke-standardkonstruktioner](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner)
-*   [Oprette en termisk zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property)
-*   [Tilføje rum til termiske zoner](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilf-je-rum-til-termiske-zoner)
-*   [Tilføje systemer til termiske zoner](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
-*   [Redigere geometrien](https://help.bsim.dk/support/kb/articles/L9nrKz9Z/redigere-modelgeometri)
-*   [Sollysfaktorer](https://help.bsim.dk/support/kb/articles/49EdwkQ7/sollysfaktorer-for-windoors)
-*   [Tilføje konstruktioner](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Tilføje en åbning eller WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilf-je-bning-eller-windoor)
-*   [Tilknytte fiktive zoner](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview-fiktive-zoner)
-*   [Tilknytte klimadata og jord](https://help.bsim.dk/support/kb/articles/vWyP8M9b/klimadata)
-*   [Udskrift af model](https://help.bsim.dk/support/kb/articles/z9MKj7m4/udskrift-af-model)
+*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
+*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
+*   [Standardkonstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
+*   [Tilknytte ikke-standardkonstruktioner](/09SimView/09_09_SimView_Non_default_constructions.html)
+*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
+*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
+*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems.html)
+*   [Redigere geometrien](/10Thermal_zones/10_04_SimView_Editing_the_model_geometry.html)
+*   [Sollysfaktorer](/10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.html)
+*   [Tilføje konstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
+*   [Tilføje en åbning eller WinDoor](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html)
+*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
+*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
+*   [Udskrift af model](/10Thermal_zones/10_09_SimView_Printing_a_model.html)
