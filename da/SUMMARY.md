@@ -59,7 +59,6 @@
 
 ### Cad tegninger som grundlag for geometri
 
-
 * [Cad-tegninger som grundlag for geometri](08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md)
 * [SimDXF - Åbne DXF-tegning](08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.md)
 * [SimDXF - Vælg DXF-filter](08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md)
@@ -100,7 +99,7 @@
 * [Referencepunkt](10Thermal_zones/10_03_Reference_point.md)
 * [Redigere modelgeometri](10Thermal_zones/10_04_SimView_Editing_the_model_geometry.md)
 * [Skygger fra omgivelser](10Thermal_zones/10_05_Shadows_from_the_surroundings.md)
-* [Standardkonstruktioner](10Thermal_zones/10_06_Standardkonstruktioner.md)
+* [Standardkonstruktioner](10Thermal_zones/10_06_SimView_Default_constructions.md)
 * [Sollysfaktorer for WinDoors](10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md)
 * [Tilføje åbning eller WinDoor](10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 * [Udskrift af model](10Thermal_zones/10_09_SimView_Printing_a_model.md)
@@ -148,7 +147,7 @@
 * [Kappa-modellen - Implementering i tsbi5](12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.md)
 * [Kappa-modellen, inddata](12The_Kappa_model/12_05_The_Kappa_Model_input_data.md)
 * [Kappa-modellen - Nomenklatur](12The_Kappa_model/12_06_The_Kappa_Model_Nomenclature.md)
-* [Kappa-modellen - Referencer](12The_Kappa_model/12_07_The_Kappa_Model_References.md)
+* [Kappa-modellen - Referenser](12The_Kappa_model/12_07_The_Kappa_Model_References.md)
 
 ----
 
@@ -160,7 +159,7 @@
 * [tsbi5 - Simulation](13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
 * [tsbi5 batch](13tsbi5_thermal_simulation/13_05_tsbi5_Batch.md)
 * [tsbi5 - Eksport til tsbi3](13tsbi5_thermal_simulation/13_06_tsbi5_Exporting_to_tsbi3.md)
-* [tsbi5 - HeatBalance](13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance .md)
+* [tsbi5 - HeatBalance](13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
 * [tsbi5 - Parameters](13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)
 * [tsbi5 - Tables](13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)
 * [tsbi5 - Eksport til CFD program](13tsbi5_thermal_simulation/13_10_tsbi5_Exporting_to_CFD_program.md)
@@ -196,6 +195,12 @@
 
 ----
 
+### Hd98 Heating Demand Calculation
+
+* [Calculating with Hd98](17Hd98_Heating_Demand_Calculation/17_01_Calculating_with_Hd98.md)
+
+----
+
 ### Radiance Visualisering
 
 * [Eksport af data til Radiance](18Radiance_Visualisation_og_the_building/18_01_Exporting_data_to_Radiance.md)
@@ -210,34 +215,34 @@
 
 ### Det matematiske grundlag
 
-* [Det matematiske grundlag](20The_Mathematical_basis/20_01_The_Mathematical_Basis.md)
-* [Bygningsopfattelse, knudepunktsinddeling](20The_Mathematical_basis/20_02_Building_description_and_definition_of_nodes_in_constructions.md)
-* [SimLight teori](20The_Mathematical_basis/20_03_daylight_calculations_in_simlight.md)
-* [Fugtbalancen for en zone](20The_Mathematical_basis/20_04_Moisture_balance_for_a_zone.md)
-* [Detailed moisture balance](20The_Mathematical_basis/20_05_Detailed_Moisture_balance.md)
-* [Automatisk netinddeling](20The_Mathematical_basis/20_06_Automatic_net_generation.md)
-* [Moisture Transport with Hysteresis](20The_Mathematical_basis/20_07_Moisture_transport_with_hysteresis.md)
-* [Effective Moisture Penetration Depth, and Automatic Grid Generation in BSim for Moisture Calculations](20The_Mathematical_basis/20_08_Effective_Moisture_Penetration_Depth,_and_Automatic_Grid_Generation_in_BSim2000_for_Moisture_Calculations.md)
-* [Beregning af glastemperatur](20The_Mathematical_basis/20_09_Calculation_of_the_glass_temperature.md)
-* [Himmeltemperatur](20The_Mathematical_basis/20_10_Sky_temperature.md)
-* [Natural convection at surfaces](20The_Mathematical_basis/20_11_Natural_convection_at_surfaces.md)
-* [Naturlig ventilation](20The_Mathematical_basis/20_12_Natural_ventilation.md)
-* [Uddrag fra By og Byg Anvisning 202](20The_Mathematical_basis/20_13_Extract_from_by_og_byg_direction_202.md)
-* [Multizone modellen](20The_Mathematical_basis/20_14_The_multizone_model.md)
-* [Parametre til naturlig ventilation](20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md)
-* [Systemer til luftudveksling](20The_Mathematical_basis/20_16_System_for_air_exchange.md)
-* [Implementering af mzm](20The_Mathematical_basis/20_17_Implementation_of_mzm.md)
-* [Regulering af multizone modellen](20The_Mathematical_basis/20_18_Control_systems_in_the_multi-zone_model.md)
-* [PAQ](20The_Mathematical_basis/20_19_PAQ.md)
-* [SimPV - Beregningsforudsætninger](20The_Mathematical_basis/20_20_SimPV_Theory.md)
-* [Recirkulation](20The_Mathematical_basis/20_21_Recirculation_of_ventilation_air.md)
-* [Algoritmer til beregning af solstråling og dagslys](20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
-* [Calculation of long wave radiation to the sky](20The_Mathematical_basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md)
-* [On the Form Factor between Two Polygons](20The_Mathematical_basis/20_24_Form_factor_between_two_polygons.md)
-* [Varmebalance for luften i en zone](20The_Mathematical_basis/20_25_Heat_balance_for_the_zone_air.md)
-* [Varmetransport i konstruktionerne](20The_Mathematical_basis/20_26_Heat_transmission_in_constructions.md)
-* [Gulvvarme, matematisk grundlag](20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md)
-* [Litteratur](20The_Mathematical_basis/20_28_Literature.md)
+* [Det matematiske grundlag](20The_Mathematical_Basis/20_01_The_Mathematical_Basis.md)
+* [Bygningsopfattelse, knudepunktsinddeling](20The_Mathematical_Basis/20_02_Building_description_and_definition_of_nodes_in_constructions.md)
+* [SimLight teori](20The_Mathematical_Basis/20_03_daylight_calculations_in_simlight.md)
+* [Fugtbalancen for en zone](20The_Mathematical_Basis/20_04_Moisture_balance_for_a_zone.md)
+* [Detailed moisture balance](20The_Mathematical_Basis/20_05_Detailed_Moisture_balance.md)
+* [Automatisk netinddeling](20The_Mathematical_Basis/20_06_Automatic_net_generation.md)
+* [Moisture Transport with Hysteresis](20The_Mathematical_Basis/20_07_Moisture_transport_with_hysteresis.md)
+* [Effective Moisture Penetration Depth, and Automatic Grid Generation in BSim for Moisture Calculations](20The_Mathematical_Basis/20_08_Effective_Moisture_Penetration_Depth,_and_Automatic_Grid_Generation_in_BSim2000_for_Moisture_Calculations.md)
+* [Beregning af glastemperatur](20The_Mathematical_Basis/20_09_Calculation_of_the_glass_temperature.md)
+* [Himmeltemperatur](20The_Mathematical_Basis/20_10_Sky_temperature.md)
+* [Natural convection at surfaces](20The_Mathematical_Basis/20_11_Natural_convection_at_surfaces.md)
+* [Naturlig ventilation](20The_Mathematical_Basis/20_12_Natural_ventilation.md)
+* [Uddrag fra By og Byg Anvisning 202](20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.md)
+* [Multizone modellen](20The_Mathematical_Basis/20_14_The_multizone_model.md)
+* [Parametre til naturlig ventilation](20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md)
+* [Systemer til luftudveksling](20The_Mathematical_Basis/20_16_System_for_air_exchange.md)
+* [Implementering af mzm](20The_Mathematical_Basis/20_17_Implementation_of_mzm.md)
+* [Regulering af multizone modellen](20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.md)
+* [PAQ](20The_Mathematical_Basis/20_19_PAQ.md)
+* [SimPV - Beregningsforudsætninger](20The_Mathematical_Basis/20_20_SimPV_Theory.md)
+* [Recirkulation](20The_Mathematical_Basis/20_21_Recirculation_of_ventilation_air.md)
+* [Algoritmer til beregning af solstråling og dagslys](20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
+* [Calculation of long wave radiation to the sky](20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md)
+* [On the Form Factor between Two Polygons](20The_Mathematical_Basis/20_24_Form_factor_between_two_polygons.md)
+* [Varmebalance for luften i en zone](20The_Mathematical_Basis/20_25_Heat_balance_for_the_zone_air.md)
+* [Varmetransport i konstruktionerne](20The_Mathematical_Basis/20_26_Heat_transmission_in_constructions.md)
+* [Gulvvarme, matematisk grundlag](20The_Mathematical_Basis/20_27_Floor_heating_mathematical_basis.md)
+* [Litteratur](20The_Mathematical_Basis/20_28_Literature.md)
 
 ----
 
@@ -297,7 +302,7 @@
 * [Building Property](24Miscellaneous/24_27_Building_Property.md)
 * [Insert Default Options](24Miscellaneous/24_28_Insert_Default_Options.md)
 * [Model DOC](24Miscellaneous/24_29_Model_DOC.md)
-* [SimView - Insert Windoor](24Miscellaneous/24_30_SimView_Insert_WinDoor.md)
+* [SimView - Insert Windoor](24Miscellaneous/24_30_SimView_Insert_Windoor.md)
 * [Profilvinkel](24Miscellaneous/24_31_Profile_angle.md)
 * [Standardtabeller for lamel-afskærmninger](24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.md)
 * [Udluftnings temperaturfaktor](24Miscellaneous/24_33_Venting_Temp_Factor.md)
@@ -317,10 +322,10 @@
 * [About SimDXF](24Miscellaneous/24_47_About_SimDXF.md)
 * [SimDXF - oprette hjælpelinier](24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
 * [tsbi5 graf](24Miscellaneous/24_49_tsbi5_graph.md)
-* [Graph Scale](24Miscellaneous/24_50_Graph_scale.md)
+* [Graph Scale](24Miscellaneous/24_50_Graph_Scale.md)
 * [WinDoor Override](24Miscellaneous/24_51_WinDoor_Override.md)
-* [Projekt Wizard 2](24Miscellaneous/24_52_Project_Wizard_2.md)
-* [Projekt Wizard 3](24Miscellaneous/24_53_Project_Wizard_3.md)
+* [Projekt Wizard 2](24Miscellaneous/24_52_Projekt_Wizard_2.md)
+* [Projekt Wizard 3](24Miscellaneous/24_53_Projekt_Wizard_3.md)
 * [Udhæng og sidefinner](24Miscellaneous/24_54_WinDoor_overhangs_and_side-fins.md)
 * [Room Propery](24Miscellaneous/24_55_Room_property.md)
 * [Rumtemperatur](24Miscellaneous/24_56_Room_Temperature.md)
@@ -336,7 +341,7 @@
 * [Standardværdier](24Miscellaneous/24_67_Default_values.md)
 * [Beskrivelse](24Miscellaneous/24_68_Description.md)
 * [Tidligere revisioner i BSim](24Miscellaneous/24_69_Revisions_of_BSim2000.md)
-* [Regulering af gulvvarme](24Miscellaneous/24_70_Control_strategy_for_floor_heating_and_cooling.md)
+* [Regulering af gulvvarme](24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md)
 * [Naturlig Ventilation](24Miscellaneous/24_71_Natural_Ventilation.md)
 * [tsbi5 Natural Ventilation options](24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md)
 * [Windoor systemer](24Miscellaneous/24_73_Windoor_Systems.md)
