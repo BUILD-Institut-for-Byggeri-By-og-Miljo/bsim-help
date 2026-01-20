@@ -25,7 +25,7 @@ Den opdelte flade vil herefter bestå af en flade og en åbning. Åbningen tilkn
 
 Alternativt kan de to sæt koordinater *vertex* vælges og indgangen *Add edge* fra højre-klik menuen bruges til at opdele fladen langs den linie, der forbinder punkterne.
 
-Eksisterende flader kan også [flyttes](https://help.bsim.dk/support/kb/articles/DmwA8o94/simview---move) parallelt med fladens normal.
+Eksisterende flader kan også [flyttes](/09SimView/09_13_SimView_Move.html) parallelt med fladens normal.
 
 <figure id="center_img">
 <img src="./assets/NormalView.GIF" alt="Underinddeling af kanter og flader. De sorte firkanter markerer koordinatpunkter (vertex) tilhørende fladen og kan redigeres ved højre-klik på markeringen i den geometriske visning.">
@@ -36,19 +36,19 @@ Eksisterende flader kan også [flyttes](https://help.bsim.dk/support/kb/articles
 
 Se også:
 
-*   [Oprette en bygning](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
-*   [Tilføje et rum](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Standardkonstruktioner](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Tilknytte ikke-standardkonstruktioner](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner)
-*   [Oprette en termisk zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property)
-*   [Tilføje rum til termiske zoner](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Tilføje systemer til termiske zoner](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
-*   [Redigere geometrien](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
-*   [Tilføje konstruktioner](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Tilføje en åbning eller WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
-*   [Tilknytte fiktive zoner](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview---fiktive-zoner)
-*   [Tilknytte klimadata og jord](https://help.bsim.dk/support/kb/articles/vWyP8M9b/klimadata)
-*   [Udskrift af model](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model)
-*   [SimView menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
-*   [Flytning af bygninger, flader og WinDoors](https://help.bsim.dk/support/kb/articles/DmwA8o94/simview---move)
+*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
+*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
+*   [Standardkonstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
+*   [Tilknytte ikke-standardkonstruktioner](/09SimView/09_09_SimView_Non_default_constructions.html)
+*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
+*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
+*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems.html)
+*   [Redigere geometrien](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Tilføje konstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
+*   [Tilføje en åbning eller WinDoor](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html)
+*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
+*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
+*   [Udskrift af model](/10Thermal_zones/10_09_SimView_Printing_a_model.html)
+*   [SimView menuen](/06BSim_Program_structure/06_06_SimView_Menu.html)
+*   [Flytning af bygninger, flader og WinDoors](/09SimView/09_13_SimView_Move.html)
 

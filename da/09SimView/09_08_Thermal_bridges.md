@@ -13,6 +13,6 @@ Kuldebroer kan tilknyttes kanter både omkring flader og omkring WinDoors.
 
 <span style="text-decoration: underline;">**Clear All**</span> sletter indholdet af skemaet.
 
-Effekten af kuldebroer indgår i energibalancen som beskrevet i [teoriafsnittet](https://help.bsim.dk/support/kb/articles/wmjnblmV/varmebalance-for-luften-i-en-zone).
+Effekten af kuldebroer indgår i energibalancen som beskrevet i [teoriafsnittet](/20The_Mathematical_Basis/20_25_Heat_balance_for_the_zone_air.html).
 
-Det er også muligt at simuler [geometriske kuldebroer](https://help.bsim.dk/support/kb/articles/49EdOJQ7/kuldebroer), dvs. kuldebroer som alene skyldes forskellen i overfladearealer i forbindelse med udadgående hjørner hvor isoleringen går ubrudt rundt om hjørnet.
+Det er også muligt at simuler [geometriske kuldebroer](/24Miscellaneous/24_63_Geometric_Thermal_Bridges.html), dvs. kuldebroer som alene skyldes forskellen i overfladeareal i forbindelse med udadgående hjørner hvor isoleringen går ubrudt rundt om hjørnet.
