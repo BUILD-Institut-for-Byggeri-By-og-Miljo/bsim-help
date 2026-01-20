@@ -50,7 +50,7 @@
 * [SimDB - BuildingMaterial, Glazing](07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 * [SimDB - BuildingMaterial, Material](07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md)
 * [SimDB - BuildingMaterial, Thermal](07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
-* [SimDb - BuildingMaterial, PCM](07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
+* [SimDB - BuildingMaterial, PCM](07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
 * [SimDB - BuildingMaterial, Moisture](07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
 * [SimDB - PV-materialer](07SimDB_Database/07_15_SimDB_PV-materials.md)
 * [SimDB - BuildingMaterial, UserDefined](07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)

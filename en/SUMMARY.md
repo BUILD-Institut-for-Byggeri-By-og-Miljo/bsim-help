@@ -160,7 +160,7 @@
 * [tsbi5 simulation](13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
 * [tsbi5 Batch](13tsbi5_thermal_simulation/13_05_tsbi5_Batch.md)
 * [tsbi5 Exporting to tsbi3](13tsbi5_thermal_simulation/13_06_tsbi5_Exporting_to_tsbi3.md)
-* [tsbi5 HeatBalance](13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance%20.md)
+* [tsbi5 HeatBalance](13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
 * [tsbi5 Parameters](13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)
 * [tsbi5 Tables](13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)
 * [tsbi5 Exporting to CFD program](13tsbi5_thermal_simulation/13_10_tsbi5_Exporting_to_CFD_program.md)
@@ -342,10 +342,10 @@
 * [Default values](24Miscellaneous/24_67_Default_values.md)
 * [Description](24Miscellaneous/24_68_Description.md)
 * [Revisions of BSim2000](24Miscellaneous/24_69_Revisions_of_BSim2000.md)
-* [Control strategy for floor heating and cooling](24Miscellaneous/24_70_Control_strategy_for_floor_heating_and_cooling.md)
 * [Natural Ventilation](24Miscellaneous/24_71_Natural_Ventilation.md)
 * [tsbi5 Natural Ventilation options](24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md)
 * [Windoor Systems](24Miscellaneous/24_73_Windoor_Systems.md)
+* [Control strategy for floor heating and cooling](24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md)
 * [Model information](24Miscellaneous/24_75_Model_information.md)
 
 ----
