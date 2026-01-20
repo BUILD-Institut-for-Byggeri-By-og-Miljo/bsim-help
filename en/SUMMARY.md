@@ -218,7 +218,7 @@
 
 * [The Mathematical Basis](20The_Mathematical_basis/20_01_The_Mathematical_Basis.md)
 * [Building description and definition of nodes in constructions](20The_Mathematical_basis/20_02_Building_description_and_definition_of_nodes_in_constructions.md)
-* [daylight calculations in simlight](20The_Mathematical_basis/20_03_daylight_calculations_in_simlight.md)
+* [Daylight calculations in simlight](20The_Mathematical_basis/20_03_daylight_calculations_in_simlight.md)
 * [Moisture balance for a zone](20The_Mathematical_basis/20_04_Moisture_balance_for_a_zone.md)
 * [Detailed Moisture balance](20The_Mathematical_basis/20_05_Detailed_Moisture_balance.md)
 * [Automatic net generation](20The_Mathematical_basis/20_06_Automatic_net_generation.md)
