@@ -78,7 +78,7 @@
 * [Property dialoger i SimView](09SimView/09_03_Property_dialogs_in_SimView.md)
 * [Dokumentation af model](09SimView/09_04_Documentation_of_model.md)
 * [SimView - fiktive zoner](09SimView/09_05_Sim_View_Virtual_zones.md)
-* [Construction Property](09SimView/09_06_Construction_Property.md)
+* [Construction Property](09SimView/09_06_Construction_property.md)
 * [WinDoor Property](09SimView/09_07_Windoor_property.md)
 * [Kuldebroer](09SimView/09_08_Thermal_bridges.md)
 * [SimView - Ikke-standard konstruktioner](09SimView/09_09_SimView_Non_default_constructions.md)
