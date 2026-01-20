@@ -26,7 +26,7 @@ E-post: info@sbi.dk
 
 Internet: [http://www.sbi.dk](https://www.build.aau.dk/til-byggebranchen)
 
-               [http://www.bsim.dk   ](https://www.bsim.dk/)
+               [http://www.bsim.dk](https://www.bsim.dk/)
 
  
 
