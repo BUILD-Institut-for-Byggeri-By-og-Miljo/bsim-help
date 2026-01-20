@@ -1,9 +1,9 @@
 # Databasen SimDB
 I *BSim* er et af de centrale elementer databasen *SimDB*, der indeholder standardinformation om materialer, konstruktioner og vinduer. *SimDB* er en relationsdatabase, der har samme struktur, som er benyttet i Statens Byggeforskningsinstituts "Energi og miljødatabase", beskrevet i SBI-rapport 278. Energi og miljødatabasen samt det supplerende program kan hentes fra Statens Byggeforskningsinstituts hjemmeside på Internettet.
 
-Databasen indeholder i princippet to databaser, en med materialer ([*BuildingMaterial*](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial)) og en med bygningselementer ([*BuildingElement*](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement)), som er sammensat af en kombination af materialer.
+Databasen indeholder i princippet to databaser, en med materialer ([*BuildingMaterial*](/07SimDB_Database/07_06_SimDB_BuildingMaterial.html)) og en med bygningselementer ([*BuildingElement*](/07SimDB_Database/07_02_SimDB_BuildingElement.html)), som er sammensat af en kombination af materialer.
 
-Alle bygningselementer og materialer er navngivet i henhold til [SfB-systemet](https://help.bsim.dk/support/kb/articles/DQ2xwBWV/sfb-i-bsim), og det er vigtigt, at konventionen overholdes, når der defineres nye data i databasen, idet bygningselementerne sorteres efter SfB-systemet, og databasen viser forskellige faneblade med data, afhængig af SfB-nummeret.
+Alle bygningselementer og materialer er navngivet i henhold til [SfB-systemet](/24Miscellaneous/24_39_SfB_in_BSim.html), og det er vigtigt, at konventionen overholdes, når der defineres nye data i databasen, idet bygningselementerne sorteres efter SfB-systemet, og databasen viser forskellige faneblade med data, afhængig af SfB-nummeret.
 
 Overalt i dialogerne, hvor knappen "Edit" optræder, vil et højre-klik på et SfB-nummer åbne dialogen for redigering af data for objektet.
 
@@ -17,6 +17,6 @@ Hvis standarddatabasen, eller en anden database som er skrivebeskyttet, er valgt
 
 Se også:
 
-*   [BuildingElement](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement)
+*   [BuildingElement](/07SimDB_Database/07_02_SimDB_BuildingElement.html)
 
-*   [BuildingMaterial](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial)
+*   [BuildingMaterial](/07SimDB_Database/07_06_SimDB_BuildingMaterial.html)

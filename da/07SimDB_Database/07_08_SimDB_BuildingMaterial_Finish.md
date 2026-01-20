@@ -3,9 +3,9 @@
 # SimDB - BuildingMaterial, Finish
 Fanebladet *Finish* indeholder information om materialets overfladeegenskaber.
 
-De forskellige data benyttes enten til simulering af det termiske indeklima samt energi- og dagslysforholdene. Data for overfladens farve benyttes dog alene i forbindelse med beregning af dagslysforholdene og ved eksport af bygningsmodeller til videre behandling med [*Radiance*](https://bsim.outseta.com/support/kb/articles/A93zY5Q0/eksport-af-data-til-radiance).
+De forskellige data benyttes enten til simulering af det termiske indeklima samt energi- og dagslysforholdene. Data for overfladens farve benyttes dog alene i forbindelse med beregning af dagslysforholdene og ved eksport af bygningsmodeller til videre behandling med [*Radiance*](/18Radiance_Visualisation_og_the_building/18_01_Exporting_data_to_Radiance.html).
 
-Hvis der ikke vælges et materiale til at repræsentere en overflade vil [*SimLight*](https://bsim.outseta.com/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight) benytte følgende standardværdier for lys-reflektansen i simuleringerne:
+Hvis der ikke vælges et materiale til at repræsentere en overflade vil [*SimLight*](/15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.html) benytte følgende standardværdier for lys-reflektansen i simuleringerne:
 
 *   Gulv: 0,1
 
@@ -15,7 +15,7 @@ Hvis der ikke vælges et materiale til at repræsentere en overflade vil [*SimLi
 
 *   Glas: 0,92
 
-Tilsvarende hentes reflektansen af jordoverfladen omkring modellen fra [Site](https://bsim.outseta.com/support/kb/articles/dQG2Kom4/site-property), hvis den er defineret, ellers benyttes 0,1.
+Tilsvarende hentes reflektansen af jordoverfladen omkring modellen fra [Site](/24Miscellaneous/24_25_Site_Property.html), hvis den er defineret, ellers benyttes 0,1.
 
 <figure id="center_img">
 <img src="./assets/DBFINISH.GIF" alt="Information om materialets overfladeegenskaber findes på fanebladet Finish (Edit Material | Finish).">
@@ -37,16 +37,16 @@ Hvis der for en flade er defineret en farve som overfladeegenskab, overføres de
 
 Se også:
 
-*   [Faneblad Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
+*   [Faneblad Material](/07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.html)
 
-*   [Faneblad Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
+*   [Faneblad Moisture](/07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.html)
 
-*   [Faneblad Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
+*   [Faneblad Thermal](/07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html)
 
-*   [Faneblad Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
+*   [Faneblad Environment](/07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.html)
 
-*   [Faneblad Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
+*   [Faneblad Glazing](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html)
 
-*   [Faneblad UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
+*   [Faneblad UserDefined](/07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.html)
 
-*   [Faneblad Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
+*   [Faneblad Frame](/07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.html)

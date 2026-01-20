@@ -4,7 +4,7 @@
 Fanebladet Moisture indeholder oplysninger om materialets fugtegenskaber.
 
 <div id="gray_background">
-Oprettes der nye materialer i en database med information om egenskaber for fugttransport <u>skal</u> der angives data for fugttransporten, også selvom der ikke skal simuleres fugttransport. <a href="https://help.bsim.dk/support/kb/articles/rQV5b8m6/begransninger">Se begrænsninger</a>.
+Oprettes der nye materialer i en database med information om egenskaber for fugttransport <u>skal</u> der angives data for fugttransporten, også selvom der ikke skal simuleres fugttransport. <a href="/05Introduction/05_05_Limitations.html">Se begrænsninger</a>.
 </div>
 
 
@@ -16,13 +16,13 @@ Oprettes der nye materialer i en database med information om egenskaber for fugt
 I fanebladet *Moisture* angives fugtegenskaber for et materiale. I fanebladet kan angives en række data, som er medtaget til fremtidig brug.
 
 <div id="gray_background">
-Lambda er varmeledningsevnen for materialet som anvendes når "Moisture Transport" er slået TIL under options for simuleringer med tsbi5. Se også "<a href="https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal">Thermal</a>."
+Lambda er varmeledningsevnen for materialet som anvendes når "Moisture Transport" er slået TIL under options for simuleringer med tsbi5. Se også "<a href="/07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html">Thermal</a>."
 </div>
 <br>
 
 **Kun værdien Lambda anvendes endnu, samt de tabeller som defineres under Absorption, Desorption og DeltaRh.**
 
-*Absorption/Desorption*: Klikkes på Absorption (*Desorption*) knappen [åbnes en tabel](https://help.bsim.dk/support/kb/articles/y9gBGVQM/sorptiondesorption), hvori der indtastes sammenhørende værdier af relativ fugt (-) og fugtindhold (kg/kg) for punkter på absorptions (desorptions) kurven for materialet. Første punkt antages altid at være (0, 0), og det kan udelades. Værdierne indtastes i rækkefølge med stigende relativ fugtighed.
+*Absorption/Desorption*: Klikkes på Absorption (*Desorption*) knappen [[åbnes en tabel](/24Miscellaneous/24_43_Sorption_desorption.html), hvori der indtastes sammenhørende værdier af relativ fugt (-) og fugtindhold (kg/kg) for punkter på absorptions (desorptions) kurven for materialet. Første punkt antages altid at være (0, 0), og det kan udelades. Værdierne indtastes i rækkefølge med stigende relativ fugtighed.
 
 *DeltaRH*: Klikkes på *DeltaRH* knappen åbnes en tabel, hvori der indtastes værdi(er) for materialets kurve for det hygroskopiske område, som sammenhørende værdier af relativ fugt (-) og fugt permeabilitet (kg/m s Pa).
 
@@ -30,23 +30,23 @@ Lambda er varmeledningsevnen for materialet som anvendes når "Moisture Transpor
 
 Se også:
 
-*   [Faneblad Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
+*   [Faneblad Material](/07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.html)
 
-*   [Faneblad Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
+*   [Faneblad Thermal](/07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html)
 
-*   [Faneblad PCM](https://help.bsim.dk/support/kb/articles/dQG26zm4/simdb---buildingmaterial-pcm)
+*   [Faneblad PCM](/07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.html)
 
-*   [Faneblad Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
+*   [Faneblad Moisture](/07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.html)
 
-*   [Faneblad Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
+*   [Faneblad Glazing](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html)
 
-*   [Faneblad UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
+*   [Faneblad UserDefined](/07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.html)
 
-*   [Faneblad Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
+*   [Faneblad Frame](/07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.html)
 
-*   [Faneblad Finish](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish)
+*   [Faneblad Finish](/07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.html)
 
 
- 
+ 
 
-*   [Godt i gang med BSim2000](https://bsim.outseta.com/support/kb/articles/y9q8azQA/opbygning-af-model)
+*   [Godt i gang med BSim2000](/21Getting_started_with_BSim/21_01_Getting_started_with_BSim.html)
