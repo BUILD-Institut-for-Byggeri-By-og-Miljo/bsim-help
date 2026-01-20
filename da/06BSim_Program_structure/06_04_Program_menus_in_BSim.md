@@ -4,24 +4,24 @@ Som i andre Windows programmer findes der øverst i programvinduet en række kna
 
 I det følgende beskrives de enkelt funktioner i *BSim*-menuerne:
 
-*   [File](https://bsim.outseta.com/support/kb/articles/L9PwEPQJ/file)
+*   [File](/24Miscellaneous/24_12_File.html)
 
-*   [Edit](https://help.bsim.dk/support/kb/articles/y9q8jqQA/edit)
+*   [Edit](/24Miscellaneous/24_15_Edit.html)
 
-*   [Application](https://help.bsim.dk/support/kb/articles/wmjn0amV/application) (kun tilgængelig fra SimView)
+*   [Application](/24Miscellaneous/24_18_Application.html) (kun tilgængelig fra SimView)
 
-*   [XSun](https://help.bsim.dk/support/kb/articles/nmDBw09y/xsun) (kun tilgængelig fra XSun)
+*   [XSun](/24Miscellaneous/24_20_XSun.html) (kun tilgængelig fra XSun)
 
-*   [View](https://help.bsim.dk/support/kb/articles/BWzdB3QE/view)
+*   [View](/24Miscellaneous/24_21_View.html)
 
-*   [Help](https://help.bsim.dk/support/kb/articles/7mawv19E/help)
+*   [Help](/24Miscellaneous/24_23_Help.html)
 
  
 
 Se også:
 
-*   [*SimView*-menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [*SimView*-menuen](/06BSim_Program_structure/06_06_SimView_Menu.html)
 
-*   [*SimView* træ-menuen](https://help.bsim.dk/support/kb/articles/y9q86qQA/simview---tra-menu)
+*   [*SimView* træ-menuen](/24Miscellaneous/24_24_SimView_Tree_Menu.html)
 
-*   [Værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)
+*   [Værktøjsbjælken](/06BSim_Program_structure/06_05_SimView_Toolbar.html)

@@ -15,7 +15,7 @@ Ved *træk <u>med</u>* venstre knap på musen holdt nede kan rækkefølgen af de
 
 En bygning kan tilføjes til en eksisterende bygning ved at trække bygningen med musen til den ønskede bygning. Den flyttede bygning kan kun genskabes ved Undo.
 
-Et [rum flyttes til en termisk zone](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilfoje-rum-til-termiske-zoner) ved at trække rummet med musen til den termiske zone, og rummet kan fjernes fra en termisk zone ved at trække det tilbage til den bygning rummet tilhører. Hvis en termisk zone slettes med Delete-tasten flyttes rummene i den termisk zone automatisk tilbage til den bygning rummene tilhører.
+Et [rum flyttes til en termisk zone](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html) ved at trække rummet med musen til den termiske zone, og rummet kan fjernes fra en termisk zone ved at trække det tilbage til den bygning rummet tilhører. Hvis en termisk zone slettes med Delete-tasten flyttes rummene i den termisk zone automatisk tilbage til den bygning rummene tilhører.
 
  
 

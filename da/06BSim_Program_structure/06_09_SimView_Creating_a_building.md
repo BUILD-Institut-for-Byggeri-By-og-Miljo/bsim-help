@@ -41,28 +41,28 @@ Dette forhold **skal** man være opmærksom på ved definition af modellens geom
 
 Se også:
 
-*   [Oprette en bygning](https://help.bsim.dk/support/kb/articles/4966L49X/simview---oprette-en-bygning)
+*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
 
-*   [Tilføje et rum](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
+*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
 
-*   [Standardkonstruktioner](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner)
+*   [Standardkonstruktioner](/24Miscellaneous/24_28_Insert_Default_Options.html)
 
-*   [Tilknytte ikke-standardkonstruktioner](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner)
+*   [Tilknytte ikke-standardkonstruktioner](/09SimView/09_09_SimView_Non_default_constructions.html)
 
-*   [Oprette en termisk zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/termisk-zone---egenskaber)
+*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
 
-*   [Tilføje rum til termiske zoner](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
+*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
 
-*   [Tilføje systemer til termiske zoner](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
+*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems_property.html)
 
-*   [Redigere geometrien](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
+*   [Redigere geometrien](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
 
-*   [Tilføje konstruktioner](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner)
+*   [Tilføje konstruktioner](/24Miscellaneous/24_28_Insert_Default_Options.html)
 
-*   [Tilføje en åbning eller WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
+*   [Tilføje en åbning eller WinDoor](/09SimView/09_07_Windoor_property.html)
 
-*   [Tilknytte fiktive zoner](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview---fiktive-zoner)
+*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
 
-*   [Tilknytte klimadata og jord](https://bsim.outseta.com/support/kb/articles/vWyP8M9b/klimadata)
+*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
 
-*   [Udskrift af model](https://bsim.outseta.com/support/kb/articles/z9MKj7m4/udskrift-af-model)
+*   [Udskrift af model](/06BSim_Program_structure/06_07_SimView_Printing_a_model.html)

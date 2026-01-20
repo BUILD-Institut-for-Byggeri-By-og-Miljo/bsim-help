@@ -22,32 +22,32 @@ Der er fem punkter i *SimView*-menuen, som ikke beskrives under et særskilt pun
 
 De enkelte menupunkter kalder forskellige dialoger frem som behandles nærmere ved beskrivelsen af emnerne:
 
-*   [Options](https://bsim.outseta.com/support/kb/articles/LmJv8EmP/options)
+*   [Options](/09SimView/09_16_SimView_Options.html)
 
-*   [Defaults](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner)
+*   [Defaults](/24Miscellaneous/24_28_Insert_Default_Options.html)
 
-*   [Add Building](https://help.bsim.dk/support/kb/articles/4966L49X/simview---oprette-en-bygning)
+*   [Add Building](/09SimView/09_14_SimView_Creating_a_building.html)
 
-*   [Add Room](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
+*   [Add Room](/09SimView/09_15_SimView_Creating_a_space.html)
 
-*   [Add Face](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
+*   [Add Face](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
 
-*   [Add Edge](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
+*   [Add Edge](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
 
-*   [Add Opening](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
+*   [Add Opening](/09SimView/09_07_Windoor_property.html)
 
-*   [Add WinDoors](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
+*   [Add WinDoors](/09SimView/09_07_Windoor_property.html)
 
-*   [Insert Windoor](https://help.bsim.dk/support/kb/articles/xmer2wQV/simview---insert-windoor)
+*   [Insert Windoor](/24Miscellaneous/24_30_SimView_Insert_Windoor.html)
 
-*   [Move](https://help.bsim.dk/support/kb/articles/DmwA8o94/simview---move)
+*   [Move](/09SimView/09_13_SimView_Move.html)
 
-*   [Split Face](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
+*   [Split Face](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
 
-*   [Split Edge](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
+*   [Split Edge](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
 
  
 
 Se også:
 
-*   [SimView træ-menuen.](https://help.bsim.dk/support/kb/articles/y9q86qQA/simview---tra-menu)
+*   [SimView træ-menuen.](/24Miscellaneous/24_24_SimView_Tree_Menu.html)

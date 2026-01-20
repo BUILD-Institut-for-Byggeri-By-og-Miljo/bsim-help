@@ -9,7 +9,7 @@
 
 Værktøjsbjælken i *BSim* indeholder en række knapper med følgende funktioner (fra venstre):
 
-|<img src="./assets/1SimView - Værktøjsbjælken.png" width=50> | [Opret nyt projekt (genvej: *Ctrl + n*)](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard---oprette-en-ny-model) |
+|<img src="./assets/1SimView - Værktøjsbjælken.png" width=50> | [Opret nyt projekt (genvej: *Ctrl + n*)](/09SimView/09_12_Model_wizard_creating_a_new_model.html) |
 |---|---|
 | <img src="./assets/2SimView - Værktøjsbjælken.png" width=50> | Åben eksisterende projekt (genvej: *Ctrl + o*). I dialogboksen angives (fra version 1,1,12,12) modeller med en farvet ikon <img src="./assets/18SimView - Værktøjsbjælken.png" width=20> og backup af modeller med en grå ikon <img src="./assets/grå hus.gif" width=12>, |
 | <img src="./assets/3SimView - Værktøjsbjælken.png" width=50> | Gem det aktuelle projekt (genvej: *Ctrl + s*), |
@@ -22,18 +22,18 @@ Værktøjsbjælken i *BSim* indeholder en række knapper med følgende funktione
 | <img src="./assets/10SimView - Værktøjsbjælken.png" width=50> | Indsæt (genvej: *Ctrl + v*), |
 | <img src="./assets/11SimView - Værktøjsbjælken.png" width=50> | Vis udskrift, |
 | <img src="./assets/12SimView - Værktøjsbjælken.png" width=50> | Udskriv (genvej: *Ctrl + p*), |
-| <img src="./assets/13SimView - Værktøjsbjælken.png" width=50> | Vis modellen som HTML i pc'ens standard internet browser som [model doc](https://help.bsim.dk/support/kb/articles/L9PwV6QJ/model-doc), |
-| <img src="./assets/14SimView - Værktøjsbjælken.png" width=50> | Vis listning (dokumentation) for aktuelle visning, [ModelList](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model), |
-| <img src="./assets/15SimView - Værktøjsbjælken.png" width=50> | [Eksport af bygningsmodellen](https://bsim.outseta.com/support/kb/articles/wmjnRomV/eksport-til-be10) for brug i Be10-programmet, |
-| <img src="./assets/16SimView - Værktøjsbjælken.png" width=50> | Skift til værktøjet [BEAT](https://bsim.outseta.com/support/kb/articles/49EdodQ7/beat) for miljøvurdering af bygningen, |
-| <img src="./assets/17SimView - Værktøjsbjælken.png" width=50> | [Beregning af dagslys med *SimLight*](https://bsim.outseta.com/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight), |
-| <img src="./assets/18SimView - Værktøjsbjælken.png" width=50> | [Skift til *SimView*](https://bsim.outseta.com/support/kb/articles/wQXx2xQK/simview), |
-| <img src="./assets/19SimView - Værktøjsbjælken.png" width=50> | [Skift til *XSun*](https://bsim.outseta.com/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun), |
-| <img src="./assets/20SimView - Værktøjsbjælken.png" width=50> | [Skift til *tsbi5*](https://bsim.outseta.com/support/kb/articles/ZmNrOwm2/termisk-simulering), |
-| <img src="./assets/21SimView - Værktøjsbjælken.png" width=50> | Start [tsbi5Batch](https://bsim.outseta.com/support/kb/articles/pWrnK2Wn/tsbi5-batch), |
-| <img src="./assets/22SimView - Værktøjsbjælken.png" width=50> | Start "plug-in" applikation 1, her [*SimDXF* ](https://help.bsim.dk/support/kb/articles/7maw2X9E/simdxf---tilfoje-som-applikation) (installeres via *<u>A</u>pplication* , *Setup*), |
+| <img src="./assets/13SimView - Værktøjsbjælken.png" width=50> | Vis modellen som HTML i pc'ens standard internet browser som [model doc](/24Miscellaneous/24_29_Model_DOC.html), |
+| <img src="./assets/14SimView - Værktøjsbjælken.png" width=50> | Vis listning (dokumentation) for aktuelle visning, [ModelList](/06BSim_Program_structure/06_07_SimView_Printing_a_model.html), |
+| <img src="./assets/15SimView - Værktøjsbjælken.png" width=50> | [Eksport af bygningsmodellen](/24Miscellaneous/24_50_Export_to_Be10.html) for brug i Be10-programmet, |
+| <img src="./assets/16SimView - Værktøjsbjælken.png" width=50> | Skift til værktøjet [BEAT](/24Miscellaneous/24_51_About_BEAT.html) for miljøvurdering af bygningen, |
+| <img src="./assets/17SimView - Værktøjsbjælken.png" width=50> | [Beregning af dagslys med *SimLight*](/15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.html), |
+| <img src="./assets/18SimView - Værktøjsbjælken.png" width=50> | [Skift til *SimView*](/09SimView/09_01_SimView.html), |
+| <img src="./assets/19SimView - Værktøjsbjælken.png" width=50> | [Skift til *XSun*](/14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.html), |
+| <img src="./assets/20SimView - Værktøjsbjælken.png" width=50> | [Skift til *tsbi5*](/13tsbi5_thermal_simulation/13_04_tsbi5_simulation.html), |
+| <img src="./assets/21SimView - Værktøjsbjælken.png" width=50> | Start [tsbi5Batch](/13tsbi5_thermal_simulation/13_05_tsbi5_Batch.html), |
+| <img src="./assets/22SimView - Værktøjsbjælken.png" width=50> | Start "plug-in" applikation 1, her [*SimDXF* ](/24Miscellaneous/24_47_About_SimDXF.html) (installeres via *<u>A</u>pplication* , *Setup*), |
 | <img src="./assets/23SimView - Værktøjsbjælken.png" width=50> | Start "plug-in" applikation 2, her _notepad_ (installeres via *<u>A</u>pplication* , *Setup*), |
-| <img src="./assets/24SimView - Værktøjsbjælken.png" width=50> | [Start *SimDB*](https://bsim.outseta.com/support/kb/articles/y9q842QA/databasen-simdb), |
+| <img src="./assets/24SimView - Værktøjsbjælken.png" width=50> | [Start *SimDB*](/24Miscellaneous/24_42_About_SimDB.html), |
 | <img src="./assets/25SimView - Værktøjsbjælken.png" width=50> | Opdater visning, |
 | <img src="./assets/26SimView - Værktøjsbjælken.png" width=50> | Zoom ind (genvej: "+"), |
 | <img src="./assets/27SimView - Værktøjsbjælken.png" width=50> | Zoom ud (genvej: "-"), |
@@ -51,35 +51,35 @@ Værktøjsbjælken i *BSim* indeholder en række knapper med følgende funktione
 
 Relaterede emner:
 
-*   [Oprette en ny model](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard---oprette-en-ny-model)
+*   [Oprette en ny model](/09SimView/09_12_Model_wizard_creating_a_new_model.html)
 
-*   [Værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)
+*   [Værktøjsbjælken](/06BSim_Program_structure/06_05_SimView_Toolbar.html)
 
-*   [Oprette en bygning](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
+*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
 
-*   [Tilføje et rum](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
+*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
 
-*   [Konstruktioner](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner)
+*   [Konstruktioner](/24Miscellaneous/24_28_Insert_Default_Options.html)
 
-*   [Oprette en termisk zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/termisk-zone---egenskaber)
+*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
 
-*   [Tilføje rum til termiske zoner](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
+*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
 
-*   [Tilføje systemer til termiske zoner](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
+*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems_property.html)
 
-*   [Redigere geometrien](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
+*   [Redigere geometrien](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
 
-*   [Tilføje en åbning eller en WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
+*   [Tilføje en åbning eller en WinDoor](/09SimView/09_07_Windoor_property.html)
 
-*   [Tilknytte fiktive zoner](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview---fiktive-zoner)
+*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
 
-*   [Tilknytte klimadata og jord](https://bsim.outseta.com/support/kb/articles/vWyP8M9b/klimadata)
+*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
 
-*   [Udskrift af model](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model)
+*   [Udskrift af model](/06BSim_Program_structure/06_07_SimView_Printing_a_model.html)
 
  
 
 Se også:
 
-*   [SimView menuen.](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [SimView menuen.](/06BSim_Program_structure/06_06_SimView_Menu.html)
 
