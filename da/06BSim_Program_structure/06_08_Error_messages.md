@@ -6,9 +6,9 @@ Fejlmeddelelser i *ModelList* vise med en foranstillet ikon <img src="./assets/1
 
 Fejlmeddelelser optræder følgende steder:
 
-*   [Termisk simulering med tsbi5 og ModelList](#tsbi5-modellist)
+*   <a href="#tsbi5-modellist">Termisk simulering med tsbi5 og ModelList</a>
 
-*   [Simulering af direkte sol med XSun](#xsun)
+*   <a href="#xsun">Simulering af direkte sol med XSun</a>
 
 <h3 id="tsbi5-modellist"><strong>tsbi5 / ModelList</strong></h3>
 
