@@ -11,8 +11,6 @@ Any feed-back to the module given at bsim-support@build.aau.dk is appreciated! <
 </div>
  
 
-The page is under construction! <img src="./assets/SIGN.gif" width=25>
-
 <div id="gray_background">
 
 <strong>Note:</strong> Standard values should <span id="red_text"> <strong>only</strong> </span> be changed with great care! When the "OK" button is pressed, the actual values are changed and will be used in the simulations until they are changed again.

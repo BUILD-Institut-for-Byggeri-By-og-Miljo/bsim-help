@@ -117,38 +117,6 @@ Konverteringen af klimadata forudsætter at data findes i følgende formater:
 
 Tryk <u>altid</u> *Save* inden data konverteres!
 
-Når klimadata er konverteret vise en statistik over de konverterede klimadata. I statistikken vises måned for måned minimum, middel og maksimum værdierne for Udetemperatur (°C), Absolut fugtindhold (kg/kg), Normal stråling (W/m²), Diffus stråling (W/m²), Skydække (oktas), Vindretning (°) og Vindhastighed (m/s). Sidst vises de samme tre værdier for den samlede periode med konverterede data.
+Når klimadata er konverteret vise en statistik over de konverterede klimadata. I statistikken vises måned for måned minimum, middel og maksimum værdierne for Udetemperatur (°C), Absolut fugtindhold (kg/kg), Normal stråling (W/m²), Diffus stråling (W/m²), Skydække (oktas), Vindretning (°) og Vindhastighed (m/s).
 
  
-
-### **DRY og TRY**
-
-Med BSim følger vejrdata i DRY (Design Reference Year) format. Data i DRY består af månedsvise klimadata målt i perioden 1975 til 1989. De 12 måneder i DRY er:
-
- | **Måned**    | **År** |
-|--------------|--------|
-| januar       | 1981   |
-| februar      | 1976   |
-| marts        | 1984   |
-| april        | 1987   |
-| maj          | 1986   |
-| juni         | 1980   |
-| juli         | 1977   |
-| august       | 1978   |
-| september    | 1987   |
-| oktober      | 1986
-
-Tidligere blev der normalt benyttet et sæt klimadata med betegnelsen TRY (Test Reference Year). Et sådan datasæt fulgte med BSim og bestod følgende 12 måneder registreret i perioden fra 1959 til 1973:
-
-| **Måned**    | **År** |
-|--------------|--------|
-| januar       | 1967   |
-| februar      | 1968   |
-| marts        | 1966   |
-| april        | 1962   |
-| maj          | 1961   |
-| juni         | 1963   |
-| juli         | 1963   |
-| august       | 1971   |
-| september    | 1965   |
-| oktober      | 1962

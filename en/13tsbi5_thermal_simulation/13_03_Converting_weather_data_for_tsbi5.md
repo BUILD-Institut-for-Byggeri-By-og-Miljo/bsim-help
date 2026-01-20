@@ -10,7 +10,7 @@ This page gives a short description of the manual conversion of climate data.
 
 ### **Weather data**
 
-Weather data must be supplied as hourly values, day by day for a whole year, or day by day for periods of a year. Data must exist as hourly values for the different parameters, line by line in an ASCII-file, stated in sequence from January 1st. (or the first day of the first period) ordered in sequence of the day numbers in the year. The name of weather file to be used in BSim will be the same as the name of the ASCII-file except for the extension, which will be DRY or TRY. Data **must** be given with increasing time definition, eventually with gabs. If one for instance wishes to make a climate file from October to March, data must be present from January to March, then a gab and the data from October to December.
+Weather data must be supplied as hourly values, day by day for a whole year, or day by day for periods of a year. Data must exist as hourly values for the different parameters, line by line in an ASCII-file, stated in sequence from January 1st. (or the first day of the first period) ordered in sequence of the day numbers in the year. The name of weather file to be used in BSim will be the same as the name of the ASCII-file except for the extension, which will be DRY or TRY. Data **must** be given with increasing time definition, eventually with gabs. If one for instance wishes to make a climate file from October to March, data must be present from January to March, then a gap and the data from October to December.
 
 The following data are used by tsbi5:
 
@@ -126,40 +126,5 @@ Conversion of climate data depend on existence of input data in the following un
 
 <u>Always</u> press *Save* before doing a climate data conversion.
 
-When climate data have been converted, a statistic for the new climate file is shown. The statistic shows month by month the minimum, the average and the maximum values of ambient temperature (°C), absolute moisture content (kg/kg), Normal radiation (W/m²), Diffuse radiation (W/m²), cloud cover (octas), Wind direction (°) and Wind speed (m/s). At the end of the page, the same three values are shown for the total converted period.
+When climate data have been converted, a statistic for the new climate file is shown. The statistic shows month by month the minimum, the average and the maximum values of ambient temperature (°C), absolute moisture content (kg/kg), Normal radiation (W/m²), Diffuse radiation (W/m²), cloud cover (octas), Wind direction (°) and Wind speed (m/s).
 
-#### **DRY og TRY**
-
-BSim includes weather data in DRY (Design Reference Year) format. The DRY data consist of monthly climate data measured during the period 1975–1989. The 12 months in the DRY are:
-
-|**Month**     | **Year** |
-|-----------|------|
-| January   | 1981 |
-| February  | 1976 |
-| March     | 1984 |
-| April     | 1987 |
-| May       | 1986 |
-| June      | 1980 |
-| July      | 1977 |
-| August    | 1978 |
-| September | 1987 |
-| October   | 1986 |
-| November  | 1977 |
-| December  | 1986 |
-
-Previously, a set of climate data called TRY (Test Reference Year) was commonly used. Such a dataset accompanied BSim and consisted of the following 12 months recorded in the period 1959–1973:
-
-| **Month**     | **Year** |
-|-----------|------|
-| January   | 1967 |
-| February  | 1968 |
-| March     | 1966 |
-| April     | 1962 |
-| May       | 1961 |
-| June      | 1963 |
-| July      | 1963 |
-| August    | 1971 |
-| September | 1965 |
-| October   | 1962 |
-| November  | 1964 |
-| December  | 1970 |
