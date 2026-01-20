@@ -49,17 +49,17 @@ Hvis der ikke vælges et materiale til at repræsentere en overflade vil *SimLig
 
 ### **Rum - temperatur og fugt**
 
-Hvis er rum **ikke** er placeret i en *termisk zone*, tildelt den samme temperatur som en *termisk zone* eller tilknyttet et *temperaturprofil*, benyttes 20 °C som en fast indetemperatur gennem hele simuleringsperioden.
+Hvis et rum **ikke** er placeret i en *termisk zone*, tildelt den samme temperatur som en *termisk zone* eller tilknyttet et *temperaturprofil*, benyttes 20 °C som en fast indetemperatur gennem hele simuleringsperioden.
 
 ### **Solceller**
 
 Vælges der ingen materialeegenskab for arealer med solceller, benyttes som standard egenskaberne for et solcelleanlæg bestående af monokrystallinske solceller og en fornuftig elektrisk konfiguration og en god vekselretter. Værdierne for standardsystemet er:
 
 
- Variabel                                | Værdi  |
+| Variabel                                | Værdi  |
 |-----------------------------------------|--------|
 | Systemeffektivitet                      | 8,12 % |
 | Skyggeeffektivitet (angivet som % af systemeffektiviteten) | 15 %   |
-| Proportional skyggered | Nej |
+| Proportional skyggereduktion | Nej |
 
 Solceller kan beregnes med et udvidelsesmodul i BSim.
