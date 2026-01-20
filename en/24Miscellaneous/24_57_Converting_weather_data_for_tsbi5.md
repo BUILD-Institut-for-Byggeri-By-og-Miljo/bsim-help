@@ -119,5 +119,5 @@ Conversion of climate data depend on existence of input data in the following un
 
 <u>Always</u> press *Save* before doing a climate data conversion.
 
-When climate data have been converted, a statistic for the new climate file is shown. The statistic shows month by month the minimum, the average and the maximum values of ambient temperature (°C), absolute moisture content (kg/kg), Normal radiation (W/m²), Diffuse radiation (W/m²), cloud cover (octas), Wind direction (°) and Wind speed (m/s). At the end of the page, the same three values are shown for the total converted period.
+When climate data have been converted, a statistic for the new climate file is shown. The statistic shows month by month the minimum, the average and the maximum values of ambient temperature (°C), absolute moisture content (kg/kg), Normal radiation (W/m²), Diffuse radiation (W/m²), cloud cover (octas), Wind direction (°) and Wind speed (m/s).
 
