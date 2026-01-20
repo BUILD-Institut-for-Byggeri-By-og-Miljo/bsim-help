@@ -5,13 +5,13 @@
 
 #### **Bygningens systemer**
 
-Eksemplet bygger videre på beskrivelser og dataindlæsningen i [eksempel 1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1). Her beskrives, hvorledes en eksisterende bygningsmodel hentes ind i programmet, og hvordan den gemmes som en fil med et nyt navn. Dernæst forklares det, hvordan data for bygningens systemer og de tilhørende reguleringer tilføjes.
+Eksemplet bygger videre på beskrivelser og dataindlæsningen i [eksempel 1](/21Getting_started_with_BSim/21_03_Example_1.html). Her beskrives, hvorledes en eksisterende bygningsmodel hentes ind i programmet, og hvordan den gemmes som en fil med et nyt navn. Dernæst forklares det, hvordan data for bygningens systemer og de tilhørende reguleringer tilføjes.
 
  
 
 #### **Hent eksisterende model**
 
-Programmet startes som beskrevet i [eksempel 1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1) ved at at klikke på BSim via menuen *Start* | *Programmer* | *BSim* | *BSim*. I SimView vælges indgangen *Open* fra menuen *File* eller der trykkes på knappen *Open* i [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken), hvorved der fremkommer en dialog, som viser den aktuelle sti. Stien til [eksempel 1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1) findes, fx C:\Programmer\Statens Byggeforskningsinstitut\BSim\Modeller, hvorved programmet viser en oversigt over bygningsmodeller i den beskrevne sti. Her vælges modellen EKS1. Herved henter programmet data for den tidligere indlæste bygningsmodel EKS1 ind i BSim.
+Programmet startes som beskrevet i [eksempel 1](/21Getting_started_with_BSim/21_03_Example_1.html) ved at at klikke på BSim via menuen *Start* | *Programmer* | *BSim* | *BSim*. I SimView vælges indgangen *Open* fra menuen *File* eller der trykkes på knappen *Open* i [værktøjsbjælken](/09SimView/09_05_SimView_toolbar.html), hvorved der fremkommer en dialog, som viser den aktuelle sti. Stien til [eksempel 1](/21Getting_started_with_BSim/21_03_Example_1.html) findes, fx C:\Programmer\Statens Byggeforskningsinstitut\BSim\Modeller, hvorved programmet viser en oversigt over bygningsmodeller i den beskrevne sti. Her vælges modellen EKS1. Herved henter programmet data for den tidligere indlæste bygningsmodel EKS1 ind i BSim.
 
  
 
@@ -23,7 +23,7 @@ De fleste systemer i BSim er tilknyttet termiske zoner - undtagelsen er systemer
 
 Alle former for varme- og fugtbelastninger, installationer, systemer, anlæg etc. betegnes i BSim for 'systemer', idet der skelnes mellem følgende typer: Personlast, udstyr, fugt og infiltration, for hvilke brugeren fastlægger den tidsmæssige variation samt belysning, udluftning, mixing, opvarmning, køling og ventilation, for hvilke der kan beskrives en regulering, som sigter på at opretholde visse indeklimakrav. Systemerne for de bygningsmodeller, der kan opbygges i BSim, må altså defineres i overensstemmelse med denne inddeling.
 
-For den simple bygning, der er indlæst data for i [eksempel 1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1), beskrives de aktuelle 'systemer' i nedenstående skema:
+For den simple bygning, der er indlæst data for i [eksempel 1](/21Getting_started_with_BSim/21_03_Example_1.html), beskrives de aktuelle 'systemer' i nedenstående skema:
 
 
  
@@ -43,7 +43,7 @@ For den simple bygning, der er indlæst data for i [eksempel 1](https://bsim.out
 
 #### **Indlæsning af data for systemer**
 
-For at definere systemerne højre-klikkes på den termiske zone i træoversigten. Herved fremkommer en dialog der viser de mulige systemer, der kan beskrives. De systemer, som ønskes benyttet i modellen, vælges ved at sætte et "hak" ud for det enkelte system. Klikkes der en gang til på "hakket", får det en grå baggrund, hvilket betyder, at systemet oprettes, men er inaktivt. Mere uddybende forklaringer vedrørende systemerne gives i afsnittet om [systemer](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer).
+For at definere systemerne højre-klikkes på den termiske zone i træoversigten. Herved fremkommer en dialog der viser de mulige systemer, der kan beskrives. De systemer, som ønskes benyttet i modellen, vælges ved at sætte et "hak" ud for det enkelte system. Klikkes der en gang til på "hakket", får det en grå baggrund, hvilket betyder, at systemet oprettes, men er inaktivt. Mere uddybende forklaringer vedrørende systemerne gives i afsnittet om [systemer](/11Systems/11_01_Systems.html).
 
 <figure id="center_img">
 <img src="./assets/system_add.gif" alt="Dialog (ThermalZone Property) for til- eller fravælgelse af systemer i en termisk zone.">
@@ -65,13 +65,13 @@ Ved at højre-klikke på ikonet for personlast ([*PeopleLoad*](https://bsim.outs
 
 **Tidsplan**
 
-For alle typer af 'systemer' skal der tilknyttes en tidsplan ([*Schedule*](https://bsim.outseta.com/support/kb/articles/79O3DZ9E/schedule-system)), som beskriver, hvorledes systemets drift, regulering og belastning varierer med tiden. En tidsplan er en samling af sammenhængende par af reguleringer (tredje faneblad) og [tidsangivelser](https://bsim.outseta.com/support/kb/articles/VmAOwo9a/time-system) (sidste faneblad) som definerer hvordan og hvornår et system reguleres. Tidsplanen findes på andet faneblad i dialogen.
+For alle typer af 'systemer' skal der tilknyttes en tidsplan ([*Schedule*](/11Systems/11_02_Systems_schedule.html)), som beskriver, hvorledes systemets drift, regulering og belastning varierer med tiden. En tidsplan er en samling af sammenhængende par af reguleringer (tredje faneblad) og [tidsangivelser](/11Systems/11_01_Systems.html) (sidste faneblad) som definerer hvordan og hvornår et system reguleres. Tidsplanen findes på andet faneblad i dialogen.
 
 For den definerede personlast skal der angives en tidsplan, som udtrykker at inden for arbejdstiden er der to personer til stede mandag-onsdag, mens der kun er én person torsdag-fredag.
 
-Da der findes (oprettet med [wizard'en](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard---oprette-en-ny-model) da modellen blev startet) data både for døgnprofiler (som er den aktuelle reguleringstype) og for tidsangivelser, vil programmet ved valg af 'Regulering', henholdsvis 'Tidsangivelse' vise en oversigt over mulige objekter, der kan vælges fra i valgmenuerne øverst på de to faneblade.
+Da der findes (oprettet med [wizard'en](/06BSim_Program_structure/06_10_Model_wizard_create_a_new_model.html) da modellen blev startet) data både for døgnprofiler (som er den aktuelle reguleringstype) og for tidsangivelser, vil programmet ved valg af 'Regulering', henholdsvis 'Tidsangivelse' vise en oversigt over mulige objekter, der kan vælges fra i valgmenuerne øverst på de to faneblade.
 
-En mere detaljeret beskrivelse af [døgnprofiler](https://bsim.outseta.com/support/kb/articles/L9PwDAQJ/dayprofile-system) og [tidsangivelser](https://bsim.outseta.com/support/kb/articles/VmAOwo9a/time-system) findes i afsnittet [Systemer](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer). Det valgte døgnprofil definerer, at hele (100 %) den i systemet angivne effekt (varmelast og fugtlast) afgives inden for den tilhørende tidsangivelse. I det aktuelle tilfælde er dette døgnprofil gældende i arbejdstiden mandag til onsdag. Døgnprofilet tilknyttes den valgte tidsplan ved at trykke på knappen *Anvend* (Apply) nederst på fanebladet.
+En mere detaljeret beskrivelse af [døgnprofiler](/11Systems/11_08_Dayprofile_system.html) og [tidsangivelser](/11Systems/11_01_Systems.html) findes i afsnittet [Systemer](/11Systems/11_01_Systems.html). Det valgte døgnprofil definerer, at hele (100 %) den i systemet angivet effekt (varmelast og fugtlast) afgives inden for den tilhørende tidsangivelse. I det aktuelle tilfælde er dette døgnprofil gældende i arbejdstiden mandag til onsdag. Døgnprofilet tilknyttes den valgte tidsplan ved at trykke på knappen *Anvend* (Apply) nederst på fanebladet.
 
 Da der ikke på forhånd findes en tidsangivelse svarende hertil, må den oprettes som en ny tidsangivelse i modellen. Dette kan fx gøres ved at kopiere tiden 'hverdage 9-16' og heri ændre dagsangivelse fra dag 1-5 til dag 1-3 og samtidig ændre navnet til 'mandag-onsdag 9-16'.
 
@@ -124,7 +124,7 @@ Ud over fugtafgivelsen fra personerne regnes der i dette eksempel med fugtafgive
 
 **Infiltration**
 
-Via systemet Infiltration fås en dialog med data for beskrivelse af, hvorledes infiltrationen kan antages at variere med forskellen mellem inde- og udetemperatur samt med vindhastigheden. En nærmere forklaring på data i denne dialog er givet under beskrivelsen i afsnittet [Infiltration](https://bsim.outseta.com/support/kb/articles/Rm8JRZ94/infiltration-system).
+Via systemet Infiltration fås en dialog med data for beskrivelse af, hvorledes infiltrationen kan antages at variere med forskellen mellem inde- og udetemperatur samt med vindhastigheden. En nærmere forklaring på data i denne dialog er givet under beskrivelsen i afsnittet [Infiltration](/11Systems/11_04_Infiltration_system.html).
 
 <figure id="center_img">
 <img src="./assets/infiltration.gif" alt="Dialog (Infiltration) for definition af infiltration.">
