@@ -2,8 +2,6 @@
 
 # Recirculation
 
-This page is currently under construction <img src="./assets/SIGN.gif" width=25>
-
 <div id="gray_background">
 Recirculation of ventilation air happens according to the pseudo-code shown below.
 </div>

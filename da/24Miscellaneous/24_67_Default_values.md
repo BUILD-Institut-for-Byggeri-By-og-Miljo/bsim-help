@@ -2,10 +2,6 @@
 
 # Standardværdier
 
-<figure id="center_img">
-<img src="./assets/SIGN.gif" alt="">
-<figcaption></figcaption>
-</figure>
 
 Der anvendes generelt standardværdier for en lang række data forskellige steder i programmet hvis der ikke er opgivet brugerdefinerede værdier. I det følgende vil BSim's standardværdier blive samlet.
 

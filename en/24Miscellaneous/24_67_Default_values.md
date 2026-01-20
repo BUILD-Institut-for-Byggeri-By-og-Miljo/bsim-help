@@ -2,7 +2,6 @@
 
 # Default values
 
-This page is under construction <img src="./assets/SIGN.gif" width=25>
 
 Default values are used in a number of locations in BSim if nothing else is given by the user. In the following all standard values used in BSim will be shown.
 

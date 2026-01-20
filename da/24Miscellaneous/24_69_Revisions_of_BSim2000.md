@@ -818,4 +818,4 @@
 
 *   *SimDxf*: er blevet optimeret, og der er indført kontrol af, at modeller der indholder rum, som ikke er fuldt defineret, kan gemmes som en *.dis fil. Når en model gemmes som en *.arc fil gemmes 'nodes' også, hvilket ikke var tilfældet tidligere.
 
-*   *SimDB*: Databasemodulet er blevet udbygget til at understøtte fugtegenskaber for byggematerialer. Ændringen er ikke synlig ved brug med de eksisterende databaser. Fugtmodellen er under opbygning og vil først blive tilgængelig senere.
+*   *SimDB*: Databasemodulet er blevet udbygget til at understøtte fugtegenskaber for byggematerialer. Ændringen er ikke synlig ved brug med de eksisterende databaser. Fugtmodellen vil først blive tilgængelig senere.

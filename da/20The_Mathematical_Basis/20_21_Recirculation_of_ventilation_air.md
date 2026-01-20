@@ -2,10 +2,6 @@
 
 # Recirkulation
 
-<figure id="center_img">
-<img src="./assets/SIGN.gif" alt="">
-<figcaption></figcaption>
-</figure>
 
 <span id="gray_background">
 Recirkulation af ventilationsluften sker i henhold til nedenstående pseudo-kode.

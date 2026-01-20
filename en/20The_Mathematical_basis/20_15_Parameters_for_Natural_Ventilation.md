@@ -11,8 +11,6 @@ Any feed-back to the module given at [bsim-support@sbi.dk](mailto:bsim-support@s
 </div>
  
 
-The page is under construction! <img src="./assets/SIGN.gif" width=25>
-
 The parameter Cd is central for the simulation of natural ventilation using the multi-zone model (mzm) and can be determined according to [By og Byg (SBi), Direction 202](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) (In Danish). The inlet air handling unit constant Ka are used to calculate the penetration depth for the inlet air through a opening. Ka can be determined according to the [Danvak basic book, chapter 7](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) (In Danish).
 
  
