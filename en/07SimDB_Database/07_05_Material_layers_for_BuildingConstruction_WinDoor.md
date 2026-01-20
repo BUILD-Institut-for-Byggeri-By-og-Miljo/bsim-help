@@ -11,7 +11,7 @@ WinDoors are defined in the same database structure as al other constructions, b
 
     *   The meaning of field 2 depends on the layer number:
 
-        *   For layer 1 (glass) field 2 defines the lienar heat-loss corfficient through the spacer between the panes of glass (see table).
+        *   For layer 1 (glass) field 2 defines the lienar heat-loss corfficient through the spacer between the panes of glass (see <a href="#windoor-table"> table</a>).
 
         *   For layer 2 (frame) field 2 is the width of the frame measures in the plane of the WinDoor (distance from masonry to edge of the glass). The width is assumed to be the same on all sides of the glass.
 
@@ -30,10 +30,14 @@ The dialog box for editing material data can be opened by right-clicking the nam
 
 The linear coefficient of transmission heat loss (*LinTrCoeff* or the Ψ<sub>g</sub> value) in W/m K through spacer profiles made of aluminum or ordinary steel are shown in the table below (Source: [DS 418:2002](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)). It is possible to interpolate in the table.
 
+<div id="windoor-table">
+
 | WinDoor U-value (W/m²K) | Linear coefficient of transmission (W/mK) |
 |------------------------|-------------------------------------------|
 | 1,0 – 1,2              | 0,10                                      |
 | 2,7 – 3,0              | 0,07                                      |
+
+</div>
 
 
 See also:

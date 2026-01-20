@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-
+# Chart Designer
 
 In the <u>Chart Designer</u> dialog box it is possible to modify the general layout of the current graph. It is advisable to use Wizard, however, to change the appearance from bar diagram to pie chart, for example. For every option on the left of the window there are a number of tabs (on the right), which allow the data relating to the option to be changed.
 
@@ -11,9 +11,9 @@ In the <u>Chart Designer</u> dialog box it is possible to modify the general lay
 </figure>
 
 
-In **Chart** it is possible to change the type of graph and the background for the entire area of the graphical presentation, e.g. a color or a graduated color can be assigned to the background from the *Backdrop* tab or an image can be selected as a background from *Picture*.
+In <strong>Chart</strong> it is possible to change the type of graph and the background for the entire area of the graphical presentation, e.g. a color or a graduated color can be assigned to the background from the *Backdrop* tab or an image can be selected as a background from *Picture*.
 
-The *Type* tab under *Chart* contains the *Reset Chart To Defaults* button. Clicking this button resets the settings for the chart to the defaults defined for the graphics.
+<span id="resetchart"></span>The *Type* tab under *Chart* contains the *Reset Chart To Defaults* button. Clicking this button resets the settings for the chart to the defaults defined for the graphics.
 
 The title of the graph can be modified in **Title**: Position on the graph (*Location*), text background (*Backdrop*), background image (*Picture*), orientation and justification (*Layout*), title (*Text*) and font (*Font*).
 
@@ -27,7 +27,7 @@ Information on the key to the graph can be modified in **Legend**. This dialog b
 
 The background of the graph itself can be changed in **Plot**. The options are otherwise the same as described for *Chart*.
 
-The **X Axis, Y Axis, second Y Axis** and **Z Axis** options allow the appearance of the graph's axes to be modified. On the first tab (*Value Scale*) it is possible to modify the graph's drawing limits (*Scale*), the number of subdivisions (*Divisions*), the position and size of the marks for subdividing the axes (*Ticks*) and where the second axis intersects with the current axis, e.g. where the Y-axis intersects with the X-axis (*Intersection*).
+<span id="yaxis"></span>The **X Axis, Y Axis, second Y Axis** and **Z Axis** options allow the appearance of the graph's axes to be modified. On the first tab (*Value Scale*) it is possible to modify the graph's drawing limits (*Scale*), the number of subdivisions (*Divisions*), the position and size of the marks for subdividing the axes (*Ticks*) and where the second axis intersects with the current axis, e.g. where the Y-axis intersects with the X-axis (*Intersection*).
 
 
 
@@ -73,7 +73,7 @@ Clicking on the name of the individual series (see figure) brings up four tabs (
 </figure>
 
 
-In *Options* the series can be hidden (*Hide Series*) or excluded from data (*Exclude Series*). It is also possible to plot a series on the secondary Y-axis, thereby improving the resolution of some series, e.g. by plotting on a secondary Y-axis that only displays values between 500 and 500 kWh (<u>only</u> works for bar charts as in the heat diagram, for example). See formatting of [secondary Y-axis]().
+In *Options* the series can be hidden (*Hide Series*) or excluded from data (*Exclude Series*). It is also possible to plot a series on the secondary Y-axis, thereby improving the resolution of some series, e.g. by plotting on a secondary Y-axis that only displays values between 500 and 500 kWh (<u>only</u> works for bar charts as in the heat diagram, for example). See formatting of <a href="#yaxis">secondary Y-axis</a>.
 
 
 <figure id="center_img">
@@ -93,7 +93,7 @@ On the *Statistics* tab it is possible to select the statistics to be displayed 
 </figure>
 
 
-If the changes to the appearance of the graph need to be cancelled, it is possible to go back to the start by clicking [Reset Chart To Defaults]() on the first tab in *Chart Designer*.
+If the changes to the appearance of the graph need to be cancelled, it is possible to go back to the start by clicking <a href="#resetchart">Reset Chart To Defaults</a> on the first tab in *Chart Designer*.
 
 See also:
 

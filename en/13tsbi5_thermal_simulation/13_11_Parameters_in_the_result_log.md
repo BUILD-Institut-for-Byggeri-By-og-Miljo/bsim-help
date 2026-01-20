@@ -12,23 +12,23 @@ Values saved in the result log represent snap-shots of the calculated conditions
 
 Parameters saved as average values for the hour are marked with an “M” after the name of the parameter, e.g. *AdjacSun<sup>M</sup>*.
 
-*   [Parameters of weather data and calculated solar position]()
-*   [Thermal Zones]()
-    *   [Indoor Climate ]()
-    *   [Air balance ]()
-    *   [Energy balance ]()
-    *   [Moisture balance ]()
-    *   [Ventilation system components ]()
-    *   [Ventilation air ]()
-    *   [Tariff energy consumption ]()
-*   [Constructions ]()
-*   [WinDoor]()
+*   <a href="#outdoors">Parameters of weather data and calculated solar position</a>
+*   <a href="#thermalzones">Thermal Zones</a>
+    *   <a href="#indoorclimate">Indoor Climate</a>
+    *   <a href="#airbalance">Air balance</a>
+    *   <a href="#energybalance">Energy balance</a>
+    *   <a href="#moisturebalance">Moisture balance</a>
+    *   <a href="#ventilationcomponents">Ventilation system components</a>
+    *   <a href="#ventilationair">Ventilation air</a>
+    *   <a href="#tariffconsumption">Tariff energy consumption</a>
+*   <a href="#constructions">Constructions</a>
+*   <a href="#windoors">WinDoor</a>
 
 <br>
 
 ---
 
-### Parameters in the group *Outdoors*
+<h3 id="outdoors">Parameters in the group <em>Outdoors</em></h3>
 
 Input data from the climate file and calculated solar position.
 
@@ -52,9 +52,9 @@ These parameters are **only** accessible in the results log if a tick mark has b
 
 ---
 
-### Parameters in the group *Thermal Zones*
+<h3 id="thermalzones">Parameters in the group <em>Thermal Zones</em></h3>
 
-Indoor climate parameters for thermal zones.  
+<span id="indoorclimate"></span>  
 **Note:** All system set-points relate to the operative temperature (Top) of the thermal zone.
 
 These parameters are **only** accessible in the result log if a tick mark has been placed next to *ThermalZones* on the [Options tab]() prior to the simulation.
@@ -83,7 +83,7 @@ These parameters are **only** accessible in the result log if a tick mark has be
 
 ---
 
-#### Parameters for air balance in a thermal zone – *Air Balance*
+<h4 id="airbalance">Parameters for air balance in a thermal zone – <em>Air Balance</em></h4>
 
 | Parameter | Description |
 |---|---|
@@ -104,7 +104,7 @@ Parameters marked with *) do <u> only</u> occur if the simulation has been perfo
 
 ---
 
-#### Parameters in the heat balance for a thermal zone or a building – *Energy Balance*
+<h4 id="energybalance">Parameters in the heat balance for a thermal zone or a building – <em>Energy Balance</em></h4>
 
 | Parameter | Description |
 |---|---|
@@ -129,7 +129,7 @@ Contributions to the thermal balance of zones. Terms of heat losses and cooling 
 
 ---
 
-#### Parameters for moisture balance in a thermal zone – *Moisture Balance*
+<h4 id="moisturebalance">Parameters for moisture balance in a thermal zone – <em>Moisture Balance</em></h4>
 
 | Parameter | Description |
 |---|---|
@@ -146,7 +146,7 @@ Contributions to moisture balance of zones. Supplied moisture is counted positiv
 
 ---
 
-#### Parameters for the components in the ventilation system – *Ventilation components*
+<h4 id="ventilationcomponents">Parameters for the components in the ventilation system – <em>Ventilation components</em></h4>
 
 | Parameter | Description |
 |---|---|
@@ -164,7 +164,8 @@ Contributions to moisture balance of zones. Supplied moisture is counted positiv
 
 ---
 
-#### Parameters for the air in the ventilation system – *Ventilation Air*
+<h4 id="ventilationair">Parameters for the air in the ventilation system – <em>Ventilation Air</em></h4>
+
 | Parameter | Description |
 |---|---|
 | *ExtractHum* | Extract air humidity ratio, kg water vapor / kg dry air. |
@@ -179,7 +180,7 @@ Contributions to moisture balance of zones. Supplied moisture is counted positiv
 
 ---
 
-#### Parameters for *tariff-divided* energy consumption in systems
+<h4 id="tariffconsumption">Parameters for <em>tariff-divided</em> energy consumption in systems</h4>
 
 | Parameter | Description |
 |---|---|
@@ -190,7 +191,7 @@ Contributions to moisture balance of zones. Supplied moisture is counted positiv
 
 ---
 
-### Parameters in the group *Constructions*
+<h3 id="constructions">Parameters in the group <em>Constructions</em></h3>
 
 Parameters for surface temperatures and solar radiation on the model constructions.
 
@@ -228,7 +229,7 @@ Parameters marked with *) do <u>only</u> occur if the simulation have been perfo
 
 ---
 
-### Parameters in the group *WinDoors*
+<h3 id="windoors">Parameters in the group <em>WinDoors</em></h3>
 
 These parameters are **only** accessible in the result log if a tick mark has been placed next to *WinDoor* on the [Options tab]() in advance of the simulation.
 

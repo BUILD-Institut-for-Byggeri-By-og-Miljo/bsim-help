@@ -6,9 +6,10 @@ Error messages in ModelList are shown with an icon <img src="./assets/STOP.GIF" 
 
 Error messages occurs at:
 
-*  [Thermal simulation with tsbi5 and ModelList]() 
-*  [Simulation of direct solar radiation with XSun]() 
+*  <a href="#tsbi5-modellist">Thermal simulation with tsbi5 and ModelList</a>
+*  <a href="#xsun">Simulation of direct solar radiation with XSun</a> 
 
+<h3 id="tsbi5-modellist"><strong>tsbi5 / ModelList</strong></h3>
 
 | Error message | Explanation |
 |--------------|-------------|
@@ -35,8 +36,8 @@ Error messages occurs at:
 | U = x W/m²K | The U-value for the panel in the WinDoor is not defined correct. |
 
 
+<h3 id="xsun"><strong>XSun</strong></h3>
 
-### XSun
 | Error message | Explanation |
 |--------------|-------------|
 | Face sides degenerated ??? | ??? |
