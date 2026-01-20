@@ -24,7 +24,7 @@ Modellerne defineres i et rumligt koordinatsystem, hvor <span id="red_text"> **x
 
 Modellens bygninger kan afsættes med flader som har negativ z-værdi. Det betyder **ikke** at modellen ligger under jorden, selvom det ser sådan ud i den rumlige afbildning. Der vil således stadig kunne komme sol gennem vinduer som ligger helt eller delvist under koordinatsystemets nulpunkt.
 
-Modelens systemlinjer tegnes i [SimView](/da/09SimView/09_01_SimView.html) eller importers fra en CAD tegning ved hjælp af [SimDXF](/da/08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.html) programmet.
+Modelens systemlinjer tegnes i [SimView](/09SimView/09_01_SimView.html) eller importers fra en CAD tegning ved hjælp af [SimDXF](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.html) programmet.
 
 Når der tilknyttes konstruktioner til modellens flader afsættes de således:
 
