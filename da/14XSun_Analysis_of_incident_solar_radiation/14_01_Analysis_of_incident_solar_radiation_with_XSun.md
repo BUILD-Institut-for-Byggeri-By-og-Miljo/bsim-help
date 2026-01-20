@@ -2,9 +2,9 @@
 
 *XSun* er en del af *BSim*-programpakken, som kan benyttes til detaljerede analyser af den direkte solstrålings bane gennem en bygning. Det er muligt at se, hvor og hvornår solen rammer en vilkårlig flade i modellen.
 
-Ved tryk på knappen *XSun* i værktøjsbjælken skiftes der til *XSun*-visning. Der er kun et vindue til den grafiske visning og [højre-klik-menuen](https://help.bsim.dk/support/kb/articles/j9b8Vwmn/xsun-menu?__cf_chl_tk=Vu.OsrbsjEjrKdwp9NaUa2nTRkoAQZsB4M.Q00XXD4Q-1750769564-1.0.1.1-cmkfqK.U1QCjDuY8FgAUU7vWEAKcvMTlE3lQ1xIKN7o) er speciel for dette program.
+Ved tryk på knappen *XSun* i værktøjsbjælken skiftes der til *XSun*-visning. Der er kun et vindue til den grafiske visning og [højre-klik-menuen](/14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_menu.html) er speciel for dette program.
 
-Når XSun er aktiv fremkommer en [XSun-menu](https://help.bsim.dk/support/kb/articles/nmDBw09y/xsun) i programfladen og indeholder, ud over højre-klik menuen mulighed for optagelse af [video](https://help.bsim.dk/support/kb/articles/zWZA419p/xsun-video) fra en XSun animation.
+Når XSun er aktiv fremkommer en [XSun-menu](/14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_menu.html) i programfladen og indeholder, ud over højre-klik menuen mulighed for optagelse af [video](/14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.html) fra en XSun animation.
 
 Når cursoren (musen) holdes over en af de gule "solpletter", vises dens areal i en bobletekst. Hvis der klikkes på "solpletten", markeres den eller de vinduer og åbninger som solstrålerne har passeret gennem.
 

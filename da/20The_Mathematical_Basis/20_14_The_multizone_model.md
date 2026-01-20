@@ -10,10 +10,10 @@ www.build.aau.dk <br>
 
 I denne sektion beskrives implementering af multizone modellen (mzm) og de områder af BSim der har betydning herfor. Sektionen består af tre dele:
 
-1.  [Beskrivelse af BSim's systemer til luftudveksling](https://help.bsim.dk/support/kb/articles/gWKDvkmp/systemer-til-luftudveksling)
+1.  [Beskrivelse af BSim's systemer til luftudveksling](/11Systems/11_01_Systems.html)
 
-2.  [Implementering af multizone modellen](https://help.bsim.dk/support/kb/articles/z9MKwym4/implementering-af-mzm)
+2.  [Implementering af multizone modellen](/20The_Mathematical_Basis/20_17_Implementation_of_mzm.html)
 
-3.  [Regulering af multizone modellen](https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen)
+3.  [Regulering af multizone modellen](/20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.html)
 
 Den første sektion omhandler BSim, den anden omhandler multizone modellen og den tredje omhandler samspillet mellem BSim og multizone modellen.
