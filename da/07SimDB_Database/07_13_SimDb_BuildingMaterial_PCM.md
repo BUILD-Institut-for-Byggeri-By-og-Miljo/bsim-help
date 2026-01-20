@@ -3,12 +3,12 @@
 # SimDb - BuildingMaterial, PCM
 <center>
 
-*Materialeegenskaber for faseskiftende materialer (PCM) er tilgængelige fra og med databasen BSim2008.mdb.*
+<em>Materialeegenskaber for faseskiftende materialer (PCM) er tilgængelige fra og med databasen BSim2008.mdb. </em>
 
 </center>
 <center>
 
-*Hvis tabellen med information om materialernes faseskiftende egenskaber ikke findes i den valgte database vises fanebladet PCM ikke i dialogen Edit Material.*
+<em> Hvis tabellen med information om materialernes faseskiftende egenskaber ikke findes i den valgte database vises fanebladet PCM ikke i dialogen Edit Material. </em>
 
 </center>
  
