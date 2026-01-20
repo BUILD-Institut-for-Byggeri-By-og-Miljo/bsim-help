@@ -27,7 +27,7 @@ Fejlmeddelelser optræder følgende steder:
 | No time | Systemet som er oprettet har ikke en tilknyttet [tidsangivelse](/11Systems/11_17_Systems_Time.html).<br>Højre-klik på systemet i træet, skift til *Time*-fanebladet og definer en tidsangivelse for systemet. Hvis systemet ikke skal bruges i denne simulering kan det i stedet slås fra ved at højre-klikke på den termiske zone og markere systemet med et gråt "hak". |
 | Unknown (Mixing) | Kilden for luft ind i den termiske zone ved [*Mixing*](/11Systems/11_10_systems_mixing.html) er udefineret. |
 | General Lux | Det generelle belysningsniveau (Gen. Lighting Level) i lux er udefineret (<= 0). |
-| Unknown (Ventilation &#124; Natkøling) | Sensorzonen for regulering af natkøling er udefineret.<br>Højre-klik på systemet i træet, skift til [*NightCoolCtrl*-fanebladet](/11Systems/11_24_Ventilation_Night_Cooling_Control.html) og definer en sensorzone for ventilationssystemet. |
+| Unknown (Ventilation - Natkøling) | Sensorzonen for regulering af natkøling er udefineret.<br>Højre-klik på systemet i træet, skift til [*NightCoolCtrl*-fanebladet](/11Systems/11_24_Ventilation_Night_Cooling_Control.html) og definer en sensorzone for ventilationssystemet. |
 | Thickness = x m | Tykkelsen af et materialelag i konstruktionen er mindre end 0,0001 m. |
 | Missing material | Materialeegenskaber er ikke defineret - termiske- og/eller fugtegenskaber. |
 | Spacer = x | Længden af afstandsprofilet i WinDoor er mindre end 0. |
