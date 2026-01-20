@@ -203,15 +203,13 @@ Når de ønskede standardkonstruktioner er tilknyttet, trykkes på knappen *Anve
 </figure>
 
 
-![Konstruktionerne er inddelt i de viste grupper (Insert Default Options). Kun de grupper som er markeret med et "hak", vil blive opdateret/overskrevet med de valgte standardkonstruktioner.](https://s3.amazonaws.com/outseta-production/10526/0-Insertdefaults_50842b3c-be0a-422b-abb2-c1cdd447b1be.gif)
-
-__________________________________________________________
 
 <figure id="center_img">
-<img src="./assets/recirculation%20system.gif" alt="Princip for ventilationsanlæg med recirkulation.">
-<figcaption>Princip for ventilationsanlæg med recirkulation.</figcaption>
+<img src="./assets/Insertdefaults.gif" alt="Konstruktionerne er inddelt i de viste grupper (Insert Default Options). Kun de grupper som er markeret med et 'hak', vil blive opdateret/overskrevet med de valgte standardkonstruktioner.">
+<figcaption>Konstruktionerne er inddelt i de viste grupper (Insert Default Options). Kun de grupper som er markeret med et "hak", vil blive opdateret/overskrevet med de valgte standardkonstruktioner.</figcaption>
 </figure>
-___________________________________________________________
+
+
 
 Når konstruktionerne er påtrykt en type, vil de blive optegnet i den grafiske visning med deres virkelige tykkelse.
 

@@ -38,7 +38,7 @@ Den 'fysiske' bygning, der sættes en model op for, er meget enkel, idet den gru
 Selv om der er to rum i bygningen, regnes den i dette eksempel som én termisk zone, idet der skønnes ikke at være forskel på forholdene i de to rum. Bygningen består således af én termisk zone med indvendige mål 6 m x 8 m, med den ene korte side vendende mod syd, jf. *plantegningen*. Den indvendige højde af rummene er 2,7 m.
 
 <figure id="center_img">
-<img src="./assets/EKS42.GIF" alt="Plantegning af bygningen for eksemplerne." style="width:100%; max-width:none;"> 
+<img src="./assets/EKS42.gif" alt="Plantegning af bygningen for eksemplerne." style="width:100%; max-width:none;"> 
 <figcaption>Plantegning af bygningen for eksemplerne.</figcaption>
 </figure>
 

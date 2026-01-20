@@ -38,8 +38,8 @@ Skyggen beskrives ved at indsætte en ny bygning i modellen. Dette kan ske enten
 
 
 <figure id="center_img">
-<img src="./assets/EKS349A.JPG" alt="Indtastning af en ny bygnings størrelse og roration.">
-<figcaption>Indtastning af en ny bygnings størrelse og roration.</figcaption>
+<img src="./assets/EKS349A.jpg" alt="Indtastning af en ny bygnings størrelse og rotation.">
+<figcaption>Indtastning af en ny bygnings størrelse og rotation.</figcaption>
 </figure>
 
 Herved oprettes en ny bygning i modellen som vil skygge på den bygning som simuleres med tsbi5.
