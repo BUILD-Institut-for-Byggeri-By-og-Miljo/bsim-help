@@ -160,7 +160,7 @@
 * [tsbi5 simulation](13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
 * [tsbi5 Batch](13tsbi5_thermal_simulation/13_05_tsbi5_Batch.md)
 * [tsbi5 Exporting to tsbi3](13tsbi5_thermal_simulation/13_06_tsbi5_Exporting_to_tsbi3.md)
-* [tsbi5 HeatBalance](13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance%20.md)
+* [tsbi5 HeatBalance](13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
 * [tsbi5 Parameters](13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)
 * [tsbi5 Tables](13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)
 * [tsbi5 Exporting to CFD program](13tsbi5_thermal_simulation/13_10_tsbi5_Exporting_to_CFD_program.md)
@@ -218,7 +218,7 @@
 
 * [The Mathematical Basis](20The_Mathematical_basis/20_01_The_Mathematical_Basis.md)
 * [Building description and definition of nodes in constructions](20The_Mathematical_basis/20_02_Building_description_and_definition_of_nodes_in_constructions.md)
-* [daylight calculations in simlight](20The_Mathematical_basis/20_03_daylight_calculations_in_simlight.md)
+* [Daylight calculations in simlight](20The_Mathematical_basis/20_03_daylight_calculations_in_simlight.md)
 * [Moisture balance for a zone](20The_Mathematical_basis/20_04_Moisture_balance_for_a_zone.md)
 * [Detailed Moisture balance](20The_Mathematical_basis/20_05_Detailed_Moisture_balance.md)
 * [Automatic net generation](20The_Mathematical_basis/20_06_Automatic_net_generation.md)
@@ -274,7 +274,7 @@
 
 ### Miscellaneous
 
-* [PackCalc (Cooling)](24Miscellaneous/24_01_PackCalc_(Cooling).md)
+* [PackCalc (Cooling)](24Miscellaneous/24_01_PackCalc_Cooling.md)
 * [Heating control](24Miscellaneous/24_02_Heating_control.md)
 * [Shutter Control](24Miscellaneous/24_03_Shutter_Control.md)
 * [Shading Control](24Miscellaneous/24_04_Shading_Control.md)
@@ -342,10 +342,10 @@
 * [Default values](24Miscellaneous/24_67_Default_values.md)
 * [Description](24Miscellaneous/24_68_Description.md)
 * [Revisions of BSim2000](24Miscellaneous/24_69_Revisions_of_BSim2000.md)
-* [Control strategy for floor heating and cooling](24Miscellaneous/24_70_Control_strategy_for_floor_heating_and_cooling.md)
 * [Natural Ventilation](24Miscellaneous/24_71_Natural_Ventilation.md)
 * [tsbi5 Natural Ventilation options](24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md)
 * [Windoor Systems](24Miscellaneous/24_73_Windoor_Systems.md)
+* [Control strategy for floor heating and cooling](24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md)
 * [Model information](24Miscellaneous/24_75_Model_information.md)
 
 ----

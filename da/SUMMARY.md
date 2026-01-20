@@ -50,7 +50,7 @@
 * [SimDB - BuildingMaterial, Glazing](07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 * [SimDB - BuildingMaterial, Material](07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md)
 * [SimDB - BuildingMaterial, Thermal](07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
-* [SimDb - BuildingMaterial, PCM](07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
+* [SimDB - BuildingMaterial, PCM](07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
 * [SimDB - BuildingMaterial, Moisture](07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
 * [SimDB - PV-materialer](07SimDB_Database/07_15_SimDB_PV-materials.md)
 * [SimDB - BuildingMaterial, UserDefined](07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)
@@ -273,7 +273,7 @@
 
 ### Miscellaneous
 
-* [PackCalc (Køling)](24Miscellaneous/24_01_PackCalc_(Cooling).md)
+* [PackCalc (Køling)](24Miscellaneous/24_01_PackCalc_Cooling.md)
 * [Opvarmning - Varmeregulering](24Miscellaneous/24_02_Heating_control.md)
 * [Skodderegulering](24Miscellaneous/24_03_Shutter_Control.md)
 * [Regulering efter solindfald og temperatur](24Miscellaneous/24_04_Shading_Control.md)
