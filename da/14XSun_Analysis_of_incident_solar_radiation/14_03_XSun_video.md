@@ -31,7 +31,7 @@ Hvis videoklippet ønskes overført til en anden computer, er det nødvendigt at
 
 Når et komprimeringsformat er valgt, er det muligt at ændre på graden af komprimeringen (komprimeringskvaliteten) ved at justere på det vandrette rullepanel nederst i dialogen.
 
-Herefter kan optagelsen startes fra XSun-menuen ([højre-klik menu](https://help.bsim.dk/support/kb/articles/j9b8Vwmn/xsun-menu) eller [programmenu](https://help.bsim.dk/support/kb/articles/nmDBw09y/xsun)). Optagelsen af levende billeder startes fra XSun-menuen via indgangen *Capture Animation*.
+Herefter kan optagelsen startes fra XSun-menuen ([højre-klik menu](/14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_menu.html) eller [programmenu](/14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_menu.html)). Optagelsen af levende billeder startes fra XSun-menuen via indgangen *Capture Animation*.
 
 <figure id="center_img">
 <img src="./assets/VIDEO2.GIF" alt="XSun menuen for start af optagelse af video-klip.">

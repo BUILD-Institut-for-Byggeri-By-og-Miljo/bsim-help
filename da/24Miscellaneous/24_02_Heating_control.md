@@ -24,6 +24,6 @@ $$ P_{heating} = P_{min} + (P_{max} - P_{min}) \cdot \frac{t_0 - t_{min}}{t_{des
 
 *Min Power* angiver den mindste til rådighed værende effekt i anlægget, før varmelevering regnes afbrudt. *Min Power* er sammenhørende med temperaturen *Te Min*.
 
-*Te Min* angiver udetemperaturen, hvor den til rådighed værende effekt i radiatoren når sin mindste værdi, *Min Power*. Varmeydelsen sættes til 0 uden for tidsangivelserne i [tidsplanen](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule).
+*Te Min* angiver udetemperaturen, hvor den til rådighed værende effekt i radiatoren når sin mindste værdi, *Min Power*. Varmeydelsen sættes til 0 uden for tidsangivelserne i [tidsplanen](/11Systems/11_02_Systems_schedule.html).
 
 *Sensor Zone* angiver i hvilken termisk zone føleren for varmeanlægget befinder sig. Dette har især betydning hvis der ønskes simuleret et gulvvarmeanlæg, hvor selve gulvvarmezonen er opbygget som en selvstændig termisk zone med varmeafgivelse reguleret efter temperaturen i en anden termisk zone. Hvis der står (*None*) i feltet betyder det at, sensoren befinder sig i den termiske zone hvor reguleringen benyttes. Det samme varmesystem kan således stadig benyttes i flere termiske zoner, uden at der reguleres efter temperaturen i den samme termiske zone. **NB:** Funktionaliteteten er pt. ikke 100 % checket og resultaterne bør derfor underkastes en nøje vurdering!

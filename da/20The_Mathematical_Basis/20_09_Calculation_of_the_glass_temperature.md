@@ -8,7 +8,7 @@ $$ q_{abs,i} = I_i (1 - SR_i)\cdot SA_i - I_j ((1-SR_j)SA_j)^2  $$
 
 og tilsvarende for q<sub>abs1</sub>, blot med ombytning af indeks.
 
-Hvis den samlede absorbtans (SA) og reflektans (SR) kendes for en rude, kan dette indtastes for [*side 1*](https://bsim.outseta.com/support/kb/articles/Rm8JDx94/simdb---glazing-additional-data) af ruden, og BSim antager at glaslagene er ens med værdier svarende til halvdelen af den indlæste værdi. Ud fra disse antagelser kan den absorberede stråling i hver overflade estimeres som:
+Hvis den samlede absorbtans (SA) og reflektans (SR) kendes for en rude, kan dette indtastes for [*side 1*](/07SimDB_Database/07_04_SimDB_Glazing_additional_data.html) af ruden, og BSim antager at glaslagene er ens med værdier svarende til halvdelen af den indlæste værdi. Ud fra disse antagelser kan den absorberede stråling i hver overflade estimeres som:
 
 $$ q_{abs,0} = I_1 \left( 1 - \frac{SR}{2}\right) \frac{SA}{2} + I_0 \left( \left( 1 - \frac{SR}{2}\right) \frac{SA}{2} \right)^2  $$
 

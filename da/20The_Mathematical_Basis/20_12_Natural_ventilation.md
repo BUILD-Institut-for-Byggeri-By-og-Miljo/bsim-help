@@ -2,7 +2,7 @@
 
 # Naturlig ventilation
 
-Simulering af naturlig ventilation i BSim kræver inddata på en række [forskellige steder](https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system) i modellen.
+Simulering af naturlig ventilation i BSim kræver inddata på en række [forskellige steder](/11Systems/11_03_Natural_ventilation_system.html) i modellen.
 
 Naturlig ventilation kan aktiveres på termisk zone niveau.
 
@@ -10,7 +10,7 @@ I beregningerne tages kun hensyn til WinDoors/åbninger mod det fri.
 
 Den anvendte model kan identificeres automatisk af BSim.
 
-Naturlig ventilation er implementeret som en speciel form for *Venting* i et udvidelsesmodul til BSim. [De matematiske modeller](https://help.bsim.dk/support/kb/articles/yW1xrD9B/uddrag-fra-by-og-byg-anvisning-202) for naturlig ventilation er opbygget i henhold til beskrivelsen i [Andersen, Heisselberg & Aggerholm (2002)](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur).
+Naturlig ventilation er implementeret som en speciel form for *Venting* i et udvidelsesmodul til BSim. [De matematiske modeller](/20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.html) for naturlig ventilation er opbygget i henhold til beskrivelsen i [Andersen, Heisselberg & Aggerholm (2002)](/20The_Mathematical_Basis/20_28_Literature.html).
 
 ### **Beregningsmodeller for naturlig ventilation**
 

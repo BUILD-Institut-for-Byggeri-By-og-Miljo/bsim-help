@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Room Propery
+# Room Property
 
 Dialogen for visning af egenskaberne for et rum åbnes ved at højre-klikke på rummet i træ-strukturen og vælge indgangen *Property*.
 

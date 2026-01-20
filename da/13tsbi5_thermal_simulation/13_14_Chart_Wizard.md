@@ -31,10 +31,10 @@ Til den valgte graftype hører normalt forskellige valgmuligheder for præsentat
 
 På det sidste faneblad vises et eksempel på præsentationen af data inden valget effektueres ved tryk på knappen *Udfør*.
 
-Hvis man skulle fortryde ændringerne af grafens udseende, er det muligt at vende tilbage til udgangspunktet ved tryk på [*Reset Chart To Defaults*](https://help.bsim.dk/support/kb/articles/rm0x5YmX/chart-designer) på første faneblad i *Chart Designer*.
+Hvis man skulle fortryde ændringerne af grafens udseende, er det muligt at vende tilbage til udgangspunktet ved tryk på [*Reset Chart To Defaults*](/13tsbi5_thermal_simulation/13_13_Chart_Designer.html) på første faneblad i *Chart Designer*.
 
 Se også:
 
-*   [Chart Designer](https://help.bsim.dk/support/kb/articles/rm0x5YmX/chart-designer)
+*   [Chart Designer](/13tsbi5_thermal_simulation/13_13_Chart_Designer.html)
 
  

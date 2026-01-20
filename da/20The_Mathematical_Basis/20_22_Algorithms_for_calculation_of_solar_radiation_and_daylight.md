@@ -33,7 +33,7 @@ Nyere målinger, bl.a. i Danmark, [5] har vist, at strålingen fra himmelhvælvi
 
 ## **Solstråling**
 
-Modellen for beregning af solstråling på udvendige overflader beskrevet nedenfor kaldes *Lund* på [Options fanen af tsbi5](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5-options). Alle solstrålingsmodeller i BSim er opkaldt efter deres forfatter og er beskrevet i de følgende referencer:
+Modellen for beregning af solstråling på udvendige overflader beskrevet nedenfor kaldes *Lund* på [Options fanen af tsbi5](/13tsbi5_thermal_simulation/13_02_Options.html). Alle solstrålingsmodeller i BSim er opkaldt efter deres forfatter og er beskrevet i de følgende referencer:
 
 *   Muneer T. (1989). *Algorithms for estimating hourly solar irradiation on slopes*. Journal of Building Services, Enginering, Research and Technology 10(2).
 
@@ -370,121 +370,14 @@ Det samlede bidrag til dagslyset fra en diffuserende solafskærmning er vist i f
 
 I nedenstående tabel f.13 er angivet nogle retningsgivende faktorer som middelværdien af IRK skal multipliceres med for af give maximumsværdien i vindueszonen og minimumsværdien i zonen ved bagvæggen som funktion af rumdybden.
 
-</div>
-</div>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-gvcd{background-color:#ffffff;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
-</style>
-<div>
-<div>
-<table class="tg" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th class="tg-gvcd" colspan="7"><strong>Faktorer for beregning af maksimum- og minimumværdier af IRK-bidrag til SF-faktorer</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tg-gvcd"><strong>Rumdybde</strong></td>
-<td class="tg-gvcd" colspan="2">6 m</td>
-<td class="tg-gvcd" colspan="2">8 m</td>
-<td class="tg-gvcd" colspan="2">10 m</td>
-</tr>
-<tr>
-<td class="tg-gvcd"><strong>Sollysfaktor</strong></td>
-<td class="tg-gvcd">max</td>
-<td class="tg-gvcd">min</td>
-<td class="tg-gvcd">max</td>
-<td class="tg-gvcd">min</td>
-<td class="tg-gvcd">max</td>
-<td class="tg-gvcd">min</td>
-</tr>
-<tr>
-<td class="tg-gvcd">
+| Rumdybde | 6 m | | 8 m | | 10 m | |
+|---|---|---|---|---|---|---|
+| Sollysfaktor | max | min | max | min | max | min |
+| SF1 | 1,4 | 0,50 | 1,7 | 0,27 | 2,1 | 0,13 |
+| SF2 | 1,5 | 0,75 | 1,8 | 0,50 | 2,1 | 0,35 |
+| SF3 | 1,8 | 0,40 | 2,3 | 0,25 | 2,5 | 0,17 |
+| SF4 | 1,5 | 0,50 | 2,0 | 0,33 | 2,5 | 0,22 |
 
-*SF1*
-
-*SF2*
-
-*SF3*
-
-*SF4*
-
-</td>
-<td class="tg-gvcd">
-
-1,4
-
-1,5
-
-1,8
-
-1,5
-
-</td>
-<td class="tg-gvcd">
-
-0,50
-
-0,75
-
-0,40
-
-0,50
-
-</td>
-<td class="tg-gvcd">
-
-1,7
-
-1,8
-
-2,3
-
-2,0
-
-</td>
-<td class="tg-gvcd">
-
-0,27
-
-0,50
-
-0,25
-
-0,33
-
-</td>
-<td class="tg-gvcd">
-
-2,1
-
-2,1
-
-2,5
-
-2,5
-
-</td>
-<td class="tg-gvcd">
-
-0,13
-
-0,35
-
-0,17
-
-0,22
-
-</td>
-</tr>
-</tbody>
-</table>
 
 *Tabel f.13. Retningsgivende faktorer for bestemmelse af maksimum- og minimumærdier af det interreflekterede bidrag til de fire sollysfaktorer.*
 
@@ -496,85 +389,13 @@ Sprosser og andre genstande, som der ikke tages hensyn til ved angivelse af glas
 
 Ligeledes bør der korrigeres for snavs på vinduet, som reducerer lysindfaldet. Reduktionsfaktoren er afhængig af omgivelserne (på landet eller i industriby) og arbejdets art i lokalet. Normalt anvendes følgende reduktionsfaktorer:
 
-</div>
-</div>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-gvcd{background-color:#ffffff;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<div id="da">
-<table class="tg" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th class="tg-gvcd"><strong>Lokalets beliggenhed</strong></th>
-<th class="tg-0lax"><strong>Arbejdets art</strong></th>
-<th class="tg-0lax"><strong>Korrektionsfaktor</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tg-0lax">
-
-Landområder
-
-Ydre forstader
-
-</td>
-<td class="tg-0lax">
-
-Rent
-
-Snavset
-
-</td>
-<td class="tg-0lax">
-
-0,9
-
-0,7
-
-</td>
-</tr>
-<tr>
-<td class="tg-0lax">Beboelseskvarterer</td>
-<td class="tg-0lax">
-
-Rent
-
-Snavset
-
-</td>
-<td class="tg-0lax">
-
-0,8
-
-0,6
-
-</td>
-</tr>
-<tr>
-<td class="tg-0lax">Industrikvarterer</td>
-<td class="tg-0lax">
-
-Rent
-
-Snavset
-
-</td>
-<td class="tg-0lax">
-
-0,7
-
-0,5
-
-</td>
-</tr>
-</tbody>
-</table>
+| Lokalets beliggenhеd | Arbejdets art | Korrektionsfaktor |
+|---|---|---|
+| Landområder | Rent | 0,9 |
+| Ydre forstader | Snavset | 0,7 |
+| Beboelseskvarterer | Rent | 0,8 |
+| | Snavset | 0,6 |
+| Industrikvarterer | Rent | 0,7 |
+| | Snavset | 0,5 |
 
 *Tabel f.14. Reduktionsfaktorer for dagslyset bestemt ud fra de fire sollysfaktorer.*

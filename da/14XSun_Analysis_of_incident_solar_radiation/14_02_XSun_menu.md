@@ -5,7 +5,7 @@
 Menuen i *XSun* kaldes frem ved at højre-klikke i den grafiske visning.
 
 <figure id="center_img">
-<img src="./assets/image42.gif" alt="XSun-visning af model (klik på figuren for at se en animation).">
+<img src="./assets/IMAGE42.GIF" alt="XSun-visning af model (klik på figuren for at se en animation).">
 <figcaption>XSun-visning af model (klik på figuren for at se en animation).</figcaption>
 </figure>
 
@@ -44,10 +44,10 @@ Højre-klik menuen er ændret, så den er direkte relateret til funktionerne i *
 
 *   *Kill animate*: Standser animationen af solens vandring i bygningen på det aktuelle tidspunkt - genvej: *Esc*.
 
-*   *Capture Screen*: Gemmer det aktuelle skærmbillede i video-filen. Kan først startes når der er valgt et [navn for en video-fil](https://help.bsim.dk/support/kb/articles/nmDBw09y/xsun) og en komprimeringsteknik.
+*   *Capture Screen*: Gemmer det aktuelle skærmbillede i video-filen. Kan først startes når der er valgt et [navn for en video-fil](/14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.html) og en komprimeringsteknik.
 
-*   *Capture Animation*: Starter optagelsen af en video-sekvens af animationen. Kan først startes når der er valgt et [navn for en video-fil](https://help.bsim.dk/support/kb/articles/nmDBw09y/xsun) og en komprimeringstenkik.
+*   *Capture Animation*: Starter optagelsen af en video-sekvens af animationen. Kan først startes når der er valgt et [navn for en video-fil](/14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.html) og en komprimeringstenkik.
 
-*   *SimPv*: Kalder udvidelsesmodulet [SimPv](https://help.bsim.dk/support/kb/articles/pWrnRaWn/simpv) til beregning af el-ydelsen fra bygningsintegrerede solceller i BSim.
+*   *SimPv*: Kalder udvidelsesmodulet [SimPv](/16SimPV/16_01_SimPV.html) til beregning af el-ydelsen fra bygningsintegrerede solceller i BSim.
 
  

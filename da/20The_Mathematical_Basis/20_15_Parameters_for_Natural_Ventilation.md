@@ -8,11 +8,11 @@ Modulet til simulering af naturlig ventilation med multi-zone modellen (mzm) er 
 Feed-back til modulet på bsim-support@sbi.dk er meget velkommen!
 </p>
 
-Parameteren Cd er central for simulering af naturlig ventilation med multizone modellen (mzm) og kan bestemmes i henhold til [By og Byg (SBi), Anvisning 202](https://bsim.outseta.com/support/kb/articles/yW1xrD9B/uddrag-fra-by-og-byg-anvisning-202). Indblæsningstemperaturkonstanten Ka benyttes størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur og kan findes i henhold til [Danvak grundbogen, kapitel 7.](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) 
+Parameteren Cd er central for simulering af naturlig ventilation med multizone modellen (mzm) og kan bestemmes i henhold til [By og Byg (SBi), Anvisning 202](/20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.html). Indblæsningstemperaturkonstanten Ka benyttes størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsatælelse til resten af loftet hvor der er fri strømning/konvektion og indetemperatur og kan findes i henhold til [Danvak grundbogen, kapitel 7.](/20The_Mathematical_Basis/20_28_Literature.html)
 
 ## **Cd - Udstrømningskoefficienten**
 
-Værdien bestemmes i henhold til [By og Byg (SBi), Anvisning 202](https://bsim.outseta.com/support/kb/articles/yW1xrD9B/uddrag-fra-by-og-byg-anvisning-202), side 70-71:
+Værdien bestemmes i henhold til [By og Byg (SBi), Anvisning 202](/20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.html), side 70-71:
 
 ### **Modstandstal samt kontraktions- og udstrømningskoefficienter**  
 Volumenstrømmen gennem en åbning er ikke blot afhængig af trykdifferensen, men også af friktionen, kontraktionen og åbningsarealet.
@@ -59,11 +59,11 @@ $$ C_d = \frac{1,0}{\sqrt{\frac{2 \cdot 11}{1,2}}} = 0,23 $$
 
 Indtagsåbninger, hvor luften passerer forbi en radiator, har samme middellufthastighed for samme trykdifferens som afkaståbninger og dermed samme udstrømningskoefficient.
 
-Læs yderligere i [By og Byg Anvisning 202](https://bsim.outseta.com/support/kb/articles/yW1xrD9B/uddrag-fra-by-og-byg-anvisning-202).
+Læs yderligere i [By og Byg Anvisning 202](/20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.html).
 
 ## **Indblæsningstemperaturkonstanten Ka**
 
-Værdien bestemmes i henhold til [Danvak grundbogen, kapitel 7](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) hvor yderligere forklaring og koefficienter kan findes i kapitlet *Luftfordeling i rum* afsnittet *Luftstråler.*
+Værdien bestemmes i henhold til [Danvak grundbogen, kapitel 7](/20The_Mathematical_Basis/20_28_Literature.html) hvor yderligere forklaring og koefficienter kan findes i kapitlet *Luftfordeling i rum* afsnittet *Luftstråler.*
 
 | **Åbning**      | **Betingelser**                       | **Ka**      |
 |-----------------|---------------------------------------|-------------|
@@ -74,4 +74,4 @@ Værdien bestemmes i henhold til [Danvak grundbogen, kapitel 7](https://bsim.out
 |   | bredde/højde = 10                     | 8,5         |
 |                 | bredde/højde = 20                     | 7,9         |
 
-Læs yderligere i [Danvak grundbogen, kapitel 7](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur).
+Læs yderligere i [Danvak grundbogen, kapitel 7](/20The_Mathematical_Basis/20_28_Literature.html).

@@ -7,11 +7,11 @@
 
 Programmet startes ved at klikke på BSim via menuen *Start* | *Programmer* | *BSim* | *BSim*.
 
-Herved fremkommer programmets hovedvindue ([SimView](https://bsim.outseta.com/support/kb/articles/wQXx2xQK/simview)). Hovedvinduet er delt op i to felter, som foreløbig er tomme. I feltet til venstre vil den aktuelle bygning senere blive vist som en træstruktur. Feltet til højre er yderligere underopdelt i fire felter, hvor den aktuelle bygning senere vil blive vist grafisk. Det foreløbige navn for bygningsmodellen er standardnavnet 'Untitled', som vises i titelbjælken af SimView.
+Herved fremkommer programmets hovedvindue ([SimView](/09SimView/09_01_SimView.html)). Hovedvinduet er delt op i to felter, som foreløbig er tomme. I feltet til venstre vil den aktuelle bygning senere blive vist som en træstruktur. Feltet til højre er yderligere underopdelt i fire felter, hvor den aktuelle bygning senere vil blive vist grafisk. Det foreløbige navn for bygningsmodellen er standardnavnet 'Untitled', som vises i titelbjælken af SimView.
 
-Inden arbejdet med opbygning af modellen er det en god ide at sætte parametrene for automatisk gemning af *Undo*-niveauer for ændringer i geometrien. Dette gøres ved at højreklikke i den grafiske visning og vælge indgangen [*Options*](https://help.bsim.dk/support/kb/articles/LmJv8EmP/simview---options). Vær opmærksom på at en ændring i antallet af *Undo*-niveauer <span style="text-decoration: underline;">først</span> træder i kraft næste gang programmet startes.
+Inden arbejdet med opbygning af modellen er det en god ide at sætte parametrene for automatisk gemning af *Undo*-niveauer for ændringer i geometrien. Dette gøres ved at højreklikke i den grafiske visning og vælge indgangen [*Options*](/09SimView/09_04_SimView_Options.html). Vær opmærksom på at en ændring i antallet af *Undo*-niveauer <span style="text-decoration: underline;">først</span> træder i kraft næste gang programmet startes.
 
-Når der skal opbygges en ny model, flyttes markøren til menuen *File* | *New*, hvorpå der klikkes med musen (venstre tast). Der kan også trykkes på ikonet for et nyt projekt (længst til venstre i [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)) eller alternativt trykkes *Ctrl+n* som en [genvej](https://bsim.outseta.com/support/kb/articles/vWyPMJ9b/genvejstaster).
+Når der skal opbygges en ny model, flyttes markøren til menuen *File* | *New*, hvorpå der klikkes med musen (venstre tast). Der kan også trykkes på ikonet for et nyt projekt (længst til venstre i [værktøjsbjælken](/09SimView/09_05_SimView_toolbar.html)) eller alternativt trykkes *Ctrl+n* som en [genvej](/24Miscellaneous/24_27_Keyboard_shortcuts.html).
 
 
 <figure id="center_img">
@@ -19,7 +19,7 @@ Når der skal opbygges en ny model, flyttes markøren til menuen *File* | *New*,
 <figcaption>Første dialog til oprettelse af en ny model.</figcaption>
 </figure>
 
-Herved fremkommer en "[wizard](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard---oprette-en-ny-model)" for oprettelse af en ny model. Navnet (øverste linje) og stien (nederste linje) til den aktuelle model skal indtastes i den første dialog. Det ønskede navn kan nu indtastes i navnefeltet, i dette tilfælde 'EKS1'. I stifeltet kan fx indtastes:
+Herved fremkommer en "[wizard](/06BSim_Program_structure/06_10_Model_wizard_create_a_new_model.html)" for oprettelse af en ny model. Navnet (øverste linje) og stien (nederste linje) til den aktuelle model skal indtastes i den første dialog. Det ønskede navn kan nu indtastes i navnefeltet, i dette tilfælde 'EKS1'. I stifeltet kan fx indtastes:
 
 C:\Programmer\Statens Byggeforskningsinstitut\BSim\Modeller
 
@@ -75,7 +75,7 @@ I den rumlige visning kan der ctrl-klikkes (ctrl-tasten holdt nede mens der vens
 
 **Indlæsning af data for vinduer**
 
-Vælg den flade (Ctrl+venstre-klik) som vender mod syd (omdøb den eventuelt til 'Sydvæg'). Definer et lokalt koordinatsystem i den flade, vinduet ønskes indsat i. Det gøres ved at vælge et nulpunkt (dobbelt venstre-klik eller Shift+venstre-klik på et af hjørnepunkterne) for koordinatsystemet og vælge en akse (dobbelt venstre-klik eller Shift+venstre-klik på en kant) i det lokale koordinatsystem. Kald [SimView-menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu) frem og vælg indgangen *Add WinDoor* for at definere vinduets geometri og placering i forhold til det lokale koordinatsystem.
+Vælg den flade (Ctrl+venstre-klik) som vender mod syd (omdøb den eventuelt til 'Sydvæg'). Definer et lokalt koordinatsystem i den flade, vinduet ønskes indsat i. Det gøres ved at vælge et nulpunkt (dobbelt venstre-klik eller Shift+venstre-klik på et af hjørnepunkterne) for koordinatsystemet og vælge en akse (dobbelt venstre-klik eller Shift+venstre-klik på en kant) i det lokale koordinatsystem. Kald [SimView-menuen](/09SimView/09_02_SimView_menu.html) frem og vælg indgangen *Add WinDoor* for at definere vinduets geometri og placering i forhold til det lokale koordinatsystem.
 
 <figure id="center_img">
 <img src="./assets/AddWindoor.GIF" alt="Dialog til indsættelse af vinduer og døre i en flade. Illustrationen nederst til højre i dialogen viser en skitse af det lokale koordinatsystem og hvordan et vindue afsættes i dette.">
@@ -93,7 +93,7 @@ For at definere geometrien omkring vinduet nærmere højre-klikkes på feltet vi
 </figure>
 
 
-Nu kan modellens andet rum oprettes som en kopi af "Box rum 1". Det nye rum kan oprettes ved at vælge den flade i rummet, som det nye rum skal have fælles med det eksisterende rum, og tilføje rummet hertil ved at vælge indgangen *Add Room* fra [SimView-menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu). Det nye rums udbredelse og/eller standard geometri kan vælges i den herved fremkomne dialog.
+Nu kan modellens andet rum oprettes som en kopi af "Box rum 1". Det nye rum kan oprettes ved at vælge den flade i rummet, som det nye rum skal have fælles med det eksisterende rum, og tilføje rummet hertil ved at vælge indgangen *Add Room* fra [SimView-menuen](/09SimView/09_02_SimView_menu.html). Det nye rums udbredelse og/eller standard geometri kan vælges i den herved fremkomne dialog.
 
 <figure id="center_img">
 <img src="./assets/EKS12.JPG" alt="Tilføj et rum (Box rum 2) til modellen.">
@@ -109,7 +109,7 @@ Det nye rum oprettes som en kopi af det aktuelle rum. Herved kopieres hele rumme
 
 Det er ikke alle de i eksemplet beskrevne konstruktioner som findes i standarddatabasen, og det er derfor nødvendigt at oprette nogle nye elementer i modellens database.
 
-Åben databasen ved at klikke på DB-ikonet i [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken).
+Åben databasen ved at klikke på DB-ikonet i [værktøjsbjælken](/09SimView/09_05_SimView_toolbar.html).
 
  
 
@@ -203,15 +203,13 @@ Når de ønskede standardkonstruktioner er tilknyttet, trykkes på knappen *Anve
 </figure>
 
 
-![Konstruktionerne er inddelt i de viste grupper (Insert Default Options). Kun de grupper som er markeret med et "hak", vil blive opdateret/overskrevet med de valgte standardkonstruktioner.](https://s3.amazonaws.com/outseta-production/10526/0-Insertdefaults_50842b3c-be0a-422b-abb2-c1cdd447b1be.gif)
-
-__________________________________________________________
 
 <figure id="center_img">
-<img src="./assets/recirculation%20system.gif" alt="Princip for ventilationsanlæg med recirkulation.">
-<figcaption>Princip for ventilationsanlæg med recirkulation.</figcaption>
+<img src="./assets/Insertdefaults.gif" alt="Konstruktionerne er inddelt i de viste grupper (Insert Default Options). Kun de grupper som er markeret med et 'hak', vil blive opdateret/overskrevet med de valgte standardkonstruktioner.">
+<figcaption>Konstruktionerne er inddelt i de viste grupper (Insert Default Options). Kun de grupper som er markeret med et "hak", vil blive opdateret/overskrevet med de valgte standardkonstruktioner.</figcaption>
 </figure>
-___________________________________________________________
+
+
 
 Når konstruktionerne er påtrykt en type, vil de blive optegnet i den grafiske visning med deres virkelige tykkelse.
 
