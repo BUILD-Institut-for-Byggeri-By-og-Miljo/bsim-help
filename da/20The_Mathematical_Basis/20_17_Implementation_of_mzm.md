@@ -82,7 +82,7 @@ Der kan/skal kun defineres åbninger i klimaskærmen, da enkeltzonemodellen regn
 
 #### **Valg af CP-værdier**
 
-De benyttede CP-værdier stammer fra ([Orme et al. 1998](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)) og er middelværdier for fladerne. Brugeren kan ikke selv angive CP-værdier. Orme et al. (1998) angiver CP-værdier for kvadratiske bygninger og bygninger med et sideforhold på 1:2. Der er ligeledes angivet CP-værdier for forskellige taghældninger. BSim vælger CP-værdier på baggrund af modellens geometri. *Det er derfor vigtigt at der opbygges tilpas meget af bygningen til at BSim vælger de rigtige CP-værdier.*
+De benyttede CP-værdier stammer fra ([Orme et al. 1998](/20The_Mathematical_Basis/20_28_Literature.html)) og er middelværdier for fladerne. Brugeren kan ikke selv angive CP-værdier. Orme et al. (1998) angiver CP-værdier for kvadratiske bygninger og bygninger med et sidforhold på 1:2. Der er ligeledes angivet CP-værdier for forskellige taghældninger. BSim vælger CP-værdier på baggrund af modellens geometri. *Det er derfor vigtigt at der opbygges tilpas meget af bygningen til at BSim vælger de rigtige CP-værdier.*
 
 CP-værdierne findes for tre forskellige grader af læ fra de omkringliggende bygninger og angives som en egenskab på den udvendige side af åbningen, se figur 3.
 
@@ -93,9 +93,9 @@ CP-værdierne findes for tre forskellige grader af læ fra de omkringliggende by
 
 #### **Regulering af naturlig ventilation**
 
-Enkeltzonemodellen aktiveres fra systemet [*Venting*](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system). [*Venting* ](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system)er et kølesystem, og kommer dermed kun i drift hvis temperaturen i den termiske zone, der reguleres efter, overskrider det ønskede setpunkt.
+Enkeltzonemodellen aktiveres fra systemet [*Venting*](/11Systems/11_06_Venting_system.html). [*Venting* ](/11Systems/11_06_Venting_system.html)er et kølesystem, og kommer dermed kun i drift hvis temperaturen i den termiske zone, der reguleres efter, overskrider det ønskede setpunkt.
 
-Hvis der er behov for køling, beregner BSim hvor meget luft der er behov for og vælger den åbningsgrad af vinduerne der giver et luftskifte tættest muligt på den krævede luftmængde. Reguleringen virker på samme måde, hvis [*Venting* ](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system)styres efter CO<sub>2 </sub>niveauet.
+Hvis der er behov for køling, beregner BSim hvor meget luft der er behov for og vælger den åbningsgrad af vinduerne der giver et luftskifte tættest muligt på den krævede luftmængde. Reguleringen virker på samme måde, hvis [*Venting* ](/11Systems/11_06_Venting_system.html)styres efter CO<sub>2 </sub>niveauet.
 
 #### **Hvad er nyt med multizone modellen?**
 
@@ -173,7 +173,7 @@ Der er overordnet to typer af knuder:
 
 *   Åbnings knuder
 
-Zoneknuderne er knyttet til de termiske zoner og omgivelserne. Der defineres én knude i de termiske zoner der indeholder åbninger der er aktiveret. Knuden placeres i samme højde som *SensorHgt* (figur 6). *SensorHgt* angiver i hvilken højde temperaturen i den termiske zone registreres (reguleres efter). Dette er kun relevant når der regnes med lodret temperaturgradient i den termiske zone. Ved beregning med lodret temperaturgradient benyttes [Kappa-modellen](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen-modelbeskrivelse).
+Zoneknuderne er knyttet til de termiske zoner og omgivelserne. Der defineres én knude i de termiske zoner der indeholder åbninger der er aktiveret. Knuden placeres i samme højde som *SensorHgt* (figur 6). *SensorHgt* angiver i hvilken højde temperaturen i den termiske zone registreres (reguleres efter). Dette er kun relevant når der regnes med lodret temperaturgradient i den termiske zone. Ved beregning med lodret temperaturgradient benyttes [Kappa-modellen](/12The_Kappa_model/12_01_Kappa_model_description.html).
 
 <figure id="center_img">
 <img src="./assets/mzm_im7.gif" alt="Figur 6. Dialogboks med egenskaber for en termisk zone. SensorHgt angiver i hvilken højde systemerne måler temperaturen.">
@@ -194,7 +194,7 @@ Der oprettes grene
 
 #### **Lister med knuder og grene**
 
-Der oprettes to lister der indeholder hhv. alle knuder og alle grene. Listerne kan ses ved at vælge "chek" fra "[Simulation](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5-simulation)" fanebladet i tsbi5. Listerne heder "Nodes" (knuder) og "Arches" (grene).
+Der oprettes to lister der indeholder hhv. alle knuder og alle grene. Listerne kan ses ved at vælge "chek" fra "[Simulation](/13tsbi5_thermal_simulation/13_04_Simulation.html)" faneblad i tsbi5. Listerne heder "Nodes" (knuder) og "Arches" (grene).
 
 ### **Opstilling af det udspændende træ**
 
@@ -205,7 +205,7 @@ Opstilling af det udspændende træ skal kun inkludere de zoner der, evt. gennem
 <figcaption>Figur 7. BSim model med to interne åbninger og ingen eksterne. Multizone modellen bliver ikke aktiveret.</figcaption>
 </figure>
 
-Ved opstilling af det udspændende træ er det valgt altid at starte i knuden for omgivelserne. Træet opstilles ud fra følgende systematik efter ([Savić et al. 1996](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)) , kaldet ”depth-first-search”. N er antallet af Nodes (knuder) og P er antallet af pipes (grene). Beregningsgangen i opstillingen af det udspændende træ forklares i det følgende:
+Ved opstilling af det udspændende træ er det valgt altid at starte i knuden for omgivelserne. Træet opstilles ud fra følgende systematik efter ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)) , kaldet "depth-first-search". N er antallet af Nodes (knuder) og P er antallet af pipes (grene). Beregningsgangen i opstillingen af det udspændende træ forklares i det følgende:
 
 <div id="gray_background">
 
@@ -261,7 +261,7 @@ Listerne *A<sub>t</sub>* og C gemmes og der laves desuden en liste af grene der
 
 #### **Forklaring af beregningsgang ved opstilling af det udspændende træ**
 
-Forklaringen af beregningsgang ved opstilling af det udspændende træ bygger på figur 8 fra ([Savić et al. 1996](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)).
+Forklaringen af beregningsgang ved opstilling af det udspændende træ bygger på figur 8 fra ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)).
 
 Beregningsgangen er:
 
@@ -298,7 +298,7 @@ Hvis alle grenene bliver brugt til opstilling af træet, vil modellen ikke indeh
 
 ### **Opstilling af ringene**
 
-Opstilling af ringene sker ud fra følgende systematik efter ([Savić et al. 1996](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)), kaldet "breath-first-search". Beregningsgangen i opstillingen af ringene forklares i det følgende:
+Opstilling af ringene sker ud fra følgende systematik efter ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)), kaldet "breath-first-search". Beregningsgangen i opstillingen af ringene forklares i det følgende:
 
 <div id="gray_background">
 
@@ -500,7 +500,7 @@ De to ligningssystemer samles til ét, ved at samle de to matricer, vektorerne m
 
 Drivtrykket fra opdrift kan beregnes på baggrund af forskelle i vægten af luften mellem de åbninger luften strømmer igennem.
 
-I BSim regnes der som standard med fuld opblanding og dermed ensartede lufttemperaturer i de enkelte zoner. Der kan også regnes med en lineær lodret temperaturgradient. Det generelle udtryk for vægten af luft beregnes efter ([Hansen et al. 1997](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)):
+I BSim regnes der som standard med fuld opblanding og dermed ensartede lufttemperaturer i de enkelte zoner. Der kan også regnes med en lineær lodret temperaturgradient. Det generelle udtryk for vægten af luft beregnes efter ([Hansen et al. 1997](/20The_Mathematical_Basis/20_28_Literature.html)):
 
 $$ p = \frac{m}{V} = 0,0034837 \cdot \frac{p}{T} - 0,0013169 \cdot \frac{p_d}{T} $$
 
@@ -578,7 +578,7 @@ Alle ændringer i temperatur, fugtighed og densitet sker ved knuden for omgivels
 
 #### **Beregning**
 
-Der udføres en integration for hver af de zoner der er indeholdt i ringen, og for omgivelserne hvis ringen indeholder knuden for udeluften. For hver zone findes koten for de to åbninger der indgår i ringen, og det termiske drivtryk beregnes efter formel (18.12), hvis [Kappa](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund) er lig 1 eller formel (18.13) hvis [Kappa](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund) er forskellig fra 1.
+Der udføres en integration for hver af de zoner der er indeholdt i ringen, og for omgivelserne hvis ringen indeholder knuden for udeluften. For hver zone findes koten for de to åbninger der indgår i ringen, og det termiske drivtryk beregnes efter formel (18.12), hvis [Kappa](/12The_Kappa_model/12_01_Kappa_model_description.html) er lig 1 eller formel (18.13) hvis [Kappa](/12The_Kappa_model/12_01_Kappa_model_description.html) er forskellig fra 1.
 
 ### **Drivtryk fra vind**
 
@@ -676,7 +676,7 @@ For de samme modeller konvergerer ligningssystemet i løbet af knap 2 iteratione
 
 #### **Løsningsmetode for ligningssystemet**
 
-Til løsning af ligningssystemet benyttes simpel Gauss reduktion. Koden er opbygget med udgangspunkt i ([William et al. 2002](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)).
+Til løsning af ligningssystemet benyttes simpel Gauss reduktion. Koden er opbygget med udgangspunkt i ([William et al. 2002](/20The_Mathematical_Basis/20_28_Literature.html)).
 
 #### **Løsningsgang**
 
@@ -762,4 +762,4 @@ Reguleringen vil derfor komme til at pendle omkring setpunkterne for de enkelte 
 
 Udover det ovenfor beskrevne stopkriterium er der lavet et generelt stopkriterium der sikrer at reguleringen ikke kører fast. Dette stopkriterium bevirker at åbningsgraderne maksimalt kan ændres lige så mange gange (for hvert tidsskridt) som antallet af åbningsgrader, plus et fast ekstra antal specificeret af brugeren.
 
-*   [Regulering af multizone modellen](https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen)
+*   [Regulering af multizone modellen](/20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.html)

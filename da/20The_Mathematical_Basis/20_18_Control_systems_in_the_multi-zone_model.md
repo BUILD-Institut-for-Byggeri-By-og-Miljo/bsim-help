@@ -37,7 +37,7 @@ I dette afsnit beskrives hvordan de to typer af åbninger kan reguleres.
 
 ### **Åbningsgrad for regulerbare åbninger**
 
-Alle de regulerbare åbninger (vinduer og døre) har et entydigt antal åbningsgrader. Antallet er ens for alle de regulerbare åbninger og er som standard 20. Antallet af åbningsgrader kan ændres under [tsbi5 - Edit - Options](https://help.bsim.dk/support/kb/articles/EWBOvOmr/tsbi5-general-options), figur 3.
+Alle de regulerbare åbninger (vinduer og døre) har et entydigt antal åbningsgrader. Antallet er ens for alle de regulerbare åbninger og er som standard 20. Antallet af åbningsgrader kan ændres under [tsbi5 - Edit - Options](/24Miscellaneous/24_16_tsbi5_general_options.html), figur 3.
 
 <figure id="center_img">
 <img src="./assets/mzm_fig20_3.jpg" alt="Figur 3. Antallet af åbningsgrader er ens for alle de regulerbare åbninger og kan sættes af brugeren.">
@@ -49,7 +49,7 @@ Alle de regulerbare åbninger (vinduer og døre) har et entydigt antal åbningsg
 
  
 
-Alle ikke-regulerbare åbninger (huller) er pr. definition altid helt åbne. De er dog kun aktive i de perioder hvor [*Venting* ](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system)er aktiveret. Når [*Venting* ](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system)ikke er aktiv regner tsbi5 som om hullerne ikke findes.
+Alle ikke-regulerbare åbninger (huller) er pr. definition altid helt åbne. De er dog kun aktive i de perioder hvor [*Venting* ](/11Systems/11_06_Venting_system.html)er aktiveret. Når [*Venting* ](/11Systems/11_06_Venting_system.html)ikke er aktiv regner tsbi5 som om hullerne ikke findes.
 
 ## **Beregningsgang ved regulering**
 
@@ -69,7 +69,7 @@ Beregningsgangen ved reguleringen er beskrevet på punktform nedenfor.
 
 ### **Eksempel på beregningsgang ved regulering**
 
-På figur 4 er beregningsgang ved reguleringen vist. Der er taget udgangspunkt i en temperaturstyring af [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) og at der er tale om et køletilfælde
+På figur 4 er beregningsgang ved reguleringen vist. Der er taget udgangspunkt i en temperaturstyring af [Venting](/11Systems/11_06_Venting_system.html) og at der er tale om et køletilfalfælde
 
 De tal der er markeret med FED ud for mzm og varmebalancen er de værdier der beregnes og dem der ikke er fede er dem der bruges til beregningen. Alle temperaturer og luftmængder er fiktive. Det eneste der "rigtigt" er ændringens retning (op eller ned).
 

@@ -50,5 +50,5 @@ Diverse forudsætninger for beregningerne:
 
 Se også:
 
-*   [Dagslysberegning i et punkt](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt)
+*   [Dagslysberegning i et punkt](/15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html)
 
