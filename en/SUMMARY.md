@@ -274,7 +274,7 @@
 
 ### Miscellaneous
 
-* [PackCalc (Cooling)](24Miscellaneous/24_01_PackCalc_(Cooling).md)
+* [PackCalc (Cooling)](24Miscellaneous/24_01_PackCalc_Cooling.md)
 * [Heating control](24Miscellaneous/24_02_Heating_control.md)
 * [Shutter Control](24Miscellaneous/24_03_Shutter_Control.md)
 * [Shading Control](24Miscellaneous/24_04_Shading_Control.md)

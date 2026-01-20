@@ -273,7 +273,7 @@
 
 ### Miscellaneous
 
-* [PackCalc (Køling)](24Miscellaneous/24_01_PackCalc_(Cooling).md)
+* [PackCalc (Køling)](24Miscellaneous/24_01_PackCalc_Cooling.md)
 * [Opvarmning - Varmeregulering](24Miscellaneous/24_02_Heating_control.md)
 * [Skodderegulering](24Miscellaneous/24_03_Shutter_Control.md)
 * [Regulering efter solindfald og temperatur](24Miscellaneous/24_04_Shading_Control.md)
