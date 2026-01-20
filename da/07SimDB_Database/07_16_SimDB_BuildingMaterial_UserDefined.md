@@ -7,8 +7,8 @@ Dette faneblad giver mulighed for at indtaste detaljeret information om transmit
 Det er ikke muligt at vise den beregnede kurve korrekt på fanebladet [*Glazing*](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html), før det sidst redigerede felt er forladt ved brug af pil-tasterne.
 
 <figure id="center_img">
-<img src="./assets/DBTRANSM.GIF" alt="Tabel (Edit Material | Transmittance) for inddatering af detaljeret information om transmittansens afhængighed af indfaldsvinklen.">
-<figcaption>Tabel (Edit Material | Transmittance) for inddatering af detaljeret information om transmittansens afhængighed af indfaldsvinklen.</figcaption>
+<img src="./assets/Dbtransm.gif" alt="Tabel (Edit Material | Transmittance) for inddatering af detaljeret information om transmittansens afhængighed af indfaldsvinklen.">
+<figcaption>Tabel (Edit Material | Transmittance) for inddatering af detaljeret information om transmittansens afhængighed af indfaldsvinklen.</figcaption> 
 </figure>
 
 
