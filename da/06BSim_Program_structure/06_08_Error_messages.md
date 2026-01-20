@@ -6,11 +6,11 @@ Fejlmeddelelser i *ModelList* vise med en foranstillet ikon <img src="./assets/1
 
 Fejlmeddelelser optræder følgende steder:
 
-*   Termisk simulering med tsbi5 og ModelList
+*   [Termisk simulering med tsbi5 og ModelList](#tsbi5-modellist)
 
-*   Simulering af direkte sol med XSun
+*   [Simulering af direkte sol med XSun](#xsun)
 
-### **tsbi5 / ModelList**
+<h3 id="tsbi5-modellist"><strong>tsbi5 / ModelList</strong></h3>
 
 | **Fejlmeddelelse** | **Mulig årsag** |
 |---|---|
@@ -37,31 +37,8 @@ Fejlmeddelelser optræder følgende steder:
 | U = x W/m²K | U-værdien for rammen i WinDoor er ikke defineret |
  
 
-### **XSun**
+<h3 id="xsun"><strong>XSun</strong></h3>
 
 | **Fejlmeddelelse**         | **Mulig årsag** |
 |---------------------------|-----------------|
 | Face sides degenerated |??? |
-
-
-
-## Parametre i gruppen *Outdoors*
-
-Inddata fra klimafil og beregnet position af solen.  
-Disse parametre er **kun** tilgængelige i resultatloggen hvis der er sat “hak” ud for  
-[Weather] på [Options fanebladet] før simuleringen.
-
-| Parameter   | Beskrivelse |
-|-------------|-------------|
-| **AtmPres** | Lufttrykket, Pascal.  <br> Hvis lufttrykket er konstant 0 kan der stadig simuleres naturlig ventilation med [multizone-modellen], men med reduceret præcision. |
-| **CldCover** | Skydække, ottendedele (8 = helt overskyet, 0 = skyfrit) |
-| **DifRad** | Diffus solstråling på vandret, kW/m² |
-| **ExtTmp** | Temperaturen af udeluften (tør), °C |
-| **HumRatio** | Absolut fugtindhold i udeluften, kg/kg tør luft |
-| **NormRad** | Direkte solindfald ved vinkelret indstråling, kW/m² |
-| **RelHumid** | Relativ fugtighed i udeluften, % |
-| **SkyTemp** | Himmeltemperatur, °C |
-| **SunAz** | Solens position regnet fra nord (nord = 0°) og positiv mod øst (øst = 90°), grader |
-| **SunH** | Solhøjde i forhold til vandret (zenit = 90°), grader |
-| **WindDir** | Vindretning (nord = 0°), grader |
-| **WindSpeed** | Vindhastighed, m/s |
