@@ -9,28 +9,28 @@
 </p>
 
 ## **Context**  
-1. MAIN CONCEPTS   
-2. 2D SIMPLIFICATION   
-          2.1. Status of the art before the current research  
-          2.2. The contribution of the current research  
-          2.2.1. Method
+1. <a href="#main-concepts">MAIN CONCEPTS</a>   
+2. <a href="#2d-simplification">2D SIMPLIFICATION</a>   
+2.1. <a href="#status-of-the-art">Status of the art before the current research</a>  
+2.2. <a href="#contribution-current-research">The contribution of the current research</a>  
+2.2.1. <a href="#method">Method</a>
+3. <a href="#epsilon-ntu-method">THE ε-NTU METHOD FOR THE DESCRIPTION OF THE VARIATION OF THE WATER TEMPERATURE ALONG THE CIRCUIT</a>   
+3.1. <a href="#grounds-epsilon-ntu">Grounds of the ε-NTU method</a>  
+3.2. <a href="#epsilon-ntu-developed-model">The ε-NTU method in the developed model</a>  
+3.3 <a href="#thermal-resistances">The calculation of thermal resistances R<sub>w</sub>, R<sub>p</sub> and R<sub>x</sub></a>  
+3.3.1 <a href="#thermal-resistance-rw">The calculation of thermal resistance R<sub>w</sub></a>  
+3.3.2 <a href="#thermal-resistance-rp">The calculation of thermal resistance R<sub>p</sub></a>  
+3.3.3 <a href="#thermal-resistance-rx">The calculation of thermal resistance R<sub>x</sub></a>   
+3.4. <a href="#calculation-u">The calculation U</a>
 
-3. THE ε-NTU METHOD FOR THE DESCRIPTION OF THE VARIATION OF THE WATER TEMPERATURE ALONG THE      CIRCUIT   
-          3.1. Grounds of the ε-NTU method  
-          3.2. The ε-NTU method in the developed model  
-          3.3 The calculation of thermal resistances R<sub>w</sub>, R<sub>p</sub> and R<sub>x</sub>  
-          3.3.1 The calculation of thermal resistance R<sub>w</sub>  
-          3.3.2 The calculation of thermal resistance R<sub>p</sub>  
-          3.3.3 The calculation of thermal resistance R<sub>x</sub>   
-          3.4. The calculation U
-
-4. GLOBAL VIEW OF THE WHOLE MODULE   
-5. BIBLIOGRAPHY   
-6. APPENDIX A
+4. <a href="#global-view">GLOBAL VIEW OF THE WHOLE MODULE</a>   
+5. <a href="#bibliography">BIBLIOGRAPHY</a>   
+6. <a href="#appendix-a">APPENDIX A</a>
 
  
 
-## **1. MAIN CONCEPTS**
+
+<h2 id="main-concepts"><strong>1. MAIN CONCEPTS</strong></h2>
 
 Hydronic radiant systems embedded in building structures imply 2D thermal fields, due to the presence of the pipes. As a consequence, the description of radiant heating/cooling systems should involve the calculation of 2D heat flows, so that long calculation times would be required. Moreover, the thermal field varies along the flow direction, since the water decreases/increases its own temperature and consequently the heat transfer to the rest of the slab decreases.
 
@@ -44,9 +44,10 @@ The most important simplifications performed in the development of the current m
 
  
 
-## **2. 2D SIMPLIFICATION**
 
-### **2.1. Status of the art before the current research**
+<h2 id="2d-simplification"><strong>2. 2D SIMPLIFICATION</strong></h2>
+
+<h3 id="status-of-the-art"><strong>2.1. Status of the art before the current research</strong></h3>
 
 The main concept regarding the degeneration of the 2D thermal field into a 1D one is here explained.
 
@@ -117,9 +118,9 @@ $$ R_x = \frac{P \cdot \ln \left( \frac{P}{\pi \cdot d_p} \right)}{2 \cdot \pi \
 
 Unfortunately, such a method was derived assuming the condition of steady state thermal conditions. Following research (De Carli, Koschenz, Olesen and Scarpa[6]) was performed in order to check the accuracy of such a model even in the description of unsteady state thermal behavior of thermally activated building systems. The research showed that such a model can be extended to unsteady state conditions with negligible loss in accuracy. In fact, the time constant of the material region around the pipes is low, so that unsteady state behavior takes a short time and the steady state solution may be acquired as a good approximation, especially if the whole running period is considered.
 
-### **2.2. The contribution of the current research**
+<h3 id="contribution-current-research"><strong>2.2. The contribution of the current research</strong></h3>
 
-#### **2.2.1. Method**  
+<h4 id="method"><strong>2.2.1. Method</strong></h4>  
 Even the further development of the "Resistance Method" was still bound to the limitations imposed by the analytical solution by Glück (i.e. the presence of homogeneous material around the pipe) and the ones assumed in order to simplify Glück's solution into
 
 $$ R_x = \frac{P \cdot \ln \left( \frac{P}{\pi \cdot d_p} \right)}{2 \cdot \pi \cdot \lambda_s} $$
@@ -130,28 +131,18 @@ For that purpose, the thermal behaviors of various kinds of slabs were examined 
 
 The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were considered.
 
-<p align="center">
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-</style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-7btt">Type A<br><img src="./assets/fh_fig4.gif" width=150></th>
-    <th class="tg-7btt">Type E<br><img src="./assets/fh_fig5.gif" width=150></th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-7btt">Type X1<br><img src="./assets/fh_fig6.gif" width=150></td>
-    <td class="tg-7btt">Type G<br><img src="./assets/fh_fig7.gif" width=150></td>
-  </tr>
-</tbody>
-</table>
-</p>
+<br>
+
+<div align="center">
+
+|   |   |
+|:-:|:-:|
+| **Type A** | **Type E** |
+| <img src="./assets/fh_fig4.gif" width="150"> | <img src="./assets/fh_fig5.gif" width="150"> |
+| **Type X1** | **Type G** |
+| <img src="./assets/fh_fig6.gif" width="150"> | <img src="./assets/fh_fig7.gif" width="150"> |
+
+</div>
 
 <p align="center">
 <em>Figure 3 - Kinds of radiant systems considered in the analysis.</em>
@@ -163,196 +154,14 @@ As a general rule, in all types, the air cavities were not considered as conduct
 
 In the following figure the analyzed geometries are shown. They have been analyzed via fine anc coarse meshes.
 
-<p align="center">
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-n9g5{background-color:#ffffff;border-color:inherit;color:#000000;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-gvcd{background-color:#ffffff;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-<tr>
-<th class="tg-gvcd">
+<br>
 
-<img src="./assets/fh_fig8.gif" width=150>
-
-*1.1 Real geometry*   
-*and fine mesh.*
-
-</th>
-<th class="tg-gvcd">
-
-<p align="center">
-<strong> 1. Type A </strong>
-</p>
-
-Material 1:   
-s=0.02, λ=0.170 W/(mK), ρ=600 kg/m³, c<sub>p</sub>=2500 J/(kg K)
-
-Material 2:  
-s=0.10, λ=1.600 W/(mK), ρ=2300 kg/m³, c<sub>p</sub>=900 J/(kg K)
-
-Material 3:  
-s=0.25, λ=0.039 W/(mK), ρ=50 kg/m³, c<sub>p</sub>=850 J/(kg K)
-
-Pipe: d<sub>e</sub> = 0.02 m
-
-Pipe spacing: P = 0.3 m
-
-</th>
-<th class="tg-gvcd">
-
-<img src="./assets/fh_fig9.gif" width=150>
-
-*1.2 Simplified geometry*   
-*and rough mesh.*
-
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tg-gvcd">
-
-<img src="./assets/fh_fig10.gif" width=150>
-
-*2.1 . Real geometry*   
-*and fine mesh*
-
-</td>
-<td class="tg-gvcd">
-
-<p align="center">
-<strong> 2. Type E </strong>
-</p>
-
-Material 1:  
-s=0.02, λ=0.170 W/(mK), ρ=600 kg/m³, c<sub>p</sub>=2500 J/(kg K)
-
-Material 2:   
-s=0.07, λ=1.200 W/(mK), ρ=2000 kg/m³, c<sub>p</sub>=900 J/(kg K)
-
-Material 3:  
-s=0.03, λ=0.040 W/(mK), ρ=100 kg/m³, c<sub>p</sub>=850 J/(kg K)
-
-Material 4:  
-s=0.20, λ=1.600 W/(mK), ρ=2300 kg/m³, c<sub>p</sub>=900 J/(kg K)
-
-Pipe: d<sub>e</sub> = 0.02 m
-
-Pipe spacing: P = 0.3 m
-
-</td>
-<td class="tg-gvcd">
-
-<img src="./assets/fh_fig11.gif" width=150>
-
-*2.2 Simplified geometry*  
-*and rough mesh*
-
-</td>
-</tr>
-<tr>
-<td class="tg-gvcd">
-
-<img src="./assets/fh_fig12.gif" width=150>
-
-*3.1 Real geometry and*   
-*fine mesh.*
-
-</td>
-<td class="tg-gvcd">
-
-<p align="center">
-<strong> 3. Type X1 </strong>
-</p>
-
-Material 1:   
-s=0.06, λ=0.200 W/(mK), ρ=300 kg/m³, c<sub>p</sub>=2500 J/(kg K)
-
-Material 2:   
-s=0.05, λ=0.040 W/(mK), ρ=100 kg/m³, c<sub>p</sub>=850 J/(kg K)
-
-Material 3:   
-s=0.30, λ=1.600 W/(mK), ρ=2300 kg/m³, c<sub>p</sub>=900 J/(kg K)
-
-Pipe: d<sub>e</sub> = 0.02 m
-
-Pipe spacing: P = 0.3 m
-
- 
-
-</td>
-<td class="tg-gvcd">
-
-<img src="./assets/fh_fig13.gif" width=150>
-
-*3.2. Simplified geometry*   
-*and rough mesh*
-
-</td>
-</tr>
-<tr>
-<td class="tg-gvcd">
-
-<img src="./assets/fh_fig14.gif" width=150>
-
-*4.1. Simplified geometry*  
-*and simplified mesh.*
-
-</td>
-<td class="tg-gvcd">
-
-<p align="center">
-<strong> 4. Type G </strong>
-</p>
-
-Material 1:  
-s=0.02, λ=0.170 W/(mK), ρ=600 kg/m³, c<sub>p</sub>=2500 J/(kg K)
-
-Material 2:   
-s=0.04, λ=0.200 W/(mK), ρ=300 kg/m³, c<sub>p</sub>=2500 J/(kg K)
-
-Material 3:   
-s=0.10, λ=0.039 W/(mK), ρ=50 kg/m³, c<sub>p</sub>=850 J/(kg K)
-
-Material 4:   
-s=0.12, λ=1.600 W/(mK), ρ=2300 kg/m³, c<sub>p</sub>=900 J/(kg K)
-
-Plate:   
-s=0.0005, λ=200 W/(mK), ρ=2700 kg/m³, c<sub>p</sub>=900 J/(kg K)
-
-Pipe: d<sub>e</sub> = 0.02 m
-
-Pipe spacing: P = 0.3 m
-
- 
-
-</td>
-<td class="tg-gvcd">
-
-<img src="./assets/fh_fig15.gif" width=150>
-
-*4.2. Detail of the mesh next*   
-*to the part of the plate*   
-*surrounding the pipe.*
-
-</td>
-</tr>
-</tbody>
-</table>
+|   |   |   |
+|:-:|:-:|:-:|
+| <img src="./assets/fh_fig8.gif" width="150"><br>*1.1 Real geometry*<br>*and fine mesh.* | **1. Type A**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.10, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Material 3: s=0.25, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig9.gif" width="150"><br>*1.2 Simplified geometry*<br>*and rough mesh.* |
+| <img src="./assets/fh_fig10.gif" width="150"><br>*2.1 Real geometry*<br>*and fine mesh.* | **2. Type E**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.07, λ=1.200, ρ=2000, c<sub>p</sub>=900<br>Material 3: s=0.03, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 4: s=0.20, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig11.gif" width="150"><br>*2.2 Simplified geometry*<br>*and rough mesh.* |
+| <img src="./assets/fh_fig12.gif" width="150"><br>*3.1 Real geometry*<br>*and fine mesh.* | **3. Type X1**<br>Material 1: s=0.06, λ=0.200, ρ=300, c<sub>p</sub>=2500<br>Material 2: s=0.05, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 3: s=0.30, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig13.gif" width="150"><br>*3.2 Simplified geometry*<br>*and rough mesh.* |
+| <img src="./assets/fh_fig14.gif" width="150"><br>*4.1 Simplified geometry*<br>*and simplified mesh.* | **4. Type G**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.04, λ=0.200, ρ=300, c<sub>p</sub>=2500<br>Material 3: s=0.10, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Material 4: s=0.12, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Plate: s=0.0005, λ=200, ρ=2700, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig15.gif" width="150"><br>*4.2 Detail of the mesh next*<br>*to the part of the plate*<br>*surrounding the pipe.* |
 
 <p align="center">
 <em>Figure 4 - Real and simplified 2D geometries, together with meshes.</em>
@@ -385,13 +194,13 @@ In the end, heat flows and temperatures are calculated via the 1D model and comp
 
  
 
-## **3. THE e-NTU METHOD FOR THE DESCRIPTION OF THE VARIATION OF THE WATER TEMPERATURE ALONG THE CIRCUIT**
+<h2 id="epsilon-ntu-method"><strong>3. THE e-NTU METHOD FOR THE DESCRIPTION OF THE VARIATION OF THE WATER TEMPERATURE ALONG THE CIRCUIT</strong></h2>
 
 The Efficiency-NTU (Number of Transfer Units) method has been used for the description of the heat exchange between the water supply temperature and the average temperature at the pipe level. At this point, the module developed for BSim is deviating from the "Resistance Method". In fact, the "Resistance Method" uses the thermal resistance R<sub>z</sub> in order to describe the variation of the water temperature along the circuit.
 
 In the model developed for this calculation module, the e-NTU method was applied by considering the pipe level at constant temperature along the circuit. That is a consistent with BSim approach, since BSim considers constant temperatures for the whole surface.
 
-### **3.1. Grounds of the e-NTU method**
+<h3 id="grounds-epsilon-ntu"><strong>3.1. Grounds of the e-NTU method</strong></h3>
 
 For the following treatment, we may refer to the following figure.
 
@@ -436,58 +245,19 @@ $$ \dot{Q} = (\dot{m} \cdot c_p)_{H} \cdot (\theta_{H,\text{In}} - \theta_{H,\t
 
 At this point, it is necessary to split the treatment in (at least) two parts. In fact, depending on the kind of relative fluid flows (pure counter flow, pure parallel flow, pure cross flow, and consequent combinations), LMTD, Q and Q<sub>max</sub> must be expressed in different ways. For our purposes, the treatment is limited to the cases of counter flow and parallel flow:
 
- 
+| **Fluids in pure counter flow**   | **Fluids in pure parallel flow**   |
+|:-:|:-:|
+| Definition of maximum heat flow deliverable between the fluids:   | Definition of maximum heat flow deliverable  between the fluids:  |
+| $ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In}) $  | $ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,Out}) $  |
+|  As a consequence,   | As a consequence,  |
+|  $ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $ | $ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $  |
+| Moreover,  | Moreover,  |
+| $ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,In}) - (\theta_{H,In} - \theta_{C,Out})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,In})}{(\theta_{H,In} - \theta_{C,Out})} \right)}  $  | $ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,Out}) - (\theta_{H,In} - \theta_{C,In})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,Out})}{(\theta_{H,In} - \theta_{C,In})} \right)} $  |
+|  As a consequence,  | As a consequence, |
+| $ \varepsilon = \frac{1 - e^{[-NTU (1 - R)]}}{1 - R \cdot e^{[-NTU (1 - R)]}} $  |  $ \varepsilon = \frac{1 - e^{[-NTU (1 + R)]}}{1 + R} $ |
 
-<table class="tg">
-<thead>
-<tr>
-<th class="tg-gvcd" style="text-align: center;"><strong>Fluids of pure counter flow</strong></th>
-<th class="tg-gvcd" style="text-align: center;"><strong>Fluids in pure parallel flow</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tg-gvcd" style="text-align: center;">
 
-Definition of maximum heat flow deliverable between the fluids:
-
-$$ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In}) $$
-
-As a consequence,
-
-$$ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $$
-
-Moreover,
-
-$$ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,In}) - (\theta_{H,In} - \theta_{C,Out})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,In})}{(\theta_{H,In} - \theta_{C,Out})} \right)}  $$
-
-$$ \varepsilon = \frac{1 - e^{[-NTU(1 - R)]}}{1 - R \cdot e^{[-NTU(1 - R)]}} $$
-
-</td>
-<td class="tg-gvcd" style="text-align: left;">
-
-Definition of maximum heat flow deliverable between the fluids:
-
-$$ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,Out}) $$
-
-As a consequence,
-
-$$ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $$
-
-Moreover,
-
-$$ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,Out}) - (\theta_{H,In} - \theta_{C,In})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,Out})}{(\theta_{H,In} - \theta_{C,In})} \right)} $$
-
-$$ \varepsilon = \frac{1 - e^{[-NTU (1 + R)]}}{1 + R} $$
-
-</td>
-</tr>
-</tbody>
-</table>
-
- 
-
-### **3.2. The e-NTU method in the developed model**
+<h3 id="epsilon-ntu-developed-model"><strong>3.2. The e-NTU method in the developed model</strong></h3>
 
 At this point, the two argumentations are joined together. In the present case, in fact, by assuming the pipe level has a uniform temperature,
 
@@ -503,9 +273,9 @@ $$ \dot Q = \varepsilon \cdot (\dot m \cdot c_p)_{Water} \cdot (\theta_{Water, i
 
  
 
-### **3.3. The calculation of thermal resistances R<sub>w</sub>, R<sub>p</sub> and R<sub>x</sub>**
+<h3 id="thermal-resistances"><strong>3.3. The calculation of thermal resistances R<sub>w</sub>, R<sub>p</sub> and R<sub>x</sub></strong></h3>
 
-#### **3.3.1. The calculation of thermal resistance R<sub>w</sub>**
+<h4 id="thermal-resistance-rw"><strong>3.3.1. The calculation of thermal resistance R<sub>w</sub></strong></h4>
 
 Heat transfer coefficient corresponding to the convection heat transfer, referred to 1 m² of internal surface of the pipe:
 
@@ -523,7 +293,7 @@ $$ \Rightarrow R_W = \frac{d_{PipeInt}^{0.13}}{2040. \cdot \left( 1. + 0.015 \cd
 
  
 
-#### **3.3.2. The calculation of thermal resistance R<sub>p</sub>**  
+<h4 id="thermal-resistance-rp"><strong>3.3.2. The calculation of thermal resistance R<sub>p</sub></strong></h4>
 Heat transfer coefficient corresponding to the conduction heat transfer through the pipe wall, referred to 1 m² of internal surface of the pipe:
 
 $$ h_{PipeWall} = \frac{2 \cdot \lambda_{PipeWall}}{d_{PipeInt} \cdot \ln \left( \frac{d_{PipeExt}}{d_{PipeInt}} \right)} $$
@@ -532,13 +302,13 @@ Then, the value of R<sub>p</sub> can be calculated, referring to 1 m² of floor
 
 $$ R_{PipeWall, Floor} = \frac{T_{Pipe}}{\pi} \cdot \frac{\ln \left( \frac{d_{PipeExt}}{d_{PipeInd}} \right)}{2 \cdot \lambda_{PipeWall}} $$
 
-#### **3.3.3. The calculation of thermal resistance R<sub>x</sub>**
+<h4 id="thermal-resistance-rx"><strong>3.3.3. The calculation of thermal resistance R<sub>x</sub></strong></h4>
 
 Thermal resistance R<sub>x</sub> corresponding to the fictitious conduction heat transfer:
 
 $$ R_{Pipe \rightarrow PipeLevel, Floor} = \frac{\frac{T}{2} \cdot \left( \theta_{Pipe} - \theta_{PipeLevel} \right)}{Q_{Pipe}} $$
 
-### **3.4. The calculation U**
+<h3 id="calculation-u"><strong>3.4. The calculation U</strong></h3>
 
 The previous resistances allow us to calculate heat transfer coefficient U needed by ε-NTU method:
 
@@ -550,7 +320,7 @@ Finally, the heat flowing from/to the water to/from the pipe level along the who
 
 $$ \dot Q = \varepsilon \cdot (\dot m \cdot c_p)_{Water} \cdot \left( \theta_{Water, In} - \theta_{PipeLevel} \right) $$
 
-## **4. GLOBAL VIEW OF THE WHOLE MODULE**
+<h2 id="global-view"><strong>4. GLOBAL VIEW OF THE WHOLE MODULE</strong></h2>
 
 To sum up, the calculation process performed by the present module acts as follows:
 
@@ -585,7 +355,7 @@ The accuracy of the 1D -> 2D simplification was checked varying both the tempera
 
 In the end, as regards the calculation time, it must be considered that, in order to calculate the thermal resistance to be applied in the 1D model, the 2D model must be executed only once (with a length of the time step equal to some millions of seconds, for instance, thus the terms depending on time are reduced to zero and the steady-state behavior can be predicted at once). From the diagrams, it is also clear that the 2D simulations (now used only for calculating the thermal resistance to be imposed at the pipe level of the 1D model) can be performed using the simplified geometry with coarse mesh. In a few words, the time needed for the calculation pre-processing (necessary in order to define the 1D thermal resistance) will be really short (maximum one or two seconds).
 
-## **5. BIBLIOGRAPHY**
+<h2 id="bibliography"><strong>5. BIBLIOGRAPHY</strong></h2>
 
 1. B. Glück. 1982. Strahlungsheizung - Theorie und Praxis. Verlag C.F. Müller. Karlsruhe.
 
@@ -599,7 +369,7 @@ In the end, as regards the calculation time, it must be considered that, in orde
 
 6. M. De Carli, M. Koschenz, B. W. Olesen, M. Scarpa. Dynamic evaluation of the cooling capacity of Thermo-Active Building Systems. ASHRAE 2006. Chicago.
 
-## **6. APPENDIX A**
+<h2 id="appendix-a"><strong>6. APPENDIX A</strong></h2>
 
 #### **TYPE A**
 
