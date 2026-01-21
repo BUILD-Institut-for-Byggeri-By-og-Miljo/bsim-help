@@ -4,7 +4,7 @@
 
 <div style="text-align:center">
 
-*Troels Ravn*
+<em>Troels Ravn</em>
 
 </div>
 

@@ -568,8 +568,7 @@ $$
 
  
 
-#### **Density of moist air with linear vertical temperature gradient  
-**
+#### Density of moist air with linear vertical temperature gradient
 
 For a linear, vertical temperature gradient an integration of the equation above gives the following:
 

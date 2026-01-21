@@ -1,10 +1,12 @@
 <link rel="stylesheet" href="../style.css">
-<div style="text-align:center">
 
 # Detailed moisture balance
-##### **A model for hygrothermal simulation of a building and its indoor climate**
+<div style="text-align:center">
 
-##### Carsten Rode  
+
+<strong>A model for hygrothermal simulation of a building and its indoor climate</strong>
+
+Carsten Rode  
 Department of Civil Engineering  
 Technical University of Denmark  
 www.byg.dtu.dk  

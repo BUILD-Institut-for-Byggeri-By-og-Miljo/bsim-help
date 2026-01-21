@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Systems, *Schedule*
-In the user interface the structure is reflected by the systems in the dialog boxes for the individual components, with all components having a *Schedule* tab, which defines the schedule to be used for the specific component.</span></em>
+In the user interface the structure is reflected by the systems in the dialog boxes for the individual components, with all components having a *Schedule* tab, which defines the schedule to be used for the specific component.
 
 
 The order of the control/schedule pairs *(DayProfile/Time)* on the summary tab is very important, with it being used in a simulation to determine which control action has to be used together with the current component. At a given time (at the beginning of each hour) the schedule is run through in the order in which it is shown on the summary tab. In the case of the first control/time definition pair where the specified time falls within the time definition, the relevant control action will be used together with its component. If, of the other hand, the specified time does not fall within any time definition in the schedule, the effect will be for the relevant component not to be activated at all, so there will be no impact on indoor climate at the time in question.
@@ -25,5 +25,5 @@ It is thus **only** the control associated with the first met time definition (m
 
 Time definitions covering the **whole year** (simulation period) must be located as the last entry in the table. Such a definition is normally used to "catch" periods that "falls" outside the rest of the time definitions for the system.
 
-See also: [](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)
+See also: 
 *   [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)

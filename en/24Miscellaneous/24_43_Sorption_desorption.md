@@ -25,7 +25,7 @@ DeltaU
 *Typical values for the moisture resistance (SBI-direction 178, Buildings moisture insulation, 1993).*
 
  
-| Byggemateriale | Fugtmodstand [m²sPa/kg] |
+| Building material | Moisture resistance [m²sPa/kg] |
 |---------------|-------------------------|
 | Carpets with latex back | 1 · 10<sup>9</sup> |
 | Linoleum | 25 · 10<sup>9</sup> |

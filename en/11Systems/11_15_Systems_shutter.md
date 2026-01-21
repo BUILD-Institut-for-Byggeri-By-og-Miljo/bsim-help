@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Shutter, System
-The shutter is primarily intended to be a night shutter that it closed for the current WinDoor when the outdoor temperature is below a certain value. The effect is that of improving the U-value of the current WinDoor and reducing incident solar radiation, if necessary to 0.</span>
+The shutter is primarily intended to be a night shutter that it closed for the current WinDoor when the outdoor temperature is below a certain value. The effect is that of improving the U-value of the current WinDoor and reducing incident solar radiation, if necessary to 0.
 
 <figure id="center_img">
 <img src="./assets/shutter.gif" alt="Dialog box for defining night shutters.">

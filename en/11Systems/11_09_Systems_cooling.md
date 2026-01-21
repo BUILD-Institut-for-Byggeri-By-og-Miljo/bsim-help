@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Systems, *Cooling*
-The model simulates a thermostat-controlled cooling radiator, e.g. a cooling ceiling or other cooling surface placed in the current thermal zone. The model corresponds to that described under heating. The function here is to cool the space, however, i.e. where there is a tendency towards excess temperature in the thermal zone, to control the cooling output in such a way that the temperature is kept at the selected cooling set point as far as possible.</span>
+The model simulates a thermostat-controlled cooling radiator, e.g. a cooling ceiling or other cooling surface placed in the current thermal zone. The model corresponds to that described under heating. The function here is to cool the space, however, i.e. where there is a tendency towards excess temperature in the thermal zone, to control the cooling output in such a way that the temperature is kept at the selected cooling set point as far as possible.
 
 
 <figure id="center_img">

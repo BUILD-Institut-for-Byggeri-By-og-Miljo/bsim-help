@@ -6,9 +6,9 @@
 
 <div style="text-align:center">
 
-*Morten Stender Christensen & Olaf Bruun Jørgensen, [Esbensen Consulting Engineers](https://www.dem.dk/)*
+<strong>Morten Stender Christensen & Olaf Bruun Jørgensen, <a href="https://www.dem.dk/">Esbensen Consulting Engineers</a>
 
-*Iver Holm Iversen, [IndeKlimaMiljø](https://www.ikm.dk/)*
+Iver Holm Iversen,  <a href="https://www.ikm.dk/">IndeKlimaMiljø</a></strong>
 </div>
  
 

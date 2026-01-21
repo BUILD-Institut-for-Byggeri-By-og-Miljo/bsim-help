@@ -141,7 +141,7 @@ T_{\text{air}} \Bigg[
 & + \Phi_{\text{air,sol}}
 + \Phi_{\text{air,vent}}
 + \Phi_{\text{air,syst}}
-+ \Phi_{\text{thermal bridges}}
++ \Phi_{\text{thermal\,bridges}}
 \tag{6}
 \end{aligned}
 $$

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Regulering efter lysføler på facaden
+# External sensor control
 
 When using this control strategy, the solar shading is being controlled according to the light intensity on the facade. When the lighting level, measured on the facade where the window is located, exceeds the value of *Shade Close* (lux), the shading is being closed. The solar shading will remain closed until the lighting level on the facade drops below the value of *Shade Open* (lux). 
 

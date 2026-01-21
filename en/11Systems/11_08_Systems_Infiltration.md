@@ -5,7 +5,7 @@ Infiltration is unintended or uncontrolled air penetration through leaks in the 
 
 $$ n_{out,air} = n_0 + c_t \cdot (t_i - t_o)^{tp} + c_v \cdot v \tag{1} $$
 
-| Symbol         | Forklaring                                                                                                   |
+| Symbol         | Description                                                                                                   |
 |----------------|-------------------------------------------------------------------------------------------------------------|
 | *n₀*           | is the basic air change(h⁻¹)                                                                                   |
 | *tᵢ*           | is the operative indoor temperature (°C)                                                                        |

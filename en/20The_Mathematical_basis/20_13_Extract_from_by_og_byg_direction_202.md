@@ -4,7 +4,7 @@
 
 <div style="text-align:center">
 
-**Natural ventilation model in BSim**  
+<strong>Natural ventilation model in BSim</strong>
 Karl Terpager Andersen  
 Danish Building Research Institute
 
