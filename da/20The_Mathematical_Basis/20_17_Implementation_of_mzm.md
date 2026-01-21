@@ -2,9 +2,9 @@
 
 # Implementering af mzm
 
-I denne del af sektionen beskrives implementeringen af multizone modellen i BSim. Sektionen indledes med et afsnit  om ombygningen af modeller i BSim, der benytter multizone modellen til beregning af naturlig ventilation. Der tages udgangspunkt i enkeltzonemodellen med en forklaring af de væsentligste ting der indgår ved modelopbygning. Derefter præsenteres de nye og ændrede ting der gælder for brug af multizone modellen.
+I denne del af sektionen beskrives implementeringen af multizone modellen i BSim. Sektionen indledes med et afsnit  om ombygningen af modeller i BSim, der benytter multizone modellen til beregning af naturlig ventilation. Der tages udgangspunkt i engeltzonemodellen med en forklaring af de væsentligste ting der indgår ved modelopbygning. Derefter præsenteres <a href="#hvad-er-nyt-med-multizone-modellen">de nye og ændrede ting der gælder for brug af multizone modellen</a>.
 
-Efter præsentationen af modelopbygningen beskrives opstillingen af ligningssystemet. Herunder generering af det udspændende træ og ringene, samt opstillingen af beregningsmatricerne.
+Efter præsentationen af modelopbygningen beskrives opstillingen af ligningssystemet. Herunder generering af <a href="#opstilling-af-det-udspændende-træ">det udspændende træ</a> og <a href="#opstilling-af-ringene">ringene</a>, samt opstillingen af <a href="#opstilling-af-beregningsmatricer">beregningsmatricerne</a>.
 
 Denne del afsluttes med en beskrivelse af hvordan det opstillede ligningssystem løses.
 
@@ -16,19 +16,19 @@ I dette afsnit beskrives den del af opbygningen af en BSim model, der har med mz
 
 De ting der blev indført med enkeltzonemodellen var: 
 
-*   Valg af vindprofil for grunden
+*   <a href="#valg-af-vindprofil">Valg af vindprofil for grunden</a>
 
-*   Valg af termiske zoner
+*   <a href="#valg-af-termiske-zoner">Valg af termiske zoner</a>
 
-*   Definere åbninger
+*   <a href="#definition-på-åbninger">Definere åbninger</a>
 
-*   Valg af CP-værdier
+*   <a href="#valg-af-cp-værdier">Valg af CP-værdier</a>
 
-*   Regulering af naturlig ventilation
+*   <a href="#regulering-af-naturlig-ventilation">Regulering af naturlig ventilation</a>
 
 Disse punkter vil kort blive gennemgået i det følgende. 
 
-#### **Valg af vindprofil**
+<h4 id="valg-af-vindprofil"><strong>Valg af vindprofil</strong></h4>
 
 På bygningsniveau vælges et vindprofil der benyttes til at beregne vindhastigheden i andre højder end 10 m - hvor vindhastigheden i vejrdata er målt.
 
@@ -52,7 +52,7 @@ V<sub>10</sub> er den meteorologiske vindhastighed i åbent land i 10 meters h�
 | Bycentrum                        | 0,21 | 0,33 |
 *Tabel 1 Faktorer til karakterisering af forskellige terrænformer*
 
-#### **Valg af termiske zoner**
+<h4 id="valg-af-termiske-zoner"><strong>Valg af termiske zoner</strong></h4>
 
 Ved brug af enkeltzonemodellen er det nødvendigt at overveje hvilke af bygningens rum der skal indgå i de termiske zoner. Ved en normal termisk beregning kan de rum, der har samme termiske egenskaber, med fordel placeres i sammen termiske zone. Dette gælder fx ensartede kontorer med samme orientering, som vist med blå cirkler på figur 1. Ved modellering af tværventilation med enkeltzonemodellen vil rummene imidlertid skulle inddeles i termiske zoner svarende til de røde cirkler.
 
@@ -65,7 +65,7 @@ til inddeling efter termiske hensyn og røde cirkler svarer til inddeling
 efter hensyn til naturlig ventilation med enkeltzonemodellen.</figcaption>
 </figure>
 
-#### **Definition på åbninger**
+<h4 id="definition-på-åbninger"><strong>Definition på åbninger</strong></h4>
 
 For at kunne beregne luftskifte ved naturlig ventilation skal der defineres nogle åbninger som luften kan strømme igennem. BSim har to typer af åbninger; huller og WinDoors. Huller er huller i konstruktionerne og kan ikke reguleres. Windoors dækker over vinduer og døre, som kan reguleres.
 
@@ -80,7 +80,7 @@ Der kan/skal kun defineres åbninger i klimaskærmen, da enkeltzonemodellen regn
 <figcaption>Figur 2. Dialoger til aktivering af huller og WinDoors i enkeltzonemodellen.</figcaption>
 </figure>
 
-#### **Valg af CP-værdier**
+<h4 id="valg-af-cp-værdier"><strong>Valg af CP-værdier</strong></h4>
 
 De benyttede CP-værdier stammer fra ([Orme et al. 1998](/20The_Mathematical_Basis/20_28_Literature.html)) og er middelværdier for fladerne. Brugeren kan ikke selv angive CP-værdier. Orme et al. (1998) angiver CP-værdier for kvadratiske bygninger og bygninger med et sidforhold på 1:2. Der er ligeledes angivet CP-værdier for forskellige taghældninger. BSim vælger CP-værdier på baggrund af modellens geometri. *Det er derfor vigtigt at der opbygges tilpas meget af bygningen til at BSim vælger de rigtige CP-værdier.*
 
@@ -91,13 +91,13 @@ CP-værdierne findes for tre forskellige grader af læ fra de omkringliggende by
 <figcaption>Figur 3. Angivelse af graden af læ fra omkringliggende bygninger.</figcaption>
 </figure>
 
-#### **Regulering af naturlig ventilation**
+<h4 id="regulering-af-naturlig-ventilation"><strong>Regulering af naturlig ventilation</strong></h4>
 
 Enkeltzonemodellen aktiveres fra systemet [*Venting*](/11Systems/11_06_Venting_system.html). [*Venting* ](/11Systems/11_06_Venting_system.html)er et kølesystem, og kommer dermed kun i drift hvis temperaturen i den termiske zone, der reguleres efter, overskrider det ønskede setpunkt.
 
 Hvis der er behov for køling, beregner BSim hvor meget luft der er behov for og vælger den åbningsgrad af vinduerne der giver et luftskifte tættest muligt på den krævede luftmængde. Reguleringen virker på samme måde, hvis [*Venting* ](/11Systems/11_06_Venting_system.html)styres efter CO<sub>2 </sub>niveauet.
 
-#### **Hvad er nyt med multizone modellen?**
+<h4 id="hvad-er-nyt-med-multizone-modellen"><strong>Hvad er nyt med multizone modellen?</strong></h4>
 
 I dette afsnit omtales de forhold der har ændret sig i opbygningen af en BSim model, hvor multizone modellen benyttes.
 
@@ -196,7 +196,7 @@ Der oprettes grene
 
 Der oprettes to lister der indeholder hhv. alle knuder og alle grene. Listerne kan ses ved at vælge "chek" fra "[Simulation](/13tsbi5_thermal_simulation/13_04_Simulation.html)" faneblad i tsbi5. Listerne heder "Nodes" (knuder) og "Arches" (grene).
 
-### **Opstilling af det udspændende træ**
+<h3 id="opstilling-af-det-udspændende-træ"><strong>Opstilling af det udspændende træ</strong></h3>
 
 Opstilling af det udspændende træ skal kun inkludere de zoner der, evt. gennem andre zoner, er forbundet med omgivelserne. Det vil sige at der ikke kan regnes på luftudveksling mellem to termiske zoner, hvis disse ikke, evt. gennem andre zoner, er forbundet med omgivelserne, se figur 7.
 
@@ -296,7 +296,7 @@ Der laves en reduktion af listerne, så de kun indeholder knuder og grene fra de
 
 Hvis alle grenene bliver brugt til opstilling af træet, vil modellen ikke indeholde nogen ringe og dermed vil multizone modellen ikke blive aktiveret. Dette svarer til at grenene nr. 1, 3, 6 og 7 mangler på figur 8 og det vil derfor være umuligt at lave en ring.
 
-### **Opstilling af ringene**
+<h3 id="opstilling-af-ringene"><strong>Opstilling af ringene</strong></h3>
 
 Opstilling af ringene sker ud fra følgende systematik efter ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)), kaldet "breath-first-search". Beregningsgangen i opstillingen af ringene forklares i det følgende:
 
@@ -384,7 +384,7 @@ På tidsskridtniveau kan vinduerne ændre status fra åben til lukket eller lukk
 
 Der tages hensyn til at de termiske zoner kan skifte kategori, fx at en multizone kan blive en enkeltzone ved at de interne åbninger lukkes.
 
-## **Opstilling af beregningsmatricer**
+<h2 id="opstilling-af-beregningsmatricer"><strong>Opstilling af beregningsmatricer</strong></h2>
 
 I dette afsnit beskrives opstillingen af beregningsmatricerne. Beregningsmatricerne opstilles ud fra det aktuelle ring-system, zonerne og åbningernes karakteristika, samt drivtryk fra vind og termik.
 

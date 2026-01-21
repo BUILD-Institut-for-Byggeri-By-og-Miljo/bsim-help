@@ -1,37 +1,46 @@
+<link rel="stylesheet" href="../style.css">
+
 # SimLight teori
-<p align="center"><em>Troels Ravn</em></p>
 
-## **Contents**
+<div style="text-align:center">
 
-*   Models for the environment
+<em>Troels Ravn</em>
 
-    *   Uniformly overcast sky
+</div>
 
-    *   CIE-overcast sky
+### **Contents**
 
-    *   CIE-clear sky
+*   <a href="#models">Models for the environment</a>
 
-*   Calculation of the direct illumination
+    *   <a href="#uniformsky">Uniformly overcast sky</a>
 
-*   Calculation of the externally reflected illumination
+    *   <a href="#cieovercast">CIE-overcast sky</a>
 
-*   Calculation of the internally reflected illumination
+    *   <a href="#cieclear">CIE-clear sky</a>
 
-    *   Surface subdivision
+*   <a href="#directillum">Calculation of the direct illumination</a>
 
-    *   Calculation of initial illumination
+*   <a href="#externalrefl">Calculation of the externally reflected illumination</a>
 
-    *   Shape-factor calculation
+*   <a href="#internalrefl">Calculation of the internally reflected illumination</a>
 
-    *   Inter-reflection calculation
+    *   <a href="#surfacesubdiv">Surface subdivision</a>
 
-*   Validation
+    *   <a href="#initialillum">Calculation of initial illumination</a>
 
-*   Default material properties
+    *   <a href="#shapefactor">Shape-factor calculation</a>
 
-*   Limitations
+    *   <a href="#interrefl">Inter-reflection calculation</a>
 
-*   References
+*   <a href="#validation">Validation</a>
+
+*   <a href="#defaultmat">Default material properties</a>
+
+*   <a href="#limitations">Limitations</a>
+
+*   <a href="#references">References</a>
+
+<br>
 
 The SimLight application is a tool which is available as part of the BSim-package. The modeling of the spaces are performed by SimView and the accessibility of the modeling of the daylighting specifics in SimLight concerns mainly the modeling of the environmental characteristics and the definition of reference points. The user interface for the SimLight application is a dialog box containing all information concerning single point daylighting contribution calculations. There are two additional underlying dialog boxes, which come in to play when multiple-point daylighting calculations are to be carried out. One dialog box is used to define the grid of calculation points, the other to present the results of the multiple-point calculation.
 
@@ -39,7 +48,7 @@ The general approach to the daylighting calculations in SimLight is of a Finite 
 
  
 
-## **Models for the environment**
+### <span id="models"><strong>Models for the environment</strong></span>
 
 The outdoors terrain is modeled as a Site object. BSim facilitate modeling of outdoors obstructions, but SimLight does not take it into account yet.
 
@@ -47,29 +56,29 @@ The sky can be defined according to three different models, all taken from (1), 
 
  
 
-### **Uniformly overcast sky**
+**<span id="uniformsky">Uniformly overcast sky</span>**
 
 The model of the uniformly overcast sky is based on the assumption that the sky is a perfect diffuser and has a uniform luminance at all points on the celestial dome. The relation between the illumination on the horizontal plane (E<sub>H</sub>) and the zenith luminance (L<sub>Z</sub>) is given by:
 
-$$  E_H = \pi \cdot L_Z $$
+$$  E_H = \pi \cdot L_Z $$
 
  
 
-### **CIE-overcast sky**
+**<span id="cieovercast">CIE-overcast sky</span>**
 
 The luminance of the CIE-overcast sky follows the Moon and Spencer distribution. The luminance at the horizon is one third of the zenith luminance. The relation between the luminance at angle θ (L<sub>θ</sub>) and the zenith luminance (L<sub>Z</sub>, Z=90°) is given by:
 
-$$  L_{\gamma_s} = L_Z \left( \frac{1 + 2 \sin \gamma_s}{3} \right) $$
+$$  L_{\gamma_s} = L_Z \left( \frac{1 + 2 \sin \gamma_s}{3} \right)  $$
 
  
 
 The relation between the illumination on the horizontal plane (E<sub>H</sub>) and the zenith luminance (L<sub>Z</sub>) is given as:
 
-$$  E_H = \frac{7 \pi}{9} \cdot L_Z $$
+$$  E_H = \frac{7 \pi}{9} \cdot L_Z $$
 
  
 
-### **CIE-clear sky**
+**<span id="cieclear">CIE-clear sky</span>**
 
 The luminance of the CIE-clear sky is described by Kittlers formula. It takes into consideration the atmospherically diffusion of the sunlight when the sky is clear, but does not include the special conditions of luminance near and on the solar disc. The relation between the luminance at a point on the celestial dome (L<sub>θ,α</sub>) and the zenith luminance (L<sub>Z</sub>, Z=90°) is:
 
@@ -100,11 +109,11 @@ where H is the sun height measured in degrees.
 
  
 
-## **Calculation of the direct illumination**
+### <span id="directillum"><strong>Calculation of the direct illumination</strong></span>
 
 The calculation of the direct illumination at the reference point is based on the theory presented in (2). The basic formula used to calculate the illumination contribution from a light source is:
 
-$$ E_R = \int\limits_{\text{A = area}} \frac{L_{dA} \sin \theta \cos \theta}{R^2} \, dA $$
+$$ E_R = \int\limits_{\text{A = area}} \frac{L_{dA} \sin \theta \cos \theta}{R^2} \, dA $$
 
 where   
 L<sub>dA</sub> is the luminance at dA,   
@@ -125,7 +134,7 @@ The database in BSim includes information on the amount of framing material used
 
  
 
-## **Calculation of the externally reflected illumination**
+### <span id="externalrefl"><strong>Calculation of the externally reflected illumination</strong></span>
 
 The calculation of the externally reflected illumination takes place in the same step as the calculation of the direct illumination. The triangles whose center-points do not map to a point on the celestial dome, maps to either the outdoors terrain, the fins around the window (defined in SimView), the sides of the opening containing the window or the frame around the window glazing.
 
@@ -136,9 +145,12 @@ In case a center-point maps to the fins around the window, the illumination of t
 In case a center-point maps to the sides of the opening containing the window, the illumination of the triangle is calculated as in the case with the mapping to the fin. The same arguments as above apply.
 
 As mentioned in the previous section, no contribution from the triangle in question is calculated in case a center-point maps to the frame around the window glazing.
+
  
 
-## **Calculation of the internally reflected illumination**
+ 
+
+### <span id="internalrefl"><strong>Calculation of the internally reflected illumination</strong></span>
 
 The calculation of the internally reflected illumination is the crucial part of the calculation process seen from a computational point of view. Calculation of this component requires knowledge about the luminance at every point on the interior surfaces of the space. The luminance is determined by the illumination on the interior surfaces. This illumination is also composed of direct, externally reflected and internally reflected illumination. The first step of the calculation of the internally reflected illumination at the reference point is therefore to calculate the illumination at all points on the interior surfaces and the inter-reflection between each one of these points. These calculations comprise the most time consuming steps of the entire process.
 
@@ -154,7 +166,7 @@ In order to reduce the computational time required, the critical steps of the ca
 
  
 
-### **Surface subdivision**
+**<span id="surfacesubdiv">Surface subdivision</span>**
 
 The subdivision of the interior surfaces is carried out in almost the same manner as in the case of the subdivision of the windows. However, as the subdivision is very dependent on the location of the reference point, it is necessary to generate a new mesh on the interior surfaces every time the location of the reference point is changed, in order to obtain correct results. Every time a mesh is generated, it is necessary to re-compute the illumination on the interior surfaces. In the case of a multiple point calculation, the repeated mesh generation and re-computation of the illumination requires an excessive amount of computational time. It would therefore be convenient if as many of the triangular elements as possible could be used and reused in consecutive calculations. This has been achieved by implementing a dynamical mesh generation procedure.
 
@@ -164,13 +176,13 @@ The basic mesh is initially generated on the basis of the volume of the space. T
 
  
 
-### **Calculation of initial illumination**
+**<span id="initialillum">Calculation of initial illumination</span>**
 
 The calculation of the direct and externally reflected illumination falling upon the elements on the interior surfaces of the space is calculated in the same way as described in the section Calculation of the direct illumination. This step in the calculation process also reaps the benefits of the existence of the basic mesh in the case of multiple-point calculations. The illumination falling upon the elements in the basic mesh needs only to be calculated once. In succeeding calculations there is only need to calculate the initial illumination falling upon the elements in the finer mesh. This also reduces the required computational considerably.
 
  
 
-### **Shape-factor calculation**
+**<span id="shapefactor">Shape-factor calculation</span>**
 
  
 
@@ -182,7 +194,7 @@ There is basically two ways of performing a shape-factor calculation for a space
 
 The second approach is by far the fastest for obvious reasons. However, approximate formulas exist only for rectangular sub-surfaces, which cannot be used in cases where the surface itself is not rectangular. The approximate formula for the shape-factor between rectangular elements is:
 
-$$  SF_{12} = \frac {\cos \theta_1 \cdot \cos \theta_2}{\pi r^2} A_2  $$
+$$  SF_{12} = \frac {\cos \theta_1 \cdot \cos \theta_2}{\pi r^2} A_2 $$
 
  
 
@@ -198,23 +210,23 @@ A possible solution could be to treat the triangular elements as rectangular ele
 
 The first approach, on the other hand, leads to correct results but is very time-consuming. Every shape-factor calculation is a calculation of a surface integral:
 
-$$  A_{1}F_{12} = \int\limits_{A_1} \int\limits_{A_2} \frac {(dA_1 \cos \theta_1)(dA_2 \cos \theta_2)} {\pi r^2} $$
+$$  A_{1}F_{12} = \int\limits_{A_1} \int\limits_{A_2} \frac {(dA_1 \cos \theta_1)(dA_2 \cos \theta_2)} {\pi r^2} $$
 
 where   
 A<sub>i</sub> is the area of surface i,   
 F<sub>ij</sub> is the shape-factor of element j seen from element i,   
-θ<sub>i</sub> is the angle of incidence at element i and   
+<sub><span style="font-size: 14px;">θ</span>i</sub> is the angle of incidence at element i and   
 r is the distance between the elements.
 
 In the case with n sub-surfaces on the boundaries of the space, the required number of shape-factor calculations is:
 
-$$ n_{SF} = \frac{\sum_i n_i (n-n_i)}{2} = \frac{n^2 - \sum_{i} n_{i}^2}{2} \cong \frac{i-1}{2i} n^2 $$
+$$ n_{SF} = \frac{\sum_i n_i (n-n_i)}{2} = \frac{n^2 - \sum_{i} n_{i}^2}{2} \cong \frac{i-1}{2i} n^2 $$
 
 where   
 n<sub>i</sub> is the number of sub-surfaces on surface i,   
 n is the total number of sub-surfaces.
 
-The division by 2 comes in to play as Area<sub>1</sub> SF<sub>12</sub> = Area<sub>2 </sub>SF<sub>21</sub>.
+The division by 2 comes in to play as Area<sub>1</sub>SF<sub>12</sub>=Area<sub>2</sub>SF<sub>21</sub>.
 
 The approximate equality sign expresses equality when all n<sub>i</sub> are equal.
 
@@ -224,7 +236,7 @@ In SimLight, it has been chosen to use both methods such that the advantages of 
 
 In SimLight, the Mitalas-Stephenson method is utilized for exact shape-factor calculation. This method is based on the line integral method, but with one of the integrals integrated analytically beforehand. The remaining integral, which is calculated numerically, is:
 
-$$  A_{1}F_{12} = \frac{1}{2\pi} \sum_{p=1}^{n_1} \sum_{q=1}^{n_2} \Phi_{pq} \sum^{m_p} \left( (T \cos \varphi \ln T + S \cos \theta \ln S + U_\omega - R) \nu_i \right) _{p,q} $$
+$$  A_{1}F_{12} = \frac{1}{2\pi} \sum_{p=1}^{n_1} \sum_{q=1}^{n_2} \Phi_{pq} \sum^{m_p} \left( (T \cos \varphi \ln T + S \cos \theta \ln S + U_\omega - R) \nu_i \right) _{p,q} $$
 
 where   
 S, T, U, φ, θ and ω are functions of the edge vector in the line integral.
@@ -236,15 +248,16 @@ The figure below illustrates the symbols in the equation. See (5) for further de
 <figcaption>Illustration of symbols used in the Mitalas-Stephenson method.</figcaption>
 </figure>
 
+
 Using this combination of calculation methods, correct shape-factors are calculated reasonably quickly.
 
-### **Interreflection calculation**
+**<span id="interrefl">Interreflection calculation</span>**
 
 The inter-reflection calculation can be performed by solving n equations with n variables (implicitly or explicitly) or by finding the solution by means of an iterative method. As the matrix holding the shape-factors is almost a full matrix, an iterative method is likely to be more efficient than an equation solver as the Gauss elimination will require considerable computational time (proportional to n³). In SimLight, a simple Jacobi-iterative method is used.
 
 The daylighting contribution from element i to element j is calculated as:
 
-$$ dE_j = SF_{ji} \cdot E_i \cdot r_i $$
+$$  dE_j = SF_{ji} \cdot E_i \cdot r_i $$
 
 where   
 dE<sub>j</sub> is the contribution to the illumination falling upon element j,   
@@ -260,7 +273,7 @@ The iteration procedure stops when the illumination falling upon any triangular 
 
 Finally, the contribution from all triangular sub-surfaces, visible from the reference point, to the illumination at the reference point is summed up in the same manner as described in the section *Calculation* *of the direct illumination*, with the luminance of sub-surface i calculated as:
 
-$$  L_i = \frac{r_i \cdot E_i}{\pi} $$
+<span style="letter-spacing: -0.14px;">$$  L_i = \frac{r_i \cdot E_i}{\pi} $$</span>
 
 where  
 r<sub>i</sub> is the reflection coefficient of element i and   
@@ -268,13 +281,16 @@ E<sub>i</sub> is the illumination falling upon sub-surface i.
 
 The relation is given in (4).
 
-## **Validation**
+ 
+
+ 
+
+### <span id="validation"><strong>Validation</strong></span>
 
 The validation of the results obtained with SimLight consists of
 
 1. Comparison of calculated values for direct illumination with an analytical solution (formula given in (2)).   
 2. Comparison of calculated values for direct and internally reflected illumination with results obtained with the application Prolight.   
-
 No recent and sophisticated software has been available for validation purposes during the development of the SimLight application. Therefore, the validation of the results sets certain limitations on which cases can be analyzed. The comparison with the analytical solution sets the restrictions that:
 
 *   The sky must be of uniform luminance,
@@ -299,21 +315,24 @@ The details of the validation comparisons are not included in this paper. The ge
 
  
 
-## **Default material properties**
+### <span id="defaultmat"><strong>Default material properties</strong></span>
 
 When no reflectance or light transmission is specified the following will be used:
 
- | Building element      | Reflectance | Light transmission |
-|----------------------|:-----------:|:------------------:|
-| Wall                 |   0,40      |                   |
-| Roof                 |   0,70      |                   |
-| Floor                |   0,10      |                   |
-| Ground               |   0,10      |                   |
-| WinDoor              |   0,15      |       0,70        |
-| Overhang/sidefinn    |   0,40      |                   |
+
+| Building element        | Reflectance | Light transmission |
+|------------------------|-------------|--------------------|
+| Wall                   | 0,40        |                    |
+| Roof                   | 0,70        |                    |
+| Floor                  | 0,10        |                    |
+| Ground                 | 0,10        |                    |
+| WinDoor                | 0,15        | 0,70               |
+| Overhang/sidefinn      | 0,40        |                    |
+
+
  
 
-## **Limitations**
+### <span id="limitations"><strong>Limitations</strong></span>
 
 There are a number of restrictions on the models that can be handled appropriately. It is required that the model complies with the following guide-lines:
 
@@ -331,7 +350,7 @@ The following condition is given for all calculations:
 
  
 
-## **References**
+### <span id="references"><strong>References</strong></span>
 
 1. Christoffersen, J., Petersen, E. and Johnsen, K. Calculation Tools for Analysis of Daylighting in Buildings (in Danish), SBI-report 277, Statens Byggeforskningsinstitut, 1998.
 

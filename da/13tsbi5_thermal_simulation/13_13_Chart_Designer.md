@@ -12,6 +12,8 @@ I *Chart Designer* dialogen er det muligt at ændre den generelle layout for den
 
 I **Chart** er det muligt at ændre grafens type og baggrunden for hele det grafiske afbildningsområde, fx kan der fra fanen *Backdrop* tillægges en farve eller en gradueret farve til baggrunden, eller der kan vælges et billede fra *Picture* som baggrund.
 
+<a id="reset-chart-defaults"></a>
+
 På fanebladet *Type* under *Chart* findes knappen *Reset Chart To Defaults*. Et tryk på denne knap bringer indstillingerne for visningen tilbage til den standard, som er defineret for grafikken.
 
 I **Title** kan grafens overskrift ændres: Placering på grafen (*Location*), tekstbaggrunden (*Backdrop*), baggrundsbillede (*Picture*), skriftretning og justering (*Layout*), overskrift (*Text*) og skrifttype (*Font*).
@@ -25,6 +27,8 @@ I **Title** kan grafens overskrift ændres: Placering på grafen (*Location*), t
 I **Legend** kan oplysninger om grafens signaturforklaring ændres. Denne dialog har i hovedsagen samme opbygning som dialogen for overskriften (*Title*).
 
 I **Plot** kan baggrunden for selve grafen ændres. Mulighederne er i øvrigt de samme som nævnt for *Chart*.
+
+<a id="axis-settings"></a>
 
 Indgangene **X Axis, Y Axis, second Y Axis** og **Z Axis** giver mulighed for at ændre udseendet af grafens akser. På første faneblad (*Value Scale*) er det muligt at ændre grafens tegnegrænser (*Scale*), antallet af underinddelinger (*Divisions*), placeringen og størrelsen af stregerne for underinddeling af akserne (*Ticks*) og hvor den anden akse skærer den aktuelle (fx hvor Y-aksen skærer X-aksen) (*Intersection*).
 
@@ -64,7 +68,7 @@ Ved at klikke på navnet for den enkelte serie (se figur) fremkommer der 4 faneb
 </figure>
 
 
-I *Options* kan serien skjules (*Hide Series*) eller slettes fra data (*Exclude Series*). Det er også muligt at plotte en serie på den sekundære Y-akse og dermed forbedre opløsningen på enkelte serier, fx ved at plotte på en sekundær Y-akse, der kun viser værdier mellem 500 og 1500 kWh (virker <u>kun</u> for stavdiagrammer som fx i varmebalancen). Se formatering af sekundær Y-akse.
+I *Options* kan serien skjules (*Hide Series*) eller slettes fra data (*Exclude Series*). Det er også muligt at plotte en serie på den sekundær Y-akse og dermed forbedre opløsningen på enkelte serier, fx ved at plotte på en sekundær Y-akse, der kun viser værdier mellem 500 og 1500 kWh (virker <u>kun</u> for stavdiagrammer som fx i varmebalancen). Se formatering af <a href="#axis-settings">sekundær Y-akse</a>.
 
 <figure id="center_img">
 <img src="./assets/CSERIES3.GIF" alt="Dialog for ændring af udseendet for en serie.">
@@ -80,7 +84,7 @@ På fanebladet *Statistics* kan vælges statistiske oplysninger, der skal vises 
 <figcaption>Dialog for ændring af grafisk visning af statistiske informationer om en serie.</figcaption>
 </figure>
 
-Hvis man skulle fortryde ændringerne af grafens udseende, er det muligt at vende tilbage til udgangspunktet ved tryk på *Reset Chart To Defaults* på første faneblad i *Chart Designer*.
+Hvis man skulle fortryde ændringerne af grafens udseende, er det muligt at vende tilbage til udgangspunktet ved tryk på <a href="#reset-chart-defaults">*Reset Chart To Defaults*</a> på første faneblad i *Chart Designer*.
 
 Se også:
 
