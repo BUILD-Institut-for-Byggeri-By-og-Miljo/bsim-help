@@ -4,27 +4,27 @@
 
 The heat balance for the air in a zone does not make allowance for the heat capacity of the air which means that the air momentarily adjusts itself to alterations in the surroundings. The following influences on the air's thermal condition are differentiated:
 
-*   heat flows from adjoining constructions
+*   <a href="#heat-flows-from-adjoining-constructions">Heat flows from adjoining constructions</a>
 
-*   heat flows through thermal bridges
+*   <a href="#heat-flow-through-thermal-bridges">Heat flows through thermal bridges</a>
 
-*   heat flows through windoors
+*   <a href="#heat-flows-through-windoors">Heat flows through windoors</a>
 
-*   solar radiation through windoors (of which only a limited amount is assumed to be induced to the air)
+*   <a href="#solar-radiation">Solar radiation through windoors (of which only a limited amount is assumed to be induced to the air)</a>
 
-*   thermal contribution from various heat loads and systems
+*   <a href="#air-supplied-to-the-zone">Thermal contribution from various heat loads and systems</a>
 
-*   air penetration from outdoor air (infiltration, venting)
+*   <a href="#air-supplied-to-the-zone">Air penetration from outdoor air (infiltration, venting)</a>
 
-*   air supplied from ventilation systems
+*   <a href="#air-supplied-to-the-zone">Air supplied from ventilation systems</a>
 
-*   air transferred by from other zones (mixing)
+*   <a href="#air-supplied-to-the-zone">Air transferred by from other zones (mixing)</a>
 
 In connection with the contributions to the heat balance from the various forms for air flows, it must be noted that the program always ensures that there is air balance for each zone, i.e. that equally large air volumes in the zone are supplied and extracted. User-selected data, which would lead to imbalance will thus bring about an increase of the air quantity by infiltration or exfiltration so that balance is achieved.
 
  
 
-#### **Heat flows from internal and external constructions**
+<h4 id="heat-flows-from-adjoining-constructions"><strong>Heat flows from internal and external constructions</strong></h4>
 
 Heat flows between the respective construction surfaces and the air are transferred via the surface film coefficients of the surfaces, here defined by the combined thermal resistances by convection and by radiation, which are specified for each individual surface. The transferred power to the air is calculated from the formula :
 
@@ -42,7 +42,7 @@ R<sub>surf </sub>is the thermal surface resistance for a surface, m²K/W
 
  
 
-#### **Heat flow through thermal bridges**
+<h4 id="heat-flow-through-thermal-bridges"><strong>Heat flow through thermal bridges</strong></h4>
 
 These heat flows are transferred directly between the air in the current zone and the air on the opposite side of the construction containing the thermal bridge. This means that the heat conduction through the thermal bridge is not considered and hereby the heat storing capabilities of the thermal bridge neither. For each construction in the thermal zone a total thermal bridge coefficient is calculated in W/K. The effect transferred to the zone air can be determined from the following formula:
 
@@ -58,7 +58,7 @@ T<sub>air,side2 </sub>is the air temperature on the opposite side of the constr
 
  
 
-#### **Heat flows through windoors**
+<h4 id="heat-flows-through-windoors"><strong>Heat flows through windoors</strong></h4>
 
 Windoors is not attributed any thermal capacity, and heat flows through these types of sub-surfaces are assumed to take place between the air nodes on each side of the sub-surface, so that the heat flow from zone 1 to zone 2 (positive or negative) are calculated from the formula:
 
@@ -76,7 +76,7 @@ The zone at face 2 of surfaces will often be the virtual zone, outside air, but 
 
  
 
-#### **Solar radiation**
+<h4 id="solar-radiation"><strong>Solar radiation</strong></h4>
 
 The incoming solar radiation is distributed, for each zone, between the surfaces and the air as indicated in the Solar distribution menu, under the ThermalZone menu, cf formula:
 
@@ -92,7 +92,7 @@ The calculation of Φ<sub>sol</sub> is described in [[Petersen, 1982](https://
 
  
 
-#### **Air supplied to the zone**
+<h4 id="air-supplied-to-the-zone"><strong>Air supplied to the zone</strong></h4>
 
 The air supplied to the zone can originate from four different types of '[systems](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview-systemer)' entitled: [Mixing](https://help.bsim.dk/support/kb/articles/Rm8JEd94/mixing-system), [infiltration](https://help.bsim.dk/support/kb/articles/Rm8JRZ94/infiltration-system), [venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) and (mechanical) [ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation-system). The effect of each of these individual contributions on the air's heat balance depends on the volume flow and on the temperature of the air which is supplied to the zone. In the heat balance, each term is determined individually, since they are all calculated on the basis of a formula corresponding to next formula allowing for the variations which are determined by schedules for the individual systems.:
 
