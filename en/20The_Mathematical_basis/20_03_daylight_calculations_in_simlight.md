@@ -40,6 +40,8 @@
 
 *   <a href="#references">References</a>
 
+<br>
+
 The SimLight application is a tool which is available as part of the BSim-package. The modeling of the spaces are performed by SimView and the accessibility of the modeling of the daylighting specifics in SimLight concerns mainly the modeling of the environmental characteristics and the definition of reference points. The user interface for the SimLight application is a dialog box containing all information concerning single point daylighting contribution calculations. There are two additional underlying dialog boxes, which come in to play when multiple-point daylighting calculations are to be carried out. One dialog box is used to define the grid of calculation points, the other to present the results of the multiple-point calculation.
 
 The general approach to the daylighting calculations in SimLight is of a Finite Element Method (FEM). As FEM-based radiation calculation can require excessive computational time, functions permitting dynamical altering of the inhomogeneous finite element grid have been implemented. This is of particular significance when calculating the internally reflected illumination.
@@ -58,7 +60,7 @@ The sky can be defined according to three different models, all taken from (1), 
 
 The model of the uniformly overcast sky is based on the assumption that the sky is a perfect diffuser and has a uniform luminance at all points on the celestial dome. The relation between the illumination on the horizontal plane (E<sub>H</sub>) and the zenith luminance (L<sub>Z</sub>) is given by:
 
-$$  E_H = \pi \cdot L_Z \tag{1}$$
+$$  E_H = \pi \cdot L_Z $$
 
  
 
@@ -66,13 +68,13 @@ $$  E_H = \pi \cdot L_Z \tag{1}$$
 
 The luminance of the CIE-overcast sky follows the Moon and Spencer distribution. The luminance at the horizon is one third of the zenith luminance. The relation between the luminance at angle θ (L<sub>θ</sub>) and the zenith luminance (L<sub>Z</sub>, Z=90°) is given by:
 
-$$  L_{\gamma_s} = L_Z \left( \frac{1 + 2 \sin \gamma_s}{3} \right)  \tag{2} $$
+$$  L_{\gamma_s} = L_Z \left( \frac{1 + 2 \sin \gamma_s}{3} \right)  $$
 
  
 
 The relation between the illumination on the horizontal plane (E<sub>H</sub>) and the zenith luminance (L<sub>Z</sub>) is given as:
 
-$$  E_H = \frac{7 \pi}{9} \cdot L_Z \tag{3} $$
+$$  E_H = \frac{7 \pi}{9} \cdot L_Z $$
 
  
 
@@ -81,7 +83,7 @@ $$  E_H = \frac{7 \pi}{9} \cdot L_Z \tag{3} $$
 The luminance of the CIE-clear sky is described by Kittlers formula. It takes into consideration the atmospherically diffusion of the sunlight when the sky is clear, but does not include the special conditions of luminance near and on the solar disc. The relation between the luminance at a point on the celestial dome (L<sub>θ,α</sub>) and the zenith luminance (L<sub>Z</sub>, Z=90°) is:
 
 $$ L_{\theta, \alpha} = \frac{1 - e^{\frac{-32}{\cos \varepsilon}}}{0.274}   
-\left( \frac{0.91 + 10 \cdot e^{-3 \psi} + 0.45 \cdot \cos^2 \psi} {0.91 + 10 \cdot e^{-3 Z_s} + 0.45 \cdot \cos^2 \gamma_s} \right) L_z \tag{4} $$
+\left( \frac{0.91 + 10 \cdot e^{-3 \psi} + 0.45 \cdot \cos^2 \psi} {0.91 + 10 \cdot e^{-3 Z_s} + 0.45 \cdot \cos^2 \gamma_s} \right) L_z $$
 
  
 
@@ -95,11 +97,11 @@ Z<sub>s</sub>   is the angle between zenith and the sun and
 
 The zenith luminance is approximated by the formula:
 
-$$  L_Z = 72 \cdot H \tag{5} $$
+$$  L_Z = 72 \cdot H $$
 
 and the illumination on a horizontal plane is approximated by the empirical formula:
 
-$$ E_H = 1100 + 15500 \cdot \sqrt{\sin H} \tag{6} $$
+$$ E_H = 1100 + 15500 \cdot \sqrt{\sin H} $$
 
 where H is the sun height measured in degrees.
 
@@ -111,7 +113,7 @@ where H is the sun height measured in degrees.
 
 The calculation of the direct illumination at the reference point is based on the theory presented in (2). The basic formula used to calculate the illumination contribution from a light source is:
 
-$$ E_R = \int\limits_{\text{A = area}} \frac{L_{dA} \sin \theta \cos \theta}{R^2} \, dA \tag{7} $$
+$$ E_R = \int\limits_{\text{A = area}} \frac{L_{dA} \sin \theta \cos \theta}{R^2} \, dA $$
 
 where   
 L<sub>dA</sub> is the luminance at dA,   
@@ -192,7 +194,7 @@ There is basically two ways of performing a shape-factor calculation for a space
 
 The second approach is by far the fastest for obvious reasons. However, approximate formulas exist only for rectangular sub-surfaces, which cannot be used in cases where the surface itself is not rectangular. The approximate formula for the shape-factor between rectangular elements is:
 
-$$  SF_{12} = \frac {\cos \theta_1 \cdot \cos \theta_2}{\pi r^2} A_2 \tag{8} $$
+$$  SF_{12} = \frac {\cos \theta_1 \cdot \cos \theta_2}{\pi r^2} A_2 $$
 
  
 
@@ -208,7 +210,7 @@ A possible solution could be to treat the triangular elements as rectangular ele
 
 The first approach, on the other hand, leads to correct results but is very time-consuming. Every shape-factor calculation is a calculation of a surface integral:
 
-$$  A_{1}F_{12} = \int\limits_{A_1} \int\limits_{A_2} \frac {(dA_1 \cos \theta_1)(dA_2 \cos \theta_2)} {\pi r^2} \tag{9} $$
+$$  A_{1}F_{12} = \int\limits_{A_1} \int\limits_{A_2} \frac {(dA_1 \cos \theta_1)(dA_2 \cos \theta_2)} {\pi r^2} $$
 
 where   
 A<sub>i</sub> is the area of surface i,   
@@ -218,7 +220,7 @@ r is the distance between the elements.
 
 In the case with n sub-surfaces on the boundaries of the space, the required number of shape-factor calculations is:
 
-$$ n_{SF} = \frac{\sum_i n_i (n-n_i)}{2} = \frac{n^2 - \sum_{i} n_{i}^2}{2} \cong \frac{i-1}{2i} n^2 \tag{10} $$
+$$ n_{SF} = \frac{\sum_i n_i (n-n_i)}{2} = \frac{n^2 - \sum_{i} n_{i}^2}{2} \cong \frac{i-1}{2i} n^2 $$
 
 where   
 n<sub>i</sub> is the number of sub-surfaces on surface i,   
@@ -234,7 +236,7 @@ In SimLight, it has been chosen to use both methods such that the advantages of 
 
 In SimLight, the Mitalas-Stephenson method is utilized for exact shape-factor calculation. This method is based on the line integral method, but with one of the integrals integrated analytically beforehand. The remaining integral, which is calculated numerically, is:
 
-$$  A_{1}F_{12} = \frac{1}{2\pi} \sum_{p=1}^{n_1} \sum_{q=1}^{n_2} \Phi_{pq} \sum^{m_p} \left( (T \cos \varphi \ln T + S \cos \theta \ln S + U_\omega - R) \nu_i \right) _{p,q} \tag{11} $$
+$$  A_{1}F_{12} = \frac{1}{2\pi} \sum_{p=1}^{n_1} \sum_{q=1}^{n_2} \Phi_{pq} \sum^{m_p} \left( (T \cos \varphi \ln T + S \cos \theta \ln S + U_\omega - R) \nu_i \right) _{p,q} $$
 
 where   
 S, T, U, φ, θ and ω are functions of the edge vector in the line integral.
@@ -255,7 +257,7 @@ The inter-reflection calculation can be performed by solving n equations with n 
 
 The daylighting contribution from element i to element j is calculated as:
 
-$$  dE_j = SF_{ji} \cdot E_i \cdot r_i \tag{12} $$
+$$  dE_j = SF_{ji} \cdot E_i \cdot r_i $$
 
 where   
 dE<sub>j</sub> is the contribution to the illumination falling upon element j,   
@@ -271,7 +273,7 @@ The iteration procedure stops when the illumination falling upon any triangular 
 
 Finally, the contribution from all triangular sub-surfaces, visible from the reference point, to the illumination at the reference point is summed up in the same manner as described in the section *Calculation* *of the direct illumination*, with the luminance of sub-surface i calculated as:
 
-<span style="letter-spacing: -0.14px;">$$  L_i = \frac{r_i \cdot E_i}{\pi} \tag{13} $$</span>
+<span style="letter-spacing: -0.14px;">$$  L_i = \frac{r_i \cdot E_i}{\pi} $$</span>
 
 where  
 r<sub>i</sub> is the reflection coefficient of element i and   
