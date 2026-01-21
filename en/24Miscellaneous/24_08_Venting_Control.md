@@ -14,6 +14,6 @@ It is assumed that, when the temperature in the offices exceeds a certain value,
 
 **Note:** If the set-point for the CO<sub>2</sub> control is too close $ \left( \frac{\text{CO}_2 \text{SetP} - \text{CO}_2 \text{Outside}}{\text{CO}_2 \text{Outside}} \leq 0{,}05 \right) $ to the estimated fixed value of the CO<sub>2</sub> content in the outdoor air, the desired indoor set-point will never be reached as the ventilation rate needs to rise to infinity.
 
-      To reach the desired set-point for the CO<sub>2</sub> content in the indoor air, the flow of outdoor air is controlled by the [basic air change and the wind part](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting) in the equation.
+To reach the desired set-point for the CO<sub>2</sub> content in the indoor air, the flow of outdoor air is controlled by the [basic air change and the wind part](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting) in the equation.
 
 Entering a value for *Factor* of less than 1.0 indicates that only an air change - calculated on the basis of the equation using data from the venting dialog box - multiplied by *Factor* can be achieved within the relevant time definition. In the case of natural ventilation, this equals a reduction of the opening areas with *Factor.*

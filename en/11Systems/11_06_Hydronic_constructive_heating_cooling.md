@@ -71,16 +71,16 @@ In particular, G type and X1 type require some more indications:
 Original:
 
 <figure id="center_img">
-<img src="./assets/floorHeat_original.gif" alt="Caption">
-<figcaption>Caption</figcaption>
+<img src="./assets/floorHeat_original.gif" alt="">
+<figcaption></figcaption>
 </figure>
 
 
 Provided by the user:
 
 <figure id="center_img">
-<img src="./assets/floorHeat_user.gif" alt="Caption">
-<figcaption>Caption</figcaption>
+<img src="./assets/floorHeat_user.gif" alt="">
+<figcaption></figcaption>
 </figure>
 
 With:
