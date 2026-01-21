@@ -207,7 +207,7 @@ Opstilling af det udspændende træ skal kun inkludere de zoner der, evt. gennem
 
 Ved opstilling af det udspændende træ er det valgt altid at starte i knuden for omgivelserne. Træet opstilles ud fra følgende systematik efter ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)) , kaldet "depth-first-search". N er antallet af Nodes (knuder) og P er antallet af pipes (grene). Beregningsgangen i opstillingen af det udspændende træ forklares i det følgende:
 
-<div id="gray_background">
+
 
 1.  *Associate label DFI(n) = 0, n = 1,2,…,N, with each node in the base graph* 
 
@@ -253,7 +253,7 @@ Ved opstilling af det udspændende træ er det valgt altid at starte i knuden fo
 
 11.  *Repeat from step 6 until all nodes have been added to the connected set, i.e., a spanning tree is formed* 
 
-</div>
+
 
 <br>
 
@@ -265,7 +265,7 @@ Forklaringen af beregningsgang ved opstilling af det udspændende træ bygger p�
 
 Beregningsgangen er:
 
-<div id="gray_background">
+
 
 1.  Der benyttes listerne ”Nodes” og ”Arches”
 
@@ -281,7 +281,7 @@ Beregningsgangen er:
 
 7.  Fokus flyttes nu fra den aktuelle knude til de tidligere knuder i ”Node list” i modsat rækkefølge af hvilken de er tilføjet. Dvs. (d) 2 - 4 - 3 -1. Der stoppes ved den første knude der har en naboknude der ikke er indeholdt i ”Node list”. I dette tilfælde stoppes allerede ved knude 4. Der fortsættes nu med punkt 5, 6 og 7 indtil der ikke er flere knuder der kan tilføjes.
 
-</div>
+
 
 <br>
 
@@ -300,7 +300,7 @@ Hvis alle grenene bliver brugt til opstilling af træet, vil modellen ikke indeh
 
 Opstilling af ringene sker ud fra følgende systematik efter ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)), kaldet "breath-first-search". Beregningsgangen i opstillingen af ringene forklares i det følgende:
 
-<div id="gray_background">
+
 
 1.  *Associate label BFI(n) = 0, n = 1,2,…,N, with each node in the base graph* 
 
@@ -330,7 +330,6 @@ Opstilling af ringene sker ud fra følgende systematik efter ([Savić et al. 199
 
 11.  *Retrace back from ni’ to n<sub>i</sub> (using the tree arcs A<sub>t</sub>) in decreasing order of BFI. The arcs belonging to the ring are stored in L* 
 
-</div>
 
 <br>
 
@@ -342,7 +341,7 @@ Antallet af ringe der skal opstilles er lig med antallet af grene i *A<sub>ct</s
 
 Måden ringene opstilles på er beskrevet nedenfor. Der tages udgangspunkt i figur 8, (f) og der beskrives opstillingen af ringen for gren nr. 1:
 
-<div id="gray_background">
+
 1.  Start med en gren fra *A<sub>ct</sub>* (g1)
 
 2.  Vælg den ene af grenens knuder (k1)
@@ -366,7 +365,6 @@ Måden ringene opstilles på er beskrevet nedenfor. Der tages udgangspunkt i fig
     3.  Fra knude k3 vælge grene med #1 som hører til knude k3 ⇒ g2
 
     4.  Ringen består så af: g1 - g4 - g5 - g2 og k2 - k4 - k3 - k1
-</div>
 
 <br>
 

@@ -18,7 +18,7 @@ Fanebladet Natural Ventilation er reserveret særlige data i forbindelse med mul
 
 Reset
 
-*   Ved klik på *Reset-knappen* skifter parametrene tilbede til standardværdierne som er indlejret i BSim.
+*   Ved klik på *Reset-knappen* skifter parametrene tilbage til standardværdierne som er indlejret i BSim.
 
 <figure id="center_img">
 <img src="./assets/stdvalues2.gif" alt="Fanebladet Natural Ventilation under tsbi5 + Edit + Options.">

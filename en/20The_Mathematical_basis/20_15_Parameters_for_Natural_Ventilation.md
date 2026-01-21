@@ -45,7 +45,7 @@ $$ \Delta p = ½ \rho \left( \frac{v_k}{C_v} \right)^2 = ½ \rho v_{k}^2 (1+\zet
 
 or:
 
-$$ 1 + \zeta = \frac{2 \Delta p}{\rho} \cdot \frac{1}{v_k} = \frac{2 \Delta p}{\rho} \left( \frac{C_k^2}{v_m} \right)^2 \tag{4} $$
+$$ 1 + \zeta = \frac{2 \Delta p}{\rho} \cdot \frac{1}{v_k^2} = \frac{2 \Delta p}{\rho} \left( \frac{C_k}{v_m} \right)^2 \tag{4} $$
 
 For the discharge coefficient is found by inserting in equation 9.32 in equation 9.30:
 

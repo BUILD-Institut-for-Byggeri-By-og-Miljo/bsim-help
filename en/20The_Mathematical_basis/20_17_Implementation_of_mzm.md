@@ -219,8 +219,8 @@ Making of a spanning tree must include those zones that are connected to the amb
 
 
 By making a spanning tree it has been chosen always to start in the node for the ambient. The tree is made from the following rules according to ([Savić et al. 1996](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)), called ”depth-first-search”. N is the number of nodes and P is the number of pipes (arches). The calculation of the spanning tree can be explained as follows:
+<br>
 
-<div id="gray_background">
 
 1.  *Associate label DFI(n) = 0, n = 1,2,…,N, with each node in the base graph* 
 
@@ -266,7 +266,7 @@ By making a spanning tree it has been chosen always to start in the node for the
 
 11.  *Repeat from step 6 until all nodes have been added to the connected set, i.e., a spanning tree is formed*
 
-</div>
+
 
 *The lists A<sub>t</sub> and C are saved and a list with arches not used in the spanning tree, A<sub>ct</sub>, a so-called ”co-tree”. This list are used by making of the loops.*
 
@@ -278,7 +278,7 @@ Explanation of calculation routines by making the spanning tree is based on <a h
 
 Calculation routines are:
 
-<div id="gray_background">
+
 
 1. The lists “Nodes” and “Arches” are used.
 
@@ -294,7 +294,7 @@ Calculation routines are:
 
 7. The focus then shifts from the current node to the previous nodes in the Node list, following the reverse order in which the nodes were added (i.e., d → 2 → 4 → 3 → 1). The routine ends at the first node that has a neighboring node not present in the Node list. In this case, the routine stops at node 4. The procedure then continues from steps 5, 6, and 7 until no more nodes can be added.
 
-</div>
+
 
 
 <figure id="figure8">
@@ -313,7 +313,7 @@ If all arches have been used in the creation of the tree, the model will not con
 
 Creation of loops is made from the "breath-first-search" rules (Savić et al. 1996). The routines for creation of the loops is explained in the following:
 
-<div id="gray_background">
+
 
 1.  *Associate label BFI(n) = 0, n = 1,2,…,N, with each node in the base graph* 
 
@@ -343,7 +343,7 @@ Creation of loops is made from the "breath-first-search" rules (Savić et al. 19
 
 11.  *Retrace back from ni’ to n<sub>i</sub> (using the tree arcs A<sub>t</sub>) in decreasing order of BFI. The arcs belonging to the ring are stored in L*
 
-</div>
+
  
 
 A list with all loops is saved in the variable L.
@@ -354,7 +354,7 @@ The number of loops to be made is equal to the number of arches in Act. For each
 
 The way tings are made id described below. With take-off from <a href="#figure8">Figure 8</a>, (f) the description of a loop for arch no. 1 is made:
 
-<div id="gray_background">
+
 
 1.  Start with any arch from *A<sub>ct</sub>* (g1)
 
@@ -380,7 +380,7 @@ The way tings are made id described below. With take-off from <a href="#figure8"
 
     4.  The loop consists: g1 - g4 - g5 - g2 and k2 - k4 - k3 - k1
 
-</div>
+
 
 As all possible paths are used every time at every node, it will always be the loop with the shortest path (least number of arches) that is found first.
 

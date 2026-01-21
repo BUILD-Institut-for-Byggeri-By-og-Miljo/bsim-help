@@ -8,7 +8,7 @@ Modulet til simulering af naturlig ventilation med multi-zone modellen (mzm) er 
 Feed-back til modulet på bsim-support@sbi.dk er meget velkommen!
 </p>
 
-Parameteren Cd er central for simulering af naturlig ventilation med multizone modellen (mzm) og kan bestemmes i henhold til [By og Byg (SBi), Anvisning 202](/20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.html). Indblæsningstemperaturkonstanten Ka benyttes størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsatælelse til resten af loftet hvor der er fri strømning/konvektion og indetemperatur og kan findes i henhold til [Danvak grundbogen, kapitel 7.](/20The_Mathematical_Basis/20_28_Literature.html)
+Parameteren Cd er central for simulering af naturlig ventilation med multizone modellen (mzm) og kan bestemmes i henhold til [By og Byg (SBi), Anvisning 202](/20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.html). Indblæsningstemperaturkonstanten Ka benyttes størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur og kan findes i henhold til [Danvak grundbogen, kapitel 7.](/20The_Mathematical_Basis/20_28_Literature.html)
 
 ## **Cd - Udstrømningskoefficienten**
 
@@ -37,7 +37,7 @@ $$ \Delta p = ½ \rho \left( \frac{v_k}{C_v} \right)^2 = ½ \rho v_{k}^2 (1+\zet
 
 eller: 
 
-$$ 1 + \zeta = \frac{2 \Delta p}{\rho} \cdot \frac{1}{v_k} = \frac{2 \Delta p}{\rho} \left( \frac{C_k^2}{v_m} \right)^2 \tag{9.32} $$
+$$ 1 + \zeta = \frac{2 \Delta p}{\rho} \cdot \frac{1}{v_k^2} = \frac{2 \Delta p}{\rho} \left( \frac{C_k}{v_m} \right)^2 \tag{9.32} $$
 
 For udstrømningskoefficienten fås ved indsættelse af ligning 9.32 i ligning 9.30:
 
