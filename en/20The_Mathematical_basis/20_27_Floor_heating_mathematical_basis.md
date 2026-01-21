@@ -131,6 +131,8 @@ For that purpose, the thermal behaviors of various kinds of slabs were examined 
 
 The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were considered.
 
+<br>
+
 <div align="center">
 
 |   |   |
@@ -152,14 +154,14 @@ As a general rule, in all types, the air cavities were not considered as conduct
 
 In the following figure the analyzed geometries are shown. They have been analyzed via fine anc coarse meshes.
 
+<br>
+
 |   |   |   |
 |:-:|:-:|:-:|
 | <img src="./assets/fh_fig8.gif" width="150"><br>*1.1 Real geometry*<br>*and fine mesh.* | **1. Type A**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.10, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Material 3: s=0.25, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig9.gif" width="150"><br>*1.2 Simplified geometry*<br>*and rough mesh.* |
 | <img src="./assets/fh_fig10.gif" width="150"><br>*2.1 Real geometry*<br>*and fine mesh.* | **2. Type E**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.07, λ=1.200, ρ=2000, c<sub>p</sub>=900<br>Material 3: s=0.03, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 4: s=0.20, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig11.gif" width="150"><br>*2.2 Simplified geometry*<br>*and rough mesh.* |
 | <img src="./assets/fh_fig12.gif" width="150"><br>*3.1 Real geometry*<br>*and fine mesh.* | **3. Type X1**<br>Material 1: s=0.06, λ=0.200, ρ=300, c<sub>p</sub>=2500<br>Material 2: s=0.05, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 3: s=0.30, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig13.gif" width="150"><br>*3.2 Simplified geometry*<br>*and rough mesh.* |
 | <img src="./assets/fh_fig14.gif" width="150"><br>*4.1 Simplified geometry*<br>*and simplified mesh.* | **4. Type G**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.04, λ=0.200, ρ=300, c<sub>p</sub>=2500<br>Material 3: s=0.10, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Material 4: s=0.12, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Plate: s=0.0005, λ=200, ρ=2700, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig15.gif" width="150"><br>*4.2 Detail of the mesh next*<br>*to the part of the plate*<br>*surrounding the pipe.* |
-
-
 
 <p align="center">
 <em>Figure 4 - Real and simplified 2D geometries, together with meshes.</em>
