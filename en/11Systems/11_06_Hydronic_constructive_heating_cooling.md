@@ -4,7 +4,7 @@
 
 <div style="text-align:center">
 
-**By Massimiliano Scarpa**
+<strong>By Massimiliano Scarpa</strong>
 
 </div>
 
@@ -68,9 +68,20 @@ In particular, G type and X1 type require some more indications:
 
 *   X1 type. In the case the user uses a radiant surface of kind X1, then no additional value must be entered, but the description of the layers constituting the slab must be modified, so that the presence of voids can be described. In fact, the layer of concrete embedding the voids must be characterized by virtual values of thermal conductivity and density. In particular, assumed T [m] is the pipe distance and s0 [m] is the maximum width of each void, then the resulting thermal properties of the layer embedding the voids must be corrected as shown in the figure below:
 
-Original:                    ![](https://s3.amazonaws.com/outseta-production/10526/0-floorHeat_original_15f561ec-a12c-43d0-99d3-662d58e439f5.gif)
+Original:
 
-Provided by the user:![](https://s3.amazonaws.com/outseta-production/10526/0-floorHeat_user_bbd652ef-c36a-4dbf-90ed-88a489a9bc62.gif)
+<figure id="center_img">
+<img src="./assets/floorHeat_original.gif" alt="Caption">
+<figcaption>Caption</figcaption>
+</figure>
+
+
+Provided by the user:
+
+<figure id="center_img">
+<img src="./assets/floorHeat_user.gif" alt="Caption">
+<figcaption>Caption</figcaption>
+</figure>
 
 With:
 

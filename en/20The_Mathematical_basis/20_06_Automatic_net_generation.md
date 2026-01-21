@@ -4,11 +4,11 @@
 
 <div style="text-align:center">
 
-*Carsten Rode*  
-*Institute for Buildings and Energy (BYGDTU)*  
-*Technical University of Denmark*  
-*[www.byg.dtu.dk](https://construct.dtu.dk/)*  
-*November 2001*
+Carsten Rode  
+Institute for Buildings and Energy (BYGDTU)  
+Technical University of Denmark  
+[www.byg.dtu.dk](https://construct.dtu.dk/)
+November 2001
 
 </div>
 

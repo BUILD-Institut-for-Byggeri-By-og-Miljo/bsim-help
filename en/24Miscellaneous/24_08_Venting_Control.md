@@ -12,7 +12,7 @@ It is assumed that, when the temperature in the offices exceeds a certain value,
 
 *SetP Co2* is the set- point for CO<sub>2</sub> concentration (ppm) in the indoor air. If "0" (zero) is given the natural ventilation will not be controlled according to the calculated CO<sub>2</sub> level. Above the set point venting will come into action as much as needed to fulfil the set point. If SetP Co2 is given (> 0) the natural ventilation is first controlled to obtain the desired CO<sub>2</sub> concentration, and then to obtain the temperature set point.
 
-       **Note:** If the set-point for the CO<sub>2</sub> control is too close $ \left( \frac{\text{CO}_2 \text{SetP} - \text{CO}_2 \text{Outside}}{\text{CO}_2 \text{Outside}} \leq 0{,}05 \right) $ to the estimated fixed value of the CO<sub>2</sub> content in the outdoor air, the desired indoor set-point will never be reached as the ventilation rate needs to rise to infinity.
+**Note:** If the set-point for the CO<sub>2</sub> control is too close $ \left( \frac{\text{CO}_2 \text{SetP} - \text{CO}_2 \text{Outside}}{\text{CO}_2 \text{Outside}} \leq 0{,}05 \right) $ to the estimated fixed value of the CO<sub>2</sub> content in the outdoor air, the desired indoor set-point will never be reached as the ventilation rate needs to rise to infinity.
 
       To reach the desired set-point for the CO<sub>2</sub> content in the indoor air, the flow of outdoor air is controlled by the [basic air change and the wind part](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting) in the equation.
 

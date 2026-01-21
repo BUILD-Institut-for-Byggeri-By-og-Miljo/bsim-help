@@ -59,4 +59,3 @@ See also:
 
 *   Tab [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
 
-</div>
