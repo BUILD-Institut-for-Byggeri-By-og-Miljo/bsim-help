@@ -4,8 +4,8 @@
 
 <div style="text-align:center">
 
-Carsten Rode  
-BYG*DTU  
+Carsten Rode  <br>
+BYG*DTU  <br>
 2001
 
 </div>
