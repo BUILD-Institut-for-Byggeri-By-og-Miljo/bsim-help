@@ -8,31 +8,31 @@ De værdier som vises i resultatloggen er et øjebliksbillede af forholdene i de
 
 Middelværdier for timen er markeret med et "M" efter parameternavnet, fx *AdjacSun<sup>M </sup>*.
 
-*   [Udeklima - *Outdoors*]()
+*   <a href="#outdoors-params">Udeklima - *Outdoors*</a>
 
-*   [Termiske Zoner]()
+*   <a href="#thermal-zones-params">Termiske Zoner</a>
 
-    *   [Indeklima - *Indoor Climate*]()
+    *   <a href="#thermal-zones-params">Indeklima - *Indoor Climate*</a>
 
-    *   [Luftbalance - *Air Balance*]()
+    *   <a href="#air-balance-params">Luftbalance - *Air Balance*</a>
 
-    *   [Varmebalance - *Energy balance*]()
+    *   <a href="#energy-balance-params">Varmebalance - *Energy balance*</a>
 
-    *   [Fugtbalance - *Moisture Balance*]()
+    *   <a href="#moisture-balance-params">Fugtbalance - *Moisture Balance*</a>
 
-    *   [Ventilationsanlæg - *Ventilation components*]()
+    *   <a href="#ventilation-components-params">Ventilationsanlæg - *Ventilation components*</a>
 
-    *   [Luft - *Ventilation air*]()
+    *   <a href="#ventilation-air-params">Luft - *Ventilation air*</a>
 
-    *   [Tarif-fordeling - Tariff Distribution]()
+    *   <a href="#tariff-distribution-params">Tarif-fordeling - Tariff Distribution</a>
 
-*   [Konstruktioner - *Constructions*]()
+*   <a href="#constructions-params">Konstruktioner - *Constructions*</a>
 
-*   [WinDoor]()
+*   <a href="#windoors-params">WinDoor</a>
 
 <br>
 
-### Parametre i gruppen *Outdoors*
+<h3 id="outdoors-params"><strong>Parametre i gruppen <em>Outdoors</em></strong></h3>
 
 Inddata fra klimafil og beregnet position af solen.
 
@@ -57,7 +57,7 @@ Disse parametre er **kun** tilgængelige i resultatloggen hvis der er sat "hak" 
 
 <br>
 
-### Parametre i gruppen *Thermal Zones*
+<h3 id="thermal-zones-params"><strong>Parametre i gruppen <em>Thermal Zones</em></strong></h3>
 
 Indeklimaparametre for termiske zoner.  
 **OBS:** Alle sæt-punkter for systemer relaterer til den termiske zones operative temperatur Top.
@@ -88,7 +88,8 @@ Disse parametre er **kun** tilgængelige i resultatloggen hvis der er sat "hak" 
 
 <br>
 
-#### Parametre for luftbalancen i en termisk zone - *Air balance*
+<h4 id="air-balance-params"><strong>Parametre for luftbalancen i en termisk zone - <em>Air balance</em></strong></h4>
+
 | Parameter | Beskrivelse |
 |---|---|
 | *Exfilt <sup>M</sup>* | Luftstrømning ud af den termiske zone ved eksfiltration, m³/s. |
@@ -108,7 +109,8 @@ Parametre markeret med *) optræder <u>kun</u> hvis der er gennemført en simule
 
 <br>
 
-#### Parametre for energibalancen i en termisk zone - *Energy Balance*
+<h4 id="energy-balance-params"><strong>Parametre for energibalancen i en termisk zone - <em>Energy Balance</em></strong></h4>
+
 | Parameter | Beskrivelse |
 |---|---|
 | *qCooling* | Energi afsat til køling (negativ) i den termiske zone, kWh. |
@@ -131,7 +133,7 @@ Bidrag til varmebalancen for termiske zoner. Bidrag til varmetab og køling regn
 
 <br>
 
-#### Parametre for fugtbalancen i en termisk zone - *Moisture Balance*
+<h4 id="moisture-balance-params"><strong>Parametre for fugtbalancen i en termisk zone - <em>Moisture Balance</em></strong></h4>
 
 
 | Parameter | Beskrivelse |
@@ -149,8 +151,7 @@ Bidrag til fugtbalancen for den termiske zone. Tilført fugt er regnet positiv, 
 
 <br>
 
-#### Parametre for komponenterne i ventilationsanlæg - *Ventilation Components*
-
+<h4 id="ventilation-components-params"><strong>Parametre for komponenterne i ventilationsanlæg - <em>Ventilation Components</em></strong></h4>
 
 | Parameter       | Beskrivelse                                                           |
 |----------------|------------------------------------------------------------------------|
@@ -167,8 +168,7 @@ Bidrag til fugtbalancen for den termiske zone. Tilført fugt er regnet positiv, 
 
 <br>
 
-#### Parametre for luften i ventilationssystemet - *Ventilation Air*
-
+<h4 id="ventilation-air-params"><strong>Parametre for luften i ventilationssystemet - <em>Ventilation Air</em></strong></h4>
 
 | Parameter        | Beskrivelse                                                                  |
 |------------------|-------------------------------------------------------------------------------|
@@ -180,12 +180,12 @@ Bidrag til fugtbalancen for den termiske zone. Tilført fugt er regnet positiv, 
 | *InVol*          | Indblæsningsluftmængde, m³/s.                                                  |
 | *RtnFrac*        | Andelen af luftstrømmen som recirkuleres, -.                                   |
 
-<br>
 
 <br>
 
 
-#### Parametre for *tarif-inddelt* energiforbrug i systemer
+<h4 id="tariff-distribution-params"><strong>Parametre for <em>tarif-inddelt</em> energiforbrug i systemer</strong></h4>
+
 | Parameter        | Beskrivelse                                                                  |
 |------------------|-------------------------------------------------------------------------------|
 | *qPow0..qPow7*     | Sammentælling af den termiske zones energiforbrug i systemer på op til 8 forskellige tarif-klasser. Tarif-klasserne er afhængige af de tilhørende tidsangivelser.                    |
@@ -198,7 +198,7 @@ Bidrag til fugtbalancen for den termiske zone. Tilført fugt er regnet positiv, 
 
 <br>
 
-### Parametre i gruppen konstruktioner - *Constructions*
+<h3 id="constructions-params"><strong>Parametre i gruppen konstruktioner - <em>Constructions</em></strong></h3>
 
 Parametre for overfladetemperaturer og solstråling på modellens konstruktioner.
 
@@ -243,9 +243,9 @@ Parametre markeret med *) optræder <u>kun</u> hvis der er gennemført en simule
 
 <br>
 
-#### Parametre i gruppen WinDoors 
-Disse parametre er **kun** tilgængelige i resultatloggen hvis der er sat "hak" ud for *Windoors* på [Options fanebladet]() før simuleringen.
+<h3 id="windoors-params"><strong>Parametre i gruppen WinDoors</strong></h3> 
 
+Disse parametre er **kun** tilgængelige i resultatloggen hvis der er sat "hak" ud for *Windoors* på [Options fanebladet]() før simuleringen.
 
 | Parameter        | Beskrivelse                                                                                                                                     |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|

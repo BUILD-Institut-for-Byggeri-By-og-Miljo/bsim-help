@@ -13,7 +13,7 @@ WinDoors defineres i samme struktur i databasen som de øvrige konstruktioner, m
 
     *   Betydningen af felt 2 er afhængig af lagets nummer:
 
-        *   For lag 1 (glas) angiver felt 2 den lineære varmetabskoefficient gennem glassets afstandsprofil (se oversigt).
+        *   For lag 1 (glas) angiver felt 2 den lineære varmetabskoefficient gennem glassets afstandsprofil (se <a href="#lintrtranscoeff-table">oversigt</a>).
 
         *   For lag 2 (ramme/karm) angiver felt 2 bredden af ramme/karm konstruktionen i WinDoor'ets plan (afstanden fra murværket til glasset) og regnes ens hele vejen rundt om glasset.
 
@@ -31,6 +31,8 @@ WinDoors defineres i samme struktur i databasen som de øvrige konstruktioner, m
 Dialogen for redigering af materialedata kan åbnes ved at højre-klikke på materialets navn.
 
 Den lineære transmissionskoefficient (*LinTrCoeff* eller Ψ<sub>g </sub> værdien) i W/m K for afstandsprofiler af aluminium eller almindeligt stål i afhængighed af rudens U-værdi (jvf. [DS 418](/20The_Mathematical_Basis/20_02_References.html)). Der kan interpoleres i tabellen.
+
+<h4 id="lintrtranscoeff-table"></h4>
 
 | **Rudens U-værdi<br>W/m²K** | **Linjetab<br>W/mK** |
 |-----------------------------|----------------------|
