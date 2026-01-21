@@ -124,21 +124,21 @@ The zone's total heat balance can now be defined by setting the sum of all the a
 
 $$
 \begin{aligned}
-T_{\text{air}} \Bigg[
-& \sum_{\text{constructions}} \frac{A_{\text{surf}}}{R_{\text{surf}}}
+T_{\text{air}} &\Bigg[
+\sum_{\text{constructions}} \frac{A_{\text{surf}}}{R_{\text{surf}}}
 + \sum_{\text{windoor}} A_{\text{windoor}} U_{\text{windoor}} \\
-& + V (\rho c_p)_{\text{air}}
+&\quad + V (\rho c_p)_{\text{air}}
   \left( n_{\text{outdoor}} + \sum_{\text{zone}} n_{\text{zone}} \right)
 \Bigg] \\
 = {} &
 \sum_{\text{constructions}} \frac{A_{\text{surf}}}{R_{\text{surf}}}
 + \sum_{\text{windoor}} A_{\text{windoor}} U_{\text{windoor}} \\
-& + V (\rho c_p)_{\text{air}}
+&+ V (\rho c_p)_{\text{air}}
   \left(
     n_{\text{outdoor}} T_{\text{outdoor}}
     + \sum_{\text{zone}} n_{\text{zone}} T_{\text{zone}}
   \right) \\
-& + \Phi_{\text{air,sol}}
+&+ \Phi_{\text{air,sol}}
 + \Phi_{\text{air,vent}}
 + \Phi_{\text{air,syst}}
 + \Phi_{\text{thermal\,bridges}}

@@ -6,11 +6,11 @@
 
 <strong>A model for hygrothermal simulation of a building and its indoor climate</strong>
 
-Carsten Rode  
-Department of Civil Engineering  
-Technical University of Denmark  
-www.byg.dtu.dk  
-June, 2002
+Carsten Rode  <br>
+Institute for Buildings and Energy (BYGDTU)  <br>
+Technical University of Denmark <br>
+<a href="https://construct.dtu.dk/">BYG DTU</a><br> 
+June 2001 
 </div>
 
 This document describes the theoretical basis for dynamic calculation in *BSim* of the humidity conditions in rooms, constructions and furnishing. A building is understood by *BSim* as a number of zones, separated from each other and from outside air, or from possible virtual zones, by constructions of different kinds. Furnishing can be considered as a kind of construction that is exposed to the same zone on both sides, or it could be a construction that is adiabatic and moisture tight on one surface.
