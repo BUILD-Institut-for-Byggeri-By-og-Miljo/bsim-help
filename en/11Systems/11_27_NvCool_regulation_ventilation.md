@@ -2,12 +2,11 @@
 
 # NvCool regulation, Ventilation
 
-<br>
 
 <div style="text-align:center">
 
 <strong>Morten Stender Christensen & Olaf Bruun Jørgensen, <a href="https://www.dem.dk/">Esbensen Consulting Engineers</a>
-
+<br>
 Iver Holm Iversen,  <a href="https://www.ikm.dk/">IndeKlimaMiljø</a></strong>
 </div>
  

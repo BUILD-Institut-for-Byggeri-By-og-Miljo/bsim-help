@@ -3,12 +3,12 @@
 <div style="text-align:center">
 
 <strong> The Kappa Model </strong>
-
+<br>
 
 A simple model for the approximate determination of vertical temperature distribution in rooms
 
 Henrik Brohus, Aalborg University   <a href="https://www.en.build.aau.dk/">Department of Building Technology and Structural Engineering</a>
-
+<br>
 Henrik Ryberg     <a href="https://www.sweco.dk/">Grontmij | Carl Bro as</a>
 
 </div>

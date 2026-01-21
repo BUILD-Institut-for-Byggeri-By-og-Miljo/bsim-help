@@ -16,6 +16,7 @@ The overall summary for a system can be viewed on the *Schedule* tab.
 
 tsbi5 runs through the list from the top (see example below), so the ability to change the order of the systems can be useful. This can be done by clicking the "Move Up" and "Move Down" buttons.
 
+<figure id="center_img">
 <img src="./assets/schedule_time.gif" alt="The list with different schedules is run through from the top.">
 <figcaption>The list with different schedules is run through from the top.</figcaption>
 </figure>

@@ -32,9 +32,7 @@ The button *Open New Model* gives the opportunity of selecting results from othe
 If the model name is too long, it is not possible to compare results from different models at the Tables tab.</em>
 </div>
 
-
 <br>
-
 
 Result files from simulations with [SimPv](https://help.bsim.dk/support/kb/articles/pWrnRaWn/simpv) can be analyzed using the normal result analyses functions. These result files are named as *model name#pv*. Results occurs as two parameters (*qPvGross og qPvNet*) at all constructions with solar cells. There <u>must</u> thus be a check-mark next to *Constructions* at the [*Options* ](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options)tab to be able to see these parameters.
 
