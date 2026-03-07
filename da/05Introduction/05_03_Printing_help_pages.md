@@ -31,4 +31,4 @@ Hjælpeteksten er dannet som en Internet hjemmeside. Udskriften vil derfor forl�
 
 Se også:
 
-*   [Læsevejledning.](https://help.bsim.dk/support/kb/articles/B9lwpdQ8/lasevejledning)
+*   [Læsevejledning.](/04Users_guide/04_02_Reading_guide.html)

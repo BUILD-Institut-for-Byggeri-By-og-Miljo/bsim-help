@@ -348,7 +348,7 @@ bullet Tilføjet View/ConstDoc: gem tekstfil med oversigt over bygningens konstr
 
 **4,6,7,12** 
 
-*   SimView, DisDb5, Modellen: Fejl ved udefineret materiale i fugtegenskaber i databasen (et materiale findes i thermal-tabellen men ikke i moisture-tabellen). Se [begrænsninger](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begransninger).
+*   SimView, DisDb5, Modellen: Fejl ved udefineret materiale i fugtegenskaber i databasen (et materiale findes i thermal-tabellen men ikke i moisture-tabellen). Se [begrænsninger](/24Miscellaneous/24_01_Limitations.html).
 
 **4,6,6,23** 
 
@@ -876,6 +876,6 @@ bullet Tilføjet View/ConstDoc: gem tekstfil med oversigt over bygningens konstr
 
 *  <span id="red_text"> **BSim2002: Version 3.** </span>
 
-[Tidligere revisioner i BSim2000](https://help.bsim.dk/support/kb/articles/vWyPBM9b/tidligere-revisioner-i-bsim2000)
+[Tidligere revisioner i BSim2000](/22Revisions/22_02_Previous_revisions_of_BSim2000.html)
 
  

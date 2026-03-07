@@ -16,7 +16,7 @@ Reguleringen foretages i afhængighed af:
 </figure>
 
 
-*Factor* angiver hvor stor en del af den nominelle luftstrømning (defineret på [fanebladet Mixing](https://help.bsim.dk/support/kb/articles/Rm8JEd94/mixing)) som er til rådighed inden for den tilhørende [tidsangivelse](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse). Faktoren kan antage værdier mellem 1 og 0,01.
+*Factor* angiver hvor stor en del af den nominelle luftstrømning (defineret på [fanebladet Mixing](/11Systems/11_31_Mixing_system.html)) som er til rådighed inden for den tilhørende [tidsangivelse](/11Systems/11_32_Time_system.html). Faktoren kan antage værdier mellem 1 og 0,01.
 
 *Temp. Limit* angiver grænseværdien for lufttemperaturen i den aktuelle termiske zone.
 
@@ -30,6 +30,6 @@ Reguleringen foretages i afhængighed af:
 
 *Min. Outdoor* angiver en grænseværdi af udetemperaturen. Mixingen vil kun være i funktion, såfremt udetemperaturen overstiger den indlæste værdi af *Min. Outdoor*. Ved valg af *Min. Outdoor* kan det fx sikres, at der ikke tilføres 'giverzonen' uønsket kold erstatningsluft (ved infiltration) for den luft, der afgives ved mixing. Værdien af *Min. Outdoor* har <u>**højest prioritet**</u> for regulering af mixingen. Ønskes en ubetinget mixing skal der således given en værdi af *Min. Outdoor* som er lavere end den laveste udetemperatur i det benyttede klimadatasæt.
 
-*Day Profile* giver mulighed for at tilknytte et døgnprofil til reguleringen af mixingen så størrelsen af den mulige luftmængde kan varierer over døgnet. Indgangen *EditDayProfile* giver mulighed for at oprette nye eller redigere det valgte [døgnprofil](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dognprofil). Vælges der *None* i menuen tilknyttes der intet døgnprofil til mixingen, og luftmængden vil således alene være afhængig af de ovenfor nævnte parametre.
+*Day Profile* giver mulighed for at tilknytte et døgnprofil til reguleringen af mixingen så størrelsen af den mulige luftmængde kan varierer over døgnet. Indgangen *EditDayProfile* giver mulighed for at oprette nye eller redigere det valgte [døgnprofil](/11Systems/11_33_Day_profile.html). Vælges der *None* i menuen tilknyttes der intet døgnprofil til mixingen, og luftmængden vil således alene være afhængig af de ovenfor nævnte parametre.
 
  

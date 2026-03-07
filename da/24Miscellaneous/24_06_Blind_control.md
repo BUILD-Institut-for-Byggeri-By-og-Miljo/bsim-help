@@ -40,7 +40,7 @@ $$ E_{total} = E_{dif} \cdot g_{s, dif}(\beta) \cdot g_{g, dif} + E_{dir} \cdot 
 
 *   β er hældningen af afskærmningens lameller, målt fra vandret,
 
-*   Θ<sub>p</sub> er [profilvinklen](https://help.bsim.dk/support/kb/articles/7mawb19E/profilvinkel),
+*   Θ<sub>p</sub> er [profilvinklen](/14XSun_Analysis_of_incident_solar_radiation/14_09_Profile_angle.html),
 
 *   Θ<sub>i</sub> er indfaldsvinklen for den direkte solstråling. 
 

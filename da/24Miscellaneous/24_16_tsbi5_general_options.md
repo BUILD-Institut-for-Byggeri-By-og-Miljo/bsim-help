@@ -24,7 +24,7 @@ Initial Construction Properties:
 
 Stabilisation before simulation
 
-*   *Max Iterations*: Indikerer med maksimale antal iterationer (dage) som gennemløbes for at opnå stabilitet inden start af den egentlige simulering. Simuleringen starter når [stabilitetskriteriet](https://help.bsim.dk/support/kb/articles/B9lwREQ8/stabilitetskriterie-for-indsvingning) for temperaturen eller det maksimale antal iterationer nås.
+*   *Max Iterations*: Indikerer med maksimale antal iterationer (dage) som gennemløbes for at opnå stabilitet inden start af den egentlige simulering. Simuleringen starter når [stabilitetskriteriet](/24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.html) for temperaturen eller det maksimale antal iterationer nås.
 
 Diffuce Solar Radiation Transmittance
 

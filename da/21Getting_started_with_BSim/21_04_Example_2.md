@@ -367,7 +367,7 @@ På fanebladet *Parameters* findes ingen parameterlister, hvilket betyder, at de
 </figure>
 
 
-Dernæst klikkes på parametergruppen '*Outdoor*', hvorfra der vælges parameteren *ExtTmp*, altså udetemperaturen. Endelig overskrives navnet på parameterlisten med navnet 'Temperaturer'. Timeværdierne for de valgte parametre kan ses i tabelform og grafisk på fanebladet [*Tables*](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables).
+Dernæst klikkes på parametergruppen '*Outdoor*', hvorfra der vælges parameteren *ExtTmp*, altså udetemperaturen. Endelig overskrives navnet på parameterlisten med navnet 'Temperaturer'. Timeværdierne for de valgte parametre kan ses i tabelform og grafisk på fanebladet [*Tables*](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html).
 
  
 

@@ -1,85 +1,85 @@
 # BSim - Brugervejledning
 
-*   [Kolofon](https://help.bsim.dk/support/kb/articles/z9MKXam4/kolofon)
+*   [Kolofon](/04Users_guide/04_00_Colophon.html)
 
-*   [Forord](https://help.bsim.dk/support/kb/articles/vW5aMpW4/forord)
+*   [Forord](/04Users_guide/04_02_Foreword.html)
 
-*   [Læsevejledning](https://help.bsim.dk/support/kb/articles/B9lwpdQ8/lasevejledning)   
+*   [Læsevejledning](/04Users_guide/04_02_Reading_guide.html)   
 
-    *   [Opbygning af hjælp](https://help.bsim.dk/support/kb/articles/7maw4j9E/opbygning-af-hj-lp)
+    *   [Opbygning af hjælp](/23Internet/23_04_Help_buttons.html)
 
-    *   [Spørgsmål om](https://help.bsim.dk/support/kb/articles/DmwABA94/sp-rgsm-l-via-e-mail)
+    *   [Spørgsmål om](/23Internet/23_02_Joining_BSim_forum.html)
 
-    *   [Udskrift af hjælpesider](https://help.bsim.dk/support/kb/articles/EWBOrLmr/udskrift-af-hj-lpesider)
+    *   [Udskrift af hjælpesider](/04Users_guide/04_04_Print_help_pages.html)
 
-*   [Strukturen i BSim](https://help.bsim.dk/support/kb/articles/wmjnBKmV/strukturen-i-bsim)   
+*   [Strukturen i BSim](/06BSim_Program_structure/06_01_Program_structure.html)   
 
-    *   [Programmenuer](https://help.bsim.dk/support/kb/articles/pWrnYLWn/programmenuer-i-bsim)
+    *   [Programmenuer](/06BSim_Program_structure/06_02_Program_menus.html)
 
-    *   [Værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview-v-rkt-jsbj-lken)
+    *   [Værktøjsbjælken](/09SimView/09_01_SimView_toolbar.html)
 
-    *   [SimView-menuen](https://help.bsim.dk/support/kb/articles/wmjnBKmV/strukturen-i-bsim)
+    *   [SimView-menuen](/06BSim_Program_structure/06_01_Program_structure.html)
 
-*   [Databasen](https://help.bsim.dk/support/kb/articles/y9q842QA/databasen-simdb)
+*   [Databasen](/07SimDB_Database/07_01_Building_material.html)
 
-*   [Oprette modelgeometri i SimView](https://help.bsim.dk/support/kb/articles/wQXx2xQK/simview)   
+*   [Oprette modelgeometri i SimView](/09SimView/09_02_Building_description.html)   
 
-    *   [Oprette en model](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard-oprette-en-ny-model)
+    *   [Oprette en model](/09SimView/09_01_Creating_a_model.html)
 
-    *   [Oprette en bygning](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
+    *   [Oprette en bygning](/09SimView/09_02_Building_description.html)
 
-    *   [Tilføje et rum](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview-oprette-et-rum)
+    *   [Tilføje et rum](/09SimView/09_03_Room_definition.html)
 
-    *   [Standardkonstruktioner](https://help.bsim.dk/support/kb/articles/wQXx2xQK/simviewhttps://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
+    *   [Standardkonstruktioner](/09SimView/09_04_Standard_constructions.html)
 
-    *   [Tilknytning af ikke-standardkonstruktioner](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview-ikke-standard-konstruktioner)
+    *   [Tilknytning af ikke-standardkonstruktioner](/09SimView/09_05_Non_standard_constructions.html)
 
-    *   [Oprette en termisk zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property)
+    *   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_zone_property.html)
 
-    *   [Tilføje rum til termisk zone](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilf-je-rum-til-termiske-zoner)
+    *   [Tilføje rum til termisk zone](/10Thermal_zones/10_02_Room_zone_property.html)
 
-    *   [Tilføje systemer til termiske zoner](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview-systemer)
+    *   [Tilføje systemer til termiske zoner](/11Systems/11_00_Systems.html)
 
-    *   [Redigere geometrien](https://help.bsim.dk/support/kb/articles/L9nrKz9Z/redigere-modelgeometri)
+    *   [Redigere geometrien](/09SimView/09_06_Edit_geometry.html)
 
-    *   [Tilføje en åbning eller WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilf-je-bning-eller-windoor)
+    *   [Tilføje en åbning eller WinDoor](/09SimView/09_09_Add_window_or_windoor.html)
 
-    *   [Tilføje klimadata og jord](https://help.bsim.dk/support/kb/articles/vWyP8M9b/klimadata)
+    *   [Tilføje klimadata og jord](/09SimView/09_06_Climate_data.html)
 
-    *   [Udskrift af model](https://help.bsim.dk/support/kb/articles/z9MKj7m4/udskrift-af-model)
+    *   [Udskrift af model](/09SimView/09_18_Model_printout.html)
 
-*   [Analyse af solindfald med XSun](https://help.bsim.dk/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun)
+*   [Analyse af solindfald med XSun](/14XSun_Analysis_of_incident_solar_radiation/14_01_Solar_radiation_analysis.html)
 
-*   [Termisk simulering med tsbi5](https://help.bsim.dk/support/kb/articles/ZmNrOwm2/termisk-simulering)   
+*   [Termisk simulering med tsbi5](/13tsbi5_thermal_simulation/13_01_tsbi5_Main_page.html)   
 
-    *   [Valg af parametre](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5-parameters)
+    *   [Valg af parametre](/13tsbi5_thermal_simulation/13_01_tsbi5_Main_page.html)
 
-    *   [Simulering](https://help.bsim.dk/support/kb/articles/ZmNrOwm2/termisk-simulering)
+    *   [Simulering](/13tsbi5_thermal_simulation/13_03_tsbi5_Simulation.html)
 
-    *   [Resultatbehandling](https://help.bsim.dk/support/kb/articles/ZmNrOwm2/termisk-simulering)   
+    *   [Resultatbehandling](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html)   
 
-    *   [Varmebalance](https://help.bsim.dk/support/kb/articles/ZmNrOwm2/termisk-simulering)
+    *   [Varmebalance](/13tsbi5_thermal_simulation/13_05_tsbi5_Heat_balance.html)
 
-    *   [Timeværdier](https://help.bsim.dk/support/kb/articles/ZmNrOwm2/termisk-simulering)
+    *   [Timeværdier](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html)
 
-    *   [Eksport af datamodel til tsbi3](https://help.bsim.dk/support/kb/articles/Rm8Jwd94/tsbi5-eksport-til-tsbi3)
+    *   [Eksport af datamodel til tsbi3](/13tsbi5_thermal_simulation/13_13_Export_to_tsbi3.html)
 
-*   [Dagslysberegninger med SimLight](https://help.bsim.dk/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight)
+*   [Dagslysberegninger med SimLight](/15SimLight_Daylight_calculations/15_01_SimLight_Main_page.html)
 
-*   [BSim og andre Windows programmer](https://help.bsim.dk/support/kb/articles/nmDBo29y/bsim-og-andre-windows-programmer)
+*   [BSim og andre Windows programmer](/19BSim_and_other_windows_programs/19_01_Interoperability.html)
 
-*   [Cad-tegninger som grundlag for geometri](https://help.bsim.dk/support/kb/articles/jW7oNkWq/cad-tegninger-som-grundlag-for-geometri)   
+*   [Cad-tegninger som grundlag for geometri](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings.html)   
 
-    *   [Tilføjelse af SimDXF som applikation](https://help.bsim.dk/support/kb/articles/jW7oNkWq/cad-tegninger-som-grundlag-for-geometri)
+    *   [Tilføjelse af SimDXF som applikation](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings.html)
 
-*   [Eksport af bygningsmodel til Be10](https://help.bsim.dk/support/kb/articles/wmjnRomV/eksport-til-be10)
+*   [Eksport af bygningsmodel til Be10](/09SimView/09_15_Export_to_BE10.html)
 
-*   [Eksport af data til Radiance](https://help.bsim.dk/support/kb/articles/A93zY5Q0/eksport-af-data-til-radiance)
+*   [Eksport af data til Radiance](/18Radiance_Visualisation_og_the_building/18_01_Radiance_visualisation.html)
 
-*   [Det matematiske grundlag](https://help.bsim.dk/support/kb/articles/BWzd4NQE/det-matematiske-grundlag)
+*   [Det matematiske grundlag](/20The_Mathematical_Basis/20_01_Mathematical_basis.html)
 
-*   [Beregning af solstråling og dagslys](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstr-ling-og-dagslys)
+*   [Beregning af solstråling og dagslys](/20The_Mathematical_Basis/20_11_Solar_and_daylight_algorithms.html)
 
-*   [Litteraturhenvisninger](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)
+*   [Litteraturhenvisninger](/23Internet/23_01_Literature.html)
 
 *   Stikord

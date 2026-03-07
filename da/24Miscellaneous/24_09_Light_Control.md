@@ -26,4 +26,4 @@ Ved overskridelse af værdien *Temp. Max* antages det, at almenlyset slukkes, do
 *Solar Limit* anvendes i forbindelse med lysregulering efter det samlede solindfald i zonen. Ved solindfald mindre end værdien af Sollys regnes almenlyset tændt inden for den tilhørende tidsangivelse. Bemærk, at parameteren Faktor (angivet under regulering i tidsplanen) for den aktuelle periode bliver multipliceret på den indlæste effektværdi for almenlys.   
 Solar Limit er den samme parameter som er defineret på fanebladet "Lighting". Hvis der er defineret en værdi på "Lighting" benyttes en eventuel værdi defineret på dette faneblad (LightCtrl) ikke.
 
-Se også: [Daylight Control](https://help.bsim.dk/support/kb/articles/zWZAql9p/belysning-daylight-control)
+Se også: [Daylight Control](/24Miscellaneous/24_10_Daylight_Control.html)

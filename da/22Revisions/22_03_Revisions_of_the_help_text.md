@@ -8,17 +8,17 @@
 
 ### **7.14.mm.dd** 
 
-*   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys).
+*   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](/20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.html).
 
-*   Opdateret sider om [tilmelding til BSim forum](https://help.bsim.dk/support/kb/articles/49664d9X/tilmelding-til-debatforum) og [send en e-mail til BSim listen](Spørgsmål%20via e-ma) with correct information about the list at AAU.
+*   Opdateret sider om [tilmelding til BSim forum](/23Internet/23_02_Joining_BSim_forum.html) og [send en e-mail til BSim listen](Spørgsmål%20via e-ma) with correct information about the list at AAU.
 
-*   Rettet formal for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](https://help.bsim.dk/support/kb/articles/pWrn03Wn/calculation-of-long-wave-radiation-to-the-sky).
+*   Rettet formal for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](/20The_Mathematical_Basis/20_26_Calculation_of_long_wave_radiation_to_the_sky.html).
 
-*   Ændret download link for [PackCalc](https://help.bsim.dk/support/kb/articles/j9b8ZOmn/packcalc-koling) til SBi's website.
+*   Ændret download link for [PackCalc](/24Miscellaneous/24_04_PackCalc.html) til SBi's website.
 
-*   Tilføjet informatioon on tegningsstandarder og lagstruktur der benyttes i forbindelse med [SimDXF](https://help.bsim.dk/support/kb/articles/ZmNrexm2/simdxf---valg-dxf-filter).
+*   Tilføjet informatioon on tegningsstandarder og lagstruktur der benyttes i forbindelse med [SimDXF](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Select_DXF_filter.html).
 
-*   Tilføjet advarsel om rækkefølge af [Lighting](https://help.bsim.dk/support/kb/articles/wQXxbnQK/lighting-system) i forhold til Ventilation.
+*   Tilføjet advarsel om rækkefølge af [Lighting](/11Systems/11_06_Lighting_system.html) i forhold til Ventilation.
 
 ###   
 **7.13.10.1** 
@@ -28,557 +28,557 @@
 ###   
 **6.13.9.26**
 
-*   Tilføjet information om PackCalc under [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation-system) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Ventilation](/11Systems/11_04_Ventilation_systems.html) og tilføjet link til download af programmet.
 
-*   Tilføjet information om PackCalc under [Cooling](https://help.bsim.dk/support/kb/articles/y9gBNGQM/cooling-system) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Cooling](/11Systems/11_03_Cooling_system.html) og tilføjet link til download af programmet.
 
-*   Tilføjet information om PackCalc under [Heating](https://help.bsim.dk/support/kb/articles/wmjnq7mV/heating-system) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Heating](/11Systems/11_02_Heating_system.html) og tilføjet link til download af programmet.
 
-*   Tilføjet information om PackCalc under [Heatpump](https://help.bsim.dk/support/kb/articles/aWxnopQV/varmepumpe-system) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Heatpump](/11Systems/11_05_Heat_pump_system.html) og tilføjet link til download af programmet.
 
-*   Udvidet beskrvelsen af regulering af [Fan Coil](https://help.bsim.dk/support/kb/articles/OW4NbMQg/fan-coil-regulering).
+*   Udvidet beskrvelsen af regulering af [Fan Coil](/11Systems/11_09_Fan_Coil_control.html).
 
-*   Udvidet beskrivelsen af [fixed format](https://help.bsim.dk/support/kb/articles/L9PwAjQJ/klimadata-fast-format) som bruges ved konvertering af klimadata.
+*   Udvidet beskrivelsen af [fixed format](/05Introduction/05_03_Climate_data_fixed_format.html) som bruges ved konvertering af klimadata.
 
 *   Tilføjet advarsel om alfa-numeriske data ved [konvertering af klimadata](Konvertering%20af vejrdata til tsbi5).
 
-*   Opdateret tekst for styring af [solafskærmning med lameller](https://help.bsim.dk/support/kb/articles/ZmNrBwm2/regulering-med-lameller-efter-solindfald-og-direkte-solstraling).
+*   Opdateret tekst for styring af [solafskærmning med lameller](/11Systems/11_15_Blind_control_for_shading.html).
 
-*   Tilføjet information om NvWaterTemp i data i [parameterlisten](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen).
+*   Tilføjet information om NvWaterTemp i data i [parameterlisten](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html).
 
-*   Oprettet ny side til [PackCalc](https://help.bsim.dk/support/kb/articles/j9b8ZOmn/packcalc-koling).
+*   Oprettet ny side til [PackCalc](/24Miscellaneous/24_04_PackCalc.html).
 
-*   Tilføjet information om Central Heat Pump på [Cooling](https://help.bsim.dk/support/kb/articles/y9gBNGQM/cooling-system).
+*   Tilføjet information om Central Heat Pump på [Cooling](/11Systems/11_03_Cooling_system.html).
 
-*   Tilføjet information om Central Heat Pump på [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation-system).
+*   Tilføjet information om Central Heat Pump på [Ventilation](/11Systems/11_04_Ventilation_systems.html).
 
-*   Tilføjet information om Central Heat Pump på [Heating](https://help.bsim.dk/support/kb/articles/wmjnq7mV/heating-system).
+*   Tilføjet information om Central Heat Pump på [Heating](/11Systems/11_02_Heating_system.html).
 
 *   Ændret Be06 til Be10 på alle sider.
 
-*   Tilføjet beskrivelse til liste med [parametre](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) i resultatloggen om hvordan qTransmis er beregnet.
+*   Tilføjet beskrivelse til liste med [parametre](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) i resultatloggen om hvordan qTransmis er beregnet.
 
-*   Tilføjed [advarsel](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property) mod brug af Overhangs og Sidefins i kombination med XSun solar distribution.
+*   Tilføjed [advarsel](/09SimView/09_10_WinDoor_property.html) mod brug af Overhangs og Sidefins i kombination med XSun solar distribution.
 
-*   Tilføjet "[på vandret](https://help.bsim.dk/support/kb/articles/dQG2Dkm4/klimadata-definition)" for sol-data som skal konverteres til BSim's vejrdataformat.
+*   Tilføjet "[på vandret](/05Introduction/05_02_Climate_data_definition.html)" for sol-data som skal konverteres til BSim's vejrdataformat.
 
-*   Opdateret grafik på [SolarSensorCtrl](https://help.bsim.dk/support/kb/articles/BWzd23QE/regulering-efter-lysfoler-pa-facaden).
+*   Opdateret grafik på [SolarSensorCtrl](/11Systems/11_16_Solar_sensor_control_for_shading.html).
 
-*   Opdateret grafik og tilføjet tekst om referencepunkter til [GlareCtrl](https://help.bsim.dk/support/kb/articles/4966wd9X/regulering-efter-blandingsforhold-og-belysningsstyrke).
+*   Opdateret grafik og tilføjet tekst om referencepunkter til [GlareCtrl](/11Systems/11_17_Glare_control_for_shading.html).
 
-*   Udvidet beskrivelsen af oprettelse og brug af [referencepunkter](https://help.bsim.dk/support/kb/articles/79O3J49E/referencepunkt).
+*   Udvidet beskrivelsen af oprettelse og brug af [referencepunkter](/10Thermal_zones/10_08_Reference_point.html).
 
-*   Tilføjet manglende beskrivelse til [Blind control for solafskærmning](https://help.bsim.dk/support/kb/articles/ZmNrBwm2/regulering-med-lameller-efter-solindfald-og-direkte-solstraling) og opdateret grafik.
+*   Tilføjet manglende beskrivelse til [Blind control for solafskærmning](/11Systems/11_15_Blind_control_for_shading.html) og opdateret grafik.
 
-*   Rettet beskrivelse af *Min Supply Ratio* for [recirkulationsstyring af ventilationsluften](https://help.bsim.dk/support/kb/articles/LmJvMEmP/recirkulation-ventilation).
+*   Rettet beskrivelse af *Min Supply Ratio* for [recirkulationsstyring af ventilationsluften](/11Systems/11_12_Recirculation_ventilation.html).
 
-*   Tilføjet beskrivelse af indsæt af grafik fra [SimLight](https://help.bsim.dk/support/kb/articles/L9nrPG9Z/simlight---dagslysberegning-i-et-plan) via Clipboard i nyere Office-programmer.
+*   Tilføjet beskrivelse af indsæt af grafik fra [SimLight](/15SimLight_Daylight_calculations/15_03_Daylight_calculation_in_a_plane.html) via Clipboard i nyere Office-programmer.
 
-*   Udvidet beskrivelse af [Recess for Windoor](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property).
+*   Udvidet beskrivelse af [Recess for Windoor](/09SimView/09_10_WinDoor_property.html).
 
-*   Tilføjet information om brug af 0 for MaxSun på [ShadingCtrl](https://help.bsim.dk/support/kb/articles/49Ed16Q7/regulering-efter-solindfald-og-temperatur).
+*   Tilføjet information om brug af 0 for MaxSun på [ShadingCtrl](/11Systems/11_18_Shading_control_based_on_solar_radiation_and_temperature.html).
 
-*   Tilføjet variabelnavn *TiFraction* i beskrivelse af [egenskaber for termisk zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property).
+*   Tilføjet variabelnavn *TiFraction* i beskrivelse af [egenskaber for termisk zone](/10Thermal_zones/10_01_Thermal_zone_property.html).
 
-*   Updated grafik for [inddata](https://help.bsim.dk/support/kb/articles/yW1xGP9B/kappa-modellen-inddata) til Kappa-modellen og tilføjet variabelnavn TiFraction.
+*   Updated grafik for [inddata](/12The_Kappa_model/12_02_Input_data_Kappa_model.html) til Kappa-modellen og tilføjet variabelnavn TiFraction.
 
-*   Tilføjet link til [geometriske kuldebroer](https://help.bsim.dk/support/kb/articles/49EdOJQ7/kuldebroer) under [konstruktive (linære) kuldebroer](https://help.bsim.dk/support/kb/articles/NmdK5OW0/kuldebroer).
+*   Tilføjet link til [geometriske kuldebroer](/09SimView/09_13_Cold_bridges_geometric.html) under [konstruktive (linære) kuldebroer](/09SimView/09_12_Cold_bridges_linear.html).
 
-*   Tilføjet link til [konstruktive (linære) kuldebroer](https://help.bsim.dk/support/kb/articles/NmdK5OW0/kuldebroer) under [geometriske kuldebroer](https://help.bsim.dk/support/kb/articles/49EdOJQ7/kuldebroer).
+*   Tilføjet link til [konstruktive (linære) kuldebroer](/09SimView/09_12_Cold_bridges_linear.html) under [geometriske kuldebroer](/09SimView/09_13_Cold_bridges_geometric.html).
 
-*   Tilføjet information om advarslen Impossible Geometry for [Windoors](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property).
+*   Tilføjet information om advarslen Impossible Geometry for [Windoors](/09SimView/09_10_WinDoor_property.html).
 
-*   Rettet forkert beskrivelse af bygningens rotation på [Building Property](https://help.bsim.dk/support/kb/articles/XQYde4mP/building-property).
+*   Rettet forkert beskrivelse af bygningens rotation på [Building Property](/09SimView/09_03_Building_property.html).
 
-*   Udvidet beskrivelse af [resultatparameter](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) WaterTempMean.
+*   Udvidet beskrivelse af [resultatparameter](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) WaterTempMean.
 
 ###   
 **6.11.1.17** 
 
-*   Tilføjet information om *Reg. System Time Step* på [tsbi5 | Options](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options).
+*   Tilføjet information om *Reg. System Time Step* på [tsbi5 | Options](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html).
 
-*   Tilføjet advarsel om tykkelsen af lag over gulvvarmeslanger for [vandbåren gulv-varme/køling](https://help.bsim.dk/support/kb/articles/y9gBP7QM/gulvvarme-system).
+*   Tilføjet advarsel om tykkelsen af lag over gulvvarmeslanger for [vandbåren gulv-varme/køling](/11Systems/11_08_Floor_heating_cooling_system.html).
 
-*   Tilføjet advarsel om brug af samme regulering for forskellige systemer til [regulering af vandbåren gulv-varme/køling](https://help.bsim.dk/support/kb/articles/VmAOro9a/regulering-af-gulvvarme).
+*   Tilføjet advarsel om brug af samme regulering for forskellige systemer til [regulering af vandbåren gulv-varme/køling](/11Systems/11_10_Floor_heating_cooling_control.html).
 
-*   Tilføjet advarsel om brug af forskellige reguleringsformer inden for samme tidsangivelse i forbindelse med [regulering af vandbåren gulv-varme/køling](https://help.bsim.dk/support/kb/articles/VmAOro9a/regulering-af-gulvvarme).
+*   Tilføjet advarsel om brug af forskellige reguleringsformer inden for samme tidsangivelse i forbindelse med [regulering af vandbåren gulv-varme/køling](/11Systems/11_10_Floor_heating_cooling_control.html).
 
-*   Tilføjet advarsel om nødvendigheden af individuel regulering for [elektrisk gulvvarme](https://help.bsim.dk/support/kb/articles/L9nr6e9Z/gulvvarmeregulering) til hver termisk zone.
+*   Tilføjet advarsel om nødvendigheden af individuel regulering for [elektrisk gulvvarme](/11Systems/11_04_Electric_floor_heating_control.html) til hver termisk zone.
 
-*   Opdateret beskrivelse af parameteren *Lost* på [*ThermalZone property*](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property) som angiver hvor meget sol der tabes inden den afsættes i zonen og opdateret grafik.
+*   Opdateret beskrivelse af parameteren *Lost* på [*ThermalZone property*](/10Thermal_zones/10_01_Thermal_zone_property.html) som angiver hvor meget sol der tabes inden den afsættes i zonen og opdateret grafik.
 
-*   Tilføjet information om tsbi5 Batch til [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken) og opdateret lay-out af siden.
+*   Tilføjet information om tsbi5 Batch til [værktøjsbjælken](/09SimView/09_01_SimView_toolbar.html) og opdateret lay-out af siden.
 
-*   Oprettet side som skal indeholde information om [batch-afvikling](https://help.bsim.dk/support/kb/articles/pWrnK2Wn/tsbi5-batch) af simuleringer.
+*   Oprettet side som skal indeholde information om [batch-afvikling](/13tsbi5_thermal_simulation/13_08_tsbi5_Batch.html) af simuleringer.
 
-*   Tilføjet information om [maksimal længde](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begransninger) på modelnavne ved sammenligning af resultater på tværs af modeller.
+*   Tilføjet information om [maksimal længde](/24Miscellaneous/24_01_Limitations.html) på modelnavne ved sammenligning af resultater på tværs af modeller.
 
-*   Tilføjet information om valg af flere styringer til [FloorHeatingCooling](https://help.bsim.dk/support/kb/articles/VmAOro9a/regulering-af-gulvvarme).
+*   Tilføjet information om valg af flere styringer til [FloorHeatingCooling](/11Systems/11_10_Floor_heating_cooling_control.html).
 
-*   Tilføjet information om *ExtIlum* og *WinIllum2* i [resultatloggen](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen).
+*   Tilføjet information om *ExtIlum* og *WinIllum2* i [resultatloggen](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html).
 
-*   Tilføjet information om brug af [sekundært referencepunkt i SimLight](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt) beregninger.
+*   Tilføjet information om brug af [sekundært referencepunkt i SimLight](/15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html) beregninger.
 
-*   Rettet fejl i automatisk [tilmelding til BSim debatforum via e-mail](https://help.bsim.dk/support/kb/articles/49664d9X/tilmelding-til-debatforum).
+*   Rettet fejl i automatisk [tilmelding til BSim debatforum via e-mail](/23Internet/23_02_Joining_BSim_forum.html).
 
 ###   
 **6.9.10.23** 
 
-*   Tilføjet tekst om valg af designparametre for [varmepumper](https://help.bsim.dk/support/kb/articles/aWxnopQV/varmepumpe-system) og på [Heatloss](https://help.bsim.dk/support/kb/articles/MQvE8bmY/modeloplysninger) fanebladet på [SimView menuens Defaults](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu) dialog.
+*   Tilføjet tekst om valg af designparametre for [varmepumper](/11Systems/11_05_Heat_pump_system.html) og på [Heatloss](/13tsbi5_thermal_simulation/13_09_Model_Information.html) fanebladet på [SimView menuens Defaults](/09SimView/09_04_SimView_menu_Defaults.html) dialog.
 
-*   Rettet beskrivelse af [FanCoilControl](https://help.bsim.dk/support/kb/articles/OW4NbMQg/fan-coil-regulering).
+*   Rettet beskrivelse af [FanCoilControl](/11Systems/11_09_Fan_Coil_control.html).
 
-*   Tilføjet information om udvendigt overgangstal i forbindelse med konstruktioner mod jord på [Finish Property](https://help.bsim.dk/support/kb/articles/NmdKazW0/finish-property).
+*   Tilføjet information om udvendigt overgangstal i forbindelse med konstruktioner mod jord på [Finish Property](/09SimView/09_08_Finish_property.html).
 
-*   Rettet beskrivelse af solens azimut-vinkel i [resultatloggen](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen).
+*   Rettet beskrivelse af solens azimut-vinkel i [resultatloggen](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html).
 
-*   Tilføjet information om ny parameter for gulvvarme i [resultatloggen](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) (*WaterTempSupply*) og omdøbning af *WaterTemp* til *WaterTempMean*.
+*   Tilføjet information om ny parameter for gulvvarme i [resultatloggen](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) (*WaterTempSupply*) og omdøbning af *WaterTemp* til *WaterTempMean*.
 
-*   Opdateret grafik og tilføjet information om ny parameter i [varmebalancen](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance) og [parametre i varmebalancen](https://help.bsim.dk/support/kb/articles/4966dA9X/parametre-i-varmebalancen) (FloorCool).
+*   Opdateret grafik og tilføjet information om ny parameter i [varmebalancen](/13tsbi5_thermal_simulation/13_05_tsbi5_Heat_balance.html) og [parametre i varmebalancen](/13tsbi5_thermal_simulation/13_06_Parameters_in_heat_balance.html) (FloorCool).
 
-*   Tilføjet information om at *Sidefin* og *Overhang* ikke fungerer sammen med [XSun solfordeling](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options) på [WinDoor property](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property) hjælpen.
+*   Tilføjet information om at *Sidefin* og *Overhang* ikke fungerer sammen med [XSun solfordeling](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) på [WinDoor property](/09SimView/09_10_WinDoor_property.html) hjælpen.
 
-*   Opdateret grafik og tilføjet information om knapperne *Table Values og Remove Table* (definition af [solafskærmning via ekstern fil](https://help.bsim.dk/support/kb/articles/y9q82qQA/standardtabeller-for-lamel-afskarmninger)) fra [solafskærmningen](https://help.bsim.dk/support/kb/articles/7maw8X9E/shading-system).
+*   Opdateret grafik og tilføjet information om knapperne *Table Values og Remove Table* (definition af [solafskærmning via ekstern fil](/11Systems/11_19_Standard_tables_for_blinds_shading.html)) fra [solafskærmningen](/11Systems/11_14_Shading_system.html).
 
-*   Oprettet ny side med beskrivelse af definition af [solafskærmning via ekstern fil](https://help.bsim.dk/support/kb/articles/y9q82qQA/standardtabeller-for-lamel-afskarmninger).
+*   Oprettet ny side med beskrivelse af definition af [solafskærmning via ekstern fil](/11Systems/11_19_Standard_tables_for_blinds_shading.html).
 
-*   Opdateret beskrivelse af [Room Property](https://help.bsim.dk/support/kb/articles/7mawaK9E/room-propery) med information om muligheden for valg af udeklimaet som temperatur og fugt i et rum uden for de termiske zoner.
+*   Opdateret beskrivelse af [Room Property](/10Thermal_zones/10_04_Room_property.html) med information om muligheden for valg af udeklimaet som temperatur og fugt i et rum uden for de termiske zoner.
 
-*   Opdateret grafik og tilføjet link til [NvCoolCtrl](https://help.bsim.dk/support/kb/articles/zWZAkq9p/nvcool-regulering-ventilation) fra [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation-system) og reguleringsformerne: [InletCtrl](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/indblasningsstyring-ventilation), [ZoneTempCtrl](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/rumtemperaturregulering-ventilation), [MoistureCtrl](https://help.bsim.dk/support/kb/articles/E9LwjGQw/fugtregulering-ventilation), [VAVCtrl](https://help.bsim.dk/support/kb/articles/j9b8kamn/vav-regulering-ventilation), [NightCoolCtrl](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/natkoling-ventilation), og [ReturnAirCtrl](https://help.bsim.dk/support/kb/articles/LmJvMEmP/recirkulation-ventilation).
+*   Opdateret grafik og tilføjet link til [NvCoolCtrl](/11Systems/11_20_NvCool_control_ventilation.html) fra [Ventilation](/11Systems/11_04_Ventilation_systems.html) og reguleringsformerne: [InletCtrl](/11Systems/11_21_Inlet_control_ventilation.html), [ZoneTempCtrl](/11Systems/11_22_Zone_temperature_control_ventilation.html), [MoistureCtrl](/11Systems/11_23_Moisture_control_ventilation.html), [VAVCtrl](/11Systems/11_24_VAV_control_ventilation.html), [NightCoolCtrl](/11Systems/11_25_Night_cooling_ventilation.html), og [ReturnAirCtrl](/11Systems/11_12_Recirculation_ventilation.html).
 
-*   Opdateret grafik og tilføjet information om parameteren *Master Zone* ved [rumtemperaturregulering](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/rumtemperaturregulering-ventilation) af ventilationen.
+*   Opdateret grafik og tilføjet information om parameteren *Master Zone* ved [rumtemperaturregulering](/11Systems/11_22_Zone_temperature_control_ventilation.html) af ventilationen.
 
-*   Tilføjet link til de øvrige reguleringsformer for ventilation fra [NvCoolCtrl](https://help.bsim.dk/support/kb/articles/zWZAkq9p/nvcool-regulering-ventilation).
+*   Tilføjet link til de øvrige reguleringsformer for ventilation fra [NvCoolCtrl](/11Systems/11_20_NvCool_control_ventilation.html).
 
-*   Opdateret grafik og tilføjet information om parameteren *SwitchOff* i forbindelse med [styring af kunstlyset efter dagslyset](https://help.bsim.dk/support/kb/articles/zWZAql9p/belysning---daylight-control).
+*   Opdateret grafik og tilføjet information om parameteren *SwitchOff* i forbindelse med [styring af kunstlyset efter dagslyset](/11Systems/11_28_Lighting_Daylight_control.html).
 
-*   Opdateret grafik og tilføjet information om parameteren Solar Limit i forbindelse med styring af [kunstlyset efter sollyset](https://help.bsim.dk/support/kb/articles/j9b8aMmn/belysning---light-control).
+*   Opdateret grafik og tilføjet information om parameteren Solar Limit i forbindelse med styring af [kunstlyset efter sollyset](/11Systems/11_27_Lighting_control.html).
 
-*   Opdateret grafik og tabel til beskrivelse af [solafskærmning](https://help.bsim.dk/support/kb/articles/7maw8X9E/shading-system) og tilføjet information om brug af data fra eksterne tabeller.
+*   Opdateret grafik og tabel til beskrivelse af [solafskærmning](/11Systems/11_14_Shading_system.html) og tilføjet information om brug af data fra eksterne tabeller.
 
-*   Opdateret grafik til [VAV regulering](https://help.bsim.dk/support/kb/articles/j9b8kamn/vav-regulering-ventilation) og tilføjet information om [regulering efter CO2 indholdet](https://help.bsim.dk/support/kb/articles/j9b8kamn/vav-regulering-ventilation) i indeluften.
+*   Opdateret grafik til [VAV regulering](/11Systems/11_24_VAV_control_ventilation.html) og tilføjet information om [regulering efter CO2 indholdet](/11Systems/11_24_VAV_control_ventilation.html) i indeluften.
 
-*   Opdateret grafik til [køling](https://help.bsim.dk/support/kb/articles/y9gBNGQM/cooling-system).
+*   Opdateret grafik til [køling](/11Systems/11_03_Cooling_system.html).
 
-*   Tilføjet information om at *.mdb filer omdøbes ved "[Mail project to ...](https://help.bsim.dk/support/kb/articles/L9PwEPQJ/file)".
+*   Tilføjet information om at *.mdb filer omdøbes ved "[Mail project to ...](/09SimView/09_11_File_menu.html)".
 
-*   Tilføjet information om gemning af resultater i [varmebalancen](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance) ved "Alt + X".
+*   Tilføjet information om gemning af resultater i [varmebalancen](/13tsbi5_thermal_simulation/13_05_tsbi5_Heat_balance.html) ved "Alt + X".
 
-*   Fjernet forbehold for fordampningsmodeller fra [vandoverflader](https://help.bsim.dk/support/kb/articles/xmere5QV/moisture-system).
+*   Fjernet forbehold for fordampningsmodeller fra [vandoverflader](/11Systems/11_29_Moisture_system.html).
 
 ###   
 **6.9.8.24** 
 
-*   Tilføjet link til [PCM](https://help.bsim.dk/support/kb/articles/dQG26zm4/simdb---buildingmaterial-pcm) fra [hovedindgang](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial) til materialedelen af SimDb.
+*   Tilføjet link til [PCM](/07SimDB_Database/07_09_Building_material_PCM.html) fra [hovedindgang](/07SimDB_Database/07_01_Building_material.html) til materialedelen af SimDb.
 
-*   Opdateret [Windoor property](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property) med link til [NatVent](https://help.bsim.dk/support/kb/articles/gWKD4lmp/naturlig-ventilation) og [kuldebroer](https://help.bsim.dk/support/kb/articles/NmdK5OW0/kuldebroer).
+*   Opdateret [Windoor property](/09SimView/09_10_WinDoor_property.html) med link til [NatVent](/11Systems/11_11_Natural_ventilation_system.html) og [kuldebroer](/09SimView/09_12_Cold_bridges_linear.html).
 
-*   Opdateret [NatVent](https://help.bsim.dk/support/kb/articles/gWKD4lmp/naturlig-ventilation) fane under [Windoor property](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property) med link til kuldebroer.
+*   Opdateret [NatVent](/11Systems/11_11_Natural_ventilation_system.html) fane under [Windoor property](/09SimView/09_10_WinDoor_property.html) med link til kuldebroer.
 
-*   Oprettet ny side med beskrivelse af [kuldebroer](https://help.bsim.dk/support/kb/articles/NmdK5OW0/kuldebroer) langs kanterne af en konstruktion.
+*   Oprettet ny side med beskrivelse af [kuldebroer](/09SimView/09_12_Cold_bridges_linear.html) langs kanterne af en konstruktion.
 
-*   Opdateret beskrivelse af [egenskaber for en konstruktion](https://help.bsim.dk/support/kb/articles/B9lw4vQ8/construction-property) med tilføjelse af kuldebroer.
+*   Opdateret beskrivelse af [egenskaber for en konstruktion](/09SimView/09_07_Construction_property.html) med tilføjelse af kuldebroer.
 
-*   Opdateret [teori for varmebalancen i et rum](https://help.bsim.dk/support/kb/articles/wmjnblmV/varmebalance-for-luften-i-en-zone) med bidrag fra kuldebroer.
+*   Opdateret [teori for varmebalancen i et rum](/20The_Mathematical_Basis/20_23_Heat_balance_for_air_in_a_thermal_zone.html) med bidrag fra kuldebroer.
 
-*   Opdateret [systembeskrivelse](https://help.bsim.dk/support/kb/articles/y9gBP7QM/gulvvarme-system) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
+*   Opdateret [systembeskrivelse](/11Systems/11_08_Floor_heating_cooling_system.html) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
 
-*   Opdateret [regulering](https://help.bsim.dk/support/kb/articles/y9gBP7QM/gulvvarme-system) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
+*   Opdateret [regulering](/11Systems/11_10_Floor_heating_cooling_control.html) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
 
-*   Tilføjet ny side med beskrivelse af [materialeegenskaber for faseskiftende materialer (PCM)](https://help.bsim.dk/support/kb/articles/dQG26zm4/simdb---buildingmaterial-pcm).
+*   Tilføjet ny side med beskrivelse af [materialeegenskaber for faseskiftende materialer (PCM)](/07SimDB_Database/07_09_Building_material_PCM.html).
 
-*   Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [tables](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables) fanebladet under tsbi5.
+*   Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [tables](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) fanebladet under tsbi5.
 
-*   Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [varmebalancen](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance).
+*   Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [varmebalancen](/13tsbi5_thermal_simulation/13_05_tsbi5_Heat_balance.html).
 
-*   Tilføjet tekst til [NvCoolCtrl](https://help.bsim.dk/support/kb/articles/zWZAkq9p/nvcool-regulering-ventilation) af ventilation.
+*   Tilføjet tekst til [NvCoolCtrl](/11Systems/11_20_NvCool_control_ventilation.html) af ventilation.
 
-*   Opdateret beskrivelse af "Destination" for [gulvvarme/køling](https://help.bsim.dk/support/kb/articles/y9gBP7QM/gulvvarme-system).
+*   Opdateret beskrivelse af "Destination" for [gulvvarme/køling](/11Systems/11_08_Floor_heating_cooling_system.html).
 
-*   Ny side som beskriver [stabilitetskriteriet](https://help.bsim.dk/support/kb/articles/B9lwREQ8/stabilitetskriterie-for-indsvingning) for stop af indsvingning inden start af egentlig simulering.
+*   Ny side som beskriver [stabilitetskriteriet](/13tsbi5_thermal_simulation/13_10_Stability_criterion.html) for stop af indsvingning inden start af egentlig simulering.
 
-*   [Tilføjet tekst og link](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5---simulation) vedr. indsvingning før start af egentlig simulering.
+*   [Tilføjet tekst og link](/13tsbi5_thermal_simulation/13_03_tsbi5_Simulation.html) vedr. indsvingning før start af egentlig simulering.
 
-*   Opdateret beskrivelse af brug af [overfladeegenskaber](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish) i simuleringerne.
+*   Opdateret beskrivelse af brug af [overfladeegenskaber](/07SimDB_Database/07_05_Building_material_Finish.html) i simuleringerne.
 
 ###   
 **6.8.4.30** 
 
-*   Opdateret grafik for [varmebalancen](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance) og [parametre i varmebalancen](https://help.bsim.dk/support/kb/articles/4966dA9X/parametre-i-varmebalancen) og udvidet med parametre for varmepumper.
+*   Opdateret grafik for [varmebalancen](/13tsbi5_thermal_simulation/13_05_tsbi5_Heat_balance.html) og [parametre i varmebalancen](/13tsbi5_thermal_simulation/13_06_Parameters_in_heat_balance.html) og udvidet med parametre for varmepumper.
 
-*   Opdateret listen med [parametre i resultatloggen](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) med nye parametre (HeatPump, HeatPumpEl, RtnFrac, Filtration, WaterTemp).
+*   Opdateret listen med [parametre i resultatloggen](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) med nye parametre (HeatPump, HeatPumpEl, RtnFrac, Filtration, WaterTemp).
 
-*   Opdateret grafik for [Finish property](https://help.bsim.dk/support/kb/articles/NmdKazW0/finish-property) og beskrevet parameteren Filtration som bestemmer utætheden af konstruktionen.
+*   Opdateret grafik for [Finish property](/09SimView/09_08_Finish_property.html) og beskrevet parameteren Filtration som bestemmer utætheden af konstruktionen.
 
-*   Opdateret grafik for [materialedelen af databasen](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial) og beskrevet materialegruppe v.
+*   Opdateret grafik for [materialedelen af databasen](/07SimDB_Database/07_01_Building_material.html) og beskrevet materialegruppe v.
 
 *   Ændret træstrukturen i hjælpen, indføjet termiske zoner og flyttet Systemer og Kappa-modellen ind som underemner.
 
-*   Oprettet ny side til beskrivelse af [referencepunkter](https://help.bsim.dk/support/kb/articles/79O3J49E/referencepunkt) i et rum.
+*   Oprettet ny side til beskrivelse af [referencepunkter](/10Thermal_zones/10_08_Reference_point.html) i et rum.
 
-*   Tilføjet beregning med SimLight i et [punkt](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt) og et [plan](https://help.bsim.dk/support/kb/articles/L9nrPG9Z/simlight---dagslysberegning-i-et-plan) til navigationsstrukturen.
+*   Tilføjet beregning med SimLight i et [punkt](/15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html) og et [plan](/15SimLight_Daylight_calculations/15_03_Daylight_calculation_in_a_plane.html) til navigationsstrukturen.
 
-*   Flyttet navigationen for [termiske zoner](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property) og rum til en del af SimView.
+*   Flyttet navigationen for [termiske zoner](/10Thermal_zones/10_01_Thermal_zone_property.html) og rum til en del af SimView.
 
-*   Tilføjet information om åbning af [room property](https://help.bsim.dk/support/kb/articles/7mawaK9E/room-propery) dialog.
+*   Tilføjet information om åbning af [room property](/10Thermal_zones/10_04_Room_property.html) dialog.
 
-*   Opdateret grafik og tekst til [SimLight](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt).
+*   Opdateret grafik og tekst til [SimLight](/15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html).
 
-*   Opdateret [forord](https://help.bsim.dk/support/kb/articles/vW5aMpW4/forord).
+*   Opdateret [forord](/04Users_guide/04_02_Foreword.html).
 
 *   Renset hjælpeteksten for henvisninger til Bv98 hvor det er passende.
 
-*   Opdateret information om [ThermalZoneProperty ](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property)med henvisning til Be06 i stedet for Bv98.
+*   Opdateret information om [ThermalZoneProperty ](/10Thermal_zones/10_01_Thermal_zone_property.html)med henvisning til Be06 i stedet for Bv98.
 
-*   Oprettet ny side med information om [konvertering af bygningsmodel](https://help.bsim.dk/support/kb/articles/wmjnRomV/eksport-til-be10) til brug i Be06.
+*   Oprettet ny side med information om [konvertering af bygningsmodel](/09SimView/09_15_Export_to_BE10.html) til brug i Be06.
 
-*   Opdateret [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview-v-rkt-jsbj-lken) med information om brug af Be06 ikonen.
+*   Opdateret [værktøjsbjælken](/09SimView/09_01_SimView_toolbar.html) med information om brug af Be06 ikonen.
 
-*   Opdateret tekst for qSunRad i [parameterlisten](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen).
+*   Opdateret tekst for qSunRad i [parameterlisten](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html).
 
-*   Oprettet ny side med beskrivelse af det [matematiske grundlag for vandbåre gulvvarme (engelsk).](https://help.bsim.dk/support/kb/articles/BWzdVPQE/gulvvarme-matematisk-grundlag)
+*   Oprettet ny side med beskrivelse af det [matematiske grundlag for vandbåre gulvvarme (engelsk).](/11Systems/11_08_Floor_heating_mathematical_basis.html)
 
-*   Oprettet ny side til beskrivelse af ny [styring (NVVK)](https://help.bsim.dk/support/kb/articles/zWZAkq9p/nvcool-regulering-ventilation) til mekanisk ventilation.
+*   Oprettet ny side til beskrivelse af ny [styring (NVVK)](/11Systems/11_20_NvCool_control_ventilation.html) til mekanisk ventilation.
 
-*   Oprettet ny side med beskrivelse af [blændingsregulering](https://help.bsim.dk/support/kb/articles/4966wd9X/regulering-efter-bl-ndingsforhold-og-belysningsstyrke) for solafskærmning.
+*   Oprettet ny side med beskrivelse af [blændingsregulering](/11Systems/11_17_Glare_control_for_shading.html) for solafskærmning.
 
-*   Oprettet ny side til beskrivelse af [varmepumper](https://help.bsim.dk/support/kb/articles/aWxnopQV/varmepumpe-system).
+*   Oprettet ny side til beskrivelse af [varmepumper](/11Systems/11_05_Heat_pump_system.html).
 
-*   Oprettet ny side til beskrivelse af system med vandbåren [gulvvarme](https://help.bsim.dk/support/kb/articles/y9gBP7QM/gulvvarme-system).
+*   Oprettet ny side til beskrivelse af system med vandbåren [gulvvarme](/11Systems/11_08_Floor_heating_cooling_system.html).
 
-*   Oprettet ny side til beskrivelse [regulering for vandbåren gulvvarme](https://help.bsim.dk/support/kb/articles/VmAOro9a/regulering-af-gulvvarme).
+*   Oprettet ny side til beskrivelse [regulering for vandbåren gulvvarme](/11Systems/11_10_Floor_heating_cooling_control.html).
 
-*   Rettet [bygningsbeskrivelse](https://help.bsim.dk/support/kb/articles/ZmNroAm2/bygningsopfattelse-knudepunktsinddeling) og slettet tekst der antydede at BSim ikke rummer en fuld 3D geometri.
+*   Rettet [bygningsbeskrivelse](/09SimView/09_02_Building_description.html) og slettet tekst der antydede at BSim ikke rummer en fuld 3D geometri.
 
-*   Tilføjet beskrivelse af hvordan en samling med [spørgsmål og svar fra debatforum](https://help.bsim.dk/support/kb/articles/49664d9X/tilmelding-til-debatforum) kan hentes.
+*   Tilføjet beskrivelse af hvordan en samling med [spørgsmål og svar fra debatforum](/23Internet/23_02_Joining_BSim_forum.html) kan hentes.
 
-*   [SolarCtrl](https://help.bsim.dk/support/kb/articles/49Ed16Q7/regulering-efter-solindfald-og-temperatur) revideret.
+*   [SolarCtrl](/11Systems/11_16_Shading_control_based_on_solar_radiation_and_temperature.html) revideret.
 
-*   Oprettet ny side til regulering af [Persienner](https://help.bsim.dk/support/kb/articles/ZmNrBwm2/regulering-med-lameller-efter-solindfald-og-direkte-solstr-ling).
+*   Oprettet ny side til regulering af [Persienner](/11Systems/11_15_Blind_control_for_shading.html).
 
-*   Opdateret [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview-v-rkt-jsbj-lken) med ikon for BEAT.
+*   Opdateret [værktøjsbjælken](/09SimView/09_01_SimView_toolbar.html) med ikon for BEAT.
 
-*   Oprettet side til beskrivelse af [BEAT](https://help.bsim.dk/support/kb/articles/49EdodQ7/beat)
+*   Oprettet side til beskrivelse af [BEAT](/24Miscellaneous/24_02_BEAT.html)
 
-*   [Regulation](https://help.bsim.dk/support/kb/articles/y9gB57QM/regulation) for åbning af vinduer, siden er under opbygning!
+*   [Regulation](/11Systems/11_26_Window_opening_control.html) for åbning af vinduer, siden er under opbygning!
 
-*   Oprettet ny side med regulering af solafskærmning efter [udvendig sensor](https://help.bsim.dk/support/kb/articles/BWzd23QE/regulering-efter-lysf-ler-p-facaden).
+*   Oprettet ny side med regulering af solafskærmning efter [udvendig sensor](/11Systems/11_13_Shading_control_based_on_external_light_sensor.html).
 
-*   Opdateret grafik og beskrivelse af [solafskærmning](https://help.bsim.dk/support/kb/articles/7maw8X9E/shading-system).
+*   Opdateret grafik og beskrivelse af [solafskærmning](/11Systems/11_09_Shading_system.html).
 
 *   Opdateret afsnittet med internetforbindelser (opdateringer, faq, etc.).
 
-*   Oprettet ny side med information om [opdateringer af bygningsmodellen](https://help.bsim.dk/support/kb/articles/aWxnqAQV/opdatering-af-bygningsmodel) for check af kompatibilitet med gamle bygningsmodeller. Oprettet link til siden under fra afsnittet revisioner.
+*   Oprettet ny side med information om [opdateringer af bygningsmodellen](/22Revisions/22_02_Building_model_updates.html) for check af kompatibilitet med gamle bygningsmodeller. Oprettet link til siden under fra afsnittet revisioner.
 
 *   Tilføjet information om konstanten Ka på siderne:
 
-    *   [Aktivering af model for naturlig ventilation](https://help.bsim.dk/support/kb/articles/gWKD4lmp/naturlig-ventilation),
+    *   [Aktivering af model for naturlig ventilation](/11Systems/11_01_Natural_ventilation_system.html),
 
-    *   [tsbi5, Natural Ventilation options](https://help.bsim.dk/support/kb/articles/nmDB8R9y/tsbi5-natural-ventilation-options),
+    *   [tsbi5, Natural Ventilation options](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html),
 
-    *   [Parametre til naturlig ventilation](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation),
+    *   [Parametre til naturlig ventilation](/11Systems/11_02_Natural_ventilation_parameters.html),
 
-    *   [Naturlig ventilation](https://help.bsim.dk/support/kb/articles/gWKD4lmp/naturlig-ventilation).
+    *   [Naturlig ventilation](/11Systems/11_11_Natural_ventilation_system.html).
 
-*   Tilføjet information om indholdet af [TRY klimadata](https://help.bsim.dk/support/kb/articles/1Qpng0WE/konvertering-af-vejrdata-til-tsbi5) og forbehold ved lufttryk = 0 i forbindelse med konvertering af klimadata.
+*   Tilføjet information om indholdet af [TRY klimadata](/05Introduction/05_04_Weather_data_conversion_to_tsbi5.html) og forbehold ved lufttryk = 0 i forbindelse med konvertering af klimadata.
 
-*   Opdateret information om [standard-værdier](https://help.bsim.dk/support/kb/articles/L9Pw7rQJ/standardvardier) for overfladeegenskaber ved lysberegninger.
+*   Opdateret information om [standard-værdier](/24Miscellaneous/24_02_Default_surface_properties_for_daylight_calculations.html) for overfladeegenskaber ved lysberegninger.
 
-*   Tilføjet lufttryk til listen med [resultatparametre](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen).
+*   Tilføjet lufttryk til listen med [resultatparametre](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html).
 
-*   Opdateret "signatur" i [forord](https://help.bsim.dk/support/kb/articles/vW5aMpW4/forord).
+*   Opdateret "signatur" i [forord](/04Users_guide/04_02_Foreword.html).
 
-*   Opdateret tekst vedr. begrænsninger ved [SimLight](https://help.bsim.dk/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight).
+*   Opdateret tekst vedr. begrænsninger ved [SimLight](/15SimLight_Daylight_calculations/15_01_SimLight_Daylight_Calculations.html).
 
-*   Tilføjet tekst til ny [resultatparameter: NyDuct](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) på konstruktioner.
+*   Tilføjet tekst til ny [resultatparameter: NyDuct](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) på konstruktioner.
 
 ###   
 **5,7,1,19** 
 
 *   Tilføjet Aalborg Universitet i toppen af alle hjælpesider.
 
-*   Tilføjet tekst om fastlæggelse af den operative temperatur for den enkelte [termiske zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property) (ny input parameter). Opdateret grafik og fjernet direkte link fra grafikken til teori om Kappa-modellen.
+*   Tilføjet tekst om fastlæggelse af den operative temperatur for den enkelte [termiske zone](/10Thermal_zones/10_01_Thermal_zone_property.html) (ny input parameter). Opdateret grafik og fjernet direkte link fra grafikken til teori om Kappa-modellen.
 
-*   Tilføjet information om ny [materialegruppe](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb-buildingmaterial) "v" (lodrette, ventilerede luftspalter) og tilføjet kort beskrivelse af de øvrige materialegrupper i BuildingMaterial delen af SimDB.
+*   Tilføjet information om ny [materialegruppe](/07SimDB_Database/07_01_Building_material.html) "v" (lodrette, ventilerede luftspalter) og tilføjet kort beskrivelse af de øvrige materialegrupper i BuildingMaterial delen af SimDB.
 
-*   Tilføjet information om brug af [flere klimadatafiler](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5-options) i samme simulering.
+*   Tilføjet information om brug af [flere klimadatafiler](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) i samme simulering.
 
-*   Oprettet [ny side](https://help.bsim.dk/support/kb/articles/rmklPLQg/vindtrykkoefficient-for-spalter) med information om tryktabskoefficienter (Cp værdier) for lodrette, ventilerede luftspalter.
+*   Oprettet [ny side](/24Miscellaneous/24_03_Wind_pressure_coefficient_for_ventilated_cavities.html) med information om tryktabskoefficienter (Cp værdier) for lodrette, ventilerede luftspalter.
 
-*   Opdateret grafik og tilføjet tekst til: Wind exposure, filtration air flow og wind pressure coefficient på dialogen med [egenskaber for overflader](https://help.bsim.dk/support/kb/articles/NmdKazW0/finish-property) der vender imod det fri og tilføjet link til [ny side om Cp-værdierne](https://help.bsim.dk/support/kb/articles/rmklPLQg/vindtrykkoefficient-for-spalter). Tilføjet link til standardværdier for overgangsmodstande længere nede på siden.
+*   Opdateret grafik og tilføjet tekst til: Wind exposure, filtration air flow og wind pressure coefficient på dialogen med [egenskaber for overflader](/09SimView/09_08_Finish_property.html) der vender imod det fri og tilføjet link til [ny side om Cp-værdierne](/24Miscellaneous/24_03_Wind_pressure_coefficient_for_ventilated_cavities.html). Tilføjet link til standardværdier for overgangsmodstande længere nede på siden.
 
-*   Opdateret tabel med[ varmeafgivelser fra personer.](https://help.bsim.dk/support/kb/articles/XQYdjgmP/persons-system)
+*   Opdateret tabel med[ varmeafgivelser fra personer.](/11Systems/11_07_Persons_system.html)
 
-*   Tilføjet information om hvilke virkelige [måneder](https://help.bsim.dk/support/kb/articles/y9q8vgQA/konvertering-af-vejrdata-til-tsbi5) der er i DRY.
+*   Tilføjet information om hvilke virkelige [måneder](/05Introduction/05_04_Weather_data_conversion_to_tsbi5.html) der er i DRY.
 
-*   Tilføjet information om standardplacering for klimadata ved klik på Browse i [Site-property](https://help.bsim.dk/support/kb/articles/dQG2Kom4/site-property).
+*   Tilføjet information om standardplacering for klimadata ved klik på Browse i [Site-property](/09SimView/09_05_Site_property.html).
 
-*   Tilføjet definition af placering af [sidefinner](https://help.bsim.dk/support/kb/articles/ZmNrw7m2/udh-ng-og-sidefinner) ved WinDoor.
+*   Tilføjet definition af placering af [sidefinner](/09SimView/09_14_Overhangs_and_sidefins.html) ved WinDoor.
 
-*   [Resultatsammenligning](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5-parameters): Tilføjet advarsel om lange modelnavne ved sammenligning af resultater.
+*   [Resultatsammenligning](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html): Tilføjet advarsel om lange modelnavne ved sammenligning af resultater.
 
-*   [Begrænsninger](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begr-nsninger): Tilføjet advarsel om lange modelnavne ved sammenligning af resultater.
+*   [Begrænsninger](/24Miscellaneous/24_01_Limitations.html): Tilføjet advarsel om lange modelnavne ved sammenligning af resultater.
 
-*   [Site](https://help.bsim.dk/support/kb/articles/dQG2Kom4/site-property): Tilføjet information om åbning af dialogen.
+*   [Site](/09SimView/09_05_Site_property.html): Tilføjet information om åbning af dialogen.
 
-*   [Ground](https://help.bsim.dk/support/kb/articles/OW4NqGQg/jord-ground-): Tilføjet information om åbning af dialogen.
+*   [Ground](/09SimView/09_06_Ground.html): Tilføjet information om åbning af dialogen.
 
-*   [Recirkulation](https://help.bsim.dk/support/kb/articles/dQG2VDm4/recirkulation): Opdateret tekst til recirkulation.
+*   [Recirkulation](/11Systems/11_12_Recirculation_ventilation.html): Opdateret tekst til recirkulation.
 
-*   [Systemer](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview-systemer): Tilføjet recirkulationsregulering af ventilationsluft.
+*   [Systemer](/11Systems/11_01_Systems.html): Tilføjet recirkulationsregulering af ventilationsluft.
 
 ###   
 **5,6,8,21** 
 
-*   [tsbi5\tsbi5_nvoptions_page.htm](https://help.bsim.dk/support/kb/articles/nmDB8R9y/tsbi5-natural-ventilation-options) & [system\natural_ventilation.htm](https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system) & [simview\nat_vent.htm:](https://help.bsim.dk/support/kb/articles/gWKD4lmp/naturlig-ventilation) Link til ny side med information om hvordan Cd og Ka bestemmes samt disclaimer om mzm i beta-test.
+*   [tsbi5\tsbi5_nvoptions_page.htm](/13tsbi5_thermal_simulation/13_07_tsbi5_Natural_ventilation_options.html) & [system\natural_ventilation.htm](/11Systems/11_11_Natural_ventilation_system.html) & [simview\nat_vent.htm:](/11Systems/11_11_Natural_ventilation_system.html) Link til ny side med information om hvordan Cd og Ka bestemmes samt disclaimer om mzm i beta-test.
 
-*   [theory\mzm_cd_ka.htm:](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) Ny side med information om Ka fra Danvak grundbogen og om bestemmelse af Cd fra SBi anvisning 202, side 70-71. Desuden disclaimer om mzm i beta-test.
+*   [theory\mzm_cd_ka.htm:](/11Systems/11_13_Parameters_for_natural_ventilation.html) Ny side med information om Ka fra Danvak grundbogen og om bestemmelse af Cd fra SBi anvisning 202, side 70-71. Desuden disclaimer om mzm i beta-test.
 
 ###   
 **5,6,8,4** 
 
-*   [simview\simview_print_model.htm:](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview-udskrift-af-model) Tilføjet link til side med fejlmeddelelser.
+*   [simview\simview_print_model.htm:](/09SimView/09_06_ModelList.html) Tilføjet link til side med fejlmeddelelser.
 
-*   [ErrorMsg.htm:](https://help.bsim.dk/support/kb/articles/7maw6j9E/fejlmeddelelser) Ny side med samling af fejlmeddelelser, primært fra ModelList.
+*   [ErrorMsg.htm:](/24Miscellaneous/24_05_Error_messages.html) Ny side med samling af fejlmeddelelser, primært fra ModelList.
 
-*   [limitations.htm:](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begr-nsninger) Tilføjet tekst om oprettelse af nye materialer.
+*   [limitations.htm:](/24Miscellaneous/24_01_Limitations.html) Tilføjet tekst om oprettelse af nye materialer.
 
-*   [SimDb\simdb-bm-moist.htm:](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb-buildingmaterial-moisture) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
+*   [SimDb\simdb-bm-moist.htm:](/07SimDB_Database/07_06_Building_material_Moisture.html) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
 
-*   [SimDb\simdb-bm-thermal.htm:](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb-buildingmaterial-thermal) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
+*   [SimDb\simdb-bm-thermal.htm:](/07SimDB_Database/07_07_Building_material_Thermal.html) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
 
 ###   
 **5,6,6,30** 
 
-*   [SimDb\simdb-be-contructionlayer.htm](https://help.bsim.dk/support/kb/articles/OW4NdAQg/simdb-buildingelement-constructionlayer): Tilføjet reference til nedhængt loft.
+*   [SimDb\simdb-be-contructionlayer.htm](/07SimDB_Database/07_03_Building_element_construction_layer.html): Tilføjet reference til nedhængt loft.
 
-*   [tsbi5\climate.htm:](https://help.bsim.dk/support/kb/articles/y9q8vgQA/konvertering-af-vejrdata-til-tsbi5) Tilføjet enheder og tilladte værdier for input til konvertering af klimadata.
+*   [tsbi5\climate.htm:](/13tsbi5_thermal_simulation/13_07_Climate_data_conversion.html) Tilføjet enheder og tilladte værdier for input til konvertering af klimadata.
 
-*   [theory\theory_solar_and_daylight.htm:](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys) Tilføjet referencer til modeller for solstråling og navnet på den beskrevne model <span id="red_text"> (mangler to referencer). </span> <!-- XXX -->
+*   [theory\theory_solar_and_daylight.htm:](/20The_Mathematical_Basis/20_11_Solar_and_daylight_algorithms.html) Tilføjet referencer til modeller for solstråling og navnet på den beskrevne model <span id="red_text"> (mangler to referencer). </span> <!-- XXX -->
 
-*   [limitations.htm:](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begr-nsninger) Korrigeret tekst med begrænsninger til solfordeling med XSun.
+*   [limitations.htm:](/24Miscellaneous/24_01_Limitations.html) Korrigeret tekst med begrænsninger til solfordeling med XSun.
 
-*   [tsbi5/tsbi5_tables.htm:](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5-tables) Tilføjet information om eksport af timedata til *.txt fil.
+*   [tsbi5/tsbi5_tables.htm:](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) Tilføjet information om eksport af timedata til *.txt fil.
 
-*   [systems/light_daylightcontrol.htm:](https://help.bsim.dk/support/kb/articles/zWZAql9p/belysning-daylight-control) Slettet dobbelt tekstafsnit.
+*   [systems/light_daylightcontrol.htm:](/11Systems/11_28_Lighting_Daylight_control.html) Slettet dobbelt tekstafsnit.
 
 ###   
 **5,6,3,8** 
 
-*   [tsbi5/tsbi5_options_page.htm:](https://help.bsim.dk/support/kb/articles/EWBOvOmr/tsbi5-general-options) Opdateret tekst og tilføjet link til regulering af mzm.
+*   [tsbi5/tsbi5_options_page.htm:](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) Opdateret tekst og tilføjet link til regulering af mzm.
 
-*   [litteratur.htm:](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) Tilføjet Jensen R.L. thesis om mzm samt diverse link med relation til mzm.
+*   [litteratur.htm:](/23Internet/23_01_Literature.html) Tilføjet Jensen R.L. thesis om mzm samt diverse link med relation til mzm.
 
-*   [simview\menu_edit.htm:](https://help.bsim.dk/support/kb/articles/y9q8jqQA/edit) Rettet link til side med generelle options for tsbi5.
+*   [simview\menu_edit.htm:](/09SimView/09_05_Edit_menu.html) Rettet link til side med generelle options for tsbi5.
 
-*   [tsbi5\tsbi5_options.htm:](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5-options) Tilføjet information om anvendelse af mzm.
+*   [tsbi5\tsbi5_options.htm:](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) Tilføjet information om anvendelse af mzm.
 
-*   [systms\natural_ventilation.htm:](https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system) Tilføjet reference til mzm for simulering af multi-zone naturlig ventilation. Opdateret tekst så både ezm og mzm behandles.
+*   [systms\natural_ventilation.htm:](/11Systems/11_01_Natural_ventilation_system.html) Tilføjet reference til mzm for simulering af multi-zone naturlig ventilation. Opdateret tekst så både ezm og mzm behandles.
 
-*   [simlight\simlight_punkt.htm:](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt) Opdateret grafik og tilføjet midlertidig beskrivelse af Daylighting under Transfer SF.
+*   [simlight\simlight_punkt.htm:](/15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html) Opdateret grafik og tilføjet midlertidig beskrivelse af Daylighting under Transfer SF.
 
-*   [systems\systems_venting.htm:](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) Tilføjet reference til mzm for simulering af multi-zone naturlig ventilation.
+*   [systems\systems_venting.htm:](/11Systems/11_07_Venting_system.html) Tilføjet reference til mzm for simulering af multi-zone naturlig ventilation.
 
-*   [systems\systems_ventilation.htm:](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation-system) Opdateret grafik og link til recirkulation.
+*   [systems\systems_ventilation.htm:](/11Systems/11_04_Ventilation_systems.html) Opdateret grafik og link til recirkulation.
 
-*   [systems\vavregulering.htm:](https://help.bsim.dk/support/kb/articles/j9b8kamn/vav-regulering-ventilation) Opdateret grafik og link til recirkulation.
+*   [systems\vavregulering.htm:](/11Systems/11_24_VAV_control_ventilation.html) Opdateret grafik og link til recirkulation.
 
-*   [systems\fugtregulering.htm:](https://help.bsim.dk/support/kb/articles/E9LwjGQw/fugtregulering-ventilation) Opdateret grafik og link til recirkulation.
+*   [systems\fugtregulering.htm:](/11Systems/11_23_Moisture_control_ventilation.html) Opdateret grafik og link til recirkulation.
 
-*   [systems\rumtemperaturregulering.htm:](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/rumtemperaturregulering-ventilation) Opdateret grafik og link til recirkulation.
+*   [systems\rumtemperaturregulering.htm:](/11Systems/11_22_Zone_temperature_control_ventilation.html) Opdateret grafik og link til recirkulation.
 
-*   [systems\indblæsningsstyring.htm:](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/indbl-sningsstyring-ventilation) Opdateret grafik og link til recirkulation.
+*   [systems\indblæsningsstyring.htm:](/11Systems/11_21_Inlet_control_ventilation.html) Opdateret grafik og link til recirkulation.
 
-*   [systems\natkøling.htm](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/natk-ling-ventilation): Opdateret grafik og link til recirkulation.
+*   [systems\natkøling.htm](/11Systems/11_25_Night_cooling_ventilation.html): Opdateret grafik og link til recirkulation.
 
-*   [theory\mzm.htm:](https://help.bsim.dk/support/kb/articles/VmAOXP9a/multizone-modellen) Startside for teori for mzm - multizone model for naturlig ventilation.
+*   [theory\mzm.htm:](/20The_Mathematical_Basis/20_25_Multizone_model.html) Startside for teori for mzm - multizone model for naturlig ventilation.
 
-*   [theory\mzm_luftudveksling.htm:](https://help.bsim.dk/support/kb/articles/gWKDvkmp/systemer-til-luftudveksling) Ny side med luftudvekslingsteori for mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+*   [theory\mzm_luftudveksling.htm:](/20The_Mathematical_Basis/20_26_Air_exchange_systems.html) Ny side med luftudvekslingsteori for mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
 
-*   [theory\mzm_implementering.htm:](https://help.bsim.dk/support/kb/articles/z9MKwym4/implementering-af-mzm) Ny side om implementering af mzm i BSim. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+*   [theory\mzm_implementering.htm:](/20The_Mathematical_Basis/20_27_Multizone_model_implementation.html) Ny side om implementering af mzm i BSim. Opdateret mhp brug som teorigrundlag i hjælpetekst.
 
-*   [theory\mzm_regulering.htm:](https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen) Ny side om regulering af mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+*   [theory\mzm_regulering.htm:](/20The_Mathematical_Basis/20_28_Multizone_model_control.html) Ny side om regulering af mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
 
 ###   
 **5,6,2,6** 
 
-*   [tsbi5\par-list.htm:](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) Tilføjet information om valg af resultater på tsbi5/Options.
+*   [tsbi5\par-list.htm:](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) Tilføjet information om valg af resultater på tsbi5/Options.
 
-*   [systems\recirculation_ctrl.htm:](https://help.bsim.dk/support/kb/articles/LmJvMEmP/recirkulation-ventilation) Ny side med beskrivelse af regulering af recirkuleret ventilationsluft.
+*   [systems\recirculation_ctrl.htm:](/11Systems/11_12_Recirculation_ventilation.html) Ny side med beskrivelse af regulering af recirkuleret ventilationsluft.
 
-*   [theory\recirculation.htm:](https://help.bsim.dk/support/kb/articles/dQG2VDm4/recirkulation) Ny side om opbygning af recirkulation for ventilationsanlæg.
+*   [theory\recirculation.htm:](/20The_Mathematical_Basis/20_24_Recirculation.html) Ny side om opbygning af recirkulation for ventilationsanlæg.
 
-*   [systems\systems_persons.htm:](https://help.bsim.dk/support/kb/articles/XQYdjgmP/persons-system) Tilføjet konvektiv/stråling fordelingsnøgle.
+*   [systems\systems_persons.htm:](/11Systems/11_30_Persons_system.html) Tilføjet konvektiv/stråling fordelingsnøgle.
 
-*   [systems\systems_lighting.htm:](https://help.bsim.dk/support/kb/articles/wQXxbnQK/lighting-system) Tilføjet konvektiv/stråling fordelingsnøgle.
+*   [systems\systems_lighting.htm:](/11Systems/11_29_Lighting_system.html) Tilføjet konvektiv/stråling fordelingsnøgle.
 
-*   [filtypes.htm:](https://help.bsim.dk/support/kb/articles/yWogqxWD/filtyper) Tilføjet information om indførelse af ny filtype for BSim databaser (*.disdb) pga. restriktioner for sikkerheden over for transport af Access databaser (*.mdb) i flere mail systemer.
+*   [filtypes.htm:](/24Miscellaneous/24_03_File_types.html) Tilføjet information om indførelse af ny filtype for BSim databaser (*.disdb) pga. restriktioner for sikkerheden over for transport af Access databaser (*.mdb) i flere mail systemer.
 
-*   [tsbi5\heat_balance_parametres.htm:](https://help.bsim.dk/support/kb/articles/4966dA9X/parametre-i-varmebalancen) Tilføjet enheder til beskrivelsen af parametre i varmebalancen.
+*   [tsbi5\heat_balance_parametres.htm:](/13tsbi5_thermal_simulation/13_06_Parameters_in_heat_balance.html) Tilføjet enheder til beskrivelsen af parametre i varmebalancen.
 
 ###   
 **5,5,12,19** 
 
 *   applications\bv98.htm: Tilføjet info om ophør af brug af Bv98 og refererer i stedet til Be06.
 
-*   [litteratur.htm:](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) Tilføjet Danvak Grundbogen.
+*   [litteratur.htm:](/23Internet/23_01_Literature.html) Tilføjet Danvak Grundbogen.
 
-*   [tsbi5\tsbi5_nvoptons_page.htm:](https://help.bsim.dk/support/kb/articles/nmDB8R9y/tsbi5-natural-ventilation-options) Opdateret grafik og tilføjet information til inddatafelterne.
+*   [tsbi5\tsbi5_nvoptons_page.htm:](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) Opdateret grafik og tilføjet information til inddatafelterne.
 
-*   [SimView\building_property.htm](https://help.bsim.dk/support/kb/articles/XQYde4mP/building-property): Opdateret grafik og tilføjet beskrivelse af Height.
+*   [SimView\building_property.htm](/09SimView/09_03_Building_property.html): Opdateret grafik og tilføjet beskrivelse af Height.
 
-*   [defaults.htm:](https://help.bsim.dk/support/kb/articles/L9Pw7rQJ/standardv-rdier) Opdateret beskrivelse af overgangsisolanser jf. DS418.
+*   [defaults.htm:](/09SimView/09_04_SimView_menu_Defaults.html) Opdateret beskrivelse af overgangsisolanser jf. DS418.
 
-*   [SimView\finish_property.htm:](https://help.bsim.dk/support/kb/articles/NmdKazW0/finish-property) Opdateret tabel med overgangsisolans jf. DS418.
+*   [SimView\finish_property.htm:](/09SimView/09_08_Finish_property.html) Opdateret tabel med overgangsisolans jf. DS418.
 
-*   [examples\tutorial1.htm:](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indl-ringseksempler) Rettet tekst omkring overgangsisolanser.
+*   [examples\tutorial1.htm:](/21Getting_started_with_BSim/21_01_Introductory_example.html) Rettet tekst omkring overgangsisolanser.
 
-*   [help\menu_help.htm:](https://help.bsim.dk/support/kb/articles/7mawv19E/help) Udskiftet grafik og rettet mindre tekst-fejl.
+*   [help\menu_help.htm:](/23Internet/23_03_Help_menu.html) Udskiftet grafik og rettet mindre tekst-fejl.
 
-*   [help\tilmelding_debatforum.htm:](https://help.bsim.dk/support/kb/articles/49664d9X/tilmelding-til-debatforum) Udskiftet links til BSim's web-sider.
+*   [help\tilmelding_debatforum.htm:](/23Internet/23_02_Joining_BSim_forum.html) Udskiftet links til BSim's web-sider.
 
-*   [tsbi5\heat_balance_parametres.htm:](https://help.bsim.dk/support/kb/articles/4966dA9X/parametre-i-varmebalancen) Korrigeret beskrivelse af temperaturgrænser.
+*   [tsbi5\heat_balance_parametres.htm:](/13tsbi5_thermal_simulation/13_06_Parameters_in_heat_balance.html) Korrigeret beskrivelse af temperaturgrænser.
 
-*   [simlight\simlight_plan.htm:](https://help.bsim.dk/support/kb/articles/L9nrPG9Z/simlight-dagslysberegning-i-et-plan) Opdateret beregningsforudsætninger.
+*   [simlight\simlight_plan.htm:](/15SimLight_Daylight_calculations/15_03_Daylight_calculation_in_a_plane.html) Opdateret beregningsforudsætninger.
 
-*   [theory\theory_longwave_exterior.htm:](https://help.bsim.dk/support/kb/articles/pWrn03Wn/calculation-of-long-wave-radiation-to-the-sky) Opdateret side med teori for langbølget strålingsudveksling mellem udvendige overflader og himlen.
+*   [theory\theory_longwave_exterior.htm:](/20The_Mathematical_Basis/20_21_Long_wave_radiation_to_sky.html) Opdateret side med teori for langbølget strålingsudveksling mellem udvendige overflader og himlen.
 
-*   [theory\theory_longwave_surfaces.htm:](https://help.bsim.dk/support/kb/articles/E9LwqvQw/on-the-form-factor-between-two-polygons) Opdateret side med teori for langbølget strålingsudveksling mellem indvendige overflader.
+*   [theory\theory_longwave_surfaces.htm:](/20The_Mathematical_Basis/20_22_Form_factor_between_surfaces.html) Opdateret side med teori for langbølget strålingsudveksling mellem indvendige overflader.
 
-*   [tsbi5\par-list.htm:](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) qCon beregnes ikke for overflader der vender mod det fri. Tilføjet definition af RSurf og SensorTmp.
+*   [tsbi5\par-list.htm:](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) qCon beregnes ikke for overflader der vender mod det fri. Tilføjet definition af RSurf og SensorTmp.
 
-*   [systems\systems_mixing.htm:](https://help.bsim.dk/support/kb/articles/Rm8JEd94/mixing-system) Tilføjet note om mixing fra fiktive zoner.
+*   [systems\systems_mixing.htm:](/11Systems/11_31_Mixing_system.html) Tilføjet note om mixing fra fiktive zoner.
 
-*   [systems\systems_heating.htm:](https://help.bsim.dk/support/kb/articles/wmjnq7mV/heating-system) Tilføjet bemærkning om negativ værdi af Max Power.
+*   [systems\systems_heating.htm:](/11Systems/11_02_Heating_system.html) Tilføjet bemærkning om negativ værdi af Max Power.
 
-*   [systems\floor_heat_ctrl.htm:](https://help.bsim.dk/support/kb/articles/L9nr6e9Z/gulvvarmeregulering) Tilføjet tekst i fm. konstruktiv køling.
+*   [systems\floor_heat_ctrl.htm:](/11Systems/11_10_Floor_heating_cooling_control.html) Tilføjet tekst i fm. konstruktiv køling.
 
-*   [systems\fugtregulering.htm:](https://help.bsim.dk/support/kb/articles/E9LwjGQw/fugtregulering-ventilation) Slettet tre-dobbelt tekst.
+*   [systems\fugtregulering.htm:](/11Systems/11_23_Moisture_control_ventilation.html) Slettet tre-dobbelt tekst.
 
-*   [systems\natkøling.htm:](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/natk-ling-ventilation) Tilføjet tekst vedr. Fans for Active components. Opdateret grafik.
+*   [systems\natkøling.htm:](/11Systems/11_25_Night_cooling_ventilation.html) Tilføjet tekst vedr. Fans for Active components. Opdateret grafik.
 
 ###   
 **5,5,5,17** 
 
-*   [tsbi5\risk_of_condensation.htm:](https://help.bsim.dk/support/kb/articles/dQG2aem4/kondensrisiko) Ny side, forklarer hvordan CondRisk beregnes.
+*   [tsbi5\risk_of_condensation.htm:](/13tsbi5_thermal_simulation/13_11_Condensation_risk.html) Ny side, forklarer hvordan CondRisk beregnes.
 
-*   [tsbi5\par-list.htm:](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) Tilføjet CondRisc1, CondRisc2, VentOfrac og SurfTmp2 til beskrivelsen af resultatlisten for vinduer samt CondRisc1 og CondRisc2, til resultatlisten for konstruktioner.
+*   [tsbi5\par-list.htm:](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) Tilføjet CondRisc1, CondRisc2, VentOfrac og SurfTmp2 til beskrivelsen af resultatlisten for vinduer samt CondRisc1 og CondRisc2, til resultatlisten for konstruktioner.
 
-*   [systems\natural_ventilation.htm:](https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system) Åbninger - erstattet grafik for openings og tilføjet tekst om Ka.
+*   [systems\natural_ventilation.htm:](/11Systems/11_01_Natural_ventilation_system.html) Åbninger - erstattet grafik for openings og tilføjet tekst om Ka.
 
-*   [systems\venting_ctrl.htm](https://help.bsim.dk/support/kb/articles/OW4NDGQg/udluftningskontrol): Revideret grafik. Tilføjet ligning som grafik.
+*   [systems\venting_ctrl.htm](/11Systems/11_08_Venting_control.html): Revideret grafik. Tilføjet ligning som grafik.
 
 ###   
 **5,5,5,4** 
 
-*   [tsbi5\grafik.htm:](https://help.bsim.dk/support/kb/articles/aWxnxAQV/-ndring-af-den-grafiske-afbildning-af-resultater) Udskiftet grafik, korrigeret link og revideret tekst i henhold til ny højre-klik menu.
+*   [tsbi5\grafik.htm:](/13tsbi5_thermal_simulation/13_12_Graphics.html) Udskiftet grafik, korrigeret link og revideret tekst i henhold til ny højre-klik menu.
 
-*   [limitations.htm:](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begr-nsninger) Tilføjet beskrivelse om brug af lambda-værdi afhængig af "Moisture Transport" på "tsbi5 | Options".
+*   [limitations.htm:](/24Miscellaneous/24_01_Limitations.html) Tilføjet beskrivelse om brug af lambda-værdi afhængig af "Moisture Transport" på "tsbi5 | Options".
 
-*   [simdb\simdb-bm-thermal.htm:](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb-buildingmaterial-thermal) Tilføjet info. om hvilken værdi af lambda der benyttes med hvilke options under tsbi5.
+*   [simdb\simdb-bm-thermal.htm:](/07SimDB_Database/07_04_Building_material_thermal.html) Tilføjet info. om hvilken værdi af lambda der benyttes med hvilke options under tsbi5.
 
-*   [simdb\simdb-bm-moist.htm:](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb-buildingmaterial-moisture) Tilføjet info. om hvilken værdi af lambda der benyttes med hvilke options under tsbi5.
+*   [simdb\simdb-bm-moist.htm:](/07SimDB_Database/07_06_Building_material_moisture.html) Tilføjet info. om hvilken værdi af lambda der benyttes med hvilke options under tsbi5.
 
-*   [tsbi5\ASHRAE.htm:](https://help.bsim.dk/support/kb/articles/dQG2XEm4/energy-ashrae-klimadata) Nu +800 tilgængelige klimafiler via EnergyPlus.
+*   [tsbi5\ASHRAE.htm:](/13tsbi5_thermal_simulation/13_08_Climate_data.html) Nu +800 tilgængelige klimafiler via EnergyPlus.
 
-*   [systems\systems_lighting.htm:](https://help.bsim.dk/support/kb/articles/wQXxbnQK/lighting-system) Tilføjet formler for effektafgivelse for forskellige belysningstyper.
+*   [systems\systems_lighting.htm:](/11Systems/11_29_Lighting_system.html) Tilføjet formler for effektafgivelse for forskellige belysningstyper.
 
 *   hjælp: Flyttet Litteratur til øverste niveau i træet. Udskiftet de sidste "by-og-byg" med "sbi".
 
 ###   
 **5,5,4,8** 
 
-*   [tsbi5\tsbi5_simulation.htm:](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5-simulation) Tilføjet tekst om farvekodning på grafer under simuleringen. Udskiftet skærm klip.
+*   [tsbi5\tsbi5_simulation.htm:](/13tsbi5_thermal_simulation/13_03_tsbi5_Simulation.html) Tilføjet tekst om farvekodning på grafer under simuleringen. Udskiftet skærm klip.
 
-*   [simview\site_property.htm:](https://help.bsim.dk/support/kb/articles/dQG2Kom4/site-property) Tilføjet information om Elevation og nyt info. felt for de valgte klimadata. Udskiftet skærmklip.
+*   [simview\site_property.htm:](/09SimView/09_05_Site_property.html) Tilføjet information om Elevation og nyt info. felt for de valgte klimadata. Udskiftet skærmklip.
 
-*   [systems\systems_persons.htm:](https://help.bsim.dk/support/kb/articles/XQYdjgmP/persons-system) Tilføjet tekst til informationsfelt om samlet CO2 afgivelse fra personerne i en termisk zone. Udskiftet skærmklip.
+*   [systems\systems_persons.htm:](/11Systems/11_30_Persons_system.html) Tilføjet tekst til informationsfelt om samlet CO2 afgivelse fra personerne i en termisk zone. Udskiftet skærmklip.
 
-*   [simview\standard_klimadata.htm](https://help.bsim.dk/support/kb/articles/wmjnpKmV/standard-klimadata): Ny side om forskellene mellem de klimadata som gennem tiden er leveret med BSim.
+*   [simview\standard_klimadata.htm](/09SimView/09_06_Standard_climate_data.html): Ny side om forskellene mellem de klimadata som gennem tiden er leveret med BSim.
 
-*   [simview\simview-climate.htm:](https://help.bsim.dk/support/kb/articles/vWyP8M9b/klimadata) Tilføjet tekst om info. felt for klimadata. Tilføjet beskrivelse af Elevation. Tilføjet link til ny side om forskelle i klimadata leveret med BSim.
+*   [simview\simview-climate.htm:](/09SimView/09_07_Climate_data.html) Tilføjet tekst om info. felt for klimadata. Tilføjet beskrivelse af Elevation. Tilføjet link til ny side om forskelle i klimadata leveret med BSim.
 
-*   [litteratur.htm:](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) Opdateret reference til DS418. Tilføjet reference til DRY.
+*   [litteratur.htm:](/23Internet/23_01_Literature.html) Opdateret reference til DS418. Tilføjet reference til DRY.
 
-*   [simdb\simbd-be-windoor.htm](https://help.bsim.dk/support/kb/articles/49EdNJQ7/materialelag-for-windoor): Opdateret tabel med linjetab i henhold til rev. DS418.
+*   [simdb\simbd-be-windoor.htm](/07SimDB_Database/07_02_Material_layer_for_windoor.html): Opdateret tabel med linjetab i henhold til rev. DS418.
 
-*   [systems\natural_ventilation.htm](https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system): Tilføjet info. om at klimadata skal indeholde data for vindretningen for simulering af naturlig ventilation.
+*   [systems\natural_ventilation.htm](/11Systems/11_01_Natural_ventilation_system.html): Tilføjet info. om at klimadata skal indeholde data for vindretningen for simulering af naturlig ventilation.
 
-*   [tsbi5\row.htm:](https://help.bsim.dk/support/kb/articles/dQG2Dkm4/klimadata-definition) Tilføjet tekst for brug af lufttryk som inddata.
+*   [tsbi5\row.htm:](/13tsbi5_thermal_simulation/13_07_Climate_data_definition.html) Tilføjet tekst for brug af lufttryk som inddata.
 
-*   [tsbi5\climate.htm](https://help.bsim.dk/support/kb/articles/y9q8vgQA/konvertering-af-vejrdata-til-tsbi5): Tilføjet info. om brug af lufttrykket.
+*   [tsbi5\climate.htm](/13tsbi5_thermal_simulation/13_07_Climate_data_conversion.html): Tilføjet info. om brug af lufttrykket.
 
-*   [limitations.htm:](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begr-nsninger) Tilføjet tekst ombegrænsninger i forbindelse med tidskridt i simuleringer med tsbi5.
+*   [limitations.htm:](/24Miscellaneous/24_01_Limitations.html) Tilføjet tekst ombegrænsninger i forbindelse med tidskridt i simuleringer med tsbi5.
 
-*   [tsbi5\tsbi5_options.htm](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5-options): Tilføjet ekstra opmærksomhed på valg af det rette antal tidskridt.
+*   [tsbi5\tsbi5_options.htm](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html): Tilføjet ekstra opmærksomhed på valg af det rette antal tidskridt.
 
-*   [systems\vavregulering.htm:](https://help.bsim.dk/support/kb/articles/j9b8kamn/vav-regulering-ventilation) Tilføjet note om at VAV max. factor skal være større end 1. Tilføjet hot-spots til grafik.
+*   [systems\vavregulering.htm:](/11Systems/11_24_VAV_control_ventilation.html) Tilføjet note om at VAV max. factor skal være større end 1. Tilføjet hot-spots til grafik.
 
-*   [tsbi5\par_list.htm:](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) Entydig definition af GrossSun og NetSun.
+*   [tsbi5\par_list.htm:](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) Entydig definition af GrossSun og NetSun.
 
-*   [systems\daylight_control.htm](https://help.bsim.dk/support/kb/articles/zWZAql9p/belysning-daylight-control): Slettet gentagen tekst.
+*   [systems\daylight_control.htm](/11Systems/11_28_Lighting_Daylight_control.html): Slettet gentagen tekst.
 
-*   [tsbi5\tsbi5_parametres.htm:](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5-parameters) Tilføjet tekst om valg af parametre og flyttet vigtig tekst ind i grå box.
+*   [tsbi5\tsbi5_parametres.htm:](/13tsbi5_thermal_simulation/13_01_tsbi5_Main_page.html) Tilføjet tekst om valg af parametre og flyttet vigtig tekst ind i grå box.
 
-*   [simdxf\cad.htm:](https://help.bsim.dk/support/kb/articles/jW7oNkWq/cad-tegninger-som-grundlag-for-geometri) Tilføjet link til ny side About SimDXF.
+*   [simdxf\cad.htm:](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings.html) Tilføjet link til ny side About SimDXF.
 
-*   [simlight\simlight_punkt.htm:](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt) Tilføjet link til ny side About SimLight.
+*   [simlight\simlight_punkt.htm:](/15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html) Tilføjet link til ny side About SimLight.
 
-*   [simdb\simdb-be0.htm:](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb-buildingelement) Tilføjet link til About SimDb og fjernet overflødig tekst i bunden af siden.
+*   [simdb\simdb-be0.htm:](/07SimDB_Database/07_01_Building_material.html) Tilføjet link til About SimDb og fjernet overflødig tekst i bunden af siden.
 
-*   [simdb\about_simdb.htm:](https://help.bsim.dk/support/kb/articles/E9LwBMQw/about-simdb) Opdateret grafik.
+*   [simdb\about_simdb.htm:](/07SimDB_Database/07_00_About_SimDB.html) Opdateret grafik.
 
-*   [simview\nat_vent.htm:](https://help.bsim.dk/support/kb/articles/gWKD4lmp/naturlig-ventilation) Ændret beskrivelse af Cnt.
+*   [simview\nat_vent.htm:](/09SimView/09_14_Natural_ventilation.html) Ændret beskrivelse af Cnt.
 
-*   [systems\light_ctrl.htm:](https://help.bsim.dk/support/kb/articles/j9b8aMmn/belysning-light-control) Fjernet dobbelt tekst og revideret link til andre sider. Ændret Sun Limit til Lower Limit.
+*   [systems\light_ctrl.htm:](/11Systems/11_27_Lighting_control.html) Fjernet dobbelt tekst og revideret link til andre sider. Ændret Sun Limit til Lower Limit.
 
-*   [systems\systems_lighting.htm:](https://help.bsim.dk/support/kb/articles/wQXxbnQK/lighting-system) Tilføjet hot-spots i grafik.
+*   [systems\systems_lighting.htm:](/11Systems/11_29_Lighting_system.html) Tilføjet hot-spots i grafik.
 
 ###   
 **5,5,1,7**
 
-*   [tsbi5\climate.htm:](https://help.bsim.dk/support/kb/articles/y9q8vgQA/konvertering-af-vejrdata-til-tsbi5) Tilføjet info om rækkefølge af data for klimakonvertering.
+*   [tsbi5\climate.htm:](/13tsbi5_thermal_simulation/13_07_Climate_data_conversion.html) Tilføjet info om rækkefølge af data for klimakonvertering.
 
-*   [SimDb\simdb-bm-finish.htm:](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb-buildingmaterial-finish) Tilføjet information om standardværdier for reflektionen fra gulve, lofter, vægge, glas og ude i SimLight.
+*   [SimDb\simdb-bm-finish.htm:](/07SimDB_Database/07_05_Building_material_Finish.html) Tilføjet information om standardværdier for reflektionen fra gulve, lofter, vægge, glas og ude i SimLight.
 
-*   [systems\floor_heat_ctrl.htm](https://help.bsim.dk/support/kb/articles/L9nr6e9Z/gulvvarmeregulering): Skiftet baggrundsfarve til gul og tilføjet beskrivelse af qHeat som resultat fra gulvvarme.
+*   [systems\floor_heat_ctrl.htm](/11Systems/11_10_Floor_heating_cooling_control.html): Skiftet baggrundsfarve til gul og tilføjet beskrivelse af qHeat som resultat fra gulvvarme.
 
-*   [systems\fan_coil_ctrl.htm:](https://help.bsim.dk/support/kb/articles/OW4NbMQg/fan-coil-regulering) Rettet Qz til Qi og udbygget forklaring af hvorfor qCooling kan overskride den umiddelbart beregnelige max-værdi.
+*   [systems\fan_coil_ctrl.htm:](/11Systems/11_09_Fan_Coil_control.html) Rettet Qz til Qi og udbygget forklaring af hvorfor qCooling kan overskride den umiddelbart beregnelige max-værdi.
 
 ###   
 **5,4,11,10** 
 
-*   [systems\venting_ctrl.htm:](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) Tilføjet advarsel om ikke at sætte CO2 set-punkt og CO2 indhold i udeluft for tæt og hvilke bidrag af udeluft der benyttes til regulering efter et ønsket CO2 niveau.
+*   [systems\venting_ctrl.htm:](/11Systems/11_07_Venting_system.html) Tilføjet advarsel om ikke at sætte CO2 set-punkt og CO2 indhold i udeluft for tæt og hvilke bidrag af udeluft der benyttes til regulering efter et ønsket CO2 niveau.
 
-*   [bsim_history.htm:](https://help.bsim.dk/support/kb/articles/vW5aPgW4/revisioner-af-bsim) Opdateret.
+*   [bsim_history.htm:](/22Revisions/22_01_Revisions_of_BSim.html) Opdateret.
 
-*   [tsbi5\tsbi5_options.htm:](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5-options) Tilføjet link til Edit + Options.
+*   [tsbi5\tsbi5_options.htm:](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) Tilføjet link til Edit + Options.
 
-*   [simview\simview-add_windoor.htm:](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilf-je-bning-eller-windoor) Tilføjet link til Regulation.
+*   [simview\simview-add_windoor.htm:](/09SimView/09_09_Add_window_or_windoor.html) Tilføjet link til Regulation.
 
-*   [systems\systems_windoor.htm:](https://help.bsim.dk/support/kb/articles/BWzdllQE/windoor-systemer) Ny side for systemer tilknyttet Windoors. Flyttet navigation af Shutter og Solar Shading til denne side fra add windoor.
+*   [systems\systems_windoor.htm:](/11Systems/11_32_Windoor_systems.html) Ny side for systemer tilknyttet Windoors. Flyttet navigation af Shutter og Solar Shading til denne side fra add windoor.
 
-*   [simview\windoor_property.htm:](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property) Opdateret grafik. Tilføjet link til Regulation for naturlig ventilation.
+*   [simview\windoor_property.htm:](/09SimView/09_10_WinDoor_property.html) Opdateret grafik. Tilføjet link til Regulation for naturlig ventilation.
 
-*   [tsbi5\tsbi5_nvoptions_page.htm:](https://help.bsim.dk/support/kb/articles/nmDB8R9y/tsbi5-natural-ventilation-options) Ny side med information om fler-zone simulering af naturlig ventilation standard paramentres (under opbygning). Tilføjer navigationen under tsbi5/Options.
+*   [tsbi5\tsbi5_nvoptions_page.htm:](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) Ny side med information om fler-zone simulering af naturlig ventilation standard paramentres (under opbygning). Tilføjer navigationen under tsbi5/Options.
 
-*   [tsbi5\tsbi5_options_page.htm:](https://help.bsim.dk/support/kb/articles/EWBOvOmr/tsbi5-general-options) Omdøbt fra tsbi5/standardparametre.htm og opdelt i to sider (se ovenfor). Tilføjet til navigationen under tsbi5/Options.
+*   [tsbi5\tsbi5_options_page.htm:](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) Omdøbt fra tsbi5/standardparametre.htm og opdelt i to sider (se ovenfor). Tilføjet til navigationen under tsbi5/Options.
 
-*   [simview\finish_property.htm:](https://help.bsim.dk/support/kb/articles/NmdKazW0/finish-property) Ændret visning af grafik.
+*   [simview\finish_property.htm:](/09SimView/09_08_Finish_property.html) Ændret visning af grafik.
 
-*   [systems\systems_moisture.htm:](https://help.bsim.dk/support/kb/articles/xmere5QV/moisture-system) Udskiftet grafik og tilføjet information om fugtafgivelse fra fri en vandoverflade, fx en svømmehal + link til enkel og avanceret fugtmodel. Fjernet matematik og henviser i stedet til teoriafsnittet. Tilføjet info om pt. manglende verifikation af modellerne.
+*   [systems\systems_moisture.htm:](/11Systems/11_29_Moisture_system.html) Udskiftet grafik og tilføjet information om fugtafgivelse fra fri en vandoverflade, fx en svømmehal + link til enkel og avanceret fugtmodel. Fjernet matematik og henviser i stedet til teoriafsnittet. Tilføjet info om pt. manglende verifikation af modellerne.
 
-*   [defaults.htm:](https://help.bsim.dk/support/kb/articles/L9Pw7rQJ/standardv-rdier) Tilføjet siden til navigationsstrukturen.
+*   [defaults.htm:](/09SimView/09_04_SimView_menu_Defaults.html) Tilføjet siden til navigationsstrukturen.
 
-*   [about.htm:](https://help.bsim.dk/support/kb/articles/VmAOk89a/about-bsim) Udskiftet grafik.
+*   [about.htm:](/04Users_guide/04_01_About_BSim.html) Udskiftet grafik.
 
 *   help\cover_chm.htm: Udskiftet grafik.
 
 *   help\cover_html.htm: Udskiftet grafik.
 
-*   [help\læsevejledning.htm:](https://help.bsim.dk/support/kb/articles/B9lwpdQ8/l-sevejledning) Skiftet placering.
+*   [help\læsevejledning.htm:](/04Users_guide/04_02_Reading_guide.html) Skiftet placering.
 
-*   [help\hjælp_knapper.htm:](https://help.bsim.dk/support/kb/articles/7maw4j9E/opbygning-af-hj-lp) Opdateret beskrivelse af hvad der sker når der klikkes på SBi-logo og knappen BSim.dk. Tilføjet information om gule hjælpesider.
+*   [help\hjælp_knapper.htm:](/23Internet/23_04_Help_buttons.html) Opdateret beskrivelse af hvad der sker når der klikkes på SBi-logo og knappen BSim.dk. Tilføjet information om gule hjælpesider.
 
 *   Alle sider:  
 
@@ -590,41 +590,41 @@
 
     *   Udskiftet BSim2002 med BSim og passende tekst.
 
-*   [systems\fan_coil_ctrl.htm:](https://help.bsim.dk/support/kb/articles/OW4NbMQg/fan-coil-regulering) Tilføjet ny side med beskrivelse køleregulering som fan coil.
+*   [systems\fan_coil_ctrl.htm:](/11Systems/11_09_Fan_Coil_control.html) Tilføjet ny side med beskrivelse køleregulering som fan coil.
 
-*   [systems\cool_ctrl.htm:](https://help.bsim.dk/support/kb/articles/jW7oV0Wq/cooling-control) Ny grafik.
+*   [systems\cool_ctrl.htm:](/11Systems/11_06_Cooling_control.html) Ny grafik.
 
-*   [systems\systems_cooling.htm](https://help.bsim.dk/support/kb/articles/y9gBNGQM/cooling-system): Ændret tekst om schedule, ny grafik, link til Max Power.
+*   [systems\systems_cooling.htm](/11Systems/11_03_Cooling_system.html): Ændret tekst om schedule, ny grafik, link til Max Power.
 
-*   [læsevejledning.htm:](https://help.bsim.dk/support/kb/articles/B9lwpdQ8/l-sevejledning) Tilføjet information om gule sider med funktioner som kun findes i BSim version 2002 og fremefter.
+*   [læsevejledning.htm:](/04Users_guide/04_02_Reading_guide.html) Tilføjet information om gule sider med funktioner som kun findes i BSim version 2002 og fremefter.
 
-*   [filtypes.htm:](https://help.bsim.dk/support/kb/articles/yWogqxWD/filtyper) Tilføjet information om BSim2003.mdb.
+*   [filtypes.htm:](/24Miscellaneous/24_03_File_types.html) Tilføjet information om BSim2003.mdb.
 
  
 
 ### **4,4,8,11** 
 
-*   [litteratur.htm:](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) Tilføjet link til artikler i fuld længde på internettet.
+*   [litteratur.htm:](/23Internet/23_01_Literature.html) Tilføjet link til artikler i fuld længde på internettet.
 
-*   [simview\simview_options.htm:](https://help.bsim.dk/support/kb/articles/LmJv8EmP/simview-options) Tilføjet beskrivelse af lokal gemning af undo filer.
+*   [simview\simview_options.htm:](/09SimView/09_16_SimView_options.html) Tilføjet beskrivelse af lokal gemning af undo filer.
 
-*   [simview\simview_toolbar.htm:](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview-v-rkt-jsbj-lken) Tilføjet beskrivelse af "redo" knappen og Model Doc.
+*   [simview\simview_toolbar.htm:](/09SimView/09_01_SimView_toolbar.html) Tilføjet beskrivelse af "redo" knappen og Model Doc.
 
-*   [simview\menu_edit.htm:](https://help.bsim.dk/support/kb/articles/y9q8jqQA/edit) Tilføjet beskrivelse af "Edit + Options" under tsbi5.
+*   [simview\menu_edit.htm:](/09SimView/09_05_Edit_menu.html) Tilføjet beskrivelse af "Edit + Options" under tsbi5.
 
 *   tsbi5\standardparametre.htm: Tilføjet ny side med beskrivelse af standardparametre i tsbi5.
 
-*   [simview\model_doc.htm:](https://help.bsim.dk/support/kb/articles/L9PwV6QJ/model-doc) Ny side med kort intro til model DOC og link til eksempel på udskrift. <span id="red_text"> Skal udbygges! </span> <!-- XXX -->
+*   [simview\model_doc.htm:](/09SimView/09_17_Model_DOC.html) Ny side med kort intro til model DOC og link til eksempel på udskrift. <span id="red_text"> Skal udbygges! </span> <!-- XXX -->
 
 *   help\stikord.htm: Tilføjet "tsbi5 standardværdier" og "model DOC".
 
-*   [tsbi5\tsbi5_parametres.htm:](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5-parameters) Tilføjet info om hvordan timeværdier er gemt (middel værdi eller øjebliksværdi).
+*   [tsbi5\tsbi5_parametres.htm:](/13tsbi5_thermal_simulation/13_01_tsbi5_Main_page.html) Tilføjet info om hvordan timeværdier er gemt (middel værdi eller øjebliksværdi).
 
-*   [tsbi5\par-list.htm:](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) Tilføjet info om hvordan timeværdier er gemt (middel værdi eller øjebliksværdi).
+*   [tsbi5\par-list.htm:](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html) Tilføjet info om hvordan timeværdier er gemt (middel værdi eller øjebliksværdi).
 
 *   hjælp: Ændret link til versionscheck til BSim bibliotek på www.
 
-*   [systems\venting_ctrl.htm:](https://help.bsim.dk/support/kb/articles/OW4NDGQg/udluftningskontrol) Præcisering af reduktion af naturlig ventilation ved brug af parameteren Factor.
+*   [systems\venting_ctrl.htm:](/11Systems/11_07_Venting_system.html) Præcisering af reduktion af naturlig ventilation ved brug af parameteren Factor.
 
 ###   
 **4,4,4,28** 

@@ -115,7 +115,7 @@ Det er ikke alle de i eksemplet beskrevne konstruktioner som findes i standardda
 
 **Tilknytning af nye konstruktioner til modellens database**
 
-Af [bygningsbeskrivelsen](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler) fremgår det, at vægkonstruktionen indefra består af letbeton, isolering samt tegl. Denne konstruktionstype findes ikke i standardbiblioteket, men der findes en type, hvor blot ét af lagene skal ændres. I dette tilfælde trækkes markøren ned til typen med navnet 'Br 39I100 Br', som er en dobbelt teglvæg med 100 mm isolering i hulrummet. Konstruktionstypen, der er brug for, består imidlertid indvendig af letbeton i stedet for tegl, og det er derfor nødvendigt at ændre på lagdelingen.
+Af [bygningsbeskrivelsen](/21Getting_started_with_BSim/21_01_Example_description.html) fremgår det, at vægkonstruktionen indefra består af letbeton, isolering samt tegl. Denne konstruktionstype findes ikke i standardbiblioteket, men der findes en type, hvor blot ét af lagene skal ændres. I dette tilfælde trækkes markøren ned til typen med navnet 'Br 39I100 Br', som er en dobbelt teglvæg med 100 mm isolering i hulrummet. Konstruktionstypen, der er brug for, består imidlertid indvendig af letbeton i stedet for tegl, og det er derfor nødvendigt at ændre på lagdelingen.
 
  
 
@@ -129,7 +129,7 @@ Det anbefales at der laves en kopi af det element, som ønskes ændret, i dette 
 </figure>
 
 
-Når det nye bygningselement har fået et [SfB-nummer](https://bsim.outseta.com/support/kb/articles/DQ2xwBWV/sfb-i-bsim) åbnes databasens *Edit BuildingElement* dialog. På første faneblad (*BuildingElement*) ændres konstruktionens navn så det afspejler lagene i den nye konstruktion og der skiftes til andet faneblad (*ConstructionLayer*). For en beskrivelse af felterne i [*BuildingElement*](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement), [*ConstructionLayer* ](https://help.bsim.dk/support/kb/articles/OW4NdAQg/simdb---buildingelement-constructionlayer)og [*MaterialAmount* ](https://help.bsim.dk/support/kb/articles/Rm8JaZ94/simdb---buildingelement-materialamount)henvises til beskrivelsen af databasen [SimDB](https://bsim.outseta.com/support/kb/articles/y9q842QA/databasen-simdb).
+Når det nye bygningselement har fået et [SfB-nummer](/24Miscellaneous/24_08_SfB_building_classification.html) åbnes databasens *Edit BuildingElement* dialog. På første faneblad (*BuildingElement*) ændres konstruktionens navn så det afspejler lagene i den nye konstruktion og der skiftes til andet faneblad (*ConstructionLayer*). For en beskrivelse af felterne i [*BuildingElement*](/07SimDB_Database/07_01_Building_element.html), [*ConstructionLayer* ](/07SimDB_Database/07_02_Building_element_construction_layer.html)og [*MaterialAmount* ](/07SimDB_Database/07_03_Building_element_material_amount.html)henvises til beskrivelsen af databasen [SimDB](/07SimDB_Database/07_00_Database.html).
 
 
 <figure id="center_img">
@@ -138,7 +138,7 @@ Når det nye bygningselement har fået et [SfB-nummer](https://bsim.outseta.com/
 </figure>
 
 
-Letbeton kan findes i databasens materialedel som der er adgang til via andet faneblad. Der klikkes på tredje materialelag (*Brick ext 1800*) for at vælge dette. I indgangen *Type* vælges gruppe f. Precast elements, hvorefter der, via indgangen *ConstructionMaterial* vælges et materiale som passer til [beskrivelsen af konstruktionerne](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler).
+Letbeton kan findes i databasens materialedel som der er adgang til via andet faneblad. Der klikkes på tredje materialelag (*Brick ext 1800*) for at vælge dette. I indgangen *Type* vælges gruppe f. Precast elements, hvorefter der, via indgangen *ConstructionMaterial* vælges et materiale som passer til [beskrivelsen af konstruktionerne](/21Getting_started_with_BSim/21_01_Example_description.html).
 
 Når der er valgt et nyt materiale i stedet for den indvendige teglvange, skal tykkelsen af laget ændres til 0,1 m. Dette gøres ved at vælge laget (klik med musen) og ændre værdien i andet felt, umiddelbart under valgmenuen for *ConstructionMaterial*. Den ny tykkelse vil optræde i kolonnen *Thickness* ud for navnet for det nye materiale.
 
@@ -150,7 +150,7 @@ Parameteren *resistance* angiver den termiske modstand i m²K/W af eventuelle lu
 
 **Konstruktioner i gulv og loft**
 
-Den [beskrevne](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler) gulvkonstruktion findes ikke umiddelbart i standarddatabasen, men den ligner konstruktionen 'C150 39I100', dog med den modifikation, at der tillægges et jordlag på 1 m som et ekstra lag yderst i konstruktionen. Med markøren på den ønskede konstruktion trykkes *Copy* for at lave en lokal kopi af standardkonstruktionen.
+Den [beskrevne](/21Getting_started_with_BSim/21_01_Example_description.html) gulvkonstruktion findes ikke umiddelbart i standarddatabasen, men den ligner konstruktionen 'C150 39I100', dog med den modifikation, at der tillægges et jordlag på 1 m som et ekstra lag yderst i konstruktionen. Med markøren på den ønskede konstruktion trykkes *Copy* for at lave en lokal kopi af standardkonstruktionen.
 
 Som beskrevet for de udvendige vægge dannes der herved en kopi som kan ændres. På *ConstructionLayer* fanebladet flyttes markøren til det andet lag, 'Min. wool 39', hvorpå der trykkes på knappen *New Layer*. Herved oprettes et nyt materialelag med navnet ? og samme procedure som beskrevet ovenfor anvendes til at definere materialelaget jord. Jord (*Soil(humid)*) findes i materialegruppe k. *Soil Materials*.
 
@@ -176,7 +176,7 @@ Der i bygningsbeskrivelsen angivet, at vinduets U-værdi er 1,6 W/(m² K), men i
 
 #### **Tilknytning af konstruktioner til modellens flader**
 
-Det fremgår af træstrukturen, at der endnu ikke er defineret konstruktioner eller Windoor, idet der i disse felter står '*No Type*' ved de respektive objekter. For at definere, hvorledes de enkelte flader, fx nordvæggen, er opbygget, kaldes SimView-menuen frem (højre-klik med musen i den grafiske afbildning) og vælges indgangen *Defaults*. Herved kaldes dialogen for definition af [standardkonstruktioner](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner) frem.
+Det fremgår af træstrukturen, at der endu ikke er defineret konstruktioner eller Windoor, idet der i disse felter står '*No Type*' ved de respektive objekter. For at definere, hvorledes de enkelte flader, fx nordvæggen, er opbygget, kaldes SimView-menuen frem (højre-klik med musen i den grafiske afbildning) og vælges indgangen *Defaults*. Herved kaldes dialogen for definition af [standardkonstruktioner](/06BSim_Program_structure/06_14_Default_constructions.html) frem.
 
 <figure id="center_img">
 <img src="./assets/DefaultConstructions.GIF" alt="Dobbelt dialog for valg af standardkonstruktioner og Windoor til alle modellens flader.">
@@ -186,7 +186,7 @@ Det fremgår af træstrukturen, at der endnu ikke er defineret konstruktioner el
 
 Den ønskede konstruktion tilknyttes modellens konstruktioner ved at venstre-klikke på SfB-nummeret for den ønskede konstruktion og trække (med venstre muse-knap holdt nede) til den ønskede placering i *Defaults* dialogen.
 
-De ønskede konstruktionstyper kan vælges fra forskellige grupper af data i [databasen](https://bsim.outseta.com/support/kb/articles/y9q842QA/databasen-simdb).
+De ønskede konstruktionstyper kan vælges fra forskellige grupper af data i [databasen](/07SimDB_Database/07_00_Database.html).
 
 
 <figure id="center_img">
@@ -228,7 +228,7 @@ I eksemplet vender gulvet mod jord, som i dette tilfælde ønskes defineret som 
 
 For at definere en (ny) placering (*Site*) af modellen trykkes på knappen New. Herved oprettes en ny *Site* og det er muligt at vælge et klimadatasæt ved at trykke på knappen *Browse*. Søg og vælg klimadatafilen *cph.dry*.
 
-Tryk herefter på knappen *Ground* og knappen *New* i *Ground* dialogen for at oprette den [fiktive zone jord](https://bsim.outseta.com/support/kb/articles/vWyP8M9b/klimadata) med en konstant temperatur på 10 °C gennem hele året.
+Tryk herefter på knappen *Ground* og knappen *New* i *Ground* dialogen for at oprette den [fiktive zone jord](/07SimDB_Database/07_14_Fictitious_ground_zone.html) med en konstant temperatur på 10 °C gennem hele året.
 
 <figure id="center_img">
 <img src="./assets/GROUND.GIF" alt="Dialog (Ground) for definition af den fiktive zone jords temperaturvariation over året.">
@@ -261,19 +261,19 @@ I stedet for at tilknytte et rum som en fiktiv zone, er der mulighed for at defi
 
 **Nøjagtigere beregning af varmetab til jord**
 
-For en mere nøjagtig beregning kan i princippet benyttes reglerne i [DS 418](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) for bestemmelse af jordens isolans, eventuelt forenklet således, at varmetabet fra kældervægge under terræn samt terrændækrandfeltet, 0-1 m fra indvendig side af ydervæg, regnes at ske til udeluften gennem et jordlag med isolansen 1,0 m² K/W, mens varmetabet fra kældergulve samt terrændækmidterfeltet, over 1 m fra indvendig side af ydervæg, sker til jorden gennem en jordisolans på 2,0 m² K/W. Temperaturen under opvarmede bygninger (20 °C) afhænger især af gulvets isolering og af bygningens størrelse. Normalt kan den antages at variere 'Sinusformet' med laveste temperatur (10-12 °C) i slutningen af vinteren (februar-marts) og højeste temperatur (14-16 °C) i slutningen af sommeren (august-september).
+For en mere nøjagtig beregning kan i princippet benyttes reglerne i [DS 418](/23Internet/23_01_Literature.html) for bestemmelse af jordens isolans, eventuelt forenklet således, at varmetabet fra kældervægge under terræn samt terrændækrandfeltet, 0-1 m fra indvendig side af ydervæg, regnes at ske til udeluften gennem et jordlag med isolansen 1,0 m² K/W, mens varmetabet fra kældergulve samt terrændækmidterfeltet, over 1 m fra indvendig side af ydervæg, sker til jorden gennem en jordisolans på 2,0 m² K/W. Temperaturen under opvarmede bygninger (20 °C) afhænger især af gulvets isolering og af bygningens størrelse. Normalt kan den antages at variere 'Sinusformet' med laveste temperatur (10-12 °C) i slutningen af vinteren (februar-marts) og højeste temperatur (14-16 °C) i slutningen af sommeren (august-september).
 
  
 
 **Kontrol af indlæste data**
 
-Der er nu indlæst data for en simpel bygningsmodel bestående af én zone, som begrænses af 6 flader, og det vil nu være fornuftigt at gemme modellen. Inden modellen gemmes, bør det dog kontrolleres, at der ikke er fejl eller mangler i de indtastede data. Der klikkes derfor med musen (venstre tast) på knappen [*ModelList* ](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model)i [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken). Såfremt der mangler data, vil programmet give en fejlmeddelelse vedrørende manglende data i form af stop-skilet ud for det objekt som er fejlbehæftet i listen med dokumentation for modellen. Det er muligt at hoppe direkte til et objekt med fejl ved at dobbelt-klikke på stop-skiltet i listen. Listen kan fjernes ved at klikke med musen på **x**'et i øverste højre hjørne af vinduet med listen.
+Der er nu indlæst data for en simpel bygningsmodel bestående af én zone, som begrænses af 6 flader, og det vil nu være fornuftigt at gemme modellen. Inden modellen gemmes, bør det dog kontrolleres, at der ikke er fejl eller mangler i de indtastede data. Der klikkes derfor med musen (venstre tast) på knappen [*ModelList* ](/09SimView/09_10_Print_model.html)i [værktøjsbjælken](/09SimView/09_01_SimView_toolbar.html). Såfremt der mangler data, vil programmet give en fejlmeddelelse vedrørende manglende data i form af stop-skilet ud for det objekt som er fejlbehæftet i listen med dokumentation for modellen. Det er muligt at hoppe direkte til et objekt med fejl ved at dobbelt-klikke på stop-skiltet i listen. Listen kan fjernes ved at klikke med musen på **x**'et i øverste højre hjørne af vinduet med listen.
 
  
 
 #### **Oprette en termisk zone**
 
-Det er endnu ikke muligt at gennemføre en simulering med tsbi5. For at gøre dette kræves det at der oprettes mindst en [termisk zone](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/termisk-zone---egenskaber) som indeholder et eller flere rum.
+Det er endu ikke muligt at gennemføre en simulering med tsbi5. For at gøre dette kræves det at der oprettes mindst en [termisk zone](/10Thermal_zones/10_01_Thermal_zone_properties.html) som indeholder et eller flere rum.
 
 Ved at højre-klikke på bygningen i træstrukturen fremkommer en dialog som giver mulighed for at tilføje termiske zoner til modellen. For hvert tryk på knappen *Insert ThermalZone* tilføjes en termisk zone til modellen. I dette eksempel skal der bruges en termisk zone.
 
@@ -301,13 +301,13 @@ Under opbygningen af større modeller, er det tilrådeligt en gang imellem at ge
 
 #### **Afslut BSim**
 
-Beskrivelsen af dataindlæsning for systemer beskrives i [Eksempel 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2), hvor der kan fortsættes direkte. Såfremt dataindlæsningen ønskes afsluttet her, klikkes med musen i menuen *File* på feltet *Exit* eller der klikke med musen på **x**'et i øverste højre hjørne af programvinduet.
+Beskrivelsen af datainlæsning for systemer beskrives i [Eksempel 2](/21Getting_started_with_BSim/21_04_Example_2.html), hvor der kan fortsættes direkte. Såfremt datainlæsningen ønskes afsluttet her, klikkes med musen i menuen *File* på feltet *Exit* eller der klikke med musen på **x**'et i øverste højre hjørne af programvinduet.
 
  
 
 Se også:
 
-*   [Eksempel 2 - Bygningens systemer](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2)
+*   [Eksempel 2 - Bygningens systemer](/21Getting_started_with_BSim/21_04_Example_2.html)
 
-*   [Eksempel 3 - Modificering af bygningsmodel](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3)
+*   [Eksempel 3 - Modificering af bygningsmodel](/21Getting_started_with_BSim/21_05_Example_3.html)
 

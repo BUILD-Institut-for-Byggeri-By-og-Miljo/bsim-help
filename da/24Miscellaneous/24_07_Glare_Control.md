@@ -5,7 +5,7 @@
 
 Ofte antages det, at solafskærmninger reguleres efter solindfaldet, eller efter temperaturen i lokalet. Flere forskningsundersøgelser viser imidlertid, at brugeren i højere grad regulerer efter gener fra dagslyset, dvs. fra direkte solindfald eller høj himmelluminans. Forskningen viser også, at brugerne ofte lader solafskærmningen forblive lukket, indtil dagslyset i rummet bliver utilstrækkeligt til de aktuelle arbejdsopgaver. Ved reguleringstypen *GlareCtrl* søger man at minimere visuel diskomfort, dels på grund af gener fra blænding og dels på grund af for lidt lys. De to kriterier for diskomfort er udtrykt ved et indeks, der angiver sandsynligheden for at en bruger oplever visuel diskomfort, VDP (Visual Discomfort Probability). BSim dialogen for *GlareCtrl* er vist i figuren.
 
-Reguleringen sker i forhold til belysningsniveauet i to [referencepunkter](https://bsim.outseta.com/support/kb/articles/79O3J49E/referencepunkt), dels for øjets placering og dels for et arbejdsplan.
+Reguleringen sker i forhold til belysningsniveauet i to [referencepunkter](/15SimLight_Daylight_calculations/15_09_Reference_point.html), dels for øjets placering og dels for et arbejdsplan.
 
 <figure id="center_img">
 <img src="./assets/glare_fig1.gif" alt="BSim dialog for definition af GlareCtrl. Ud fra den ønskede maksimale værdi af VDP beregnes grænseværdier belysningsstyrken i de to valgte referencepunkter (normalt på lodret plan ved øje-position samt på arbejdsplan).">

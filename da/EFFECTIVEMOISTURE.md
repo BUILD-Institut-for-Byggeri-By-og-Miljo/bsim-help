@@ -265,11 +265,11 @@ The expanding grid generation should only be carried out for layers that are adj
 # SimDB - BuildingMaterial, Frame
 <div id="da">
 
-Dette faneblad indeholder alene en U-værdi og fremkommer kun, når der er valgt materialer fra en af [SfB-materialegrupperne](https://bsim.outseta.com/support/kb/articles/DQ2xwBWV/sfb-i-bsim) "b" eller "c". Værdien benyttes, hvis materialet indgår som en ramme-/karmkonstruktion (*frame*) eller en fyldning (*panel*) i en WinDoor.
+Dette faneblad indeholder alene en U-værdi og fremkommer kun, når der er valgt materialer fra en af [SfB-materialegrupperne](/24Miscellaneous/24_08_SfB_building_classification.html) "b" eller "c". Værdien benyttes, hvis materialet indgår som en ramme-/karmkonstruktion (*frame*) eller en fyldning (*panel*) i en WinDoor.
 
 ![U-værdien for en ramme-/karmkonstruktion (Edit Material | Frame) eller en fyldning. Benyttes, når materialet indgår som en del af en WinDoor.](https://s3.amazonaws.com/outseta-production/10526/0-DBFRAME_a43bfc67-676c-4230-8ebc-3751c64fa042.GIF)
 
-I henhold til [DS418, tillæg 1](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) kan følgende værdier benyttes for U-værdien af vinduesrammer.
+I henhold til [DS418, tillæg 1](/23Internet/23_01_Literature.html) kan følgende værdier benyttes for U-værdien af vinduesrammer.
 
 For rammer og karme af træ eller beklædt træ anvendes transmissionskoefficienten angivet i nedenstående figur, medmindre der er bestemt en nøjagtigere værdi. Ved bestemmelse af tykkelsen af rammer og karme af træ ses der bort fra eventuelle inddækninger af metal eller plast. ved forskellig tykkelse af fx ramme og karm anvendes middelværdien. Ved koblede rammer anvendes den samlede tykkelse af rammerne.
 
@@ -364,19 +364,19 @@ hvor *U<sub>u</sub>*  og *U<sub>i</sub>*  er transmissionskoefficienten for he
 
 Se også:
 
-*   [Faneblad Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
+*   [Faneblad Material](/07SimDB_Database/07_07_Building_material_material.html)
 
-*   [Faneblad Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
+*   [Faneblad Moisture](/07SimDB_Database/07_06_Building_material_moisture.html)
 
-*   [Faneblad Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
+*   [Faneblad Thermal](/07SimDB_Database/07_04_Building_material_thermal.html)
 
-*   [Faneblad Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
+*   [Faneblad Environment](/07SimDB_Database/07_08_Building_material_environment.html)
 
-*   [Faneblad Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
+*   [Faneblad Glazing](/07SimDB_Database/07_10_Building_material_glazing.html)
 
-*   [Faneblad UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
+*   [Faneblad UserDefined](/07SimDB_Database/07_11_Building_material_user_defined.html)
 
-*   [Faneblad Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
+*   [Faneblad Frame](/07SimDB_Database/07_12_Building_material_frame.html)
 
  
 
@@ -390,11 +390,11 @@ Se også:
 
 <div id="en">
 
-This tab only contains a U-value and only appears when materials from [SfB](https://bsim.outseta.com/support/kb/articles/DQ2xwBWV/sfb-i-bsim) material groups "b" or "c" have been selected. The value is used if the material forms part of a WinDoor as a frame construction or panel.
+This tab only contains a U-value and only appears when materials from [SfB](/24Miscellaneous/24_08_SfB_building_classification.html) material groups "b" or "c" have been selected. The value is used if the material forms part of a WinDoor as a frame construction or panel.
 
 ![U-value for a frame construction or panel. Used when the material forms part of a WinDoor.](https://s3.amazonaws.com/outseta-production/10526/0-dbframe_b679b150-bc46-4d11-af92-15989150fe4b.gif)
 
-According to the Danish norm [DS418, amendment 1](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) the following values can be used as U-values for window frames.
+According to the Danish norm [DS418, amendment 1](/23Internet/23_01_Literature.html) the following values can be used as U-values for window frames.
 
 For frames made of wood or covered wood the values can be obtained from the figure below, as a function of the type of wood and the thickness of the frame. This values can be used if a more accurate value is not known. By determining the thickness of frame made of wood, an eventual cover made of metal or plastic is neglected. If the frame have varying thickness, the average value can be used. Having coupled frames (two or more separate glazings) the total thickness of the frame can be used.
 
@@ -490,19 +490,19 @@ where *U<sub>u</sub>* and *U<sub>i</sub>* is the transmission coefficient for r
 
 See also:
 
-*   [Tab Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
+*   [Tab Material](/07SimDB_Database/07_07_Building_material_material.html)
 
-*   [Tab Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
+*   [Tab Thermal](/07SimDB_Database/07_04_Building_material_thermal.html)
 
-*   [Tab Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
+*   [Tab Moisture](/07SimDB_Database/07_06_Building_material_moisture.html)
 
-*   [Tab Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
+*   [Tab Environment](/07SimDB_Database/07_08_Building_material_environment.html)
 
-*   [Tab Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
+*   [Tab Glazing](/07SimDB_Database/07_10_Building_material_glazing.html)
 
-*   [Tab UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
+*   [Tab UserDefined](/07SimDB_Database/07_11_Building_material_user_defined.html)
 
-*   [Tab Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
+*   [Tab Frame](/07SimDB_Database/07_12_Building_material_frame.html)
 
 </div>
 
