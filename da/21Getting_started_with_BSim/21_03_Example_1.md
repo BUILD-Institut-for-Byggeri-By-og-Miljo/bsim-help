@@ -9,7 +9,7 @@ Programmet startes ved at klikke på BSim via menuen *Start* | *Programmer* | *B
 
 Herved fremkommer programmets hovedvindue ([SimView](/09SimView/09_01_SimView.html)). Hovedvinduet er delt op i to felter, som foreløbig er tomme. I feltet til venstre vil den aktuelle bygning senere blive vist som en træstruktur. Feltet til højre er yderligere underopdelt i fire felter, hvor den aktuelle bygning senere vil blive vist grafisk. Det foreløbige navn for bygningsmodellen er standardnavnet 'Untitled', som vises i titelbjælken af SimView.
 
-Inden arbejdet med opbygning af modellen er det en god ide at sætte parametrene for automatisk gemning af *Undo*-niveauer for ændringer i geometrien. Dette gøres ved at højreklikke i den grafiske visning og vælge indgangen [*Options*](/09SimView/09_04_SimView_Options.html). Vær opmærksom på at en ændring i antallet af *Undo*-niveauer <span style="text-decoration: underline;">først</span> træder i kraft næste gang programmet startes.
+Inden arbejdet med opbygning af modellen er det en god ide at sætte parametrene for automatisk gemning af *Undo*-niveauer for ændringer i geometrien. Dette gøres ved at højreklikke i den grafiske visning og vælge indgangen [*Options*](/09SimView/09_16_SimView_Options.html). Vær opmærksom på at en ændring i antallet af *Undo*-niveauer <span style="text-decoration: underline;">først</span> træder i kraft næste gang programmet startes.
 
 Når der skal opbygges en ny model, flyttes markøren til menuen *File* | *New*, hvorpå der klikkes med musen (venstre tast). Der kan også trykkes på ikonet for et nyt projekt (længst til venstre i [værktøjsbjælken](/09SimView/09_05_SimView_toolbar.html)) eller alternativt trykkes *Ctrl+n* som en [genvej](/24Miscellaneous/24_27_Keyboard_shortcuts.html).
 

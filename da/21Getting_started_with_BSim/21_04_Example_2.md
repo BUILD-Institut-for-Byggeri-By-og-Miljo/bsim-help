@@ -55,7 +55,7 @@ Når dialogen forlades, ved tryk på knappen *OK*, tilføjes de valgte systemer 
 
 **Personlast**
 
-Ved at højre-klikke på ikonet for personlast ([*PeopleLoad*](https://bsim.outseta.com/support/kb/articles/XQYdjgmP/persons-system)) fås en dialog til at definere personlasten og dens tilhørende regulering. Tryk på *New* for at oprette en ny personbelastning, hvori der skal indtastes en værdi for 'Antal' (*Number of Persons*). Det automatiske navn ændres til '2 personer', og i feltet *Number of Persons* indtastes 2. Varme- og fugtbelastningen fra de to personer defineres via indgangen *People Type*. Der kan vælges en persontype via den øverste valgmenu i *People Type* eller oprettes en ny ved at klikke på knappen *New*. I dette tilfælde vælges typen *Standard*.
+Ved at højre-klikke på ikonet for personlast ([*PeopleLoad*](/11Systems/11_13_Systems_Persons.html)) fås en dialog til at definere personlasten og dens tilhørende regulering. Tryk på *New* for at oprette en ny personbelastning, hvori der skal indtastes en værdi for 'Antal' (*Number of Persons*). Det automatiske navn ændres til '2 personer', og i feltet *Number of Persons* indtastes 2. Varme- og fugtbelastningen fra de to personer defineres via indgangen *People Type*. Der kan vælges en persontype via den øverste valgmenu i *People Type* eller oprettes en ny ved at klikke på knappen *New*. I dette tilfælde vælges typen *Standard*.
 
 <figure id="center_img">
 <img src="./assets/PEOPLE.GIF" alt="Dialog (People Load) for definition af varmebelastningen fra personer.">
@@ -278,7 +278,7 @@ Modellen gemmes ved at klikke på feltet *Save* i menuen *File*.
 
 #### **Simulering**
 
-Simulering af bygningen, beskrevet i eksempel 2, kan foretages inden programmet forlades eller senere, når bygningsmodellen hentes ind i BSim igen. For at foretage simuleringen vælges indgangen *tsbi5* i menuen *View* eller der trykkes på tsbi5 ikoen i [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken), hvorved simuleringsdialogen fremkommer.
+Simulering af bygningen, beskrevet i eksempel 2, kan foretages inden programmet forlades eller senere, når bygningsmodellen hentes ind i BSim igen. For at foretage simuleringen vælges indgangen *tsbi5* i menuen *View* eller der trykkes på tsbi5 ikonen i [værktøjsbjælken](/06BSim_Program_structure/06_05_SimView_Toolbar.html), hvorved simuleringsdialogen fremkommer.
 
 <figure id="center_img">
 <img src="./assets/tsbi5Options.GIF" alt="Dialog (tsbi5 | Options) for valg af simuleringsparametre i tsbi5.">
@@ -287,7 +287,7 @@ Simulering af bygningen, beskrevet i eksempel 2, kan foretages inden programmet 
 
 **Options**
 
-Inden simuleringen kan startes, skal der defineres en simuleringsperiode. Via indgangene *First Day* og *Last Day* fås en kalender, hvor startdato og slutdato for simuleringen vælges. Den anden gruppe af data på [optionsfanebladet](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options) giver mulighed for valg af forskellige forhold, som har betydning for simuleringstiden og beregningernes nøjagtighed. I gruppen *Stat, hour* vælges grænser for summering af en statistik over indetemperatur, som beregnes under simuleringen. I dette tilfælde vælges data som vist i hosstående dialog.
+Inden simuleringen kan startes, skal der defineres en simuleringsperiode. Via indgangene *First Day* og *Last Day* fås en kalender, hvor startdato og slutdato for simuleringen vælges. Den anden gruppe af data på [optionsfanebladet](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) giver mulighed for valg af forskellige forhold, som har betydning for simuleringstiden og beregningernes nøjagtighed. I gruppen *Stat, hour* vælges grænser for summering af en statistik over indetemperatur, som beregnes under simuleringen. I dette tilfælde vælges data som vist i hosstående dialog.
 
  
 
@@ -295,7 +295,7 @@ Inden simuleringen kan startes, skal der defineres en simuleringsperiode. Via in
 
 *Save in Log* er betegnelsen for den 'log' (liste eller fortegnelse) af timeværdier, som løbende registreres mens simuleringen foregår. Da der under simuleringen beregnes et meget stort antal parametre time for time, er det vigtigt at specificere, hvilke af disse grupper som ønskes gemt for senere analyse.
 
-Den første gruppe i listen er 'Udeklima' (*Weather*), som indeholder alle de anvendte udeklimadata samt beregnede værdier af solazimuth og solhøjde. Ved at sætte "hak" ud for gruppen gemmes disse data på timebasis. I et afsnit under tsbi5 findes en oversigt over alle [parameternavnene og deres betydning](https://bsim.outseta.com/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen).
+Den første gruppe i listen er 'Udeklima' (*Weather*), som indeholder alle de anvendte udeklimadata samt beregnede værdier af solazimuth og solhøjde. Ved at sætte "hak" ud for gruppen gemmes disse data på timebasis. I et afsnit under tsbi5 findes en oversigt over alle [parameternavnene og deres betydning](/13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.html).
 
 I gruppen af indeklimadata (*ThermalZones*) findes data for de termiske zoners indeklima som fx lufttemparatur, operativ temperatur, luftskifte osv.
 
@@ -321,7 +321,7 @@ Simuleringen kan afbrydes ved at trykke på knappen *Stop*, idet programmet da m
 
 #### **Resultater**
 
-Efter simuleringen kan beregningsresultaterne analyseres på forskellig måde via fanebladene [*HeatBalanace*](tsbi5%20- HeatBalance), [*Parametres* ](tsbi5%20- Parameters)og [*Tables*](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables).
+Efter simuleringen kan beregningsresultaterne analyseres på forskellig måde via fanebladene [*HeatBalanace*](/13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.html), [*Parametres* ](/13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html)og [*Tables*](/13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html).
 
  
 
@@ -331,7 +331,7 @@ Ved at klikke på fanebladet *HeatBalanace* fås en oversigt over hele bygningen
 
 I dette tilfælde er der valgt 'måned' for 'Tidsskala', og energibalancen beregnes derfor månedsvis.
 
-Betydningen af forkortelserne for bidragene til energibalancen qHeating, qCooling, qInfiltration etc. (opvarmning, køling, infiltration etc.) er givet i [oversigten](https://bsim.outseta.com/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) over parametre. Tallene udtrykker summen af døgnbidrag for hvert led til den samlede balance inden for hver periode (uge, måned eller hele simuleringsperioden). I flere af leddene (infiltration, transmission, mixing og ventilation) kan der således både indgå positive og negative bidrag i summationen.
+Betydningen af forkortelserne for bidragene til energibalancen qHeating, qCooling, qInfiltration etc. (opvarmning, køling, infiltration etc.) er givet i [oversigten](/13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.html) over parametre. Tallene udtrykker summen af døgnbidrag for hvert led til den samlede balance inden for hver periode (uge, måned eller hele simuleringsperioden). I flere af leddene (infiltration, transmission, mixing og ventilation) kan der således både indgå positive og negative bidrag i summationen.
 
  
 
@@ -393,7 +393,7 @@ Normalt defineres der flere parameterlister for hver bygningsmodel, med valg af 
 
 <strong style="letter-spacing: -0.01em;">Periode**</strong>
 
-I tabelvisningen på fanebladet *Tables* findes en række valgmenuer og trykknapper øverst. Funktionen af knapperne er beskrevet i afsnittet om [fanebladet](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables).
+I tabelvisningen på fanebladet *Tables* findes en række valgmenuer og trykknapper øverst. Funktionen af knapperne er beskrevet i afsnittet om [fanebladet](/13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html).
 
  
 
@@ -415,7 +415,7 @@ Knappen
 </img>
  giver mulighed for at vælge at vise resultaterne som kurver for temperaturer, effekter etc. som funktion af tiden. Programmet viser nu temperaturkurverne for det første døgn i resultatperioden. Klikkes der nu med musen på piltasterne nederst i dialogen kan der 'bladres' frem til den 8. januar. Kurverne viser, hvorledes indetemperaturen stiger fra niveauet på 17 °C i sænkningsperioden til set-punktet på 21 °C, som først nås i time 11. Hvis der højre-klikkes på grafikken kan det aktuelle skærmbillede kopieres til udklipsholderen for at kunne indsættes i andre Windows-baserede programmer, fx flere tekstbehandlings- og regneark-programmer.
 
-I afsnittet om [*Tables* ](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables)fanebladet i tsbi5 findes en nærmere beskrivelse af resultatanalysen og links til en beskrivelse af mulighederne for [manipulation](https://help.bsim.dk/support/kb/articles/aWxnxAQV/andring-af-den-grafiske-afbildning-af-resultater) med grafikken.
+I afsnittet om [*Tables* ](/13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html)fanebladet i tsbi5 findes en nærmere beskrivelse af resultatanalysen og links til en beskrivelse af mulighederne for [manipulation](/13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.html) med grafikken.
 
  
 
@@ -423,12 +423,12 @@ I afsnittet om [*Tables* ](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsb
 
 Via *File*-menuen gemmes modellen nu ved at klikke på feltet *Save*. Når modellen gemmes, dannes der to filer, én fil som indeholder alle bygningsmodellens data (filnavn EKS2.DIS), og en anden som indeholder data vedrørende simulering og resultatbehandling (simuleringsperiode, timelogparametre, parameterlister etc.).
 
-Beskrivelse vedrørende dataindlæsning for skygger samt modificering af modellen med henblik på at forbedre bygningens indeklima og energiforbrug beskrives i [eksempel 3](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3), hvor der kan fortsættes direkte. Såfremt dataindlæsning og resultatbearbejdning ønskes afsluttet her, afsluttes programmet.
+Beskrivelse vedrørende dataindlæsning for skygger samt modificering af modellen med henblik på at forbedre bygningens indeklima og energiforbrug beskrives i [eksempel 3](/21Getting_started_with_BSim/21_05_Example_3.html), hvor der kan fortsættes direkte. Såfremt dataindlæsning og resultatbearbejdning ønskes afsluttet her, afsluttes programmet.
 
  
 
 Se også:
 
-*   [Eksempel 3 - Modificering af bygningsmodel](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3)
+*   [Eksempel 3 - Modificering af bygningsmodel](/21Getting_started_with_BSim/21_05_Example_3.html)
 
  

@@ -5,7 +5,7 @@
 
 #### **Modificering af bygningsmodel**
 
-Eksemplet bygger videre på bygningsbeskrivelse og -datamodel beskrevet i eksemplerne [EKS1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1) og [EKS2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2), og data forudsættes indlæst som grundlag for denne fortsættelse. Her kompletteres bygningsmodellen med data for følgende forhold:
+Eksemplet bygger videre på bygningsbeskrivelse og -datamodel beskrevet i eksemplerne [EKS1](/21Getting_started_with_BSim/21_03_Example_1.html) og [EKS2](/21Getting_started_with_BSim/21_04_Example_2.html), og data forudsættes indlæst som grundlag for denne fortsættelse. Her kompletteres bygningsmodellen med data for følgende forhold:
 
 *   skygger fra omgivelser
 
@@ -15,11 +15,11 @@ Eksemplet bygger videre på bygningsbeskrivelse og -datamodel beskrevet i eksemp
 
 *   ventilationsanlæg
 
-På grundlag af den endelige bygningsmodel gennemføres et års simulering, og energi- og indeklimaforhold sammenlignes med resultaterne fra [eksempel 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2).
+På grundlag af den endelige bygningsmodel gennemføres et års simulering, og energi- og indeklimaforhold sammenlignes med resultaterne fra [eksempel 2](/21Getting_started_with_BSim/21_04_Example_2.html).
 
 **Hent eksisterende model og kopier over i nyt navn**
 
-Bygningsmodellen [EKS2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2) hentes ind i BSim og gemmes under navnet 'EKS3' som beskrevet i [eksempel 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2). Den nye model (filen EKS3.DIS) benyttes herefter til den videre udbygning af bygningsmodellen.
+Bygningsmodellen [EKS2](/21Getting_started_with_BSim/21_04_Example_2.html) hentes ind i BSim og gemmes under navnet 'EKS3' som beskrevet i [eksempel 2](/21Getting_started_with_BSim/21_04_Example_2.html). Den nye model (filen EKS3.DIS) benyttes herefter til den videre udbygning af bygningsmodellen.
 
 ####  
 
@@ -51,7 +51,7 @@ Herved oprettes en ny bygning i modellen som vil skygge på den bygning som simu
 
 #### **Valg af anden rudetype**
 
-For at undersøge betydningen af rudernes isoleringsevne for det samlede varmebehov, ønskes rudetypen erstattet med en super lavenergirude med krypton fyldning. [Databasen](https://bsim.outseta.com/support/kb/articles/y9q842QA/databasen-simdb) åbnes (ved tryk på database-knappen i joblisten eller ved tryk på SimDB ikonet i SimView [værktøjsbjælken](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)) og indgangen *External windoors* vælges i *BuildingElement* delen af databasen. Indgangen "*SuperLavE-Kr i træramme*" vælges. SfB-nummeret vælges og trækkes til de vinduer som skal tilknyttes hvor det slippes. Det er også muligt at benytte SimView menuindgangen *Defaults* som beskrevet i [eksempel 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2).
+For at undersøge betydningen af rudernes isoleringsevne for det samlede varmebehov, ønskes rudetypen erstattet med en super lavenergirude med krypton fyldning. [Databasen](/07SimDB_Database/07_01_The_SimDB_database.html) åbnes (ved tryk på database-knappen i joblisten eller ved tryk på SimDB ikonet i SimView [værktøjsbjælken](/06BSim_Program_structure/06_05_SimView_Toolbar.html)) og indgangen *External windoors* vælges i *BuildingElement* delen af databasen. Indgangen "*SuperLavE-Kr i træramme*" vælges. SfB-nummeret vælges og trækkes til de vinduer som skal tilknyttes hvor det slippes. Det er også muligt at benytte SimView menuindgangen *Defaults* som beskrevet i [eksempel 2](/21Getting_started_with_BSim/21_04_Example_2.html).
 
  
 
@@ -96,15 +96,15 @@ I dette tilfælde indtastes værdien 0,8 (kW). Det samlede rudeareal for de to v
 
 Det vil sige: Det checkes først om solintensiteten på indersiden af ruden overskrider 180 W/m². Er dette tilfældet trækkes solafskærmningen for afhængigt af den reguleringsform som er valgt på fanebladet *ShadingCtrl*. Dernæst checkes om den operative temperatur i zonen er over 24,5 °C og om det samlede solindfald gennem alle zonens vinduer overskrider 800 W. Er dette tilfældet trækkes solafskærmningen for afhængigt af reguleringsformen, i dette tilfælde netop så meget (fordi der er valgt kontinuert regulering) at grænsen for den operative temperatur - hvis muligt - kan overholdes.
 
-Det sidste indtastningsfelt *SF4 shading* definerer sollysfaktoren for vinduet, når afskærmningen er trukket helt for. Sollysfaktoren er knyttet til ét bestemt punkt i et givet plan i rummet, og er defineret som forholdet mellem belysningsstyrken i punktet i planet og den samtidige belysningsstyrke udendørs på den facadens plan, jf. [Algoritmer til beregning af solstråling og dagslys](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys).
+Det sidste indtastningsfelt *SF4 shading* definerer sollysfaktoren for vinduet, når afskærmningen er trukket helt for. Sollysfaktoren er knyttet til ét bestemt punkt i et givet plan i rummet, og er defineret som forholdet mellem belysningsstyrken i punktet i planet og den samtidige belysningsstyrke udendørs på den facadens plan, jf. [Algoritmer til beregning af solstråling og dagslys](/20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.html).
 
-For uafskærmede vinduer vil sollysfaktoren normalt variere meget igennem rummet, fra i størrelsesorden 0,20 - 0,15 nær ved vinduet til i størrelsesorden 0,02-0,005 bagest i rummet. Sollysfaktoren [SF4](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys) for afskærmet vindue er defineret for et 'vindue' med transmittansen 1, idet reduktionen i lystransmittansen for rude og solafskærmning er indeholdt i data for henholdsvis rude og afskærmning.
+For uafskærmede vinduer vil sollysfaktoren normalt variere meget igennem rummet, fra i størrelsesorden 0,20 - 0,15 nær ved vinduet til i størrelsesorden 0,02-0,005 bagest i rummet. Sollysfaktoren [SF4](/20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.html) for afskærmet vindue er defineret for et 'vindue' med transmittansen 1, idet reduktionen i lystransmittansen for rude og solafskærmning er indeholdt i data for henholdsvis rude og afskærmning.
 
 Det bemærkes, at mens belysningsstyrken i ethvert punkt i rummet reduceres proportionalt med lystransmissionstallet for vinduet og med (1 - afskærmningsfaktoren) for vinduet, udtrykker sollysfaktoren i et givet punkt af rummet, hvor meget belysningsstyrken i netop dette punkt ændrer sig ved anvendelse af solafskærmningen. Den gennemsnitlige belysningsstyrke i rummet vil altid falde, når afskærmningen er trukket for, men der findes afskærmningstyper (fx reflekterende persienner), som udjævner lysvariationen ind gennem rummet, således at belysningsstyrken bagest i rummet øges, når afskærmningen benyttes. Formålet med sådanne afskærmninger er at reducere luminansforskelle (som kan give blændingsubehag) ved vinduet, for samtidigt at forbedre dagslysudbyttet bagest i rummet, således at behovet for kunstlys reduceres.
 
 Når afskærmningen er trukket delvist for vinduet, beregnes belysningsstyrken i et punkt som en vægtet værdi af belysningsstyrken for 'vinduesdelen' med afskærmning og belysningsstyrken for den anden del af vinduet uden afskærmning.
 
-I det aktuelle eksempel er det valgt at lade lyset regulere efter solindfaldet gennem vinduerne (jf. [eksempel 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2)), og værdien af sollysfaktoren [SF4](https://bsim.outseta.com/support/kb/articles/49EdwkQ7/sollysfaktorer-for-windoors) vil derfor ikke blive benyttet. Det generelle princip er imidlertid, at alle parametre for komponenter og systemer, som benyttes, skal tildeles en værdi, og her indtastes værdien 0.
+I det aktuelle eksempel er det valgt at lade lyset regulere efter solindfaldet gennem vinduerne (jf. [eksempel 2](/21Getting_started_with_BSim/21_03_Example_2.html)), og værdien af sollysfaktoren [SF4](/15SimLight_Daylight_calculations/15_04_Light_factors_for_windows.html) vil derfor ikke blive benyttet. Det generelle princip er imidlertid, at alle parametre for komponenter og systemer, som benyttes, skal tildeles en værdi, og her indtastes værdien 0.
 
  
 
@@ -207,18 +207,18 @@ Den sidste parameter på fanebladet *Air Hum*. har kun betydning for anlæg som 
 
 Den definerede reguleringsform vælges ved at klikke på knappen *Anvend*.
 
-En beskrivelse af de forskellige reguleringstyper er givet i afsnittet [Ventilationsanlæg](https://bsim.outseta.com/support/kb/articles/OW4N5AQg/ventilation-system).
+En beskrivelse af de forskellige reguleringstyper er givet i afsnittet [Ventilationsanlæg](/11Systems/11_04_Ventilation_systems.html).
  
 
 #### **Gem bygningsmodel**
 
-Alle data for bygningen er nu indlæst, og modellen ønskes derfor gemt. Før dette gøres, bør der foretages en kontrol af at modellen er komplet ved at trykke på [*ModelList*](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model). Såfremt der findes fejl eller mangler i data, giver programmet oplysning herom, og i modsat fald er alle data (formelt) i orden. Ved starten af eksemplet blev navnet for modellen defineret som 'EKS3' og modellen gemmes nu igen under dette navn ved at klikke på feltet *Save* i menuen *File*. Den gamle model bliver ikke overskrevet, men bevares som filen EKS3.dbk som en "back-up" fil.
+Alle data for bygningen er nu indlæst, og modellen ønskes derfor gemt. Før dette gøres, bør der foretages en kontrol af at modellen er komplet ved at trykke på [*ModelList*](/09SimView/09_06_ModelList.html). Såfremt der findes fejl eller mangler i data, giver programmet oplysning herom, og i modsat fald er alle data (formelt) i orden. Ved starten af eksemplet blev navnet for modellen defineret som 'EKS3' og modellen gemmes nu igen under dette navn ved at klikke på feltet *Save* i menuen *File*. Den gamle model bliver ikke overskrevet, men bevares som filen EKS3.dbk som en "back-up" fil.
 
  
 
 #### **Simulering**
 
-Der ønskes nu foretaget en simulering for at sammenligne indeklima og energiforbrug for den nye model ([EKS3](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3)) med den gamle model ([EKS2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2)).
+Der ønskes nu foretaget en simulering for at sammenligne indeklima og energiforbrug for den nye model ([EKS3](/21Getting_started_with_BSim/21_05_Example_3.html)) med den gamle model ([EKS2](/21Getting_started_with_BSim/21_04_Example_2.html)).
 
  
 
