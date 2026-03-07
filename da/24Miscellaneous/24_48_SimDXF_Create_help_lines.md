@@ -29,18 +29,18 @@ Konstruer *hjælpelinier* for de ønskede vægge og konstruktioner.
 
 Se også:
 
-*   [Vælg DXF-filter - Edit DXF-filter](https://help.bsim.dk/support/kb/articles/ZmNrexm2/simdxf---valg-dxf-filter)
+*   [Vælg DXF-filter - Edit DXF-filter](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
 
-*   [Hent DXF-fil - Open DXF-file](https://help.bsim.dk/support/kb/articles/BWzdblQE/simdxf---abne-dxf-tegning)
+*   [Hent DXF-fil - Open DXF-file](/24Miscellaneous/24_47_About_SimDXF.html)
 
-*   [Knudepunkter (nodes)](https://help.bsim.dk/support/kb/articles/XQYdOMmP/simdxf---oprette-knuder-nodes)
+*   [Knudepunkter (nodes)](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
 
-*   [Flade - Face](https://help.bsim.dk/support/kb/articles/4966zA9X/simdxf---flader)
+*   [Flade - Face](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
 
-*   [Rum - Room](https://help.bsim.dk/support/kb/articles/y9q8DNQA/simdxf---rum)
+*   [Rum - Room](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
 
-*   [WinDoor](https://help.bsim.dk/support/kb/articles/OW4N0pQg/simdxf---windoor)
+*   [WinDoor](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
 
-*   [Tegningsrevisioner](https://help.bsim.dk/support/kb/articles/dQG2xem4/simdxf---tegningsrevisioner)
+*   [Tegningsrevisioner](/24Miscellaneous/24_47_About_SimDXF.html)
 
-*   [Tilføjelse af SimDXF som applikation](https://help.bsim.dk/support/kb/articles/7maw2X9E/simdxf---tilfoje-som-applikation)
+*   [Tilføjelse af SimDXF som applikation](/24Miscellaneous/24_19_Setting_up_applications.html)

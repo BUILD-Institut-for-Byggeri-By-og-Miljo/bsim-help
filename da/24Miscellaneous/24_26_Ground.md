@@ -4,7 +4,7 @@
 
 <div style="text-align:center">
 
-*Dialogen kaldes fra [Site](https://bsim.outseta.com/support/kb/articles/dQG2Kom4/site-property) dialogen.*
+*Dialogen kaldes fra [Site](/24Miscellaneous/24_25_Site_Property.html) dialogen.*
 
 </div>
  
@@ -37,7 +37,7 @@ En tilsvarende variation af fugtindholdet i jordens, eller snarere fugtindholdet
 
 Der kan oprettes vilkårligt mange "Ground" i en model, og de kan benyttes som fiktive zoner imod vægflader hvor der ikke ønskes en detaljeret simulering af de termiske forhold på begge sider af en konstruktion.
 
-I henhold til [DS418, tillæg 4](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur), kan den dimensionerende jordtemperatur under opvarmede bygninger og i de dybereliggende jordlag omkring opvarmede bygninger fastsættes til 10 °C.
+I henhold til [DS418, tillæg 4](/20The_Mathematical_Basis/20_28_Literature.html), kan den dimensionerende jordtemperatur under opvarmede bygninger og i de dybereliggende jordlag omkring opvarmede bygninger fastsættes til 10 °C.
 
 Terrændækkonstruktioner skal dog opbygges så en del af jordlaget under bygningen medregnes. Transmissionskoefficienten for et gulv eller en kældervæg direkte mod jord kan bestemmes af formlen:
 
@@ -45,9 +45,9 @@ $$ U' = \frac{1}{R_{si} + \sum R_m + R_j} $$
 
 hvor
 
-*   **R<sub>si</sub>** er overgangsisolansen ved den indvendige overflade i enheden m²K/W. Denne størrelse fremgår ikke af oplysningerne om konstruktionerne i visningen med [SimDB](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement).
+*   **R<sub>si</sub>** er overgangsisolansen ved den indvendige overflade i enheden m²K/W. Denne størrelse fremgår ikke af oplysningerne om konstruktionerne i visningen med [SimDB](/07SimDB_Database/07_02_SimDB_BuildingElement.html).
 
-*   **R<sub>m</sub>** er isolansen for materialelag i selve gulv- eller vægkonstruktionen i enheden m²K/W. Vises som en information i [SimDB](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement).
+*   **R<sub>m</sub>** er isolansen for materialelag i selve gulv- eller vægkonstruktionen i enheden m²K/W. Vises som en information i [SimDB](/07SimDB_Database/07_02_SimDB_BuildingElement.html).
 
 *   **R<sub>j</sub>** er en isolans af jorden i enheden m²K/W. Her kan en terrændækkonstruktion med fordel opbygges med et ekstra materialelag (jord) på ydersiden.
 

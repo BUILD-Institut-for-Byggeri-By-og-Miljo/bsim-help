@@ -14,9 +14,9 @@ I varmebalancen findes en række parametre som oplyser om de forskellige energib
 
 *   *Co2* viser indholdet af CO<sub>2</sub> i ppm i indeluften.
 
-*   *PAQ* viser det beregnede [oplevede indeklima](https://help.bsim.dk/support/kb/articles/4966Zl9X/oplevet-indeluftkvalitet-paq).
+*   *PAQ* viser det beregnede [oplevede indeklima](/24Miscellaneous/24_65_Parameters_in_the_heat_balance.html).
 
-*   *Hours > 21, Hour > 25, Hour > 28 og Hour < 20* viser antallet af timer med en operativ temperatur over hhv. under en given temperaturgrænse (grænsen kan ændres på [*Options* ](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options)fanebladet) i den valgte termiske zone inden for den valgte opløsning på tidsskalaen, fx uge eller måned. Hvis hele modellen er valgt, vises ingen værdier for indetemperaturer over hhv. under temperaturgrænser.
+*   *Hours > 21, Hour > 25, Hour > 28 og Hour < 20* viser antallet af timer med en operativ temperatur over hhv. under en given temperaturgrænse (grænsen kan ændres på [*Options* ](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html)fanebladet) i den valgte termiske zone inden for den valgte opløsning på tidsskalaen, fx uge eller måned. Hvis hele modellen er valgt, vises ingen værdier for indetemperaturer over hhv. under temperaturgrænser.
 
 *   *FanPow* viser den afsatte elektriske energi (kWh) i ventilatorerne i ventilationsanlæg (bygning/termisk zone). Effekten er beregnet på baggrund af den givne trykstigning (indblæsning og udsugning).
 

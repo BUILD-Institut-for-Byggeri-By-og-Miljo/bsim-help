@@ -11,12 +11,12 @@ Ved højre-klik i træ strukturen til venstre i SimView kaldes en menu som giver
 
 Indgangene i menuen giver mulighed for at kalde funktionerne:
 
-*   *Properties*, som er dialogen [Building Property](https://bsim.outseta.com/support/kb/articles/XQYde4mP/building-property) for den bygning i modellen som er den aktuelt valgte.
+*   *Properties*, som er dialogen [Building Property](/24Miscellaneous/24_27_Building_Property.html) for den bygning i modellen som er den aktuelt valgte.
 
-*   [*Add Site*](https://help.bsim.dk/support/kb/articles/dQG2Kom4/site-property), tilknytter en lokalitet (Site) til modellen.
+*   [*Add Site*](/24Miscellaneous/24_25_Site_Property.html), tilknytter en lokalitet (Site) til modellen.
 
-*   [*Insert Thermal Zone*](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/termisk-zone---egenskaber), som tilføjer en termisk zone til den aktuelle bygning i modellen hver gang funktionen kaldes.
+*   [*Insert Thermal Zone*](/10Thermal_zones/10_01_Thermal_Zone_property.html), som tilføjer en termisk zone til den aktuelle bygning i modellen hver gang funktionen kaldes.
 
-*   [*Insert Defaults*](https://bsim.outseta.com/support/kb/articles/wQXxAZQK/insert-default-options): Åbner en dialog for overskrivning af standardværdierne for konstruktionerne med de værdier som aktuelt er valgt. Værdierne for standardkonstruktionerne kan ændres via *Defaults* fra [SimView-menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu).
+*   [*Insert Defaults*](/24Miscellaneous/24_28_Insert_Default_Options.html): Åbner en dialog for overskrivning af standardværdierne for konstruktionerne med de værdier som aktuelt er valgt. Værdierne for standardkonstruktionerne kan ændres via *Defaults* fra [SimView-menuen](/06BSim_Program_structure/06_06_SimView_Menu.html).
 
  

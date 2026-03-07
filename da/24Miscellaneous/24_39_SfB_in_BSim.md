@@ -1,9 +1,9 @@
 # SfB i BSim
 SfB-systemet er benyttet til klassificering af byggematerialer og bygningselementer i BSim. I de følgende tabeller vises en oversigt med de dele af SfB-systemet som benyttes i BSim.
 
-*   [BuildingElements](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement)
+*   [BuildingElements](/07SimDB_Database/07_02_SimDB_BuildingElement.html)
 
-*   [BuildingMaterials](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial)
+*   [BuildingMaterials](/07SimDB_Database/07_06_SimDB_BuildingMaterial.html)
 
 #### **BuildingElements**
 

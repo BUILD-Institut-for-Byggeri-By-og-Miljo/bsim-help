@@ -13,7 +13,7 @@ For at være effektiv kræver indlæringen mere end blot adgang til en pc, noget
 
 Der er en række gyldne regler som bør overholdes ved opbygning af modeller til simulering af de termiske forhold i bygninger:
 
-*   Brug den nødvendige [tid](https://help.bsim.dk/support/kb/articles/dQG2Okm4/tidsforbrug) til at indsamle viden (tegninger, materialedata, belastninger m.v.) om bygningen.
+*   Brug den nødvendige [tid](/24Miscellaneous/24_46_Time_consumption.html) til at indsamle viden (tegninger, materialedata, belastninger m.v.) om bygningen.
 
 *   Overvej i forvejen problemstillingen og hvilke spørgsmål der skal besvares ved simuleringen.
 
@@ -21,92 +21,92 @@ Der er en række gyldne regler som bør overholdes ved opbygning af modeller til
 
 *   Vurder løbende (under modelopbygningen) om resultaterne er sandsynlige.
 
-I afsnittet med [indlæringseksempler](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler) findes tre eksempler som leder førstegangsbrugeren igennem en simpel opbygning af en bygningsmodels geometri, over tilføjelse af systemer til modellen til den første simulering med tsbi5-programmet.
+I afsnittet med [indlæringseksempler](/21Getting_started_with_BSim/21_02_Learning_examples.html) findes tre eksempler som leder førstegangsbrugeren igennem en simpel opbygning af en bygningsmodels geometri, over tilføjelse af systemer til modellen til den første simulering med tsbi5-programmet.
 
 Via nedenstående ordnede rækkefølge af forbindelser til forskellige sider i brugervejledningen gives en gennemgang af et typisk arbejdsforløb fra starten af et projekt over redigering af modelgeometrien til den endelige simulering med *tsbi5*-programmet.
 
-Inden opbygningen af modellen starter er det en god ide at være bekendt med den måde programmet er [opbygget](https://bsim.outseta.com/support/kb/articles/wmjnBKmV/strukturen-i-bsim).
+Inden opbygningen af modellen starter er det en god ide at være bekendt med den måde programmet er [opbygget](/06BSim_Program_structure/06_01_Structure_of_BSim.html).
 
-*   Der findes en række [genvejstaster](https://bsim.outseta.com/support/kb/articles/vWyPMJ9b/genvejstaster) i *BSim*
+*   Der findes en række [genvejstaster](/05Introduction/05_06_Shortcut_keys.html) i *BSim*
 
-*   Modellen redigeres ved hjælp af [menuen](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu) i *SimView*.
+*   Modellen redigeres ved hjælp af [menuen](/06BSim_Program_structure/06_06_SimView_Menu.html) i *SimView*.
 
-*   [Musen](https://bsim.outseta.com/support/kb/articles/DQ2xp4WV/operationer-med-musen-i-simview) er et værktøj som kan benyttes på flere måder i *SimView*.
+*   [Musen](/06BSim_Program_structure/06_03_Mouse_operations_in_SimView.html) er et værktøj som kan benyttes på flere måder i *SimView*.
 
-*   Øverst i programfladen findes en [værktøjsbjælke](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken) som giver adgang til forskellige funktioner i *BSim*.
+*   Øverst i programfladen findes en [værktøjsbjælke](/06BSim_Program_structure/06_05_SimView_Toolbar.html) som giver adgang til forskellige funktioner i *BSim*.
 
-*   [Menuerne](https://bsim.outseta.com/support/kb/articles/pWrnYLWn/programmenuer-i-bsim) i BSim er interaktive og giver **kun** adgang til de funktioner som kan benyttes på det aktuelle sted i programmet.
+*   [Menuerne](/06BSim_Program_structure/06_04_Program_menus_in_BSim.html) i BSim er interaktive og giver **kun** adgang til de funktioner som kan benyttes på det aktuelle sted i programmet.
 
 I slutningen af hver linie er markeret med *kursiv* i hvilket af BSim's programmer den givne beskrivelse tilhører.
 
-*   Et nyt projekt oprettes med en [wizard](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard---oprette-en-ny-model).
+*   Et nyt projekt oprettes med en [wizard](/09SimView/09_12_Model_wizard_creating_a_new_model.html).
 
-*   Der oprettes en [bygningsmodel](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning) i projektet med *SimView*.
+*   Der oprettes en [bygningsmodel](/06BSim_Program_structure/06_09_SimView_Creating_a_building.html) i projektet med *SimView*.
 
-*   Der tilføjes flere [rum](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum) til modellen i *SimView*.
+*   Der tilføjes flere [rum](/09SimView/09_15_SimView_Creating_a_space.html) til modellen i *SimView*.
 
-*   Modelgeometrien [redigeres](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien) med *SimView*.
+*   Modelgeometrien [redigeres](/09SimView/09_02_SimView_Editing_the_model_geometry.html) med *SimView*.
 
-*   Der tilknyttes [standardkonstruktioner](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner) fra databasen *SimDB*.
+*   Der tilknyttes [standardkonstruktioner](/07SimDB_Database/07_02_SimDB_BuildingElement.html) fra databasen *SimDB*.
 
-*   [Nye materialer](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial) oprettes til brug for nye konstruktioner i databasen *SimDB*.
+*   [Nye materialer](/07SimDB_Database/07_06_SimDB_BuildingMaterial.html) oprettes til brug for nye konstruktioner i databasen *SimDB*.
 
-*   [Nye konstruktioner](https://bsim.outseta.com/support/kb/articles/dQG2dzm4/simdb-buildingelement) oprettes fra materialerne i databasen *SimDB*.
+*   [Nye konstruktioner](/07SimDB_Database/07_02_SimDB_BuildingElement.html) oprettes fra materialerne i databasen *SimDB*.
 
-*   Enkelte [standardkonstruktioner overskrives](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner) med konstruktioner fra *SimDB*.
+*   Enkelte [standardkonstruktioner overskrives](/09SimView/09_09_SimView_Non_default_constructions.html) med konstruktioner fra *SimDB*.
 
-*   Der [tilføjes vinduer, døre og åbninger](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor) i fladerne i *SimView*.
+*   Der [tilføjes vinduer, døre og åbninger](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html) i fladerne i *SimView*.
 
 *   Der tilføjes systemer til vinduerne.
 
-    *   [Solafskærmning](https://bsim.outseta.com/support/kb/articles/7maw8X9E/shading)
+    *   [Solafskærmning](/11Systems/11_16_Systems_shading.html)
 
-    *   [Skodder](https://bsim.outseta.com/support/kb/articles/ZmNrMxm2/shutter)
+    *   [Skodder](/11Systems/11_15_Systems_shutter.html)
 
-*   En flade [udfyldes helt](https://help.bsim.dk/support/kb/articles/xmer2wQV/simview---insert-windoor) med et vindue eller en åbning i *SimView*.
+*   En flade [udfyldes helt](/24Miscellaneous/24_30_SimView_Insert_Windoor.html) med et vindue eller en åbning i *SimView*.
 
-*   [Skygger fra omgivelser](https://bsim.outseta.com/support/kb/articles/E9LwJGQw/skygger-fra-omgivelser) tilføjes modellen i *SimView*.
+*   [Skygger fra omgivelser](/10Thermal_zones/10_05_Shadows_from_the_surroundings.html) tilføjes modellen i *SimView*.
 
-*   Simulering af solindfaldet i modellen med [*XSun*](https://bsim.outseta.com/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun).
+*   Simulering af solindfaldet i modellen med [*XSun*](/14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.html).
 
-*   [Beregning af dagslysforholdene](https://bsim.outseta.com/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight) i et rum beregnes med *SimLight*.
+*   [Beregning af dagslysforholdene](/15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.html) i et rum beregnes med *SimLight*.
 
-*   [Oprettes termiske zoner](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/termisk-zone---egenskaber) for simulering i *tsbi5*.
+*   [Oprettes termiske zoner](/10Thermal_zones/10_01_Thermal_Zone_property.html) for simulering i *tsbi5*.
 
-*   [Rummene i modellen tilknyttes de termiske zoner](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilfoje-rum-til-termiske-zoner) i *SimView*.
+*   [Rummene i modellen tilknyttes de termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html) i *SimView*.
 
-*   Der [tilføjes systemer](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer) til de termiske zoner i *SimView*.
+*   Der [tilføjes systemer](/11Systems/11_01_Systems.html) til de termiske zoner i *SimView*.
 
-    *   [Køling](https://bsim.outseta.com/support/kb/articles/y9gBNGQM/cooling)
+    *   [Køling](/11Systems/11_09_Systems_cooling.html)
 
-    *   [Udstyr](https://bsim.outseta.com/support/kb/articles/vW5a8pW4/equipment)
+    *   [Udstyr](/11Systems/11_19_Systems_Equipment.html)
 
-    *   [Opvarmning](https://bsim.outseta.com/support/kb/articles/wmjnq7mV/heating)
+    *   [Opvarmning](/11Systems/11_12_Systems_Heating.html)
 
-    *   [Infiltration](https://bsim.outseta.com/support/kb/articles/Rm8JRZ94/infiltration)
+    *   [Infiltration](/11Systems/11_08_Systems_Infiltration.html)
 
-    *   [Belysning](https://bsim.outseta.com/support/kb/articles/wQXxbnQK/lighting)
+    *   [Belysning](/11Systems/11_03_Systems_Lighting.html)
 
-    *   [Mixing](https://bsim.outseta.com/support/kb/articles/Rm8JEd94/mixing) (luftoverførsel mellem termiske zoner)
+    *   [Mixing](/11Systems/11_10_systems_mixing.html) (luftoverførsel mellem termiske zoner)
 
-    *   [Fugt](https://bsim.outseta.com/support/kb/articles/xmere5QV/moisture)
+    *   [Fugt](/11Systems/11_05_Systems_Moisture.html)
 
-    *   [Personer](https://bsim.outseta.com/support/kb/articles/XQYdjgmP/persons)
+    *   [Personer](/11Systems/11_13_Systems_Persons.html)
 
-    *   [Ventilation](https://bsim.outseta.com/support/kb/articles/OW4N5AQg/ventilation)
+    *   [Ventilation](/11Systems/11_21_Systems_Ventilation.html)
 
-    *   [Udluftning](https://bsim.outseta.com/support/kb/articles/gWKDJlmp/venting)
+    *   [Udluftning](/11Systems/11_18_Systems_Venting.html)
 
-*   [Simulering](https://bsim.outseta.com/support/kb/articles/A93z0lQ0/tsbi5) med *tsbi5*.
+*   [Simulering](/13tsbi5_thermal_simulation/13_01_tsbi5.html) med *tsbi5*.
 
-*   Den [grafiske præsentation af resultaterne](https://help.bsim.dk/support/kb/articles/aWxnxAQV/andring-af-den-grafiske-afbildning-af-resultater) kan ændres.
+*   Den [grafiske præsentation af resultaterne](/13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.html) kan ændres.
 
-*   Grafik og data kan [importeres](https://bsim.outseta.com/support/kb/articles/nmDBo29y/bsim-og-andre-windows-programmer) i andre Windows programmer.
+*   Grafik og data kan [importeres](/19BSim_and_other_windows_programs/19_01_BSim_and_other_Windows_programs.html) i andre Windows programmer.
 
  
 
 Se også:
 
-*   [Indlæringseksempler](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler)
+*   [Indlæringseksempler](/21Getting_started_with_BSim/21_02_Learning_examples.html)
 
 

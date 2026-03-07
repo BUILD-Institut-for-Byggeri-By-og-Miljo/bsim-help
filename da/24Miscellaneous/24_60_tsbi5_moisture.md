@@ -25,12 +25,12 @@ Begyndelses relativ fugtindhold angives i feltet *RH*, som anvendes for alle kon
 
 Se også:
 
-*   [Faneblad *Options*](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options)
+*   [Faneblad *Options*](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html)
 
-*   [Faneblad *Simulation*](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5---simulation)
+*   [Faneblad *Simulation*](/13tsbi5_thermal_simulation/13_04_tsbi5_simulation.html)
 
-*   [Faneblad *HeatBalance*](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance)
+*   [Faneblad *HeatBalance*](/13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.html)
 
-*   [Faneblad *Parametres*](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5---parameters)
+*   [Faneblad *Parametres*](/13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html)
 
-*   [Faneblad *Tables*](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables)
+*   [Faneblad *Tables*](/13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html)

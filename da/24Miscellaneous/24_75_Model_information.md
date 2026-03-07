@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Model information
-When the dialog box for specifying [default constructions](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner) is opened from the [SimView menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview-menu), two tabs are displayed in addition to that for specifying default constructions. The Heatloss tab contains data for use when calculating the design heat loss of the [building](https://help.bsim.dk/support/kb/articles/dQG2Kom4/site-property) or [room](https://help.bsim.dk/support/kb/articles/dQG2Kom4/site-property).
+When the dialog box for specifying [default constructions](/07SimDB_Database/07_02_SimDB_BuildingElement.html) is opened from the [SimView menu](/06BSim_Program_structure/06_06_SimView_Menu.html), two tabs are displayed in addition to that for specifying default constructions. The Heatloss tab contains data for use when calculating the design heat loss of the [building](/24Miscellaneous/24_25_Site_Property.html) or [room](/24Miscellaneous/24_25_Site_Property.html).
 
 <figure id="center_img">
 <img src="./assets/HEATLOSS.GIF" alt="Default data for calculating the design heat loss for the model.">
@@ -9,4 +9,4 @@ When the dialog box for specifying [default constructions](https://help.bsim.dk/
 </figure>
 
 
-Before simulating a [heat pump](https://help.bsim.dk/support/kb/articles/aWxnopQV/varmepumpe-system) it is necessary to define the design parameters for the heat pump. This is done by clicking OK in this dialog.
+Before simulating a [heat pump](/11Systems/11_20_Heat_pump.html) it is necessary to define the design parameters for the heat pump. This is done by clicking OK in this dialog.

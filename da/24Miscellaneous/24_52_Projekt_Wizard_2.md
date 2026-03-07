@@ -16,5 +16,5 @@ Ved tryk på knappen med dobbelt-pilen ">>" åbnes en dialog til valg af eksiste
 <figcaption>Databasen "SbiData.mdb" er den database som leveres med BSim og opdateres ved programopdateringer. "MoistDat.mdb" leveres sammen med BSim og indeholder futgttekniske egenskaber for materialerne i "SbiData.mdb".</figcaption>
 </figure>
 
-[Næste >](https://help.bsim.dk/support/kb/articles/BWzd0LQE/projekt-wizard-3) dialog i Wizard'en
+[Næste >](/24Miscellaneous/24_53_Projekt_Wizard_3.html) dialog i Wizard'en
 

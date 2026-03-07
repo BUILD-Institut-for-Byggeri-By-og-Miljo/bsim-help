@@ -22,4 +22,4 @@ På fanebladet *Additional* findes data som er nødvendige for at benytte den ud
 
 *   *Source of Data* er et tekstfelt som giver mulighed for at beskrive hvorfra de givne data stammer som en dokumentation af beregningerne.
 
-Algoritmerne for beregning af glastemperaruren kan ses i [Det matematiske grundlag](https://bsim.outseta.com/support/kb/articles/XQYdn7mP/beregning-af-glastemperatur).
+Algoritmerne for beregning af glastemperaruren kan ses i [Det matematiske grundlag](/20The_Mathematical_Basis/20_09_Calculation_of_the_glass_temperature.html).

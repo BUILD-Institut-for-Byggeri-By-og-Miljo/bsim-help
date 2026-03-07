@@ -5,9 +5,9 @@
 
 Følgende systemer kan tilknyttes enhver Windoor:
 
-*   [Regulation (naturlig ventilation)](https://help.bsim.dk/support/kb/articles/y9gB57QM/regulation)
+*   [Regulation (naturlig ventilation)](/11Systems/11_11_Natural_ventilation.html)
 
-*   [Shutter (isolerende natskodder)](https://help.bsim.dk/support/kb/articles/ZmNrMxm2/shutter-system)
+*   [Shutter (isolerende natskodder)](/11Systems/11_15_Systems_shutter.html)
 
-*   [SolarShading (solafskærmning for at hindre overhedning)](https://help.bsim.dk/support/kb/articles/7maw8X9E/shading-system)
+*   [SolarShading (solafskærmning for at hindre overhedning)](/11Systems/11_16_Systems_shading.html)
 

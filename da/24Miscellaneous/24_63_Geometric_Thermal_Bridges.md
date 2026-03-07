@@ -16,4 +16,4 @@ De geometriske kuldebroer bliver håndteret i BSim, så beregningerne bliver gen
 
 Justeringen af varmetabet sker som en procentvis forøgelse af alle materialelags λ-værdier og varmekapacitet (r·C<sub>p</sub> produktet). Beregningen af den justerede U-værdi på grund af geometriske kuldebroer sker på baggrund af delflader. Det har derfor stor betydning hvis en flade er opsplittet langs en kant og dermed har et relativt meget større udvendigt end indvendigt areal.
 
-Eneste undtagelse, ifølge DS418, er samlingen mellem facade, gulv og fundament. Her sker beregningen af varmetabet som hidtil, gennem de indvendige mål. Kuldebroen i forbindelse med denne samling skal behandles som en [konstruktiv kuldebro](https://help.bsim.dk/support/kb/articles/NmdK5OW0/kuldebroer).
+Eneste undtagelse, ifølge DS418, er samlingen mellem facade, gulv og fundament. Her sker beregningen af varmetabet som hidtil, gennem de indvendige mål. Kuldebroen i forbindelse med denne samling skal behandles som en [konstruktiv kuldebro](/24Miscellaneous/24_63_Geometric_Thermal_Bridges.html).

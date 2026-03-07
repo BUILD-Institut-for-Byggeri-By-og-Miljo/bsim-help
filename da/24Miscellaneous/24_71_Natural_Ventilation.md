@@ -8,7 +8,7 @@
 
 <br>
 
-Fanebladet Natural Vententilation (*vises kun hvis der er erhvervet licens til udvidelsesmodulet Natural Ventilation under BSim*) giver adgang til definition af parametre for vinduet til [simulering af naturlig ventilation](https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system) (udluftning) på grundlag af forskel i ude- indetemperatur samt vindhastighed og vindretning.
+Fanebladet Natural Vententilation (*vises kun hvis der er erhvervet licens til udvidelsesmodulet Natural Ventilation under BSim*) giver adgang til definition af parametre for vinduet til [simulering af naturlig ventilation](/11Systems/11_11_Natural_ventilation.html) (udluftning) på grundlag af forskel i ude- indetemperatur samt vindhastighed og vindretning.
 
 <figure id="center_img">
 <img src="./assets/nat_vent.gif" alt="Faneblad under WinDoor property dialogen som giver mulighed for at definere parametre til simulering af naturlig ventilation.">
@@ -16,7 +16,7 @@ Fanebladet Natural Vententilation (*vises kun hvis der er erhvervet licens til u
 </figure>
 
 
-*   *Cd*: [Udstrømningskoefficient](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) (discharge coefficient) som er bestemt af vinduets udformning.
+*   *Cd*: [Udsrtømningskoefficient](/11Systems/11_11_Natural_ventilation.html) (discharge coefficient) som er bestemt af vinduets udformning.
 
 *   *Cnt*: Angiver åbningens geometriske center (0-1). Centeret er placeret i afstanden *Cnt*H* over vinduets underkant, hvor *H* er vinduets totale højde.   
 *Eksempel*: For et vindue med vandret åbning og hængsling i toppen af vinduet, vil åbningens centrum være placeret ca. 20 % af vinduets højde fra vinduets underkant (rektangulær, vandret åbning langs vinduets bund og trekantede, lodrette åbning langs siderne) og *Cnt*-værdien sættes til 0,2.
@@ -25,6 +25,6 @@ Fanebladet Natural Vententilation (*vises kun hvis der er erhvervet licens til u
 
     *   Skitsen til højre illustrer BSim's opfattelse af åbningen og inddata.
 
-*   *Ka:* [Koefficienten](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) bruges i forbindelse med bestemmelse af størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
+*   *Ka:* [Koefficienten](/11Systems/11_11_Natural_ventilation.html) bruges i forbindelse med bestemmelse af størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modssætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
 
  

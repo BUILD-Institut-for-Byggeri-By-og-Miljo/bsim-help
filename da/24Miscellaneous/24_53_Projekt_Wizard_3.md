@@ -9,5 +9,5 @@ Når databasen er valgt kan der vælges imellem forskellige typer af bygninger, 
 <figcaption>Bygningstypen vælges og standardprofiler indsættes for brug i modellen.</figcaption>
 </figure>
 
-Nu er standarddata inkluderet i modellen og der kan [oprettes en bygning](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning).
+Nu er standarddata inkluderet i modellen og der kan [oprettes en bygning](/06BSim_Program_structure/06_09_SimView_Creating_a_building.html).
 

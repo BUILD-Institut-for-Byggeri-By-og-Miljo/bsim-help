@@ -13,7 +13,7 @@ Dialogen åbnes ved at højre klikke på Site ikonen <img src="./assets/Site.gif
 
 *   *Browse*: Åbner en dialog for valg af klimadatafil. Ved siden af *Browse*-knappen vises information om de valgte klimadata. Hvis der ikke er valgt en klimadatafil eller BSim ikke kan finde filen, åbner dialogen i mappen *Climate*, som er/skal være en undermappe til den mappe hvor BSim er installeret.
 
-*   [Ground](https://help.bsim.dk/support/kb/articles/OW4NqGQg/jord-ground): Åbner en dialog for definition af den fiktive zone jord.
+*   [Ground](/24Miscellaneous/24_26_Ground.html): Åbner en dialog for definition af den fiktive zone jord.
 
 *   *Location* indeholder information, hentet fra klimadatafilen hvis en sådan er valgt, om placeringen af klimadata.
 
@@ -37,7 +37,7 @@ Dialogen åbnes ved at højre klikke på Site ikonen <img src="./assets/Site.gif
 
     *   *Emmisivity* er jordoverfladens/omgivelsenes emmisivitet.
 
-*   *Terrain Type* angiver hvor udsat bygningen er for vindpåvirkning. Informationen benyttes i forbindelse med [simulering af naturlig ventilation](https://bsim.outseta.com/support/kb/articles/49EdKkQ7/naturlig-ventilation) (udvidelsesmodul til BSim). Der kan vælges følgende terræntyper:
+*   *Terrain Type* angiver hvor udsat bygningen er for vindpåvirkning. Informationen benyttes i forbindelse med [simulering af naturlig ventilation](/11Systems/11_11_Natural_ventilation.html) (udvidelsesmodul til BSim). Der kan vælges følgende terræntyper:
 
     *   Åbent, fladt land.
 

@@ -11,6 +11,6 @@ Modellens placering vises nederst på grafen. Tilhørsforholdet til de forskelli
 
 Det et muligt at fastlåse y-aksens maksimum og minimum værdier så akseinddelingerne ikke ændres fra den ene periode til den næste.
 
-Dialogen for angivelse af y-aksens skala kaldes frem ved tryk på [Yscale-knappen](https://help.bsim.dk/support/kb/articles/wmjn7BmV/graph-scale).
+Dialogen for angivelse af y-aksens skala kaldes frem ved tryk på [Yscale-knappen](/13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.html).
 
-Det er muligt at manipulere med den grafiske visning af timeværdierne som beskrevet i afsnittet [ændring af den grafiske afbildning af resultater](https://help.bsim.dk/support/kb/articles/aWxnxAQV/andring-af-den-grafiske-afbildning-af-resultater).
+Det er muligt at manipulere med den grafiske visning af timeværdierne som beskrevet i afsnittet [ændring af den grafiske afbildning af resultater](/13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.html).

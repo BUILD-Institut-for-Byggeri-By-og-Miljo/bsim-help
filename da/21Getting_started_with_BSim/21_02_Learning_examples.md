@@ -7,22 +7,22 @@ I dette afsnit gives eksempler på den praktiske anvendelse af BSim lige fra vej
 
 Gennem 3 eksempler beskrives modelopbygning samt simulering og resultatbehandling som en fortløbende proces for den samme bygningsmodel, således at de fleste aspekter af programanvendelsen forklares trin for trin.
 
-En mere overordtnet gennemgang af de enkelte trin ved [opbygning af en model](https://bsim.outseta.com/support/kb/articles/y9q8azQA/opbygning-af-model) findes som en ordnet række af links til sider i brugervejledningen som beskriver det enkelte trin i opbygning af en model til simulering og resultatbehandling.
+En mere overordtnet gennemgang af de enkelte trin ved [opbygning af en model](/21Getting_started_with_BSim/21_01_Constructing_a_model.html) findes som en ordnet række af links til sider i brugervejledningen som beskriver det enkelte trin i opbygning af en model til simulering og resultatbehandling.
 
-For at give brugeren mulighed for hurtigt at sætte sig ind i programmets vigtigste funktioner, anvendes der som eksempel en meget simpel bygning, for hvilken der gradvist opbygges en BSim-model. Dette betyder, at ikke alle detaljer af programmet beskrives gennem eksemplerne. For en beskrivelse af emner, som ikke behandles her, samt en uddybende forklaring til de enkelte dele af bygningsmodellen, henvises til beskrivelsen af de enkelte dialoger og til [Det matematiske grundlag](https://bsim.outseta.com/support/kb/articles/BWzd4NQE/det-matematiske-grundlag).
+For at give brugeren mulighed for hurtigt at sætte sig ind i programmets vigtigste funktioner, anvendes der som eksempel en meget simpel bygning, for hvilken der gradvist opbygges en BSim-model. Dette betyder, at ikke alle detaljer af programmet beskrives gennem eksemplerne. For en beskrivelse af emner, som ikke behandles her, samt en uddybende forklaring til de enkelte dele af bygningsmodellen, henvises til beskrivelsen af de enkelte dialoger og til [Det matematiske grundlag](/20The_Mathematical_Basis/20_01_The_Mathematical_Basis.html).
   
 
 #### **Tre eksempler**
 
 Eksemplerne beskriver, hvorledes bygningsmodellen gradvist opbygges, hvordan modellen kontrolleres, hvorledes simuleringer forberedes og gennemføres samt, hvordan resultaterne kan analyseres.
 
-[EKS1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1)   Start af BSim, indlæsning af bygninger med rum og flader, konstruktioner og vinduer, kopiering af data samt gem modellen.
+[EKS1](/21Getting_started_with_BSim/21_03_Example_1.html)   Start af BSim, indlæsning af bygninger med rum og flader, konstruktioner og vinduer, kopiering af data samt gem modellen.
 
-[EKS2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2)   Åbning af eksisterende model, indlæsning af systemer og tidsplaner samt gennemførsel af de første simuleringer og behandling af resultaterne herfra.
+[EKS2](/21Getting_started_with_BSim/21_04_Example_2.html)   Åbning af eksisterende model, indlæsning af systemer og tidsplaner samt gennemførsel af de første simuleringer og behandling af resultaterne herfra.
 
-[EKS3](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3)   Detaljering af bygningsmodellen, tilføjelser af skyggegivere, ændring af rudetype samt tilføjelse af solafskærmning og ventilationsanlæg. Ny simulering, resultatanalyse og sammenligning med tidligere resultater, oprettelse af parameterlister, udskrift i tabeller og grafik.
+[EKS3](/21Getting_started_with_BSim/21_05_Example_3.html)   Detaljering af bygningsmodellen, tilføjelser af skyggegivere, ændring af rudetype samt tilføjelse af solafskærmning og ventilationsanlæg. Ny simulering, resultatanalyse og sammenligning med tidligere resultater, oprettelse af parameterlister, udskrift i tabeller og grafik.
 
-Ved gennemgangen af eksemplerne forudsættes det, at brugeren har læst afsnittene om programmets [centrale brugergrænsflade (SimView)](https://bsim.outseta.com/support/kb/articles/wQXx2xQK/simview) og er fortrolig med [håndtering af mus](https://bsim.outseta.com/support/kb/articles/DQ2xp4WV/operationer-med-musen-i-simview) og tastatur i BSim samt har kendskab til brug af programmer under MS-Windows.
+Ved gennemgangen af eksemplerne forudsættes det, at brugeren har læst afsnittene om programmets [centrale brugergrænsflade (SimView)](/09SimView/09_01_SimView.html) og er fortrolig med [håndtering af mus](/06BSim_Program_structure/06_03_Mouse_operations_in_SimView.html) og tastatur i BSim samt har kendskab til brug af programmer under MS-Windows.
 
 
 
@@ -44,13 +44,13 @@ Selv om der er to rum i bygningen, regnes den i dette eksempel som én termisk z
 
 **Randbetingelser**
 
-Som udeklima benyttes data fra det [danske design referenceår](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur), DRY, hvorfra de nødvendige vejrparametre findes på BSim format som filen CPH.DRY. For alle udvendige vægge samt taget vender den ene side mod udeluften. Gulvet er i termisk kontakt med en fiktiv zone (jorden) med en fast temperatur på 10 °C. Refleksionen af solstråling fra omgivelserne er 20 %. De udvendige overflader har en absorptionskoefficient for solstråling på 0,7.
+Som udeklima benyttes data fra det [danske design referenceår](/20The_Mathematical_Basis/20_28_Literature.html), DRY, hvorfra de nødvendige vejrparametre findes på BSim format som filen CPH.DRY. For alle udvendige vægge samt taget vender den ene side mod udeluften. Gulvet er i termisk kontakt med en fiktiv zone (jorden) med en fast temperatur på 10 °C. Refleksionen af solstråling fra omgivelserne er 20 %. De udvendige overflader har en absorptionskoefficient for solstråling på 0,7.
 
  
 
 **Overgangsisolanser**
 
-Overgangsisolansen sættes på flader defineres jf. [DS 418](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) som angivet i standardværdier.
+Overgangsisolansen sættes på flader defineres jf. [DS 418](/20The_Mathematical_Basis/20_28_Literature.html) som angivet i standardværdier.
 
  
 
@@ -106,5 +106,5 @@ Vinduet er trukket lidt tilbage fra facaden, således at rudens plan ligger 0,1 
 
 #### **Øvrige data for eksemplet**
 
-Ud fra ovenstående beskrivelse skal den bygningsmæssige del af modellen indlæses i BSim. Øvrige data for systemer, solafskærmninger, skygger mv. beskrives i [eksempel 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2).
+Ud fra ovenstående beskrivelse skal den bygningsmæssige del af modellen indlæses i BSim. Øvrige data for systemer, solafskærmninger, skygger mv. beskrives i [eksempel 2](/21Getting_started_with_BSim/21_04_Example_2.html).
 
