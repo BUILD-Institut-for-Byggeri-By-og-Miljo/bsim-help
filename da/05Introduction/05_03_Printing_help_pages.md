@@ -31,4 +31,4 @@ Hjælpeteksten er dannet som en Internet hjemmeside. Udskriften vil derfor forl�
 
 Se også:
 
-*   [Læsevejledning.](/04Users_guide/04_02_Reading_guide.html)
+*   [Læsevejledning.](/05_04_Reader_guidelines.html)
