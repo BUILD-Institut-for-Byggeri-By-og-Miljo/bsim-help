@@ -1,9 +1,13 @@
 {
     "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
         "remove-honkit-footer",
         "language-picker@https://github.com/okalachev/gitbook-plugin-language-picker.git",
         "mathjax-fix",
-        "head-append"
+        "head-append",
+        "category-accordion"
     ],
     "pluginsConfig": {
         "head-append": {

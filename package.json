@@ -1,10 +1,11 @@
 {
   "devDependencies": {
+    "gitbook-plugin-category-accordion": "file:plugins/category-accordion",
     "gitbook-plugin-head-append": "^1.1.1",
     "gitbook-plugin-language-picker": "^0.1.0",
+    "gitbook-plugin-mathjax-fix": "file:plugins/mathjax-fix",
     "gitbook-plugin-remove-honkit-footer": "file:plugins/remove-honkit-footer",
-    "honkit": "^6.0.3",
-    "gitbook-plugin-mathjax-fix": "file:plugins/mathjax-fix"
+    "honkit": "^6.0.3"
   },
   "scripts": {
     "build": "honkit build",
@@ -90,6 +91,7 @@
     "gitbook-plugin-livereload": "^0.0.1",
     "gitbook-plugin-lunr": "^1.2.0",
     "gitbook-plugin-search": "^2.2.1",
+    "gitbook-plugin-search-pro": "^2.0.2",
     "github-slugid": "^1.0.1",
     "glob": "^7.1.3",
     "glob-parent": "^5.1.2",

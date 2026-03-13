@@ -1,0 +1,4173 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Implementation of mzm · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-category-accordion/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles.css">
+        
+    
+
+        
+
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="20_18_Control_systems_in_the_multi-zone_model.html" />
+    
+    
+    <link rel="prev" href="20_16_System_for_air_exchange.html" />
+    
+
+<script>window.MathJax = { tex: { inlineMath: [[\"\\\(\",\"\\\)\"],[\"$\",\"$\"]], displayMath: [[\"\\\[\",\"\\\]\"],[\"$$\",\"$$\"]], packages: {'[+]': ['ams','textmacros']}, processEscapes: true }, options: { skipHtmlTags: [\"script\",\"noscript\",\"style\",\"textarea\",\"pre\",\"code\"] } };</script>
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script>
+<script>(function(){function cleanNBSP(root){var t=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null,false);var n;while((n=t.nextNode())){if(n.nodeValue.indexOf('\u00A0')!==-1){n.nodeValue=n.nodeValue.replace(/\u00A0/g,' ');}}}function ts(){if(window.MathJax&&window.MathJax.typesetPromise){cleanNBSP(document.body);return window.MathJax.typesetPromise();}}function bind(){if(window.gitbook&&gitbook.events){gitbook.events.bind('page.change',ts);}document.addEventListener('DOMContentLoaded',ts);}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',bind);}else{bind();}})();</script>
+<script>document.addEventListener('DOMContentLoaded',function(){var l=document.createElement('link');l.rel='stylesheet';l.href=new URL('styles.css', document.baseURI).toString();document.head.appendChild(l);});</script>
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Users Guide</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../04Users_guide/04_01_Colophone.html">
+            
+                <a href="../04Users_guide/04_01_Colophone.html">
+            
+                    
+                    Colophone
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../04Users_guide/04_02_Foreword.html">
+            
+                <a href="../04Users_guide/04_02_Foreword.html">
+            
+                    
+                    Foreword
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../04Users_guide/04_03_Contents.html">
+            
+                <a href="../04Users_guide/04_03_Contents.html">
+            
+                    
+                    BSim - Contents
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../05Introduction/05_01_Terms_of_delivery_and_liability.html">
+            
+                <a href="../05Introduction/05_01_Terms_of_delivery_and_liability.html">
+            
+                    
+                    Terms of delivery and liability
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../05Introduction/05_02_Help_structure.html">
+            
+                <a href="../05Introduction/05_02_Help_structure.html">
+            
+                    
+                    Help structure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../05Introduction/05_03_Printing_help_pages.html">
+            
+                <a href="../05Introduction/05_03_Printing_help_pages.html">
+            
+                    
+                    Printing help pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../05Introduction/05_04_Reader_guidelines.html">
+            
+                <a href="../05Introduction/05_04_Reader_guidelines.html">
+            
+                    
+                    Reader guidelines
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../05Introduction/05_05_Limitations.html">
+            
+                <a href="../05Introduction/05_05_Limitations.html">
+            
+                    
+                    Limitations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../05Introduction/05_06_Shortcut_keys.html">
+            
+                <a href="../05Introduction/05_06_Shortcut_keys.html">
+            
+                    
+                    Shortcut keys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../05Introduction/05_07_Dictionary.html">
+            
+                <a href="../05Introduction/05_07_Dictionary.html">
+            
+                    
+                    Dictionary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../05Introduction/05_08_File_types.html">
+            
+                <a href="../05Introduction/05_08_File_types.html">
+            
+                    
+                    File types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../05Introduction/05_09_Questions_via_e-mail.html">
+            
+                <a href="../05Introduction/05_09_Questions_via_e-mail.html">
+            
+                    
+                    Questions via e-mail
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../05Introduction/05_10_Virus.html">
+            
+                <a href="../05Introduction/05_10_Virus.html">
+            
+                    
+                    Virus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">BSim Program Structure</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../06BSim_Program_structure/06_01_Structure_of_BSim.html">
+            
+                <a href="../06BSim_Program_structure/06_01_Structure_of_BSim.html">
+            
+                    
+                    Structure of BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../06BSim_Program_structure/06_02_About_BSim.html">
+            
+                <a href="../06BSim_Program_structure/06_02_About_BSim.html">
+            
+                    
+                    About BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../06BSim_Program_structure/06_03_Mouse_operations_in_SimView.html">
+            
+                <a href="../06BSim_Program_structure/06_03_Mouse_operations_in_SimView.html">
+            
+                    
+                    Mouse operations in SimView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../06BSim_Program_structure/06_04_Program_menus_in_BSim.html">
+            
+                <a href="../06BSim_Program_structure/06_04_Program_menus_in_BSim.html">
+            
+                    
+                    Program menus in BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../06BSim_Program_structure/06_05_SimView_Toolbar.html">
+            
+                <a href="../06BSim_Program_structure/06_05_SimView_Toolbar.html">
+            
+                    
+                    SimView - Toolbar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../06BSim_Program_structure/06_06_SimView_Menu.html">
+            
+                <a href="../06BSim_Program_structure/06_06_SimView_Menu.html">
+            
+                    
+                    SimView - Menu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../06BSim_Program_structure/06_07_SimView_Printing_a_model.html">
+            
+                <a href="../06BSim_Program_structure/06_07_SimView_Printing_a_model.html">
+            
+                    
+                    SimView - Printing a model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../06BSim_Program_structure/06_08_Error_messages.html">
+            
+                <a href="../06BSim_Program_structure/06_08_Error_messages.html">
+            
+                    
+                    Error messages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../06BSim_Program_structure/06_09_SimView_Creating_a_building.html">
+            
+                <a href="../06BSim_Program_structure/06_09_SimView_Creating_a_building.html">
+            
+                    
+                    SimView - Creating a building
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimDB Database</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../07SimDB_Database/07_01_The_SimDB_database.html">
+            
+                <a href="../07SimDB_Database/07_01_The_SimDB_database.html">
+            
+                    
+                    The SimDB database
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../07SimDB_Database/07_02_SimDB_BuildingElement.html">
+            
+                <a href="../07SimDB_Database/07_02_SimDB_BuildingElement.html">
+            
+                    
+                    SimDB - BuildingElement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.html">
+            
+                <a href="../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.html">
+            
+                    
+                    SimDB - BuildingElement, ConstructionLayer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.html">
+            
+                <a href="../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.html">
+            
+                    
+                    SimDB - BuildingElement, MaterialAmount
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.html">
+            
+                <a href="../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.html">
+            
+                    
+                    Material layers for BuildingConstruction - WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../07SimDB_Database/07_06_SimDB_BuildingMaterial.html">
+            
+                <a href="../07SimDB_Database/07_06_SimDB_BuildingMaterial.html">
+            
+                    
+                    SimDB - BuildingMaterial
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.html">
+            
+                <a href="../07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.html">
+            
+                    
+                    SimDB - BuildingMaterial, Environment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.html">
+            
+                <a href="../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.html">
+            
+                    
+                    SimDB - BuildingMaterial, Finish
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="../07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.html">
+            
+                <a href="../07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.html">
+            
+                    
+                    SimDB - BuildingMaterial, Frame
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html">
+            
+                <a href="../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html">
+            
+                    
+                    SimDB - BuildingMaterial, Glazing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.html">
+            
+                <a href="../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.html">
+            
+                    
+                    SimDB - BuildingMaterial, Material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html">
+            
+                <a href="../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html">
+            
+                    
+                    SimDB - BuildingMaterial, Thermal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.html">
+            
+                <a href="../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.html">
+            
+                    
+                    SimDb - BuildingMaterial, PCM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.html">
+            
+                <a href="../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.html">
+            
+                    
+                    SimDB - BuildingMaterial, Moisture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="../07SimDB_Database/07_15_SimDB_PV-materials.html">
+            
+                <a href="../07SimDB_Database/07_15_SimDB_PV-materials.html">
+            
+                    
+                    SimDB - PV-materials
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.html">
+            
+                <a href="../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.html">
+            
+                    
+                    SimDB - BuildingMaterial, UserDefined
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">CAD drawings as a basis for geometry</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.html">
+            
+                    
+                    CAD drawings as a basis for geometry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.html">
+            
+                    
+                    SimDXF - Opening a DXF drawing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.html">
+            
+                    
+                    SimDXF - Selecting the DXF filter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_04_SimDXF_Adding_as_an_application.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_04_SimDXF_Adding_as_an_application.html">
+            
+                    
+                    SimDXF - Adding as an application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_05_SimDXF_Faces.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_05_SimDXF_Faces.html">
+            
+                    
+                    SimDXF - Faces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_06_SimDXF_Spaces.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_06_SimDXF_Spaces.html">
+            
+                    
+                    SimDXF - Spaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_07_SimDXF_Drawing_revisions.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_07_SimDXF_Drawing_revisions.html">
+            
+                    
+                    SimDXF - Drawing revisions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.html">
+            
+                    
+                    SimDXF - WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.html">
+            
+                <a href="../08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.html">
+            
+                    
+                    SimDXF - Creating nodes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimView</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../09SimView/09_01_SimView.html">
+            
+                <a href="../09SimView/09_01_SimView.html">
+            
+                    
+                    SimView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../09SimView/09_02_SimView_Editing_the_model_geometry.html">
+            
+                <a href="../09SimView/09_02_SimView_Editing_the_model_geometry.html">
+            
+                    
+                    SimView - Editing the model geometry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../09SimView/09_03_Property_dialogs_in_SimView.html">
+            
+                <a href="../09SimView/09_03_Property_dialogs_in_SimView.html">
+            
+                    
+                    Property dialogs in SimView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../09SimView/09_04_Documentation_of_model.html">
+            
+                <a href="../09SimView/09_04_Documentation_of_model.html">
+            
+                    
+                    Documentation of model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="../09SimView/09_05_Sim_View_Virtual_zones.html">
+            
+                <a href="../09SimView/09_05_Sim_View_Virtual_zones.html">
+            
+                    
+                    SimView - Virtual zones
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="../09SimView/09_06_Construction_Property.html">
+            
+                <a href="../09SimView/09_06_Construction_Property.html">
+            
+                    
+                    Construction Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="../09SimView/09_07_WinDoor_Property.html">
+            
+                <a href="../09SimView/09_07_WinDoor_Property.html">
+            
+                    
+                    WinDoor Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="../09SimView/09_08_Thermal_bridges.html">
+            
+                <a href="../09SimView/09_08_Thermal_bridges.html">
+            
+                    
+                    Thermal bridges
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="../09SimView/09_09_SimView_Non_default_constructions.html">
+            
+                <a href="../09SimView/09_09_SimView_Non_default_constructions.html">
+            
+                    
+                    SimView - Non-default constructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="../09SimView/09_10_Climate_data.html">
+            
+                <a href="../09SimView/09_10_Climate_data.html">
+            
+                    
+                    Climate data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" data-path="../09SimView/09_11_Model_information.html">
+            
+                <a href="../09SimView/09_11_Model_information.html">
+            
+                    
+                    Model information
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" data-path="../09SimView/09_12_Model_wizard_creating_a_new_model.html">
+            
+                <a href="../09SimView/09_12_Model_wizard_creating_a_new_model.html">
+            
+                    
+                    Model wizard - creating a new model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13" data-path="../09SimView/09_13_SimView_Move.html">
+            
+                <a href="../09SimView/09_13_SimView_Move.html">
+            
+                    
+                    SimView - Move
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14" data-path="../09SimView/09_14_SimView_Creating_a_building.html">
+            
+                <a href="../09SimView/09_14_SimView_Creating_a_building.html">
+            
+                    
+                    SimView - Creating a building
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.15" data-path="../09SimView/09_15_SimView_Creating_a_space.html">
+            
+                <a href="../09SimView/09_15_SimView_Creating_a_space.html">
+            
+                    
+                    SimView - Creating a space
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.16" data-path="../09SimView/09_16_SimView_Options.html">
+            
+                <a href="../09SimView/09_16_SimView_Options.html">
+            
+                    
+                    SimView - Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Thermal zones</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../10Thermal_zones/10_01_Thermal_Zone_property.html">
+            
+                <a href="../10Thermal_zones/10_01_Thermal_Zone_property.html">
+            
+                    
+                    Thermal Zone property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html">
+            
+                <a href="../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html">
+            
+                    
+                    SimView - Adding spaces to thermal zones
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../10Thermal_zones/10_03_Reference_point.html">
+            
+                <a href="../10Thermal_zones/10_03_Reference_point.html">
+            
+                    
+                    Reference point
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../10Thermal_zones/10_04_SimView_Editing_the_model_geometry.html">
+            
+                <a href="../10Thermal_zones/10_04_SimView_Editing_the_model_geometry.html">
+            
+                    
+                    SimView - Editing the model geometry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="../10Thermal_zones/10_05_Shadows_from_the_surroundings.html">
+            
+                <a href="../10Thermal_zones/10_05_Shadows_from_the_surroundings.html">
+            
+                    
+                    Shadows from the surroundings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" data-path="../10Thermal_zones/10_06_SimView_Default_constructions.html">
+            
+                <a href="../10Thermal_zones/10_06_SimView_Default_constructions.html">
+            
+                    
+                    SimView - Default constructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" data-path="../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.html">
+            
+                <a href="../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.html">
+            
+                    
+                    Solar light factors for WinDoors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8" data-path="../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html">
+            
+                <a href="../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html">
+            
+                    
+                    SimView - Adding an opening or WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9" data-path="../10Thermal_zones/10_09_SimView_Printing_a_model.html">
+            
+                <a href="../10Thermal_zones/10_09_SimView_Printing_a_model.html">
+            
+                    
+                    SimView - Printing a model
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Systems</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../11Systems/11_01_Systems.html">
+            
+                <a href="../11Systems/11_01_Systems.html">
+            
+                    
+                    SimView - Systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../11Systems/11_02_Systems_schedule.html">
+            
+                <a href="../11Systems/11_02_Systems_schedule.html">
+            
+                    
+                    Schedule, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="../11Systems/11_03_Systems_Lighting.html">
+            
+                <a href="../11Systems/11_03_Systems_Lighting.html">
+            
+                    
+                    Lighting, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="../11Systems/11_04_Systems_DayProfile.html">
+            
+                <a href="../11Systems/11_04_Systems_DayProfile.html">
+            
+                    
+                    DayProfile, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="../11Systems/11_05_Systems_Moisture.html">
+            
+                <a href="../11Systems/11_05_Systems_Moisture.html">
+            
+                    
+                    Moisture, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="../11Systems/11_06_Hydronic_constructive_heating_cooling.html">
+            
+                <a href="../11Systems/11_06_Hydronic_constructive_heating_cooling.html">
+            
+                    
+                    Hydronic constructive heating cooling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="../11Systems/11_07_Floor_Heating_Control.html">
+            
+                <a href="../11Systems/11_07_Floor_Heating_Control.html">
+            
+                    
+                    Floor Heating Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="../11Systems/11_08_Systems_Infiltration.html">
+            
+                <a href="../11Systems/11_08_Systems_Infiltration.html">
+            
+                    
+                    Infiltration, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.9" data-path="../11Systems/11_09_Systems_cooling.html">
+            
+                <a href="../11Systems/11_09_Systems_cooling.html">
+            
+                    
+                    Cooling, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.10" data-path="../11Systems/11_10_systems_mixing.html">
+            
+                <a href="../11Systems/11_10_systems_mixing.html">
+            
+                    
+                    Mixing, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.11" data-path="../11Systems/11_11_Natural_ventilation.html">
+            
+                <a href="../11Systems/11_11_Natural_ventilation.html">
+            
+                    
+                    Natural ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.12" data-path="../11Systems/11_12_Systems_Heating.html">
+            
+                <a href="../11Systems/11_12_Systems_Heating.html">
+            
+                    
+                    Heating, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.13" data-path="../11Systems/11_13_Systems_Persons.html">
+            
+                <a href="../11Systems/11_13_Systems_Persons.html">
+            
+                    
+                    Persons, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.14" data-path="../11Systems/11_14_Control_priority_for_systems.html">
+            
+                <a href="../11Systems/11_14_Control_priority_for_systems.html">
+            
+                    
+                    Control priority for systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.15" data-path="../11Systems/11_15_Systems_shutter.html">
+            
+                <a href="../11Systems/11_15_Systems_shutter.html">
+            
+                    
+                    Shutter, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.16" data-path="../11Systems/11_16_Systems_shading.html">
+            
+                <a href="../11Systems/11_16_Systems_shading.html">
+            
+                    
+                    Shading, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.17" data-path="../11Systems/11_17_Systems_Time.html">
+            
+                <a href="../11Systems/11_17_Systems_Time.html">
+            
+                    
+                    Time, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.18" data-path="../11Systems/11_18_Systems_Venting.html">
+            
+                <a href="../11Systems/11_18_Systems_Venting.html">
+            
+                    
+                    Venting, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.19" data-path="../11Systems/11_19_Systems_Equipment.html">
+            
+                <a href="../11Systems/11_19_Systems_Equipment.html">
+            
+                    
+                    Equipment, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.20" data-path="../11Systems/11_20_Heat_pump.html">
+            
+                <a href="../11Systems/11_20_Heat_pump.html">
+            
+                    
+                    Heat pump
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.21" data-path="../11Systems/11_21_Systems_Ventilation.html">
+            
+                <a href="../11Systems/11_21_Systems_Ventilation.html">
+            
+                    
+                    Ventilation, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.22" data-path="../11Systems/11_22_Ventilation_Moisture_control.html">
+            
+                <a href="../11Systems/11_22_Ventilation_Moisture_control.html">
+            
+                    
+                    Ventilation Moisture control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.23" data-path="../11Systems/11_23_Ventilation_Inlet_Control.html">
+            
+                <a href="../11Systems/11_23_Ventilation_Inlet_Control.html">
+            
+                    
+                    Ventilation Inlet Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.24" data-path="../11Systems/11_24_Ventilation_Night_Cooling_Control.html">
+            
+                <a href="../11Systems/11_24_Ventilation_Night_Cooling_Control.html">
+            
+                    
+                    Ventilation Night Cooling Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.25" data-path="../11Systems/11_25_Ventilation_Zone_Temperature_control.html">
+            
+                <a href="../11Systems/11_25_Ventilation_Zone_Temperature_control.html">
+            
+                    
+                    Ventilation Zone Temperature control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.26" data-path="../11Systems/11_26_Ventilation_VAV_control.html">
+            
+                <a href="../11Systems/11_26_Ventilation_VAV_control.html">
+            
+                    
+                    Ventilation VAV control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.27" data-path="../11Systems/11_27_NvCool_regulation_ventilation.html">
+            
+                <a href="../11Systems/11_27_NvCool_regulation_ventilation.html">
+            
+                    
+                    NvCool regulation ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.28" data-path="../11Systems/11_28_Ventilation_Recirculation.html">
+            
+                <a href="../11Systems/11_28_Ventilation_Recirculation.html">
+            
+                    
+                    Ventilation Recirculation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">The Kappa model</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../12The_Kappa_model/12_01_The_Kappa_model.html">
+            
+                <a href="../12The_Kappa_model/12_01_The_Kappa_model.html">
+            
+                    
+                    The Kappa model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="../12The_Kappa_model/12_02_Background.html">
+            
+                <a href="../12The_Kappa_model/12_02_Background.html">
+            
+                    
+                    Background
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="../12The_Kappa_model/12_03_The_Kappa_Model_Model_description.html">
+            
+                <a href="../12The_Kappa_model/12_03_The_Kappa_Model_Model_description.html">
+            
+                    
+                    The Kappa Model Model description
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="../12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.html">
+            
+                <a href="../12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.html">
+            
+                    
+                    The Kappa Model implementation in tsbi5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" data-path="../12The_Kappa_model/12_05_The_Kappa_Model_input_data.html">
+            
+                <a href="../12The_Kappa_model/12_05_The_Kappa_Model_input_data.html">
+            
+                    
+                    The Kappa Model input data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.6" data-path="../12The_Kappa_model/12_06_The_Kappa_Model_Nomenclature.html">
+            
+                <a href="../12The_Kappa_model/12_06_The_Kappa_Model_Nomenclature.html">
+            
+                    
+                    The Kappa Model Nomenclature
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.7" data-path="../12The_Kappa_model/12_07_The_Kappa_Model_References.html">
+            
+                <a href="../12The_Kappa_model/12_07_The_Kappa_Model_References.html">
+            
+                    
+                    The Kappa Model References
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">tsbi5 thermal simulation</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../13tsbi5_thermal_simulation/13_01_tsbi5.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_01_tsbi5.html">
+            
+                    
+                    tsbi5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../13tsbi5_thermal_simulation/13_02_tsbi5_options.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_02_tsbi5_options.html">
+            
+                    
+                    tsbi5 options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.html">
+            
+                    
+                    Converting weather data for tsbi5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.html">
+            
+                    
+                    tsbi5 simulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="../13tsbi5_thermal_simulation/13_05_tsbi5_Batch.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_05_tsbi5_Batch.html">
+            
+                    
+                    tsbi5 Batch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="../13tsbi5_thermal_simulation/13_06_tsbi5_Exporting_to_tsbi3.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_06_tsbi5_Exporting_to_tsbi3.html">
+            
+                    
+                    tsbi5 Exporting to tsbi3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.html">
+            
+                    
+                    tsbi5 HeatBalance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.8" data-path="../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html">
+            
+                    
+                    tsbi5 Parameters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.9" data-path="../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html">
+            
+                    
+                    tsbi5 Tables
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.10" data-path="../13tsbi5_thermal_simulation/13_10_tsbi5_Exporting_to_CFD_program.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_10_tsbi5_Exporting_to_CFD_program.html">
+            
+                    
+                    tsbi5 Exporting to CFD program
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.11" data-path="../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.html">
+            
+                    
+                    Parameters in the result log
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.12" data-path="../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.html">
+            
+                    
+                    Modifying the graphical presentation of results
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.13" data-path="../13tsbi5_thermal_simulation/13_13_Chart_Designer.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_13_Chart_Designer.html">
+            
+                    
+                    Chart Designer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.14" data-path="../13tsbi5_thermal_simulation/13_14_Chart_Wizard.html">
+            
+                <a href="../13tsbi5_thermal_simulation/13_14_Chart_Wizard.html">
+            
+                    
+                    Chart Wizard
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">XSun Analysis of incident solar radiation</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.html">
+            
+                <a href="../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.html">
+            
+                    
+                    Analysis of incident solar radiation with XSun
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="../14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_menu.html">
+            
+                <a href="../14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_menu.html">
+            
+                    
+                    XSun menu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.html">
+            
+                <a href="../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.html">
+            
+                    
+                    XSun video
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimLight Daylight calculations</li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.html">
+            
+                <a href="../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.html">
+            
+                    
+                    Daylight calculations with SimLight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="12.2" data-path="../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html">
+            
+                <a href="../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html">
+            
+                    
+                    Daylight calculation at a point
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="12.3" data-path="../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.html">
+            
+                <a href="../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.html">
+            
+                    
+                    Daylight calculation on a plane
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimPV</li>
+        
+        
+    
+        <li class="chapter " data-level="13.1" data-path="../16SimPV/16_01_SimPV.html">
+            
+                <a href="../16SimPV/16_01_SimPV.html">
+            
+                    
+                    SimPV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.2" data-path="../16SimPV/16_02_Adding_solar_cells_to_the_model.html">
+            
+                <a href="../16SimPV/16_02_Adding_solar_cells_to_the_model.html">
+            
+                    
+                    Adding solar cells to the model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.3" data-path="../16SimPV/16_03_PV_property.html">
+            
+                <a href="../16SimPV/16_03_PV_property.html">
+            
+                    
+                    PV property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.4" data-path="../16SimPV/16_04_SimDB_PV_materials.html">
+            
+                <a href="../16SimPV/16_04_SimDB_PV_materials.html">
+            
+                    
+                    SimDB PV materials
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Hd98 Heating Demand Calculation</li>
+        
+        
+    
+        <li class="chapter " data-level="14.1" data-path="../17Hd98_Heating_Demand_Calculation/17_01_Calculating_with_Hd98.html">
+            
+                <a href="../17Hd98_Heating_Demand_Calculation/17_01_Calculating_with_Hd98.html">
+            
+                    
+                    Calculating with Hd98
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Radiance Visualisation of the building</li>
+        
+        
+    
+        <li class="chapter " data-level="15.1" data-path="../18Radiance_Visualisation_og_the_building/18_01_Exporting_data_to_Radiance.html">
+            
+                <a href="../18Radiance_Visualisation_og_the_building/18_01_Exporting_data_to_Radiance.html">
+            
+                    
+                    Exporting data to Radiance
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">BSim and other windows programs</li>
+        
+        
+    
+        <li class="chapter " data-level="16.1" data-path="../19BSim_and_other_windows_programs/19_01_BSim_and_other_Windows_programs.html">
+            
+                <a href="../19BSim_and_other_windows_programs/19_01_BSim_and_other_Windows_programs.html">
+            
+                    
+                    BSim and other Windows programs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">The Mathematical basis</li>
+        
+        
+    
+        <li class="chapter " data-level="17.1" data-path="20_01_The_Mathematical_Basis.html">
+            
+                <a href="20_01_The_Mathematical_Basis.html">
+            
+                    
+                    The Mathematical Basis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.2" data-path="20_02_Building_description_and_definition_of_nodes_in_constructions.html">
+            
+                <a href="20_02_Building_description_and_definition_of_nodes_in_constructions.html">
+            
+                    
+                    Building description and definition of nodes in constructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.3" data-path="20_03_daylight_calculations_in_simlight.html">
+            
+                <a href="20_03_daylight_calculations_in_simlight.html">
+            
+                    
+                    Daylight calculations in simlight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.4" data-path="20_04_Moisture_balance_for_a_zone.html">
+            
+                <a href="20_04_Moisture_balance_for_a_zone.html">
+            
+                    
+                    Moisture balance for a zone
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.5" data-path="20_05_Detailed_Moisture_balance.html">
+            
+                <a href="20_05_Detailed_Moisture_balance.html">
+            
+                    
+                    Detailed Moisture balance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.6" data-path="20_06_Automatic_net_generation.html">
+            
+                <a href="20_06_Automatic_net_generation.html">
+            
+                    
+                    Automatic net generation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.7" data-path="20_07_Moisture_transport_with_hysteresis.html">
+            
+                <a href="20_07_Moisture_transport_with_hysteresis.html">
+            
+                    
+                    Moisture transport with hysteresis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.8" data-path="20_08_Effective_Moisture_Penetration_Depth,_and_Automatic_Grid_Generation_in_BSim2000_for_Moisture_Calculations.html">
+            
+                <a href="20_08_Effective_Moisture_Penetration_Depth,_and_Automatic_Grid_Generation_in_BSim2000_for_Moisture_Calculations.html">
+            
+                    
+                    Effective Moisture Penetration Depth, and Automatic Grid Generation in BSim2000 for Moisture Calculations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.9" data-path="20_09_Calculation_of_the_glass_temperature.html">
+            
+                <a href="20_09_Calculation_of_the_glass_temperature.html">
+            
+                    
+                    Calculation of the glass temperature
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.10" data-path="20_10_Sky_temperature.html">
+            
+                <a href="20_10_Sky_temperature.html">
+            
+                    
+                    Sky temperature
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.11" data-path="20_11_Natural_convection_at_surfaces.html">
+            
+                <a href="20_11_Natural_convection_at_surfaces.html">
+            
+                    
+                    Natural convection at surfaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.12" data-path="20_12_Natural_ventilation.html">
+            
+                <a href="20_12_Natural_ventilation.html">
+            
+                    
+                    Natural ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.13" data-path="20_13_Extract_from_by_og_byg_direction_202.html">
+            
+                <a href="20_13_Extract_from_by_og_byg_direction_202.html">
+            
+                    
+                    Extract from by og byg direction 202
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.14" data-path="20_14_The_multizone_model.html">
+            
+                <a href="20_14_The_multizone_model.html">
+            
+                    
+                    The multizone model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.15" data-path="20_15_Parameters_for_Natural_Ventilation.html">
+            
+                <a href="20_15_Parameters_for_Natural_Ventilation.html">
+            
+                    
+                    Parameters for Natural Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.16" data-path="20_16_System_for_air_exchange.html">
+            
+                <a href="20_16_System_for_air_exchange.html">
+            
+                    
+                    System for air exchange
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="17.17" data-path="20_17_Implementation_of_mzm.html">
+            
+                <a href="20_17_Implementation_of_mzm.html">
+            
+                    
+                    Implementation of mzm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.18" data-path="20_18_Control_systems_in_the_multi-zone_model.html">
+            
+                <a href="20_18_Control_systems_in_the_multi-zone_model.html">
+            
+                    
+                    Control systems in the multi-zone model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.19" data-path="20_19_PAQ.html">
+            
+                <a href="20_19_PAQ.html">
+            
+                    
+                    PAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.20" data-path="20_20_SimPV_Theory.html">
+            
+                <a href="20_20_SimPV_Theory.html">
+            
+                    
+                    SimPV Theory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.21" data-path="20_21_Recirculation_of_ventilation_air.html">
+            
+                <a href="20_21_Recirculation_of_ventilation_air.html">
+            
+                    
+                    Recirculation of ventilation air
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.22" data-path="20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.html">
+            
+                <a href="20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.html">
+            
+                    
+                    Algorithms for calculation of solar radiation and daylight
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.23" data-path="20_23_Calculation_of_long_wave_radiation_to_the_sky.html">
+            
+                <a href="20_23_Calculation_of_long_wave_radiation_to_the_sky.html">
+            
+                    
+                    Calculation of long wave radiation to the sky
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.24" data-path="20_24_Form_factor_between_two_polygons.html">
+            
+                <a href="20_24_Form_factor_between_two_polygons.html">
+            
+                    
+                    Form factor between two polygons
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.25" data-path="20_25_Heat_balance_for_the_zone_air.html">
+            
+                <a href="20_25_Heat_balance_for_the_zone_air.html">
+            
+                    
+                    Heat balance for the zone air
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.26" data-path="20_26_Heat_transmission_in_constructions.html">
+            
+                <a href="20_26_Heat_transmission_in_constructions.html">
+            
+                    
+                    Heat transmission in constructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.27" data-path="20_27_Floor_heating_mathematical_basis.html">
+            
+                <a href="20_27_Floor_heating_mathematical_basis.html">
+            
+                    
+                    Floor heating mathematical basis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.28" data-path="20_28_Literature.html">
+            
+                <a href="20_28_Literature.html">
+            
+                    
+                    Literature
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Getting started with BSim</li>
+        
+        
+    
+        <li class="chapter " data-level="18.1" data-path="../21Getting_started_with_BSim/21_01_Constructing_a_model.html">
+            
+                <a href="../21Getting_started_with_BSim/21_01_Constructing_a_model.html">
+            
+                    
+                    Constructing a model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.2" data-path="../21Getting_started_with_BSim/21_02_Learning_examples.html">
+            
+                <a href="../21Getting_started_with_BSim/21_02_Learning_examples.html">
+            
+                    
+                    Learning examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.3" data-path="../21Getting_started_with_BSim/21_03_Example_1.html">
+            
+                <a href="../21Getting_started_with_BSim/21_03_Example_1.html">
+            
+                    
+                    Example 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.4" data-path="../21Getting_started_with_BSim/21_04_Example_2.html">
+            
+                <a href="../21Getting_started_with_BSim/21_04_Example_2.html">
+            
+                    
+                    Example 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.5" data-path="../21Getting_started_with_BSim/21_05_Example_3.html">
+            
+                <a href="../21Getting_started_with_BSim/21_05_Example_3.html">
+            
+                    
+                    Example 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.6" data-path="../21Getting_started_with_BSim/21_06_Tutorial.html">
+            
+                <a href="../21Getting_started_with_BSim/21_06_Tutorial.html">
+            
+                    
+                    Tutorial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Revisions</li>
+        
+        
+    
+        <li class="chapter " data-level="19.1" data-path="../22Revisions/22_01_Revisions_of_BSim.html">
+            
+                <a href="../22Revisions/22_01_Revisions_of_BSim.html">
+            
+                    
+                    Revisions of BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="19.2" data-path="../22Revisions/22_02_Building_model_updates.html">
+            
+                <a href="../22Revisions/22_02_Building_model_updates.html">
+            
+                    
+                    Building model updates
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="19.3" data-path="../22Revisions/22_03_Revisions_of_the_help_text.html">
+            
+                <a href="../22Revisions/22_03_Revisions_of_the_help_text.html">
+            
+                    
+                    Revisions of the help text
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Internet</li>
+        
+        
+    
+        <li class="chapter " data-level="20.1" data-path="../23Internet/23_01_Join_the_debate_and_information_forum.html">
+            
+                <a href="../23Internet/23_01_Join_the_debate_and_information_forum.html">
+            
+                    
+                    Join the debate and information forum
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Miscellaneous</li>
+        
+        
+    
+        <li class="chapter " data-level="21.1" data-path="../24Miscellaneous/24_01_PackCalc_Cooling.html">
+            
+                <a href="../24Miscellaneous/24_01_PackCalc_Cooling.html">
+            
+                    
+                    PackCalc (Cooling)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.2" data-path="../24Miscellaneous/24_02_Heating_control.html">
+            
+                <a href="../24Miscellaneous/24_02_Heating_control.html">
+            
+                    
+                    Heating control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.3" data-path="../24Miscellaneous/24_03_Shutter_Control.html">
+            
+                <a href="../24Miscellaneous/24_03_Shutter_Control.html">
+            
+                    
+                    Shutter Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.4" data-path="../24Miscellaneous/24_04_Shading_Control.html">
+            
+                <a href="../24Miscellaneous/24_04_Shading_Control.html">
+            
+                    
+                    Shading Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.5" data-path="../24Miscellaneous/24_05_External_sensor_control.html">
+            
+                <a href="../24Miscellaneous/24_05_External_sensor_control.html">
+            
+                    
+                    External sensor control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.6" data-path="../24Miscellaneous/24_06_Blind_control.html">
+            
+                <a href="../24Miscellaneous/24_06_Blind_control.html">
+            
+                    
+                    Blind control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.7" data-path="../24Miscellaneous/24_07_Glare_Control.html">
+            
+                <a href="../24Miscellaneous/24_07_Glare_Control.html">
+            
+                    
+                    Glare Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.8" data-path="../24Miscellaneous/24_08_Venting_Control.html">
+            
+                <a href="../24Miscellaneous/24_08_Venting_Control.html">
+            
+                    
+                    Venting Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.9" data-path="../24Miscellaneous/24_09_Light_Control.html">
+            
+                <a href="../24Miscellaneous/24_09_Light_Control.html">
+            
+                    
+                    Light Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.10" data-path="../24Miscellaneous/24_10_Daylight_Control.html">
+            
+                <a href="../24Miscellaneous/24_10_Daylight_Control.html">
+            
+                    
+                    Daylight Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.11" data-path="../24Miscellaneous/24_11_Mixing_Control.html">
+            
+                <a href="../24Miscellaneous/24_11_Mixing_Control.html">
+            
+                    
+                    Mixing Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.12" data-path="../24Miscellaneous/24_12_File.html">
+            
+                <a href="../24Miscellaneous/24_12_File.html">
+            
+                    
+                    File
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.13" data-path="../24Miscellaneous/24_13_Visualising_with_DirectX.html">
+            
+                <a href="../24Miscellaneous/24_13_Visualising_with_DirectX.html">
+            
+                    
+                    Visualising with DirectX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.14" data-path="../24Miscellaneous/24_14_Energy_ASHRAE_climate_data.html">
+            
+                <a href="../24Miscellaneous/24_14_Energy_ASHRAE_climate_data.html">
+            
+                    
+                    Energy ASHRAE climate data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.15" data-path="../24Miscellaneous/24_15_Edit.html">
+            
+                <a href="../24Miscellaneous/24_15_Edit.html">
+            
+                    
+                    Edit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.16" data-path="../24Miscellaneous/24_16_tsbi5_general_options.html">
+            
+                <a href="../24Miscellaneous/24_16_tsbi5_general_options.html">
+            
+                    
+                    tsbi5 general options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.17" data-path="../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.html">
+            
+                <a href="../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.html">
+            
+                    
+                    Stability criterion for starting simulations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.18" data-path="../24Miscellaneous/24_18_Application.html">
+            
+                <a href="../24Miscellaneous/24_18_Application.html">
+            
+                    
+                    Application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.19" data-path="../24Miscellaneous/24_19_Setting_up_applications.html">
+            
+                <a href="../24Miscellaneous/24_19_Setting_up_applications.html">
+            
+                    
+                    Setting up applications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.20" data-path="../24Miscellaneous/24_20_XSun.html">
+            
+                <a href="../24Miscellaneous/24_20_XSun.html">
+            
+                    
+                    XSun
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.21" data-path="../24Miscellaneous/24_21_View.html">
+            
+                <a href="../24Miscellaneous/24_21_View.html">
+            
+                    
+                    View
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.22" data-path="../24Miscellaneous/24_22_Thermal_simulation.html">
+            
+                <a href="../24Miscellaneous/24_22_Thermal_simulation.html">
+            
+                    
+                    Thermal simulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.23" data-path="../24Miscellaneous/24_23_Help.html">
+            
+                <a href="../24Miscellaneous/24_23_Help.html">
+            
+                    
+                    Help
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.24" data-path="../24Miscellaneous/24_24_SimView_Tree_Menu.html">
+            
+                <a href="../24Miscellaneous/24_24_SimView_Tree_Menu.html">
+            
+                    
+                    SimView Tree Menu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.25" data-path="../24Miscellaneous/24_25_Site_Property.html">
+            
+                <a href="../24Miscellaneous/24_25_Site_Property.html">
+            
+                    
+                    Site Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.26" data-path="../24Miscellaneous/24_26_Ground.html">
+            
+                <a href="../24Miscellaneous/24_26_Ground.html">
+            
+                    
+                    Ground
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.27" data-path="../24Miscellaneous/24_27_Building_Property.html">
+            
+                <a href="../24Miscellaneous/24_27_Building_Property.html">
+            
+                    
+                    Building Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.28" data-path="../24Miscellaneous/24_28_Insert_Default_Options.html">
+            
+                <a href="../24Miscellaneous/24_28_Insert_Default_Options.html">
+            
+                    
+                    Insert Default Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.29" data-path="../24Miscellaneous/24_29_Model_DOC.html">
+            
+                <a href="../24Miscellaneous/24_29_Model_DOC.html">
+            
+                    
+                    Model DOC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.30" data-path="../24Miscellaneous/24_30_SimView_Insert_WinDoor.html">
+            
+                <a href="../24Miscellaneous/24_30_SimView_Insert_WinDoor.html">
+            
+                    
+                    SimView Insert WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.31" data-path="../24Miscellaneous/24_31_Profile_angle.html">
+            
+                <a href="../24Miscellaneous/24_31_Profile_angle.html">
+            
+                    
+                    Profile angle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.32" data-path="../24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.html">
+            
+                <a href="../24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.html">
+            
+                    
+                    Standard tables for slate based shading systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.33" data-path="../24Miscellaneous/24_33_Venting_Temp_Factor.html">
+            
+                <a href="../24Miscellaneous/24_33_Venting_Temp_Factor.html">
+            
+                    
+                    Venting Temp Factor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.34" data-path="../24Miscellaneous/24_34_Finish_Property.html">
+            
+                <a href="../24Miscellaneous/24_34_Finish_Property.html">
+            
+                    
+                    Finish Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.35" data-path="../24Miscellaneous/24_35_Wind_pressure_coefficient_for_crevices.html">
+            
+                <a href="../24Miscellaneous/24_35_Wind_pressure_coefficient_for_crevices.html">
+            
+                    
+                    Wind pressure coefficient for crevices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.36" data-path="../24Miscellaneous/24_36_Move_Building.html">
+            
+                <a href="../24Miscellaneous/24_36_Move_Building.html">
+            
+                    
+                    Move Building
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.37" data-path="../24Miscellaneous/24_37_Move_Face.html">
+            
+                <a href="../24Miscellaneous/24_37_Move_Face.html">
+            
+                    
+                    Move Face
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.38" data-path="../24Miscellaneous/24_38_Move_WinDoor.html">
+            
+                <a href="../24Miscellaneous/24_38_Move_WinDoor.html">
+            
+                    
+                    Move WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.39" data-path="../24Miscellaneous/24_39_SfB_in_BSim.html">
+            
+                <a href="../24Miscellaneous/24_39_SfB_in_BSim.html">
+            
+                    
+                    SfB in BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.40" data-path="../24Miscellaneous/24_40_SimDb_BuildingElement.html">
+            
+                <a href="../24Miscellaneous/24_40_SimDb_BuildingElement.html">
+            
+                    
+                    SimDb BuildingElement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.41" data-path="../24Miscellaneous/24_41_Copy_building_elements.html">
+            
+                <a href="../24Miscellaneous/24_41_Copy_building_elements.html">
+            
+                    
+                    Copy building elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.42" data-path="../24Miscellaneous/24_42_About_SimDB.html">
+            
+                <a href="../24Miscellaneous/24_42_About_SimDB.html">
+            
+                    
+                    About SimDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.43" data-path="../24Miscellaneous/24_43_Sorption_desorption.html">
+            
+                <a href="../24Miscellaneous/24_43_Sorption_desorption.html">
+            
+                    
+                    Sorption desorption
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.44" data-path="../24Miscellaneous/24_44_SimDb_Glazing_Additional_data.html">
+            
+                <a href="../24Miscellaneous/24_44_SimDb_Glazing_Additional_data.html">
+            
+                    
+                    SimDb Glazing Additional data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.45" data-path="../24Miscellaneous/24_45_Cooling_control.html">
+            
+                <a href="../24Miscellaneous/24_45_Cooling_control.html">
+            
+                    
+                    Cooling control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.46" data-path="../24Miscellaneous/24_46_Time_consumption.html">
+            
+                <a href="../24Miscellaneous/24_46_Time_consumption.html">
+            
+                    
+                    Time consumption
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.47" data-path="../24Miscellaneous/24_47_About_SimDXF.html">
+            
+                <a href="../24Miscellaneous/24_47_About_SimDXF.html">
+            
+                    
+                    About SimDXF
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.48" data-path="../24Miscellaneous/24_48_SimDXF_Create_help_lines.html">
+            
+                <a href="../24Miscellaneous/24_48_SimDXF_Create_help_lines.html">
+            
+                    
+                    SimDXF Create help lines
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.49" data-path="../24Miscellaneous/24_49_tsbi5_graph.html">
+            
+                <a href="../24Miscellaneous/24_49_tsbi5_graph.html">
+            
+                    
+                    tsbi5 graph
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.50" data-path="../24Miscellaneous/24_50_Graph_scale.html">
+            
+                <a href="../24Miscellaneous/24_50_Graph_scale.html">
+            
+                    
+                    Graph scale
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.51" data-path="../24Miscellaneous/24_51_WinDoor_Override.html">
+            
+                <a href="../24Miscellaneous/24_51_WinDoor_Override.html">
+            
+                    
+                    WinDoor Override
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.52" data-path="../24Miscellaneous/24_52_Project_Wizard_2.html">
+            
+                <a href="../24Miscellaneous/24_52_Project_Wizard_2.html">
+            
+                    
+                    Project Wizard 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.53" data-path="../24Miscellaneous/24_53_Project_Wizard_3.html">
+            
+                <a href="../24Miscellaneous/24_53_Project_Wizard_3.html">
+            
+                    
+                    Project Wizard 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.54" data-path="../24Miscellaneous/24_54_WinDoor_overhangs_and_side-fins.html">
+            
+                <a href="../24Miscellaneous/24_54_WinDoor_overhangs_and_side-fins.html">
+            
+                    
+                    WinDoor overhangs and side-fins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.55" data-path="../24Miscellaneous/24_55_Room_property.html">
+            
+                <a href="../24Miscellaneous/24_55_Room_property.html">
+            
+                    
+                    Room property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.56" data-path="../24Miscellaneous/24_56_Room_Temperature.html">
+            
+                <a href="../24Miscellaneous/24_56_Room_Temperature.html">
+            
+                    
+                    Room Temperature
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.57" data-path="../24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.html">
+            
+                <a href="../24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.html">
+            
+                    
+                    Converting weather data for tsbi5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.58" data-path="../24Miscellaneous/24_58_Climate_data_definition.html">
+            
+                <a href="../24Miscellaneous/24_58_Climate_data_definition.html">
+            
+                    
+                    Climate data definition
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.59" data-path="../24Miscellaneous/24_59_Fan_coil_control.html">
+            
+                <a href="../24Miscellaneous/24_59_Fan_coil_control.html">
+            
+                    
+                    Fan coil control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.60" data-path="../24Miscellaneous/24_60_tsbi5_moisture.html">
+            
+                <a href="../24Miscellaneous/24_60_tsbi5_moisture.html">
+            
+                    
+                    tsbi5 moisture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.61" data-path="../24Miscellaneous/24_61_Climate_data_fixed_format.html">
+            
+                <a href="../24Miscellaneous/24_61_Climate_data_fixed_format.html">
+            
+                    
+                    Climate data fixed format
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.62" data-path="../24Miscellaneous/24_62_Regulation.html">
+            
+                <a href="../24Miscellaneous/24_62_Regulation.html">
+            
+                    
+                    Regulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.63" data-path="../24Miscellaneous/24_63_Geometric_Thermal_Bridges.html">
+            
+                <a href="../24Miscellaneous/24_63_Geometric_Thermal_Bridges.html">
+            
+                    
+                    Geometric Thermal Bridges
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.64" data-path="../24Miscellaneous/24_65_Parameters_in_the_heat_balance.html">
+            
+                <a href="../24Miscellaneous/24_65_Parameters_in_the_heat_balance.html">
+            
+                    
+                    Parameters in the heat balance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.65" data-path="../24Miscellaneous/24_66_Risk_of_condensation.html">
+            
+                <a href="../24Miscellaneous/24_66_Risk_of_condensation.html">
+            
+                    
+                    Risk of condensation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.66" data-path="../24Miscellaneous/24_67_Default_values.html">
+            
+                <a href="../24Miscellaneous/24_67_Default_values.html">
+            
+                    
+                    Default values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.67" data-path="../24Miscellaneous/24_68_Description.html">
+            
+                <a href="../24Miscellaneous/24_68_Description.html">
+            
+                    
+                    Description
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.68" data-path="../24Miscellaneous/24_69_Revisions_of_BSim2000.html">
+            
+                <a href="../24Miscellaneous/24_69_Revisions_of_BSim2000.html">
+            
+                    
+                    Revisions of BSim2000
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.69" data-path="../24Miscellaneous/24_71_Natural_Ventilation.html">
+            
+                <a href="../24Miscellaneous/24_71_Natural_Ventilation.html">
+            
+                    
+                    Natural Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.70" data-path="../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.html">
+            
+                <a href="../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.html">
+            
+                    
+                    tsbi5 Natural Ventilation options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.71" data-path="../24Miscellaneous/24_73_Windoor_Systems.html">
+            
+                <a href="../24Miscellaneous/24_73_Windoor_Systems.html">
+            
+                    
+                    Windoor Systems
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.72" data-path="../24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.html">
+            
+                <a href="../24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.html">
+            
+                    
+                    Control strategy for floor heating and cooling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.73" data-path="../24Miscellaneous/24_75_Model_information.html">
+            
+                <a href="../24Miscellaneous/24_75_Model_information.html">
+            
+                    
+                    Model information
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Implementation of mzm</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <link rel="stylesheet" href="../style.css"></link>
+
+<h1 id="implementation-of-mzm">Implementation of mzm</h1>
+<p>Implementation of mzm in BSim is described in this part of the documentation. The description starts with a section on making models in BSim that utilizes the multi-zone model for natural ventilation. Take-off is made from the single-zone model with an explanation of the important issues to take into account when creating a building model. Then there is a presentation of the <a href="https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system" target="_blank">new issues specially related to mzm</a>.</p>
+<p>After presenting the model making there is a description of how the equation system is set up, including generation of spanning trees and loops and the making of calculation matrices .</p>
+<p>This part ends with a description of how the equation system are to be solved.</p>
+<h3 id="making-of-a-bsim-building-model"><strong>Making of a BSim building model</strong></h3>
+<p>In this section there is a description of the making of a BSim building model with respect to mzm. The description takes the single zone model as a starting point (szm) with special focus on new issues added to facilitate mzm.</p>
+<p><strong>Presentation of the single zone model</strong></p>
+<p>Additional issues compared to the single zone model is:</p>
+<ul>
+<li><p><a href="#windprofile">Choice of wind profile for the site</a></p>
+</li>
+<li><p><a href="#thermalzones">Choice of thermal zones</a></p>
+</li>
+<li><p><a href="#openings">Definition of openings</a></p>
+</li>
+<li><p><a href="#cpvalues">Choice of CP-values</a></p>
+</li>
+<li><p><a href="#controlventilation">Control of natural ventilation</a></p>
+</li>
+</ul>
+<p><strong><span id="windprofile">Choice of wind profile</span></strong></p>
+<p>At building level (Site) a wind profile have to be selected. This is used to calculate the wind velocity in other heights than 10 meters, where the wind velocity in weather data is being measured.</p>
+<p>According to British Standard the wind velocity is calculated as:</p>
+<p><span class="mathjax-block">\[
+V_h = V_ {10} \cdot k \cdot h^{\alpha} \tag{1}
+\]</span></p>
+<p>hvor: </p>
+<p><em>V<sub>h</sub></em> is the wind velocity in height h [m/s]<br></br><em>V<sub>10</sub></em> is the measured wind velocity 10 meters above the free terrain [m/s]<br></br><em>h</em> is the actual height above terrain [m]<br></br><em>k</em> is a factor dependant on the terrain, <a href="#table1">Table 1</a> [-]<br></br><em>α</em> is an exponent, dependant in the terrain, <a href="#table1">Table 1</a> [-]</p>
+<table>
+<thead>
+<tr>
+<th>Terrain type</th>
+<th>k</th>
+<th>α</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open flat country</td>
+<td>0.68</td>
+<td>0.17</td>
+</tr>
+<tr>
+<td>Terrain with scattered wind breaks</td>
+<td>0.52</td>
+<td>0.20</td>
+</tr>
+<tr>
+<td>Forstadsområder</td>
+<td>0.35</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td>Bycentrum</td>
+<td>0.21</td>
+<td>0.33</td>
+</tr>
+</tbody>
+</table>
+<p><span id="table1"></span><em>Table 1 Factors characterizing different terrain types.</em></p>
+<p><strong><span id="thermalzones">Choice of thermal zones</span></strong></p>
+<p>Using the single zone model it is necessary to consider which of the rooms in the building that must be part of the thermal zones. In a normal thermal simulation rooms with the same thermal characteristics can be merged together in the same thermal zone. This is for instance the case for offices having the same orientation, as shown with the blue circles in <a href="#figure1">Figure 1</a>. Modeling cross ventilation will as a contract require division of the rooms into thermal zones as indicated by the red circles.</p>
+<figure id="figure1">
+<img src="assets/mzm_im2.gif" alt="Figure 1. Different division of rooms into thermal zones. Blue circles is equal to a division of thermal zones according to thermal considerations while red circles indicates a division according to natural ventilation considerations using the single zone model."></img>
+<figcaption>Figure 1. Different division of rooms into thermal zones. Blue circles is equal to a division of thermal zones according to thermal considerations while red circles indicates a division according to natural ventilation considerations using the single zone model.</figcaption>
+</figure>
+
+
+<p><strong><span id="openings">Definitions on openings</span></strong></p>
+<p>To be able to calculate the natural ventilation it is necessary to define the openings that air flows through. BSim have two types of openings; openings and WinDoor's. Openings are holes in the constructions and can not be controlled - they are always fully open. WinDoor's covers windows and doors, and the degree of opening for these openings can be controlled.</p>
+<p>As a default, openings are activated flow elements, while WinDoor's are not. The dialogs for giving constants and activation of WinDoor's are shown in F. Both types of openings are modeled by means of discharge coefficients, and must thus have a Cd-value.</p>
+<p>For WinDoors the open-able fraction of the WinDoor have to be defined, and in which relative height the centre of this open-able fraction is located. A WinDoor have a limited number of degrees of opening, which cen be specified by the user. If 10 degrees of opening is being used, the active part of the WinDoor can thus be 0, 10, 20, … % of the open-able area.</p>
+<p>Only openings in the thermal envelope need to be defined as the single zone model assumes that all rooms in the same thermal zone is connected in one single open space. It must therefore be considered if there are flow resistances between the individual rooms of the thermal zone as these are not part of the simulations. REsistances from internal openings can be added at the openings of the thermal envelope.</p>
+<figure id="figure2">
+<img src="assets/mzm_im3.jpg" alt="Figure 2. Dialogs for activating openings and WinDoor's in the single zone model."></img>
+<figcaption>Figure 2. Dialogs for activating openings and WinDoor's in the single zone model.</figcaption>
+</figure>
+
+
+<p><strong><span id="cpvalues">Choice of CP-values</span></strong></p>
+<p>The used CP-values originates from (<a href="https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur" target="_blank">Orme et al. 1998</a>) and is determined as average values for the faces. The user can not give his own CP-values. Orme et al. (1998) gives CP-values for rectangular buildings with equal side lengths and buildings with a side-proportion of 1:2. CP-values are also given for different roof-tilts. BSim chooses CP-values from these standards based on the geometry of the building model.</p>
+<div id="gray_background">
+
+It is thus important to create a building model that is representative for the entire building and thus makes it possible for BSim to select the right CP-values.
+
+</div>
+
+<p>CP-values is defined for three different degree of wind exposure due to the surrounding buildings as defined as a property on the external face of the opening, see <a href="#figure3">Figure 3</a>.</p>
+<figure id="figure3">
+<img src="assets/mzm_im4.gif" alt="Figure 3. Definition of degree of wind exposure due to surrounding buildings."></img>
+<figcaption>Figure 3. Definition of degree of wind exposure due to surrounding buildings.</figcaption>
+</figure>
+
+
+<p><strong><span id="controlventilation">Control of natural ventilation</span></strong></p>
+<p>The single zone model is activated from by using the system <a href="https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system" target="_blank">Venting</a>. <a href="https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system" target="_blank">Venting</a> is a natural cooling system and will only come into action if the temperature in the thermal zone that is being used as the controlling zone exceeds the defined set-point.</p>
+<p>If there is need for cooling, BSim calculates how much outside air is needed and chooses the degree of opening that provides an air flow closest possible to the needed air-flow. The control works in the same way if <a href="https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system" target="_blank"><em>Venting</em> </a>is controlled according to a CO<sub>2</sub> set-point.</p>
+<h4 id="what-is-new-related-to-mzm"><strong>What is new related to mzm?</strong></h4>
+<p>In this section issues that have changed in a model where mzm is being used compared to the single zone model.</p>
+<p><strong>Thermal zones</strong></p>
+<p>By implementing the multi-zone model division into thermal zones can by advantage be made according to the boue circles shown in <a href="#figure1">Figure 1</a>, which is the thermal most correct. If it was possible to give CP-values for each opening, it would be necessary to divide all rooms into one thermal zone, as shown in <a href="#figure4">Figure 4</a>.</p>
+<figure id="figure4">
+<img src="assets/mzm_im5.gif" alt="Figure 4. Division of rooms into thermal zones when using mzm."></img>
+<figcaption>Figure 4. Division of rooms into thermal zones when using mzm.</figcaption>
+</figure>
+
+
+<p><strong>Internal openings</strong></p>
+<p>As mzm takes into account internal openings, openings that one wants to use for air-flow must be activated just like opening to the ambient.</p>
+<h4 id="what-is-changed-by-introducing-mzm"><strong>What is changed by introducing mzm?</strong></h4>
+<p>In this section there is a description of changes in BSim (tsbi5) to make it possible to utilize mzm.</p>
+<h4 id="iterations"><strong>Iterations</strong></h4>
+<p>The largest singe change is introduction of iterations in tsbi5, which was not needed earlier.</p>
+<p>It has been necessary to implement three iterations in conjunction to:</p>
+<ul>
+<li><p>Multi-zone model</p>
+</li>
+<li><p>Cooperation between mzm and the energy balance</p>
+</li>
+<li><p>Control of WinDoor's</p>
+</li>
+</ul>
+<p>Implementation of iterations means that the user needs to (should) decide one's attitude to the convergence criteria and the maximum number of allowed iterations.</p>
+<p>The dialog box that define these issues are shown in <a href="#figure5">Figure 5</a>. For the two first iterations a convergence criteria and a maximum number of iterations must be given. This will ensure that the simulation do run wild. In the third iteration, control of the WinDoor's, the maximum number of opening fractions plus additional opening control to determine max number of iterations. The three iterations are described in section <a href="https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen" target="_blank">Control of mzm</a>.</p>
+<figure id="figure5">
+<img src="assets/mzm_im6.jpg" alt="Figure 5. Dialog with settings for eg the three iterations. The dialog opens by clicking " edit="" +="" options"="" with="" tsbi5="" active."=""></img>
+<figcaption>Figure 5. Dialog with settings for eg the three iterations. The dialog opens by clicking "Edit + Options" with tsbi5 active.</figcaption>
+</figure>
+
+
+<p><strong>Imbalance in mechanical ventilation</strong></p>
+<p>Mzm takes into account imbalance in the mechanical ventilation air in such a way that differences between inlet and outlet air is included in the mass balance of mzm.</p>
+<p>This means that exhaust ventilation, eg from toilets and kitchens will be handled correctly if mzm is activate for the thermal zones in question. The change compared to the single zone model, is that air inlet to a zone do not need to be ambient air. This means that air to a thermal zone with exhaust ventilation will come from one or more adjacent thermal zones and be transported through the building before it ends in the exhaust ventilation duct.</p>
+<p><strong>Adaptations in the source code</strong></p>
+<p>As BSim can simulate on zone level (real faces facing the same air node) and thus do not "know" other zones in the building, it has been necessary to make BSim "know" these other zones. This was a necessity as mzm needs information about all zones at the same time.</p>
+<h4 id="creation-of-loops"><strong>Creation of loops</strong></h4>
+<p>In this section there is a description of how the loops are made. The section have three main parts:</p>
+<ul>
+<li><p><a href="">Identification of nodes and arches</a></p>
+</li>
+<li><p><a href="">Making of the spanning tree</a></p>
+</li>
+<li><p><a href="">Making of independent lops</a></p>
+</li>
+</ul>
+<p><strong>Identification of nodes and arches</strong></p>
+<p>In this section there is a description on how nodes and arches are made based in the BSim model. The purpose for making nodes and arches is to connect the thermal zones through openings where mzm can be activated.</p>
+<p>In the making of nodes and arches all openings and WinDoor's with an area larger than 0 are taken into consideration.</p>
+<p><strong>Nodes</strong></p>
+<p>There are two types of nodes:</p>
+<ul>
+<li><p>Zone nodes</p>
+</li>
+<li><p>Opening nodes</p>
+</li>
+</ul>
+<p>Zone nodes are connected to thermal zones and the outdoor climate. One node is defined in each thermal zone with activated openings. The node is located in the same height as SensorHgt (<a href="#figure6">Figure 6</a>). SensorHgt indicates in which height the temperature of the thermal zone is recorded and which temperature the systems of the zone use as reference point. This is only relevant when vertical temperature gradients are taken into account in the simulations by means of the <a href="https://help.bsim.dk/support/kb/articles/BWzdGlQE/kappa-modellen" target="_blank">Cappa model</a>.</p>
+<figure id="figure6">
+<img src="assets/mzm_im7.gif" alt="Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature."></img>
+<figcaption>Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature.</figcaption>
+</figure>
+
+
+<p>For every opening two nodes are defined. One node on each side of the opening. The nodes are located in the geometrical centre of the active part of the opening.</p>
+<p><strong>Arches</strong><br></br>The following arches are made:</p>
+<ul>
+<li><p>between nodes for all openings</p>
+</li>
+<li><p>between outdoor and the external nodes for all nodes in the thermal envelope</p>
+</li>
+<li><p>between zone nodes and the internal node of all opening nodes in the zone</p>
+</li>
+</ul>
+<p><strong>Lists with nodes and arches</strong><br></br>Two lists are made, one with all nodes and one with all arches. The lists can be shown by clicking "check" from the "<a href="https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5-simulation" target="_blank">Simulation</a>" tab of tsbi5. The lists are called "Nodes" "Arches".</p>
+<p><strong>Making of a spanning tree</strong><br></br>Making of a spanning tree must include those zones that are connected to the ambient, eventually via other adjacent zones. This means that air-flow between zones can not be calculated if they are are not connected to the ambient, see <a href="#figure7">Figure 7</a>.</p>
+<figure id="figure7">
+<img src="assets/mzm_im8.gif" alt="Figure 7. BSim model with only internal openings. Mzm can not be activated."></img>
+<figcaption>Figure 7. BSim model with only internal openings. Mzm can not be activated.</figcaption>
+</figure>
+
+
+<p>By making a spanning tree it has been chosen always to start in the node for the ambient. The tree is made from the following rules according to (<a href="https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur" target="_blank">Savić et al. 1996</a>), called ”depth-first-search”. N is the number of nodes and P is the number of pipes (arches). The calculation of the spanning tree can be explained as follows:
+<br></br></p>
+<ol>
+<li><p><em>Associate label DFI(n) = 0, n = 1,2,…,N, with each node in the base graph</em> </p>
+</li>
+<li><p><em>Set j = 1</em> </p>
+</li>
+<li><p><em>Initialize a set of arcs within the growing tree A<sub>t</sub> = []</em> </p>
+</li>
+<li><p><em>Identify the starting node n<sub>s</sub> at random or as being the “root” of the base graph</em> </p>
+</li>
+<li><p><em>Initialize a set of nodes contained within the growing tree C = [n<sub>s</sub>], and set DFI(n<sub>s</sub>) = j</em> </p>
+</li>
+<li><p><em>Identify A<sub>a</sub>(n<sub>s</sub>) = [arcs in base graph connected to node n<sub>s</sub>]</em> </p>
+</li>
+<li><p><em>Identify end-points E(n<sub>s</sub>) of the arch in A<sub>a</sub>(n<sub>s</sub>)</em> </p>
+</li>
+<li><p><em>Eligible adjacent nodes to ns are endpoints that are not contained within the growing tree; i.e., A(n<sub>s</sub>) = E(n<sub>s</sub>) – [E(n<sub>s</sub>) ∩ C]</em> </p>
+</li>
+<li><p><em>If A(n<sub>s</sub>) is an empty set, A(n<sub>s</sub>) = []; i.e., there is no adjacent node that is not yet in the growing tree, then</em>   </p>
+<p>a.  <em>DFI(n<sub>s</sub>) = 0</em> </p>
+<p>b.  <em>j = j - 1</em> </p>
+<p>c.  <em>Find a node n<sub>s</sub>‘ ⊂ C for which DFI(n<sub>s</sub>’) = j</em> </p>
+<p>d.  <em>n<sub>s</sub> = n<sub>s</sub>‘</em> </p>
+<p>e.  <em>Go to step 6</em> </p>
+</li>
+<li><p><em>If A(n<sub>s</sub>) is a nonempty set, i.e. A(n<sub>s</sub>) ≠ [], then</em>   </p>
+<p>   a.  <em>j = j + 1</em> </p>
+<p>   b.  <em>Associate DFI(n) = j with each node n ⊂ A(n<sub>s</sub>)</em> </p>
+<p>   c.  <em>Choose one node n<sub>s</sub>‘ from A(n<sub>s</sub>) at random</em> </p>
+<p>   d.  <em>C = C + [n<sub>s</sub>‘]</em> </p>
+<p>   e.  <em>A<sub>t</sub> = A<sub>t</sub> + [arc whose endpoints are ns and n<sub>s</sub>‘]</em> </p>
+<p>   f.  <em>n<sub>s</sub> = n<sub>s</sub>‘</em> </p>
+</li>
+<li><p><em>Repeat from step 6 until all nodes have been added to the connected set, i.e., a spanning tree is formed</em></p>
+</li>
+</ol>
+<p><em>The lists A<sub>t</sub> and C are saved and a list with arches not used in the spanning tree, A<sub>ct</sub>, a so-called ”co-tree”. This list are used by making of the loops.</em></p>
+<p><strong>Explanation of calculation routines by making the spanning tree</strong></p>
+<p>Explanation of calculation routines by making the spanning tree is based on <a href="#figure8">Figure 8</a> from (<a href="https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur" target="_blank">Savić et al. 1996</a>) .</p>
+<p>Calculation routines are:</p>
+<ol>
+<li><p>The lists “Nodes” and “Arches” are used.</p>
+</li>
+<li><p>Two new lists, “Node list” and “Arche list”, are created.</p>
+</li>
+<li><p>The starting (ambient) node is identified (a), and this node is added to the Node list.</p>
+</li>
+<li><p>A randomly selected neighboring node is chosen (b). The node and the arch connecting the two nodes are added to the Node list and Arche list, respectively. The nodes and arches are added in sequence.</p>
+</li>
+<li><p>From node 3, a randomly selected neighboring node that is not already in the Node list is chosen, and the node is added to both lists.</p>
+</li>
+<li><p>Step 5 is repeated until a node is reached for which all neighboring nodes have already been added to the Node list (d).</p>
+</li>
+<li><p>The focus then shifts from the current node to the previous nodes in the Node list, following the reverse order in which the nodes were added (i.e., d → 2 → 4 → 3 → 1). The routine ends at the first node that has a neighboring node not present in the Node list. In this case, the routine stops at node 4. The procedure then continues from steps 5, 6, and 7 until no more nodes can be added.</p>
+</li>
+</ol>
+<figure id="figure8">
+<img src="assets/mzm_im10.gif" alt="Figure 8. Explanation of making of spanning tree (Savić et al. 1996)."></img>
+<figcaption>Figure 8. Explanation of making of spanning tree (Savić et al. 1996).</figcaption>
+</figure>
+
+
+<p><strong>Routines ensuring correct creation of spanning tree</strong></p>
+<p>A reduction of the lists are made so they only contains nodes and arches that belongs to multi-zones. Those zone nodes which was used in the creation of the spanning tree are multi-zones and the remaining zones are not. The lists "Nodes" and "Arches" are reduced so they only contains nodes from multi-zones, the ambient and arches connected to openings between multi-zones and the ambient.</p>
+<p>If all arches have been used in the creation of the tree, the model will not contain any lops and the mzm will thus not be activated. This situation complies to the case where arch no. 1, 3, 6 and 7 are missing in <a href="#figure8">Figure 8</a> and it will thus be impossible to create a loop.</p>
+<h4 id="creation-of-loops"><strong>Creation of loops</strong></h4>
+<p>Creation of loops is made from the "breath-first-search" rules (Savić et al. 1996). The routines for creation of the loops is explained in the following:</p>
+<ol>
+<li><p><em>Associate label BFI(n) = 0, n = 1,2,…,N, with each node in the base graph</em> </p>
+</li>
+<li><p><em>Set j = 1</em> </p>
+</li>
+<li><p><em>Choose one of the arcs from the co-tree set ai ∈ A<sub>ct</sub></em></p>
+</li>
+<li><p><em>Initialize a set of arcs within the ring L = [a<sub>i</sub>]</em> </p>
+</li>
+<li><p><em>Identify the endpoints n<sub>i</sub> and n<sub>i</sub>’ of the co-tree arc a<sub>i</sub></em></p>
+</li>
+<li><p><em>Initialize a set of nodes contained within a queue Q = [n<sub>i</sub>], and set BFI(n<sub>i</sub>) = j</em> </p>
+</li>
+<li><p><em>Identify A<sub>a</sub> = [arcs in the tree set A<sub>t</sub> connected to nodes in the queue Q]</em> </p>
+</li>
+<li><p><em>Identify endpoints E of the arcs in A<sub>a</sub> that are not labelled, i.e., BFI(n) = 0 for all n ∈ E</em> </p>
+</li>
+<li><p><em>Set Q = []</em>  </p>
+<ol>
+<li><p><em>Set j = j + 1</em> </p>
+</li>
+<li><p><em>Associate BFI(n) = j with each node n ∈ E</em> </p>
+</li>
+<li><p><em>Set Q = E</em> </p>
+</li>
+</ol>
+</li>
+<li><p><em>Repeat from step 7 until n<sub>i</sub>’ acquires a label</em> </p>
+</li>
+<li><p><em>Retrace back from ni’ to n<sub>i</sub> (using the tree arcs A<sub>t</sub>) in decreasing order of BFI. The arcs belonging to the ring are stored in L</em></p>
+</li>
+</ol>
+<p>A list with all loops is saved in the variable L.</p>
+<p><strong>Making loops</strong></p>
+<p>The number of loops to be made is equal to the number of arches in Act. For each arch in Act a loop with the least possible number of arches is made. The loop is made solely by using arches from the spanning tree. This means that no other arch is part of Act.</p>
+<p>The way tings are made id described below. With take-off from <a href="#figure8">Figure 8</a>, (f) the description of a loop for arch no. 1 is made:</p>
+<ol>
+<li><p>Start with any arch from <em>A<sub>ct</sub></em> (g1)</p>
+</li>
+<li><p>Chose one of the nodes of the arch (k1)</p>
+</li>
+<li><p>Find all arches connecting node k1 and that belongs to the spanning tree (g2). Number them sequentially (#1)</p>
+</li>
+<li><p>Repeat point 2 and 3 until the other node from the starting arch is found (k2)   </p>
+<ol>
+<li><p>k3 | g5 | #2</p>
+</li>
+<li><p>k4 | g8, g4 | #3</p>
+</li>
+<li><p>k2, k6 ⇒ Node k2 found</p>
+</li>
+</ol>
+</li>
+<li><p>The end-points of the arch is found by going backwards through the lists with the arches.   </p>
+<ol>
+<li><p>From node k2 chose arches with #3 that belongs to node k2 ⇒ g4</p>
+</li>
+<li><p>From node k4 chose arches with #2 that belongs to node k4 ⇒ g5</p>
+</li>
+<li><p>From node k3 chose arches with #1 that belongs to node k3 ⇒ g2</p>
+</li>
+<li><p>The loop consists: g1 - g4 - g5 - g2 and k2 - k4 - k3 - k1</p>
+</li>
+</ol>
+</li>
+</ol>
+<p>As all possible paths are used every time at every node, it will always be the loop with the shortest path (least number of arches) that is found first.</p>
+<p><strong>Making of overriding loop system</strong></p>
+<p>At the beginning of the simulation an the overriding loop system is made - the loop system that exist when all openings are open and all multi-zones are activated. This system constitutes the starting point for making loop systems during the simulation.</p>
+<p><strong>Making of loop-system on hourly level</strong></p>
+<p>At the start of every hour a loop system is made that is based on those zones and openings that has been activated for the actual hour. The making of the loop system is done from the overriding loop system. This means that only zones which can be handled by mzm are treated.</p>
+<p><strong>Making of loop systems at time step level</strong></p>
+<p>At time step level WinDoor's can shift status from open to closed or the opposite way due to the control of the openings. In case of shifts, the loop system is made again.</p>
+<p>The possibility of thermal zones shifting category are also taken into account, eg a multi-zone can become a single-zone by closing of openings.</p>
+<h3 id="making-of-calculation-matrices"><strong>Making of calculation matrices</strong></h3>
+<p>In this section a description of creation of the calculation matrices is given. The calculation matrices is made from the actual loop system, the characteristics of zones and openings, and the driving pressure from wind and temperature gradients.</p>
+<p>By making the matrices a simplified version of the loops are being used. The arches that connect zone nodes with openings gives no resistance and are therefore excluded from the matrices, see <a href="#figure9">Figure 9</a>.</p>
+<p>The calculation matrices are made with air flows as the unknown factor. This is most convenient as this is used in the calculation of the resistance through the individual opening and takes part in the preservation of the mass balance.</p>
+<h4 id="overriding-preservation-demands"><strong>Overriding preservation demands</strong></h4>
+<p>The equation system is made so mass and energy are preserved.</p>
+<p><strong>Preservation of mass</strong></p>
+<p>For zones the continuity equation is valid, which means that air mass added must be equal to the mass of air removed:</p>
+<p><span class="mathjax-block">\[
+\sum \dot m_{in} - \sum \dot m_{out} = \dot m_{resulting,removed}&nbsp;\tag{2}
+\]</span></p>
+<p>and</p>
+<p><span class="mathjax-block">\[
+\dot m_{resulting,removed} = \dot m_{mech, removed} - \dot m_{mech, supplied} \tag{3}
+\]</span></p>
+<p>where: </p>
+<p><em>m<sub>in  </sub></em> is mass flow into the zone through openings [kg/s]<br></br><em>m<sub>out</sub></em>  is mass flow out of the zone through openings [kg/s]<br></br><em>m<sub>resulting,removed</sub></em>  is the resulting mass flow removed by mechanical ventilation [kg/s] <br></br>
+<em>m<sub>mech,removed</sub></em> is the mass flow removed by mechanical ventilation [kg/s] <br></br>
+<em>m<sub>mech,supplied</sub></em> is the mass flow supplied by mechanical ventilation [kg/s]</p>
+<p><br></br></p>
+<p><strong>Preservation of energy</strong></p>
+<p>For the loops, energy preservation is valid, which means that energy losses due to friction in the loop is equal to the amount of energy added to the loop by wind and temperature gradients:</p>
+<p><span class="mathjax-block">\[
+p_{Tab, Ring} = \sum \frac{\rho \cdot \dot V_i^2}{2\cdot c_d^2 \cdot A_i^2} \tag{4}
+\]</span></p>
+<p>where:</p>
+<p><em>Δp<sub>Tab,Ring</sub></em> is the pressure loss in the loop from openings [Pa]<br></br>ρ is the density of the air [kg/m³]<br></br><em>V<sub>i</sub></em> is the volume air flow through openings [m³/s]<br></br><em>C<sub>d  </sub></em> is the flow coefficient [-]<br></br><em>A<sub>i  </sub></em> is the area of the opening [m²]</p>
+<p>and</p>
+<p><span class="mathjax-block">\[
+p_{Tab, Ring} = \Delta p_{Buoyancy} \cdot \Delta p_{Wind} \tag{5}
+\]</span></p>
+<p>where: </p>
+<p><em>Δp<sub>Opdrift</sub></em> is the driving pressure from temperature gradients [Pa]<br></br><em>Δp<sub>Vind</sub></em> is the driving pressure from wind [Pa]</p>
+<p>For all loops a positive revolution direction must be defined. The positive direction for each loop is defined as the direction that results in a positive driving pressure.</p>
+<p>Further a positive direction for the air flow must be defined for each of the arches. This is defined as being positive when going from node 0 to node 1 of the arch.</p>
+<p>Arches are turned to ensure that they have the same positive direction as the loop. This means that the second (last) node of each arch is the first node in the next arch.</p>
+<p>The collective equation system consists of two parts. One part for loops ensuring preservation of energy and one part for the nodes ensuring preservation of continuity. Both systems are of the type:</p>
+<p><span class="mathjax-block">\[
+[M_1][V_1] = [V_2] \tag{6}
+\]</span></p>
+<p>hvor:</p>
+<p><em>M</em> is a matrix<br></br><em>V</em> is a vector</p>
+<h4 id="example-for-making-calculation-matrices"><strong>Example for making calculation matrices</strong></h4>
+<p>In <a href="#figure9">Figure 9</a> there is a sketch of a BSim model with nodes and loops. The nodes and arches are numbered continuously from 0 and the number of the arches have been underlined. The model consists of two zones and four openings. This gives two loops shown by red and green arrows.</p>
+<p>As described earlier, only loops that belongs to an opening are being used. This is arch number 1, 4, 7 and 10 in <a href="#figure9">Figure 9</a>. The flow through these arches are in the following denoted Q and the resistance over the openings c.</p>
+<p>The loops are denoted a and b, where the red loop is a and the green loop b. The positive direction for the loops are shown by arrows.</p>
+<figure id="figure9">
+<img src="assets/mzm_im16.gif" alt="Figure 9. Sketch of BSim model with nodes, arches and loops. Nodes and arches are numbered from continuously from 0 and the number of the arches are underlined. The dashed arrows shows the positive direction of the two loops."></img>
+<figcaption>Figure 9. Sketch of BSim model with nodes, arches and loops. Nodes and arches are numbered from continuously from 0 and the number of the arches are underlined. The dashed arrows shows the positive direction of the two loops.</figcaption>
+</figure>
+
+
+<h4 id="equation-system-for-loops-preservation-of-energy"><strong>Equation system for loops (preservation of energy)</strong></h4>
+<p>The equation system consists of a matrix with resistances for openings in the individual loop, a vector with the flow through each opening and a vector with the driving pressure for each loop:</p>
+<figure id="center_img">
+<img src="assets/mzm_eq7.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+
+<p>This equation system ensures that the volume of air flowing into one zone is equal to the volume of air flowing out of the zone. This is not the same as fulfillment of the continuation condition as the mass of the air varies due to temperature variations between zones. The density of the air must thus be multiplied in the matrix. The density depends on the direction of the air flow, the air density is used for the zone where the air comes from.</p>
+<p>This is valid for positive values Q<sub>n</sub>. For negative values of Q<sub>n</sub> the density is calculated at the second node. The equation above will become (give the assumption that there are positive flow in both loops - note that the signs are preserved):</p>
+<figure id="center_img">
+<img src="assets/mzm_eq8.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+<p>For the difference in mechanical ventilation there is difference in the density of the exhaust air. This means that the density of the inlet air and the outlet air are multiplied to the volume flow before subtraction.</p>
+<h4 id="total-equation-system"><strong>Total equation system</strong></h4>
+<p>The two equation systems are reduced to one, by gathering the two matrices, the vectors with driving pressure and the differences in the mechanical ventilation:</p>
+<figure id="center_img">
+<img src="assets/mzm_eq9.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+
+
+<h4 id="driving-pressure-from-temperature-gradients"><strong>Driving pressure from temperature gradients</strong></h4>
+<p>The driving pressure from temperature gradients can be calculated from differences in the density of the air between the openings that air flows through.</p>
+<p>As default BSim calculates as if there is full mixing of the air in a zone and thus a uniform temperature representing all air in the zone. Further it is only possible to use one vertical temperature gradient in a zone. The general equation for the density of the air can be calculated from (<a href="https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur" target="_blank">Hansen et al. 1997</a>): </p>
+<p><span class="mathjax-block">\[
+p = \frac{m}{V} = 0,0034837 \cdot \frac{p}{T} - 0,0013169 \cdot \frac{p_d}{T}&nbsp;\tag{7}
+\]</span></p>
+<p>where: </p>
+<p><em>ρ</em> is the density [kg/m³]<br></br><em>m</em> is the mass [kg]<br></br><em>V</em> is the volume [m³]<br></br><em>p</em> is the total pressure, partial pressure [Pa]<br></br><em>p<sub>d</sub></em> is the total pressure, vapor pressire [Pa]<br></br><em>T</em> is the temperature[K]</p>
+<p>Differences in density are recalculated to differences in pressure under the assumption of hydrostatic pressure distribution, generally given as:</p>
+<p><span class="mathjax-block">\[
+\Delta p_{e (\Delta Z_{i,j})} = - \int_{z_i}^{z_j} g \rho_e(z) dz \tag{8}
+\]</span></p>
+<p>where:<br></br><em>Δp</em> is the pressure difference[Pa]<br></br><em>g</em> is the gravity [m/s²]<br></br><em>z</em> is the level [m]</p>
+<p>As the density of air is reverse proportional to the temperature, an integration give different results in zones with and without vertical temperature gradients.</p>
+<h4 id="density-of-moist-air-without-vertical-temperature-gradient">Density of moist air without vertical temperature gradient</h4>
+<p>At constant temperature an integration of the equation above gives the following:</p>
+<p><a id="eq9"></a>
+<span class="mathjax-block">\[
+\Delta p_{e (\Delta Z_{i,j})} = - \rho_e g\Delta z_{i,j} \tag{9}
+\]</span></p>
+<h4 id="density-of-moist-air-with-linear-vertical-temperature-gradient">Density of moist air with linear vertical temperature gradient</h4>
+<p>For a linear, vertical temperature gradient an integration of the equation above gives the following:</p>
+<p><a id="eq10"></a>
+<span class="mathjax-block">\[
+\Delta p_{e (\Delta Z_{i,j})} = - g \cdot \frac{K_1}{K_2} \left[ \ln(T_j + K_2 z_j) - \ln(T_i + K_2 z_i) \right]&nbsp;\tag{10}
+\]</span></p>
+<p>where <em>K<sub>1</sub></em>  and <em>K<sub>2</sub></em> is given by:</p>
+<p><span class="mathjax-block">\[
+K_1 = 0,0034837 \cdot p - 0,013169 \cdot p_d&nbsp;\tag{11}
+\]</span></p>
+<p>where:<br></br>p is the total pressure, partial pressure[Pa]<br></br>p<em><sub>d </sub></em>is the total pressure, vapor pressure [Pa]</p>
+<p>and:</p>
+<p><span class="mathjax-block">\[
+K_2 = \frac{T_j - T_i}{z_j - z_i}&nbsp;\tag{12}
+\]</span> </p>
+<p>where:<br></br>z is the level [m]<br></br>T is the temperature [K]</p>
+<h4 id="implementation-in-bsim"><strong>Implementation in BSim</strong></h4>
+<p><strong>Level-definitions</strong><br></br>The level for all openings must be known to be able to calculate the driving pressure from temperature gradients. All openings can be located in any level.</p>
+<p>For external openings, the level for the node facing the ambient is being used. In most cases this will give a correct level for calculation of the driving pressure, see <a href="#figure10">Figure 10</a> and <a href="#figure11">Figure 11</a>.</p>
+<p>The average level is being used in case of internal openings.</p>
+<p>All changes in temperature, moisture content and density happens at the node for the ambient. For this reason all openings are calculated as indoor air. For internal openings, changes is assumed to happen in the centre of the opening.</p>
+<figure id="figure10">
+<img src="assets/mzm_im26.gif" alt="Figure 10. Illustration of opening nodes and definition of used levels."></img>
+<figcaption>Figure 10. Illustration of opening nodes and definition of used levels.</figcaption>
+</figure>
+
+<figure id="figure11">
+<img src="assets/mzm_im27.gif" alt="Figure 11. Model with two horizontal openings. The level definition cause an error in the calculation of differences in heights."></img>
+<figcaption>Figure 11. Model with two horizontal openings. The level definition cause an error in the calculation of differences in heights.</figcaption>
+</figure>
+
+<p><strong>Calculation</strong></p>
+<p>An integration is made for each zone being part of the loop and for outdoor if the loop contains the node for outdoor. In every zone, the level for the two openings being part of the loop are calculated. So is the thermal driving pressure according to <a href="#eq9">Equation 9</a>, <a href="https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund" target="_blank">Cappa</a> is equal to 1 or <a href="#eq10">Equation 10</a> if <a href="https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund" target="_blank">C</a> differs from 1.</p>
+<h4 id="driving-pressure-from-wind"><strong>Driving pressure from wind</strong></h4>
+<p>A loop may contain the node for the ambient. If the loop do not contain the node for the ambient, it is an internal loop and the driving pressure thus not influenced by the wind. If the loop contains the ambient node, there will always be a contribution from the wind. This is because the loop starts outdoors and afterwards enters the building to finally returning to the ambient. As there is only one node for the ambient, a loop will never cross the therma envelope more than twice, see <a href="#figure9">Figure 9</a>.</p>
+<p>For those loops containing the node for the ambient, the driving pressure from the wind is determined as:</p>
+<p><a id="eq13"></a>
+<span class="mathjax-block">\[
+\Delta p_{vind} = \Delta C_p \cdot \frac{\rho \cdot U_{ref}^2}{2}&nbsp;\tag{13}
+\]</span></p>
+<p>where:<br></br>ΔC<em><sub>P</sub></em> is the difference between the two C<em><sub>P</sub></em> values [-]<br></br>U<em><sub>ref</sub></em> is the reference wind speed, calculated at the highest point f the building [m/s]   </p>
+<p><a id="eq14"></a>
+<span class="mathjax-block">\[
+\Delta C_p = C_{p, første} - C_{p, anden}&nbsp;\tag{14}
+\]</span></p>
+<p>The first C<em><sub>P</sub></em>-value is always attached to that node in arch number 2 of the loop-list that faces "outdoors". The second CP-value is always attached to that node in the last arch in the loop-list that faces "outdoors", respectively node 9 and 2 in <a href="#figure9">Figure 9</a>.</p>
+<p>The determination of the driving pressure in a bulleted list form looks like:</p>
+<ul>
+<li><p>Does the loop contain the node for outdoors?</p>
+</li>
+<li><p>If NO</p>
+</li>
+<li><p>Δp<em><sub>wind</sub></em> equals 0  </p>
+<ul>
+<li>If YES</li>
+</ul>
+</li>
+<li><p>Find C<em><sub>P</sub></em> for the second and the last arch in the list (node number 2 and n-1)</p>
+</li>
+<li><p>Calculate ΔC<em><sub>P</sub></em> according to <a href="#eq14">Equation 14</a> and Δp<em><sub>wind</sub></em> according to <a href="#eq13">Equation 13</a></p>
+</li>
+</ul>
+<h4 id="total-driving-pressure"><strong>Total driving pressure</strong></h4>
+<p>The total driving pressure is the summation of all driving pressures from wind and temperature gradients:</p>
+<p><span class="mathjax-block">\[
+\Delta p_{Total} = \Delta p_{Termisk} + \Delta p_{Vind}&nbsp;\tag{15}
+\]</span></p>
+<p>The total driving pressure is the summation of all single contributions along the loop, calculated with sign. The contributions is positive if they contribute to force the air in the positive direction of the loop.</p>
+<p><span class="mathjax-block">\[
+\Delta p_{Total} = g \sum - \int_{z_i}^{z_j} \rho_e (z) dz + \Delta C_p \frac{\rho \cdot U_{ref}^2}{2} \tag{16}
+\]</span></p>
+<h4 id="making-of-resistances"><strong>Making of resistances</strong></h4>
+<p>That total resistance in a loop depends on the flow volume. The flow volume will always be exactly that size that the resistance in the loop is equal to the driving pressure.</p>
+<p>Many different equations for calculation of the resistance through an opening or through a component as a function of the flow. Here the classical orifice have been model implemented:</p>
+<p><span class="mathjax-block">\[
+Q = C_d \cdot A \cdot \sqrt{\frac{2 \Delta p}{\rho}}&nbsp;\tag{17}
+\]</span></p>
+<p>where:<br></br>Q is the flow [m³/s]<br></br>C<em><sub>d</sub></em> is the discharge coefficient [-]<br></br>A is the area of the opening [m²]<br></br>Δp is the loss of pressure over the opening [Pa]</p>
+<p>or given by the pressure difference:</p>
+<p><a id="eq18"></a>
+<span class="mathjax-block">\[
+\Delta p = Q^2 \frac{\rho}{C_d^2 \cdot A^2 \cdot 2}&nbsp;\tag{18}
+\]</span></p>
+<p>As LTM have been chosen to solve the equation system, the pressure drop over the openings must be linear regarding Q:</p>
+<p><span class="mathjax-block">\[
+\Delta p = Q \cdot \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2} \Rightarrow \Delta p = Q \cdot C&nbsp;\tag{19}
+\]</span></p>
+<p>where C is</p>
+<p><span class="mathjax-block">\[
+C = \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2}&nbsp;\tag{20}
+\]</span></p>
+<h3 id="solving-the-equation-system"><strong>Solving the equation system</strong></h3>
+<p>The total equation system is given by:</p>
+<figure id="center_img">
+<img src="assets/mzm_eq24.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+
+<h4 id="start"><strong>Start</strong></h4>
+<p>At the beginning of a calculation the equation system must be initialized. The equation system must be solved with respect to Q. The driving pressure and eventual imbalances in the mechanical ventilation is constant during the calculation, but if the sign of Q is changed, the densities must be updated as air comes from the neighbor zone.</p>
+<p>The matrix of resistance elements for the upper part is given as:</p>
+<p><span class="mathjax-block">\[
+C = \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2}&nbsp;\tag{21}
+\]</span></p>
+<p>As all resistances can not be zero, the flow, Q, must be different from zero. A guess on the flow through the openings is being made. In the first calculation all flows are set equal to 1. In the following calculations the flow from the previous calculation is being used.</p>
+<h4 id="solving-method-for-the-equation-system"><strong>Solving method for the equation system</strong></h4>
+<p>A simple Gauss reduction is being used to solve the equation system and coded with information from <a href="https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur" target="_blank">William et al. (2002)</a> as a starting point.</p>
+<p>Solving routine<br></br>The solving routine, given as a bulleted list, is as follows:</p>
+<ol>
+<li><p>Making of equation system</p>
+</li>
+<li><p>Initiation of equation system</p>
+</li>
+<li><p>Solving equation system</p>
+</li>
+<li><p>Updating resistance matrix based on new values of Q (both resistance and density)</p>
+</li>
+<li><p>Solving equation system</p>
+</li>
+<li><p>Control of convergence criteria</p>
+</li>
+<li><p>Point 4 to 6 repeated until convergence of the equation system is found</p>
+</li>
+</ol>
+<h4 id="convergence-criteria"><strong>Convergence criteria</strong></h4>
+<p>The convergence criteria is calculated according to the equation below. The driving pressure is compared to the resistance over the opening, calculated according to <a href="#eq18">Equation 18</a>. The maximum deviation must be less than the convergence criteria "MaxDif".</p>
+<p><span class="mathjax-block">\[
+\max \left( |p_{Total} - \Delta p_{Resistance}| \right) \leq MaxDif&nbsp;\tag{22}
+\]</span></p>
+<p>where:<br></br><em>Δp<sub></sub></em>Total<em>&lt;/sub&gt;</em> is the total driving pressure for one loop [Pa]<br></br><em>Δp<sub></sub></em>Resistance<em>&lt;/sub&gt;</em> is the resistance through the openings [Pa]<br></br><em>MaxDif</em> is the convergence criteria [Pa]</p>
+<p>The convergence criteria is as default given as 0.01 Pa. The user have the option to change the criteria, <a href="#figure12">Figure 12</a>.</p>
+<figure id="figure12">
+<img src="assets/mzm_eq27.jpg" alt="Figure 12. Dialog where the user have the option to change the convergence criteria. The dialog is opened by clicking 'Edit + Options' when tsbi5 is active."></img>
+<figcaption>Figure 12. Dialog where the user have the option to change the convergence criteria. The dialog is opened by clicking "Edit + Options" when tsbi5 is active.</figcaption>
+</figure>
+
+
+<p>To ensure that the simulation do not run into a loop without an exit, the maximum number of allowable iterations "Max Iterations" must be given (default 32).</p>
+<ul>
+<li><a href="https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen" target="_blank">Control systems in the multi-zone model</a>  </li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="20_16_System_for_air_exchange.html" class="navigation navigation-prev " aria-label="Previous page: System for air exchange">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="20_18_Control_systems_in_the_multi-zone_model.html" class="navigation navigation-next " aria-label="Next page: Control systems in the multi-zone model">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Implementation of mzm","level":"17.17","depth":1,"next":{"title":"Control systems in the multi-zone model","level":"17.18","depth":1,"path":"20The_Mathematical_basis/20_18_Control_systems_in_the_multi-zone_model.md","ref":"20The_Mathematical_basis/20_18_Control_systems_in_the_multi-zone_model.md","articles":[]},"previous":{"title":"System for air exchange","level":"17.16","depth":1,"path":"20The_Mathematical_basis/20_16_System_for_air_exchange.md","ref":"20The_Mathematical_basis/20_16_System_for_air_exchange.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","remove-honkit-footer","language-picker@https://github.com/okalachev/gitbook-plugin-language-picker.git","mathjax-fix","head-append","category-accordion"],"styles":{"website":"styles.css"},"pluginsConfig":{"mathjax-fix":{},"language-picker":{"grid-columns":3},"livereload":{},"head-append":{"code":["<SCRIPTTAG>window.MathJax = { tex: { inlineMath: [[\\\"\\\\\\(\\\",\\\"\\\\\\)\\\"],[\\\"$\\\",\\\"$\\\"]], displayMath: [[\\\"\\\\\\[\\\",\\\"\\\\\\]\\\"],[\\\"$$\\\",\\\"$$\\\"]], packages: {'[+]': ['ams','textmacros']}, processEscapes: true }, options: { skipHtmlTags: [\\\"script\\\",\\\"noscript\\\",\\\"style\\\",\\\"textarea\\\",\\\"pre\\\",\\\"code\\\"] } };</SCRIPTTAG>","<SCRIPTTAG id=\"MathJax-script\" src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js\"></SCRIPTTAG>","<SCRIPTTAG>(function(){function cleanNBSP(root){var t=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null,false);var n;while((n=t.nextNode())){if(n.nodeValue.indexOf('\\u00A0')!==-1){n.nodeValue=n.nodeValue.replace(/\\u00A0/g,' ');}}}function ts(){if(window.MathJax&&window.MathJax.typesetPromise){cleanNBSP(document.body);return window.MathJax.typesetPromise();}}function bind(){if(window.gitbook&&gitbook.events){gitbook.events.bind('page.change',ts);}document.addEventListener('DOMContentLoaded',ts);}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',bind);}else{bind();}})();</SCRIPTTAG>","<SCRIPTTAG>document.addEventListener('DOMContentLoaded',function(){var l=document.createElement('link');l.rel='stylesheet';l.href=new URL('styles.css', document.baseURI).toString();document.head.appendChild(l);});</SCRIPTTAG>"]},"search-pro":{},"remove-honkit-footer":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"category-accordion":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"20The_Mathematical_basis/20_17_Implementation_of_mzm.md","mtime":"2026-03-13T08:16:36.736Z","type":"markdown"},"gitbook":{"version":"6.0.3","time":"2026-03-13T09:18:59.243Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-remove-honkit-footer/website.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-category-accordion/website.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
