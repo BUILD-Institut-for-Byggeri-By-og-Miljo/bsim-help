@@ -5,17 +5,20 @@
 
 Default values are used in a number of locations in BSim if nothing else is given by the user. In the following all standard values used in BSim will be shown.
 
-*   [Surface properties (finish)]()
 
-*   [Room properties (temperature and moisture)]()
+* <a href="#Surface properties">Surface properties (finish)</a>
 
-*   [Photovoltaic panels (PV)]()
+* <a href="#Room properties">Room properties (temperature and moisture)</a>
+
+* <a href="#Photovoltaic panels">Photovoltaic panels (PV)</a>
+
 
  
 
-### **Surface properties (finish)**
 
-#### **Thermal surface resistance**
+<h3 id="Surface properties"><strong>Surface properties (finish)</strong></h3>
+
+### **Thermal surface resistance**
 
 If nothing else is given a fixed surface resistances for finishes facing outdoors and respectively a thermal zone is used. The default values for the surface resistances and the convective heat transfer coefficients are shown in the table below.
 
@@ -55,13 +58,13 @@ If no material is selected representing the finish properties, *SimLight* will u
 
 *   Emissivity: 0.8
 
-### **Room properties (temperature and moisture)**
 
+<h3 id="Room properties"><strong>Room properties (temperature and moisture)</strong></h3>
 If a space is placed **outside** a *thermal zone*, given the same temperature as a *real thermal zone* or connected to a *temperature profile*, 20 °C is used as a fixed indoor temperature during the entire simulation period.
 
  
 
-### **Photovoltaic panels (PV)**
+<h3 id="Photovoltaic panels"><strong>Photovoltaic panels (PV)</strong></h3>
 
 If no "material" is selected for areas with PV, a standard system is assumed consisting mono cristalline silicon cells, a good electrical layout and a proper AC/DC inverter. The default values for this are:
 
