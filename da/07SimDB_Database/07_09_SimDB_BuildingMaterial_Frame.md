@@ -1,14 +1,14 @@
 <link rel="stylesheet" href="../style.css">
 
 # SimDB - BuildingMaterial, Frame
-Dette faneblad indeholder alene en U-værdi og fremkommer kun, når der er valgt materialer fra en af [SfB-materialegrupperne](/24Miscellaneous/24_39_SfB_in_BSim.html) "b" eller "c". Værdien benyttes, hvis materialet indgår som en ramme-/karmkonstruktion (*frame*) eller en fyldning (*panel*) i en WinDoor.
+Dette faneblad indeholder alene en U-værdi og fremkommer kun, når der er valgt materialer fra en af [SfB-materialegrupperne](../24Miscellaneous/24_39_SfB_in_BSim.md) "b" eller "c". Værdien benyttes, hvis materialet indgår som en ramme-/karmkonstruktion (*frame*) eller en fyldning (*panel*) i en WinDoor.
 
 <figure id="center_img">
 <img src="./assets/DBFRAME.GIF" alt="U-værdien for en ramme-/karmkonstruktion (Edit Material | Frame) eller en fyldning. Benyttes, når materialet indgår som en del af en WinDoor.">
 <figcaption>U-værdien for en ramme-/karmkonstruktion (Edit Material | Frame) eller en fyldning. Benyttes, når materialet indgår som en del af en WinDoor.</figcaption>
 </figure>
 
-I henhold til [DS418, tillæg 1](/20The_Mathematical_Basis/20_02_References.html) kan følgende værdier benyttes for U-værdien af vinduesrammer.
+I henhold til [DS418, tillæg 1](../20The_Mathematical_Basis/20_02_References.md) kan følgende værdier benyttes for U-værdien af vinduesrammer.
 
 For rammer og karme af træ eller beklædt træ anvendes transmissionskoefficienten angivet i nedenstående figur, medmindre der er bestemt en nøjagtigere værdi. Ved bestemmelse af tykkelsen af rammer og karme af træ ses der bort fra eventuelle inddækninger af metal eller plast. ved forskellig tykkelse af fx ramme og karm anvendes middelværdien. Ved koblede rammer anvendes den samlede tykkelse af rammerne.
 
@@ -41,16 +41,16 @@ hvor *U<sub>u</sub>*  og *U<sub>i</sub>*  er transmissionskoefficienten for he
 
 Se også:
 
-*   [Faneblad Material](/07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.html)
+*   [Faneblad Material](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md)
 
-*   [Faneblad Moisture](/07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.html)
+*   [Faneblad Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
 
-*   [Faneblad Thermal](/07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html)
+*   [Faneblad Thermal](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
 
-*   [Faneblad Environment](/07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.html)
+*   [Faneblad Environment](../07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.md)
 
-*   [Faneblad Glazing](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html)
+*   [Faneblad Glazing](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 
-*   [Faneblad UserDefined](/07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.html)
+*   [Faneblad UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)
 
-*   [Faneblad Frame](/07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.html)
+*   [Faneblad Frame](../07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.md)
