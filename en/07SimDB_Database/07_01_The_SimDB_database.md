@@ -5,7 +5,7 @@ One of the central elements in *BSim* is the *SimDB* database, which contains de
 
 In principle the database contains two databases, one of materials ([*BuildingMaterial*](07_06_SimDB_BuildingMaterial.md)) and one of building elements ([*BuildingElement*](07_02_SimDB_BuildingElement.md)), which are made up of a combination of materials.
 
-All building elements and materials are named in accordance with the [SfB system](https://help.bsim.dk/support/kb/articles/DQ2xwBWV/sfb-i-bsim) <!-- TODO: verify link -->, and it is <span id="red_text"> important </span>  to conform to the convention when defining new data in the database, as the building elements are sorted according to the SfB system and the database displays different tabs with data, depending on the SfB number.
+All building elements and materials are named in accordance with the [SfB system](07_02_SimDB_BuildingElement.md), and it is <span id="red_text"> important </span> to conform to the convention when defining new data in the database, as the building elements are sorted according to the SfB system and the database displays different tabs with data, depending on the SfB number.
 
 Wherever "Edit" appears in the dialog boxes, right-clicking an SfB number will open the dialog box for editing data for the object.
 

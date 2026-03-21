@@ -2,11 +2,11 @@
 
 # SimView - Printing a model
 
-An alternative to *ModelList* is the [*ModelDoc*]() model documentation function. *ModelDoc* is called via *View* | *ModelDoc*.
+An alternative to *ModelList* is the [*ModelDoc*](../24Miscellaneous/24_29_Model_DOC.md) model documentation function. *ModelDoc* is called via *View* | *ModelDoc*.
 
 If *ModelList* has been selected from the toolbar or if the user is working in *XSun*, *tsbi5* or *SimLight*, the displayed information can be output directly on a printer.
 
-<img src="./assets/STOP.GIF" width=15> An icon like a stop sign at the beginning of a line indicates that there may be an error or data are missing. Double-clicking or Ctrl-click on the line shifts the focus to the object in question in the hierarchical summary. Right-click the object in the tree to edit or add data. The summary can be updated by clicking the *ModelList* icon again. Click [here]() to see explanations on the [error messages]() in *ModelList*.
+<img src="./assets/STOP.GIF" width=15> An icon like a stop sign at the beginning of a line indicates that there may be an error or data are missing. Double-clicking or Ctrl-click on the line shifts the focus to the object in question in the hierarchical summary. Right-click the object in the tree to edit or add data. The summary can be updated by clicking the *ModelList* icon again. Click [here](06_08_Error_messages.md) to see explanations on the [error messages](06_08_Error_messages.md) in *ModelList*.
 
 It is <u>not</u> possible to carry out a tsbi5 simulation if the *ModelList* is open or closed as an icon.
 
@@ -98,4 +98,4 @@ See also:
 *   [Adding an opening or WinDoor](../09SimView/09_07_WinDoor_Property.md)
 *   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
 *   [Climate data and ground](../09SimView/09_10_Climate_data.md)
-*   [Printing a model](https://bsim.outseta.com/support/kb/articles/z9MKj7m4/udskrift-af-model)
+*   [Printing a model](06_07_SimView_Printing_a_model.md)
