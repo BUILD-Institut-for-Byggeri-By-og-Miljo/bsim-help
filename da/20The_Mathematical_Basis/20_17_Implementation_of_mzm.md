@@ -34,6 +34,7 @@ På bygningsniveau vælges et vindprofil der benyttes til at beregne vindhastigh
 
 Vindhastigheden beregnes efter (British Standard):
 
+<a id="eq1"></a>
 $$ V_h = V_ {10} \cdot k \cdot h^{\alpha} \tag{1} $$
 
 hvor: 
@@ -41,8 +42,8 @@ hvor: 
 V<sub>h</sub> er vindhastigheden i højden h [m/s]   
 V<sub>10</sub> er den meteorologiske vindhastighed i åbent land i 10 meters højde [m/s]   
 *h* er den aktuelle højde over terræn [m]   
-*k* er en faktor, afhængig af terræn, Tabel 1 [-]   
-*α* er en eksponent, afhængig af terræn, Tabel 1 [-]
+*k* er en faktor, afhængig af terræn, <a href="#tabel-1">Tabel 1</a> [-]   
+*α* er en eksponent, afhængig af terræn, <a href="#tabel-1">Tabel 1</a> [-]
 
 | Terræntype                      | k    | α    |
 |----------------------------------|------|------|
@@ -50,17 +51,17 @@ V<sub>10</sub> er den meteorologiske vindhastighed i åbent land i 10 meters h�
 | Landskab med spredt bevoksning   | 0,52 | 0,20 |
 | Forstadsområder                  | 0,35 | 0,25 |
 | Bycentrum                        | 0,21 | 0,33 |
-*Tabel 1 Faktorer til karakterisering af forskellige terrænformer*
+<p id="tabel-1"><em>Tabel 1 Faktorer til karakterisering af forskellige terrænformer</em></p>
 
 <h4 id="valg-af-termiske-zoner"><strong>Valg af termiske zoner</strong></h4>
 
-Ved brug af enkeltzonemodellen er det nødvendigt at overveje hvilke af bygningens rum der skal indgå i de termiske zoner. Ved en normal termisk beregning kan de rum, der har samme termiske egenskaber, med fordel placeres i sammen termiske zone. Dette gælder fx ensartede kontorer med samme orientering, som vist med blå cirkler på figur 1. Ved modellering af tværventilation med enkeltzonemodellen vil rummene imidlertid skulle inddeles i termiske zoner svarende til de røde cirkler.
+Ved brug af enkeltzonemodellen er det nødvendigt at overveje hvilke af bygningens rum der skal indgå i de termiske zoner. Ved en normal termisk beregning kan de rum, der har samme termiske egenskaber, med fordel placeres i sammen termiske zone. Dette gælder fx ensartede kontorer med samme orientering, som vist med blå cirkler på <a href="#figur-1">figur 1</a>. Ved modellering af tværventilation med enkeltzonemodellen vil rummene imidlertid skulle inddeles i termiske zoner svarende til de røde cirkler.
 
 <figure id="center_img">
 <img src="./assets/mzm_im2.gif" alt="Figur 1. Forskellig inddeling af rum i termiske zoner. Blå cirkler svarer 
 til inddeling efter termiske hensyn og røde cirkler svarer til inddeling 
 efter hensyn til naturlig ventilation med enkeltzonemodellen.">
-<figcaption>Figur 1. Forskellig inddeling af rum i termiske zoner. Blå cirkler svarer 
+<figcaption id="figur-1">Figur 1. Forskellig inddeling af rum i termiske zoner. Blå cirkler svarer 
 til inddeling efter termiske hensyn og røde cirkler svarer til inddeling 
 efter hensyn til naturlig ventilation med enkeltzonemodellen.</figcaption>
 </figure>
@@ -69,7 +70,7 @@ efter hensyn til naturlig ventilation med enkeltzonemodellen.</figcaption>
 
 For at kunne beregne luftskifte ved naturlig ventilation skal der defineres nogle åbninger som luften kan strømme igennem. BSim har to typer af åbninger; huller og WinDoors. Huller er huller i konstruktionerne og kan ikke reguleres. Windoors dækker over vinduer og døre, som kan reguleres.
 
-Som standard er huller aktiveret, mens WinDoors ikke er aktiverede. På figur 2 ses dialogerne til angivelse af konstanter og aktivering af WinDoors. Begge typer åbninger modelleres ved hjælp af udløbskoefficientmodellen, og skal derfor tildeles en Cd-værdi.
+Som standard er huller aktiveret, mens WinDoors ikke er aktiverede. På <a href="#figur-2">figur 2</a> ses dialogerne til angivelse af konstanter og aktivering af WinDoors. Begge typer åbninger modelleres ved hjælp af udløbskoefficientmodellen, og skal derfor tildeles en Cd-værdi.
 
 For WinDoors skal der også angives, hvor stor en del af arealet der kan åbnes, og i hvilken højde det åbne areals centrum ligger. En WinDoor har et endeligt antal åbningsgrader, som kan specificeres af brugeren. Benyttes 10 åbningsgrader kan det aktive areal være 0, 10, 20, … % af det areal der kan åbnes.
 
@@ -77,18 +78,18 @@ Der kan/skal kun defineres åbninger i klimaskærmen, da enkeltzonemodellen regn
 
 <figure id="center_img">
 <img src="./assets/mzm_im3.jpg" alt="Figur 2. Dialoger til aktivering af huller og WinDoors i enkeltzonemodellen.">
-<figcaption>Figur 2. Dialoger til aktivering af huller og WinDoors i enkeltzonemodellen.</figcaption>
+<figcaption id="figur-2">Figur 2. Dialoger til aktivering af huller og WinDoors i enkeltzonemodellen.</figcaption>
 </figure>
 
 <h4 id="valg-af-cp-værdier"><strong>Valg af CP-værdier</strong></h4>
 
 De benyttede CP-værdier stammer fra ([Orme et al. 1998](/20The_Mathematical_Basis/20_28_Literature.html)) og er middelværdier for fladerne. Brugeren kan ikke selv angive CP-værdier. Orme et al. (1998) angiver CP-værdier for kvadratiske bygninger og bygninger med et sidforhold på 1:2. Der er ligeledes angivet CP-værdier for forskellige taghældninger. BSim vælger CP-værdier på baggrund af modellens geometri. *Det er derfor vigtigt at der opbygges tilpas meget af bygningen til at BSim vælger de rigtige CP-værdier.*
 
-CP-værdierne findes for tre forskellige grader af læ fra de omkringliggende bygninger og angives som en egenskab på den udvendige side af åbningen, se figur 3.
+CP-værdierne findes for tre forskellige grader af læ fra de omkringliggende bygninger og angives som en egenskab på den udvendige side af åbningen, se <a href="#figur-3">figur 3</a>.
 
 <figure id="center_img">
 <img src="./assets/mzm_im4.gif" alt="Figur 3. Angivelse af graden af læ fra omkringliggende bygninger.">
-<figcaption>Figur 3. Angivelse af graden af læ fra omkringliggende bygninger.</figcaption>
+<figcaption id="figur-3">Figur 3. Angivelse af graden af læ fra omkringliggende bygninger.</figcaption>
 </figure>
 
 <h4 id="regulering-af-naturlig-ventilation"><strong>Regulering af naturlig ventilation</strong></h4>
@@ -103,11 +104,11 @@ I dette afsnit omtales de forhold der har ændret sig i opbygningen af en BSim m
 
 **Termiske zoner**
 
-Med implementeringen af multizone modellen vil inddelingen af de termiske zoner med fordel kunne foretages efter de blå cirkler på figur 1, svarende til hvad der er termisk mest korrekt. Hvis det var muligt at angive CP-værdier på åbningsniveau, ville det være nødvendigt at inddele alle rummene i en termisk zone, som vist på figur 4.
+Med implementeringen af multizone modellen vil inddelingen af de termiske zoner med fordel kunne foretages efter de blå cirkler på <a href="#figur-1">figur 1</a>, svarende til hvad der er termisk mest korrekt. Hvis det var muligt at angive CP-værdier på åbningsniveau, ville det være nødvendigt at inddele alle rummene i en termisk zone, som vist på <a href="#figur-4">figur 4</a>.
 
 <figure id="center_img">
 <img src="./assets/mzm_im5.gif" alt="Figur 4. Inddeling af rum i termiske zoner ved beregning med multizone modellen.">
-<figcaption>Figur 4. Inddeling af rum i termiske zoner ved beregning med multizone modellen.</figcaption>
+<figcaption id="figur-4">Figur 4. Inddeling af rum i termiske zoner ved beregning med multizone modellen.</figcaption>
 </figure>
 
 #### **Interne åbninger**
@@ -132,11 +133,11 @@ Det har været nødvendigt at indføre tre iterationer, der knytter sig til:
 
 Indførelsen af iterationer betyder at brugeren kan blive nødt til (bør) forholde sig til konvergenskriterier og det maksimale antal af iterationer der tillades.
 
-På figur 5 er vist en foreløbig dialogboks, hvor det er muligt at kontrollere de tre iterationer. For de to første iterationer skal der angives et konvergenskriterium og et maksimalt antal iterationer, der sikrer at simuleringen ikke strander under uheldige omstændigheder. For den tredje iteration, regulering af vinduerne, skal der angives antallet af åbningsgrader, samt et tillæg til åbningsgraderne der benyttes til at bestemme det maksimale antal iterationer. De tre iterationer er forklaret i detaljer i afsnittet [*Regulering af multizonemodellen*](/20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.html) og [*Modellering af naturlig ventilation og natkøling - ved hjælp af ringmetoden*](/20The_Mathematical_Basis/20_28_Literature.html).
+På <a href="#figur-5">figur 5</a> er vist en foreløbig dialogboks, hvor det er muligt at kontrollere de tre iterationer. For de to første iterationer skal der angives et konvergenskriterium og et maksimalt antal iterationer, der sikrer at simuleringen ikke strander under uheldige omstændigheder. For den tredje iteration, regulering af vinduerne, skal der angives antallet af åbningsgrader, samt et tillæg til åbningsgraderne der benyttes til at bestemme det maksimale antal iterationer. De tre iterationer er forklaret i detaljer i afsnittet [*Regulering af multizonemodellen*](/20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.html) og [*Modellering af naturlig ventilation og natkøling - ved hjælp af ringmetoden*](/20The_Mathematical_Basis/20_28_Literature.html).
 
 <figure id="center_img">
 <img src="./assets/mzm_im6.jpg" alt="Figur 5. Dialogboks med indstillingerne for bl.a. de tre iterationer. Dialogen åbnes ved at kikke på 'Edit + Options' med tsbi5 aktiveret.">
-<figcaption>Figur 5. Dialogboks med indstillingerne for bl.a. de tre iterationer. Dialogen åbnes ved at kikke på "Edit + Options" med tsbi5 aktiveret.</figcaption>
+<figcaption id="figur-5">Figur 5. Dialogboks med indstillingerne for bl.a. de tre iterationer. Dialogen åbnes ved at kikke på "Edit + Options" med tsbi5 aktiveret.</figcaption>
 </figure>
 
 #### **Ubalance i mekanisk ventilation**
@@ -173,11 +174,11 @@ Der er overordnet to typer af knuder:
 
 *   Åbnings knuder
 
-Zoneknuderne er knyttet til de termiske zoner og omgivelserne. Der defineres én knude i de termiske zoner der indeholder åbninger der er aktiveret. Knuden placeres i samme højde som *SensorHgt* (figur 6). *SensorHgt* angiver i hvilken højde temperaturen i den termiske zone registreres (reguleres efter). Dette er kun relevant når der regnes med lodret temperaturgradient i den termiske zone. Ved beregning med lodret temperaturgradient benyttes [Kappa-modellen](/12The_Kappa_model/12_01_Kappa_model_description.html).
+Zoneknuderne er knyttet til de termiske zoner og omgivelserne. Der defineres én knude i de termiske zoner der indeholder åbninger der er aktiveret. Knuden placeres i samme højde som *SensorHgt* (<a href="#figur-6">figur 6</a>). *SensorHgt* angiver i hvilken højde temperaturen i den termiske zone registreres (reguleres efter). Dette er kun relevant når der regnes med lodret temperaturgradient i den termiske zone. Ved beregning med lodret temperaturgradient benyttes [Kappa-modellen](/12The_Kappa_model/12_01_Kappa_model_description.html).
 
 <figure id="center_img">
 <img src="./assets/mzm_im7.gif" alt="Figur 6. Dialogboks med egenskaber for en termisk zone. SensorHgt angiver i hvilken højde systemerne måler temperaturen.">
-<figcaption>Figur 6. Dialogboks med egenskaber for en termisk zone. SensorHgt angiver i hvilken højde systemerne måler temperaturen.</figcaption>
+<figcaption id="figur-6">Figur 6. Dialogboks med egenskaber for en termisk zone. SensorHgt angiver i hvilken højde systemerne måler temperaturen.</figcaption>
 </figure>
 
 For hver åbning defineres to knuder. En på hver side af åbningen. Knuderne placeres midt i den aktiverede del af åbningen.
@@ -198,16 +199,16 @@ Der oprettes to lister der indeholder hhv. alle knuder og alle grene. Listerne k
 
 <h3 id="opstilling-af-det-udspændende-træ"><strong>Opstilling af det udspændende træ</strong></h3>
 
-Opstilling af det udspændende træ skal kun inkludere de zoner der, evt. gennem andre zoner, er forbundet med omgivelserne. Det vil sige at der ikke kan regnes på luftudveksling mellem to termiske zoner, hvis disse ikke, evt. gennem andre zoner, er forbundet med omgivelserne, se figur 7.
+Opstilling af det udspændende træ skal kun inkludere de zoner der, evt. gennem andre zoner, er forbundet med omgivelserne. Det vil sige at der ikke kan regnes på luftudveksling mellem to termiske zoner, hvis disse ikke, evt. gennem andre zoner, er forbundet med omgivelserne, se <a href="#figur-7">figur 7</a>.
 
 <figure id="center_img">
 <img src="./assets/mzm_im8.gif" alt="Figur 7. BSim model med to interne åbninger og ingen eksterne. Multizone modellen bliver ikke aktiveret.">
-<figcaption>Figur 7. BSim model med to interne åbninger og ingen eksterne. Multizone modellen bliver ikke aktiveret.</figcaption>
+<figcaption id="figur-7">Figur 7. BSim model med to interne åbninger og ingen eksterne. Multizone modellen bliver ikke aktiveret.</figcaption>
 </figure>
 
 Ved opstilling af det udspændende træ er det valgt altid at starte i knuden for omgivelserne. Træet opstilles ud fra følgende systematik efter ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)) , kaldet "depth-first-search". N er antallet af Nodes (knuder) og P er antallet af pipes (grene). Beregningsgangen i opstillingen af det udspændende træ forklares i det følgende:
 
-
+<div id="gray_background">
 
 1.  *Associate label DFI(n) = 0, n = 1,2,…,N, with each node in the base graph* 
 
@@ -253,7 +254,7 @@ Ved opstilling af det udspændende træ er det valgt altid at starte i knuden fo
 
 11.  *Repeat from step 6 until all nodes have been added to the connected set, i.e., a spanning tree is formed* 
 
-
+</div>
 
 <br>
 
@@ -261,11 +262,11 @@ Listerne *A<sub>t</sub>* og C gemmes og der laves desuden en liste af grene der
 
 #### **Forklaring af beregningsgang ved opstilling af det udspændende træ**
 
-Forklaringen af beregningsgang ved opstilling af det udspændende træ bygger på figur 8 fra ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)).
+Forklaringen af beregningsgang ved opstilling af det udspændende træ bygger på <a href="#figur-8">figur 8</a> fra ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)).
 
 Beregningsgangen er:
 
-
+<div id="gray_background">
 
 1.  Der benyttes listerne ”Nodes” og ”Arches”
 
@@ -281,26 +282,26 @@ Beregningsgangen er:
 
 7.  Fokus flyttes nu fra den aktuelle knude til de tidligere knuder i ”Node list” i modsat rækkefølge af hvilken de er tilføjet. Dvs. (d) 2 - 4 - 3 -1. Der stoppes ved den første knude der har en naboknude der ikke er indeholdt i ”Node list”. I dette tilfælde stoppes allerede ved knude 4. Der fortsættes nu med punkt 5, 6 og 7 indtil der ikke er flere knuder der kan tilføjes.
 
-
+</div>
 
 <br>
 
 <figure id="center_img">
 <img src="./assets/mzm_im10.gif" alt="Figur 8. Forklaring af opstilling af det udspændende træ, (Savi? et al. 1996).">
-<figcaption>Figur 8. Forklaring af opstilling af det udspændende træ, (Savi? et al. 1996).</figcaption>
+<figcaption id="figur-8">Figur 8. Forklaring af opstilling af det udspændende træ, (Savi? et al. 1996).</figcaption>
 </figure>
 
 #### **Rutiner til sikring af korrekt opstilling af det udspændende træ** 
 
 Der laves en reduktion af listerne, så de kun indeholder knuder og grene fra de zoner der er multizoner. De zoneknuder der er benyttet til opstilling af det udspændende træ er multizoner, og de resterende zoner er ikke. Listerne Nodes og Arches reduceres, så de kun indeholder knuder fra multizoner, omgivelserne og grene der knytter sig til åbninger mellem multizoner og mellem multizoner og omgivelserne.
 
-Hvis alle grenene bliver brugt til opstilling af træet, vil modellen ikke indeholde nogen ringe og dermed vil multizone modellen ikke blive aktiveret. Dette svarer til at grenene nr. 1, 3, 6 og 7 mangler på figur 8 og det vil derfor være umuligt at lave en ring.
+Hvis alle grenene bliver brugt til opstilling af træet, vil modellen ikke indeholde nogen ringe og dermed vil multizone modellen ikke blive aktiveret. Dette svarer til at grenene nr. 1, 3, 6 og 7 mangler på <a href="#figur-8">figur 8</a> og det vil derfor være umuligt at lave en ring.
 
 <h3 id="opstilling-af-ringene"><strong>Opstilling af ringene</strong></h3>
 
 Opstilling af ringene sker ud fra følgende systematik efter ([Savić et al. 1996](/20The_Mathematical_Basis/20_28_Literature.html)), kaldet "breath-first-search". Beregningsgangen i opstillingen af ringene forklares i det følgende:
 
-
+<div id="gray_background">
 
 1.  *Associate label BFI(n) = 0, n = 1,2,…,N, with each node in the base graph* 
 
@@ -330,6 +331,7 @@ Opstilling af ringene sker ud fra følgende systematik efter ([Savić et al. 199
 
 11.  *Retrace back from ni’ to n<sub>i</sub> (using the tree arcs A<sub>t</sub>) in decreasing order of BFI. The arcs belonging to the ring are stored in L* 
 
+</div>
 
 <br>
 
@@ -339,9 +341,9 @@ Der gemmes en liste med alle ringene, der hver er gemt i variablen L.
 
 Antallet af ringe der skal opstilles er lig med antallet af grene i *A<sub>ct</sub>*. For hver gren i *A<sub>ct</sub>* opstilles en ring der indeholder færrest mulige grene. Ringen opstilles ved udelukkende at bruge grene fra det udspændende træ. Det vil sige at ingen af de andre grene i *A<sub>ct </sub>*indgår.
 
-Måden ringene opstilles på er beskrevet nedenfor. Der tages udgangspunkt i figur 8, (f) og der beskrives opstillingen af ringen for gren nr. 1:
+Måden ringene opstilles på er beskrevet nedenfor. Der tages udgangspunkt i <a href="#figur-8">figur 8</a>, (f) og der beskrives opstillingen af ringen for gren nr. 1:
 
-
+<div id="gray_background">
 1.  Start med en gren fra *A<sub>ct</sub>* (g1)
 
 2.  Vælg den ene af grenens knuder (k1)
@@ -365,6 +367,7 @@ Måden ringene opstilles på er beskrevet nedenfor. Der tages udgangspunkt i fig
     3.  Fra knude k3 vælge grene med #1 som hører til knude k3 ⇒ g2
 
     4.  Ringen består så af: g1 - g4 - g5 - g2 og k2 - k4 - k3 - k1
+</div>
 
 <br>
 
@@ -388,7 +391,7 @@ Der tages hensyn til at de termiske zoner kan skifte kategori, fx at en multizon
 
 I dette afsnit beskrives opstillingen af beregningsmatricerne. Beregningsmatricerne opstilles ud fra det aktuelle ring-system, zonerne og åbningernes karakteristika, samt drivtryk fra vind og termik.
 
-Ved opstillingen benyttes en simplificeret version af ringene. De grene der forbinder zoneknuderne med åbningerne giver ingen modstand og er derfor udeladt ved opstillingen af beregningsmatricerne, se evt. figur 9.
+Ved opstillingen benyttes en simplificeret version af ringene. De grene der forbinder zoneknuderne med åbningerne giver ingen modstand og er derfor udeladt ved opstillingen af beregningsmatricerne, se evt. <a href="#figur-9">figur 9</a>.
 
 Beregningsmatricerne opstilles med luftstrømmen som ubekendt. Det er mest praktisk, da denne bruges ved beregningen af modstanden gennem de enkelte åbninger og indgår ved sikringen af massebevarelse.
 
@@ -400,11 +403,13 @@ Ligningssystemet opstilles så der sikres masse- og energibevarelse.
 
 For zonerne gælder kontinuitetsligningen, der siger at den mængde luft (masse) der tilføres skal være lig den mængde luft der fjernes:
 
-$$ \sum \dot m_{ind} - \sum \dot m_{ud} = \dot m_{resulterende,fjernet} $$
+<a id="eq2"></a>
+$$ \sum \dot m_{ind} - \sum \dot m_{ud} = \dot m_{resulterende,fjernet} \tag{2} $$
 
 og
 
-$$ \dot m_{resulterende,fjernet} = \dot m_{mekanisk, fjernet} - \dot m_{mekanisk, tilført} $$
+<a id="eq3"></a>
+$$ \dot m_{resulterende,fjernet} = \dot m_{mekanisk, fjernet} - \dot m_{mekanisk, tilført} \tag{3} $$
 
 hvor: 
 
@@ -418,7 +423,8 @@ hvor: 
 
 For ringene gælder energibevarelsesligningen, der siger at energitabet på grund af friktion (modstand) i ringen er lig med den energi der tilføres til ringen, her vind og termik:
 
-$$ p_{Tab, Ring} = \sum \frac{\rho \cdot \dot V_i^2}{2\cdot c_d^2 \cdot A_i^2} $$
+<a id="eq4"></a>
+$$ p_{Tab, Ring} = \sum \frac{\rho \cdot \dot V_i^2}{2\cdot c_d^2 \cdot A_i^2} \tag{4} $$
 
 hvor:
 
@@ -430,7 +436,8 @@ hvor:
 
 og
 
-$$ P_{Tab, Ring} = \Delta P_{Opdrift} \cdot \Delta P_{vind} $$
+<a id="eq5"></a>
+$$ P_{Tab, Ring} = \Delta P_{Opdrift} \cdot \Delta P_{vind} \tag{5} $$
 
 hvor: 
 
@@ -445,7 +452,8 @@ Grenene vendes så det sikres at de har samme positive retning som ringen. Såda
 
 Det samlede ligningssystem består af to dele. En del for ringene der sikrer energibevarelse og en del for knuderne der sikrer kontinuitetsbevarelse. Begge systemer er af typen:
 
-$$ [M_1][V_1] = [V_2] $$
+<a id="eq6"></a>
+$$ [M_1][V_1] = [V_2] \tag{6} $$
 
 hvor:
 
@@ -454,15 +462,15 @@ V er en vektor
 
 ### **Eksempel til opstilling af beregningsmatricer**
 
-På figur 9 er vist en skitse af en BSim model med knuder, grene og ringe. Knuder og grene er nummereret fortløbende fra 0, og grenenes numre er understreget. Modellen består af to termiske zoner og fire åbninger. Dette giver to ringe der er vist med hhv. røde og grønne pile.
+På <a href="#figur-9">figur 9</a> er vist en skitse af en BSim model med knuder, grene og ringe. Knuder og grene er nummereret fortløbende fra 0, og grenenes numre er understreget. Modellen består af to termiske zoner og fire åbninger. Dette giver to ringe der er vist med hhv. røde og grønne pile.
 
-Som beskrevet tidligere benyttes kun de grene der tilhører en åbning. Det er for figur 9 gren nummer 1, 4, 7 og 10. Strømningen gennem disse grene betegnes efterfølgende med Q og modstanden over åbningerne med c.
+Som beskrevet tidligere benyttes kun de grene der tilhører en åbning. Det er for <a href="#figur-9">figur 9</a> gren nummer 1, 4, 7 og 10. Strømningen gennem disse grene betegnes efterfølgende med Q og modstanden over åbningerne med c.
 
 Ringene betegnes a og b, hvor den røde ring er benævnt a og den grønne b. Den positive omløbsretning for ringene er vist med pile.
 
 <figure id="center_img">
 <img src="./assets/mzm_im16.gif" alt="Figur 9. Skitse af BSim model med knuder, grene og ringe. Knuder og grene er nummereret fortløbende fra 0 og grenenes numre er understreget. De stiplede pile viser den positive omløbsretning for de to ringe.">
-<figcaption>Figur 9. Skitse af BSim model med knuder, grene og ringe. Knuder og grene er nummereret fortløbende fra 0 og grenenes numre er understreget. De stiplede pile viser den positive omløbsretning for de to ringe.</figcaption>
+<figcaption id="figur-9">Figur 9. Skitse af BSim model med knuder, grene og ringe. Knuder og grene er nummereret fortløbende fra 0 og grenenes numre er understreget. De stiplede pile viser den positive omløbsretning for de to ringe.</figcaption>
 </figure>
 
 ### **Ligningssystem for ringene (energibevarelse)**
@@ -500,7 +508,8 @@ Drivtrykket fra opdrift kan beregnes på baggrund af forskelle i vægten af luft
 
 I BSim regnes der som standard med fuld opblanding og dermed ensartede lufttemperaturer i de enkelte zoner. Der kan også regnes med en lineær lodret temperaturgradient. Det generelle udtryk for vægten af luft beregnes efter ([Hansen et al. 1997](/20The_Mathematical_Basis/20_28_Literature.html)):
 
-$$ p = \frac{m}{V} = 0,0034837 \cdot \frac{p}{T} - 0,0013169 \cdot \frac{p_d}{T} $$
+<a id="eq7"></a>
+$$ p = \frac{m}{V} = 0,0034837 \cdot \frac{p}{T} - 0,0013169 \cdot \frac{p_d}{T} \tag{7} $$
 
 Hvor: 
 
@@ -513,7 +522,8 @@ Hvor: 
 
 Densitetsforskellene omregnes til trykforskelle under forudsætning af hydrostatisk trykfordeling, der generelt er givet ved:
 
-$$ \Delta p_{e (\Delta Z_{i,j})} = - \int_{z_i}^{z_j} g \rho_e(z) dz $$
+<a id="eq8"></a>
+$$ \Delta p_{e (\Delta Z_{i,j})} = - \int_{z_i}^{z_j} g \rho_e(z) dz \tag{8} $$
 
 Hvor:  
 *Δp* er tryk forskellen [Pa]  
@@ -526,23 +536,27 @@ Da luftens massefylde er omvendt proportional med temperaturen giver integration
 
 Ved konstant temperatur giver integrationen af ovenstående følgende:
 
-$$ \Delta p_{e (\Delta Z_{i,j})} = - \rho_e g\Delta z_{i,j} $$
+<a id="eq9"></a>
+$$ \Delta p_{e (\Delta Z_{i,j})} = - \rho_e g\Delta z_{i,j} \tag{9} $$
 
 #### **Densitet af fugtig luft ved lineær lodret temperaturgradient**
 
 Ved lineær lodret temperaturgradient giver integrationen af ovenstående følgende:
 
-$$ \Delta p_{e (\Delta Z_{i,j})} = - g \cdot \frac{K_1}{K_2} \left[ \ln(T_j + K_2 z_j) - \ln(T_i + K_2 z_i) \right]  $$
+<a id="eq10"></a>
+$$ \Delta p_{e (\Delta Z_{i,j})} = - g \cdot \frac{K_1}{K_2} \left[ \ln(T_j + K_2 z_j) - \ln(T_i + K_2 z_i) \right]  \tag{10} $$
 
 hvor K<sub>1</sub>  og K<sub>2</sub> er givet ved:
 
-$$ K_1 = 0,0034837 \cdot p - 0,013169 \cdot p_d $$
+<a id="eq11"></a>
+$$ K_1 = 0,0034837 \cdot p - 0,013169 \cdot p_d \tag{11} $$
 
 Hvor:  
 *p* er total tryk, partialtryk [Pa]  
 *p<sub>d</sub>* er total tryk, vanddamp [Pa]
 
-$$ K_2 = \frac{T_j - T_i}{z_j - z_i} $$
+<a id="eq12"></a>
+$$ K_2 = \frac{T_j - T_i}{z_j - z_i} \tag{12} $$
 
 Hvor:  
 *z* er koten [m]   
@@ -556,7 +570,7 @@ I dette afsnit beskrives implementeringen af beregningerne af det termiske drivt
 
 Til beregning af drivtrykkene fra termik skal koterne for åbningerne bruges. Alle åbninger har to knuder, der kan være i vilkårlig kote.
 
-For eksterne åbninger benyttes koten for knuden der vender mod ude. Dette giver i langt de fleste tilfælde den korrekte højde ved beregning af drivtrykkene, se Figur 10 og Figur 11.
+For eksterne åbninger benyttes koten for knuden der vender mod ude. Dette giver i langt de fleste tilfælde den korrekte højde ved beregning af drivtrykkene, se <a href="#figur-10">Figur 10</a> og <a href="#figur-11">Figur 11</a>.
 
 For interne åbninger benyttes gennemsnittet af de to knuders koter.
 
@@ -564,35 +578,37 @@ Alle ændringer i temperatur, fugtighed og densitet sker ved knuden for omgivels
 
 <figure id="center_img">
 <img src="./assets/mzm_im26.gif" alt="Figur 10. Illustration af åbningernes knuder og definitionen af de brugte koter.">
-<figcaption>Figur 10. Illustration af åbningernes knuder og definitionen af de brugte koter.</figcaption>
+<figcaption id="figur-10">Figur 10. Illustration af åbningernes knuder og definitionen af de brugte koter.</figcaption>
 </figure>
 
 <br>
 
 <figure id="center_img">
 <img src="./assets/mzm_im27.gif" alt="Figur 11. Model med to vandrette åbninger. Kote definitionen medfører en fejl i beregningen af højdeforskellen.">
-<figcaption>Figur 11. Model med to vandrette åbninger. Kote definitionen medfører en fejl i beregningen af højdeforskellen.</figcaption>
+<figcaption id="figur-11">Figur 11. Model med to vandrette åbninger. Kote definitionen medfører en fejl i beregningen af højdeforskellen.</figcaption>
 </figure>
 
 #### **Beregning**
 
-Der udføres en integration for hver af de zoner der er indeholdt i ringen, og for omgivelserne hvis ringen indeholder knuden for udeluften. For hver zone findes koten for de to åbninger der indgår i ringen, og det termiske drivtryk beregnes efter formel (18.12), hvis [Kappa](/12The_Kappa_model/12_01_Kappa_model_description.html) er lig 1 eller formel (18.13) hvis [Kappa](/12The_Kappa_model/12_01_Kappa_model_description.html) er forskellig fra 1.
+Der udføres en integration for hver af de zoner der er indeholdt i ringen, og for omgivelserne hvis ringen indeholder knuden for udeluften. For hver zone findes koten for de to åbninger der indgår i ringen, og det termiske drivtryk beregnes efter <a href="#eq9">Formel 9</a>, hvis [Kappa](/12The_Kappa_model/12_01_Kappa_model_description.html) er lig 1 eller <a href="#eq10">Formel 10</a> hvis [Kappa](/12The_Kappa_model/12_01_Kappa_model_description.html) er forskellig fra 1.
 
 ### **Drivtryk fra vind**
 
-Overordnet kan en ring enten indeholde den eller ikke indeholde knuden for omgivelserne. Hvis ringen ikke indeholder omgivelserne er det en intern ring, og dermed vil drivtrykket ikke være påvirket af vinden. Indeholder ringen knuden for omgivelserne vil der altid være præcis to bidrag fra vinden. Dette fordi ringen starter ude, derefter skal ind i bygningen og endelig skal ud af bygningen for at slutte ved knuden for omgivelserne. Da der kun er én knude for omgivelserne, vil en ring aldrig passere bygningens klimaskærm mere end to gange, da det vil betyde at knuden for omgivelserne skulle passeres mere end en gang, se evt. Figur 9.
+Overordnet kan en ring enten indeholde den eller ikke indeholde knuden for omgivelserne. Hvis ringen ikke indeholder omgivelserne er det en intern ring, og dermed vil drivtrykket ikke være påvirket af vinden. Indeholder ringen knuden for omgivelserne vil der altid være præcis to bidrag fra vinden. Dette fordi ringen starter ude, derefter skal ind i bygningen og endelig skal ud af bygningen for at slutte ved knuden for omgivelserne. Da der kun er én knude for omgivelserne, vil en ring aldrig passere bygningens klimaskærm mere end to gange, da det vil betyde at knuden for omgivelserne skulle passeres mere end en gang, se evt. <a href="#figur-9">figur 9</a>.
 
 For de ringe der indeholder knuden for omgivelserne bestemmes drivtrykket fra vinden som:
 
-$$ \Delta P_{vind} = \Delta C_P \cdot \frac{\rho \cdot U_{ref}^2}{2} $$
+<a id="eq13"></a>
+$$ \Delta P_{vind} = \Delta C_P \cdot \frac{\rho \cdot U_{ref}^2}{2} \tag{13} $$
 
 Hvor:  
 *ΔC<sub>P</sub>* er forskellen mellem de to *C<sub>P</sub>* værdier [-]   
 *U<sub>ref</sub>* er reference vindhastigheden, beregnet ved det højeste punkt på bygningen [m/s]
 
-$$ \Delta C_P = C_{P, første} - C_{P, anden} $$
+<a id="eq14"></a>
+$$ \Delta C_P = C_{P, første} - C_{P, anden} \tag{14} $$
 
-Den første *C<sub>P</sub>*-værdi er altid knyttet til den knude i gren nummer 2 i ring-listen, der vender mod ”ude” og den anden *C<sub>P</sub>*-værdi er altid knyttet til den knude, i den sidste gren i ring-listen, der vender mod ”ude”, hhv. knude 9 og 2 på figur 9.
+Den første *C<sub>P</sub>*-værdi er altid knyttet til den knude i gren nummer 2 i ring-listen, der vender mod ”ude” og den anden *C<sub>P</sub>*-værdi er altid knyttet til den knude, i den sidste gren i ring-listen, der vender mod ”ude”, hhv. knude 9 og 2 på <a href="#figur-9">figur 9</a>.
 
 På punktform ser bestemmelsen af drivtrykket fra vinden sådan ud:
 
@@ -606,17 +622,19 @@ På punktform ser bestemmelsen af drivtrykket fra vinden sådan ud:
 
 *   Find *C<sub>P</sub>* for den anden gren i listen og den sidste gren i listen (knude nummer 2 og n-1)
 
-*   Beregn *ΔC<sub>P</sub>* efter formel (18.17) og *ΔP<sub>vind</sub>* efter formel (18.16)
+*   Beregn *ΔC<sub>P</sub>* efter <a href="#eq14">Formel 14</a> og *ΔP<sub>vind</sub>* efter <a href="#eq13">Formel 13</a>
 
 ### **Samlet drivtryk**
 
 Det samlede drivtryk er summen af drivtrykket fra vind og termik:
 
-$$ \Delta P_{Total} = \Delta P_{Termisk} + \Delta P_{Vind} $$
+<a id="eq15"></a>
+$$ \Delta P_{Total} = \Delta P_{Termisk} + \Delta P_{Vind} \tag{15} $$
 
 Det samlede drivtryk for en ring er summen af de enkelte bidrag langs ringen regnet med fortegn. Bidragene regnes positivt hvis de virker til at drive luft i den retning der er defineret som positiv for ringen.
 
-$$ \Delta P_{Total} = g \sum - \int_{z_i}^{z_j} \rho_e (z) dz + \Delta C_P \frac{\rho \cdot U_{ref}^2}{2} $$
+<a id="eq16"></a>
+$$ \Delta P_{Total} = g \sum - \int_{z_i}^{z_j} \rho_e (z) dz + \Delta C_P \frac{\rho \cdot U_{ref}^2}{2} \tag{16} $$
 
 ### **Opstilling af modstande**
 
@@ -624,7 +642,8 @@ Den samlede modstand i en ring afhænger af strømningsmængden. Strømningsmæn
 
 Der findes mange forskellige udtryk til beregning af modstanden (trykfaldet) gennem en åbning eller over en komponent som funktion af strømningen. Her er kun den klassiske orifice model implementeret:
 
-$$ Q = C_d \cdot A \cdot \sqrt{\frac{2 \Delta P}{\rho}} $$
+<a id="eq17"></a>
+$$ Q = C_d \cdot A \cdot \sqrt{\frac{2 \Delta P}{\rho}} \tag{17} $$
 
 Hvor:  
 *Q* er strømningen [m³/s]   
@@ -634,19 +653,22 @@ Hvor:
 
 eller givet ved trykforskellen:
 
-$$ \Delta P = Q^2 \frac{\rho}{C_d^2 \cdot A^2 \cdot 2} $$
+<a id="eq18"></a>
+$$ \Delta P = Q^2 \frac{\rho}{C_d^2 \cdot A^2 \cdot 2} \tag{18} $$
 
 Da det er valgt at benytte LTM ved løsning af ligningssystemet skal tryktabet over åbningerne lineariseres mht. Q:
 
-$$ \Delta P = Q \cdot \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2} \Rightarrow \Delta P = Q \cdot C $$
+<a id="eq19"></a>
+$$ \Delta P = Q \cdot \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2} \Rightarrow \Delta P = Q \cdot C \tag{19} $$
 
 hvor C er lig
 
-$$ C = \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2} $$
+<a id="eq20"></a>
+$$ C = \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2} \tag{20} $$
 
 # **Løsning af ligningssystem**
 
-Det samlede ligningssystem er givet ved (formel (18.9)):
+Det samlede ligningssystem er givet ved (<a href="#eq6">Formel 6</a>):
 
 <figure id="center_img">
 <img src="./assets/mzm_eq24.gif" alt="">
@@ -658,9 +680,10 @@ Det samlede ligningssystem er givet ved (formel (18.9)):
 
 Ved starten af en beregning skal ligningssystemet initieres. Ligningssystemet skal løses mht. Q, hvorfor disse er ukendte. Drivtrykkene og evt. ubalance i den mekaniske ventilation er konstante for beregningen. Massefylden af luften (den nederste del af modstansmatricen) er også konstant, men hvis fortegnet for Q ændres skal masseflyderne opdateres idet luften kommer fra nabozonen.
 
-Modstandsmatricens elementer er for den øverste del givet ved, (18.23):
+Modstandsmatricens elementer er for den øverste del givet ved, (<a href="#eq20">Formel 20</a>):
 
-$$ C = \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2}  $$
+<a id="eq21"></a>
+$$ C = \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2}  \tag{21} $$
 
 Da modstandende ikke alle må være nul, skal strømningen, Q, være forskellig fra nul. Der gættes på en strømning gennem åbningerne. Ved den første beregning sættes strømningen lig 1. Ved de efterfølgende beregninger benyttes strømningen fra sidste beregning.
 
@@ -696,23 +719,24 @@ Løsningsgangen for ligningssystemet er angivet på punktform nedenfor:
 
 #### **Konvergenskriterium** 
 
-Konvergenskriteriet er beregnet efter nedenstående udtryk. Drivtrykket sammenlignes med modstanden over åbningerne beregnet efter (18.21). Den maksimale afvigelse skal være mindre end konvergenskriteriet "MaxDif".
+Konvergenskriteriet er beregnet efter nedenstående udtryk. Drivtrykket sammenlignes med modstanden over åbningerne beregnet efter (<a href="#eq18">Formel 18</a>). Den maksimale afvigelse skal være mindre end konvergenskriteriet "MaxDif".
 
-$$ \max \left( |\Delta P_{Total} - \Delta P_{Modstand}| \right) \leq MaxDif $$
+<a id="eq22"></a>
+$$ \max \left( |\Delta P_{Total} - \Delta P_{Modstand}| \right) \leq MaxDif \tag{22} $$
 
 Hvor:  
 *ΔP<sub>Total</sub>* er det samlede drivtryk for den enkelte ring [Pa]  
 *ΔP<sub>Modstand</sub>* er modstanden gennem åbningerne [Pa]  
 MaxDif er konvergenskriteriet [Pa]
 
-Konvergenskriteriet er som standard sat til 0,01 Pa. Brugeren har mulighed for at angive et andet konvergenskriterium, figur 12.
+Konvergenskriteriet er som standard sat til 0,01 Pa. Brugeren har mulighed for at angive et andet konvergenskriterium, <a href="#figur-12">figur 12</a>.
 
 <figure id="center_img">
 <img src="./assets/mzm_eq27.jpg" alt="Figur 12. Dialogboks, hvor brugeren har mulighed for at angive konvergenskriteriet. Dialogen åbnes ved at klikke på 'Edit + Options' når tsbi5 er aktiveret.">
-<figcaption>Figur 12. Dialogboks, hvor brugeren har mulighed for at angive konvergenskriteriet. Dialogen åbnes ved at klikke på "Edit + Options" når tsbi5 er aktiveret.</figcaption>
+<figcaption id="figur-12">Figur 12. Dialogboks, hvor brugeren har mulighed for at angive konvergenskriteriet. Dialogen åbnes ved at klikke på "Edit + Options" når tsbi5 er aktiveret.</figcaption>
 </figure>
 
-For at sikre at simuleringen ikke kører fast, må der kun itereres et givent antal gange, svarende til "Max Iterations". Dette antal er som standard 32. Brugeren har, som for konvergenskriteriet, mulighed for at angive et andet antal maksimalt tilladte iterationer, figur 12.
+For at sikre at simuleringen ikke kører fast, må der kun itereres et givent antal gange, svarende til "Max Iterations". Dette antal er som standard 32. Brugeren har, som for konvergenskriteriet, mulighed for at angive et andet antal maksimalt tilladte iterationer, <a href="#figur-12">figur 12</a>.
 
 ## **Sammenspil mellem BSim og multizone modellen**
 

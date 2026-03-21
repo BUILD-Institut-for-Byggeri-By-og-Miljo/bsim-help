@@ -3,9 +3,9 @@
 # The SimDB database
 One of the central elements in *BSim* is the *SimDB* database, which contains default information on materials, constructions and windows. *SimDB* is a relational database with the same structure as that used in Danish Building Research Institute's "Energy and Environment Database", described in SBI report 278. The energy and environment database and the supplementary program can be downloaded from Danish Building Research Institute's website.
 
-In principle the database contains two databases, one of materials ([*BuildingMaterial*](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial)) and one of building elements ([*BuildingElement*](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement)), which are made up of a combination of materials.
+In principle the database contains two databases, one of materials ([*BuildingMaterial*](07_06_SimDB_BuildingMaterial.md)) and one of building elements ([*BuildingElement*](07_02_SimDB_BuildingElement.md)), which are made up of a combination of materials.
 
-All building elements and materials are named in accordance with the [SfB system](https://help.bsim.dk/support/kb/articles/DQ2xwBWV/sfb-i-bsim), and it is <span id="red_text"> important </span>  to conform to the convention when defining new data in the database, as the building elements are sorted according to the SfB system and the database displays different tabs with data, depending on the SfB number.
+All building elements and materials are named in accordance with the [SfB system](https://help.bsim.dk/support/kb/articles/DQ2xwBWV/sfb-i-bsim) <!-- TODO: verify link -->, and it is <span id="red_text"> important </span>  to conform to the convention when defining new data in the database, as the building elements are sorted according to the SfB system and the database displays different tabs with data, depending on the SfB number.
 
 Wherever "Edit" appears in the dialog boxes, right-clicking an SfB number will open the dialog box for editing data for the object.
 
@@ -17,6 +17,6 @@ If the standard database, or an other write-protected database is selected, this
 
 See also:
 
-*   [BuildingElement](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement)
+*   [BuildingElement](07_02_SimDB_BuildingElement.md)
 
-*   [BuildingMaterial](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial)
+*   [BuildingMaterial](07_06_SimDB_BuildingMaterial.md)

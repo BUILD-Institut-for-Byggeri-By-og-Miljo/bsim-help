@@ -17,7 +17,7 @@ The second tab contains information on the individual layers, which make up a bu
 
          *   If a material have been selected for the actual layer, the resistance is a **thermal resistance** [m²K/W], i.e. as a closed air-filled enclosure between two layers of material.
 
-         *   If **no** material have been selected, the resistance is a **moisture resistance** [m²sPa/kg] of the actual material equal to a vapour barrier. A table with typical moisture resistance is shown at the page dealing with [sorption/desorption](https://help.bsim.dk/support/kb/articles/y9gBGVQM/sorptiondesorption).
+         *   If **no** material have been selected, the resistance is a **moisture resistance** [m²sPa/kg] of the actual material equal to a vapour barrier. A table with typical moisture resistance is shown at the page dealing with [sorption/desorption](https://help.bsim.dk/support/kb/articles/y9gBGVQM/sorptiondesorption) <!-- TODO: verify link -->.
 
         *   If **no** material is selected and **no** resistance is given, the material layer is the geometric definition of an air-layer, e.g. a suspended ceiling. In this case the thermal resistance of the air-layer **must** be given as a resistance at the previous (counted from face 1 of the construction) material layer.
 
@@ -46,14 +46,14 @@ A new layer is added by selecting *New Layer*, clicking "?" in the *Material col
 
 Clicking the *Delete*-button will delete the current material layer from the construction.
 
-Right-clicking the material opens the dialog box for editing the [material's properties](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial).
+Right-clicking the material opens the dialog box for editing the [material's properties](07_06_SimDB_BuildingMaterial.md).
 
 WinDoors are defined in the same structure in the database as the other constructions, but the three unnamed fields and columns have a slightly different meaning.
 
 See also:
 
-*   [MaterialLayer for WinDoor](https://bsim.outseta.com/support/kb/articles/49EdNJQ7/materialelag-for-windoor)
+*   [MaterialLayer for WinDoor](https://bsim.outseta.com/support/kb/articles/49EdNJQ7/materialelag-for-windoor) <!-- TODO: verify link -->
 
-*   [Tab *BuildingElement*](https://bsim.outseta.com/support/kb/articles/L9nrBZ9Z/simdb-buildingelement)
+*   [Tab *BuildingElement*](07_02_SimDB_BuildingElement.md)
 
-*   [Tab *MaterialAmount*](https://help.bsim.dk/support/kb/articles/Rm8JaZ94/simdb---buildingelement-materialamount)
+*   [Tab *MaterialAmount*](07_04_SimDB_BuildingElement_MaterialAmount.md)

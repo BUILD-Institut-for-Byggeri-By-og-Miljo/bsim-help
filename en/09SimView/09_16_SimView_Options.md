@@ -54,7 +54,7 @@ In *Options* a number of details affecting the view of the model can be set:
 
 *   Hide the thickness of constructions (*Hide Inner Shells*) - improves clarity and reduces update times in the case of large models.
 
-*   *Floating toolbar* allows the [toolbar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken) to be located (dragged using the mouse) anywhere on the screen. This function will not come into action until next time the program is started.
+*   *Floating toolbar* allows the [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md) to be located (dragged using the mouse) anywhere on the screen. This function will not come into action until next time the program is started.
 
 *   The *Auto Arrange FaceSides* option ensures that:
 

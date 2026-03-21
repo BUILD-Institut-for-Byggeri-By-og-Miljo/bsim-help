@@ -9,5 +9,5 @@ The third tab only contains data used in connection with LCA analyses and is not
 </figure>
 
 See also:
-*   [Tab BuildingElement](https://bsim.outseta.com/support/kb/articles/L9nrBZ9Z/simdb-buildingelement)
-*   [Tab ConstructionLayer](https://help.bsim.dk/support/kb/articles/OW4NdAQg/simdb---buildingelement-constructionlayer)
+*   [Tab BuildingElement](07_02_SimDB_BuildingElement.md)
+*   [Tab ConstructionLayer](07_03_SimDB_BuildingElement_ConstructionLayer.md)

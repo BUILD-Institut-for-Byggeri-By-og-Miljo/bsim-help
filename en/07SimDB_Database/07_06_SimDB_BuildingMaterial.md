@@ -25,10 +25,10 @@ As with the building elements, the materials are divided into basic [SfB groups]
 Clicking *Edit* for a selected material opens a window in which the data registered for the material in question can be edited. The individual tables in the materials database will be described below. The tabs are structured in such a way that they start with the information needed for the main purpose of the database, with new information being added for each new tab. The number and type of tabs displayed depends on which material group (SfB number) has been selected.
 
 See also:
-*   [Tab Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
-*   [Tab Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
-*   [Tab Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
-*   [Tab Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
-*   [Tab Transmittance](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
-*   [Tab Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
-*   [Tab Finish](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish)
+*   [Tab Material](07_11_SimDB_BuildingMaterial_Material.md)
+*   [Tab Thermal](07_12_SimDB_BuildingMaterial_Thermal.md)
+*   [Tab Environment](07_07_SimDB_BuildingMaterial_Environment.md)
+*   [Tab Glazing](07_10_SimDB_BuildingMaterial_Glazing.md)
+*   [Tab Transmittance](07_16_SimDB_BuildingMaterial_UserDefined.md)
+*   [Tab Frame](07_09_SimDB_BuildingMaterial_Frame.md)
+*   [Tab Finish](07_08_SimDB_BuildingMaterial_Finish.md)
