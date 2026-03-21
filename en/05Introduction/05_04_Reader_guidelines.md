@@ -14,7 +14,7 @@ Before analyzing or modifying building models, the user should be familiar with 
 
 In some headings a letter is underlined. This has been done because the heading is analogous with the software menus and has a special meaning in the software. Underlining indicates that the option can also be activated using a series of keystrokes. The *<u>V</u>iew* option in the main View menu, for example, can be activated with the following combination: *Alt v* *v*. A "+" between two keystrokes means that both keys have to be pressed simultaneously.
 
-The software suite uses a number of shortcut keys, which generally have the same function as in MS Windows. There are also a number of program-specific shortcut keys, however, These can be accessed by pressing the "Alt" key and a letter. The [shortcut keys](https://bsim.outseta.com/support/kb/articles/vWyPMJ9b/genvejstaster) used are set out in the summary.
+The software suite uses a number of shortcut keys, which generally have the same function as in MS Windows. There are also a number of program-specific shortcut keys, however, These can be accessed by pressing the "Alt" key and a letter. The [shortcut keys](05_06_Shortcut_keys.md) used are set out in the summary.
 
 The "|" symbol (pipe) indicates that a menu can be reached via another menu. *View* | *View* followed by *Zoom-In*, for example, refers to the *Zoom-In* option, which is located under *<u>V</u>iew* in the main menu.
 
@@ -22,6 +22,6 @@ Some pages or sections are marked with a light yellow background colour. This in
 
 See also:
 
-*   [Printing help pages](https://bsim.outseta.com/support/kb/articles/EWBOrLmr/udskrift-af-hj-lpesider)
+*   [Printing help pages](05_03_Printing_help_pages.md)
 
-*   [Help structure](https://bsim.outseta.com/support/kb/articles/7maw4j9E/opbygning-af-hj-lp)
+*   [Help structure](05_02_Help_structure.md)
