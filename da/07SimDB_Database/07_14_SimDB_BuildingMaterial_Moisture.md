@@ -4,7 +4,7 @@
 Fanebladet Moisture indeholder oplysninger om materialets fugtegenskaber.
 
 <div id="gray_background">
-Opprettes der nye materialer i en database med information om egenskaber for fugttransport <u>skal</u> der angives data for fugttransporten, også selvom der ikke skal simuleres fugttransport. <a href="../05Introduction/05_05_Limitations.md">Se begrænsninger</a>.
+Oprettes der nye materialer i en database med information om egenskaber for fugttransport <u>skal</u> der angives data for fugttransporten, også selvom der ikke skal simuleres fugttransport. <a href="../05Introduction/05_05_Limitations.md">Se begrænsninger</a>.
 </div>
 
 
@@ -22,7 +22,7 @@ Lambda er varmeledningsevnen for materialet som anvendes når "Moisture Transpor
 
 **Kun værdien Lambda anvendes endnu, samt de tabeller som defineres under Absorption, Desorption og DeltaRh.**
 
-*Absorption/Desorption*: Klikkes på Absorption (*Desorption*) knappen [["abnes en tabel](../24Miscellaneous/24_43_Sorption_desorption.md), hvori der indtastes sammenhørende værdier af relativ fugt (-) og fugtindhold (kg/kg) for punkter på absorptions (desorptions) kurven for materialet. Første punkt antages altid at være (0, 0), og det kan udelades. Værdierne indtastes i rækkefølge med stigende relativ fugtighed.
+*Absorption/Desorption*: Klikkes på Absorption (*Desorption*) knappen [åbnes en tabel](../24Miscellaneous/24_43_Sorption_desorption.md), hvori der indtastes sammenhørende værdier af relativ fugt (-) og fugtindhold (kg/kg) for punkter på absorptions (desorptions) kurven for materialet. Første punkt antages altid at være (0, 0), og det kan udelades. Værdierne indtastes i rækkefølge med stigende relativ fugtighed.
 
 *DeltaRH*: Klikkes på *DeltaRH* knappen åbnes en tabel, hvori der indtastes værdi(er) for materialets kurve for det hygroskopiske område, som sammenhørende værdier af relativ fugt (-) og fugt permeabilitet (kg/m s Pa).
 
