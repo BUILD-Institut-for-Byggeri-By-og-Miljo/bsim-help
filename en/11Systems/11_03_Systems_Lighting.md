@@ -16,7 +16,7 @@ Heat from lighting equipment - minus an eventual part that is removed directly f
 
 *General Lighting (kW)* is the general ceiling lighting, which is basically controlled according to the incident daylight. The general lighting can be controlled according to three different principles. In the simplest form of control the lighting is controlled on the basis of the total incident solar radiation (kW) through the windows in the zone, while the second form of control uses the level of daylight (lux) at a given point in the zone. The third form of control for general lighting is based on the lighting need calculated using other calculation methods (computer programs), with BSim using hourly values for lighting power saved in a result file imported from these calculations.
 
-It is also possible to specify periods during which only part of the general lighting can be switched on, as well as to indicate that the lighting should be switched off in certain cases if the indoor temperature becomes too high. The control principles are described in greater detail in the [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) section.
+It is also possible to specify periods during which only part of the general lighting can be switched on, as well as to indicate that the lighting should be switched off in certain cases if the indoor temperature becomes too high. The control principles are described in greater detail in the [Schedule](11_02_Systems_schedule.md) section.
 
 Please note that the installed lighting powers that are entered must include losses in any ballasts. In the case of fluorescent lights this loss represents approximately 20% of the power of the light source at nominal load.
 
@@ -46,7 +46,7 @@ $ f $                     is the desired lighting level in fraction o
 
 $ genlight $        is the nominal lighting level, lux
 
-For further information see: [Algorithms for calculating solar radiation and daylight.](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys)
+For further information see: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
 *Solar Limit* is used in connection with lighting control on the basis of the total incident solar radiation in the zone. If the incident solar radiation is less than the value for Daylight Limit, the general lighting is assumed to be on within the relevant time definition. Please note that the Factor parameter (specified under control in the schedule) for the current period will be multiplied by the power value entered for general lighting.  
      Solar Limit is the same parameter as defined at the tab "LightCtrl". If a value is defined (different from 0) on this tab (Lighting), this value is being used and the value defined on the LightCtrl tab is not being used.
@@ -55,12 +55,12 @@ For further information see: [Algorithms for calculating solar radiation and day
 
 The power transferred from the general lighting in this way is converted into an increase in the temperature of the exhaust air. If widely varying ventilation air flows are specified for different time definitions, the specified removal of heat should, if necessary, be weighted accordingly.
 
-There are basically two forms of control ([Light Control](https://help.bsim.dk/support/kb/articles/j9b8aMmn/belysning---light-control) and [Daylight Control](https://help.bsim.dk/support/kb/articles/zWZAql9p/belysning---daylight-control)) that can be used in the same thermal zone for different time definitions.
+There are basically two forms of control ([Light Control](11_03_Systems_Lighting.md) and [Daylight Control](11_03_Systems_Lighting.md)) that can be used in the same thermal zone for different time definitions.
 
 Please note that only the general lighting is controlled, whereas "tasking lighting" is always regarded as being on within the specified time definitions.
 
 See also:
-*   Tab [*LightCtrl*](https://bsim.outseta.com/support/kb/articles/j9b8aMmn/belysning---light-control)
-*   Tab [*DaylightCtrl*](https://help.bsim.dk/support/kb/articles/zWZAql9p/belysning---daylight-control)
-*   Tab [*Schedule*](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   Tab [*Time*](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   Tab [*LightCtrl*](11_03_Systems_Lighting.md)
+*   Tab [*DaylightCtrl*](11_03_Systems_Lighting.md)
+*   Tab [*Schedule*](11_02_Systems_schedule.md)
+*   Tab [*Time*](11_17_Systems_Time.md)

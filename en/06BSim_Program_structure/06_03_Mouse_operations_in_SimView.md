@@ -13,7 +13,7 @@ By *dragging, <u>with</u> the left mouse button pressed* the order for the therm
 
 A building can be added to an existing building (i.e. an new story) by dragging - using the mouse - an existing (in the model) building to the building to be extended. The moved building can only be recreated by using the Undo-function.
 
-A [room is moved to a thermal zone](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilfoje-rum-til-termiske-zoner) by dragging it to an existing thermal zone. A room in a thermal zone can be removed by dragging it back to the building where it belongs. If a thermal zone is deleted using the Delete-button, the rooms are automatic moved back to the building where it belongs.
+A [room is moved to a thermal zone](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md) by dragging it to an existing thermal zone. A room in a thermal zone can be removed by dragging it back to the building where it belongs. If a thermal zone is deleted using the Delete-button, the rooms are automatic moved back to the building where it belongs.
 
  
 **Constructions and materials**

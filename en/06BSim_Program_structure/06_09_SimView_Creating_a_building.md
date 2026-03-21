@@ -40,25 +40,25 @@ Attention **must** be paid to this convention when defining the geometry of the 
 
 See also:
 
-*   [Creating a building](https://help.bsim.dk/support/kb/articles/4966L49X/simview---oprette-en-bygning)
+*   [Creating a building](06_09_SimView_Creating_a_building.md)
 
-*   [Creating a space](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
+*   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
 
 *   [Default constructions](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner)
 
-*   [Non-default constructions](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner)
+*   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
 
-*   [Creating thermal zones](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/termisk-zone---egenskaber)
+*   [Creating thermal zones](../10Thermal_zones/10_01_Thermal_Zone_property.md)
 
-*   [Systems in thermal zones](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
+*   [Systems in thermal zones](../11Systems/11_01_Systems.md)
 
-*   [Editing the model geometry](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
+*   [Editing the model geometry](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
 *   [Solar light factors for WinDoors](https://bsim.outseta.com/support/kb/articles/49EdwkQ7/sollysfaktorer-for-windoors)
 
-*   [Adding an opening or WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
+*   [Adding an opening or WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 
-*   [Virtual zones](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview---fiktive-zoner)
+*   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
 
 *   [Climate data and ground](https://bsim.outseta.com/support/kb/articles/vWyP8M9b/klimadata)
 
