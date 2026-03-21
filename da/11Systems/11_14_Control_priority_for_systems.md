@@ -10,7 +10,7 @@ Følgende systemer kan bidrage til at hæve temperaturen:
 
 *   [Radiator](../11Systems/11_12_Systems_Heating.md)
 
-*   [Ventilationsan læg (varmegenvinding, varmeflade)](../11Systems/11_21_Systems_Ventilation.md)
+*   [Ventilationsanlæg (varmegenvinding, varmeflade)](../11Systems/11_21_Systems_Ventilation.md)
 
 Det system, der har det højeste setpunkt, aktiveres først, dog således at grænserne for de til rådighed værende effekter samt grænser for indblæsningstemperaturer altid overholdes (hvis dette er muligt).
 
@@ -28,7 +28,7 @@ Følgende systemer kan bidrage til at sænke temperaturen:
 
 *   [Køling (køleradiator)](../11Systems/11_09_Systems_cooling.md)
 
-*   [Ventilationsan læg](../11Systems/11_21_Systems_Ventilation.md) (kuldegenvinding, [VAV](../11Systems/11_26_Ventilation_VAV_control.md), køleflade)
+*   [Ventilationsanlæg](../11Systems/11_21_Systems_Ventilation.md) (kuldegenvinding, [VAV](../11Systems/11_26_Ventilation_VAV_control.md), køleflade)
 
 *   ([Belysning](../11Systems/11_03_Systems_Lighting.md))
 
