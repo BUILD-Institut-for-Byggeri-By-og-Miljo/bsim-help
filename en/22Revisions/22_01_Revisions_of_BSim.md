@@ -359,7 +359,7 @@ SimView File/Mail Project To: check for xml, and database renamed from .mdb to .
 
 **4,6,7,12** 
 
-*   *SimView, DisDb5, Model*: Error if a material was undefined in the moisture part of the database (a exist in the thermal-table but not in the moisture-table). See [limitations](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begransninger).
+*   *SimView, DisDb5, Model*: Error if a material was undefined in the moisture part of the database (a exist in the thermal-table but not in the moisture-table). See [limitations](../05Introduction\05_05_Limitations.md).
 
 **4,6,6,23** 
 
@@ -887,4 +887,4 @@ SimView File/Mail Project To: check for xml, and database renamed from .mdb to .
 
 *  <span id="red_text"> ***BSim2002*: Version 3.** </span>
 
-[Previous revisions of BSim2000](https://help.bsim.dk/support/kb/articles/vWyPBM9b/tidligere-revisioner-i-bsim2000)
+[Previous revisions of BSim2000](../24Miscellaneous/24_69_Revisions_of_BSim2000.md) 

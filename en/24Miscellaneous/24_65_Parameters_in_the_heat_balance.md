@@ -14,9 +14,9 @@ At the HeatBalance tab a number of parameters are found informing about the diff
 
 *   *Co2* shows the average content in ppm of CO<sub>2</sub> in the indoor air.
 
-*   *PAQ* shows the calculated [Perceived indoor Air Quality](https://help.bsim.dk/support/kb/articles/4966Zl9X/oplevet-indeluftkvalitet-paq).
+*   *PAQ* shows the calculated [Perceived indoor Air Quality](../20The_Mathematical_basis/20_19_PAQ.md).
 
-*   *Hours > 21, Hour > 25, Hour > 28 and Hour < 20* shows the number of hours with an operative indoor temperature above and below certain given limits (the limits can be changed at the *[Options](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options)* tab) in the selected thermal zone within the selected time resolution, e.g. week or month. If the entire model is selected, no values are shown.
+*   *Hours > 21, Hour > 25, Hour > 28 and Hour < 20* shows the number of hours with an operative indoor temperature above and below certain given limits (the limits can be changed at the *[Options](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)* tab) in the selected thermal zone within the selected time resolution, e.g. week or month. If the entire model is selected, no values are shown.
 
 *   *FanPow* shows the used electrical energy (kWh) for running the fans in the ventilation system(s). The used power is calculated based on the given pressure rise in the ducts (inlet and outlet).
 

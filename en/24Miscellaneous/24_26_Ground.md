@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Ground
-*The dialog is opened from the Site dialog.*
+*The dialog is opened from the [Site](24_25_Site_Property.md) dialog.*
 
 It is possible to define the maximum temperature and relative moisture content of the ground together with the date when they occur. It is also possible to specify the lowest ground temperature with the relevant relative moisture content. A sinusoidal variation of ground temperature and relative humidity during the year is applied on the basis of these data.
 
@@ -32,7 +32,7 @@ A corresponding variation can be forced on the moisture content in the ground or
 
 You can create as many "Ground" as you like, and use them as virtual zones facing face sides where you do not wish a detailed simulation of the thermal conditions at both face sides.
 
-According to the [Danish norm DS418, amendment 4](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur), the dimensioning ground temperature under an unheated building and in deep layers of soil around a heated building be defined to 10 °C (In Denmark).
+According to the [Danish norm DS418, amendment 4](../20The_Mathematical_basis/20_28_Literature.md), the dimensioning ground temperature under an unheated building and in deep layers of soil around a heated building be defined to 10 °C (In Denmark).
 
 Slab-on-ground constructions must thus be created in a way that a part of the ground below the building is part of the construction. The transmission coefficient (U-value) for a slab-on-ground or a basement wall directly towards the ground can be determined from the formula:
 
@@ -40,7 +40,7 @@ $$ U' = \frac{1}{R_{si} + \sum R_m + R_g} $$
 
 where
 
-*   ***R<sub>si</sub>*** is the surface resistance at the interior face of the construction in the unit m²K/W. This value is not shown when showing the construction in [SimDB](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb-buildingelement).
+*   ***R<sub>si</sub>*** is the surface resistance at the interior face of the construction in the unit m²K/W. This value is not shown when showing the construction in [SimDB](../07SimDB_Database/07_02_SimDB_BuildingElement.md).
 *   ***R<sub>g</sub>*** is the thermal resistance of the soil in the unit m²K/W. A slab-on-ground construction construction can thus be created by adding an extra material layer (soil) to the exterior side of the construction.
-*   ***R<sub>m</sub>*** is the thermal resistance of the material layers in the construction in the unit m²K/W. This value is shown as information in [SimDB](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb-buildingelement).
+*   ***R<sub>m</sub>*** is the thermal resistance of the material layers in the construction in the unit m²K/W. This value is shown as information in [SimDB](../07SimDB_Database/07_02_SimDB_BuildingElement.md).
 

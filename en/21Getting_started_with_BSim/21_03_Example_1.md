@@ -6,18 +6,18 @@
 
 The program is started by clicking BSim through the menu entries *Start* | *Program Files* | *BSim* | *BSim*.
 
-By doing this the common user interface - the main window - ([SimView](https://bsim.outseta.com/support/kb/articles/wQXx2xQK/simview)) is shown. The main window is divided into two fields, which are empty for the time being. In the field to the left the actual building will be shown as a tree structure. The field to the right will be further divided into four fields, where the model will be shown graphic. The preliminary name for the building model is 'untitled', as shown in the title bar of SimView.
+By doing this the common user interface - the main window - ([SimView](../09SimView/09_01_SimView.md)) is shown. The main window is divided into two fields, which are empty for the time being. In the field to the left the actual building will be shown as a tree structure. The field to the right will be further divided into four fields, where the model will be shown graphic. The preliminary name for the building model is 'untitled', as shown in the title bar of SimView.
 
-Before starting the work on constructing a building model, it is a good idea to set the parameters for saving *Undo*-levels for changes in the model geometry. This is done by right-clicking in the graphic part of the main window and selecting the entry [*Options*](https://help.bsim.dk/support/kb/articles/LmJv8EmP/simview---options). Please note that changes in the number of *Undo*-levels will <u>not</u> come into action until the next time the program is started.
+Before starting the work on constructing a building model, it is a good idea to set the parameters for saving *Undo*-levels for changes in the model geometry. This is done by right-clicking in the graphic part of the main window and selecting the entry [*Options*](../09SimView/09_16_SimView_Options.md). Please note that changes in the number of *Undo*-levels will <u>not</u> come into action until the next time the program is started.
 
-To create a new model, the mouse pointer is moved to the menu *File* | *New*, and clicking the mouse (left mouse button). One can also click the icon for a new project (the first (from left) icon at the [tool-bar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)) or alternatively by pressing *Ctrl+n* as a [short-cut](https://bsim.outseta.com/support/kb/articles/vWyPMJ9b/genvejstaster).
+To create a new model, the mouse pointer is moved to the menu *File* | *New*, and clicking the mouse (left mouse button). One can also click the icon for a new project (the first (from left) icon at the [tool-bar](../06BSim_Program_structure/06_05_SimView_Toolbar.md)) or alternatively by pressing *Ctrl+n* as a [short-cut](../05Introduction/05_06_Shortcut_keys.md).
 
 <figure id="center_img">
 <img src="./assets/mw1.jpg" alt="First dialog for creating a new project.">
 <figcaption>First dialog for creating a new project.</figcaption>
 </figure>
 
-Doing this calls upon a [wizard](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard---oprette-en-ny-model) for creation of a new model. The name (top input line) and the path (bottom input line) to the new model must be given in the first dialog box. The The name of the new model is typed in the name field, in this case 'EX1'. In the path field the following can be typed:
+Doing this calls upon a [wizard](../09SimView/09_12_Model_wizard_creating_a_new_model.md) for creation of a new model. The name (top input line) and the path (bottom input line) to the new model must be given in the first dialog box. The The name of the new model is typed in the name field, in this case 'EX1'. In the path field the following can be typed:
 
 C:\Program Files\Statens Byggeforskningsinstitut\BSim\Models
 
@@ -31,7 +31,7 @@ Beside creating a copy of a base-database it is possible to select what building
 
 #### **The building and the spaces in it**
 
-Now we are ready to describe the building geometry and the spaces in the building to the program. Right-click in the graphic part of the main window and select the entry *Add Building* (or Alt+b) from the [SimView menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu). This calls upon the building dialog. By creating a new model, it will be most natural to start the description with the spaces of the building that are to be simulated, and gradually describing the model in more and more detail, say construction types, layers in constructions and materials of the individual layers.
+Now we are ready to describe the building geometry and the spaces in the building to the program. Right-click in the graphic part of the main window and select the entry *Add Building* (or Alt+b) from the [SimView menu](../06BSim_Program_structure/06_06_SimView_Menu.md). This calls upon the building dialog. By creating a new model, it will be most natural to start the description with the spaces of the building that are to be simulated, and gradually describing the model in more and more detail, say construction types, layers in constructions and materials of the individual layers.
 
 <figure id="center_img">
 <img src="./assets/AddBuilding.gif" alt="Dialog for creating a new building.">
@@ -74,7 +74,7 @@ In the 3D drawing it is possible to control-click (left click on the mouse while
 
 **Input of data for windows**
 
-Select the face (Ctrl+left-click) facing South (if convenient rename it to 'SouthWall'). Select a local origin (double left-click or Shift+left-click one of the vertexes) of a coordinate system in the face where the window is to be inserted. Select an axis (double left-click or Shift+left-click on an edge) in the local coordinate system. Open the [SimView-menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu) and select the entry *Add WinDoor* to define the geometry and the location of the window in the WinDoor dialog.
+Select the face (Ctrl+left-click) facing South (if convenient rename it to 'SouthWall'). Select a local origin (double left-click or Shift+left-click one of the vertexes) of a coordinate system in the face where the window is to be inserted. Select an axis (double left-click or Shift+left-click on an edge) in the local coordinate system. Open the [SimView-menu](../06BSim_Program_structure/06_06_SimView_Menu.md) and select the entry *Add WinDoor* to define the geometry and the location of the window in the WinDoor dialog.
 
 <figure id="center_img">
 <img src="./assets/AddWindoor.gif" alt="Dialog for adding windows and doors (WinDoor) to a face. The illustration at the bottom right of the dialog shows how the WinDoor is located in the local coordinate system.">
@@ -91,7 +91,7 @@ To define the geometry around the window in detail, right-click the object WinDo
 </figure>
 
 
-Now the second space of the model can be created as a copy of "Box room 1". The new space can be created by selecting a face of the existing space and adding the new space to this using the entry *Add Room* from the [SimView-menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu). The size of the new space and/or the standard geometry can be chosen in the *Add Room* dialog box.
+Now the second space of the model can be created as a copy of "Box room 1". The new space can be created by selecting a face of the existing space and adding the new space to this using the entry *Add Room* from the [SimView-menu](../06BSim_Program_structure/06_06_SimView_Menu.md). The size of the new space and/or the standard geometry can be chosen in the *Add Room* dialog box.
 
 <figure id="center_img">
 <img src="./assets/eks12.jpg" alt="Add a space (Box room 2) to the model.">
@@ -111,7 +111,7 @@ Not all the construction types described in the example exists in the standard d
 
 **Connection of new constructions to the model database**
 
-From the [building description](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler) it emerges that the external wall construction is lightweight concrete, insulation and bricks. This construction type does not exist in the copy of the standard database, but a type with only one material layer differing from the desired type ('Br 39I100 Br'). The mouse cursor is moved to the SfB-number of the type with the mane 'Br 39I100 Br', which is a double brick wall with 100 mm insulation in between the two brick leafs. The construction type needed consists of light weight concrete as the inner leaf and it is therefore necessary to change one of the material layers.
+From the [building description](21_02_Learning_examples.md) it emerges that the external wall construction is lightweight concrete, insulation and bricks. This construction type does not exist in the copy of the standard database, but a type with only one material layer differing from the desired type ('Br 39I100 Br'). The mouse cursor is moved to the SfB-number of the type with the mane 'Br 39I100 Br', which is a double brick wall with 100 mm insulation in between the two brick leafs. The construction type needed consists of light weight concrete as the inner leaf and it is therefore necessary to change one of the material layers.
 
  
 
@@ -125,7 +125,7 @@ It is always recommended to make a copy of the element to change, in this case t
 </figure>
 
 
-When the new building element have got an unique SfB-number the *Edit BuildingElement* dialog of the database will open. On the first tab (*BuildingElement*) the name of the construction is changed so it reflects the new construction. After this one should jump to the second tab (*ConstructionLayer*). To obtain a description of the input fields in [*BuildingElement*](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement), [*ConstructionLayer* ](https://help.bsim.dk/support/kb/articles/OW4NdAQg/simdb---buildingelement-constructionlayer)and [*MaterialAmount* ](https://help.bsim.dk/support/kb/articles/Rm8JaZ94/simdb---buildingelement-materialamount)please refer to the description of the database SimDB.
+When the new building element have got an unique SfB-number the *Edit BuildingElement* dialog of the database will open. On the first tab (*BuildingElement*) the name of the construction is changed so it reflects the new construction. After this one should jump to the second tab (*ConstructionLayer*). To obtain a description of the input fields in [*BuildingElement*](../07SimDB_Database/07_02_SimDB_BuildingElement.md), [*ConstructionLayer* ](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)and [*MaterialAmount* ](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)please refer to the description of the database SimDB.
 
 <figure id="center_img">
 <img src="./assets/edit_buildingelement_1.gif" alt="On the second tab (ConstructionLayer) in the dialog Edit BuildingElement the material layers in the construction can be changed.">
@@ -133,7 +133,7 @@ When the new building element have got an unique SfB-number the *Edit BuildingEl
 </figure>
 
 
-Lightweight concrete is found in the BuildingMaterial part of the database, to where there is access on the second tab. By clicking the third material layer (*Brick ext 1800*) the layer is selected. In the entry *Type* the group f is selected (*Precast elements*), and from the entry *ConstructionMaterial* the appropriate (matching the [description of the constructions](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler)) material is selected to replace the current material.
+Lightweight concrete is found in the BuildingMaterial part of the database, to where there is access on the second tab. By clicking the third material layer (*Brick ext 1800*) the layer is selected. In the entry *Type* the group f is selected (*Precast elements*), and from the entry *ConstructionMaterial* the appropriate (matching the [description of the constructions](../21Getting_started_with_BSim/21_02_Learning_examples.md)) material is selected to replace the current material.
 
 When a new material is selected instead of the internal brick leaf, the thickness must be changed to 0.1 m. This is done by selecting the layer (left click on the mouse) and changing the value in the second field, immediate under the selection menu for *ConstructionMaterial*. The new material layer thickness will occur in the column marked *Thickness* beside the name of the new material.
 
@@ -145,7 +145,7 @@ The parameter *resistance* gives the thermal resistance in m²K/W of eventual en
 
 **Constructions in floor and roof**
 
-The [floor construction](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler) does not exist in the copy of the standard database, but looks like the construction 'C150 39I100', with an addition of 1 m and humid soil as the last material layer of the construction. With the cursor on the construction 'C150 39I100' the *Copy* button is clicked to make a copy of the standard construction.
+The [floor construction](../21Getting_started_with_BSim/21_02_Learning_examples.md) does not exist in the copy of the standard database, but looks like the construction 'C150 39I100', with an addition of 1 m and humid soil as the last material layer of the construction. With the cursor on the construction 'C150 39I100' the *Copy* button is clicked to make a copy of the standard construction.
 
 As described for external walls a copy is created and the layers can be changed. On the *ConstructionLayer* tab the cursor is moved to the second material layer, 'Min. wool 39', and the button *New Layer* is clicked. Doing this, a new material layer with the name? is created and the same procedure as described above can be used to define the material layer humid soil. Soil(humid) is found in the material group k, *Soil Materials*.
 
@@ -171,7 +171,7 @@ In the building description is given that the U-value is 1,6 W/m²K, but no info
 
 #### **Attachment of constructions to faces of the model**
 
-From the tree structure it is evident that no construction types nor WinDoor types have been selected, as these objects all have the type '*No Type*'. To define how the individual faces, i.e. the North wall, are constructed the SimView menu is opened (right-click with the mouse in the graphic part of the main window) and selecting the entry *Defaults*. Doing this the dialog for definition of [standard constructions](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner) is shown.
+From the tree structure it is evident that no construction types nor WinDoor types have been selected, as these objects all have the type '*No Type*'. To define how the individual faces, i.e. the North wall, are constructed the SimView menu is opened (right-click with the mouse in the graphic part of the main window) and selecting the entry *Defaults*. Doing this the dialog for definition of [standard constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md) is shown.
 
 <figure id="center_img">
 <img src="./assets/DefaultConstructions.gif" alt="Double dialog for selection of standard constructions and WinDoors for all faces of the model.">
@@ -181,7 +181,7 @@ From the tree structure it is evident that no construction types nor WinDoor typ
 
 A construction type can be attached to the faces of the model by dragging the appropriate SfB-number while pressing the left mouse-button to the right position in the *Defaults* dialog.
 
-The desired construction type can be selected from different groups of data in the [database](https://bsim.outseta.com/support/kb/articles/y9q842QA/databasen-simdb).
+The desired construction type can be selected from different groups of data in the [database](../07SimDB_Database/07_01_The_SimDB_database.md).
 
 <figure id="center_img">
 <img src="./assets/constructiontypes.gif" alt="The database constructions (BuildingElements) are divided into different types, i.e. external walls , internal walls, floors etc.">
@@ -220,7 +220,7 @@ In the example the floor faces the ground under the building, which in this case
 
 To define a (new) location (*Site*) of the model, the *New* button is clicked. This creates a new *Site* and it is possible to select a climate data file by clicking the *Browse* button. Browse and select the climate data file *cph.dry*.
 
-Click the *Ground* button and then the *New* button in the *Ground* dialog to create the [virtual zone ground](https://bsim.outseta.com/support/kb/articles/vWyP8M9b/klimadata) with a constant temperature of 10 °C all year through.
+Click the *Ground* button and then the *New* button in the *Ground* dialog to create the [virtual zone ground](../09SimView/09_10_Climate_data.md) with a constant temperature of 10 °C all year through.
 
 <figure id="center_img">
 <img src="./assets/ground.gif" alt="Dialog (Ground) for definition of the temperature variation of the virtual zone ground during the year.">
@@ -246,25 +246,25 @@ In the *Finish Property* dialog a field with information about the combined (con
 
 A virtual zone can also be created as a new space which is physically connected to the space in the model where it is to be used. Spaces outside thermal zones do not need to have defined constructions for all faces. A space can have a pre-defined temperature and humidity variation over the year - like the ground - and can further have a variation over the day.
 
-Instead of attaching a space as a virtual zone, it is possible to define that the temperature and moisture conditions on the other side (side 2) of a wall is the same as in the thermal zone of side 1. This can be done by right-clicking the *Finish* of the face 2 and selecting that this face faces (*Facing*) the thermal zone itself. A more detailed description of this can be found in the description of [virtual zones](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview---fiktive-zoner).
+Instead of attaching a space as a virtual zone, it is possible to define that the temperature and moisture conditions on the other side (side 2) of a wall is the same as in the thermal zone of side 1. This can be done by right-clicking the *Finish* of the face 2 and selecting that this face faces (*Facing*) the thermal zone itself. A more detailed description of this can be found in the description of [virtual zones](../09SimView/09_11_Virtual_zones.md).
 
  
 
 **More accurate calculation of heat losses to the ground**
 
-For a more accurate calculation, the principles in the rules of [DS 418](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) for estimation of the insulation value of the ground, eventually simplified that heat losses from basement walls under the ground surface and the slab on ground field 0-1 m from the internal side of an external wall, is calculated to the outdoor air through a 1 meter thick layer of soil with a thermal resistance of 1,0 m²K/W, while the heat loss from basement floors and the centre field of the slab on ground - more than 1 meter from the internal side of external walls - is done through the soil resistance of 2.0 m²K/W. The temperature under heated buildings (20 °C) depends especially on the insulation level of the floor and the size of the building. Normally this can be approximated to vary as a sinus shaped curve with its lowest temperature (10-12 °C) at the end of the winter (February-March) and the maximum temperature (14-16 °C) in the end of the summer (August-September).
+For a more accurate calculation, the principles in the rules of [DS 418](../20The_Mathematical_basis/20_28_Literature.md) for estimation of the insulation value of the ground, eventually simplified that heat losses from basement walls under the ground surface and the slab on ground field 0-1 m from the internal side of an external wall, is calculated to the outdoor air through a 1 meter thick layer of soil with a thermal resistance of 1,0 m²K/W, while the heat loss from basement floors and the centre field of the slab on ground - more than 1 meter from the internal side of external walls - is done through the soil resistance of 2.0 m²K/W. The temperature under heated buildings (20 °C) depends especially on the insulation level of the floor and the size of the building. Normally this can be approximated to vary as a sinus shaped curve with its lowest temperature (10-12 °C) at the end of the winter (February-March) and the maximum temperature (14-16 °C) in the end of the summer (August-September).
 
  
 
 **Control of the model data**
 
-Now data for a simple building model, comprising two thermal zones, each surrounded by six faces and it is now sensible to save the model. Before saving the model it should though be checked if there is any bugs in the model of data is missing. To do this, click on the [*ModelList* ](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model)button in the [tool-bar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken). If any data is missing or any other errors are found, the program will show a stop-sign at the beginning of the line with a description of the faulty object. It is possible to jump directly to most of the faulty objects by double-clicking the stop-sing in the model list. The list is removed by clicking the **x** in the right end of the title bar of the model list window.
+Now data for a simple building model, comprising two thermal zones, each surrounded by six faces and it is now sensible to save the model. Before saving the model it should though be checked if there is any bugs in the model of data is missing. To do this, click on the [*ModelList* ](../10Thermal_zones/10_09_SimView_Printing_a_model.md)button in the [tool-bar](../06BSim_Program_structure/06_05_SimView_Toolbar.md). If any data is missing or any other errors are found, the program will show a stop-sign at the beginning of the line with a description of the faulty object. It is possible to jump directly to most of the faulty objects by double-clicking the stop-sing in the model list. The list is removed by clicking the **x** in the right end of the title bar of the model list window.
 
  
 
 #### **Creating a thermal zone**
 
-It is still not possible to carry out a tsbi5-simulation. To be able to do this, at least one [thermal zone](https://bsim.outseta.com/support/kb/articles/rm0x8ZmX/thermal-zone-property), containing at least one space, must be created.
+It is still not possible to carry out a tsbi5-simulation. To be able to do this, at least one [thermal zone](../10Thermal_zones/10_04_Thermal_zone_property.md), containing at least one space, must be created.
 
 Right-click on the building in the tree structure to open the building property dialog, which have a button for creation of thermal zones. Each click on the *Insert ThermalZone* button, adds a thermal zone to the model. In this case one thermal zone is required.
 
@@ -290,10 +290,10 @@ While creating large models it is advised recommend to save the model every now 
 
 #### **Terminate BSim**
 
-The description of input data for systems are found in [Example 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2), where you can continue directly. If the data input is to be ended here, click the *Exit* entry of the *File* menu or click the **x** at the right end of the title bar of the main window.
+The description of input data for systems are found in [Example 2](21_04_Example_2.md), where you can continue directly. If the data input is to be ended here, click the *Exit* entry of the *File* menu or click the **x** at the right end of the title bar of the main window.
 
 
 See also:
-*   [Example 2 - The systems of the building](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2)
-*   [Example 3 - Modifying the building model ](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3)
+*   [Example 2 - The systems of the building](21_04_Example_2.md)
+*   [Example 3 - Modifying the building model ](21_05_Example_3.md)
 

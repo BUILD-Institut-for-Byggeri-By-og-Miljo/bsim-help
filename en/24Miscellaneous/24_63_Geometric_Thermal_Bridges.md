@@ -14,4 +14,4 @@ Thermal bridges are handled according to the rules given in the Danish Standard 
 
 Correction of the heat loss is done as a percentage increase of the λ-value and the heat capacity <br> (r $\cdot$ C<sub>p</sub>). Calculation of the corrected U-values are based on sub-surfaces. It can thus have great influence if a surface has been splitted near an edge and thereby have a much larger external than internal area.
 
-The only exception, according to DS418, is the joint between facade, floor and foundation. Here the calculation of the heat loss must be done through the internal surface areas. The thermal bridge along this joint should be treated as a [constructive (or linear) thermal bridge](https://help.bsim.dk/support/kb/articles/NmdK5OW0/kuldebroer).
+The only exception, according to DS418, is the joint between facade, floor and foundation. Here the calculation of the heat loss must be done through the internal surface areas. The thermal bridge along this joint should be treated as a [constructive (or linear) thermal bridge](../09SimView/09_08_Thermal_bridges.md).

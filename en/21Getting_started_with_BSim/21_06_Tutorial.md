@@ -15,5 +15,5 @@ The tutorial was prepared at BYG-DTU by:
 
 under the supervision of *Associate Professor Kaj Christensen*.
 
-The tutorial (6.1 MB in PDF format) is not part of this user guide/help, but can be downloaded via the BSim pages on the Internet under the [literature](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) section.
+The tutorial (6.1 MB in PDF format) is not part of this user guide/help, but can be downloaded via the BSim pages on the Internet under the [literature](../20The_Mathematical_basis/20_28_Literature.md) section.
 

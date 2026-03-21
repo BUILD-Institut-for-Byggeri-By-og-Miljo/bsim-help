@@ -5,22 +5,22 @@ This chapter gives examples of the practical use of BSim, right from guidance as
 
 By means of 3 examples, the model's structure is described as well as simulation and processing of results as an ongoing process for the same building model, so that most aspects of using the program are explained step by step.
 
-A more summarized description of the individual steps of creating a [building model](https://bsim.outseta.com/support/kb/articles/y9q8azQA/opbygning-af-model) is found as a ordered row of links to pages in this User's Guide.
+A more summarized description of the individual steps of creating a [building model](21_01_Constructing_a_model.md) is found as a ordered row of links to pages in this User's Guide.
 
-In order to enable the user to become acquainted with the most important functions of the program, a simple building is used as an example, for which a BSim-model is gradually built up. This means that not all the details of the program are described by examples. For a more detailed explanation of the individual parts of the building model, e.g. subjects which are not dealt with here, reference should be made to the description of the individual dialogs as well as [The mathematical basis](https://bsim.outseta.com/support/kb/articles/BWzd4NQE/det-matematiske-grundlag).
+... order to enable the user to become acquainted with the most important functions of the program, a simple building is used as an example, for which a BSim-model is gradually built up. This means that not all the details of the program are described by examples. For a more detailed explanation of the individual parts of the building model, e.g. subjects which are not dealt with here, reference should be made to the description of the individual dialogs as well as [The mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md).
 
  
 
 #### **The three examples**
 The examples describe how the building model can be gradually built up, how the model is checked, how simulations are prepared and carried out as well as how the results can be analysed.
 
-[EX1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1)    Starting up BSim, typing in data for zones and surfaces, constructions and windows, copying data as well as saving the model and concluding BSim.
+[EX1](21_03_Example_1.md)    Starting up BSim, typing in data for zones and surfaces, constructions and windows, copying data as well as saving the model and concluding BSim.
 
-[EX2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2)    Reading a pre-existing model, defining systems and schedules, setting up parameter lists as well as the first simulations and processing of simulation results.
+[EX2](21_04_Example_2.md)    Reading a pre-existing model, defining systems and schedules, setting up parameter lists as well as the first simulations and processing of simulation results.
 
-[EX3](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3)    Further elaboration of the building model, addition of shadows, modification of glazing type and addition of solar shading devices and ventilation systems. New simulation, modification of hour-log, analysis of results, and comparison with earlier results, definition of parameter lists, print-outs in tables and graphics.
+[EX3](21_05_Example_3.md)    Further elaboration of the building model, addition of shadows, modification of glazing type and addition of solar shading devices and ventilation systems. New simulation, modification of hour-log, analysis of results, and comparison with earlier results, definition of parameter lists, print-outs in tables and graphics.
 
-When going through the examples it is a assumed that the user has read the section regarding the [central user interface (SimView)]()
+When going through the examples it is a assumed that the user has read the section regarding the [central user interface (SimView)](../09SimView/09_01_SimView.md)
 <span id="red_text">
 and can use the mouse and keyboard confidently
 </span>
@@ -45,7 +45,7 @@ Even though there are two rooms in the building, it is counted as one zone in th
 
 
 ####  **Boundary conditions**
-For the outdoor climate, data from the [Danish Design Reference Year](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur), DRY are used, from which the necessary weather parameters are found in BSim format in the file named CPH.DRY.
+For the outdoor climate, data from the [Danish Design Reference Year](../20The_Mathematical_basis/20_28_Literature.md), DRY are used, from which the necessary weather parameters are found in BSim format in the file named CPH.DRY.
 
 As regards all external walls as well as the roof, one side faces the outdoor air. The floor is in contact with a virtual zone (the ground) with a fixed temperature of 10 °C.
 
@@ -53,7 +53,7 @@ The reflectance of solar radiation from the surroundings is 0.20. The external s
 
 
 **Surface resistances** <br>
-The internal surface resistance is set to 0.13 m² K/W and the external surface resistance towards the outdoor air to 0.04 m² K/W, cf. the [Danish Standard DS 418](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur), whilst the surface resistance towards "deeper earth layers" is reckoned to be 1.0 m² K/W.
+The internal surface resistance is set to 0.13 m² K/W and the external surface resistance towards the outdoor air to 0.04 m² K/W, cf. the [Danish Standard DS 418](../20The_Mathematical_basis/20_28_Literature.md), whilst the surface resistance towards "deeper earth layers" is reckoned to be 1.0 m² K/W.
 
  
 
@@ -100,4 +100,4 @@ The window is recessed slightly from the facade, so that the window's exterior s
 </figure>
 
 #### **Other data for the example**
-The structural part of the model can be defined in BSim on the basis of the description above. Remaining data for the systems, solar shading, shadows etc. are described in [example 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2).
+The structural part of the model can be defined in BSim on the basis of the description above. Remaining data for the systems, solar shading, shadows etc. are described in [example 2](21_04_Example_2.md).

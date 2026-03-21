@@ -6,7 +6,7 @@ This example carries on with descriptions and data typed in through example 1. I
 
 
 **Open an existing model** <br>
-The program is started as described in [example 1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1) by selecting the BSim entry from the Programs group at the Start-button. In BSim the entry Open is selected from the *File* menu or by clicking the Open-icon at the [toolbar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken). This opens a dialog for typing or selecting the path for the model files, i.e. *C:\Program Files\Statens Byggeforskningsinstitut\BSim\Models*, the program shows a list of building models in the selected path. The model EX1 is selected here and then the program reads the data recorded earlier for the building model EX1 into BSim.
+The program is started as described in [example 1](21_03_Example_1.md) by selecting the BSim entry from the Programs group at the Start-button. In BSim the entry Open is selected from the *File* menu or by clicking the Open-icon at the [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md). This opens a dialog for typing or selecting the path for the model files, i.e. *C:\Program Files\Statens Byggeforskningsinstitut\BSim\Models*, the program shows a list of building models in the selected path. The model EX1 is selected here and then the program reads the data recorded earlier for the building model EX1 into BSim.
 
 
 **Save model under new name** <br>
@@ -35,7 +35,7 @@ For the simple building, for which data has been recorded in example 1, the actu
  
 
 ####  **Entering data for systems** <br>
-In order to define the systems, right-click the thermal zone in the tree structure. A dialog of the possible systems which can be described will then appear. More in-depth explanations regarding systems are given in the chapter about [systems](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer).
+In order to define the systems, right-click the thermal zone in the tree structure. A dialog of the possible systems which can be described will then appear. More in-depth explanations regarding systems are given in the chapter about [systems](../11Systems/11_01_Systems.md).
 
 
 <figure id="center_img">
@@ -63,7 +63,7 @@ A schedule must be designated for the defined people load, which expresses that 
 
 The wizard has created day profiles and time definitions, which can be used in the definition of schedules for systems.
 
-A more detailed description of [day profiles](https://bsim.outseta.com/support/kb/articles/L9PwDAQJ/dayprofile-system) and [time](https://bsim.outseta.com/support/kb/articles/VmAOwo9a/time-system) definitions is found in the relevant sections of the [Systems](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer) section. The selected day profile defines that the whole (100 %) effect defined in the system (heat load and moisture load) is given off within the relevant time definition. In the actual case, this day profile is valid during working hours Monday to Wednesday. The Day profile is attached the actual schedule by clicking the Apply-button at the bottom of the tab.
+A more detailed description of [day profiles](../11Systems/11_02_Systems_schedule.md) and [time](../11Systems/11_17_Systems_Time.md) definitions is found in the relevant sections of the [Systems](../11Systems/11_01_Systems.md) section. The selected day profile defines that the whole (100 %) effect defined in the system (heat load and moisture load) is given off within the relevant time definition. In the actual case, this day profile is valid during working hours Monday to Wednesday. The Day profile is attached the actual schedule by clicking the Apply-button at the bottom of the tab.
 
 As no time definition corresponding to this is to be found in the standard definitions, this must be set up as a new time definition in the building model. This can, for example, be done by copying the time "weekdays 9-16" and modifying the day indication here from 1-5 to 1-3 and at the same time changing the name to "Monday-Wednesday 9-16".
 
@@ -147,7 +147,7 @@ The Daylight limit parameter, which is set to 0.15 (kW) indicates the limit for 
 
  
 **Schedule** <br>
-The control of the lighting systems can be defined by selecting on of the (in this case) two control tabs. The different control strategies are described in detail in the [lighting section](https://bsim.outseta.com/support/kb/articles/wQXxbnQK/lighting-system). In this case the LightCtrl type of control (tab 3) is selected, which can give a simple control of ordinary lighting according to the total solar incidence in the zone.
+The control of the lighting systems can be defined by selecting on of the (in this case) two control tabs. The different control strategies are described in detail in the [lighting section](../11Systems/11_03_Systems_Lighting.md).
 
 <figure id="center_img">
 <img src="./assets/light-lightctrl.gif" alt="">
@@ -177,7 +177,7 @@ $$
 * *w* is the wind speed, m/s   
  
 
-Venting is described in more details in the [venting section](https://bsim.outseta.com/support/kb/articles/gWKDJlmp/venting-system).
+Venting is described in more details in the [venting section](../11Systems/11_18_Systems_Venting.md).
 
 In the current case, the values for the formula constants are assumed to be as shown in the next dialog picture. The constants in the above formula can be difficult to ascertain since they are to a high degree dependent on the building's form, tightness and siting.
 
@@ -238,7 +238,7 @@ In this example, the three system types: 'Mixing', "Cooling" and "Ventilation" a
 
  
 #### **Documentation of data for the model** <br>
-Before saving the data or exiting the program or carrying out a simulation, the building model ought to be checked for possible errors or deficiencies. First, press the [*ModelList* ](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model)icon at the [toolbar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken) to control all data entered for the model. If a message comes regarding missing or incomplete data then these must be typed in or corrected. It is possible to jump directly to most faulty objects in the tree structure by double clicking the stop-sign of the errous object in the model list.
+Before saving the data or exiting the program or carrying out a simulation, the building model ought to be checked for possible errors or deficiencies. First, press the [*ModelList* ](../09SimView/09_04_Documentation_of_model.md)icon at the [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md) to control all data entered for the model. If a message comes regarding missing or incomplete data then these must be typed in or corrected. It is possible to jump directly to most faulty objects in the tree structure by double clicking the stop-sign of the errous object in the model list.
 
  
 **Save model** <br>
@@ -255,19 +255,19 @@ Simulation of the building, described in example 2, can be carried out before le
 
 
 **Options** <br>
-Before simulation can be performed, a simulation period must be defined. Two dialogs can be obtained via the *First Day* and *Last Day* entries to define the start and the stop date of the simulation. The second group of options on the [options tab](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options) offers the possibility setting different options that influence the simulation time and the accuracy of the simulations. In the group *Stat, hour* temperature limits for statistics regarding the indoor temperature which is calculated during simulation can be set. In this case data is selected as shown in the dialog picture above.
+Before simulation can be performed, a simulation period must be defined. Two dialogs can be obtained via the *First Day* and *Last Day* entries to define the start and the stop date of the simulation. The second group of options on the [options tab](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) offers the possibility setting different options that influence the simulation time and the accuracy of the simulations. In the group *Stat, hour* temperature limits for statistics regarding the indoor temperature which is calculated during simulation can be set. In this case data is selected as shown in the dialog picture above.
 
  
 **Time log and parameter selection** <br>
 *Save in Log* is a designation for the "log" (list or register) of hourly values which are continuously registered whilst simulation is taking place. As a great number of parameters are calculated hourly during simulation, it is important to specify which of these are to be saved for analysis later.
 
-The first group in the list is "Outdoor climate" which contains all the outdoor climate data used as well as calculated values for solar azimuth and solar height. By putting a tick-mark on the group these data are saved on hourly basis for later analyses. In a section of the description of tsbi5 an overview of all [parameter names and their meaning](https://bsim.outseta.com/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) are shown.
+The first group in the list is "Outdoor climate" which contains all the outdoor climate data used as well as calculated values for solar azimuth and solar height. By putting a tick-mark on the group these data are saved on hourly basis for later analyses. In a section of the description of tsbi5 an overview of all [parameter names and their meaning](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) are shown.
 
 In the *ThermalZones* data group, parameters relating to the indoor climate are stored, i.e. indoor temperature, operative temperature, air change rate, etc.
 
  
 **Start simulation** <br>
-Simulation is started by clicking the *Start*-button on the *Simulation* tab. Before the actual simulation is begun, the model is checked to see whether there are any errors in the building model's data and if this is the case, a message will appear. Linke in the [*ModelList* ](https://help.bsim.dk/support/kb/articles/ZmNr2Em2/simview---udskrift-af-model)one can double-click the line to jump directly to the errous object in the tree structure.
+Simulation is started by clicking the *Start*-button on the *Simulation* tab. Before the actual simulation is begun, the model is checked to see whether there are any errors in the building model's data and if this is the case, a message will appear. Linke in the [*ModelList* ](../09SimView/09_04_Documentation_of_model.md)one can double-click the line to jump directly to the errous object in the tree structure.
 
 When the model is complete, simulation starts with BSim calculating and writing on the screen the recommended number of time steps per hour, which will normally be determined by a thin layer with small mass or a layer with high thermal conductivity in one of the model's construction types. If the calculated minimum number of time steps is larger than the actual, the program will ask if the calculated or the actual number of time steps are to be used. If the calculated minimum number of time steps is greater than 6-10, consideration should be made as to whether the relevant layer can be left out or just defined as an extra insulation in the construction.
 
@@ -281,7 +281,7 @@ The simulation can be immediately interrupted by clicking the *Stop-button*. The
 
 
 #### **Results** <br>
-After the simulation, the results can be analyzed in various ways via the tabs: [*HeatBalanace*](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance), [*Parameters* ](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5---parameters)and *[Tables](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables)*.
+After the simulation, the results can be analyzed in various ways via the tabs: [*HeatBalanace*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md), [*Parameters* ](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)and *[Tables](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)*.
 
  
 #### **Heat balance for thermal zones** <br>
@@ -289,7 +289,7 @@ By selecting the *HeatBalanace* tab, an overview of the heat balance for the who
 
 In this case 'month' is selected as 'Time scale', and the heat balance is calculated on monthly basis.
 
-The meaning of the abbreviations in the heat balance, i.e. qHeating, qCooling, qInfiltration etc. are found in the [list](https://bsim.outseta.com/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) of parameters. The numbers expresses the sum of day contributions for each parameter in the total balance within each period (week, month or entire simulation period). In more of the parameters (infiltration, transmission, mixing and ventilation) both positive and negative numbers can be found if they adds or subtracts to the heat balance.
+The meaning of the abbreviations in the heat balance, i.e. qHeating, qCooling, qInfiltration etc. are found in the [list](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) of parameters. The numbers expresses the sum of day contributions for each parameter in the total balance within each period (week, month or entire simulation period). In more of the parameters (infiltration, transmission, mixing and ventilation) both positive and negative numbers can be found if they adds or subtracts to the heat balance.
 
 
 **Simple statistic for temperatures and air change** <br>
@@ -320,7 +320,7 @@ On the *Parameters* tab no list with parameters are exists. This only applies th
 </figure>
 
 
-Next, click the mouse on the parameter group '*Outdoor*', from which the parameter "ExtTmp" is selected, which is the outdoor temperature. Finally, the name on the parameter list is written over with the name "Temperatures". The hourly values are shown in tabular and graphic format on the [Tables](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables) tab.
+Next, click the mouse on the parameter group '*Outdoor*', from which the parameter "ExtTmp" is selected, which is the outdoor temperature. Finally, the name on the parameter list is written over with the name "Temperatures". The hourly values are shown in tabular and graphic format on the [Tables](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md) tab.
 
  
 
@@ -345,7 +345,7 @@ Normally, several parameter lists are defined for each building model, with choi
 
  
 **Period** <br>
-In the results table on the *Tables tab* a number of selection-menus and buttons are found at the top. The functionality of these buttons are found in the section about the [*Tables tab*](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables).
+In the results table on the *Tables tab* a number of selection-menus and buttons are found at the top. The functionality of these buttons are found in the section about the [*Tables tab*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md).
 
  
 #### **Hour values** <br>
@@ -359,15 +359,15 @@ The days around 7<sup>th</sup>-8<sup>th</sup> January are one of the coldest pe
 #### **Results in graphic format** <br>
 The <img src="./assets/garfikknap.gif" width=30> button offers the possibility of selecting to show te results as curves for temperatures, powers, etc. as a function of time. The program now shows the temperature curve for the first day in the result period. Clicking the arrow-buttons at the bottom of the tab 'leafs' through the result curves to January 8<sup>th</sup>. The curves show how the indoor temperature rises from the level of 17 °C during the cooling period to the set-point of 21 °C, which is not reached until hour 11. By right-clicking in the graphic, a menu is shown, allowing to copy or edit the graphic results. The results can be read and reproduced by other Windows-based programs, e.g. word processing and spread-sheet programs.
 
-In the section about the [*Tables*](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables) tab of tsbi5 a more detailed description of the results analyses and links to description of the possibilities for [manipulating the graphics](https://help.bsim.dk/support/kb/articles/aWxnxAQV/andring-af-den-grafiske-afbildning-af-resultater) are found.
+In the section about the [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md) tab of tsbi5 a more detailed description of the results analyses and links to description of the possibilities for [manipulating the graphics](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) are found.
 
 
 #### **Save model and exit BSim** <br>
 The model is now saved via the *File* entry in main menu, by clicking on the *Save* field. When the model is saved, two files are created: one file containing all the building model's data (file name: EX2.DIS) and another file which contains data regarding simulation and result analysis (simulation period, hour-log parameters, parameter lists etc.).
 
-Description of data input for external shadings and modifying the model for improvement of the building indoor climate and energy consumption is described in [example 3](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3), where you can continue directly.
+Description of data input for external shadings and modifying the model for improvement of the building indoor climate and energy consumption is described in [example 3](21_05_Example_3.md), where you can continue directly.
 
  
 See also:
-*   [Example 3 - Modifying the building model](https://bsim.outseta.com/support/kb/articles/4966l79X/eksempel-3)
+*   [Example 3 - Modifying the building model](21_05_Example_3.md)
 

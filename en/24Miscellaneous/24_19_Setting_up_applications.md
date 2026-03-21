@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Setting up applications
-It is possible to add favorite applications to the general [toolbar]() of BSim through the menu entry *Application* | *Setup*, which opens the dialog shown below.
+It is possible to add favorite applications to the general [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md) of BSim through the menu entry *Application* | *Setup*, which opens the dialog shown below.
 
 <figure id="center_img">
 <img src="./assets/menu_application.jpg" alt="Dialog (Application Config) for adding programs to the BSim toolbar.">
@@ -12,7 +12,7 @@ Programs defined in this way will be opened by clicking the new button at the to
 
 In the dialog the following buttons are shown:
 
-*   *Move <u>U</u>p* moves the high-lighted (here Bv98) one position up in the list.
+*   *Move <u>U</u>p* moves the high-lighted (here [Bv98](../17Hd98_Heating_Demand_Calculation/17_01_Calculating_with_Hd98.md)) one position up in the list.
 
 *   *<u>A</u>dd*... opens a dialog to locate the desired new toolbar program in the path of the local PC.
 

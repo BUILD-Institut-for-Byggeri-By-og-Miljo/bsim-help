@@ -12,7 +12,7 @@ The first parameter gives the installed power and the second which lighting leve
 
 #### **Control on the basis of daylight**
 
-With this control type the general lighting is regulated on the basis of the luminance at a given reference point in the zone. The luminance is, of course, heavily dependent on the location of the point, but the luminance on a horizontal work surface 0.85 above the floor is normally used. The software determines the luminance hour by hour on the basis of the calculated incident solar radiation on the windows in the zone and the values for [solar light factors](https://help.bsim.dk/support/kb/articles/49EdwkQ7/sollysfaktorer-for-windoors) SF1, SF2 and SF3, defined for each window, and solar light factor SF4, defined for any shading or shutters attached to the windows. The solar light factors are explained in greater detail in: [Algorithms for calculating solar radiation and daylight.](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys)
+With this control type the general lighting is regulated on the basis of the luminance at a given reference point in the zone. The luminance is, of course, heavily dependent on the location of the point, but the luminance on a horizontal work surface 0.85 above the floor is normally used. The software determines the luminance hour by hour on the basis of the calculated incident solar radiation on the windows in the zone and the values for [solar light factors](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) SF1, SF2 and SF3, defined for each window, and solar light factor SF4, defined for any shading or shutters attached to the windows. The solar light factors are explained in greater detail in: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
 *Desired Light Level (lux)* specifies the desired luminance at the chosen reference point. If the calculated daylight gives the desired luminance at the point, the general lighting is assumed to be off. If this level is not reached with daylight alone, the general lighting is assumed to be on. The type of light source and the way in which the general lighting can be controlled determine the level of power consumption.
 
@@ -20,4 +20,4 @@ With this control type the general lighting is regulated on the basis of the lum
 
 *Control Form:* This field opens a drop-down list box in which the control type has to be selected. It is possible to choose between on/off control, step-by-step control with a specified number of steps, continuous control and a user-defined type.
 
-See also: [Light Control](https://help.bsim.dk/support/kb/articles/j9b8aMmn/belysning-light-control)
+See also: [Light Control](24_09_Light_Control.md) 

@@ -22,6 +22,6 @@ $$ P_{heating} = P_{min} + (P_{max} - P_{min}) \cdot \frac{t_0 - t_{min}}{t_{des
 
 *Min Power* specifies the minimum available power in the system before the heat supply is regarded as switched off. *Min Power* is connected with *Te Min*.
 
-*Te Min* specifies the outdoor temperature at which the available power in the radiator reaches its minimum value, Min Power. The heat output is set to 0 outside the time definitions in the [schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule).
+*Te Min* specifies the outdoor temperature at which the available power in the radiator reaches its minimum value, Min Power. The heat output is set to 0 outside the time definitions in the [schedule](../11Systems/11_02_Systems_schedule.md).
 
 *Sensor Zone* indicates in which thermal zone the sensor of the heating system is located. This is especially important if one wish to simulated a floor heating system, where the floor heating zone is a separate thermal zone with heat emmitance controlled by the temperature in an other thermal zone. If *(None)* is shown in the input field, it means that the sensor is located in the thermal zone where the control is used. The same heating system can thus be used in different thermal zones, without trying to reach the same thermal zone temperature in all thermal zones using the same heating control. **NB:** The use of a sensor located in an other thermal zone is not yet fully validated - so results obtained with this function should be looked upon with great care.

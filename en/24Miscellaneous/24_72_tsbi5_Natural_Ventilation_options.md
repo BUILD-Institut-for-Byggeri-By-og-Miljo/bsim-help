@@ -40,7 +40,7 @@ Geometry
 
 Convective Heat Transfer Model
 
-*   *ka value:* The [Ka value](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) for openings ([Danvak Basic-book, chapter 7](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)).
+*   *ka value:* The [Ka value](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) for openings ([Danvak Basic-book, chapter 7](../20The_Mathematical_basis/20_28_Literature.md)).
 
 *   *Inlet Air Angle*: Spread angle of the air fume.
 

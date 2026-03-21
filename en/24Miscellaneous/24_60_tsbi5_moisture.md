@@ -24,9 +24,9 @@ The initial relative humidity is given in the *RH* field. This value is used for
 
 
 See also:
-*   [Tab *Options* ](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options)
-*   [Tab *Simulation* ](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5---simulation)
-*   [Tab *HeatBalance* ](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance)
-*   [Tab *Parameters* ](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5---parameters)
-*   [Tab *Tables*](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables)
+*   [Tab *Options* ](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)
+*   [Tab *Simulation* ](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
+*   [Tab *HeatBalance* ](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
+*   [Tab *Parameters* ](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)
+*   [Tab *Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)
 

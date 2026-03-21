@@ -11,11 +11,11 @@ By right-clicking in the tree structure on the left side of SimView, a menu is o
 
 The menu entries allow the following functions to be called:
 
-* *Properties*, which opens the [Building Property]() dialog for the building in the model that is currently selected.
+* *Properties*, which opens the [Building Property](24_27_Building_Property.md) dialog for the building in the model that is currently selected.
 
-* [*Add Site*](), which attaches a site (location) to the model.
+* [*Add Site*](24_25_Site_Property.md), which attaches a site (location) to the model.
 
-* [*Insert Thermal Zone*](), which adds a thermal zone to the currently selected building in the model each time the function is called.
+* [*Insert Thermal Zone*](../10Thermal_zones/10_01_Thermal_Zone_property.md), which adds a thermal zone to the currently selected building in the model each time the function is called.
 
-* [*Insert Defaults*](), which opens a dialog for overwriting the default values of the constructions with the values that are currently selected.
-The values for the default constructions can be changed via *Defaults* from the [SimView menu]().
+* [*Insert Defaults*](24_28_Insert_Default_Options.md), which opens a dialog for overwriting the default values of the constructions with the values that are currently selected.
+The values for the default constructions can be changed via *Defaults* from the [SimView menu](../06BSim_Program_structure/06_06_SimView_Menu.md).
