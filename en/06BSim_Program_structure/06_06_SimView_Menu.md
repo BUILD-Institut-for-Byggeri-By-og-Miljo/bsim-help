@@ -17,8 +17,8 @@ There are five options in the *SimView* menu that are not described under a sepa
 
 The individual menu options call up various dialog boxes that will be discussed in greater detail when the individual items are described:
 
-*   [Options](https://bsim.outseta.com/support/kb/articles/LmJv8EmP/options)
-*   [Defaults](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner)
+*   [Options](../09SimView/09_16_SimView_Options.md)
+*   [Defaults](../24Miscellaneous/24_28_Insert_Default_Options.md)
 *   [Add Building](06_09_SimView_Creating_a_building.md)
 *   [Add Room](../09SimView/09_15_SimView_Creating_a_space.md)
 *   [Add Face](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
