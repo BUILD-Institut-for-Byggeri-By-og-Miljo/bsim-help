@@ -4,24 +4,24 @@ Som i andre Windows programmer findes der øverst i programvinduet en række kna
 
 I det følgende beskrives de enkelt funktioner i *BSim*-menuerne:
 
-*   [File](/24Miscellaneous/24_12_File.html)
+*   [File](../24Miscellaneous/24_12_File.md)
 
-*   [Edit](/24Miscellaneous/24_15_Edit.html)
+*   [Edit](../24Miscellaneous/24_15_Edit.md)
 
-*   [Application](/24Miscellaneous/24_18_Application.html) (kun tilgængelig fra SimView)
+*   [Application](../24Miscellaneous/24_18_Application.md) (kun tilgængelig fra SimView)
 
-*   [XSun](/24Miscellaneous/24_20_XSun.html) (kun tilgængelig fra XSun)
+*   [XSun](../24Miscellaneous/24_20_XSun.md) (kun tilgængelig fra XSun)
 
-*   [View](/24Miscellaneous/24_21_View.html)
+*   [View](../24Miscellaneous/24_21_View.md)
 
-*   [Help](/24Miscellaneous/24_23_Help.html)
+*   [Help](../24Miscellaneous/24_23_Help.md)
 
  
 
 Se også:
 
-*   [*SimView*-menuen](/06BSim_Program_structure/06_06_SimView_Menu.html)
+*   [*SimView*-menuen](../06BSim_Program_structure/06_06_SimView_Menu.md)
 
-*   [*SimView* træ-menuen](/24Miscellaneous/24_24_SimView_Tree_Menu.html)
+*   [*SimView* træ-menuen](../24Miscellaneous/24_24_SimView_Tree_Menu.md)
 
-*   [Værktøjsbjælken](/06BSim_Program_structure/06_05_SimView_Toolbar.html)
+*   [Værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md)

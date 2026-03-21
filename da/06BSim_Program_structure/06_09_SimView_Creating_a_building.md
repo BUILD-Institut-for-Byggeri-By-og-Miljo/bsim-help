@@ -41,28 +41,28 @@ Dette forhold **skal** man være opmærksom på ved definition af modellens geom
 
 Se også:
 
-*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
+*   [Oprette en bygning](../09SimView/09_14_SimView_Creating_a_building.md)
 
-*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
+*   [Tilføje et rum](../09SimView/09_15_SimView_Creating_a_space.md)
 
-*   [Standardkonstruktioner](/24Miscellaneous/24_28_Insert_Default_Options.html)
+*   [Standardkonstruktioner](../24Miscellaneous/24_28_Insert_Default_Options.md)
 
-*   [Tilknytte ikke-standardkonstruktioner](/09SimView/09_09_SimView_Non_default_constructions.html)
+*   [Tilknytte ikke-standardkonstruktioner](../09SimView/09_09_SimView_Non_default_constructions.md)
 
-*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
+*   [Oprette en termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md)
 
-*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
+*   [Tilføje rum til termiske zoner](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
 
-*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems_property.html)
+*   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems_property.md)
 
-*   [Redigere geometrien](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Redigere geometrien](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
-*   [Tilføje konstruktioner](/24Miscellaneous/24_28_Insert_Default_Options.html)
+*   [Tilføje konstruktioner](../24Miscellaneous/24_28_Insert_Default_Options.md)
 
-*   [Tilføje en åbning eller WinDoor](/09SimView/09_07_Windoor_property.html)
+*   [Tilføje en åbning eller WinDoor](../09SimView/09_07_Windoor_property.md)
 
-*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
+*   [Tilknytte fiktive zoner](../09SimView/09_05_Sim_View_Virtual_zones.md)
 
-*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
+*   [Tilknytte klimadata og jord](../09SimView/09_10_Climate_data.md)
 
-*   [Udskrift af model](/06BSim_Program_structure/06_07_SimView_Printing_a_model.html)
+*   [Udskrift af model](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md)
