@@ -16,12 +16,12 @@ Construct a *node* in both sides of the window (or door). Draw a rectangle conta
 
 See also:
 
-*   [Selecting the DXF filter](https://help.bsim.dk/support/kb/articles/ZmNrexm2/simdxf---valg-dxf-filter)
-*   [Opening a DXF drawing](https://help.bsim.dk/support/kb/articles/BWzdblQE/simdxf---abne-dxf-tegning)
-*   [Creating help lines](https://help.bsim.dk/support/kb/articles/amRGMZQJ/simdxf---oprette-hjalpelinier)
-*   [Creating nodes](https://help.bsim.dk/support/kb/articles/XQYdOMmP/simdxf---oprette-knuder-nodes)
-*   [Faces](https://help.bsim.dk/support/kb/articles/4966zA9X/simdxf---flader)
-*   [Spaces](https://help.bsim.dk/support/kb/articles/y9q8DNQA/simdxf---rum)
-*   [WinDoor](https://help.bsim.dk/support/kb/articles/OW4N0pQg/simdxf---windoor)
-*   [Drawing revisions](https://help.bsim.dk/support/kb/articles/dQG2xem4/simdxf---tegningsrevisioner)
-*   [Adding SimDXF as an application](https://help.bsim.dk/support/kb/articles/7maw2X9E/simdxf---tilfoje-som-applikation)
+*   [Selecting the DXF filter](08_03_SimDXF_Selecting_the_DXF_filter.md)
+*   [Opening a DXF drawing](08_02_SimDXF_Opening_a_DXF_drawing.md)
+*   [Creating help lines](08_04_SimDXF_Adding_as_an_application.md)  <!-- TODO: verify link -->
+*   [Creating nodes](08_09_SimDXF_Creating_nodes.md)
+*   [Faces](08_05_SimDXF_Faces.md)
+*   [Spaces](08_06_SimDXF_Spaces.md)
+*   [WinDoor](08_08_SimDXF_WinDoor.md)
+*   [Drawing revisions](08_07_SimDXF_Drawing_revisions.md)
+*   [Adding SimDXF as an application](08_04_SimDXF_Adding_as_an_application.md)

@@ -29,4 +29,4 @@ Buildings from the inserted project can be viewed directly in *SimView*.
 
 
 See also:
-*   [Simulating with XSun](https://help.bsim.dk/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun)
+*   [Simulating with XSun](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation.md)

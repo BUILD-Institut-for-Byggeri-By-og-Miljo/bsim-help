@@ -22,7 +22,7 @@ The models are defined in a system of spatial coordinates in which the <span id=
 
 The buildings of the model can be located with faces having a negative z-value. This do **not** mean that the model is below the surface of the ground, even though it looks like it in the spatial view. Sun will thus still be able to come through windows located all or partially beneath the origin of the co-ordinate system.
 
-The system lines of the model are defined in [SimView](https://help.bsim.dk/support/kb/articles/wQXx2xQK/simview) or imported from a CAD drawing using the [SimDXF](https://bsim.outseta.com/support/kb/articles/jW7oNkWq/cad-tegninger-som-grundlag-for-geometri) program.
+The system lines of the model are defined in [SimView](../09SimView/09_01_SimView.md) or imported from a CAD drawing using the [SimDXF](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md) program.
 
 When constructions are attached to the surfaces of the model they are drawn as:
 
@@ -35,22 +35,22 @@ When constructions are attached to the surfaces of the model they are drawn as:
 <figcaption>The program window in SimView with the tree summary on the left and four views of the model on the right.</figcaption>
 </figure>
 
-The model's individual objects can be [worked on and examined](https://bsim.outseta.com/support/kb/articles/DQ2xp4WV/operationer-med-musen-i-simview) by clicking the mouse in combination with the Ctrl and Shift keys on the keyboard. Clicking with the left mouse button is called a left click (or just a click), while a click with the right mouse button is called a right click.
+The model's individual objects can be [worked on and examined](06_03_Mouse_operations_in_SimView.md) by clicking the mouse in combination with the Ctrl and Shift keys on the keyboard. Clicking with the left mouse button is called a left click (or just a click), while a click with the right mouse button is called a right click.
 
 It is generally possible to change the view of the building model. The user can zoom in or out by pressing "+" or "-", and the model can be rotated by pressing "right arrow" or "left arrow". The same functions are also available on the toolbar or by selecting *<u>V</u>iew* | *<u>V</u>iew* followed by *Zoom In, Zoom Out* or *ViewPoint*.
 
-Simple editing can be done directly in the tree summary. A system, for example, can be moved by dragging it from one thermal zone to another. Spaces can be [added to thermal zones](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilfoje-rum-til-termiske-zoner) by dragging them into the zone.
+Simple editing can be done directly in the tree summary. A system, for example, can be moved by dragging it from one thermal zone to another. Spaces can be [added to thermal zones](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md) by dragging them into the zone.
 
-In all the programs in the *BSim* suite it is possible to call up a menu by clicking the right mouse button. The menu is different in the various programs ([SimView](https://help.bsim.dk/support/kb/articles/wQXx2xQK/simview), [XSun](https://bsim.outseta.com/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun), [tsbi5]() and [SimLight](https://bsim.outseta.com/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight)) and contains the most frequently used functions for the current location.
+In all the programs in the *BSim* suite it is possible to call up a menu by clicking the right mouse button. The menu is different in the various programs ([SimView](../09SimView/09_01_SimView.md), [XSun](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation.md), [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5_thermal_simulation.md) and [SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations.md)) and contains the most frequently used functions for the current location.
 
-It is possible to select faces (constructions) directly in the geometrical view by moving the mouse cursor to the desired object and pressing *Ctrl* + "*left click*" in the 3D view. This highlights the object in red in the geometrical view and the current construction is highlighted in the tree summary. It is also possible to select an object directly by clicking in the tree summary (see: [Add a space](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)). It is often easier to select the desired construction in the tree summary than in the 3D geometry.
+It is possible to select faces (constructions) directly in the geometrical view by moving the mouse cursor to the desired object and pressing *Ctrl* + "*left click*" in the 3D view. This highlights the object in red in the geometrical view and the current construction is highlighted in the tree summary. It is also possible to select an object directly by clicking in the tree summary (see: [Add a space](../09SimView/09_15_SimView_Creating_a_space.md)). It is often easier to select the desired construction in the tree summary than in the 3D geometry.
 
  
 
 See also:
 
-*   [Toolbar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)
+*   [Toolbar](06_05_SimView_Toolbar.md)
 
-*   [SimView menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [SimView menu](06_06_SimView_Menu.md)
 
-*   [Program menus](https://bsim.outseta.com/support/kb/articles/pWrnYLWn/programmenuer-i-bsim)
+*   [Program menus](06_04_Program_menus_in_BSim.md)

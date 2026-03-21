@@ -9,7 +9,7 @@
 
 Sammenligning resultater fra flere modeller
 
-*   Hvis modelnavnet er for langt er det ikke muligt at sammenligne resultater fra forskellige modeller i [*tsbi5* på fanebladet *Tables*](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html).
+*   Hvis modelnavnet er for langt er det ikke muligt at sammenligne resultater fra forskellige modeller i [*tsbi5* på fanebladet *Tables*](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md).
 
     *   Modellens navn må maksimalt være på 63 tegn.
 
@@ -18,7 +18,7 @@ Materialeegenskaber for nye materialer i databasen
 
 *   Skal der defineres et ny materiale i materialedelen af databasen <u>skal</u> alle tilgængelige felter udfyldes for det pågældende materiale. Hvis materialet defineres i en database med materialeværdier for fugttransport <u>skal</u> disse udfyldes. Sker det ikke vil resultaterne fra en simulering - også uden fugttransport - blive forkerte idet materialet vil blive opfattet som et luftlag i konstruktionen.<div id="red_text">Fra og med version 4,6,7,12 vil det blive betragtet som en fejl, og der kan ikke simuleres før alle materialeværdier er defineret.</div>
 
-*   Ved at klikke på *About*-knappen i [*SimDB*](/07SimDB_Database/07_06_Building_material_moisture.html) åbnes en dialog som viser egenskaberne for den valgte database. I nedenstående eksempel indeholder databasen materialedata for fugttransport (Moisture), solceller (Pv Arrays), og detaljeret simulering af glastemperaturen (Glazing Extra).
+*   Ved at klikke på *About*-knappen i [*SimDB*](../07SimDB_Database/07_06_Building_material_moisture.md) åbnes en dialog som viser egenskaberne for den valgte database. I nedenstående eksempel indeholder databasen materialedata for fugttransport (Moisture), solceller (Pv Arrays), og detaljeret simulering af glastemperaturen (Glazing Extra).
 
 <figure id="center_img">
 <img src="./assets/about_simdb.jpg " alt="Caption">
@@ -27,7 +27,7 @@ Materialeegenskaber for nye materialer i databasen
 
 Varmeledningsevne (lambda) i simuleringer med *tsbi5*
 
-*   Der benyttes en forskellig varmeledningsevne (lambda-værdi) afhængig af om "Moisture Transport" er slået eller fra på "Options" fanebladet af tsbi5. Hvis "Moisture Transport" er slået fra benyttes værdien fra "[Thermal](/07SimDB_Database/07_04_Building_material_thermal.html)" fanebladet i SimDb. Hvis "Moisture Transport" er slået til benyttes værdien fra "[Moisture](/07SimDB_Database/07_06_Building_material_moisture.html)" fabelbadet. 
+*   Der benyttes en forskellig varmeledningsevne (lambda-værdi) anhængig af om "Moisture Transport" er slået eller fra på "Options" fanebladet af tsbi5. Hvis "Moisture Transport" er slået fra benyttes værdien fra "[Thermal](../07SimDB_Database/07_04_Building_material_thermal.md)" fanebladet i SimDb. Hvis "Moisture Transport" er slået til benyttes værdien fra "[Moisture](../07SimDB_Database/07_06_Building_material_moisture.md)" fabelbadet.
 
  
 
@@ -48,15 +48,15 @@ Tidsskridt i simuleringer med *tsbi5*
 
 Resultatsammenligning
 
-*   I nogle tilfælde viser BSim en fejlmeddelelse som "The selected file must be located in the folder 'x:\xxxxxxxxxxxx' like the current log" når en tsbi5 resultatfil åbnes [for sammenligning med den aktuelle resultatfil](/13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.html). BSim opfatter at de to resultatfiler er placeret i forskellige fil-mapper, og dermed ikke kan sammenlignes. Fænomenet optræder på visse typer af netværk. Det er muligt at omgå problemet ved at sørge for at alle fil-mapper i den aktuelle sti er navngivet med højest 8 karakterer og uden mellemrum eller specialtegn.
+*   I nogle tilfælde viser BSim en fejlmeddelelse som "The selected file must be located in the folder 'x:\\xxxxxxxxxxxx' like the current log" når en tsbi5 resultatfil åbnes [for sammenligning med den aktuelle resultatfil](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md). BSim opfatter at de to resultatfiler er placeret i forskellige fil-mapper, og dermed ikke kan sammenlignes. Fænomenet optraeder på visse typer af netværk. Det er muligt at omgå problemet ved at sørge for at alle fil-mapper i den aktuelle sti er navngivet med højest 8 karakterer og uden mellemrum eller specialtegn.
 
  
 
 Solfordeling på delflader
 
-*   Med *XSun* sluet **til** på [*Options*](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) fanebladet til simuleringerne med tsbi5, vil det direkte solindfald blive fordelt geometrisk korrekt til alle delflader i en flade (fx et gulv opdelt i flere felter).
+*   Med *XSun* sluet **til** på [*Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) fanebladet til simuleringerne med tsbi5, vil det direkte solindfald blive fordelt geometrisk korrekt til alle delflader i en flade (fx et gulv opdelt i flere felter).
 
-*   Hvis XSun er sluet **fra** vil solindfaldet blive fordelt efter de enkelte delfladers areal og den fordelingsnøgle som gives i [*ThermalZone Property*](/10Thermal_zones/10_01_Thermal_zone_property.html) dialogen.
+*   Hvis XSun er sluet **fra** vil solindfaldet blive fordelt efter de enkelte delfladers areal og den fordelingssnøgle som gives i [*ThermalZone Property*](../10Thermal_zones/10_01_Thermal_zone_property.md) dialogen.
 
 *   Solpåvirkningen vil således blive den samme (pr. m²) for alle delflader i gulve, vægge og lofter, ligegyldigt hvor i rummet delfladen er placeret (fx ved bagvæg og ved vindue).
 
@@ -87,19 +87,19 @@ Beregning af solceller
 
 Oprettelse af faces i SimDxf
 
-*   Hvis det er umuligt at oprette en flade (face) mellem to knudepunkter i SimDxf, er årsagen ofte at knudepunktere <u>ikke</u> har én linie fra cad-tegningen fælles. På den relevante hjælpeside er der beskrevet en mulig [metode](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_surfaces.html) til at omgå problemet.
+*   Hvis det er umuligt at oprette en flade (face) mellem to knudepúnkter i SimDxf, er årsagen ofte at knudepunkterne <u>ikke</u> har én linie fra cad-tegningen fælles. På den relevante hjælpeside er der beskrevet en mulig [metode](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_surfaces.md) til at omgå problemet.
 
  
 
 Langbølget strålingsudveksling med himlen
 
-*   Når der regnes med langbølget strålingsudveksling med himlen (slås til og fra med *Longwave Rad*. *to Sky* på fanebladet [Options i tsbi5](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html)) er det alene strålingsudvekslingen med himlen som medtages i simuleringen. Der regnes således ikke med strålingsudveksling med eventuelt omkringliggende bygninger eller fremspring på bygningen selv. Strålingsudvekslingen er således alene afhængig af temperaturforskellen mellem en overflade og himlen, hhv. jorden og den hældning fladen har.
+*   Når der regnes med langbølget strålingsudveksling med himlen (slås til og fra med *Longwave Rad*. *to Sky* på fanebladet [Options i tsbi5](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)) er det alene strålingsudvekslingen med himlen som medtages i simuleringen. Der regnes således ikke med strålingsudveksling med eventuelt omkringliggende bygninger eller fremspring på bygningen selv. Strålingsudvekslingen er således alene afhængig af temperaturforskellen mellem en overflade og himlen, hhv. jorden og den hældning fladen har.
 
 *   Det er planen, på et senere tidspunkt, at implementere strålingsudveksling med andre bygninger og fremspring på bygningen. Se også: Langbølget strålingsudveksling mellem en termisk zones indvendige overflader.
 
  
 
-[VAV-regulering](/11Systems/11_24_VAV_control_ventilation.html) og [kølelofter](/11Systems/11_03_Cooling_system.html)
+[VAV-regulering](../11Systems/11_24_VAV_control_ventilation.md) og [kølelofter](../11Systems/11_03_Cooling_system.md)
 
 *   Der bør **ikke** simuleres kølelofter i forbindelse med VAV-regulering af ventilationssystemet. Denne kombination vil medfører for høje kølebehov, idet den forøgede luftstrøm fra VAV-reguleringen **ikke** reduceres til normal luftstrøm, hvis setpunktet for køleloftet overskrides. Det bedste skøn på kølebehovet fås ved brug af en køleflade i ventilationsanlægget.
 
@@ -107,19 +107,19 @@ Langbølget strålingsudveksling med himlen
 
 Indvendige vinduer
 
-*   Når der skal simuleres indvendige vinduer (vinduer mellem termiske zoner og rum eller andre termiske zoner), bør der være sat en markering ved *XSun Distribution* på fanebladet [*Options*](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) i [*tsbi5*](/13tsbi5_thermal_simulation/13_01_tsbi5_Main_page.html). Det er muligt at gennemføre en simulering uden XSun solfordelingen, men resultaterne kan <u>kun</u> benyttes til et groft skøn.
+*   Når der skal simuleres indvendige vinduer (vinduer mellem termiske zoner og rum eller andre termiske zoner), bør der være sat en markering ved *XSun Distribution* på fanebladet [*Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) i [*tsbi5*](../13tsbi5_thermal_simulation/13_01_tsbi5_Main_page.md). Det er muligt at gennemføre en simulering uden XSun solfordelingen, men resultaterne kan <u>kun</u> benyttes til et groft skøn.
 
  
 
 Langbølget strålingsudveksling mellem en termisk zones indvendige overflader
 
-*   Det er <u>kun</u> muligt at regne med langbølget strålingsudveksling i [tsbi5](/13tsbi5_thermal_simulation/13_01_tsbi5_Main_page.html) i de rum der er konvekse. Det er muligt at opbyge en termisk zone som ikke er konveks, ved at sammensætte konvekse rum i den samme termiske zone.
+*   Det er <u>kun</u> muligt at regne med langbølget strålingsudveksling i [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5_Main_page.md) i de rum der er konvekse. Det er muligt at opbyge en termisk zone som ikke er konveks, ved at sammensætte konvekse rum i den samme termiske zone.
 
-*   Simuleringen af den langbølgede strålingsudveksling mellem en termisk zones indvendige overflader slås til og fra med optionen *Longwave Radiation* på [Options fanebladet](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) i tsbi5. Se også: Langbølget strålingsudveksling med himlen.
+*   Simuleringen af den langbølgede strålingsudveksling mellem en termisk zones indvendige overflader slås til og fra med optionen *Longwave Radiation* på [Options fanebladet](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) i tsbi5. Se også: Langbølget strålingsudveksling med himlen.
 
  
 
-Dagslysberegning med [SimLight](/15SimLight_Daylight_calculations/15_01_SimLight_Main_page.html)
+Dagslysberegning med [SimLight](../15SimLight_Daylight_calculations/15_01_SimLight_Main_page.md)
 
 1.   Det er <u>kun</u> muligt at regne på dagslys i SimLight i de rum som er konvekse.
 
@@ -137,16 +137,16 @@ Luftbalance
 
 Systemer
 
-*   Der kan <u>kun</u> optraede et system (undtagen [*Mixing*](/11Systems/11_31_Mixing_system.html) og [*Heating*](/11Systems/11_02_Heating_system.html) - radiator og gulvvarme) i en termisk zone ad gangen. Der kan godt optraede forskellige reguleringer til forskellige [tidsangivelser](/24Miscellaneous/24_06_Time_scheme.html), men <u>kun</u> et system kan være aktivt ad gangen.
+*   Der kan <u>kun</u> optraede et system (undtagen [*Mixing*](../11Systems/11_31_Mixing_system.md) og [*Heating*](../11Systems/11_02_Heating_system.md) - radiator og gulvvarme) i en termisk zone ad gangen. Der kan godt optraede forskellige reguleringer til forskellige [tidsangivelser](../24Miscellaneous/24_06_Time_scheme.md), men <u>kun</u> et system kan være aktivt ad gangen.
 
  
 
-[XSun video](/14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_video.html)-optagelser
+[XSun video](../14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_video.md)-optagelser
 
 *   Optagelsen og afspilningen af videoen sker i den størrelse vindue BSim har under optagelsen. Hvis fokus skifter fra BSim til en anden kørende applikation, fx ved hjælp af Alt+Tab, vil den del af denne applikation som fysisk er inden for det BSim vindue som optages, blive optaget i stedet for XSun animationen.
 
  
 
-[XSun](/14XSun_Analysis_of_incident_solar_radiation/14_01_Solar_radiation_analysis.html)
+[XSun](../14XSun_Analysis_of_incident_solar_radiation/14_01_Solar_radiation_analysis.md)
 
 *   Hvis der opbygges en model som giver mulighed for at sende solen fra et rum ind i et naborum, gennem dette og tilbage til det oprindelige rum, vil der opstå en uendelig løkke. Dette specialtilfælde findes og fejlen forhindres ved at afskære solen fra at passerer naborummet og tilbage til det oprindelige rum. Herved opstår en fejl i beregningerne.

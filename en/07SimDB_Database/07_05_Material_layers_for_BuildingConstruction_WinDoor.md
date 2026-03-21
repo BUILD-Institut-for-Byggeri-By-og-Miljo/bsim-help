@@ -42,6 +42,6 @@ The linear coefficient of transmission heat loss (*LinTrCoeff* or the Ψ<sub>g</
 
 See also:
 
-*   [Tab BuildingElement ](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement)
+*   [Tab BuildingElement ](07_02_SimDB_BuildingElement.md)
 
-*   [Tab MaterialAmount](https://help.bsim.dk/support/kb/articles/Rm8JaZ94/simdb---buildingelement-materialamount)
+*   [Tab MaterialAmount](07_04_SimDB_BuildingElement_MaterialAmount.md)

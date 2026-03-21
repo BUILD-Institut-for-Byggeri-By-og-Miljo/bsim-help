@@ -21,7 +21,7 @@ At the top of the help pages there is a toolbar, giving access to some functions
 
 *   *Home* opens a standard start page in the help file, holding information on terms of delivery and liability.
 
-*   *Print* allows for [printing](https://help.bsim.dk/support/kb/articles/EWBOrLmr/udskrift-af-hj-lpesider) parts of or the whole help text.
+*   *Print* allows for [printing](05_03_Printing_help_pages.md) parts of or the whole help text.
 
 *   *Setup* opens a menu for defining how help should be shown.
 

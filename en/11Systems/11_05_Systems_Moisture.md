@@ -3,7 +3,7 @@
 # Systems, *Moisture*
 Dialog box for specifying moisture load in the current thermal zone, apart from moisture from people.
 
-The software's [standard model](http://bsim.outseta.com/support/kb/articles/ZmNr6nm2/fugtbalancen-for-en-zone) for moisture calculations is very simple, with no account being taken of moisture absorption and adsorption by the space's surfaces or moisture transport and moisture accumulation in materials. This phenomenon can be dealt with in the module for detailed simulating of the [hygro-thermal conditions](https://help.bsim.dk/support/kb/articles/vW5alXW4/detaljeret-model-for-fugttransport) in a thermal zone.
+The software's [standard model](../20The_Mathematical_basis/20_04_Moisture_balance_for_a_zone.md) for moisture calculations is very simple, with no account being taken of moisture absorption and adsorption by the space's surfaces or moisture transport and moisture accumulation in materials. This phenomenon can be dealt with in the module for detailed simulating of the [hygro-thermal conditions](../20The_Mathematical_basis/20_05_Detailed_model_for_moisture_transport.md) in a thermal zone.
 
 <figure id="center_img">
 <img src="./assets/moisture.gif" alt="Dialog box for defining moisture load.">
