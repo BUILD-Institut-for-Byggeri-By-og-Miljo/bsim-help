@@ -24,18 +24,18 @@ In this dialog box it is also possible to specify how large a proportion of the 
 
 Calculation of the operative temperature is done by a weighting of the indoor air temperature and the average temperature of all internal surfaces. Normally these two temperatures are weighted equally, but it is possible to change this by stating the weight *(TiFraction* = 0.1 - 0.9) of the indoor air temperature (Ti).
 
-Thermal stratification up through the thermal zone can be simulated using what is known as the "[Kappa Model](https://help.bsim.dk/support/kb/articles/BWzdGlQE/kappa-modellen)", in which the kappa parameter and the height above the floor *(SensorHgt)* at which the operative temperature is to be calculated can be specified. When the Kappa model is being used all systems control their behavior according to the operative temperature calculated at *SensorHgt.*
+Thermal stratification up through the thermal zone can be simulated using what is known as the "[Kappa Model](../12The_Kappa_model/12_01_The_Kappa_model.md)", in which the kappa parameter and the height above the floor *(SensorHgt)* at which the operative temperature is to be calculated can be specified. When the Kappa model is being used all systems control their behavior according to the operative temperature calculated at *SensorHgt.*
 
 See also:
 
-*   [Creating a building](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
-*   [Creating a space](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Default constructions](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Non-default constructions](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner)
-*   [Adding spaces to thermal zones ](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilf-je-rum-til-termiske-zoner)
-*   [Systems in thermal zones](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
-*   [Editing the model geometry](https://help.bsim.dk/support/kb/articles/L9nrKz9Z/redigere-modelgeometri)
-*   [Solar light factors for WinDoors](https://help.bsim.dk/support/kb/articles/49EdwkQ7/sollysfaktorer-for-windoors)[](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilf-je-bning-eller-windoor)
-*   [Virtual zones](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview-fiktive-zoner)
-*   [Climate data and ground](https://help.bsim.dk/support/kb/articles/vWyP8M9b/klimadata)
-*   [Printing a model](https://help.bsim.dk/support/kb/articles/z9MKj7m4/udskrift-af-model)
+*   [Creating a building](../09SimView/09_14_SimView_Creating_a_building.md)
+*   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
+*   [Default constructions](../09SimView/09_06_Construction_Property.md)
+*   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
+*   [Adding spaces to thermal zones ](10_02_SimView_Adding_spaces_to_thermal_zones.md)
+*   [Systems in thermal zones](../11Systems/11_01_Systems.md)
+*   [Editing the model geometry](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
+*   [Solar light factors for WinDoors](10_07_Solar_light_factors_for_WinDoors.md)
+*   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
+*   [Climate data and ground](../09SimView/09_10_Climate_data.md)
+*   [Printing a model](../09SimView/09_04_Documentation_of_model.md)

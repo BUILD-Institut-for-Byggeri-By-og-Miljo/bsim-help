@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="../style.css">
 
 # Udskrift af model
-Alternativt til *ModelList* er *ModelDoc* som kaldes via *View* | [*ModelDoc*](/09SimView/09_04_Documentation_of_model.html). *ModelDoc* er en sorteret dokumentation af modellen.
+Alternativt til *ModelList* er *ModelDoc* som kaldes via *View* | [*ModelDoc*](../09SimView/09_04_Documentation_of_model.md). *ModelDoc* er en sorteret dokumentation af modellen.
 
 Når *ModelList* er valgt fra værktøjsbjælken, eller der arbejdes i *XSun*, *tsbi5* eller *SimLight*, kan den viste information udskrives direkte på en printer
 
-<img src="./assets/STOP.GIF" width=15> Vises en ikon som et stopsignal i starten af en linie, angiver det, at der kan være fejl, eller at der mangler data. Ved dobbelt-klik eller Ctrl-klik på linien flyttes fokus til det pågældende objekt i den hierarkiske oversigt. Højre-klik på objektet i træet for at rette eller tilføje data. Oversigten kan opdateres ved igen at klikke på *ModelList*-ikonet. Klik [her](/06BSim_Program_structure/06_14_Error_messages.html) for at se forklaringer til [fejlmeddelelserne](/06BSim_Program_structure/06_14_Error_messages.html) i *ModelList*.
+<img src="./assets/STOP.GIF" width=15> Vises en ikon som et stopsignal i starten af en linie, angiver det, at der kan være fejl, eller at der mangler data. Ved dobbelt-klik eller Ctrl-klik på linien flyttes fokus til det pågældende objekt i den hierarkiske oversigt. Højre-klik på objektet i træet for at rette eller tilføje data. Oversigten kan opdateres ved igen at klikke på *ModelList*-ikonet. Klik [her](../06BSim_Program_structure/06_14_Error_messages.md) for at se forklaringer til [fejlmeddelelserne](../06BSim_Program_structure/06_14_Error_messages.md) i *ModelList*.
 
 Det er <u>ikke</u> muligt at gennemføre en tsbi5 simulering med *ModelList* åben, eller lukket ned som en ikon.
 
@@ -122,16 +122,16 @@ Når et system er de-aktiveret i SimView optræder de i *ModelList* med deres re
 
 Se også:
 
-*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
-*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
-*   [Standardkonstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
-*   [Tilknytte ikke-standardkonstruktioner](/09SimView/09_09_SimView_Non_default_constructions.html)
-*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
-*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
-*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems.html)
-*   [Redigere geometrien](/10Thermal_zones/10_04_SimView_Editing_the_model_geometry.html)
-*   [Tilføje konstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
-*   [Tilføje en åbning eller WinDoor](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html)
-*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
-*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
-*   [Udskrift af model](/10Thermal_zones/10_09_SimView_Printing_a_model.html)
+*   [Oprette en bygning](../09SimView/09_14_SimView_Creating_a_building.md)
+*   [Tilføje et rum](../09SimView/09_15_SimView_Creating_a_space.md)
+*   [Standardkonstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md)
+*   [Tilknytte ikke-standardkonstruktioner](../09SimView/09_09_SimView_Non_default_constructions.md)
+*   [Oprette en termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md)
+*   [Tilføje rum til termiske zoner](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
+*   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems.md)
+*   [Redigere geometrien](../10Thermal_zones/10_04_SimView_Editing_the_model_geometry.md)
+*   [Tilføje konstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md)
+*   [Tilføje en åbning eller WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
+*   [Tilknytte fiktive zoner](../09SimView/09_05_Sim_View_Virtual_zones.md)
+*   [Tilknytte klimadata og jord](../09SimView/09_10_Climate_data.md)
+*   [Udskrift af model](../10Thermal_zones/10_09_SimView_Printing_a_model.md)

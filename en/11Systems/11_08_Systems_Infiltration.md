@@ -18,7 +18,7 @@ $$ n_{out,air} = n_0 + c_t \cdot (t_i - t_o)^{tp} + c_v \cdot v \tag{1} $$
 
 **Definition of infiltration**
 
-Infiltration is always calculated as an outdoor air flow into the thermal zone. Exfiltration, i.e. air escaping from the thermal zone through leaks, cannot be specified directly. The calculation model checks that there is a balance between the air flows entering and exiting the thermal zone for each time step in the simulation. Apart from infiltration, the components can come from venting (opening windows), mechanical ventilation and mixing (air transfer between thermal zones or spaces). If there is an imbalance, an air deficit in a thermal zone will be equalized by infiltration, whereas an air surplus will be equalized by exfiltration. This means, for example, that air change owing to infiltration may well be greater than determined by the parameter values in the above equation. The air balance is described in more detail in [the mathematical basis](https://help.bsim.dk/support/kb/articles/BWzd4NQE/det-matematiske-grundlag).
+Infiltration is always calculated as an outdoor air flow into the thermal zone. Exfiltration, i.e. air escaping from the thermal zone through leaks, cannot be specified directly. The calculation model checks that there is a balance between the air flows entering and exiting the thermal zone for each time step in the simulation. Apart from infiltration, the components can come from venting (opening windows), mechanical ventilation and mixing (air transfer between thermal zones or spaces). If there is an imbalance, an air deficit in a thermal zone will be equalized by infiltration, whereas an air surplus will be equalized by exfiltration. This means, for example, that air change owing to infiltration may well be greater than determined by the parameter values in the above equation. The air balance is described in more detail in [the mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md).
 
 
 <figure id="center_img">
@@ -37,12 +37,11 @@ Infiltration is always calculated as an outdoor air flow into the thermal zone. 
 
 At the right of the input fields, under the buttons two information fields shows the infiltration for a wind speed of 4 m/s and a temperature difference between in and out of 4 respectively 10 °C.
 
-[The schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) defines connected sets of control and time definition. Several schedules can be specified, making it possible to define different day variations at different times of the year. It can normally be assumed that the air change from infiltration is greatest when the building is in use, i.e. at times when people are in the building, external doors are being opened and closed and internal doors are open. Infiltration control is of the [day profile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dayprofile) type.
+[The schedule](11_02_Systems_schedule.md) defines connected sets of control and time definition. Several schedules can be specified, making it possible to define different day variations at different times of the year. It can normally be assumed that the air change from infiltration is greatest when the building is in use, i.e. at times when people are in the building, external doors are being opened and closed and internal doors are open. Infiltration control is of the [day profile](11_04_Systems_DayProfile.md) type.
 
 Please note that, when several schedules are defined, the software will run through them in the simulation in the order in which they appear in the dialog box, so that the first time definition containing the current simulation hour will be active.
 
 See also:
-*   [Tab Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   [Tab DayProfile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dayprofile)   
-[](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
-*   [Tab Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Tab Schedule](11_02_Systems_schedule.md)
+*   [Tab DayProfile](11_04_Systems_DayProfile.md)   
+*   [Tab Time](11_17_Systems_Time.md)

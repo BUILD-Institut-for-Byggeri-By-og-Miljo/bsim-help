@@ -22,7 +22,7 @@ $$ n_{out,air} = n_0 + c_t \cdot (t_i - t_o)^{tp} + c_v \cdot v \tag{1} $$
 
 Venting control simulates windows or ventilation openings being opened if the temperature exceeds a user-defined set point. When there is a tendency for the set point to be exceeded, the natural ventilation is increased as much as necessary to maintain the desired temperature, but only up to a user-defined maximum air change.
 
-Unlike with infiltration, venting is defined in such a way that the air flow leaving the thermal zone (to the outdoor air) is the same as that entering the thermal zone (from the outdoor air). Venting is therefore in (air) balance by definition and consequently will not influence the amount of infiltration or exfiltration, cf. section entitled [Infiltration](https://help.bsim.dk/support/kb/articles/Rm8JRZ94/infiltration).
+Unlike with infiltration, venting is defined in such a way that the air flow leaving the thermal zone (to the outdoor air) is the same as that entering the thermal zone (from the outdoor air). Venting is therefore in (air) balance by definition and consequently will not influence the amount of infiltration or exfiltration, cf. section entitled [Infiltration](11_08_Systems_Infiltration.md).
 
 <figure id="center_img">
 <img src="./assets/Venting_old.gif" alt="Defining venting in a thermal zone.">
@@ -36,7 +36,7 @@ The control defined in the schedule determines whether venting is required and h
 
 *TmpFactor (c<sub>t</sub>)* expresses how much the air change rises as the temperature difference between indoors and out increases. This field opens a dialog box, which can be used to analyze the significance of the size of the inlet and outlet openings together with the vertical distance between them. For small spaces the factor assumes small values, down to approx. 0.2, while for large spaces with opening areas of 1 m² and a height of 10 m the factor can be up to approx. 20.
 
-Clicking the [*TmpFactor* ](https://help.bsim.dk/support/kb/articles/dQG2Gom4/udluftnings-temperaturfaktor)button opens a dialog box for dimensioning the opening areas to achieve a desired temperature factor. Please note that this dialog box primarily performs a help function, which can be used if a value for the factor is not entered directly in the venting dialog box.
+Clicking the [*TmpFactor* ](11_18_Systems_Venting.md)button opens a dialog box for dimensioning the opening areas to achieve a desired temperature factor. Please note that this dialog box primarily performs a help function, which can be used if a value for the factor is not entered directly in the venting dialog box.
 
 *WindFactor* (c<sub>v</sub>) expresses the dependence of the air change on wind. The equation means that air change is assumed to be proportional to wind speed. For small buildings with small venting openings and a sheltered site it will be in the order of 0.1, while for large buildings on an exposed site it can be up to 0.4 - 0.6.
 
@@ -57,11 +57,9 @@ Clicking the [*TmpFactor* ](https://help.bsim.dk/support/kb/articles/dQG2Gom4/ud
 | [Combined](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation) | General model, see [overview](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)! |
 
 
-The venting [*schedule*](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) defines connected sets of[ control](https://help.bsim.dk/support/kb/articles/OW4NDGQg/venting---udluftningskontrol) and time definition. In ordinary rooms where people are present venting will simulate windows being opened by the users when the indoor temperature becomes too hot, in which case venting will normally only be "active" during the building's hours of use. In large buildings with equipment for automatic venting when the set point for a temperature is exceeded, it must be assessed whether the achievable air change is dependent on the time of the day and year.
+The venting [*schedule*](11_02_Systems_schedule.md) defines connected sets of[ control](11_18_Systems_Venting.md) and time definition. In ordinary rooms where people are present venting will simulate windows being opened by the users when the indoor temperature becomes too hot, in which case venting will normally only be "active" during the building's hours of use. In large buildings with equipment for automatic venting when the set point for a temperature is exceeded, it must be assessed whether the achievable air change is dependent on the time of the day and year.
 
 See also:
-*   [Tab VentingCtrl](https://help.bsim.dk/support/kb/articles/OW4NDGQg/venting---udluftningskontrol)   
-[](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   [Tab Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)   
-[](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)
-*   [Tab Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)
+*   [Tab VentingCtrl](11_18_Systems_Venting.md)   
+*   [Tab Schedule](11_02_Systems_schedule.md)   
+*   [Tab Time](11_17_Systems_Time.md)

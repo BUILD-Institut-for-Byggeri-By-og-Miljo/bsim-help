@@ -17,15 +17,15 @@ There are five options in the *SimView* menu that are not described under a sepa
 
 The individual menu options call up various dialog boxes that will be discussed in greater detail when the individual items are described:
 
-*   [Options](https://bsim.outseta.com/support/kb/articles/LmJv8EmP/options)
-*   [Defaults](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Add Building](https://help.bsim.dk/support/kb/articles/4966L49X/simview---oprette-en-bygning)
-*   [Add Room](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Add Face](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
-*   [Add Edge](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
-*   [Add Opening](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
-*   [Add WinDoors](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
-*   [Insert Windoor](https://help.bsim.dk/support/kb/articles/xmer2wQV/simview---insert-windoor)
-*   [Move](https://help.bsim.dk/support/kb/articles/DmwA8o94/simview---move)
-*   [Split Face](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
-*   [Split Edge](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien)
+*   [Options](../09SimView/09_16_SimView_Options.md)
+*   [Defaults](../24Miscellaneous/24_28_Insert_Default_Options.md)
+*   [Add Building](06_09_SimView_Creating_a_building.md)
+*   [Add Room](../09SimView/09_15_SimView_Creating_a_space.md)
+*   [Add Face](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
+*   [Add Edge](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
+*   [Add Opening](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
+*   [Add WinDoors](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
+*   [Insert Windoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)  <!-- TODO: verify link -->
+*   [Move](../09SimView/09_13_SimView_Move.md)
+*   [Split Face](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
+*   [Split Edge](../09SimView/09_02_SimView_Editing_the_model_geometry.md)

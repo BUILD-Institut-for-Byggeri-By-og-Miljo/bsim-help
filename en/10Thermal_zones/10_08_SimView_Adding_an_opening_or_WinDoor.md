@@ -33,29 +33,29 @@ Windows and openings cannot be positioned right at the edge of constructions tha
 
 Every time *Apply* is clicked, an object *(Opening* or *WinDoor)* with the specified geometry is added. It is therefore a good idea to create all openings and *WinDoors* belonging to the same face from this dialog box in one go.
 
-If a WinDoor is to be placed in the center of a surface with the same distance to all edges, the [Insert Windoor](https://help.bsim.dk/support/kb/articles/xmer2wQV/simview---insert-windoor) function should be used instead.
+If a WinDoor is to be placed in the center of a surface with the same distance to all edges, the [Insert Windoor](../24Miscellaneous/24_30_SimView_Insert_WinDoor.md) function should be used instead.
 
-The geometric description of a WinDoor (frames, bars, overhang and side fins together with connected systems - shutters and solar shading) is entered by right-clicking the object in the tree summary, which opens the [Windoor Property](https://help.bsim.dk/support/kb/articles/rQV5MLm6/windoor-property) dialog box.
+The geometric description of a WinDoor (frames, bars, overhang and side fins together with connected systems - shutters and solar shading) is entered by right-clicking the object in the tree summary, which opens the [Windoor Property](../09SimView/09_07_WinDoor_Property.md) dialog box.
 
-A specific window is attached to the model by dragging it from the [database ](https://help.bsim.dk/support/kb/articles/49EdNJQ7/materialelag-for-windoor)to the right place in the model's tree summary.
+A specific window is attached to the model by dragging it from the [database](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md)to the right place in the model's tree summary.
 
 Systems connected to WinDoors:
 
-*   [Regulation](https://help.bsim.dk/support/kb/articles/y9gB57QM/regulation)
-*   [Shutter](https://help.bsim.dk/support/kb/articles/ZmNrMxm2/shutter-system)
-*   [SolarShading](https://help.bsim.dk/support/kb/articles/7maw8X9E/shading-system)
+*   [Regulation](../24Miscellaneous/24_62_Regulation.md)
+*   [Shutter](../11Systems/11_15_Systems_shutter.md)
+*   [SolarShading](../11Systems/11_16_Systems_shading.md)
 
 See also:
 
-*   [Creating a building](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
-*   [Creating a space](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Default constructions](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Non-default constructions](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner)
-*   [Creating thermal zones](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property)
-*   [Systems in thermal zones](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
-*   [Editing the model geometry](https://help.bsim.dk/support/kb/articles/L9nrKz9Z/redigere-modelgeometri)
-*   [Solar light factors for WinDoor](https://help.bsim.dk/support/kb/articles/49EdwkQ7/sollysfaktorer-for-windoors)
-*   [Adding an opening or WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilf-je-bning-eller-windoor)
-*   [Virtual zones](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview-fiktive-zoner)
-*   [Climate data and ground](https://help.bsim.dk/support/kb/articles/vWyP8M9b/klimadata)
-*   [Printing a model](https://help.bsim.dk/support/kb/articles/z9MKj7m4/udskrift-af-model)
+*   [Creating a building](../09SimView/09_14_SimView_Creating_a_building.md)
+*   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
+*   [Default constructions](10_06_SimView_Default_constructions.md)
+*   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
+*   [Creating thermal zones](10_01_Thermal_Zone_property.md)
+*   [Systems in thermal zones](../11Systems/11_01_Systems.md)
+*   [Editing the model geometry](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
+*   [Solar light factors for WinDoor](10_07_Solar_light_factors_for_WinDoors.md)
+*   [Adding an opening or WinDoor](10_08_SimView_Adding_an_opening_or_WinDoor.md)
+*   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
+*   [Climate data and ground](../09SimView/09_10_Climate_data.md)
+*   [Printing a model](../09SimView/09_04_Documentation_of_model.md)

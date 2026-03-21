@@ -22,32 +22,32 @@ Der er fem punkter i *SimView*-menuen, som ikke beskrives under et særskilt pun
 
 De enkelte menupunkter kalder forskellige dialoger frem som behandles nærmere ved beskrivelsen af emnerne:
 
-*   [Options](/09SimView/09_16_SimView_Options.html)
+*   [Options](../09SimView/09_16_SimView_Options.md)
 
-*   [Defaults](/24Miscellaneous/24_28_Insert_Default_Options.html)
+*   [Defaults](../24Miscellaneous/24_28_Insert_Default_Options.md)
 
-*   [Add Building](/09SimView/09_14_SimView_Creating_a_building.html)
+*   [Add Building](../09SimView/09_14_SimView_Creating_a_building.md)
 
-*   [Add Room](/09SimView/09_15_SimView_Creating_a_space.html)
+*   [Add Room](../09SimView/09_15_SimView_Creating_a_space.md)
 
-*   [Add Face](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Add Face](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
-*   [Add Edge](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Add Edge](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
-*   [Add Opening](/09SimView/09_07_Windoor_property.html)
+*   [Add Opening](../09SimView/09_07_Windoor_property.md)
 
-*   [Add WinDoors](/09SimView/09_07_Windoor_property.html)
+*   [Add WinDoors](../09SimView/09_07_Windoor_property.md)
 
-*   [Insert Windoor](/24Miscellaneous/24_30_SimView_Insert_Windoor.html)
+*   [Insert Windoor](../24Miscellaneous/24_30_SimView_Insert_Windoor.md)
 
-*   [Move](/09SimView/09_13_SimView_Move.html)
+*   [Move](../09SimView/09_13_SimView_Move.md)
 
-*   [Split Face](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Split Face](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
-*   [Split Edge](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Split Edge](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
  
 
 Se også:
 
-*   [SimView træ-menuen.](/24Miscellaneous/24_24_SimView_Tree_Menu.html)
+*   [SimView træ-menuen.](../24Miscellaneous/24_24_SimView_Tree_Menu.md)

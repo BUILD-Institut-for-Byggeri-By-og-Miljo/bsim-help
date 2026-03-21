@@ -3,20 +3,20 @@ As in other Windows programs there are a number of buttons at the top of the pro
 
 The individual functions of the *BSim* menus are described below:
 
-*   [File](https://bsim.outseta.com/support/kb/articles/L9PwEPQJ/file)
+*   [File](../24Miscellaneous/24_12_File.md)
 
-*   [Edit](https://help.bsim.dk/support/kb/articles/y9q8jqQA/edit)
+*   [Edit](../24Miscellaneous/24_15_Edit.md)
 
-*   [Application](https://help.bsim.dk/support/kb/articles/wmjn0amV/application)
+*   [Application](../24Miscellaneous/24_18_Application.md)
 
-*   [View](https://help.bsim.dk/support/kb/articles/BWzdB3QE/view)
+*   [View](../24Miscellaneous/24_21_View.md)
 
-*   [Help](https://help.bsim.dk/support/kb/articles/7mawv19E/help)
+*   [Help](../24Miscellaneous/24_23_Help.md)
 
 <br>
 
 See also:
 
-*   [SimView menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [SimView menu](06_06_SimView_Menu.md)
 
-*   [SimView toolbar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)
+*   [SimView toolbar](06_05_SimView_Toolbar.md)

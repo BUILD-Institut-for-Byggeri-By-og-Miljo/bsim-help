@@ -36,8 +36,8 @@ Yuan,X, Chen,Q., Glicksman,L.R. (1999): Models for Prediction of Temperature Dif
 
 Se også:
 
-*   [Baggrund](/12The_Kappa_model/12_02_Background.html)
-*   [Kappa-modellen](/12The_Kappa_model/12_03_The_Kappa_Model_Model_description.html)
-*   [Implementering af modellen](/12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.html)
-*   [Inddata i SimView](/12The_Kappa_model/12_05_The_Kappa_Model_input_data.html)
-*   [Nomenklatur](/12The_Kappa_model/12_06_The_Kappa_Model_Nomenclature.html)
+*   [Baggrund](../12The_Kappa_model/12_02_Background.md)
+*   [Kappa-modellen](../12The_Kappa_model/12_03_The_Kappa_Model_Model_description.md)
+*   [Implementering af modellen](../12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.md)
+*   [Inddata i SimView](../12The_Kappa_model/12_05_The_Kappa_Model_input_data.md)
+*   [Nomenklatur](../12The_Kappa_model/12_06_The_Kappa_Model_Nomenclature.md)

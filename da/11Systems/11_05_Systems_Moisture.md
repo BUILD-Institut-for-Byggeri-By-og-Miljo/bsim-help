@@ -4,7 +4,7 @@
 
 Dialog for angivelse af fugtbelastning i den aktuelle termiske zone, bortset fra fugt fra personer.
 
-Programmets [standard-model](/20The_Mathematical_Basis/20_01_The_moisture_balance.html) for fugtberegninger er meget enkel, idet der ikke tages hensyn til fugtabsorption og adsorption i rummets overflader eller til fugttransport og fugtakkumulering i materialer. Med udvidelsesmodulet til detaljeret [hygro-termisk simulering](/20The_Mathematical_Basis/20_XX_Detailed_moisture_transport_model.html) er det dog muligt at tage højde for disse forhold.
+Programmets [standard-model](../20The_Mathematical_Basis/20_01_The_moisture_balance.md) for fugtberegninger er meget enkel, idet der ikke tages hensyn til fugtabsorption og adsorption i rummets overflader eller til fugttransport og fugtakkumulering i materialer. Med udvidelsesmodulet til detaljeret [hygro-termisk simulering](../20The_Mathematical_Basis/20_XX_Detailed_moisture_transport_model.md) er det dog muligt at tage højde for disse forhold.
 
 
 <figure id="center_img">
@@ -36,7 +36,7 @@ Fugtafgivelsen beregnes efter følgende formler afhængig af den valgte model:
 |  |  | $E = 2.5 E_0$ | $A/N \le 4.5$ |
 | **Smith** | $E = \dfrac{0.73(0.0888 + 0.0783V)\sqrt{P_w - P_a}}{h_w}$ | $E = E_0 \left( 4.27 \frac{N}{A} + 1.04 \right)$ |  |
 
-For antal personer N anvendes det antal personer som er angivet i den termiske zones [PeopleLoad](/11Systems/11_13_Systems_Persons.html).
+For antal personer N anvendes det antal personer som er angivet i den termiske zones [PeopleLoad](../11Systems/11_13_Systems_Persons.md).
 
 hvor:
 
@@ -54,14 +54,14 @@ hvor:
 
 
 
-Fugt- og luftbalancerne er nærmere beskrevet i [det matematiske grundlag](/20The_Mathematical_Basis/20_00_The_Mathematical_Basis.html).
+Fugt- og luftbalancerne er nærmere beskrevet i [det matematiske grundlag](../20The_Mathematical_Basis/20_00_The_Mathematical_Basis.md).
 
-[Tidsplanen](/11Systems/11_02_Systems_schedule.html) definerer sammenhørende sæt af regulering og [tidsangivelse](/11Systems/11_17_Systems_Time.html). Reguleringen for 'fugtlast' er af typen [døgnprofil](/11Systems/11_04_Systems_DayProfile.html), hvor variationen over døgnets timer angives i procent.
+[Tidsplanen](../11Systems/11_02_Systems_schedule.md) definerer sammenhørende sæt af regulering og [tidsangivelse](../11Systems/11_17_Systems_Time.md). Reguleringen for 'fugtlast' er af typen [døgnprofil](../11Systems/11_04_Systems_DayProfile.md), hvor variationen over døgnets timer angives i procent.
 
  
 
 Se også
 
-*   Fanebladet [Schedule](/11Systems/11_02_Systems_schedule.html)
-*   Fanebladet [DayProfile](/11Systems/11_04_Systems_DayProfile.html)
-*   Fanebladet [Time](/11Systems/11_17_Systems_Time.html)
+*   Faneblad [Schedule](../11Systems/11_02_Systems_schedule.md)
+*   Faneblad [DayProfile](../11Systems/11_04_Systems_DayProfile.md)
+*   Faneblad [Time](../11Systems/11_17_Systems_Time.md)

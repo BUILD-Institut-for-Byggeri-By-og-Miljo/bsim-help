@@ -20,7 +20,7 @@ Indblæsningsstyring er en styring af indblæsningstemperaturen som funktion af 
 
 Se også:
 
-*   [Rumtemperaturregulering](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)
-*   [Fugtregulerering](/11Systems/11_22_Ventilation_Moisture_control.html)
-*   [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html)
-*   [Natkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html)
+*   [Rumtemperaturregulering](../11Systems/11_25_Ventilation_Zone_Temperature_control.md)
+*   [Fugtregulerering](../11Systems/11_22_Ventilation_Moisture_control.md)
+*   [VAV-regulering](../11Systems/11_26_Ventilation_VAV_control.md)
+*   [Natkøling](../11Systems/11_24_Ventilation_Night_Cooling_Control.md)

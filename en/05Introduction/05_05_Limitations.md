@@ -14,7 +14,7 @@
 
 Comparison of results from different models
 
-*   If the model name is too long, it is not possible to compare results from different models in [tsbi5 at the Tables tab](https://bsim.outseta.com/support/kb/articles/nmDBAR9y/tsbi5-parameters).
+*   If the model name is too long, it is not possible to compare results from different models in [tsbi5 at the Tables tab](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md).
 
     *   Model names must not exceed 63 characters.
 
@@ -22,7 +22,7 @@ Material properties for new materials in the database
 
 *   If a new material is defined in the database all available input fields <u>must</u> be filled in for the new material. If a new material is defined in a database with moisture transport properties, these fields <u>must</u> be filled in. Does that not happen, the results from a simulation - also simulations without moisture transport - will be faulty as the new material is simulated as an layer of air in the construction. <span id="red_text"> From BSim version 4,6,7,12 it will be considered an error and simulations can not run until all material properties are defined. </span>
 
-*   By clicking the *About*-button in [*SimDB* ](https://bsim.outseta.com/support/kb/articles/wQXx4nQK/simdb-buildingmaterial-moisture)a dialog opens showing the properties of the current database. In the example below the database contains information about moisture transport (Moisture), photovoltaic solar cells (Pv Arrays), and detailed calculation of the glass temperature in windows (Glazing Extra).
+*   By clicking the *About*-button in [*SimDB* ](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)a dialog opens showing the properties of the current database. In the example below the database contains information about moisture transport (Moisture), photovoltaic solar cells (Pv Arrays), and detailed calculation of the glass temperature in windows (Glazing Extra).
 
 <figure id="center_img">
 <img src="./assets/about_simdb.jpg" alt="">
@@ -31,7 +31,7 @@ Material properties for new materials in the database
 
 Heat transfer coefficient (lambda) in simulations with *tsbi5*
 
-*   A different heat transfer coefficient (lambda-value) is being used, depending on the status of the option "Moisture Transport" at the "Options" tab of tsbi5. If "Moisture Transport" is turned OFF, the value given at the "[Thermal](https://bsim.outseta.com/support/kb/articles/y9q8b2QA/simdb-buildingmaterial-thermal)" tab in SimDb is being used. If "Moisture Transport" is turned ON, the value given at the "[Moisture](https://bsim.outseta.com/support/kb/articles/wQXx4nQK/simdb-buildingmaterial-moisture)" tab is being used.
+*   A different heat transfer coefficient (lambda-value) is being used, depending on the status of the option "Moisture Transport" at the "Options" tab of tsbi5. If "Moisture Transport" is turned OFF, the value given at the "[Thermal](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)" tab in SimDb is being used. If "Moisture Transport" is turned ON, the value given at the "[Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)" tab is being used.
 
 Time steps in simulations with *tsbi5*
 
@@ -51,15 +51,15 @@ Especially in connection with advanced simulation of moisture transport in the c
 
 Comparison of results
 
-*   In some cases BSim shows the error message like "The selected file must be located in the folder 'x:\xxxxxxxxxxx' like the current log" when a new file is opened for [comparison of the results in the current results file](https://bsim.outseta.com/support/kb/articles/nmDBAR9y/tsbi5-parameters). BSim think that the two result files are located in different folders and can thus not be compared. The phenomenon occurs on some types of local networks. It is possible to work around the problem by ensuring that all folders in the actual path is named by no more than 8 characters and without spaces or special characters.
+*   In some cases BSim shows the error message like "The selected file must be located in the folder 'x:\xxxxxxxxxxx' like the current log" when a new file is opened for [comparison of the results in the current results file](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md). BSim think that the two result files are located in different folders and can thus not be compared. The phenomenon occurs on some types of local networks. It is possible to work around the problem by ensuring that all folders in the actual path is named by no more than 8 characters and without spaces or special characters.
 
  
 
 Solar distribution at sub-faces
 
-*   With *XSun* turned <u>on</u> at the [*Options* ](https://bsim.outseta.com/support/kb/articles/nmDBKR9y/tsbi5-options)tab for simulations with tsbi5, direct solar incidence will be distributed geometrically correct to all sub-faces of a face (e.g. a floor divided into several sub-faces).
+*   With *XSun* turned <u>on</u> at the [*Options* ](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)tab for simulations with tsbi5, direct solar incidence will be distributed geometrically correct to all sub-faces of a face (e.g. a floor divided into several sub-faces).
 
-*   If XSun is <u>turned of</u> solar incidence will be distributed according to the individual areas of the sub-faces and the distribution key given at the [*ThermalZone Property*](https://bsim.outseta.com/support/kb/articles/rm0x8ZmX/termisk-zone-egenskaber) dialog.
+*   If XSun is <u>turned of</u> solar incidence will be distributed according to the individual areas of the sub-faces and the distribution key given at the [*ThermalZone Property*](../10Thermal_zones/10_01_Thermal_Zone_property.md) dialog.
 
 *   The influence from solar will thus be the same (per m²) for all sub-faces - floors, walls and ceilings, no matter where in the room the sub-face is located (e.g. at an internal wall or by a window).
 
@@ -87,37 +87,37 @@ PV-calculations
 
 Creation of faces in SimDxf
 
-*   If it is impossible to create a face between two nodes in SimDxf, the reason is probably that the two nodes do not have one common line in the CAD-drawing. In the relevant help page a [work-around](https://bsim.outseta.com/support/kb/articles/4966zA9X/simdxf-flader) of this problem is described.
+*   If it is impossible to create a face between two nodes in SimDxf, the reason is probably that the two nodes do not have one common line in the CAD-drawing. In the relevant help page a [work-around](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md) of this problem is described.
 
  
 
 Long-wave radiation to the sky
 
-*   When the long-wave radiative heat exchange to the sky (on and off using the *Longwave Rad*. *to Sky* option on the [Options tab in tsbi5](https://bsim.outseta.com/support/kb/articles/nmDBKR9y/tsbi5-options)) only the radiative exchange to the sky takes part in the simulation. There is thus no radiative exchange with eventual other buildings in the model and nor with eventual advanced parts of the building itself. The radiative heat exchange is thus only dependant on the temperature difference between any surface and the sky, respectively the ground and the tilt of the surface.   
+*   When the long-wave radiative heat exchange to the sky (on and off using the *Longwave Rad*. *to Sky* option on the [Options tab in tsbi5](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)) only the radiative exchange to the sky takes part in the simulation. There is thus no radiative exchange with eventual other buildings in the model and nor with eventual advanced parts of the building itself. The radiative heat exchange is thus only dependant on the temperature difference between any surface and the sky, respectively the ground and the tilt of the surface.   
 It is planned, at a later time, to implement radiative heat exchange with other buildings and advanced parts of the building itself. See also: Long-wave radiative heat exchange between internal surfaces.
 
  
 
-[VAV-control](https://bsim.outseta.com/support/kb/articles/j9b8kamn/ventilation-vav-regulering) and [cooling ceilings](https://bsim.outseta.com/support/kb/articles/y9gBNGQM/k-ling)
+[VAV-control](../11Systems/11_11_Systems_VAV.md) and [cooling ceilings](../11Systems/11_09_Systems_cooling.md)
 
 *   Cooling from ceilings or "cooling radiators" should **not** be modeled in conjunction with VAV-control of the ventilation system. This combination will cause too high cooling demands, as the increased air-flow will **not** be reduced to the normal air-flow, if the set-point for the cooling ceiling is passed. The best estimate of the cooling requirement is obtained by modeling a cooling coil in the ventilation system.
 
  
 Internal WinDoors
 
-*   When internal WinDoors (WinDoors between thermal zones and rooms or other thermal zones) are to be simulated, a tick-mark should be placed at *XSun Distribution* on the [*Options* ](https://bsim.outseta.com/support/kb/articles/nmDBKR9y/tsbi5-options)tab [*tsbi5*](https://bsim.outseta.com/support/kb/articles/A93z0lQ0/tsbi5). It is though possible to make a simulation without using XSun solar distribution, but the results can <u>only</u> be used a rough estimates.
+*   When internal WinDoors (WinDoors between thermal zones and rooms or other thermal zones) are to be simulated, a tick-mark should be placed at *XSun Distribution* on the [*Options* ](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)tab [*tsbi5*](../13tsbi5_thermal_simulation/13_01_tsbi5.md). It is though possible to make a simulation without using XSun solar distribution, but the results can <u>only</u> be used a rough estimates.
 
  
 
 Long-wave radiative heat exchange between internal surfaces
 
-*   It is <u>only</u> possible to simulate long-wave radiative exchange in [tsbi5](https://bsim.outseta.com/support/kb/articles/A93z0lQ0/tsbi5) in those rooms, which are convex. It is possible to create a concave thermal zone by putting together convex rooms in the same thermal zone - this configurations is legal.
+*   It is <u>only</u> possible to simulate long-wave radiative exchange in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md) in those rooms, which are convex. It is possible to create a concave thermal zone by putting together convex rooms in the same thermal zone - this configurations is legal.
 
-*   Simulating long-wave radiative heat exchange between internal surfaces is turned on and off using the *Longwave Radiation* option on the [Options tab](https://bsim.outseta.com/support/kb/articles/nmDBKR9y/tsbi5-options) in tsbi5. See also: Long-wave radiation to the sky.
+*   Simulating long-wave radiative heat exchange between internal surfaces is turned on and off using the *Longwave Radiation* option on the [Options tab](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) in tsbi5. See also: Long-wave radiation to the sky.
 
  
 
-Daylight calculations in [SimLight](https://bsim.outseta.com/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight)
+Daylight calculations in [SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md)
 
 1.  It is <u>only</u> possible to calculate daylight using SimLight in convex rooms.
 
@@ -135,16 +135,16 @@ Air-balance
 
 Systems
 
-*   <u>Only</u> one system (except [mixing](https://bsim.outseta.com/support/kb/articles/Rm8JEd94/mixing)) can be present in a thermal zone at the time. Different control strategies can occur at different [time definitions](https://bsim.outseta.com/support/kb/articles/VmAOwo9a/tidsangivelse), but <u>only</u> one system can be active at any time.
+*   <u>Only</u> one system (except [mixing](../11Systems/11_10_systems_mixing.md)) can be present in a thermal zone at the time. Different control strategies can occur at different [time definitions](../11Systems/11_17_Systems_Time.md), but <u>only</u> one system can be active at any time.
 
  
 
-[XSun video](https://bsim.outseta.com/support/kb/articles/zWZA419p/xsun-video) recording
+[XSun video](../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.md) recording
 
 *   Recording and replaying video sequences happens in the same size of window as BSim had during the recording (do not use full screen windows). If focus changes from BSim to any other application , i.e. using Alt+Tab, that part of this application located within the size of the BSim window will be recorded in stead of the XSun animation.
 
  
 
-[XSun ](https://bsim.outseta.com/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun)
+[XSun](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md)
 
 *   If a model is made in a way that it is possible for the sun to travel from one space to a neighbor space and back to the initial space, it will cause an infinite loop. This special case will be found and the error eliminated by stopping the sun from going into the neighbor space and back to the original space again. Doing this causes an unfixed error in the calculations.

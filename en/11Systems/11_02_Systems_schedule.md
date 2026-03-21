@@ -27,4 +27,4 @@ It is thus **only** the control associated with the first met time definition (m
 Time definitions covering the **whole year** (simulation period) must be located as the last entry in the table. Such a definition is normally used to "catch" periods that "falls" outside the rest of the time definitions for the system.
 
 See also: 
-*   [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)
+*   [Time](11_17_Systems_Time.md)
