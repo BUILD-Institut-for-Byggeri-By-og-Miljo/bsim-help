@@ -12,7 +12,7 @@ En beregning kan hverken gennemføres med *tsbi5*, *XSun* eller *SimLight* uden 
 
 Ved tryk på knappen *Browse* kan man manuelt gennemsøge computeren for filer med klimadata. Der skal trykkes *New*, før en klimafil kan vælges. Til højre for *Browse*-knappen vises information om indholdet af den valgte klimadatafil.
 
-Der er gennem tiden leveret fire klimafiler med BSim: CPH.try, CPH.dry, Denmark.dry og Denmark-v2.dry. De fire filers indehold er lidt [forskelligt](/24Miscellaneous/24_58_Climate_data_definition.html).
+Der er gennem tiden leveret fire klimafiler med BSim: CPH.try, CPH.dry, Denmark.dry og Denmark-v2.dry. De fire filers indehold er lidt [forskelligt](../24Miscellaneous/24_58_Climate_data_definition.md).
 
 Hvis der alene skal gennemføres en analyse af solindfaldet med *XSun*, er det tilstrækkeligt at udfylde data i gruppen *Location* i stedet for at vælge en vejrdatafil.
 
@@ -20,22 +20,22 @@ Hvis der vælges en vejrdatafil hentes information til gruppen *Location* fra de
 
 I gruppen *Ground Reflectance* kan den generelle horisontafskæring (*Horizon*) refleksionen af solstråling (*SolarRad*.) og refleksionen af dagslys (*Light*) fra omgivelserne opgives.
 
-Ved tryk på knappen [*Ground* ](/24Miscellaneous/24_26_Ground.html)åbnes dialogen for definition af udeforholdene svarende til jorden under bygningen.
+Ved tryk på knappen [*Ground* ](../24Miscellaneous/24_26_Ground.md)åbnes dialogen for definition af udeforholdene svarende til jorden under bygningen.
 
-Det er muligt at [generere](/13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.html) egne klimadata ud fra tekst (ASCII) filer med timeværdier af udeklimaparametre.
+Det er muligt at [generere](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) egne klimadata ud fra tekst (ASCII) filer med timeværdier af udeklimaparametre.
 
 Se også:
 
-*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
-*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
-*   [Standardkonstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
-*   [Tilknytte ikke-standardkonstruktioner](/09SimView/09_09_SimView_Non_default_constructions.html)
-*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
-*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
-*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems.html)
-*   [Redigere geometrien](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
-*   [Tilføje konstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
-*   [Tilføje en åbning eller WinDoor](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html)
-*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
-*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
-*   [Udskrift af model](/10Thermal_zones/10_09_SimView_Printing_a_model.html)
+*   [Oprette en bygning](../09SimView/09_14_SimView_Creating_a_building.md)
+*   [Tilføje et rum](../09SimView/09_15_SimView_Creating_a_space.md)
+*   [Standardkonstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md)
+*   [Tilknytte ikke-standardkonstruktioner](../09SimView/09_09_SimView_Non_default_constructions.md)
+*   [Oprette en termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md)
+*   [Tilføje rum til termiske zoner](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
+*   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems.md)
+*   [Redigere geometrien](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
+*   [Tilføje konstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md)
+*   [Tilføje en åbning eller WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
+*   [Tilknytte fiktive zoner](../09SimView/09_05_Sim_View_Virtual_zones.md)
+*   [Tilknytte klimadata og jord](../09SimView/09_10_Climate_data.md)
+*   [Udskrift af model](../10Thermal_zones/10_09_SimView_Printing_a_model.md)
