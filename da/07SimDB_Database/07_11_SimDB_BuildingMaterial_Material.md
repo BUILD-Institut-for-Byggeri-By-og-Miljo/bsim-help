@@ -16,19 +16,19 @@ I de følgende faneblade gives supplerende data om materialet til brug i forskel
 
 Se også:
 
-*   [Faneblad Thermal](/07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.html)
+*   [Faneblad Thermal](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
 
-*   [Faneblad PCM](/07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.html)
+*   [Faneblad PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
 
-*   [Faneblad Moisture](/07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.html)
+*   [Faneblad Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
 
-*   [Faneblad Environment](/07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.html)
+*   [Faneblad Environment](../07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.md)
 
-*   [Faneblad Glazing](/07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.html)
+*   [Faneblad Glazing](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 
-*   [Faneblad UserDefined](/07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.html)
+*   [Faneblad UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)
 
-*   [Faneblad Frame](/07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.html)
+*   [Faneblad Frame](../07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.md)
 
-*   [Faneblad Finish](/07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.html)
+*   [Faneblad Finish](../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md)
 

@@ -3,11 +3,11 @@
 # SimDB - BuildingElement, ConstructionLayer
 Andet faneblad indeholder information om de enkelte lag, et bygningselement er opbygget af. Der er følgende inddatafelter på fanebladet:
 
-*   *Type*: Der kan vælges bygningsmaterialer fra de forskellige [SfB-basisgrupper](/24Miscellaneous/24_39_SfB_in_BSim.html) (isoleringsmaterialer er fx placeret i gruppen m. *Inorganic* materials), som de er defineret i *BuildingMaterial*-delen af databasen.
+*   *Type*: Der kan vælges bygningsmaterialer fra de forskellige [SfB-basisgrupper](../24Miscellaneous/24_39_SfB_in_BSim.md) (isoleringsmaterialer er fx placeret i gruppen m. *Inorganic* materials), som de er defineret i *BuildingMaterial*-delen af databasen.
 
 *   *ConstructionMaterial*: Bygningsmaterialet vælges fra en liste, som indeholder materialer svarende til den type, som er valgt i feltet *Type*.
 
-*   Tre unavngivne felter som har forskellig betydning afhængigt af bygningselementets type - [WinDoor](/07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.html) eller Construction.
+*   Tre unavngivne felter som har forskellig betydning afhængigt af bygningselementets type - [WinDoor](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md) eller Construction.
 
     *   Felt 1 viser SfB-indgangen for det materialelag som aktuelt vises.
 
@@ -17,7 +17,7 @@ Andet faneblad indeholder information om de enkelte lag, et bygningselement er o
 
     *   Hvis der er valgt et materiale for det aktuelle lag er modstanden den **termiske modstand** [m²K/W], fx af et lukket luftmellemrum mellem to materialer.
 
-    *   Er der derimod **ikke** valgt et materiale for det aktuelle lag er modstanden en **fugtmodstand** [m²sPa/kg], svarende til en dampspærre. En oversigt over typiske fugtmodstande kan ses i på siden om [sorption/desorption](/24Miscellaneous/24_43_Sorption_desorption.html).
+    *   Er der derimod **ikke** valgt et materiale for det aktuelle lag er modstanden en **fugtmodstand** [m²sPa/kg], svarende til en dampspærre. En oversigt over typiske fugtmodstande kan ses i på siden om [sorption/desorption](../24Miscellaneous/24_43_Sorption_desorption.md).
 
     *   Hvis der **ikke** er valgt et materiale **og** der **ikke** er givet en modstand, beskriver laget geometrien for et luftlag i konstruktionen, fx et nedhængt loft. Modstanden for et sådant luftlag **skal** gives som en termisk modstand på det foregående materialelag (regnet fra side 1 af konstruktionen).
 
@@ -46,14 +46,14 @@ Et nyt lag tilføjes ved at vælge New Layer, klikke på "?" i kolonnen *Materia
 
 Klik på *Delete-knappen* sletter det aktuelle materialelag.
 
-Ved højre-klik på materialet åbnes dialogen for redigering af [materialets egenskaber](/07SimDB_Database/07_06_SimDB_BuildingMaterial.html).
+Ved højre-klik på materialet åbnes dialogen for redigering af [materialets egenskaber](../07SimDB_Database/07_06_SimDB_BuildingMaterial.md).
 
 WinDoors defineres i samme struktur i databasen som de øvrige konstruktioner, men de tre unavngivne felter og kolonnerne i tabellen har en lidt anden betydning.
 
 Se også:
 
-*   [Materialelag for WinDoor](/07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.html)
+*   [Materialelag for WinDoor](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md)
 
-*   [Faneblad BuildingElement](/07SimDB_Database/07_02_SimDB_BuildingElement.html)
+*   [Faneblad BuildingElement](../07SimDB_Database/07_02_SimDB_BuildingElement.md)
 
-*   [Faneblad MaterialAmount](/07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.html)
+*   [Faneblad MaterialAmount](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)

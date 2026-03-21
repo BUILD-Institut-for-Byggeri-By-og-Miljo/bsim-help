@@ -10,6 +10,6 @@ Tredje faneblad indeholder alene data, som benyttes i forbindelse med LCA-analys
 
 Se også:
 
-*   [Faneblad BuildingElement](/07SimDB_Database/07_02_SimDB_BuildingElement.html)
+*   [Faneblad BuildingElement](../07SimDB_Database/07_02_SimDB_BuildingElement.md)
 
-*   [Faneblad ConstructionLayer](/07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.html)
+*   [Faneblad ConstructionLayer](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)
