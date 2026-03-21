@@ -24,20 +24,20 @@ Hvis der er foretaget ændringer i DXF-filen, vil afvigelserne vise sig ved, at 
 
 Se også:
 
-*   [Vælg DXF-filter - Edit DXF-filter](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.html)
+*   [Vælg DXF-filter - Edit DXF-filter](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md)
 
-*   [Hent DXF-fil - Open DXF-file](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.html)
+*   [Hent DXF-fil - Open DXF-file](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.md)
 
-*   [Oprette hjælpelinier](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.html)
+*   [Oprette hjælpelinier](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.md)
 
-*   [Knudepunkter (nodes)](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.html)
+*   [Knudepunkter (nodes)](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.md)
 
-*   [Flade - Face](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_05_SimDXF_Faces.html)
+*   [Flade - Face](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_05_SimDXF_Faces.md)
 
-*   [Rum - Room](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_06_SimDXF_Spaces.html)
+*   [Rum - Room](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_06_SimDXF_Spaces.md)
 
-*   [WinDoor](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.html)
+*   [WinDoor](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.md)
 
-*   [Tegningsrevisioner](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_07_SimDXF_Drawing_revisions.html)
+*   [Tegningsrevisioner](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_07_SimDXF_Drawing_revisions.md)
 
-*   [Tilføjelse af SimDXF som applikation](/08SimDXF_CAD_drawings_as_basis_for_geometry/08_04_SimDXF_Adding_as_an_application.html)
+*   [Tilføjelse af SimDXF som applikation](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_04_SimDXF_Adding_as_an_application.md)
