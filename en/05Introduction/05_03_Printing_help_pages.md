@@ -28,4 +28,4 @@ Help is set out like an Internet website. The printout will therefore be continu
 
 See also:
 
-*   [Readers guidelines. ](https://bsim.outseta.com/support/kb/articles/B9lwpdQ8/l-sevejledning)
+*   [Readers guidelines. ](05_04_Reader_guidelines.md)

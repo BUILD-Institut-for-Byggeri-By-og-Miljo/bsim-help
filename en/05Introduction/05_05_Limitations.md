@@ -111,13 +111,13 @@ Internal WinDoors
 
 Long-wave radiative heat exchange between internal surfaces
 
-*   It is <u>only</u> possible to simulate long-wave radiative exchange in [tsbi5](https://bsim.outseta.com/support/kb/articles/A93z0lQ0/tsbi5) in those rooms, which are convex. It is possible to create a concave thermal zone by putting together convex rooms in the same thermal zone - this configurations is legal.
+*   It is <u>only</u> possible to simulate long-wave radiative exchange in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md) in those rooms, which are convex. It is possible to create a concave thermal zone by putting together convex rooms in the same thermal zone - this configurations is legal.
 
-*   Simulating long-wave radiative heat exchange between internal surfaces is turned on and off using the *Longwave Radiation* option on the [Options tab](https://bsim.outseta.com/support/kb/articles/nmDBKR9y/tsbi5-options) in tsbi5. See also: Long-wave radiation to the sky.
+*   Simulating long-wave radiative heat exchange between internal surfaces is turned on and off using the *Longwave Radiation* option on the [Options tab](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) in tsbi5. See also: Long-wave radiation to the sky.
 
  
 
-Daylight calculations in [SimLight](https://bsim.outseta.com/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight)
+Daylight calculations in [SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md)
 
 1.  It is <u>only</u> possible to calculate daylight using SimLight in convex rooms.
 
@@ -135,16 +135,16 @@ Air-balance
 
 Systems
 
-*   <u>Only</u> one system (except [mixing](https://bsim.outseta.com/support/kb/articles/Rm8JEd94/mixing)) can be present in a thermal zone at the time. Different control strategies can occur at different [time definitions](https://bsim.outseta.com/support/kb/articles/VmAOwo9a/tidsangivelse), but <u>only</u> one system can be active at any time.
+*   <u>Only</u> one system (except [mixing](../11Systems/11_10_systems_mixing.md)) can be present in a thermal zone at the time. Different control strategies can occur at different [time definitions](../11Systems/11_17_Systems_Time.md), but <u>only</u> one system can be active at any time.
 
  
 
-[XSun video](https://bsim.outseta.com/support/kb/articles/zWZA419p/xsun-video) recording
+[XSun video](../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.md) recording
 
 *   Recording and replaying video sequences happens in the same size of window as BSim had during the recording (do not use full screen windows). If focus changes from BSim to any other application , i.e. using Alt+Tab, that part of this application located within the size of the BSim window will be recorded in stead of the XSun animation.
 
  
 
-[XSun ](https://bsim.outseta.com/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun)
+[XSun](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md)
 
 *   If a model is made in a way that it is possible for the sun to travel from one space to a neighbor space and back to the initial space, it will cause an infinite loop. This special case will be found and the error eliminated by stopping the sun from going into the neighbor space and back to the original space again. Doing this causes an unfixed error in the calculations.
