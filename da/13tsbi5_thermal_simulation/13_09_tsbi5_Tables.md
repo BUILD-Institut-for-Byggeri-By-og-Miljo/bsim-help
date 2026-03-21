@@ -21,11 +21,11 @@ Tabelvisningen af timeværdierne har en række valgmenuer og trykknapper øverst
 
 *   Valg af visningsform for parameterlisten (værdier/procent under/timer under/procent over/timer over).
 
-*   Skift til [grafisk præsentation](/13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.html) af resultaterne.
+*   Skift til [grafisk præsentation](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) af resultaterne.
 
 *   Valg af tidspunkt fra kalenderfunktionen (dato, uge eller måned) for visningen (afhænger af den valgte opløsning).
 
-*   Manuel opdatering (*Apply*) af indholdet i tabellen efter der er skiftet dato. Knappen er kun aktiv hvis check-mærket *Dynamic update of Tables* *er fjernet under Tables* på [Options fanebladet](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html). Normalt skifter den grafiske visning automatisk ved valg af et nyt tidspunkt for visningen.
+*   Manuel opdatering (*Apply*) af indholdet i tabellen efter der er skiftet dato. Knappen er kun aktiv hvis check-mærket *Dynamic update of Tables* *er fjernet under Tables* på [Options fanebladet](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md). Normalt skifter den grafiske visning automatisk ved valg af et nyt tidspunkt for visningen.
 
 Timeværdier for den valgte periode (opløsning) kan eksporteres til en *.txt fil for behandling i andre programmer, fx regneark. Klik *File* + *Export* + *Table*, eller Alt+x med *tables* fanen under tsbi5 aktiveret for at eksporter parametrene i den aktuelle tabel som timeværdier i perioden angivet i den første valgmenu over tabellen. Handlingen åbner en dialog for valg af placering for *.txt fil med timedata.
 
@@ -36,9 +36,9 @@ Timeværdier for den valgte periode (opløsning) kan eksporteres til en *.txt fi
 
 Se også:
 
-*   [Faneblad *Options*](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html)
-*   [Faneblad *Moisture*](/24Miscellaneous/24_60_tsbi5_moisture.html)
-*   [Faneblad *Simulation*](/13tsbi5_thermal_simulation/13_04_tsbi5_simulation.html)
-*   [Faneblad *HeatBalance*](/13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.html)
-*   [Faneblad *Parametres*](/13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html)
-*   [Faneblad *Tables*](/13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html)
+*   [Faneblad *Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)
+*   [Faneblad *Moisture*](../24Miscellaneous/24_60_tsbi5_moisture.md)
+*   [Faneblad *Simulation*](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
+*   [Faneblad *HeatBalance*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
+*   [Faneblad *Parametres*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)
+*   [Faneblad *Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)

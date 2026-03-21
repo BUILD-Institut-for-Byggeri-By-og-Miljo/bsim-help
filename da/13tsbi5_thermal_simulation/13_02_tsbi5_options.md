@@ -15,7 +15,7 @@ Fanebladet *Options* indeholder forskellige valg for opsætning af den simulerin
 
 *   *Last Day:* Dato for slut på simulering.
 
-*   Det er muligt at simulere mere end et år, med gentagelse af klimadata. Dette er især nyttig i forbindelse med simulering af fugtforholdene i konstruktionerne, hvor udtørring eller opfugtning kan være en proces som tager mere end et år. Resultaterne fra en simulering over flere år, gemmes i selvstændige resultatfiler. Disse resultatfiler navngives med modelnavnet efterfulgt af "#yy", hvor yy er de to sidste cifre af årstallet (fx 02 = 2002). I resultatvisningen på [*Parametres* fanebladet](/13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html) vises **kun** det første år af simuleringsperioden. Efterfølgende år kan hentes ind i resultatvisningen ved tryk på *Open New Model* knappen.
+*   Det er muligt at simulere mere end et år, med gentagelse af klimadata. Dette er især nyttig i forbindelse med simulering af fugtforholdene i konstruktionerne, hvor udtørring eller opfugtning kan være en proces som tager mere end et år. Resultaterne fra en simulering over flere år, gemmes i selvstændige resultatfiler. Disse resultatfiler navngives med modelnavnet efterfulgt af "#yy", hvor yy er de to sidste cifre af årstallet (fx 02 = 2002). I resultatvisningen på [*Parametres* fanebladet](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) vises **kun** det første år af simuleringsperioden. Efterfølgende år kan hentes ind i resultatvisningen ved tryk på *Open New Model* knappen.
 
 *   *Simulation Options* er en gruppe med opsætning for simuleringen:
 
@@ -29,15 +29,15 @@ Fanebladet *Options* indeholder forskellige valg for opsætning af den simulerin
 
     *   *Longwave Rad. to Sky*: Flag for beregning af langbølget strålingsudveksling mellem modellens udvendige overflade og himlen.
 
-    *   *Longwave Radiation*: Flag for beregning af langbølget strålingsudveksling mellem modellens indvendige overflader. Ved brug af denne beregningsmetode benyttes [variable overgangsmodstande ved overfladerne](/20The_Mathematical_Basis/20_11_Natural_convection_at_surfaces.html) i modellen. Beregningen kan <u>kun</u> gennemføres hvis rummene i modellen er konvekse.
+    *   *Longwave Radiation*: Flag for beregning af langbølget strålingsudveksling mellem modellens indvendige overflader. Ved brug af denne beregningsmetode benyttes [variable overgangsmodstande ved overfladerne](../20The_Mathematical_Basis/20_11_Natural_convection_at_surfaces.md) i modellen. Beregningen kan <u>kun</u> gennemføres hvis rummene i modellen er konvekse.
 
-    *   *XSun Distribution*: Flag for beregning af solfordeling ved hjælp af [*XSun*](/14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.html). Beregningen gennemføres kun for de rum i modellen som er konvekse.
+    *   *XSun Distribution*: Flag for beregning af solfordeling ved hjælp af [*XSun*](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md). Beregningen gennemføres kun for de rum i modellen som er konvekse.
 
     *   *Moisture Transport*: Angiver at der skal simuleres fugttransport i konstruktionerne (kræver at der er defineret fugttekniske egenskaber for konstruktionerne). Muligheden er <u>kun</u> tilgængelig hvis en database med fugttekniske egenskaber er tilknyttet modellen.
 
     *   *Latent Heat*: Angiver at der skal gennemføres en simulering af den latente varmetransport ved bevægelse af fugt i konstruktionerne.
 
-    *   *Thermal Bridge*: Angiver at der skal justeres for geometriske [kuldebroer](/24Miscellaneous/24_63_Geometric_Thermal_Bridges.html) under simuleringerne.
+    *   *Thermal Bridge*: Angiver at der skal justeres for geometriske [kuldebroer](../24Miscellaneous/24_63_Geometric_Thermal_Bridges.md) under simuleringerne.
 
     *   *Time steps (/h)*: Antallet af tidsskridt pr. time. Hvis antallet er mindre end hvad der kræves for at opnå en stabil simulering advares der herom og der anbefales et antal tidsstep som vil give en stabil simulering.<div id="gray_background"> Især i forbindelse med avanceret simulering af fugttransport i konstruktionerne er det vigtigt at sikre det rette antal tidsskridt!</div>
 
@@ -53,7 +53,7 @@ Fanebladet *Options* indeholder forskellige valg for opsætning af den simulerin
 
     *   *Thermal Zones*: Data fra *termiske zoner* (fx temperatur, operativ temperatur, solindfald osv.),
 
-    *   *Constructions*: Data fra konstruktioner (fx overfladetemperaturer, knudepunktstemperaturer, kondensrisiko, solcelleydelse - via [*SimPv* ](/16SimPV/16_01_SimPV.html)- osv.).
+    *   *Constructions*: Data fra konstruktioner (fx overfladetemperaturer, knudepunktstemperaturer, kondensrisiko, solcelleydelse - via [*SimPv* ](../16SimPV/16_01_SimPV.md)- osv.).
 
     *   *Windoors*: Data fra vinduer og døre,
 
@@ -67,10 +67,10 @@ Fanebladet *Options* indeholder forskellige valg for opsætning af den simulerin
 
 Se også:
 
-*   [Faneblad *Options*](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html)
-    *   [*Edit + Options*](/06BSim_Program_structure/06_04_Program_menus_in_BSim.html)
-*   [Faneblad *Moisture*](/24Miscellaneous/24_60_tsbi5_moisture.html)
-*   [Faneblad *Simulation*](/13tsbi5_thermal_simulation/13_04_tsbi5_simulation.html)
-*   [Faneblad *HeatBalance*](/13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.html)
-*   [Faneblad *Parametres*](/13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html)
-*   [Faneblad *Tables*](/13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html)
+*   [Faneblad *Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)
+    *   [*Edit + Options*](../06BSim_Program_structure/06_04_Program_menus_in_BSim.md)
+*   [Faneblad *Moisture*](../24Miscellaneous/24_60_tsbi5_moisture.md)
+*   [Faneblad *Simulation*](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
+*   [Faneblad *HeatBalance*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
+*   [Faneblad *Parametres*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)
+*   [Faneblad *Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)
