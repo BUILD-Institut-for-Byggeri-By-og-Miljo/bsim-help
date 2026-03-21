@@ -33,31 +33,31 @@ Vinduer og åbninger kan ikke placeres helt ude ved kanten af de konstruktioner 
 
 Hver gang der trykkes på *Apply* tilføjes et objekt *(Opening* eller *WinDoor)* med den givne geometri. Alle åbninger og *WinDoor* tilhørende den samme flade kan derfor med fordel oprettes fra dialogen på en gang.
 
-Hvis et vindue eller en åbning ønskes placeret midt i en flade med lige stor afstand til alle kanter, kan funktionen [Insert Windoor](/24Miscellaneous/24_72_Insert_Windoor_Function.html) benyttes i stedet.
+Hvis et vindue eller en åbning ønskes placeret midt i en flade med lige stor afstand til alle kanter, kan funktionen [Insert Windoor](../24Miscellaneous/24_72_Insert_Windoor_Function.md) benyttes i stedet.
 
-Den geometriske beskrivelse af en WinDoor (rammer, sprosser, udhæng og sidefinner samt systemer der knytter sig hertil - skodder og solafskærmning) sker ved at højre-klikke på objektet i træ-oversigten, hvorved dialogen [Windoor Property](/24Miscellaneous/24_73_Windoor_Property.html) vises.
+Den geometriske beskrivelse af en WinDoor (rammer, sprosser, udhæng og sidefinner samt systemer der knytter sig hertil - skodder og solafskærmning) sker ved at højre-klikke på objektet i træ-oversigten, hvorved dialogen [Windoor Property](../24Miscellaneous/24_73_Windoor_Property.md) vises.
 
-Et bestemt vindue knyttes til modellen ved at trække det fra [databasen](/07SimDB_Database/07_08_WinDoor_material_layers.html) til det rigtige sted i modellens træ-oversigt.
+Et bestemt vindue knyttes til modellen ved at trække det fra [databasen](../07SimDB_Database/07_08_WinDoor_material_layers.md) til det rigtige sted i modellens træ-oversigt.
 
 Systemer tilknyttet en WinDoor:
 
-*   [Regulering](/11Systems/11_03_Regulation.html) (af naturlig ventilation)
-*   [Skodder](/11Systems/11_04_Shutter_System.html) (for reduktions af varmetab om natten)
-*   [Solafskærmning](/11Systems/11_05_Shading_System.html) (for reduktion af overhedning)
+*   [Regulering](../11Systems/11_03_Regulation.md) (af naturlig ventilation)
+*   [Skodder](../11Systems/11_04_Shutter_System.md) (for reduktions af varmetab om natten)
+*   [Solafskærmning](../11Systems/11_05_Shading_System.md) (for reduktion af overhedning)
 
 Se også:
 
-*   [Oprette en bygning](/09SimView/09_14_SimView_Creating_a_building.html)
-*   [Tilføje et rum](/09SimView/09_15_SimView_Creating_a_space.html)
-*   [Standardkonstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
-*   [Tilknytte ikke-standardkonstruktioner](/09SimView/09_09_SimView_Non_default_constructions.html)
-*   [Oprette en termisk zone](/10Thermal_zones/10_01_Thermal_Zone_property.html)
-*   [Tilføje rum til termiske zoner](/10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.html)
-*   [Tilføje systemer til termiske zoner](/11Systems/11_01_Systems.html)
-*   [Redigere geometrien](/10Thermal_zones/10_04_SimView_Editing_the_model_geometry.html)
-*   [Sollysfaktorer](/10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.html)
-*   [Tilføje konstruktioner](/10Thermal_zones/10_06_SimView_Default_constructions.html)
-*   [Tilføje en åbning eller WinDoor](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html)
-*   [Tilknytte fiktive zoner](/09SimView/09_05_Sim_View_Virtual_zones.html)
-*   [Tilknytte klimadata og jord](/09SimView/09_10_Climate_data.html)
-*   [Udskrift af model](/10Thermal_zones/10_09_SimView_Printing_a_model.html)
+*   [Oprette en bygning](../09SimView/09_14_SimView_Creating_a_building.md)
+*   [Tilføje et rum](../09SimView/09_15_SimView_Creating_a_space.md)
+*   [Standardkonstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md)
+*   [Tilknytte ikke-standardkonstruktioner](../09SimView/09_09_SimView_Non_default_constructions.md)
+*   [Oprette en termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md)
+*   [Tilføje rum til termiske zoner](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
+*   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems.md)
+*   [Redigere geometrien](../10Thermal_zones/10_04_SimView_Editing_the_model_geometry.md)
+*   [Sollysfaktorer](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md)
+*   [Tilføje konstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md)
+*   [Tilføje en åbning eller WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
+*   [Tilknytte fiktive zoner](../09SimView/09_05_Sim_View_Virtual_zones.md)
+*   [Tilknytte klimadata og jord](../09SimView/09_10_Climate_data.md)
+*   [Udskrift af model](../10Thermal_zones/10_09_SimView_Printing_a_model.md)
