@@ -59,7 +59,6 @@
 
     *   [Hour values](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md)
 
-
     *   [Export of model to tsbi3](../13tsbi5_thermal_simulation/13_06_tsbi5_Exporting_to_tsbi3.md)
 
 *   [Daylight calculations with SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md)
