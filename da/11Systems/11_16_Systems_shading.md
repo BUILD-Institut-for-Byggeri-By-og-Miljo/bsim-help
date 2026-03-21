@@ -25,25 +25,25 @@ Til hvert vindue i en BSim-model kan der tilknyttes en solafskærmning, som besk
 | Position       | Placering af afskærmning i forhold til vindue.                                                               | External; Internal; Integrated | Internal
  
 
-Solafskærmningens funktion beskrives, som for alle andre systemer i BSim, gennem en [tidsplan](/11Systems/11_02_Systems_schedule.html) (Schedule), hvori der for en eller flere [tidsangivelser](/11Systems/11_17_Systems_Time.html) (Time) angives, hvilken regulering (Control), der er aktuel. Der kan angives et ubegrænset antal tidsangivelser og tilhørende reguleringer for solafskærmningen.
+Solafskærmningens funktion beskrives, som for alle andre systemer i BSim, gennem en [tidsplan](../11Systems/11_02_Systems_schedule.md) (Schedule), hvori der for en eller flere [tidsangivelser](../11Systems/11_17_Systems_Time.md) (Time) angives, hvilken regulering (Control), der er aktuel. Der kan angives et ubegrænset antal tidsangivelser og tilhørende reguleringer for solafskærmningen.
 
 Der kan vælges følgende fire forskellige afskærmningsformer:
 
-*   [SolarCtrl](/11Systems/11_16_Systems_shading.html), der regulerer efter solindfald og operativ temperatur,
+*   [SolarCtrl](../11Systems/11_16_Systems_shading.md), der regulerer efter solindfald og operativ temperatur,
 
-*   [SensorCtrl](/11Systems/11_16_Systems_shading.html), der styrer efter lysindfald på facaden,
+*   [SensorCtrl](../11Systems/11_16_Systems_shading.md), der styrer efter lysindfald på facaden,
 
-*   [BlindCtrl](/11Systems/11_16_Systems_shading.html), der for en afskærmning af lameltype regulerer efter solindfald og direkte sol,
+*   [BlindCtrl](../11Systems/11_16_Systems_shading.md), der for en afskærmning af lameltype regulerer efter solindfald og direkte sol,
 
-*   [GlareCtrl](/11Systems/11_16_Systems_shading.html), der styrer efter at minimere blændingen fra vinduet.
+*   [GlareCtrl](../11Systems/11_16_Systems_shading.md), der styrer efter at minimere blændingen fra vinduet.
 
 *Table values:* giver mulighed for at benytte detaljerede data om lamellerne i et afskærmningssystem ved at tilknytte en ekstern fil. Ved tryk på knappen åbnes en dialog til at lokalisere filen på pc'en.
 
-*Remove table:* bruges til at fjerne tilknytningen af en [ekstern fil](/24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.html) til definition og styring af solafskærmningen.
+*Remove table:* bruges til at fjerne tilknytningen af en [ekstern fil](../24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.md) til definition og styring af solafskærmningen.
 
-I [tidsplanen](/11Systems/11_02_Systems_schedule.html) for solafskærmningen indgår en [afskærmningsregulering](/24Miscellaneous/24_04_Shading_Control.html), som giver mulighed for at definere en regulering af afskærmningen efter temperaturen i zonen. I dialogen er der desuden indgang til en valgmenu, hvori reguleringsformen defineres.
+I [tidsplanen](../11Systems/11_02_Systems_schedule.md) for solafskærmningen indgår en [afskærmningsregulering](../24Miscellaneous/24_04_Shading_Control.md), som giver mulighed for at definere en regulering af afskærmningen efter temperaturen i zonen. I dialogen er der desuden indgang til en valgmenu, hvori reguleringsformen defineres.
 
 Se også
 
-*   [Faneblad Schedule](/11Systems/11_02_Systems_schedule.html)
-*   [Faneblad Time](/11Systems/11_17_Systems_Time.html)
+*   [Faneblad Schedule](../11Systems/11_02_Systems_schedule.md)
+*   [Faneblad Time](../11Systems/11_17_Systems_Time.md)

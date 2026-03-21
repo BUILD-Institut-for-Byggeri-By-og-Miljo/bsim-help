@@ -27,12 +27,12 @@ Denne form for regulering vil ofte være kombineret med en af de øvrige typer. 
 *Construction:* Indgang til valgmenu for placering af sensoren indbygget i en konstruktion i sensor-zonen. Føleren placeres i midten af det første materialelag der vender ind mod sensor-zonen.   
 Hvis føleren fx ønskes placeret 2 cm inde i en 10 cm tyk betonvæg, er det nødvendigt at opbygge væggen af to betonlag, hvor det lag føleren ønskes placeret i skal være 4 cm tyk.
 
-*Active Components:* Angiver hvilke komponenter, der kan være aktive under natkølingen. De enkelte [komponenter](/11Systems/11_21_Systems_Ventilation.html) vælges (on/off) ved at sætte eller fjerne et "**v**" (check-mærke) ud for komponentens navn. Ved at sætte varmeflade og køleflade ud af funktion i forbindelse med natkøling, er der mulighed for at sikre, at denne reguleringsform fungerer optimalt, dvs. uden unødvendigt energiforbrug til behandling af ventilationsluften.   
+*Active Components:* Angiver hvilke komponenter, der kan være aktive under natkølingen. De enkelte [komponenter](../11Systems/11_21_Systems_Ventilation.md) vælges (on/off) ved at sætte eller fjerne et "**v**" (check-mærke) ud for komponentens navn. Ved at sætte varmeflade og køleflade ud af funktion i forbindelse med natkøling, er der mulighed for at sikre, at denne reguleringsform fungerer optimalt, dvs. uden unødvendigt energiforbrug til behandling af ventilationsluften.   
 Hvis der <u>ikke</u> er et "**v**" ud for *Fans,* betyder det, at der ikke overføres varme fra motorerne i ventilationssystemet til indblæsningsluften når systemet regulerer efter denne natkølingsstrategi. Motorerne kører således stadig og driver luften gennem systemet.
 
 Se også:
 
-*   [Indblæsningsstyring](/11Systems/11_23_Ventilation_Inlet_Control.html)
-*   [Rumtemperaturregulering](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)
-*   [Fugtregulerering](/11Systems/11_22_Ventilation_Moisture_control.html)
-*   [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html)
+*   [Indblæsningsstyring](../11Systems/11_23_Ventilation_Inlet_Control.md)
+*   [Rumtemperaturregulering](../11Systems/11_25_Ventilation_Zone_Temperature_control.md)
+*   [Fugtregulerering](../11Systems/11_22_Ventilation_Moisture_control.md)
+*   [VAV-regulering](../11Systems/11_26_Ventilation_VAV_control.md)
