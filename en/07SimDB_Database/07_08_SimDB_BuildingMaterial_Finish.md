@@ -3,16 +3,16 @@
 # SimDB - BuildingMaterial, Finish
 The *Finish* tab contains information on the material's finish properties.
 
-Different data are being used when simulating the thermal indoor climate, the energy flows and the daylight conditions. Data for the color of the surface is though only used in daylight simulations and in export of building models to [*Radiance*](https://bsim.outseta.com/support/kb/articles/A93zY5Q0/eksport-af-data-til-radiance) for further analyses.
+Different data are being used when simulating the thermal indoor climate, the energy flows and the daylight conditions. Data for the color of the surface is though only used in daylight simulations and in export of building models to [*Radiance*](../18Radiance_Visualisation_og_the_building/18_01_Exporting_data_to_Radiance.md) for further analyses.
 
-If no material is selected to represent the surface properties, [*SimLight* ](https://bsim.outseta.com/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight)will use the following default values for the light-reflectance in the calculation of daylight conditions in the rooms:
+If no material is selected to represent the surface properties, [*SimLight* ](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md)will use the following default values for the light-reflectance in the calculation of daylight conditions in the rooms:
 
 *   Floors: 0,1
 *   Walls: 0,4
 *   Ceilings: 0,7
 *   Glass: 0,92
 
-The reflectance from the surrounding free surfaces is obtained from the [Site](https://bsim.outseta.com/support/kb/articles/dQG2Kom4/site-property) property, if defined. If not defined, 0.1 will be used as default value.
+The reflectance from the surrounding free surfaces is obtained from the [Site](../24Miscellaneous/24_25_Site_Property.md) property, if defined. If not defined, 0.1 will be used as default value.
 
 <figure id="center_img">
 <img src="./assets/dbfinish.gif" alt="Information on the material's finish properties is found on the 'Finish tab'.">
@@ -34,10 +34,10 @@ If a color has been defined as a finish property for a face, it will be transfer
 
 See also:
 
-*   [Tab Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
-*   [Tab Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
-*   [Tab Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
-*   [Tab Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
-*   [Tab Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
-*   [Tab UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
-*   [Tab Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
+*   [Tab Material](07_11_SimDB_BuildingMaterial_Material.md)
+*   [Tab Thermal](07_12_SimDB_BuildingMaterial_Thermal.md)
+*   [Tab Moisture](07_14_SimDB_BuildingMaterial_Moisture.md)
+*   [Tab Environment](07_07_SimDB_BuildingMaterial_Environment.md)
+*   [Tab Glazing](07_10_SimDB_BuildingMaterial_Glazing.md)
+*   [Tab UserDefined](07_16_SimDB_BuildingMaterial_UserDefined.md)
+*   [Tab Frame](07_09_SimDB_BuildingMaterial_Frame.md)

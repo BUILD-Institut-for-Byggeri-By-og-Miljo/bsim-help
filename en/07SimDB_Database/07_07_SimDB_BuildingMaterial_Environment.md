@@ -10,14 +10,14 @@ The *Environment* tab contains information on the material's environmental impac
 
 See also:
 
-*   [Tab Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
-*   [Tab Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
-*   [Tab Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
+*   [Tab Material](07_11_SimDB_BuildingMaterial_Material.md)
+*   [Tab Thermal](07_12_SimDB_BuildingMaterial_Thermal.md)
+*   [Tab Moisture](07_14_SimDB_BuildingMaterial_Moisture.md)
 
 For transparent materials in WinDoors
 
-*   [Tab Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
-*   [Tab Additional](https://help.bsim.dk/support/kb/articles/Rm8JDx94/simdb---glazing-additional-data)
-*   [Tab UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
-*   [Tab Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
-*   [Tab Finish](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish)
+*   [Tab Glazing](07_10_SimDB_BuildingMaterial_Glazing.md)
+*   [Tab Additional](../24Miscellaneous/24_44_SimDb_Glazing_Additional_data.md)
+*   [Tab UserDefined](07_16_SimDB_BuildingMaterial_UserDefined.md)
+*   [Tab Frame](07_09_SimDB_BuildingMaterial_Frame.md)
+*   [Tab Finish](07_08_SimDB_BuildingMaterial_Finish.md)

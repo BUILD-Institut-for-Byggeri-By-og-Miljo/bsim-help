@@ -24,7 +24,7 @@ See also:
 
 *   [Selecting the DXF filter](08_03_SimDXF_Selecting_the_DXF_filter.md)
 *   [Opening a DXF drawing](08_02_SimDXF_Opening_a_DXF_drawing.md)
-*   [Creating help lines](08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.md)
+*   [Creating help lines](08_04_SimDXF_Adding_as_an_application.md)  <!-- TODO: verify link - no matching file found -->
 *   [Creating nodes](08_09_SimDXF_Creating_nodes.md)
 *   [Faces](08_05_SimDXF_Faces.md)
 *   [Spaces](08_06_SimDXF_Spaces.md)

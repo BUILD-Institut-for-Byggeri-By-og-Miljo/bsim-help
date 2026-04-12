@@ -9,7 +9,7 @@
  
 <div style="text-align:center">
 
-*One floor of a multi story building can be imported via SimDXF at the time. If more floors needs to be created in the same model, it is necessary to create each floor separately and Insert the new floor(s) in the current project in SimView. Doing this the model gets more buildings (one for each new floor). It is **only** possible to simulate one building at the time (current building) in tsbi5. By dragging (in the tree structure of [SimView](https://bsim.outseta.com/support/kb/articles/wQXx2xQK/simview)) the new building(s) to the actual building, these floors (buildings) are added to the actual model and can be simulated simultaneously in [tsbi5](https://bsim.outseta.com/support/kb/articles/A93z0lQ0/tsbi5). Occasionally it will be necessary to move the new floors (i.e. upwards) in the model, using the [Move](https://help.bsim.dk/support/kb/articles/DmwA8o94/simview---move) command from the SimView-menu.*
+*One floor of a multi story building can be imported via SimDXF at the time. If more floors needs to be created in the same model, it is necessary to create each floor separately and Insert the new floor(s) in the current project in SimView. Doing this the model gets more buildings (one for each new floor). It is **only** possible to simulate one building at the time (current building) in tsbi5. By dragging (in the tree structure of [SimView](../09SimView/09_01_SimView.md)) the new building(s) to the actual building, these floors (buildings) are added to the actual model and can be simulated simultaneously in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5_thermal_simulation.md). Occasionally it will be necessary to move the new floors (i.e. upwards) in the model, using the [Move](../09SimView/09_13_SimView_Move.md) command from the SimView-menu.*
 
 </div>
 
@@ -48,18 +48,18 @@ It is a good idea always to save an archive file at the same time as a STEP file
 
 #### **Program version**
 
-Via the menu entry [Help | About SimDXF ...](https://help.bsim.dk/support/kb/articles/1QpnypWE/about-simdxf) information about the program version is shown.
+Via the menu entry [Help | About SimDXF ...](08_04_SimDXF_Adding_as_an_application.md) information about the program version is shown.
 
- 
+ 
 
 See also:
 
-*   [Selecting the DXF filter](https://help.bsim.dk/support/kb/articles/ZmNrexm2/simdxf---valg-dxf-filter)
-*   [Opening a DXF drawing](https://help.bsim.dk/support/kb/articles/BWzdblQE/simdxf---abne-dxf-tegning)
-*   [Creating help lines](https://help.bsim.dk/support/kb/articles/amRGMZQJ/simdxf---oprette-hjalpelinier)
-*   [Creating nodes](https://help.bsim.dk/support/kb/articles/XQYdOMmP/simdxf---oprette-knuder-nodes)
-*   [Faces](https://help.bsim.dk/support/kb/articles/4966zA9X/simdxf---flader)
-*   [Spaces](https://help.bsim.dk/support/kb/articles/y9q8DNQA/simdxf---rum)
-*   [WinDoor](https://help.bsim.dk/support/kb/articles/OW4N0pQg/simdxf---windoor)
-*   [Drawing revisions](https://help.bsim.dk/support/kb/articles/dQG2xem4/simdxf---tegningsrevisioner)
-*   [Adding SimDXF as an application](https://help.bsim.dk/support/kb/articles/7maw2X9E/simdxf---tilfoje-som-applikation)
+*   [Selecting the DXF filter](08_03_SimDXF_Selecting_the_DXF_filter.md)
+*   [Opening a DXF drawing](08_02_SimDXF_Opening_a_DXF_drawing.md)
+*   [Creating help lines](08_04_SimDXF_Adding_as_an_application.md)  <!-- TODO: verify link - no matching file found -->
+*   [Creating nodes](08_09_SimDXF_Creating_nodes.md)
+*   [Faces](08_05_SimDXF_Faces.md)
+*   [Spaces](08_06_SimDXF_Spaces.md)
+*   [WinDoor](08_08_SimDXF_WinDoor.md)
+*   [Drawing revisions](08_07_SimDXF_Drawing_revisions.md)
+*   [Adding SimDXF as an application](08_04_SimDXF_Adding_as_an_application.md)

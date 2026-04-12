@@ -16,10 +16,10 @@ Information for use in various contexts is provided on the following tabs:
 
 See also:
 
-*   [Tab Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)
-*   [Tab Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
-*   [Tab Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
-*   [Tab Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
-*   [Tab UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
-*   [Tab Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
-*   [Tab Finish](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish)
+*   [Tab Thermal](07_12_SimDB_BuildingMaterial_Thermal.md)
+*   [Tab Moisture](07_14_SimDB_BuildingMaterial_Moisture.md)
+*   [Tab Environment](07_07_SimDB_BuildingMaterial_Environment.md)
+*   [Tab Glazing](07_10_SimDB_BuildingMaterial_Glazing.md)
+*   [Tab UserDefined](07_16_SimDB_BuildingMaterial_UserDefined.md)
+*   [Tab Frame](07_09_SimDB_BuildingMaterial_Frame.md)
+*   [Tab Finish](07_08_SimDB_BuildingMaterial_Finish.md)
