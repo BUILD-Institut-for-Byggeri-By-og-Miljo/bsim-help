@@ -89,11 +89,11 @@ Another option is to "calibrate" the temperature progression interactively using
 
 See also:
 
-*   [Input in SimView](https://help.bsim.dk/support/kb/articles/yW1xGP9B/kappa-modellen-inddata)
-*   [Background](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund)
-*   [Model description](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen---modelbeskrivelse)
-*   [Implementation in tsbi5](https://help.bsim.dk/support/kb/articles/DmwA6g94/kappa-modellen---implementering-i-tsbi5)
-*   [References](https://help.bsim.dk/support/kb/articles/gWKDo0mp/kappa-modellen---referencer)
-*   [Nomenclature](https://help.bsim.dk/support/kb/articles/VmAOoa9a/kappa-modellen---nomenklatur)
+*   [Input in SimView](12_05_The_Kappa_Model_input_data.md)
+*   [Background](12_02_Background.md)
+*   [Model description](12_03_The_Kappa_Model_Model_description.md)
+*   [Implementation in tsbi5](12_04_The_Kappa_Model_implementation_in_tsbi5.md)
+*   [References](12_07_The_Kappa_Model_References.md)
+*   [Nomenclature](12_06_The_Kappa_Model_Nomenclature.md)
 
 

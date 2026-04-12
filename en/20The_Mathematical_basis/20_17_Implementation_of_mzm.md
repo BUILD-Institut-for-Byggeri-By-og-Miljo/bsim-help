@@ -2,7 +2,7 @@
 
 # Implementation of mzm
 
-Implementation of mzm in BSim is described in this part of the documentation. The description starts with a section on making models in BSim that utilizes the multi-zone model for natural ventilation. Take-off is made from the single-zone model with an explanation of the important issues to take into account when creating a building model. Then there is a presentation of the [new issues specially related to mzm](https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system).
+Implementation of mzm in BSim is described in this part of the documentation. The description starts with a section on making models in BSim that utilizes the multi-zone model for natural ventilation. Take-off is made from the single-zone model with an explanation of the important issues to take into account when creating a building model. Then there is a presentation of the [new issues specially related to mzm](20_12_Natural_ventilation.md).
 
 After presenting the model making there is a description of how the equation system is set up, including generation of spanning trees and loops and the making of calculation matrices .
 
@@ -82,7 +82,7 @@ Only openings in the thermal envelope need to be defined as the single zone mode
 
 **<span id="cpvalues">Choice of CP-values</span>**
 
-The used CP-values originates from ([Orme et al. 1998](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)) and is determined as average values for the faces. The user can not give his own CP-values. Orme et al. (1998) gives CP-values for rectangular buildings with equal side lengths and buildings with a side-proportion of 1:2. CP-values are also given for different roof-tilts. BSim chooses CP-values from these standards based on the geometry of the building model.
+The used CP-values originates from ([[Orme et al. 1998](20_28_Literature.md))) and is determined as average values for the faces. The user can not give his own CP-values. Orme et al. (1998) gives CP-values for rectangular buildings with equal side lengths and buildings with a side-proportion of 1:2. CP-values are also given for different roof-tilts. BSim chooses CP-values from these standards based on the geometry of the building model.
 
 
 <div id="gray_background">
@@ -101,9 +101,9 @@ CP-values is defined for three different degree of wind exposure due to the surr
 
 **<span id="controlventilation">Control of natural ventilation</span>**
 
-The single zone model is activated from by using the system [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system). [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) is a natural cooling system and will only come into action if the temperature in the thermal zone that is being used as the controlling zone exceeds the defined set-point.
+The single zone model is activated from by using the system [Venting](../11Systems/11_18_Systems_Venting.md). [Venting](../11Systems/11_18_Systems_Venting.md) is a natural cooling system and will only come into action if the temperature in the thermal zone that is being used as the controlling zone exceeds the defined set-point.
 
-If there is need for cooling, BSim calculates how much outside air is needed and chooses the degree of opening that provides an air flow closest possible to the needed air-flow. The control works in the same way if [*Venting* ](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system)is controlled according to a CO<sub>2</sub> set-point.
+If there is need for cooling, BSim calculates how much outside air is needed and chooses the degree of opening that provides an air flow closest possible to the needed air-flow. The control works in the same way if [*Venting* ](../11Systems/11_18_Systems_Venting.md)is controlled according to a CO<sub>2</sub> set-point.
 
  
 
@@ -143,7 +143,7 @@ It has been necessary to implement three iterations in conjunction to:
 
 Implementation of iterations means that the user needs to (should) decide one's attitude to the convergence criteria and the maximum number of allowed iterations.
 
-The dialog box that define these issues are shown in <a href="#figure5">Figure 5</a>. For the two first iterations a convergence criteria and a maximum number of iterations must be given. This will ensure that the simulation do run wild. In the third iteration, control of the WinDoor's, the maximum number of opening fractions plus additional opening control to determine max number of iterations. The three iterations are described in section [Control of mzm](https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen).
+The dialog box that define these issues are shown in <a href="#figure5">Figure 5</a>. For the two first iterations a convergence criteria and a maximum number of iterations must be given. This will ensure that the simulation do run wild. In the third iteration, control of the WinDoor's, the maximum number of opening fractions plus additional opening control to determine max number of iterations. The three iterations are described in section [Control of mzm](20_18_Control_systems_in_the_multi-zone_model.md).
 
 <figure id="figure5">
 <img src="./assets/mzm_im6.jpg" alt="Figure 5. Dialog with settings for eg the three iterations. The dialog opens by clicking "Edit + Options" with tsbi5 active.">
@@ -187,7 +187,7 @@ There are two types of nodes:
 
 *   Opening nodes
 
-Zone nodes are connected to thermal zones and the outdoor climate. One node is defined in each thermal zone with activated openings. The node is located in the same height as SensorHgt (<a href="#figure6">Figure 6</a>). SensorHgt indicates in which height the temperature of the thermal zone is recorded and which temperature the systems of the zone use as reference point. This is only relevant when vertical temperature gradients are taken into account in the simulations by means of the [Cappa model](https://help.bsim.dk/support/kb/articles/BWzdGlQE/kappa-modellen).
+Zone nodes are connected to thermal zones and the outdoor climate. One node is defined in each thermal zone with activated openings. The node is located in the same height as SensorHgt (<a href="#figure6">Figure 6</a>). SensorHgt indicates in which height the temperature of the thermal zone is recorded and which temperature the systems of the zone use as reference point. This is only relevant when vertical temperature gradients are taken into account in the simulations by means of the [Cappa model](../12The_Kappa_model/12_01_The_Kappa_model.md).
 
 <figure id="figure6">
 <img src="./assets/mzm_im7.gif" alt="Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature.">
@@ -207,7 +207,7 @@ The following arches are made:
 *   between zone nodes and the internal node of all opening nodes in the zone
 
 **Lists with nodes and arches**  
-Two lists are made, one with all nodes and one with all arches. The lists can be shown by clicking "check" from the "[Simulation](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5-simulation)" tab of tsbi5. The lists are called "Nodes" "Arches".
+Two lists are made, one with all nodes and one with all arches. The lists can be shown by clicking "check" from the "[Simulation](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)" tab of tsbi5. The lists are called "Nodes" "Arches".
 
 **Making of a spanning tree**  
 Making of a spanning tree must include those zones that are connected to the ambient, eventually via other adjacent zones. This means that air-flow between zones can not be calculated if they are are not connected to the ambient, see <a href="#figure7">Figure 7</a>.
@@ -218,7 +218,7 @@ Making of a spanning tree must include those zones that are connected to the amb
 </figure>
 
 
-By making a spanning tree it has been chosen always to start in the node for the ambient. The tree is made from the following rules according to ([Savić et al. 1996](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)), called ”depth-first-search”. N is the number of nodes and P is the number of pipes (arches). The calculation of the spanning tree can be explained as follows:
+By making a spanning tree it has been chosen always to start in the node for the ambient. The tree is made from the following rules according to ([Savić et al. 1996](20_28_Literature.md)), called "depth-first-search". N is the number of nodes and P is the number of pipes (arches). The calculation of the spanning tree can be explained as follows:
 <br>
 
 
@@ -274,7 +274,7 @@ By making a spanning tree it has been chosen always to start in the node for the
 
 **Explanation of calculation routines by making the spanning tree**
 
-Explanation of calculation routines by making the spanning tree is based on <a href="#figure8">Figure 8</a> from ([Savić et al. 1996](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)) .
+Explanation of calculation routines by making the spanning tree is based on <a href="#figure8">Figure 8</a> from ([Savić et al. 1996](20_28_Literature.md)) .
 
 Calculation routines are:
 
@@ -524,7 +524,7 @@ The two equation systems are reduced to one, by gathering the two matrices, the 
 
 The driving pressure from temperature gradients can be calculated from differences in the density of the air between the openings that air flows through.
 
-As default BSim calculates as if there is full mixing of the air in a zone and thus a uniform temperature representing all air in the zone. Further it is only possible to use one vertical temperature gradient in a zone. The general equation for the density of the air can be calculated from ([Hansen et al. 1997](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)): 
+As default BSim calculates as if there is full mixing of the air in a zone and thus a uniform temperature representing all air in the zone. Further it is only possible to use one vertical temperature gradient in a zone. The general equation for the density of the air can be calculated from ([Hansen et al. 1997](20_28_Literature.md)): 
 
  
 
@@ -624,7 +624,7 @@ All changes in temperature, moisture content and density happens at the node for
 
 **Calculation**
 
-An integration is made for each zone being part of the loop and for outdoor if the loop contains the node for outdoor. In every zone, the level for the two openings being part of the loop are calculated. So is the thermal driving pressure according to <a href="#eq9">Equation 9</a>, [Cappa](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund) is equal to 1 or <a href="#eq10">Equation 10</a> if [C](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund) differs from 1.
+An integration is made for each zone being part of the loop and for outdoor if the loop contains the node for outdoor. In every zone, the level for the two openings being part of the loop are calculated. So is the thermal driving pressure according to <a href="#eq9">Equation 9</a>, [Cappa](../12The_Kappa_model/12_01_The_Kappa_model.md) is equal to 1 or <a href="#eq10">Equation 10</a> if [C](../12The_Kappa_model/12_01_The_Kappa_model.md) differs from 1.
 
  
 
@@ -744,7 +744,7 @@ As all resistances can not be zero, the flow, Q, must be different from zero. A 
 
 #### **Solving method for the equation system**
 
-A simple Gauss reduction is being used to solve the equation system and coded with information from [William et al. (2002)](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) as a starting point.
+A simple Gauss reduction is being used to solve the equation system and coded with information from [William et al. (2002)](20_28_Literature.md) as a starting point.
 
 Solving routine  
 The solving routine, given as a bulleted list, is as follows:
@@ -785,5 +785,5 @@ The convergence criteria is as default given as 0.01 Pa. The user have the optio
 
 To ensure that the simulation do not run into a loop without an exit, the maximum number of allowable iterations "Max Iterations" must be given (default 32).
 
-*   [Control systems in the multi-zone model](https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen)  
+*   [Control systems in the multi-zone model](20_18_Control_systems_in_the_multi-zone_model.md)  
 

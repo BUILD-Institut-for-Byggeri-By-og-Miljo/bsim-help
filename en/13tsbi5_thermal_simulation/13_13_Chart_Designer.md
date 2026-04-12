@@ -97,5 +97,5 @@ If the changes to the appearance of the graph need to be cancelled, it is possib
 
 See also:
 
-*   [Wizard](https://help.bsim.dk/support/kb/articles/1Qpn73WE/chart-wizard)
+*   [Wizard](13_14_Chart_Wizard.md)
 

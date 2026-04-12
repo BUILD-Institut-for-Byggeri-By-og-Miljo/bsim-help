@@ -5,7 +5,7 @@ SimPv is a tool for making a simple calculation of the electrical yield from a b
 
 SimPv has been implemented as a module in BSim as an integrated part of XSun.
 
-Areas with solar cells is [added to the model](https://help.bsim.dk/support/kb/articles/E9LwrZQw/indsatte-solceller-i-modellen) in the same way as WinDoors.
+Areas with solar cells is [added to the model](16_02_Adding_solar_cells_to_the_model.md) in the same way as WinDoors.
 
 <figure id="center_img">
 <img src="./assets/SIMPV.JPG" alt="Calculation of the power output from a building integrated pv-system is summarised over the months of the calculation period for each construction with PV.">
@@ -28,7 +28,7 @@ Areas with solar cells is [added to the model](https://help.bsim.dk/support/kb/a
 
 *   *No shading reduction* offers the possibility of calculating the yeld from the PV-panels as if no shadows strikes the cells. The difference between the yeld with and without shadows express the *performance ratio*.
 
-*   *Create Hour Log* offers the possibility to save the results from *SimPv* in a results file (*modelname#pv*) that can be merged into the ordinary results handling routines for *tsbi5* using the *Open New Model* function from the [*Parametres*](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5---parameters) tab.
+*   *Create Hour Log* offers the possibility to save the results from *SimPv* in a results file (*modelname#pv*) that can be merged into the ordinary results handling routines for *tsbi5* using the *Open New Model* function from the [*Parametres*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) tab.
 
 *   At the botton of the field the process of the calculation is shown.
 

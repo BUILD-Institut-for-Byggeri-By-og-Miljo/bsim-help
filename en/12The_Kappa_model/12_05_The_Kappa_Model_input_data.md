@@ -5,7 +5,7 @@
 
  
 
-Input data for the Kappa Model is defined for the thermal zone where it is to be used. A [value](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen---modelbeskrivelse) must be defined for kappa and a height above the floor at which the operative temperature in the thermal zone is to be calculated.
+Input data for the Kappa Model is defined for the thermal zone where it is to be used. A [value](12_03_The_Kappa_Model_Model_description.md) must be defined for kappa and a height above the floor at which the operative temperature in the thermal zone is to be calculated.
 
 
 <figure id="center_img">
@@ -16,9 +16,9 @@ Input data for the Kappa Model is defined for the thermal zone where it is to be
 
 See also:
 
-*   [Background](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund)
-*   [Model description](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen---modelbeskrivelse)
-*   [Implementation in tsbi5](https://help.bsim.dk/support/kb/articles/DmwA6g94/kappa-modellen---implementering-i-tsbi5)
-*   [References](https://help.bsim.dk/support/kb/articles/gWKDo0mp/kappa-modellen---referencer)
-*   [Nomenclature](https://help.bsim.dk/support/kb/articles/VmAOoa9a/kappa-modellen---nomenklatur)
+*   [Background](12_02_Background.md)
+*   [Model description](12_03_The_Kappa_Model_Model_description.md)
+*   [Implementation in tsbi5](12_04_The_Kappa_Model_implementation_in_tsbi5.md)
+*   [References](12_07_The_Kappa_Model_References.md)
+*   [Nomenclature](12_06_The_Kappa_Model_Nomenclature.md)
 

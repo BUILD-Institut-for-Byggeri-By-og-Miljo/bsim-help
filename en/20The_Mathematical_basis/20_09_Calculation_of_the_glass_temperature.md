@@ -10,7 +10,7 @@ $$ q_{abs,i} = I_i (1 - SR_i)\cdot SA_i - I_j ((1-SR_j)SA_j)^2 \tag{1} $$
 
 and similar for q<sub>abs1</sub>, with switched indexes.
 
-If only the total absorbtance (SA) and reflectance (SR) are known, this can be given as input for *[face 1](https://help.bsim.dk/support/kb/articles/Rm8JDx94/simdb-glazing-additional-data)* of the WinDoor, and BSim assumes that the two glass layers are equal and their individual values is half of the given value. From these assumptions the absorbed radiation can be calculated as:
+If only the total absorbtance (SA) and reflectance (SR) are known, this can be given as input for *[face 1](../09SimView/09_24_SimView_WinDoors.md)* of the WinDoor, and BSim assumes that the two glass layers are equal and their individual values is half of the given value. From these assumptions the absorbed radiation can be calculated as:
 
 $$ q_{abs,0} = I_1 \left( 1 - \frac{SR}{2}\right) \frac{SA}{2} + I_0 \left( \left( 1 - \frac{SR}{2}\right) \frac{SA}{2} \right)^2 \tag{2} $$
 

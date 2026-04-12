@@ -3,7 +3,7 @@
 # tsbi5 - Parameters
 
 
-The *Parameters* tab contains lists of the [parameters that have been saved on an hourly basis during the simulation](https://help.bsim.dk/support/kb/articles/vW5a6gW4/parametre-i-resultatloggen) for subsequent analysis.
+The *Parameters* tab contains lists of the [parameters that have been saved on an hourly basis during the simulation](13_11_Parameters_in_the_result_log.md) for subsequent analysis.
 
 
 
@@ -34,7 +34,7 @@ If the model name is too long, it is not possible to compare results from differ
 
 <br>
 
-Result files from simulations with [SimPv](https://help.bsim.dk/support/kb/articles/pWrnRaWn/simpv) can be analyzed using the normal result analyses functions. These result files are named as *model name#pv*. Results occurs as two parameters (*qPvGross og qPvNet*) at all constructions with solar cells. There <u>must</u> thus be a check-mark next to *Constructions* at the [*Options* ](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options)tab to be able to see these parameters.
+Result files from simulations with [SimPv](../16SimPV/16_01_SimPV.md) can be analyzed using the normal result analyses functions. These result files are named as *model name#pv*. Results occurs as two parameters (*qPvGross og qPvNet*) at all constructions with solar cells. There <u>must</u> thus be a check-mark next to *Constructions* at the [*Options* ](13_02_tsbi5_options.md)tab to be able to see these parameters.
 
 If a simulation over several years have been performed, results from each year will occour as individual result files. These result files are named after the model followed by a "#yy", where yy are the last two digits of the year. *tsbi5* automatically shows the first year in a series of years. Additional years must be opened as individual result files.
 
@@ -42,16 +42,16 @@ Parameters from other models will be removed automatically when leaving the tab,
 
 The existing parameter list can easily be modified by double-clicking an entry in the list (window at the right of tsbi5). This changes focus to the actual parameter in the global parameter list (window to the left in tsbi5) and the tick-mark can be removed manually.
 
-If results from *Construction* is chosen to be saved on the [*Options* tab](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options), a group with these data will occur in the results log. The results contains calculated temperatures from the surfaces and in all nodes in the constructions. This means that the parameters T1, T2, T3 etc. indicates the node temperature counting from face 1 of a construction. The surface temperatures are denoted SurfTmp1 and SurfTmp2 for surface 1 (normally inside) and surface 2 (normally outside). Data for the relative humidity in the constructions will <u>only</u> occur if a database with moisture information on the building materials have been used.
+If results from *Construction* is chosen to be saved on the [*Options* tab](13_02_tsbi5_options.md), a group with these data will occur in the results log. The results contains calculated temperatures from the surfaces and in all nodes in the constructions. This means that the parameters T1, T2, T3 etc. indicates the node temperature counting from face 1 of a construction. The surface temperatures are denoted SurfTmp1 and SurfTmp2 for surface 1 (normally inside) and surface 2 (normally outside). Data for the relative humidity in the constructions will <u>only</u> occur if a database with moisture information on the building materials have been used.
 
 Below the parameter list three buttons are located: *New, Delete and Copy*. The buttons are used for creating a new, empty parameter list, deleting the current list and making a copy of the current list.
 
 See also:
 
-*   [Tab Options](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options)
-*   [Tab Moisture](https://help.bsim.dk/support/kb/articles/XQYdbPmP/tsbi5---fugt)
-*   [Tab Simulation](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5---simulation)
-*   [Tab HeatBalance](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance)
-*   [Tab Parameters](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5---parameters)
-*   [Tab Tables](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables)
+*   [Tab Options](13_02_tsbi5_options.md)
+*   [Tab Moisture](13_02_tsbi5_options.md)
+*   [Tab Simulation](13_04_tsbi5_simulation.md)
+*   [Tab HeatBalance](13_07_tsbi5_HeatBalance.md)
+*   [Tab Parameters](13_08_tsbi5_Parameters.md)
+*   [Tab Tables](13_09_tsbi5_Tables.md)
 

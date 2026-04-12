@@ -47,7 +47,7 @@ For heat pumps for combined production of space heating and dhw, and where it is
 
     *   Hydronic heating system.   
 
-Before simulating a heat pump it is necessary to define the design parameters for the heat pump. This is done in *SimView* by right-clicking in the graphic representation of the model and from the [menu](../../06BSim_Program_structure/06_06_SimView_Menu.md) selecting Defaults. Jump to the tab [Heatloss](10_06_SimView_Default_constructions.md), and click OK.
+Before simulating a heat pump it is necessary to define the design parameters for the heat pump. This is done in *SimView* by right-clicking in the graphic representation of the model and from the [menu](../06BSim_Program_structure/06_06_SimView_Menu.md) selecting Defaults. Jump to the tab [Heatloss](10_06_SimView_Default_constructions.md), and click OK.
 
 The heat pump can not be activated as a source for the heating system until the external program [PackCalc](11_20_Heat_pump.md) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
 

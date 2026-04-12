@@ -42,9 +42,9 @@ The right-click menu has changed so that it relates directly to the functions in
 
 *   *Kill animate*: Stops the animation of the course of the sun in the building at the current time - short cut: *Esc*.
 
-*   *Capture Screen Shot*: Records the current screen picture in the video (*.avi) file. Initiated in the [XSun program menu](https://help.bsim.dk/support/kb/articles/nmDBw09y/xsun).
+*   *Capture Screen Shot*: Records the current screen picture in the video (*.avi) file. Initiated in the [XSun program menu](14_02_XSun_menu.md).
 
-*   *Capture Animation*: Records the animation at the given date to the end of a video (*.avi) file. Initiated in the [XSun program menu](https://help.bsim.dk/support/kb/articles/nmDBw09y/xsun).
+*   *Capture Animation*: Records the animation at the given date to the end of a video (*.avi) file. Initiated in the [XSun program menu](14_02_XSun_menu.md).
 
-*   *SimPv*: Opens [SimPv](https://help.bsim.dk/support/kb/articles/pWrnRaWn/simpv) for calculation of the electrical yield from building integrated solar cell systems in BSim.
+*   *SimPv*: Opens [SimPv](../16SimPV/16_01_SimPV.md) for calculation of the electrical yield from building integrated solar cell systems in BSim.
 

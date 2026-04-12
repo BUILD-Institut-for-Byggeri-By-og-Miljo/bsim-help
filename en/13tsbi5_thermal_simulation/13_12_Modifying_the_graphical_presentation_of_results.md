@@ -9,14 +9,14 @@
 </div>
 
 
-Right-clicking in the graphical presentation of the results opens a menu for modifying the graphics. The menu contains three options for modifying the graphical presentation: [Chart Designer](https://help.bsim.dk/support/kb/articles/rm0x5YmX/chart-designer) and [Wizard](https://help.bsim.dk/support/kb/articles/1Qpn73WE/chart-wizard).
+Right-clicking in the graphical presentation of the results opens a menu for modifying the graphics. The menu contains three options for modifying the graphical presentation: [Chart Designer](13_13_Chart_Designer.md) and [Wizard](13_14_Chart_Wizard.md).
 
 <figure id="center_img">
 <img src="./assets/CHARTD.GIF" alt="The menu is opened by right-clicking in the graphical presentation.">
 <figcaption>The menu is opened by right-clicking in the graphical presentation.</figcaption>
 </figure>
 
-*   *C<u>h</u>art Designer*: Allows the [graphics to be manipulated](https://help.bsim.dk/support/kb/articles/rm0x5YmX/chart-designer). See also the documentation from Visual Components, Inc.
+*   *C<u>h</u>art Designer*: Allows the [graphics to be manipulated](13_13_Chart_Designer.md). See also the documentation from Visual Components, Inc.
 
 *   *<u>O</u>pen*: Allows an existing graphics file to be opened (*.vcf).
 

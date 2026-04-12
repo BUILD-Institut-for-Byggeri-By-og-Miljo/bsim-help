@@ -38,7 +38,7 @@ This section describes how the two types of openings can be controlled.
 
 #### **Opening fraction for controllable openings**
 
-All controllable openings (windows and doors) have an unambiguous number of opening fractions. The number is the same for all controllable openings and the standard number is 20. The number of opening fractions can be changed under[ tsbi - Edit - Options](https://help.bsim.dk/support/kb/articles/EWBOvOmr/tsbi5-general-options), Figure 3.
+All controllable openings (windows and doors) have an unambiguous number of opening fractions. The number is the same for all controllable openings and the standard number is 20. The number of opening fractions can be changed under[ tsbi - Edit - Options](../24Miscellaneous/24_16_tsbi5_general_options.md), Figure 3.
 
 <figure id="center_img">
 <img src="./assets/mzm_fig20_3.jpg" alt="Figure 3. The number of opening fractions is the same for all controllable openings and can be determined by the user.">
@@ -48,7 +48,7 @@ All controllable openings (windows and doors) have an unambiguous number of open
 
 #### **Opening fraction of non-controllable openings**
 
-Per definition all non-controllable openings are always fully open. However, they are only active during periods, when [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) is activated. When [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) is not activated, tsbi5 calculates as if the openings do not exist.
+Per definition all non-controllable openings are always fully open. However, they are only active during periods, when [Venting](../11Systems/11_18_Systems_Venting.md) is activated. When [Venting](../11Systems/11_18_Systems_Venting.md) is not activated, tsbi5 calculates as if the openings do not exist.
 
  
 

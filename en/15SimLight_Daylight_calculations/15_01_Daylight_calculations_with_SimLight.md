@@ -31,6 +31,6 @@ It is possible to calculate the daylight conditions at a point or in a plane, wh
 
 <br>
 
-*   [Daylight calculation at a point](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt)
-*   [Daylight calculation on a plane ](https://help.bsim.dk/support/kb/articles/L9nrPG9Z/simlight---dagslysberegning-i-et-plan)
+*   [Daylight calculation at a point](15_02_Daylight_calculation_at_a_point.md)
+*   [Daylight calculation on a plane ](15_03_Daylight_calculation_on_a_plane.md)
 

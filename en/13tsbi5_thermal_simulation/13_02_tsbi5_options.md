@@ -19,7 +19,7 @@ The *Options* tab contains various choices for setting up the simulation to be c
 *   *Start*: The date on which the simulation is to start.
 
 *   *End*: The date on which the simulation is to finish.  
-It is possible to simulate more than one year with repeated use of the same climate file. This is especially useful when simulating the moisture conditions in constructions, where it can take several years to reach steady conditions. The results from simulations over several years are saved in individual result files. These result files are named after the model name, followed by "#yy", where yy is the last two digits of the year (e.g. 02 = 2002). In the results shown at the [*Tables tab*](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables) **only** the first year of the simulation period is shown. Additional years can be opened in the result log using the *Open New Model* button at the [*Parameters* *tab*](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5---parameters).
+It is possible to simulate more than one year with repeated use of the same climate file. This is especially useful when simulating the moisture conditions in constructions, where it can take several years to reach steady conditions. The results from simulations over several years are saved in individual result files. These result files are named after the model name, followed by "#yy", where yy is the last two digits of the year (e.g. 02 = 2002). In the results shown at the [*Tables tab*](13_09_tsbi5_Tables.md) **only** the first year of the simulation period is shown. Additional years can be opened in the result log using the *Open New Model* button at the [*Parameters* *tab*](13_08_tsbi5_Parameters.md).
 
 *   *Simulation Options* is a group of parameters defining different simulation options:
 
@@ -29,9 +29,9 @@ It is possible to simulate more than one year with repeated use of the same clim
 
     *   *Long-wave Rad to Sky*: Flag for calculation of the long-wave radiation from the exterior of the building to the sky.
 
-    *   *Long-wave Radiation*: Flag for calculating long-wave radiation exchange. When using long-wave radiation exchange, the surface resistances will be [variable, and temperature dependant](https://help.bsim.dk/support/kb/articles/L9PwnpQJ/natural-convection-at-surfaces).
+    *   *Long-wave Radiation*: Flag for calculating long-wave radiation exchange. When using long-wave radiation exchange, the surface resistances will be [variable, and temperature dependant](../20The_Mathematical_basis/20_11_Natural_convection_at_surfaces.md).
 
-    *   *XSun* distribution: Flag for calculating sun distribution using [*XSun*](https://help.bsim.dk/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun).
+    *   *XSun* distribution: Flag for calculating sun distribution using [*XSun*](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md).
 
     *   *Moisture Transport*: Flag for simulating the moisture transport in the constructions (requires that the moisture properties of the layers in the constructions are defined). The possibility is <u>only</u> accessible if a database containing moisture conditions for the materials is attached the model.
 
@@ -39,7 +39,7 @@ It is possible to simulate more than one year with repeated use of the same clim
 
     *   *GlazingTemp* (BSim from version 2002): Indicates that the model for detailed simulation of the glazing temperature is to be used. Requires an extended database.
 
-    *   *Thermal Bridge*: Indicates that U-values will be corrected according to the difference between internal and external surface area of faces to enable simulation of [thermal bridges](https://help.bsim.dk/support/kb/articles/49EdOJQ7/kuldebroer).
+    *   *Thermal Bridge*: Indicates that U-values will be corrected according to the difference between internal and external surface area of faces to enable simulation of [thermal bridges](../24Miscellaneous/24_63_Geometric_Thermal_Bridges.md).
 
     *   *Time steps (/h)*: Number of time steps per hour. If the number of time steps are less than required to obtain a stable simulation a warning will be shown and a recommended number of time steps is shown. Especially in connection with advanced simulation of moisture transport in the constructions, it is important to ensure that the right number of time steps are used!
 
@@ -55,7 +55,7 @@ It is possible to simulate more than one year with repeated use of the same clim
 
     *   *Thermal Zones*: Data from *thermal zones* (e.g. temperature, operative temperature, incident solar radiation, etc.).
 
-    *   *Constructions*: Data from constructions (e.g. surface temperatures, condensation risk, electric yield from solar cells - via [SimPV](https://help.bsim.dk/support/kb/articles/pWrnRaWn/simpv) - etc.).
+    *   *Constructions*: Data from constructions (e.g. surface temperatures, condensation risk, electric yield from solar cells - via [SimPV](../16SimPV/16_01_SimPV.md) - etc.).
 
     *   *WinDoors*: Data from windows and doors.
 
@@ -68,12 +68,12 @@ If *Cancel* is pressed in the *Open* dialog, simulation will continue with the s
 
 See also:
 
-*   [Tab Options](https://help.bsim.dk/support/kb/articles/nmDBKR9y/tsbi5---options)
-    *   [Options + Edit](https://help.bsim.dk/support/kb/articles/EWBOvOmr/tsbi5-general-options)
+*   [Tab Options](13_02_tsbi5_options.md)
+    *   [Options + Edit](../24Miscellaneous/24_16_tsbi5_general_options.md)
     
-*   [Tab Moisture](https://help.bsim.dk/support/kb/articles/XQYdbPmP/tsbi5---fugt)
-*   [Tab Simulation](https://help.bsim.dk/support/kb/articles/DQ2xjyWV/tsbi5---simulation)
-*   [Tab HeatBalance](https://help.bsim.dk/support/kb/articles/wmjn57mV/tsbi5---heatbalance)
-*   [Tab Parameters](https://help.bsim.dk/support/kb/articles/nmDBAR9y/tsbi5---parameters)
-*   [Tab Tables](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables)
+*   [Tab Moisture](13_02_tsbi5_options.md)
+*   [Tab Simulation](13_04_tsbi5_simulation.md)
+*   [Tab HeatBalance](13_07_tsbi5_HeatBalance.md)
+*   [Tab Parameters](13_08_tsbi5_Parameters.md)
+*   [Tab Tables](13_09_tsbi5_Tables.md)
 

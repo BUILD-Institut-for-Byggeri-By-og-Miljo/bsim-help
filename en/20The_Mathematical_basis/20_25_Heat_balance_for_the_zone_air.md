@@ -88,13 +88,13 @@ f<sub>sol - air </sub>is the fraction of solar radiation given to the air,
 
 Φ<sub>sol </sub>is the total induced power from the solar radiation to the zone, W
 
-The calculation of Φ<sub>sol</sub> is described in [[Petersen, 1982](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)], [[Muneer, 1989](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)] and [[Lund, 1979](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)], whilst the distribution of the solar radiation between surfaces and air is described in "Description of the building model's individual elements".
+The calculation of Φ<sub>sol</sub> is described in [[Petersen, 1982](20_28_Literature.md)], [[Muneer, 1989](20_28_Literature.md)] and [[Lund, 1979](20_28_Literature.md)], whilst the distribution of the solar radiation between surfaces and air is described in "Description of the building model's individual elements".
 
  
 
 <h4 id="air-supplied-to-the-zone"><strong>Air supplied to the zone</strong></h4>
 
-The air supplied to the zone can originate from four different types of '[systems](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview-systemer)' entitled: [Mixing](https://help.bsim.dk/support/kb/articles/Rm8JEd94/mixing-system), [infiltration](https://help.bsim.dk/support/kb/articles/Rm8JRZ94/infiltration-system), [venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/venting-system) and (mechanical) [ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation-system). The effect of each of these individual contributions on the air's heat balance depends on the volume flow and on the temperature of the air which is supplied to the zone. In the heat balance, each term is determined individually, since they are all calculated on the basis of a formula corresponding to next formula allowing for the variations which are determined by schedules for the individual systems.:
+The air supplied to the zone can originate from four different types of '[systems](../11Systems/11_01_Systems.md)' entitled: [Mixing](../11Systems/11_10_systems_mixing.md), [infiltration](../11Systems/11_08_Systems_Infiltration.md), [venting](../11Systems/11_18_Systems_Venting.md) and (mechanical) [ventilation](../11Systems/11_21_Systems_Ventilation.md). The effect of each of these individual contributions on the air's heat balance depends on the volume flow and on the temperature of the air which is supplied to the zone. In the heat balance, each term is determined individually, since they are all calculated on the basis of a formula corresponding to next formula allowing for the variations which are determined by schedules for the individual systems.:
 
  
 
