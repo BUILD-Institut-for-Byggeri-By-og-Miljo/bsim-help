@@ -1,9 +1,9 @@
 # SimView - Move
 The *Move* option in the *SimView* menu is used for moving:
 
-*   [Building](https://help.bsim.dk/support/kb/articles/vWyPK69b/move-bygninger)
-*   [Face](https://help.bsim.dk/support/kb/articles/gWKD7Rmp/move-flader)
-*   [WinDoor](https://help.bsim.dk/support/kb/articles/z9MKlLm4/move-windoor)
+*   [Building](09_14_SimView_Creating_a_building.md)
+*   [Face](09_02_SimView_Editing_the_model_geometry.md)
+*   [WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 
 See also:
-*   [SimView menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [SimView menu](../06BSim_Program_structure/06_06_SimView_Menu.md)

@@ -23,7 +23,7 @@ In this type of control a room sensor controls the system components in series (
 
 
 See also:
-*   [Moisture control](https://help.bsim.dk/support/kb/articles/E9LwjGQw/fugtregulering)
-*   [Inlet control](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/indblasningsstyring)
-*   [VAV control](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)
-*   [Night cooling control](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation)
+*   [Moisture control](11_22_Ventilation_Moisture_control.md)
+*   [Inlet control](11_23_Ventilation_Inlet_Control.md)
+*   [VAV control](11_26_Ventilation_VAV_control.md)
+*   [Night cooling control](11_24_Ventilation_Night_Cooling_Control.md)

@@ -5,7 +5,7 @@ Thermal zone as a term is virtually identical to the term zone in tsbi3. In BSim
 
 A building model consists of a number of spaces that have been described geometrically and, if necessary, thermally (constructions, windows, etc). Some of these spaces can be in thermal zones and will be included in a thermal simulation with tsbi5. Spaces that belong to the same thermal zone are therefore simulated as a single zone with the same temperature and loads.
 
-If all the spaces in a building model are described thermally, including those outside thermal zones, the entire model can be transferred for calculation in the *[Be18 program](https://bsim.outseta.com/support/kb/articles/wmjnRomV/eksport-til-be10)*. A model can therefore be used simultaneously for simple calculation in *Be18* and detailed simulation in tsbi5.
+If all the spaces in a building model are described thermally, including those outside thermal zones, the entire model can be transferred for calculation in the *[Be18 program](../07SimDB_Database/07_14_Export_calculation_options_and_templates_for_Be18.md)*. A model can therefore be used simultaneously for simple calculation in *Be18* and detailed simulation in tsbi5.
 
 A thermal zone is created by right-clicking the building in the tree summary and clicking the Insert Thermal Zone button. Rooms are attached to thermal zones by dragging (while pressing the left mouse button) it to the desired thermal zone in the tree structure.
 

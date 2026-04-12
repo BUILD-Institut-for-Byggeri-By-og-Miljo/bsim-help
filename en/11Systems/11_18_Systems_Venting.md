@@ -51,10 +51,10 @@ Clicking the [*TmpFactor* ](11_18_Systems_Venting.md)button opens a dialog box f
 | Mode | Description |
 |------|-------------|
 | **(Disabled)** | The original model used for venting in previous versions of BSim. |
-| **(Automatic)** | BSim selects, from the zone geometry (see [overview](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation) with used/possible geometries), the model to use. |
-| [Single Sided](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)<br>[Cross](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation) | See [overview](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)! |
-| [Combined Two](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)<br>[Levels](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation) |  |
-| [Combined](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation) | General model, see [overview](https://bsim.outseta.com/support/kb/articles/xmerqBQV/naturlig-ventilation)! |
+| **(Automatic)** | BSim selects, from the zone geometry (see [overview](11_11_Natural_ventilation.md) with used/possible geometries), the model to use. |
+| [Single Sided](11_11_Natural_ventilation.md)<br>[Cross](11_11_Natural_ventilation.md) | See [overview](11_11_Natural_ventilation.md)! |
+| [Combined Two](11_11_Natural_ventilation.md)<br>[Levels](11_11_Natural_ventilation.md) |  |
+| [Combined](11_11_Natural_ventilation.md) | General model, see [overview](11_11_Natural_ventilation.md)! |
 
 
 The venting [*schedule*](11_02_Systems_schedule.md) defines connected sets of[ control](11_18_Systems_Venting.md) and time definition. In ordinary rooms where people are present venting will simulate windows being opened by the users when the indoor temperature becomes too hot, in which case venting will normally only be "active" during the building's hours of use. In large buildings with equipment for automatic venting when the set point for a temperature is exceeded, it must be assessed whether the achievable air change is dependent on the time of the day and year.

@@ -27,12 +27,12 @@ Top - Setp >: Specifies the minimum difference between the current zone temperat
 
 *   If the sensor is to be located 2 cm inside a 10 cm thick concrete wall, it is necessary to create the wall of two concrete layers, the first layer having a thickness of 4 cm.
 
-*Active Components:* Specifies which components can be active during night cooling. The individual [components](https://bsim.outseta.com/support/kb/articles/OW4N5AQg/ventilation) are selected (on/off) by putting a tick-mark (<span id="green_text">v</span>) next to the components name or removing it. By putting the heating and cooling coils out of operation in connection with night cooling it is possible to ensure optimum functioning of this type of control, i.e. without unnecessary energy consumption for treating the ventilation air.
+*Active Components:* Specifies which components can be active during night cooling. The individual [components](11_21_Systems_Ventilation.md) are selected (on/off) by putting a tick-mark (<span id="green_text">v</span>) next to the components name or removing it. By putting the heating and cooling coils out of operation in connection with night cooling it is possible to ensure optimum functioning of this type of control, i.e. without unnecessary energy consumption for treating the ventilation air.
 
 *   If there is no "<span id="green_text">v</span>" next to Fans, it means that no heat are transferred from the engines to the inlet air when the system controls according to this night cooling strategy. The engines do thus still run, forcing the air through the system.
 
 See also:
-*   [Moisture control](https://help.bsim.dk/support/kb/articles/E9LwjGQw/fugtregulering)
-*   [Inlet control](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/indblasningsstyring)
-*   [Zone temperature control](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)
-*   [VAV control](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)   
+*   [Moisture control](11_22_Ventilation_Moisture_control.md)
+*   [Inlet control](11_23_Ventilation_Inlet_Control.md)
+*   [Zone temperature control](11_25_Ventilation_Zone_Temperature_control.md)
+*   [VAV control](11_26_Ventilation_VAV_control.md)

@@ -45,17 +45,17 @@ People Type
 | High activity <br> Naked <br> 0,5 clo <br> 1,0 clo <br> 1,5 clo |<br> 177 <br> 173 <br> 171 <br> 169 |<br> 192 <br> 198 <br> 202 <br> 205 | <br> 129 <br> 133 <br> 135 <br> 137
  
 
-[*Schedule*](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) defines connected sets of control and time definitions. It is possible to specify several schedules, allowing different day variations to be defined at different times of the year. If the building model is a school, for example, one of the schedules can be for holidays, when the people load might be 0.
+[*Schedule*](11_02_Systems_schedule.md) defines connected sets of control and time definitions. It is possible to specify several schedules, allowing different day variations to be defined at different times of the year. If the building model is a school, for example, one of the schedules can be for holidays, when the people load might be 0.
 
-People load control is of the [day profile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dayprofile) type. This means that a day profile specifying the percentage variation in the load over the day within the relevant [time definition](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse) has to be defined for each of the schedules entered.
+People load control is of the [day profile](11_04_Systems_DayProfile.md) type. This means that a day profile specifying the percentage variation in the load over the day within the relevant [time definition](11_17_Systems_Time.md) has to be defined for each of the schedules entered.
 
 The time definitions therefore indicate different periods of the year for which different control actions (day profiles) are to be specified.
 
 See also:
 
-*   Tab [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
+*   Tab [Schedule](11_02_Systems_schedule.md)
 
-*   Tab [DayProfile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dayprofile)
+*   Tab [DayProfile](11_04_Systems_DayProfile.md)
 
-*   Tab [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   Tab [Time](11_17_Systems_Time.md)
 

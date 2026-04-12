@@ -75,7 +75,7 @@ The ventilation system is assumed to have no more than one heating coil. This me
 
 *Max Power:* The maximum power that can be given off by the ventilation system's heating coil. The heating requirement for the ventilation air by the heating coil is calculated on the basis of the selected control strategy and the selected temperature set points. Optimum control functioning is assumed, i.e. full modulation of heat emission within the current time step.
 
-*Heat Pump:* The heat pump can not be activated as a source for the ventilation system until the external program [PackCalc](https://help.bsim.dk/support/kb/articles/j9b8ZOmn/packcalc-koling) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
+*Heat Pump:* The heat pump can not be activated as a source for the ventilation system until the external program [PackCalc](11_20_Heat_pump.md) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
 
  
 
@@ -107,20 +107,20 @@ Specifies where the air for the ventilation system is taken from. The air can be
 
 #### **Schedule:** 
 
-For each ventilation system a control strategy has to be defined in one or more [schedules](https://help.bsim.dk/support/kb/articles/79O3DZ9E/schedule). A schedule is the term in general use in the software for a connected set of control and time definition. A precise distinction is therefore made between the system's physical components, which in principle can be found in a manufacturer's catalogue, and the control function, which can be established using control equipment that works automatically or is operated manually together with the system. The control strategy can, for example, include a change in the supply temperature curve, adjustment of damper functions, e.g. bypassing heat recovery in summer, or shutting off the flow of water to the heating or cooling coil.
+For each ventilation system a control strategy has to be defined in one or more [schedules](11_02_Systems_schedule.md). A schedule is the term in general use in the software for a connected set of control and time definition. A precise distinction is therefore made between the system's physical components, which in principle can be found in a manufacturer's catalogue, and the control function, which can be established using control equipment that works automatically or is operated manually together with the system. The control strategy can, for example, include a change in the supply air temperature. the supply temperature curve, adjustment of damper functions, e.g. bypassing heat recovery in summer, or shutting off the flow of water to the heating or cooling coil.
 
  
 
 #### **Control:** 
 
-The software has five types of control. They are called [inlet control](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/ventilation---indblasningsstyring), [zone temperature control](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering), [moisture control](https://help.bsim.dk/support/kb/articles/E9LwjGQw/ventilation---fugtregulering), [VAV control](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering) and[ night cooling control](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation). The type of control required is defined via the five tabs in the ventilation dialog box.
+The software has five types of control. They are called [inlet control](11_23_Ventilation_Inlet_Control.md), [zone temperature control](11_25_Ventilation_Zone_Temperature_control.md), [moisture control](11_22_Ventilation_Moisture_control.md), [VAV control](11_26_Ventilation_VAV_control.md) and [night cooling control](11_24_Ventilation_Night_Cooling_Control.md). The type of control required is defined via the five tabs in the ventilation dialog box.e of control required is defined via the five tabs in the ventilation dialog box.
 
-*   [Inlet control](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/ventilation---indblasningsstyring)
-*   [Room temperature control](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)
-*   [Moisture control](https://help.bsim.dk/support/kb/articles/E9LwjGQw/ventilation---fugtregulering)
-*   [VAV control](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)
-*   [Night cooling control](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation)
+*   [Inlet control](11_23_Ventilation_Inlet_Control.md)
+*   [Room temperature control](11_25_Ventilation_Zone_Temperature_control.md)
+*   [Moisture control](11_22_Ventilation_Moisture_control.md)
+*   [VAV control](11_26_Ventilation_VAV_control.md)
+*   [Night cooling control](11_24_Ventilation_Night_Cooling_Control.md)
 
 See also:
-*   Tab [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/schedule)
-*   Tab [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)
+*   Tab [Schedule](11_02_Systems_schedule.md)
+*   Tab [Time](11_17_Systems_Time.md)

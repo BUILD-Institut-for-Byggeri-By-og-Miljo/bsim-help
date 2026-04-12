@@ -26,18 +26,18 @@ Data in BSim for the dialog SolarShading. Parameters in grey fields are only bei
 | Position        | Location of shading device compared to the window.                                                                                                  | External; Internal; Integrated               | Internal       |
 
 
-The functionality of solar shading devices are, as any system in BSim, being described in a [schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule), where for one or more [time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse) definitions it is possible to define which control to use when. An unlimited number of time schedules can be defined with corresponding control strategies for the solar shading device.
+The functionality of solar shading devices are, as any system in BSim, being described in a [schedule](11_02_Systems_schedule.md), where for one or more [time](11_17_Systems_Time.md) definitions it is possible to define which control to use when. An unlimited number of time schedules can be defined with corresponding control strategies for the solar shading device.
 
 There can be selected among the following four control strategies:
-*   [SolarCtrl](https://help.bsim.dk/support/kb/articles/49Ed16Q7/solafskarmning---regulering-efter-solindfald-og-temperatur), controlling the solar incidence after a set-point temperature in the thermal zone,
-*   [SensorCtrl](https://help.bsim.dk/support/kb/articles/BWzd23QE/solafskarmning---regulering-efter-lysfoler-pa-facaden), controlling the shading device after the lighting level measured at the external face of the facade where the WinDoor is located,
-*   [BlindCtrl](https://help.bsim.dk/support/kb/articles/ZmNrBwm2/solafskarmning---regulering-med-lameller-efter-solindfald-og-direkte-solstraling), controlling shading devices of the type Venetian blind according to set-points for solar incidence and direct solar radiation,
-*   [GlareCtrl](https://help.bsim.dk/support/kb/articles/4966wd9X/solafskarmning---regulering-efter-blandingsforhold-og-belysningsstyrke), controlling the shading device to minimize glare from the WinDoor.
+*   [SolarCtrl](11_16_Systems_shading.md), controlling the solar incidence after a set-point temperature in the thermal zone,
+*   [SensorCtrl](11_16_Systems_shading.md), controlling the shading device after the lighting level measured at the external face of the facade where the WinDoor is located,
+*   [BlindCtrl](11_16_Systems_shading.md), controlling shading devices of the type Venetian blind according to set-points for solar incidence and direct solar radiation,
+*   [GlareCtrl](11_16_Systems_shading.md), controlling the shading device to minimize glare from the WinDoor.
 
-Table values offers the possibility of using detailed information about the slates in the shading system by attaching information fro an [external text file](https://help.bsim.dk/support/kb/articles/y9q82qQA/standardtabeller-for-lamel-afskarmninger). When clicking the button, a dialog is being opened to find the file on the PC.
+Table values offers the possibility of using detailed information about the slates in the shading system by attaching information fro an [external text file](11_16_Systems_shading.md). When clicking the button, a dialog is being opened to find the file on the PC.
 
 *Remove* table is used to remove the attachment of an external file for definition of a shading system.
 
 See also:
-*   Tab [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   Tab [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   Tab [Schedule](11_02_Systems_schedule.md)
+*   Tab [Time](11_17_Systems_Time.md)

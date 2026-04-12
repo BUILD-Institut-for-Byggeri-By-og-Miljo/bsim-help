@@ -41,24 +41,24 @@ The dialog box contains another two tabs: [HeatLoss](https://help.bsim.dk/suppor
 
 In addition to the constructions and [finish properties](https://help.bsim.dk/support/kb/articles/NmdKazW0/finish-property) a surface resistance is attached to all surfaces as standard.
 
-To attach a construction from the database to one of the groups, hold the left mouse button down on the desired construction's [SfB number](https://help.bsim.dk/support/kb/articles/DQ2xwBWV/sfb-i-bsim), drag the number to the Defaults window and drop it on the name of the construction group in question. Once the desired default constructions have been attached, click Apply or OK in the Defaults window. The changes will not come into force until the building is right-clicked in the tree summary and the [Insert Defaults](https://help.bsim.dk/support/kb/articles/wQXxAZQK/insert-default-options) button is clicked in the dialog box that appears.
+To attach a construction from the database to one of the groups, hold the left mouse button down on the desired construction's [SfB number](../24Miscellaneous/24_39_SfB_in_BSim.md), drag the number to the Defaults window and drop it on the name of the construction group in question. Once the desired default constructions have been attached, click Apply or OK in the Defaults window. The changes will not come into force until the building is right-clicked in the tree summary and the [Insert Defaults](10_06_SimView_Default_constructions.md) button is clicked in the dialog box that appears.
 
-Not all constructions can be defined as default constructions. In this case the constructions have to be [selected from the database individually](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner).
+Not all constructions can be defined as default constructions. In this case the constructions have to be [selected from the database individually](../09SimView/09_09_SimView_Non_default_constructions.md).
 
  
 
 See also:
 
-*   [Creating a building](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
-*   [Creating a space](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum)
-*   [Default constructions](https://help.bsim.dk/support/kb/articles/y9gBKGQM/standardkonstruktioner)
-*   [Non-default constructions](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner)
-*   [Creating thermal zones](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/thermal-zone-property)
-*   [Systems in thermal zones](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer)
-*   [Adding spaces to thermal zones ](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilf-je-rum-til-termiske-zoner)
-*   [Editing the model geometry](https://help.bsim.dk/support/kb/articles/L9nrKz9Z/redigere-modelgeometri)
-*   [Adding an opening or WinDoor](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor)
-*   [Solar light factors for WinDoors](https://help.bsim.dk/support/kb/articles/49EdwkQ7/sollysfaktorer-for-windoors)[](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilf-je-bning-eller-windoor)
-*   [Virtual zones](https://help.bsim.dk/support/kb/articles/EWBOKNmr/simview-fiktive-zoner)
-*   [Climate data and ground](https://help.bsim.dk/support/kb/articles/vWyP8M9b/klimadata)
-*   [Printing a model](https://help.bsim.dk/support/kb/articles/z9MKj7m4/udskrift-af-model)
+*   [Creating a building](../09SimView/09_14_SimView_Creating_a_building.md)
+*   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
+*   [Default constructions](10_06_SimView_Default_constructions.md)
+*   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
+*   [Creating thermal zones](10_01_Thermal_Zone_property.md)
+*   [Systems in thermal zones](../11Systems/11_01_Systems.md)
+*   [Adding spaces to thermal zones](10_02_SimView_Adding_spaces_to_thermal_zones.md)
+*   [Editing the model geometry](10_04_SimView_Editing_the_model_geometry.md)
+*   [Adding an opening or WinDoor](10_08_SimView_Adding_an_opening_or_WinDoor.md)
+*   [Solar light factors for WinDoors](10_07_Solar_light_factors_for_WinDoors.md)
+*   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
+*   [Climate data and ground](../09SimView/09_10_Climate_data.md)
+*   [Printing a model](10_09_SimView_Printing_a_model.md)

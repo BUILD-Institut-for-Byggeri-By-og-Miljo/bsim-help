@@ -23,7 +23,7 @@ Natural ventilation can be activated on thermal zone level.
 
 In the simulations only WinDoors/Openings facing the ambient are taken into account. The most suitable model can be identified automatically by BSim.
 
-Natural ventilation is implemented as a special kind of Venting (airing) in an expansion module of BSim, and is based on [By og Byg (SBi) Direction 202](https://bsim.outseta.com/support/kb/articles/yW1xrD9B/uddrag-fra-by-og-byg-anvisning-202), Natural ventilation in commercial buildings, Calculation and dimensioning (2002).
+Natural ventilation is implemented as a special kind of Venting (airing) in an expansion module of BSim, and is based on [By og Byg (SBi) Direction 202](../20The_Mathematical_basis/20_28_Literature.md), Natural ventilation in commercial buildings, Calculation and dimensioning (2002).
 
 #### **Input for natural ventilation**
 
@@ -39,7 +39,7 @@ Natural ventilation is implemented as a special kind of Venting (airing) in an e
 
 *   *Co2:* Concentration of CO<sub>2</sub> in the ambient air (for the time being constant) is given as a property for the location of the building model.
 
-*   *Terrain Type*: The terrain type is selected ([Direction 202, page 35](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)) from the list:
+*   *Terrain Type*: The terrain type is selected ([Direction 202, page 35](../../20The_Mathematical_basis/20_28_Literature.md)) from the list:
     *   Open flat country,
     *   Country with scattered windbreaks,
     *   Urban,
@@ -69,9 +69,9 @@ Natural ventilation is implemented as a special kind of Venting (airing) in an e
 </figure>
 
 
-*   *Cd:* The air [discharge coefficient Cd](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) is found according to [Direction 202, page 70-71](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur). Typical values range from 0.62 to 0.70.
+*   *Cd:* The air [discharge coefficient Cd](11_11_Natural_ventilation.md) is found according to [Direction 202, page 70-71](../../20The_Mathematical_basis/20_28_Literature.md). Typical values range from 0.62 to 0.70.
 
-*   *[Ka](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation):* This parameter is being used for calculation of the penetration depth of outside air in a room and thus the part of the ceiling that is directly influenced by outdoor air entering the room through a opening.
+*   *[Ka](11_11_Natural_ventilation.md):* This parameter is being used for calculation of the penetration depth of outside air in a room and thus the part of the ceiling that is directly influenced by outdoor air entering the room through a opening.
 
 In the simulations the full (geometrical) area of the opening is used.
 
@@ -83,7 +83,7 @@ In the simulations the full (geometrical) area of the opening is used.
 </figure>
 
 
-*   *Cd:* The air [discharge coefficient Cd](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) is found according to Direction [202, page 70-71](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur). Typical values range from 0.62 to 0.70.
+*   *Cd:* The air [discharge coefficient Cd](11_11_Natural_ventilation.md) is found according to Direction [202, page 70-71](../../20The_Mathematical_basis/20_28_Literature.md). Typical values range from 0.62 to 0.70.
 
 *   *Cnt:* The center of the opening (0-1) is located in the distance Cnt*H above the lower edge of the window, where H is the height of the window. The width of the opening is assumed to be equal to the width of the window.
 
@@ -91,9 +91,9 @@ In the simulations the full (geometrical) area of the opening is used.
 
     *   The sketch at the right illustrates BSim's perception of the opening and the input data.
 
-*   *Ka:* This [parameter](https://help.bsim.dk/support/kb/articles/DmwAjy94/parametre-til-naturlig-ventilation) is being used for calculation of the penetration depth of outside air in a room and thus the part of the ceiling that is directly influenced by outdoor air entering the room through a opening.
+*   *Ka:* This [parameter](11_11_Natural_ventilation.md) is being used for calculation of the penetration depth of outside air in a room and thus the part of the ceiling that is directly influenced by outdoor air entering the room through a opening.
 
-As wind pressure coefficients - that depends on the orientation and the wind direction of the openings - values are used according to [Direction 202, Appendix A, page 109-110.](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)
+As wind pressure coefficients - that depends on the orientation and the wind direction of the openings - values are used according to [Direction 202, Appendix A, page 109-110.](../../20The_Mathematical_basis/20_28_Literature.md)
 
  
 
@@ -113,7 +113,7 @@ As wind pressure coefficients - that depends on the orientation and the wind dir
 
     *   *(Disabled)*: The original BSim venting model.
 
-    *   *(Automatic):* BSim selects the model to use from the geometry of the room, see the [mathematical background](https://help.bsim.dk/support/kb/articles/xmerqBQV/naturlig-ventilation) for illustrations of model geometries equal to the selections shown below.
+    *   *(Automatic):* BSim selects the model to use from the geometry of the room, see the [mathematical background](11_11_Natural_ventilation.md) for illustrations of model geometries equal to the selections shown below.
 
     *   *Single Sided*: One set of openings in one face, in same vertical level.
 
@@ -152,5 +152,5 @@ As wind pressure coefficients - that depends on the orientation and the wind dir
 
 *   *VentSpeed:* Wind speed, m/s.
 
-*   *VentCp:* Wind pressure coefficient ([Direction 202, page 69](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)).   
+*   *VentCp:* Wind pressure coefficient ([Direction 202, page 69](../../20The_Mathematical_basis/20_28_Literature.md)).   
 

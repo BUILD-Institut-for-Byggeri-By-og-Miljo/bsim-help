@@ -8,29 +8,29 @@ The desired operative temperature can be achieved using several of the systems d
 
 The following systems can help to raise the temperature:
 
-*   [Radiator](https://help.bsim.dk/support/kb/articles/wmjnq7mV/opvarmning)
+*   [Radiator](11_12_Systems_Heating.md)
 
-*   [Ventilation system (heat recovery, heating coil)](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation)
+*   [Ventilation system (heat recovery, heating coil)](11_21_Systems_Ventilation.md)
 
 The system with the highest set point is activated first, but in such a way that the limits on the available powers and on supply temperatures are always complied with (if possible).
 
 **Example**
 
-In the 'heating control' for a [radiator](https://help.bsim.dk/support/kb/articles/wmjnq7mV/opvarmning) the set point is 21.5°C, while the '[room temperature control](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)' for a [ventilation system](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation) specifies a minimum supply temperature of 16.0°C and a heating set point of 21.0°C. What will happen is that the temperature of the supply air will be 16.0°C, while more and more heat will be given off by the radiator to keep the room temperature to 21.5°C as the heating requirement increases. If the radiator's available power is insufficient to maintain 21.0°C, the supply temperature will be increased to maintain this room temperature.
+In the 'heating control' for a [radiator](11_12_Systems_Heating.md) the set point is 21.5°C, while the '[room temperature control](11_25_Ventilation_Zone_Temperature_control.md)' for a [ventilation system](11_21_Systems_Ventilation.md) specifies a minimum supply temperature of 16.0°C and a heating set point of 21.0°C. What will happen is that the temperature of the supply air will be 16.0°C, while more and more heat will be given off by the radiator to keep the room temperature to 21.5°C as the heating requirement increases. If the radiator's available power is insufficient to maintain 21.0°C, the supply temperature will be increased to maintain this room temperature.
 
 **Control priority for cooling (temperature to be lowered)**
 
 The following systems can help to lower the temperature:
 
-*   [Shading](https://help.bsim.dk/support/kb/articles/7maw8X9E/solafskarmning)
+*   [Shading](11_16_Systems_shading.md)
 
-*   [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/udluftning)
+*   [Venting](11_18_Systems_Venting.md)
 
-*   [Cooling](https://help.bsim.dk/support/kb/articles/y9gBNGQM/koling) (cooling radiator)
+*   [Cooling](11_09_Systems_cooling.md) (cooling radiator)
 
-*   [Ventilation system](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation) (cold recovery, [VAV](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering), cooling coil)
+*   [Ventilation system](11_21_Systems_Ventilation.md) (cold recovery, [VAV](11_26_Ventilation_VAV_control.md), cooling coil)
 
-*   ([Lighting](https://help.bsim.dk/support/kb/articles/wQXxbnQK/belysning))
+*   ([Lighting](11_03_Systems_Lighting.md))
 
 In this case the individual systems/components are activated on the basis of the lowest set point.
 

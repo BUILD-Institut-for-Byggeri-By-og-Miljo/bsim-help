@@ -22,8 +22,6 @@ Mixing is defined as air exchange between thermal zones and spaces in the model.
 Using the [control action]() it is possible to control a desired heat (or cold) transfer from an adjoining zone to the current zone. Mixing is controlled on/off with a percentage of the air flow defined in the relevant day profile.
 
 See also:
-*   [Tab MixingCtrl](https://help.bsim.dk/support/kb/articles/zWZAEb9p/mixing-regulering)   
-[](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   [Tab Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)   
-[](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
-*   [Tab Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   [Tab MixingCtrl](11_10_systems_mixing.md)   
+*   [Tab Schedule](11_02_Systems_schedule.md)   
+*   [Tab Time](11_17_Systems_Time.md)

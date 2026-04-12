@@ -10,13 +10,13 @@ When a new model is created by clicking "New" on the toolbar or selecting "New" 
 
 The name chosen will also be the name of the local version of the database linked to the project. It is also possible to choose an alternative location for the project's files by clicking the double arrow ">>". A project may **not** be called "SbiData" or "data".
 
-[Next >](https://help.bsim.dk/support/kb/articles/nmDBeK9y/projekt-wizard-2) dialog of the project wizard
+[Next >](../24Miscellaneous/24_52_Project_Wizard_2.md) dialog of the project wizard
 
-Default data have now been included in the model and [a building can be created]().
+Default data have now been included in the model and [a building can be created](09_14_SimView_Creating_a_building.md).
 
 Related subjects:
 
-*   [Creating a building](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning)
+*   [Creating a building](09_14_SimView_Creating_a_building.md)
 *   [Creating a space](09_15_SimView_Creating_a_space.md)
 *   [Default constructions](09_06_Construction_Property.md)
 *   [Non-default constructions](09_09_SimView_Non_default_constructions.md)

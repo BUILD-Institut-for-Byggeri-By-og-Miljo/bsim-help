@@ -74,4 +74,4 @@ In *Options* a number of details affecting the view of the model can be set:
 
 See also:
 
-*   [SimView menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu)
+*   [SimView menu](../06BSim_Program_structure/06_06_SimView_Menu.md)

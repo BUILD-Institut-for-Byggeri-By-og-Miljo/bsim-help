@@ -22,8 +22,8 @@ As the U-value for a WinDoor includes internal and external surface resistance, 
 
 *Transmit.* specifies the transmittance of solar radiation (heat) through the shutter. A transmittance other than 0 makes it possible, for example, to define secondary glazing used for part of the year or more advanced shutter systems with a transparent or translucent insulation type.
 
-The shutter [schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule) consists of "[shutter control](https://help.bsim.dk/support/kb/articles/Rm8JXX94/skodderegulering)" and a[ time definition](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse). The control action defines the outdoor temperature at which the shutter should be closed and a sun factor for a WinDoor with a closed shutter.
+The shutter [schedule](11_02_Systems_schedule.md) consists of "[shutter control](11_15_Systems_shutter.md)" and a [time definition](11_17_Systems_Time.md). The control action defines the outdoor temperature at which the shutter should be closed and a sun factor for a WinDoor with a closed shutter.
 
 See also:
-*   Tab [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
-*   Tab [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   Tab [Schedule](11_02_Systems_schedule.md)
+*   Tab [Time](11_17_Systems_Time.md)

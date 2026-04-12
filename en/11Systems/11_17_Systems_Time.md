@@ -22,7 +22,7 @@ The time definition is divided into four fields labeled *Month, Week, Day* and *
 
 There are three special buttons in the dialog box: *Heating* (under *Month)* and Work (under *Day* and *Hour).* The first indicates the heating season, while the last two indicate working hours.
 
-From BSim version 3,2,8,16 a tariff-system has been introduced on the energy consumption. The energy consumption on thermal zone level can thus be divided into 8 tariff different classes (Tariff 0 - Tariff 7). The tariff-system is attached to energy consuming systems: [Heating](https://help.bsim.dk/support/kb/articles/wmjnq7mV/heating), [Cooling](https://help.bsim.dk/support/kb/articles/y9gBNGQM/cooling), [Equipment](https://help.bsim.dk/support/kb/articles/vW5a8pW4/equipment), [Lighting](https://help.bsim.dk/support/kb/articles/wQXxbnQK/lighting) and [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation).
+From BSim version 3,2,8,16 a tariff-system has been introduced on the energy consumption. The energy consumption on thermal zone level can thus be divided into 8 tariff different classes (Tariff 0 - Tariff 7). The tariff-system is attached to energy consuming systems: [Heating](11_12_Systems_Heating.md), [Cooling](11_09_Systems_cooling.md), [Equipment](11_19_Systems_Equipment.md), [Lighting](11_03_Systems_Lighting.md) and [Ventilation](11_21_Systems_Ventilation.md).
 
 The tariff-class is attached to a time definition:
 
@@ -43,5 +43,5 @@ In tsbi5/Parameters a new group of parameters is found 'Tariff Distribution'. He
 <figcaption>The calculated energy consumption in the tariff classes for a thermal zone is found under "Tariff Distribution".</figcaption>
 </figure>
 
-See also: [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---schedule)
+See also: [Schedule](11_02_Systems_schedule.md)
 

@@ -46,7 +46,7 @@ Light striking a point is made up of two components:
 
 The solar light factors in a given instance can be calculated by computer or determined by more or less accurate manual calculation methods or measurements in existing buildings. The manual calculation methods for daylight factors only include components from diffuse sky radiation and radiation from reflected light.
 
-A description of how the two components of each of the solar light factors can be calculated or determined from curves can be found in: [Algorithms for calculating solar radiation and daylight](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstr-ling-og-dagslys).
+A description of how the two components of each of the solar light factors can be calculated or determined from curves can be found in: [Algorithms for calculating solar radiation and daylight](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
 For window sizes and room dimensions in normal use there follow curves, which are intended as a guide, for calculating the solar light factors, but in cases involving special facades or constructions where more precise factors are required, they will have to be determined by other means.
 
@@ -80,9 +80,9 @@ It should be noted that the direct solar radiation in the calculations is assume
 
 ### **Diffuse sky light SF2**
 
-SF2 is normally the largest component of illuminance at a point that can "see" the sky. In the calculations it is assumed that, irrespective of the state of the sky (overcast or clear), the luminance distribution is the same as for a CIE-overcast sky or uniformly cloudy, and SF2 is calculated for one of these states. The quantity for the incidence of daylight is calculated using algorithms obtained from measurements in Danish conditions ([Petersen, 1982](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)).
+SF2 is normally the largest component of illuminance at a point that can "see" the sky. In the calculations it is assumed that, irrespective of the state of the sky (overcast or clear), the luminance distribution is the same as for a CIE-overcast sky or uniformly cloudy, and SF2 is calculated for one of these states. The quantity for the incidence of daylight is calculated using algorithms obtained from measurements in Danish conditions ([Petersen, 1982](../20The_Mathematical_basis/20_28_Literature.md)).
 
-The two components of solar light factor SF2 from the direct and inter-reflected portions of diffuse sky radiation respectively can be determined separately as described in: [Algorithms for calculating solar radiation and daylight](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstr-ling-og-dagslys).
+The two components of solar light factor SF2 from the direct and inter-reflected portions of diffuse sky radiation respectively can be determined separately as described in: [Algorithms for calculating solar radiation and daylight](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
 The sum of the two components is shown in the following figure, which illustrates the solar light factors for a room of 8 meters in depth with different window areas.
 
@@ -102,14 +102,14 @@ SF3 determines the component represented by sunlight reflected from the surface 
 
 ### **Correction factors for solar light factors**
 
-When a WinDoor is defined in the database, heat and light transmission values are entered for the current glazing type. Normally standard values that do not take account of dirt on the glazing are used, nor can correction be made for high local air pollution, which reduces insolation. Such circumstances are only of minor significance in solar heat calculations, but it may be important to take them into account with regard to daylight. A table of suggested values for the most important corrections can be found in: [Algorithms for calculating solar radiation and daylight.](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstr-ling-og-dagslys)
+When a WinDoor is defined in the database, heat and light transmission values are entered for the current glazing type. Normally standard values that do not take account of dirt on the glazing are used, nor can correction be made for high local air pollution, which reduces insolation. Such circumstances are only of minor significance in solar heat calculations, but it may be important to take them into account with regard to daylight. A table of suggested values for the most important corrections can be found in: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
 
 ### **Light from shading (or shutters) SF4**
 
 If shading is used and the light is "diffused" after it passes the shading, *SF4* is used for the shading, cf. figure. As with the other sunlight factors, *SF4* is specified for a window with a transmittance of 1, as transmission factors are included in data for WinDoors and shading. It should be noted that the shading factor does not affect the size of *SF4*.
 
-The light from the shading represents a direct component SF4<sub>d</sub> and an inter-reflected component SF4<sub>i</sub> in the illuminance, which can be determined separately as described in: [Algorithms for calculating solar radiation and daylight.](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstr-ling-og-dagslys)
+The light from the shading represents a direct component SF4<sub>d</sub> and an inter-reflected component SF4<sub>i</sub> in the illuminance, which can be determined separately as described in: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
 <figure id="center_img">
 <img src="./assets/sf4-8m.jpg" alt="Solar light factor SF4 for sunlight diffused through shading for a room of 8 metres in depth with different window percentages.">

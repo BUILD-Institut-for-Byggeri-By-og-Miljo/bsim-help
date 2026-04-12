@@ -47,9 +47,9 @@ For heat pumps for combined production of space heating and dhw, and where it is
 
     *   Hydronic heating system.   
 
-Before simulating a heat pump it is necessary to define the design parameters for the heat pump. This is done in *SimView* by right-clicking in the graphic representation of the model and from the [menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu) selecting Defaults. Jump to the tab [Heatloss](https://bsim.outseta.com/support/kb/articles/MQvE8bmY/modeloplysninger), and click OK.
+Before simulating a heat pump it is necessary to define the design parameters for the heat pump. This is done in *SimView* by right-clicking in the graphic representation of the model and from the [menu](../../06BSim_Program_structure/06_06_SimView_Menu.md) selecting Defaults. Jump to the tab [Heatloss](10_06_SimView_Default_constructions.md), and click OK.
 
-The heat pump can not be activated as a source for the heating system until the external program [PackCalc](https://help.bsim.dk/support/kb/articles/j9b8ZOmn/packcalc-koling) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
+The heat pump can not be activated as a source for the heating system until the external program [PackCalc](11_20_Heat_pump.md) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
 
 **Domestic hot water**
 
@@ -57,8 +57,6 @@ The heat pump can not be activated as a source for the heating system until the 
 
 See also:
 
-*   [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/schedule)   
-[](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dayprofile)
-*   [DayProfile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dayprofile)   
-[](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)
-*   [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/time)
+*   [Schedule](11_02_Systems_schedule.md)
+*   [DayProfile](11_04_Systems_DayProfile.md)   
+*   [Time](11_17_Systems_Time.md)

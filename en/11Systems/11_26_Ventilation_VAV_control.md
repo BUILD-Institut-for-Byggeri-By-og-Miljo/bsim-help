@@ -20,14 +20,14 @@ VAV control (Variable Air Volume) is another form of control based on a room sen
 *Setp Cooling:* The set point for the room sensor during air control and cooling. If cooling is required, the air flow is increased gradually to keep to the set point. If this is insufficient, the cooling coil is gradually turned on until either the maximum cooling output is reached or the supply temperature drops below the minimum value. The cooling set point should always be higher (2-4 K) than the heating set point to prevent the system from oscillating between heating and air control/cooling.
 
 *Setp. CO2*: Gives the set-point for the VAV control to obtain a desired CO<sub>2</sub> content in the indoor air. Control to obtain a certain CO<sub>2</sub> level has priority compared to the indoor temperature, meaning that first the air flow is being increased to obtain the desired CO<sub>2</sub> level and secondly to obtain the desired indoor temperature. If control of the air flow according to the CO<sub>2</sub> level is not desired, 0 shall be given as input parameter for *Setp. CO2.*   
-The CO<sub>2</sub> content of the outdoor air is given as information on the [Site](https://bsim.outseta.com/support/kb/articles/dQG2Kom4/site-property) of the model.
+The CO<sub>2</sub> content of the outdoor air is given as information on the [Site](../../24Miscellaneous/24_25_Site_Property.md) of the model.
 
 *Air Hum:* Specifies the desired absolute moisture content in the supply air. This parameter is only significant if a humidifier has been defined in the system. Dehumidification will not therefore take place in this type of control.
  
 
 See also:
-*   [Moisture control](https://help.bsim.dk/support/kb/articles/E9LwjGQw/fugtregulering)
-*   [Inlet control](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/indblasningsstyring)
-*   [Zone temperature control](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/rumtemperaturregulering)
-*   [Night cooling control](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/natkoling-ventilation)
+*   [Moisture control](11_22_Ventilation_Moisture_control.md)
+*   [Inlet control](11_23_Ventilation_Inlet_Control.md)
+*   [Zone temperature control](11_25_Ventilation_Zone_Temperature_control.md)
+*   [Night cooling control](11_24_Ventilation_Night_Cooling_Control.md)
 

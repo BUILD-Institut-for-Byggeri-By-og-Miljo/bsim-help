@@ -8,7 +8,7 @@
 </figure>
 
 
-*   *Min Supply Ratio* is the lowest share (of *Supply* given at the [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/ventilation) tab) of air (outdoor + re-circulated) that the ventilation system delivers to the zone.
+*   *Min Supply Ratio* is the lowest share (of *Supply* given at the [Ventilation](11_21_Systems_Ventilation.md) tab) of air (outdoor + re-circulated) that the ventilation system delivers to the zone.
 
 *   *Min Return Ratio* is the minimum share of re-circulated air in the ventilation system.
 *   *Max Return Ratio* is the maximum share of re-circulated air in the ventilation system.
@@ -19,5 +19,5 @@
 *   *Max Inlet Temp* is the highest acceptable temperature of the inlet air to the zone.
 *   *Setp Temp* is the desired operative temperature of the zone.
 
-Control of ventilation systems with recirculation of the air happens according to the description given in the [theory section](https://bsim.outseta.com/support/kb/articles/dQG2VDm4/recirkulation).
+Control of ventilation systems with recirculation of the air happens according to the description given in the [theory section](11_28_Ventilation_Recirculation.md).
 
