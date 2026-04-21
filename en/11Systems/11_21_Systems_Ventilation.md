@@ -87,7 +87,7 @@ The cooling coil is assumed to have a constant temperature that is independent o
 
 *Surface temperature:* The surface temperature of the cooling temperature, which is used to calculate how much moisture precipitates on the cooling coil. The temperature is assumed to be constant and greater than 0°C.
 
-*Cooling:* Activates the central cooling system as a source for cooling in the ventilation system. Central cooling can not be activated as a source for the ventilation system until the external program [PackCalc](http://help.bsim.dk/support/kb/articles/j9b8ZOmn/packcalc-koling) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
+*Cooling:* Activates the central cooling system as a source for cooling in the ventilation system. Central cooling can not be activated as a source for the ventilation system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
 
  
 
