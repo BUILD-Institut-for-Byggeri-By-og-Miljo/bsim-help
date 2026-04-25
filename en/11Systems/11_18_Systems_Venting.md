@@ -36,7 +36,7 @@ The control defined in the schedule determines whether venting is required and h
 
 *TmpFactor (c<sub>t</sub>)* expresses how much the air change rises as the temperature difference between indoors and out increases. This field opens a dialog box, which can be used to analyze the significance of the size of the inlet and outlet openings together with the vertical distance between them. For small spaces the factor assumes small values, down to approx. 0.2, while for large spaces with opening areas of 1 m² and a height of 10 m the factor can be up to approx. 20.
 
-Clicking the [*TmpFactor* ](11_18_Systems_Venting.md)button opens a dialog box for dimensioning the opening areas to achieve a desired temperature factor. Please note that this dialog box primarily performs a help function, which can be used if a value for the factor is not entered directly in the venting dialog box.
+Clicking the [*TmpFactor* ](../24Miscellaneous/24_33_Venting_Temp_Factor.md)button opens a dialog box for dimensioning the opening areas to achieve a desired temperature factor. Please note that this dialog box primarily performs a help function, which can be used if a value for the factor is not entered directly in the venting dialog box.
 
 *WindFactor* (c<sub>v</sub>) expresses the dependence of the air change on wind. The equation means that air change is assumed to be proportional to wind speed. For small buildings with small venting openings and a sheltered site it will be in the order of 0.1, while for large buildings on an exposed site it can be up to 0.4 - 0.6.
 
@@ -51,15 +51,15 @@ Clicking the [*TmpFactor* ](11_18_Systems_Venting.md)button opens a dialog box f
 | Mode | Description |
 |------|-------------|
 | **(Disabled)** | The original model used for venting in previous versions of BSim. |
-| **(Automatic)** | BSim selects, from the zone geometry (see [overview](11_11_Natural_ventilation.md) with used/possible geometries), the model to use. |
-| [Single Sided](11_11_Natural_ventilation.md)<br>[Cross](11_11_Natural_ventilation.md) | See [overview](11_11_Natural_ventilation.md)! |
-| [Combined Two](11_11_Natural_ventilation.md)<br>[Levels](11_11_Natural_ventilation.md) |  |
-| [Combined](11_11_Natural_ventilation.md) | General model, see [overview](11_11_Natural_ventilation.md)! |
+| **(Automatic)** | BSim selects, from the zone geometry (see [overview](../20The_Mathematical_basis/20_12_Natural_ventilation.md) with used/possible geometries), the model to use. |
+| [Single Sided](../20The_Mathematical_basis/20_12_Natural_ventilation.md)<br>[Cross](../20The_Mathematical_basis/20_12_Natural_ventilation.md) | See [overview](../20The_Mathematical_basis/20_12_Natural_ventilation.md)! |
+| [Combined Two](../20The_Mathematical_basis/20_12_Natural_ventilation.md)<br>[Levels](../20The_Mathematical_basis/20_12_Natural_ventilation.md) |  |
+| [Combined](../20The_Mathematical_basis/20_12_Natural_ventilation.md) | General model, see [overview](../20The_Mathematical_basis/20_12_Natural_ventilation.md)! |
 
 
-The venting [*schedule*](11_02_Systems_schedule.md) defines connected sets of[ control](11_18_Systems_Venting.md) and time definition. In ordinary rooms where people are present venting will simulate windows being opened by the users when the indoor temperature becomes too hot, in which case venting will normally only be "active" during the building's hours of use. In large buildings with equipment for automatic venting when the set point for a temperature is exceeded, it must be assessed whether the achievable air change is dependent on the time of the day and year.
+The venting [*schedule*](11_02_Systems_schedule.md) defines connected sets of[ control](../24Miscellaneous/24_08_Venting_Control.md) and time definition. In ordinary rooms where people are present venting will simulate windows being opened by the users when the indoor temperature becomes too hot, in which case venting will normally only be "active" during the building's hours of use. In large buildings with equipment for automatic venting when the set point for a temperature is exceeded, it must be assessed whether the achievable air change is dependent on the time of the day and year.
 
 See also:
-*   [Tab VentingCtrl](11_18_Systems_Venting.md)   
+*   [Tab VentingCtrl](../24Miscellaneous/24_08_Venting_Control.md)   
 *   [Tab Schedule](11_02_Systems_schedule.md)   
 *   [Tab Time](11_17_Systems_Time.md)

@@ -22,7 +22,7 @@ As the U-value for a WinDoor includes internal and external surface resistance, 
 
 *Transmit.* specifies the transmittance of solar radiation (heat) through the shutter. A transmittance other than 0 makes it possible, for example, to define secondary glazing used for part of the year or more advanced shutter systems with a transparent or translucent insulation type.
 
-The shutter [schedule](11_02_Systems_schedule.md) consists of "[shutter control](11_15_Systems_shutter.md)" and a [time definition](11_17_Systems_Time.md). The control action defines the outdoor temperature at which the shutter should be closed and a sun factor for a WinDoor with a closed shutter.
+The shutter [schedule](11_02_Systems_schedule.md) consists of "[shutter control](../24Miscellaneous/24_03_Shutter_Control.md)" and a [time definition](11_17_Systems_Time.md). The control action defines the outdoor temperature at which the shutter should be closed and a sun factor for a WinDoor with a closed shutter.
 
 See also:
 *   Tab [Schedule](11_02_Systems_schedule.md)

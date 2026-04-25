@@ -9,7 +9,7 @@ Related subjects:
 *   [SimView - Toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md)
 *   [SimView - Creating a building](09_14_SimView_Creating_a_building.md)
 *   [SimView - Creating a space](09_15_SimView_Creating_a_space.md)
-*   [SimView - Default constructions](09_06_Construction_Property.md)
+*   [SimView - Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md)
 *   [SimView - Creating thermal zones](../10Thermal_zones/10_01_Thermal_Zone_property.md)
 *   [SimView - Creating a space](09_15_SimView_Creating_a_space.md)
 *   [SimView - Systems](../11Systems/11_01_Systems.md)

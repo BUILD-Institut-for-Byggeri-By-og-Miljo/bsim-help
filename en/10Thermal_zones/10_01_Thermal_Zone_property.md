@@ -30,7 +30,7 @@ See also:
 
 *   [Creating a building](../09SimView/09_14_SimView_Creating_a_building.md)
 *   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
-*   [Default constructions](../09SimView/09_06_Construction_Property.md)
+*   [Default constructions](10_06_SimView_Default_constructions.md)
 *   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
 *   [Adding spaces to thermal zones ](10_02_SimView_Adding_spaces_to_thermal_zones.md)
 *   [Systems in thermal zones](../11Systems/11_01_Systems.md)
@@ -38,4 +38,4 @@ See also:
 *   [Solar light factors for WinDoors](10_07_Solar_light_factors_for_WinDoors.md)
 *   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
 *   [Climate data and ground](../09SimView/09_10_Climate_data.md)
-*   [Printing a model](../09SimView/09_04_Documentation_of_model.md)
+*   [Printing a model](10_09_SimView_Printing_a_model.md)

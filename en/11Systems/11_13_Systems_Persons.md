@@ -40,7 +40,7 @@ People Type
 
 | Activity / Clothing | Dry heat [W] Bsim input | Evaporation [g/h] | Evaporation [W] |
 |-------------------------------|----------------------------|-------------------|-----------------|
-| Sitting quet <br> Naked <br> 0,5 clo <br> 1,0 clo <br> 1,5 clo | <br> 75 <br> 74 <br> 72 <br> 71 | <br> 40 <br> 42 <br> 44 <br> 46 |<br> 27 <br> 28 <br> 30 <br> 31 |
+| Sitting quiet <br> Naked <br> 0,5 clo <br> 1,0 clo <br> 1,5 clo | <br> 75 <br> 74 <br> 72 <br> 71 | <br> 40 <br> 42 <br> 44 <br> 46 |<br> 27 <br> 28 <br> 30 <br> 31 |
 | Medium activity <br> naked <br> 0,5 clo <br> 1,0 clo <br> 1,5 clo |<br> 127 <br> 124 <br> 121 <br> 120 |<br> 115 <br> 120 <br> 123 <br> 126 |<br> 77 <br> 80 <br> 83 <br> 84 |
 | High activity <br> Naked <br> 0,5 clo <br> 1,0 clo <br> 1,5 clo |<br> 177 <br> 173 <br> 171 <br> 169 |<br> 192 <br> 198 <br> 202 <br> 205 | <br> 129 <br> 133 <br> 135 <br> 137
  

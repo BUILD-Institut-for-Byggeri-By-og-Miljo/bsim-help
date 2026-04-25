@@ -5,21 +5,21 @@ The illuminance at a point is very dependent on the point's location in the room
 
 Since the illuminance outside the window varies from moment to moment, it is most practical to specify the illuminance at a point in the room as a relative quantity in relation to the light outside.
 
-*   **Definition of solar light factor**
+*   **<a href="#definition">Definition of solar light factor</a>**
 
-*   **Direct and indirect components of solar light factors SF1 to SF4**
+*   **<a href="#components">Direct and indirect components of solar light factors SF1 to SF4</a>**
 
-*   **Direct solar radiation SF1**
+*   **<a href="#sf1">Direct solar radiation SF1</a>**
 
-*   **Diffuse sky light SF2**
+*   **<a href="#sf2">Diffuse sky light SF2</a>**
 
-*   **Reflected light SF3**
+*   **<a href="#sf3">Reflected light SF3</a>**
 
-*  **Light from shading (or shutters) SF4**
+*   **<a href="#sf4">Light from shading (or shutters) SF4</a>**
 
  
 
-### **Definition of solar light factor**
+### **<span id="definition">Definition of solar light factor</span>**
 
 In BSim the relative illuminance in the room is specified in relation to the current solar radiation on the window, with the ratio being called the solar light factor SF, which must not be confused with the daylight factor (DF).
 
@@ -37,7 +37,7 @@ When a glazing type is chosen for a window, a transmission factor is defined for
 
  
 
-### **Direct and indirect components of solar light factors SF1 to SF4**
+### **<span id="components">Direct and indirect components of solar light factors SF1 to SF4</span>**
 
 Light striking a point is made up of two components:
 
@@ -65,7 +65,7 @@ The curves shown have been approximated on the basis of calculations for a room 
 
  
 
-### **Direct solar radiation SF1**
+### **<span id="sf1">Direct solar radiation SF1</span>**
 
 Direct solar radiation will produce a bright spot somewhere in the room, and the reflected light from this spot will act as a light source. Since the position of the spot in the room is very dependent on the height and azimuth of the sun, SF1 at a point will be far from constant. A single value representative of SF1 is required in the calculations, however. At the point struck by the direct radiation, there will be very high illuminance, but this is ignored when calculating SF1, with only the inter-reflected component IRC being taken into account.
 
@@ -78,7 +78,7 @@ In the figure sunlight factor SF1 is shown for a room of 6 meters in depth with 
 
 It should be noted that the direct solar radiation in the calculations is assumed to strike the floor if XSun distribution is deselected in tsbi5 Options. On this basis solar light factor SF1 is directly proportional to the reflectance of the floor, which is set at 0.1 in the calculations. Therefore, in the case of higher reflectances, SF1 can be calculated directly by multiplying by the ratio between the actual reflectance and 0.1.
 
-### **Diffuse sky light SF2**
+### **<span id="sf2">Diffuse sky light SF2</span>**
 
 SF2 is normally the largest component of illuminance at a point that can "see" the sky. In the calculations it is assumed that, irrespective of the state of the sky (overcast or clear), the luminance distribution is the same as for a CIE-overcast sky or uniformly cloudy, and SF2 is calculated for one of these states. The quantity for the incidence of daylight is calculated using algorithms obtained from measurements in Danish conditions ([Petersen, 1982](../20The_Mathematical_basis/20_28_Literature.md)).
 
@@ -91,7 +91,7 @@ The sum of the two components is shown in the following figure, which illustrate
 <figcaption>Solar light factor SF2 for the diffuse sky radiation component of the daylight in a room with a depth of 8 meters with different window areas.</figcaption>
 </figure>
 
-### **Reflected light SF3**
+### **<span id="sf3">Reflected light SF3</span>**
 
 SF3 determines the component represented by sunlight reflected from the surface of the ground and includes both the diffuse sky light and direct sunlight components. Diffuse reflection from the surface of the ground is assumed. The characteristic feature of the reflected component is that it must strike other surfaces in the room first, in particular the ceiling, before reaching the point. This factor therefore only includes components made up of the inter-reflected portion of the light (the point on the work surface cannot "see" any radiation directly from the ground).
 
@@ -105,7 +105,7 @@ SF3 determines the component represented by sunlight reflected from the surface 
 When a WinDoor is defined in the database, heat and light transmission values are entered for the current glazing type. Normally standard values that do not take account of dirt on the glazing are used, nor can correction be made for high local air pollution, which reduces insolation. Such circumstances are only of minor significance in solar heat calculations, but it may be important to take them into account with regard to daylight. A table of suggested values for the most important corrections can be found in: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
 
-### **Light from shading (or shutters) SF4**
+### **<span id="sf4">Light from shading (or shutters) SF4</span>**
 
 If shading is used and the light is "diffused" after it passes the shading, *SF4* is used for the shading, cf. figure. As with the other sunlight factors, *SF4* is specified for a window with a transmittance of 1, as transmission factors are included in data for WinDoors and shading. It should be noted that the shading factor does not affect the size of *SF4*.
 

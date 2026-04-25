@@ -75,7 +75,7 @@ The ventilation system is assumed to have no more than one heating coil. This me
 
 *Max Power:* The maximum power that can be given off by the ventilation system's heating coil. The heating requirement for the ventilation air by the heating coil is calculated on the basis of the selected control strategy and the selected temperature set points. Optimum control functioning is assumed, i.e. full modulation of heat emission within the current time step.
 
-*Heat Pump:* The heat pump can not be activated as a source for the ventilation system until the external program [PackCalc](11_20_Heat_pump.md) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
+*Heat Pump:* The heat pump can not be activated as a source for the ventilation system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) has been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU).
 
  
 
@@ -87,7 +87,7 @@ The cooling coil is assumed to have a constant temperature that is independent o
 
 *Surface temperature:* The surface temperature of the cooling temperature, which is used to calculate how much moisture precipitates on the cooling coil. The temperature is assumed to be constant and greater than 0°C.
 
-*Cooling:* Activates the central cooling system as a source for cooling in the ventilation system. Central cooling can not be activated as a source for the ventilation system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
+*Cooling:* Activates the central cooling system as a source for cooling in the ventilation system. Central cooling can not be activated as a source for the ventilation system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) has been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU).
 
  
 
@@ -113,7 +113,7 @@ For each ventilation system a control strategy has to be defined in one or more 
 
 #### **Control:** 
 
-The software has five types of control. They are called [inlet control](11_23_Ventilation_Inlet_Control.md), [zone temperature control](11_25_Ventilation_Zone_Temperature_control.md), [moisture control](11_22_Ventilation_Moisture_control.md), [VAV control](11_26_Ventilation_VAV_control.md) and [night cooling control](11_24_Ventilation_Night_Cooling_Control.md). The type of control required is defined via the five tabs in the ventilation dialog box.e of control required is defined via the five tabs in the ventilation dialog box.
+The software has five types of control. They are called [inlet control](11_23_Ventilation_Inlet_Control.md), [zone temperature control](11_25_Ventilation_Zone_Temperature_control.md), [moisture control](11_22_Ventilation_Moisture_control.md), [VAV control](11_26_Ventilation_VAV_control.md) and [night cooling control](11_24_Ventilation_Night_Cooling_Control.md). The type of control required is defined via the five tabs in the ventilation dialog box.
 
 *   [Inlet control](11_23_Ventilation_Inlet_Control.md)
 *   [Room temperature control](11_25_Ventilation_Zone_Temperature_control.md)

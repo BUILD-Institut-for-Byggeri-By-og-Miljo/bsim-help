@@ -41,7 +41,7 @@ The dialog box contains another two tabs: [HeatLoss](../09SimView/09_11_Model_in
 
 In addition to the constructions and [finish properties](../24Miscellaneous/24_34_Finish_Property.md) a surface resistance is attached to all surfaces as standard.
 
-To attach a construction from the database to one of the groups, hold the left mouse button down on the desired construction's [SfB number](../24Miscellaneous/24_39_SfB_in_BSim.md), drag the number to the Defaults window and drop it on the name of the construction group in question. Once the desired default constructions have been attached, click Apply or OK in the Defaults window. The changes will not come into force until the building is right-clicked in the tree summary and the [Insert Defaults](10_06_SimView_Default_constructions.md) button is clicked in the dialog box that appears.
+To attach a construction from the database to one of the groups, hold the left mouse button down on the desired construction's [SfB number](../24Miscellaneous/24_39_SfB_in_BSim.md), drag the number to the Defaults window and drop it on the name of the construction group in question. Once the desired default constructions have been attached, click Apply or OK in the Defaults window. The changes will not come into force until the building is right-clicked in the tree summary and the [Insert Defaults](../24Miscellaneous/24_28_Insert_Default_Options.md) button is clicked in the dialog box that appears.
 
 Not all constructions can be defined as default constructions. In this case the constructions have to be [selected from the database individually](../09SimView/09_09_SimView_Non_default_constructions.md).
 

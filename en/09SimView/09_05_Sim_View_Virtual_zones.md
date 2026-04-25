@@ -17,16 +17,16 @@ The term virtual zones works as only those spaces located in thermal zones will 
 </figure>
 
 
-**Re 2)** If a space is created next to a real thermal zone, it can be given a fixed [temperature variation](09_03_Property_dialogs_in_SimView.md) or the same indoor conditions as a real thermal zone. If the model is **not** going to be used in Bv98, the constructions in spaces outside thermal zones do not have to be defined. If the space if given the same indoor conditions as in the neighboring zone, the construction will be subject to symmetrical loads.
+**Re 2)** If a space is created next to a real thermal zone, it can be given a fixed [temperature variation](../24Miscellaneous/24_56_Room_Temperature.md) or the same indoor conditions as a real thermal zone. If the model is **not** going to be used in Bv98, the constructions in spaces outside thermal zones do not have to be defined. If the space if given the same indoor conditions as in the neighboring zone, the construction will be subject to symmetrical loads.
 
-When right-clicking a virtual zone (space) the dialog for definition of the thermal [properties of the space](../../24Miscellaneous/24_55_Room_property.md) is shown. The temperature variation of a room outside any thermal zone can be described as a cosines shaped variation over the year.
+When right-clicking a virtual zone (space) the dialog for definition of the thermal [properties of the space](../24Miscellaneous/24_55_Room_property.md) is shown. The temperature variation of a room outside any thermal zone can be described as a cosines shaped variation over the year.
 
 
 See also:
 
 *   [Creating a building](09_14_SimView_Creating_a_building.md)
 *   [Creating a space](09_15_SimView_Creating_a_space.md)
-*   [Default constructions](09_06_Construction_Property.md)
+*   [Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md)
 *   [Non-default constructions](09_09_SimView_Non_default_constructions.md)
 *   [Creating thermal zones](../10Thermal_zones/10_01_Thermal_Zone_property.md)
 *   [Systems in thermal zones](../11Systems/11_01_Systems.md)

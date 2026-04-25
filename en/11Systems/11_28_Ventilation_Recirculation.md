@@ -19,5 +19,5 @@
 *   *Max Inlet Temp* is the highest acceptable temperature of the inlet air to the zone.
 *   *Setp Temp* is the desired operative temperature of the zone.
 
-Control of ventilation systems with recirculation of the air happens according to the description given in the [theory section](11_28_Ventilation_Recirculation.md).
+Control of ventilation systems with recirculation of the air happens according to the description given in the [theory section](../20The_Mathematical_basis/20_21_Recirculation_of_ventilation_air.md).
 

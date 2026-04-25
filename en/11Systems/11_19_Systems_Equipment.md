@@ -2,7 +2,7 @@
 
 # Systems, *Equipment*
 
-<span style="letter-spacing: -0.01em;">The model describes heat emissions in the current thermal zone from machines, appliances, equipment, etc. Variation over the day, week and year can be defined in the schedule. Please note that heat emissions from lighting are defined separately in the </span>[lighting dialog box](11_03_Systems_Lighting.md)<span style="letter-spacing: -0.01em;">.</span>
+The model describes heat emissions in the current thermal zone from machines, appliances, equipment, etc. Variation over the day, week and year can be defined in the schedule. Please note that heat emissions from lighting are defined separately in the [lighting dialog box](11_03_Systems_Lighting.md).
 
 <figure id="center_img">
 <img src="./assets/Equipment.gif" alt="Dialog box for defining the load from equipment. If New is clicked, it is possible give the equipment a name and a load in kWh (Heat Load), as well as to specify how large a proportion of the heat given off is transferred directly (by convection) to the air in the thermal zone (Part to Air).">

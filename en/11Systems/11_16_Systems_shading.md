@@ -29,12 +29,12 @@ Data in BSim for the dialog SolarShading. Parameters in grey fields are only bei
 The functionality of solar shading devices are, as any system in BSim, being described in a [schedule](11_02_Systems_schedule.md), where for one or more [time](11_17_Systems_Time.md) definitions it is possible to define which control to use when. An unlimited number of time schedules can be defined with corresponding control strategies for the solar shading device.
 
 There can be selected among the following four control strategies:
-*   [SolarCtrl](11_16_Systems_shading.md), controlling the solar incidence after a set-point temperature in the thermal zone,
-*   [SensorCtrl](11_16_Systems_shading.md), controlling the shading device after the lighting level measured at the external face of the facade where the WinDoor is located,
-*   [BlindCtrl](11_16_Systems_shading.md), controlling shading devices of the type Venetian blind according to set-points for solar incidence and direct solar radiation,
-*   [GlareCtrl](11_16_Systems_shading.md), controlling the shading device to minimize glare from the WinDoor.
+*   [SolarCtrl](../24Miscellaneous/24_04_Shading_Control.md), controlling the solar incidence after a set-point temperature in the thermal zone,
+*   [SensorCtrl](../24Miscellaneous/24_05_External_sensor_control.md), controlling the shading device after the lighting level measured at the external face of the facade where the WinDoor is located,
+*   [BlindCtrl](../24Miscellaneous/24_06_Blind_control.md), controlling shading devices of the type Venetian blind according to set-points for solar incidence and direct solar radiation,
+*   [GlareCtrl](../24Miscellaneous/24_06_Blind_control.md), controlling the shading device to minimize glare from the WinDoor.
 
-Table values offers the possibility of using detailed information about the slates in the shading system by attaching information fro an [external text file](11_16_Systems_shading.md). When clicking the button, a dialog is being opened to find the file on the PC.
+Table values offers the possibility of using detailed information about the slates in the shading system by attaching information fro an [external text file](../24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.md). When clicking the button, a dialog is being opened to find the file on the PC.
 
 *Remove* table is used to remove the attachment of an external file for definition of a shading system.
 

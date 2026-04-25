@@ -19,9 +19,9 @@ Mixing is defined as air exchange between thermal zones and spaces in the model.
 
 **Note:** It is possible to select mixing from a fictive zone (a room with the same thermal conditions as a real thermal zone, but not part of the simulation) adjacent to the thermal zone to receive the air-flow. It is though <u>not</u> possible to have more than one mixing from any thermal zone, and a fictive zone is considered as being the same as the thermal zone that it have the same conditions as. Therefore, mixing will <u>only</u> occur from the real thermal zone.
 
-Using the [control action]() it is possible to control a desired heat (or cold) transfer from an adjoining zone to the current zone. Mixing is controlled on/off with a percentage of the air flow defined in the relevant day profile.
+Using the [control action](../24Miscellaneous/24_11_Mixing_Control.md) it is possible to control a desired heat (or cold) transfer from an adjoining zone to the current zone. Mixing is controlled on/off with a percentage of the air flow defined in the relevant day profile.
 
 See also:
-*   [Tab MixingCtrl](11_10_systems_mixing.md)   
+*   [Tab MixingCtrl](../24Miscellaneous/24_11_Mixing_Control.md)   
 *   [Tab Schedule](11_02_Systems_schedule.md)   
 *   [Tab Time](11_17_Systems_Time.md)

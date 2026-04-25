@@ -21,16 +21,16 @@ The radiator power is regarded as being controlled on the basis of outdoor tempe
 
 *Part to Air* specifies how large a part of the heat emission from the radiator is supplied to the room air by convection. The remaining heat emission is by radiation to the surfaces of the zone. The proportion supplied to the air is dependent on the current type of radiator/convector, but the number should not normally be set lower than 0.5. For a normal radiator positioned on an outside wall (back) under a window a value of between 0.5 and 0.7 can be assumed.
 
-*Central Heat Pump* indicates that the heat in the heating system comes from a central heat pump. The heat pump can not be activated as a source for the heating system until the external program [PackCalc](11_20_Heat_pump.md) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU) and can be downloaded from their web site.
+*Central Heat Pump* indicates that the heat in the heating system comes from a central heat pump. The heat pump can not be activated as a source for the heating system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) have been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU).
 
 *Heat Pump data:* Opens a dialog to give input parametres for the heat pump.
 
 [*Schedule*](11_02_Systems_schedule.md) defines how the radiator is controlled at different times of the day, week and year. For systems with a night-time or weekend reduction in the indoor temperature it will be necessary to specify at least two different schedules corresponding to control on the basis of different temperature set points.
 
-The control of a heating system is defined at the [HeatCoolCtrl](11_12_Systems_Heating.md) tab or at the [FloorHeatingCtrl](11_07_Floor_Heating_Control.md) tab.
+The control of a heating system is defined at the [HeatCoolCtrl](../24Miscellaneous/24_02_Heating_control.md) tab or at the [FloorHeatingCtrl](11_07_Floor_Heating_Control.md) tab.
 
 See also:
-*   Tab [HeatCoolCtrl](11_12_Systems_Heating.md)
+*   Tab [HeatCoolCtrl](../24Miscellaneous/24_02_Heating_control.md)
 *   Tab [FloorHeatCtrl](11_07_Floor_Heating_Control.md)
 *   Tab [Schedule](11_02_Systems_schedule.md)
 *   Tab [Time](11_17_Systems_Time.md)

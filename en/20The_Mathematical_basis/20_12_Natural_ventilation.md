@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Mathematical basis, Natural ventilation
-Simulation of natural ventilation in the module for BSim requires[ input at various locations](20_17_Implementation_of_mzm.md) of the model.
+Simulation of natural ventilation in the module for BSim requires[ input at various locations](../24Miscellaneous/24_71_Natural_Ventilation.md) of the model.
 
 Natural ventilation can be activated at thermal zone level.
 
