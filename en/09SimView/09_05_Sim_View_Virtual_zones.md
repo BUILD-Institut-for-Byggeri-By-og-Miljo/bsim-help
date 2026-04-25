@@ -4,11 +4,11 @@
 
 The term virtual zones works as only those spaces located in thermal zones will be simulated in tsbi5. Virtual zones are zones, facing a real thermal zone and thus influences the conditions here. Virtual zones in BSim can be defined in two different ways:
 
-*   1) selecting that face 2 also faces the thermal zone.
+*   <a href="#re1">1)</a> selecting that face 2 also faces the thermal zone.
 
-*   2) by creating a space - outside any thermal zone - with a given temperature variation or a temperature as a thermal zone.
+*   <a href="#re2">2)</a> by creating a space - outside any thermal zone - with a given temperature variation or a temperature as a thermal zone.
 
-**Re 1)** Locate the face that are facing a virtual zone. Right-click "Finish" in the tree structure on the side of a construction facing outdoors and select a thermal zone instead of "Outdoors". This creates a virtual zone that **always** have the same temperature and moisture conditions as the thermal zone. The loads on the surface facing the thermal zone are copied to the side of the virtual zone. Face 2 is thus influenced by the thermal zone, without a direct influence from face 2 on the thermal zone. If the conditions in the virtual zone is selected to be equal to the thermal zone at face 1, then the loads on the construction is symmetrical.
+**<span id="re1">Re 1)</span>** Locate the face that are facing a virtual zone. Right-click "Finish" in the tree structure on the side of a construction facing outdoors and select a thermal zone instead of "Outdoors". This creates a virtual zone that **always** have the same temperature and moisture conditions as the thermal zone. The loads on the surface facing the thermal zone are copied to the side of the virtual zone. Face 2 is thus influenced by the thermal zone, without a direct influence from face 2 on the thermal zone. If the conditions in the virtual zone is selected to be equal to the thermal zone at face 1, then the loads on the construction is symmetrical.
 
 
 <figure id="center_img">
@@ -17,7 +17,7 @@ The term virtual zones works as only those spaces located in thermal zones will 
 </figure>
 
 
-**Re 2)** If a space is created next to a real thermal zone, it can be given a fixed [temperature variation](../24Miscellaneous/24_56_Room_Temperature.md) or the same indoor conditions as a real thermal zone. If the model is **not** going to be used in Bv98, the constructions in spaces outside thermal zones do not have to be defined. If the space if given the same indoor conditions as in the neighboring zone, the construction will be subject to symmetrical loads.
+**<span id="re2">Re 2)</span>** If a space is created next to a real thermal zone, it can be given a fixed [temperature variation](../24Miscellaneous/24_56_Room_Temperature.md) or the same indoor conditions as a real thermal zone. If the model is **not** going to be used in Bv98, the constructions in spaces outside thermal zones do not have to be defined. If the space if given the same indoor conditions as in the neighboring zone, the construction will be subject to symmetrical loads.
 
 When right-clicking a virtual zone (space) the dialog for definition of the thermal [properties of the space](../24Miscellaneous/24_55_Room_property.md) is shown. The temperature variation of a room outside any thermal zone can be described as a cosines shaped variation over the year.
 

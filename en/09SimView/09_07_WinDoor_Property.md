@@ -9,7 +9,7 @@
 
 The *Area* field displays the information that the software has calculated from the opening's geometry and information from the database. The calculated quantities are: the area of the opening (*Opening*), the area of the glass (*GlassArea*), the area of the frame (*FrameArea*), the area of the panel (*PanelArea*), which is used in connection with simulating doors, and the length of the spacer profile (*SpacerLength*).
 
-Please note that, the first time the dialog box is opened, the message *Impossible Geometry* will appear instead of *SpacerLength* and a stop sign will be displayed to the right of the *Override* button if the opening is not a rectangle or if the window was not selected from the database. The area of the frame and panel and the length of the spacer profile can be changed by clicking the [*Override* button](09_07_WinDoor_Property.md). The information fields in the dialog box describe the area of the opening, which face it belongs to, the U value for the attached WinDoors, and its entry in the database.
+Please note that, the first time the dialog box is opened, the message *Impossible Geometry* will appear instead of *SpacerLength* and a stop sign will be displayed to the right of the *Override* button if the opening is not a rectangle or if the window was not selected from the database. The area of the frame and panel and the length of the spacer profile can be changed by clicking the [*Override* button](../24Miscellaneous/24_51_WinDoor_Override.md). The information fields in the dialog box describe the area of the opening, which face it belongs to, the U value for the attached WinDoors, and its entry in the database.
 
 The message *Impossible Geometry* may also be caused by a wrong location of the actual Windoor, stretching into the *Inner Shell*, i.e. the constructions of the faces that meets the face that contains the Windoor. Can occur if the thickness of the constructions are increased e.g. by selecting new constructions from the database. It is not possible to run a simulation when impossible geometry is shown for any Windoor.
 
@@ -18,7 +18,7 @@ The following characteristics can be defined to describe a WinDoor:
 *   *Recess (m)*: The retraction of the glass in relation to the outside of the wall in meters. If Recess = 0 is given, shading will be calculated as if the glazing was located parallel to the inner face of the construction. If the glass is to be placed parallel to the outer face of the construction, a small value (larger than 0.0001) must be given. <span id="red_text"> **NB**: Recess <u>only</u> works if [XSun solar distribution](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) is turned on. </span>
 
 *   *Select Systems* It is possible to select three systems to be linked to the WinDoor object:  
-[Regulation](../11Systems/11_11_Natural_ventilation.md) (of natural ventilation),  
+[Regulation](../24Miscellaneous/24_62_Regulation.md) (of natural ventilation),  
 [Shutter](../11Systems/11_15_Systems_shutter.md) (for night insulation) and  
 [SolarShading](../11Systems/11_16_Systems_shading.md) (for reducing the risk of overheating).   
 These systems are defined by right-clicking the objects in the tree summary, which will open the relevant dialog box.
@@ -33,4 +33,4 @@ Based on this information the software calculates the frame area, panel area and
 
 The [dialog boxes for defining overhang and side fins](../24Miscellaneous/24_54_WinDoor_overhangs_and_side-fins.md) describe the shadow source relatively in relation to the window using the distance from the nearest edge of the glass and the distance from the outside of the wall to the front edge of the shadow source.
 
-The [*Daylight* ](09_07_WinDoor_Property.md)button allows three solar light factors to be defined for the window ([Sf1](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md), [Sf2](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) and [Sf3](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md)) manually. The solar light factors can be calculated and transferred automatic to the WinDoor dialog from [SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md).
+The [*Daylight* ](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md)button allows three solar light factors to be defined for the window ([Sf1](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md), [Sf2](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) and [Sf3](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md)) manually. The solar light factors can be calculated and transferred automatic to the WinDoor dialog from [SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md).

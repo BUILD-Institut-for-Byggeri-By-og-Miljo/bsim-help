@@ -1,9 +1,9 @@
 # SimView - Move
 The *Move* option in the *SimView* menu is used for moving:
 
-*   [Building](09_14_SimView_Creating_a_building.md)
-*   [Face](09_02_SimView_Editing_the_model_geometry.md)
-*   [WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
+*   [Building](../24Miscellaneous/24_36_Move_Building.md)
+*   [Face](../24Miscellaneous/24_37_Move_Face.md)
+*   [WinDoor](../24Miscellaneous/24_38_Move_WinDoor.md)
 
 See also:
 *   [SimView menu](../06BSim_Program_structure/06_06_SimView_Menu.md)
