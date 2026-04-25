@@ -20,9 +20,9 @@ It is possible to change the order of the thermal zones by dragging them to a ne
 
 Below the interactive graph of the ambient and the thermal zone temperatures four buttons are found:
 
-*   The *Start* button initiates the simulation beginning with the first date of the simulation period give at the [*Options* ](13_02_tsbi5_options.md)tab. <u>Note</u> it is not possible to carry out a tsbi5 simulation of the *[ModelList](../09SimView/09_20_SimView_Model_information.md)* window is open or closed as a icon.
+*   The *Start* button initiates the simulation beginning with the first date of the simulation period give at the [*Options* ](13_02_tsbi5_options.md)tab. <u>Note</u> it is not possible to carry out a tsbi5 simulation if the *[ModelList](../10Thermal_zones/10_09_SimView_Printing_a_model.md)* window is open or closed as a icon.
 
-*   The *Check* button runs a syntactic check of the model to see if all necessary information to carry out a simulation is present. Eventual missing data will be reported in the *[ModelList](../09SimView/09_20_SimView_Model_information.md)* window. No error messages do though not mean that the model is correct, but only that all necessary information to carry out a simulation is given. This function is also called when ever a simulation is initiated from the *Start* button. If the moisture model is active, information about the automatic sub-division of the material layers in the constructions are given.
+*   The *Check* button runs a syntactic check of the model to see if all necessary information to carry out a simulation is present. Eventual missing data will be reported in the *[ModelList](../10Thermal_zones/10_09_SimView_Printing_a_model.md)* window. No error messages do though not mean that the model is correct, but only that all necessary information to carry out a simulation is given. This function is also called when ever a simulation is initiated from the *Start* button. If the moisture model is active, information about the automatic sub-division of the material layers in the constructions are given.
 
 *   The *Stop* button can be used to interrupt the simulation before the *Last Day* of the simulation period given on the [*Options* ](13_02_tsbi5_options.md)tab.
 
@@ -30,7 +30,7 @@ Below the interactive graph of the ambient and the thermal zone temperatures fou
 
 Below the buttons, information about the estimated remaining time to carry out the simulation for the given period is shown.
 
-When the simulation starts, an initialization of the model is made and the real simulation will only start when the [stability criterion](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md) if fulfilled or the maximum number of iterations/days is reached. The maximum allowed number of iterations can be given in the menu *[Edit ](../24Miscellaneous/24_16_tsbi5_general_options.md)*[|](../24Miscellaneous/24_16_tsbi5_general_options.md)*[ Options](../24Miscellaneous/24_16_tsbi5_general_options.md)* when tsbi5 is active.
+When the simulation starts, an initialization of the model is made and the real simulation will only start when the [stability criterion](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md) if fulfilled or the maximum number of iterations/days is reached. The maximum allowed number of iterations can be given in the menu *[Edit | Options ](../24Miscellaneous/24_16_tsbi5_general_options.md)*
 
 If the maximum number of iterations/days is reached before meeting the stability criterion, the dialog below will be shown. The dialog also show information about the parameters used for calculating the [stability criterion](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md).
 
@@ -48,7 +48,7 @@ Pressing "Yes" will cause the initialization to continue though only up to the m
 See also:
 
 *   [Tab Options](13_02_tsbi5_options.md)
-*   [Tab Moisture](13_02_tsbi5_options.md)
+*   [Tab Moisture](../24Miscellaneous/24_60_tsbi5_moisture.md)
 *   [Tab Simulation](13_04_tsbi5_simulation.md)
 *   [Tab HeatBalance](13_07_tsbi5_HeatBalance.md)
 *   [Tab Parameters](13_08_tsbi5_Parameters.md)

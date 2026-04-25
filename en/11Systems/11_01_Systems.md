@@ -36,8 +36,8 @@ The combination of a component and its schedule is called a *system* and defines
 |              | [Heating](11_12_Systems_Heating.md)          | [Heating](11_12_Systems_Heating.md)-/cooling control                           | Radiator               |
 |              |                                                                            | [Floor heating control](11_07_Floor_Heating_Control.md)                     | Floor heating          |
 |              | [Cooling](11_09_Systems_cooling.md)              | Heating-/[cooling control](11_09_Systems_cooling.md)                              | -                       |
-|              | [Ventilation system](11_21_Systems_Ventilation.md) | [Supply control](11_23_Ventilation_Inlet_Control.md)                                   | Supply                 |
-|              |                                                                            | [Room temperature control](11_25_Ventilation_Zone_Temperature_control.md) | Room temperature       |
+|              | [Ventilation system](11_21_Systems_Ventilation.md) | [Supply control](11_21_Systems_Ventilation.md)                                   | Supply                 |
+|              |                                                                            | [Room temperature control](11_21_Systems_Ventilation.md) | Room temperature       |
 |              |                                                                            | [Moisture control](11_22_Ventilation_Moisture_control.md)                 | Moisture               |
 |              |                                                                            | [VAV control](11_26_Ventilation_VAV_control.md)                     | VAV                    |
 |              |                                                                            | [Night cooling](11_24_Ventilation_Night_Cooling_Control.md)            | Night cooling          |
@@ -99,7 +99,6 @@ Systems connected to thermal zones:
 *   [Equipment](11_19_Systems_Equipment.md)
 *   [Moisture](11_05_Systems_Moisture.md)
 *   [Infiltration](11_08_Systems_Infiltration.md)
-
 *   [Lighting](11_03_Systems_Lighting.md)
 *   [Venting](11_18_Systems_Venting.md)
 *   [Heating](11_12_Systems_Heating.md)

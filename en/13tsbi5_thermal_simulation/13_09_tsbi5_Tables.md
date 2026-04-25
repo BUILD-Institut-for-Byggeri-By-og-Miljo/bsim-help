@@ -25,7 +25,7 @@ The table of the hourly values has a number of drop-down list boxes and buttons 
 
 *   Choose between hourly values, percent under, hours under, percent above, or hours above as representation for method for the results.
 
-*   [Switch to graph of the results.](13_12_Modifying_the_graphical_presentation_of_results.md)
+*   [Switch to graph of the results.](../24Miscellaneous/24_49_tsbi5_graph.md)
 
 *   Choose time from calendar function (date, week or month) for table or graphics (dependent on the resolution selected).
 
@@ -42,7 +42,7 @@ Export of hourly values from the selected period (resolution) to a *.txt file fo
 See also:
 
 *   [Tab Options](13_02_tsbi5_options.md)
-*   [Tab Moisture](13_02_tsbi5_options.md)
+*   [Tab Moisture](../24Miscellaneous/24_60_tsbi5_moisture.md)
 *   [Tab Simulation](13_04_tsbi5_simulation.md)
 *   [Tab HeatBalance](13_07_tsbi5_HeatBalance.md)
 *   [Tab Parameters](13_08_tsbi5_Parameters.md)

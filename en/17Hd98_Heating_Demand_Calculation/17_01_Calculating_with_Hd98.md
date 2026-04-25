@@ -6,9 +6,9 @@
 
 From 1. April 2006 it is not allowed to use Hd98 for building permit applications any more.
 
-From 1. January 2006, with a transition period until 31. March 2006, the tool [Be06]() must be used. 
+From 1. January 2006, with a transition period until 31. March 2006, the tool <a href="https://www.build.aau.dk/til-byggebranchen">Be06</a> must be used. 
 
-From 1. January 2010 the tool [Be10]() must be used.
+From 1. January 2010 the tool <a href="https://www.build.aau.dk/til-byggebranchen">Be10</a> must be used.
 
 </div>
 

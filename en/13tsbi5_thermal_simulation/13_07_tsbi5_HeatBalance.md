@@ -19,7 +19,7 @@ The first column always shows a total for the entire period simulated. The subse
 
 It is possible to save the content of the heat balance table in an external text file for further analyses, e.g. in a spread sheet tool, by pressing "Alt + X" and then selecting name and location for the text file.
 
-An explanation of the individual parameters in the heat balance is found in [*Parameters in the heat balance*](13_11_Parameters_in_the_result_log.md).
+An explanation of the individual parameters in the heat balance is found in [*Parameters in the heat balance*](../24Miscellaneous/24_65_Parameters_in_the_heat_balance.md).
 
 At the top right of the tab there is a button that calls up a graphical presentation of the results in the form of a bar graph.
 
@@ -37,7 +37,7 @@ If <u>a single column is highlighted</u> the presentation of the results will st
 
 *   Go to next period
 
-*   [*Yscale* ](13_12_Modifying_the_graphical_presentation_of_results.md)opens a dialog for fixing the Y-axis or changing the view of the graphs.
+*   [*Yscale* ](../24Miscellaneous/24_50_Graph_scale.md)opens a dialog for fixing the Y-axis or changing the view of the graphs.
 
 *   Close the graphical presentation of the results.
 
@@ -46,7 +46,7 @@ Right clicking the graphical results, a dialog occurs offering the possibility o
 See also:
 
 *   [Tab Options](13_02_tsbi5_options.md)
-*   [Tab Moisture](13_02_tsbi5_options.md)
+*   [Tab Moisture](../24Miscellaneous/24_60_tsbi5_moisture.md)
 *   [Tab Simulation](13_04_tsbi5_simulation.md)
 *   [Tab HeatBalance](13_07_tsbi5_HeatBalance.md)
 *   [Tab Parameters](13_08_tsbi5_Parameters.md)

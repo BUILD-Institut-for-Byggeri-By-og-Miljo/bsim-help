@@ -34,7 +34,7 @@ If the model name is too long, it is not possible to compare results from differ
 
 <br>
 
-Result files from simulations with [SimPv](../16SimPV/16_01_SimPV.md) can be analyzed using the normal result analyses functions. These result files are named as *model name#pv*. Results occurs as two parameters (*qPvGross og qPvNet*) at all constructions with solar cells. There <u>must</u> thus be a check-mark next to *Constructions* at the [*Options* ](13_02_tsbi5_options.md)tab to be able to see these parameters.
+Result files from simulations with [SimPv](../16SimPV/16_01_SimPV.md) can be analyzed using the normal result analyses functions. These result files are named as *model name#pv*. Results occurs as two parameters (*qPvGross og qPvNet*) at all constructions with solar cells. There <u>must</u> thus be a check-mark next to *Constructions* at the [*Options*](13_02_tsbi5_options.md)tab to be able to see these parameters.
 
 If a simulation over several years have been performed, results from each year will occour as individual result files. These result files are named after the model followed by a "#yy", where yy are the last two digits of the year. *tsbi5* automatically shows the first year in a series of years. Additional years must be opened as individual result files.
 
@@ -49,7 +49,7 @@ Below the parameter list three buttons are located: *New, Delete and Copy*. The 
 See also:
 
 *   [Tab Options](13_02_tsbi5_options.md)
-*   [Tab Moisture](13_02_tsbi5_options.md)
+*   [Tab Moisture](../24Miscellaneous/24_60_tsbi5_moisture.md)
 *   [Tab Simulation](13_04_tsbi5_simulation.md)
 *   [Tab HeatBalance](13_07_tsbi5_HeatBalance.md)
 *   [Tab Parameters](13_08_tsbi5_Parameters.md)

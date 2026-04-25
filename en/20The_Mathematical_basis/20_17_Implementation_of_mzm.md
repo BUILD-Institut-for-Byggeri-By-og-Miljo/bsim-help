@@ -82,7 +82,7 @@ Only openings in the thermal envelope need to be defined as the single zone mode
 
 **<span id="cpvalues">Choice of CP-values</span>**
 
-The used CP-values originates from ([[Orme et al. 1998](20_28_Literature.md))) and is determined as average values for the faces. The user can not give his own CP-values. Orme et al. (1998) gives CP-values for rectangular buildings with equal side lengths and buildings with a side-proportion of 1:2. CP-values are also given for different roof-tilts. BSim chooses CP-values from these standards based on the geometry of the building model.
+The used CP-values originates from ([Orme et al. 1998](20_28_Literature.md)) and is determined as average values for the faces. The user can not give his own CP-values. Orme et al. (1998) gives CP-values for rectangular buildings with equal side lengths and buildings with a side-proportion of 1:2. CP-values are also given for different roof-tilts. BSim chooses CP-values from these standards based on the geometry of the building model.
 
 
 <div id="gray_background">
@@ -167,14 +167,13 @@ As BSim can simulate on zone level (real faces facing the same air node) and thu
 
 In this section there is a description of how the loops are made. The section have three main parts:
 
-*   [Identification of nodes and arches]()
+*   <a href="#Identification">Identification of nodes and arches</a>
 
-*   [Making of the spanning tree]()
+*   <a href="#SpanningTree">Making of the spanning tree</a>
 
-*   [Making of independent lops]()
+*   <a href="#IndependentLoops">Making of independent loops</a>
 
-**Identification of nodes and arches**
-
+**<span id="Identification">Identification of nodes and arches</span>**
 In this section there is a description on how nodes and arches are made based in the BSim model. The purpose for making nodes and arches is to connect the thermal zones through openings where mzm can be activated.
 
 In the making of nodes and arches all openings and WinDoor's with an area larger than 0 are taken into consideration.
@@ -209,7 +208,7 @@ The following arches are made:
 **Lists with nodes and arches**  
 Two lists are made, one with all nodes and one with all arches. The lists can be shown by clicking "check" from the "[Simulation](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)" tab of tsbi5. The lists are called "Nodes" "Arches".
 
-**Making of a spanning tree**  
+**<span id="SpanningTree">Making of a spanning tree</span>**
 Making of a spanning tree must include those zones that are connected to the ambient, eventually via other adjacent zones. This means that air-flow between zones can not be calculated if they are are not connected to the ambient, see <a href="#figure7">Figure 7</a>.
 
 <figure id="figure7">
@@ -348,7 +347,7 @@ Creation of loops is made from the "breath-first-search" rules (Savić et al. 19
 
 A list with all loops is saved in the variable L.
 
-**Making loops**
+**<span id="IndependentLoops">Making loops</span>**
 
 The number of loops to be made is equal to the number of arches in Act. For each arch in Act a loop with the least possible number of arches is made. The loop is made solely by using arches from the spanning tree. This means that no other arch is part of Act.
 

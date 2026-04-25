@@ -55,12 +55,12 @@ For further information see: [Algorithms for calculating solar radiation and day
 
 The power transferred from the general lighting in this way is converted into an increase in the temperature of the exhaust air. If widely varying ventilation air flows are specified for different time definitions, the specified removal of heat should, if necessary, be weighted accordingly.
 
-There are basically two forms of control ([Light Control](11_03_Systems_Lighting.md) and [Daylight Control](11_03_Systems_Lighting.md)) that can be used in the same thermal zone for different time definitions.
+There are basically two forms of control ([Light Control](../24Miscellaneous/24_09_Light_Control.md) and [Daylight Control](../24Miscellaneous/24_10_Daylight_Control.md)) that can be used in the same thermal zone for different time definitions.
 
 Please note that only the general lighting is controlled, whereas "tasking lighting" is always regarded as being on within the specified time definitions.
 
 See also:
-*   Tab [*LightCtrl*](11_03_Systems_Lighting.md)
-*   Tab [*DaylightCtrl*](11_03_Systems_Lighting.md)
+*   Tab [*LightCtrl*](../24Miscellaneous/24_09_Light_Control.md)
+*   Tab [*DaylightCtrl*](../24Miscellaneous/24_10_Daylight_Control.md)
 *   Tab [*Schedule*](11_02_Systems_schedule.md)
 *   Tab [*Time*](11_17_Systems_Time.md)

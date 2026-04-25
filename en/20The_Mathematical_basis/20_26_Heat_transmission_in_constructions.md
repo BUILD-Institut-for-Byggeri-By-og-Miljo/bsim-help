@@ -111,7 +111,7 @@ $$ \left[\begin{array}{cccccc}B_1 & C_1 & & & & \\ \cdot & \cdot & \cdot & & & \
 
  
 
-The coefficient matrix in this equation system has zeros outside all three main diagonals and can therefore be solved by a simple and quick algorithm, the so-called double sweep or tri-diagonal method. This method is described in several text books from Numerical Institute [[Solution of numerical , linear equations, 1972](20_28_Literature.md)], amongst others.
+The coefficient matrix in this equation system has zeros outside all three main diagonals and can therefore be solved by a simple and quick algorithm, the so-called double sweep or tri-diagonal method. This method is described in several text books from Numerical Institute [[Solution of numerical, linear equations, 1972](20_28_Literature.md)], amongst others.
 
 When proceeding from one time-step to another, the newly calculated temperatures become the "old" temperatures for the next time-step. In this manner, it is possible to go on calculating further in time, as long as one just has knowledge for each time-step regarding the boundary conditions, i.e. air temperatures and heat inductions by radiation at each of the two surfaces. In order to start calculation in the very first time-step, a fixed start temperature is selected (the standard is that all temperatures are set to 20 °C), and beginning with these values, the first day in the simulation period is calculated a number of times, until stability is achieved, i.e. a more or less stable 24 hour rhythm (quasi-stationary condition) has been established.
 
