@@ -11,14 +11,14 @@
 </div>
  
 
-The PCM tab holds information about a materials possible phase change properties. To activate the phase change properties for a material, information about "lambda" must be given. At the top of the PCM tab there is an indication indicating if "lambda" has been defined. In this case the values given in the table is being used in the simulations as a replacement of the normal conductivity given at [tab Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal). Doing this, the conductivity can be defined as a function of the material temperature.
+The PCM tab holds information about a materials possible phase change properties. To activate the phase change properties for a material, information about "lambda" must be given. At the top of the PCM tab there is an indication indicating if "lambda" has been defined. In this case the values given in the table is being used in the simulations as a replacement of the normal conductivity given at [tab Thermal](07_12_SimDB_BuildingMaterial_Thermal.md). Doing this, the conductivity can be defined as a function of the material temperature.
 
 <figure id="center_img">
 <img src="./assets/pcm.gif" alt="PCM-properties for a building material.">
 <figcaption>PCM-properties for a building material.</figcaption>
 </figure>
 
-At the PCM-tab both the melting and the solidification curve is shown (red curve is the melting curve and the blue curve is the solidification curve). The curve expresses the enthalpy (J/kg) of the material as a function of the temperature (°C). The enthalpy-curve replaces the normal heat capacity given at the [Thermal tab](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal).
+At the PCM-tab both the melting and the solidification curve is shown (red curve is the melting curve and the blue curve is the solidification curve). The curve expresses the enthalpy (J/kg) of the material as a function of the temperature (°C). The enthalpy-curve replaces the normal heat capacity given at the [Thermal tab](07_12_SimDB_BuildingMaterial_Thermal.md).
 
  
 

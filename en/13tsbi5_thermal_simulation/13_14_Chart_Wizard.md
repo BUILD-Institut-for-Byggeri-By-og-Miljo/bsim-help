@@ -39,10 +39,10 @@ Various options are normally available for the presentation of the chosen graph 
 
 The last tab shows an example of the presentation of data before the choice is made by clicking the *Finish* button.
 
-If the changes to the appearance of the graph need to be cancelled, it is possible to go back to the start by clicking [*Reset Chart To Defaults*](https://help.bsim.dk/support/kb/articles/rm0x5YmX/chart-designer) on the first tab in *Chart Designer*.
+If the changes to the appearance of the graph need to be cancelled, it is possible to go back to the start by clicking [*Reset Chart To Defaults*](13_13_Chart_Designer.md) on the first tab in *Chart Designer*.
 
 See also:
 
-*   [Chart Designer](https://help.bsim.dk/support/kb/articles/rm0x5YmX/chart-designer)
+*   [Chart Designer](13_13_Chart_Designer.md)
 
 

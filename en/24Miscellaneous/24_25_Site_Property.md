@@ -25,7 +25,7 @@
     *   *ReflSolar:* Reflection of solar radiation from the ground.
     *   *ReflLight:* Reflection of daylight from the ground.
     *   *Emmissivity:* Emmissivity of the ground/surroundings.
-*   *Terrain Type* indicates how exposed the building is to wind. The information is used when [simulating natural ventilation](https://help.bsim.dk/support/kb/articles/49EdKkQ7/naturlig-ventilation-system). The following terrain types are implemented:
+*   *Terrain Type* indicates how exposed the building is to wind. The information is used when [simulating natural ventilation](24_71_Natural_Ventilation.md). The following terrain types are implemented:
     *   Open, rural country side.
     *   Landscape with scattered windbreakers.
     *   Urban area.

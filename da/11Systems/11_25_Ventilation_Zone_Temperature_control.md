@@ -24,7 +24,7 @@ Angiver en regulering, hvor en rumføler (via en reguleringscentral) regulerer a
 
 Se også:
 
-*   [Indblæsningsstyring](/11Systems/11_23_Ventilation_Inlet_Control.html)
-*   [Fugtregulerering](/11Systems/11_22_Ventilation_Moisture_control.html)
-*   [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html)
-*   [Natkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html)
+*   [Indblæsningsstyring](../11Systems/11_23_Ventilation_Inlet_Control.md)
+*   [Fugtregulerering](../11Systems/11_22_Ventilation_Moisture_control.md)
+*   [VAV-regulering](../11Systems/11_26_Ventilation_VAV_control.md)
+*   [Natkøling](../11Systems/11_24_Ventilation_Night_Cooling_Control.md)

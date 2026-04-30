@@ -220,4 +220,4 @@ Available controls:
 
 ---
 
-See also the [mathematical basic for the system.](https://help.bsim.dk/support/kb/articles/VmAOro9a/regulering-af-gulv
+See also the [mathematical basic for the system.](../20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md)

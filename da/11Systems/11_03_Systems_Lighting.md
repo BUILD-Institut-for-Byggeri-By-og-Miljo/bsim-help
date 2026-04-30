@@ -21,7 +21,7 @@ Det bemærkes, at de indlæste installerede belysningseffekter skal være inkl. 
 
 En del af varmeafgivelsen fra almenlys kan regnes overført til ventilationsanlæggets udsugningsluft, mens resten fordeles ligesom særlyset med halvdelen til rumluften og halvdelen til zonens overflader.
 
-*General Lighting Level (lux)*: Denne parameter anvendes i forbindelse med lysregulering efter dagslys. Værdien angiver belysningsniveauet, som opnås i referencepunktet (jf. beskrivelsen af regulering), når almenlyset er tændt med fuld effekt. Det opnåede belysningsniveau i referencepunktet er inklusive lys fra særlyset, som altid forudsættes tændt inden for den tilhørende [tidsangivelse](/11Systems/11_02_Systems_schedule.html).
+*General Lighting Level (lux)*: Denne parameter anvendes i forbindelse med lysregulering efter dagslys. Værdien angiver belysningsniveauet, som opnås i referencepunktet (jf. beskrivelsen af regulering), når almenlyset er tændt med fuld effekt. Det opnåede belysningsniveau i referencepunktet er inklusive lys fra særlyset, som altid forudsættes tændt inden for den tilhørende [tidsangivelse](../11Systems/11_02_Systems_schedule.md).
 
 I reguleringen (typen dagslys) defineres det ønskede belysningsniveau i referencepunktet, og ud fra beregningen af dagslyset time for time i punktet bestemmes behovet for at regulere på almenlyset.
 
@@ -42,7 +42,7 @@ P                  er den effekt som behøves for at opnå det ønskede
 f                   er det ønskede belysningsniveau i andele af det nominelle niveau,   
 genlight        er det nominelle belysningsniveau. lux
 
-Se i øvrigt [algoritmer til beregning af solstråling og dagslys](/20The_Mathematical_Basis/20_03_Algorithms_for_solar_radiation_and_daylight_calculations.html).
+Se i øvrigt [algoritmer til beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_03_Algorithms_for_solar_radiation_and_daylight_calculations.md).
 
 *Solar Limit* anvendes i forbindelse med lysregulering efter det samlede solindfald i zonen. Ved solindfald mindre end værdien af Sollys regnes almenlyset tændt inden for den tilhørende tidsangivelse. Bemærk, at parameteren Faktor (angivet under regulering i tidsplanen) for den aktuelle periode bliver multipliceret på den indlæste effektværdi for almenlys.  
 Solar Limit er den samme parameter som er defineret på fanebladet "LightCtrl". Hvis der er defineret en værdi på "Lighting" benyttes en eventuel værdi defineret på fanebladet LightCtrl ikke.
@@ -53,7 +53,7 @@ Effekten, der overføres fra almenbelysningen til udsugningen, bliver omregnet t
 
 **NB:** Uddugning af varme via ventilationsanlæggets udsugning fungerer kun hvis systemet Lighting er placeret før systemet Ventilation i træstrukturen. Det er muligt at ændre rækkefølgen af elementerne i træstrukturen ved at trække et element til en ny placering mens venstre knap på musen er trykket ned.
 
-Der er to reguleringsformer ([*Light Control*](/11Systems/11_03_Systems_Lighting.html) og [*Daylight Control*](/11Systems/11_03_Systems_Lighting.html)) som principielt kan benyttes i samme termiske zone til forskellige tidsangivelser.
+Der er to reguleringsformer ([*Light Control*](../11Systems/11_03_Systems_Lighting.md) og [*Daylight Control*](../11Systems/11_03_Systems_Lighting.md)) som principielt kan benyttes i samme termiske zone til forskellige tidsangivelser.
 
 Det bemærkes, at det kun er almenlyset, der reguleres, mens 'særlys' altid regnes tændt inden for de definerede tidsangivelser.
 
@@ -61,7 +61,7 @@ Det bemærkes, at det kun er almenlyset, der reguleres, mens 'særlys' altid reg
 
 Se også
 
-*   Faneblad [LightCtr](/11Systems/11_03_Systems_Lighting.html)
-*   Faneblad [DaylightCtrl](/11Systems/11_03_Systems_Lighting.html)
-*   Faneblad [Schedule](/11Systems/11_02_Systems_schedule.html)
-*   Faneblad [Time](/11Systems/11_17_Systems_Time.html)
+*   Faneblad [LightCtr](../11Systems/11_03_Systems_Lighting.md)
+*   Faneblad [DaylightCtrl](../11Systems/11_03_Systems_Lighting.md)
+*   Faneblad [Schedule](../11Systems/11_02_Systems_schedule.md)
+*   Faneblad [Time](../11Systems/11_17_Systems_Time.md)

@@ -29,7 +29,7 @@ Parameteren *Min Inlet Temp* angiver en nedre grænse for indblæsningstemperatu
 
 Se også:
 
-*   [Indblæsningsstyring](/11Systems/11_23_Ventilation_Inlet_Control.html)
-*   [*Rumtemperaturregulering*](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)
-*   [VAV-regulering](/11Systems/11_26_Ventilation_VAV_control.html)
-*   [Natkøling](/11Systems/11_24_Ventilation_Night_Cooling_Control.html)
+*   [Indblæsningsstyring](../11Systems/11_23_Ventilation_Inlet_Control.md)
+*   [*Rumtemperaturregulering*](../11Systems/11_25_Ventilation_Zone_Temperature_control.md)
+*   [VAV-regulering](../11Systems/11_26_Ventilation_VAV_control.md)
+*   [Natkøling](../11Systems/11_24_Ventilation_Night_Cooling_Control.md)

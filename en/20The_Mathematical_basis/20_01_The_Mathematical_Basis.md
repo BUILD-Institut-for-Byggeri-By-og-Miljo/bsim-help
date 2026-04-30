@@ -4,28 +4,28 @@
 
 The matematical basis for the algorithms in BSim are described in the following sections.
 
-*   [Internal building description, definition of nodes in constructions.](https://bsim.outseta.com/support/kb/articles/ZmNroAm2/bygningsopfattelse-knudepunktsinddeling)
+*   [Internal building description, definition of nodes in constructions.](20_02_Building_description_and_definition_of_nodes_in_constructions.md)
 
-*   [The heat balance for the zone air.](https://bsim.outseta.com/support/kb/articles/wmjnblmV/varmebalance-for-luften-i-en-zone)
+*   [The heat balance for the zone air.](20_25_Heat_balance_for_the_zone_air.md)
 
-*   [Heat transmission in the constructions.](https://bsim.outseta.com/support/kb/articles/nmDBbY9y/varmetransport-i-konstruktionerne)
+*   [Heat transmission in the constructions.](20_26_Heat_transmission_in_constructions.md)
 
-*   [Natural convetion at surfaces](https://help.bsim.dk/support/kb/articles/L9PwnpQJ/natural-convection-at-surfaces)
+*   [Natural convetion at surfaces](20_11_Natural_convection_at_surfaces.md)
 
-*   [Moisture balance for a zone.](https://help.bsim.dk/support/kb/articles/ZmNr6nm2/fugtbalancen-for-en-zone)
+*   [Moisture balance for a zone.](20_04_Moisture_balance_for_a_zone.md)
 
-    *   [Detailed simulation of moisture transport, BSim](https://help.bsim.dk/support/kb/articles/vW5alXW4/detailed-moisture-balance)
+    *   [Detailed simulation of moisture transport, BSim](20_05_Detailed_Moisture_balance.md)
 
-    *   [Automatic net generation at moisture calculations, BSim](https://help.bsim.dk/support/kb/articles/7mawLG9E/automatisk-netinddeling)
+    *   [Automatic net generation at moisture calculations, BSim](20_06_Automatic_net_generation.md)
 
-    *   [Moisture transport with hysteresis, BSim](https://help.bsim.dk/support/kb/articles/jW7oxJWq/moisture-transport-with-hysteresis)
+    *   [Moisture transport with hysteresis, BSim](20_07_Moisture_transport_with_hysteresis.md)
 
-    *   [Effecient moisture penetration depth, BSim](https://help.bsim.dk/support/kb/articles/EWBOLNmr/effective-moisture-penetration-depth-and-automatic-grid-generation-in-bsim2000-for-moisture-calculations)
+    *   [Effecient moisture penetration depth, BSim](20_08_Effective_Moisture_Penetration_Depth,_and_Automatic_Grid_Generation_in_BSim2000_for_Moisture_Calculations.md)
 
-*   [ Algorithms for calculation of solar radiation and daylight.](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys)
-*   [Longwave radiant heat exchange between surfaces in a thermal zone.](https://help.bsim.dk/support/kb/articles/E9LwqvQw/on-the-form-factor-between-two-polygons)
-*   [Longwave radiant heat exchange between the model and the ambient.](https://help.bsim.dk/support/kb/articles/pWrn03Wn/calculation-of-long-wave-radiation-to-the-sky)
-*   [Hydronic heating and cooling in constructions.](https://help.bsim.dk/support/kb/articles/BWzdVPQE/vandbaren-opvarmningkoling-i-konstruktioner)
+*   [ Algorithms for calculation of solar radiation and daylight.](20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
+*   [Longwave radiant heat exchange between surfaces in a thermal zone.](20_24_Form_factor_between_two_polygons.md)
+*   [Longwave radiant heat exchange between the model and the ambient.](20_23_Calculation_of_long_wave_radiation_to_the_sky.md)
+*   [Hydronic heating and cooling in constructions.](20_27_Floor_heating_mathematical_basis.md)
 
 This chapter examines the theoretical basis for the calculations in BSim. A building is understood by BSim as being a number of zones, separated from each other and from outside air or from possible virtual zones by constructions of different kinds. Explanations are given as to how the stationary balances for heat and moisture are arranged for each individual zone and how the non-stationary thermal transmission through constructions is calculated. The program does not calculate the moisture transport through the constructions and the zones' moisture balance is thus set up more simply.
 

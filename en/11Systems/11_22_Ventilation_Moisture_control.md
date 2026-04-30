@@ -33,7 +33,7 @@ If the moisture content of the air supplied to the system is too low, the air wi
 *Setp Cooling:* The set point for the room sensor during cooling. Control will take place on the basis of the lowest of the two supply temperatures, which are determined by the need for dehumidification (determined by the hygrostat's set point) and the need for cooling (determined by the room temperature sensor's set point) respectively. If cooling is required, the control function will increase cold recovery (if it has been defined as greater than 0) and then the output of the cooling coil as much as is necessary, up to maximum output, to keep the condition of the room air below or at the selected set points.
 
 See also:
-*   [Inlet control](https://help.bsim.dk/support/kb/articles/pWrnB2Wn/ventilation---indblasningsstyring)
-*   [Zone temperature control](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)
-*   [VAV control](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)
-*   [Night cooling control](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation)
+*   [Inlet control](11_23_Ventilation_Inlet_Control.md)
+*   [Zone temperature control](11_25_Ventilation_Zone_Temperature_control.md)
+*   [VAV control](11_26_Ventilation_VAV_control.md)
+*   [Night cooling control](11_24_Ventilation_Night_Cooling_Control.md)

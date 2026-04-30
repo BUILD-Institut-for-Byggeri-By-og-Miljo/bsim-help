@@ -3,7 +3,7 @@
 # Reference point
 
 
-It is possible to define several reference points in a room to control the artificial lighting from these different points. The calculation and transfer of the solar light factors is made using [SimLight]().
+It is possible to define several reference points in a room to control the artificial lighting from these different points. The calculation and transfer of the solar light factors is made using [SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md).
 
 The actual reference point is shown in SimView as a <span id="pink_text"> X</span>. It is possible to move the reference point by double-clicking the left mouse-button in one of the 3 sections or by holding the Ctrl-button while dragging the reference point with the left mouse-button pressed.
 

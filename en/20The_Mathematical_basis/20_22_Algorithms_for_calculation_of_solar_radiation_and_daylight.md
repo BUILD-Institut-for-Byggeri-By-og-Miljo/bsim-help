@@ -26,9 +26,9 @@
 
 *   <a href="#other-corrections">Other corrections</a>
 
-From the weather data in the reference year TRY [3], the values for diffuse sky radiation on horizontal, normal radiation (i.e. direct solar radiation at normal incidence), as well as the cloud cover are used. From these values it is possible to calculate the solar incidence on an arbitrarily orientated surface, when the distribution of the sky radiation is known. In the previous tsbi program, version 3, the luminance distribution was assumed to be constant and even over the whole hemisphere at completely overcast, but uneven for a completely clear sky, in accordance with measurements in the USA [[Therlkeld, 1962](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)].
+From the weather data in the reference year TRY [3], the values for diffuse sky radiation on horizontal, normal radiation (i.e. direct solar radiation at normal incidence), as well as the cloud cover are used. From these values it is possible to calculate the solar incidence on an arbitrarily orientated surface, when the distribution of the sky radiation is known. In the previous tsbi program, version 3, the luminance distribution was assumed to be constant and even over the whole hemisphere at completely overcast, but uneven for a completely clear sky, in accordance with measurements in the USA [[Therlkeld, 1962](20_28_Literature.md)].
 
-More recent measurements, for example in Denmark, [[Petersen, 1982](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)] have shown that the radiation from the sky deviates from the above mentioned, and new algorithms have thus been developed for the distribution of the sky radiation, not just for the completely overcast and clear sky, but also for a partly overcast sky. In tsbi5, it is possible to select one of the above mentioned algorithms for the solar radiation, namely via the first tab in the simulation menu, since Lund calculates with the previous algorithms, whilst Petersen calculates with the new ones.
+More recent measurements, for example in Denmark, [[Petersen, 1982](20_28_Literature.md)] have shown that the radiation from the sky deviates from the above mentioned, and new algorithms have thus been developed for the distribution of the sky radiation, not just for the completely overcast and clear sky, but also for a partly overcast sky. In tsbi5, it is possible to select one of the above mentioned algorithms for the solar radiation, namely via the first tab in the simulation menu, since Lund calculates with the previous algorithms, whilst Petersen calculates with the new ones.
 
  
 
@@ -114,7 +114,7 @@ where
 
 <h3 id="daylight"><strong>Daylight</strong></h3>
 
-The solar radiation can be converted to daylight when the luminous efficiency of the radiation is known. The three radiations are differentiated, and according to [[Petersen, 1982](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)] are reckoned to have the following average efficiencies:
+The solar radiation can be converted to daylight when the luminous efficiency of the radiation is known. The three radiations are differentiated, and according to [[Petersen, 1982](20_28_Literature.md)] are reckoned to have the following average efficiencies:
 
 Direct sun *K<sub>D</sub>* = 103 lm/W   
 Overcast sky *K<sub>oc</sub>* = 121 lm/W   
@@ -158,7 +158,7 @@ Determination of SF1 for the un-shaded window is normally not critical in connec
 
 *SF2*
 
-SF2 normally gives the largest contribution to the luminance at a point which can "see" the sky. During the calculations it is assumed that, regardless of the sky's condition (overcast or clear), that the luminance distribution is the same as a CIE-overcast sky or uniform cloudy, and SF2 is calculated according to one of these two conditions. The amount of incident light is calculated according to algorithms previously mentioned [[Petersen, 1982](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)].
+SF2 normally gives the largest contribution to the luminance at a point which can "see" the sky. During the calculations it is assumed that, regardless of the sky's condition (overcast or clear), that the luminance distribution is the same as a CIE-overcast sky or uniform cloudy, and SF2 is calculated according to one of these two conditions. The amount of incident light is calculated according to algorithms previously mentioned [[Petersen, 1982](20_28_Literature.md)].
 
 *SF3*
 
@@ -180,7 +180,7 @@ The light which strikes a point consists of two contributions, namely:
 
 The solar light factors can in certain cases be calculated by computer or determined by more or less accurate methods or possibly by measurements in existing buildings. Only the contribution from diffuse sky radiation and reflected light is included in manual methods for daylight factors.
 
-BRS-protractors are the method most used to determine the direct contribution [[Longmore, 1967](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)]. The inter-reflected light contribution (IRC) is normally calculated by means of the BRE split flux method [[Hopkinson, 1966](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur)]. This indicates a calculation expression for the average value of the inter-reflected light contribution to the working surface. The value will be greater at the window zone and less further back in the room, and corrections for determination of the maximum and minimum values can be calculated from the average value by multiplying this by a factor as indicated in the tables f.13.
+BRS-protractors are the method most used to determine the direct contribution [[Longmore, 1967](20_28_Literature.md)]. The inter-reflected light contribution (IRC) is normally calculated by means of the BRE split flux method [[Hopkinson, 1966](20_28_Literature.md)]. This indicates a calculation expression for the average value of the inter-reflected light contribution to the working surface. The value will be greater at the window zone and less further back in the room, and corrections for determination of the maximum and minimum values can be calculated from the average value by multiplying this by a factor as indicated in the tables f.13.
 
 With normally used window sizes and room dimensions, general, indicative values can be given for the solar light factors, but with special facade forms, determination will often be subject to excessive uncertainty, and the solar light factors must be calculated in another way.
 

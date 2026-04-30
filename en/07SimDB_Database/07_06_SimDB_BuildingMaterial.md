@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # SimDB - BuildingMaterial
-As with the building elements, the materials are divided into basic [SfB groups](https://bsim.outseta.com/support/kb/articles/DQ2xwBWV/sfb-i-bsim), each of which is represented by a letter, e.g. "i" for wood. Here too it is important to follow the convention if and when new materials are defined:
+As with the building elements, the materials are divided into basic [SfB groups](../24Miscellaneous/24_39_SfB_in_BSim.md), each of which is represented by a letter, e.g. "i" for wood. Here too it is important to follow the convention if and when new materials are defined:
 
 *   **a** is used for the glazing in WinDoor's (*glazing*)
 

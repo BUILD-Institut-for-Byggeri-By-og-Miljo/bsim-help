@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="../style.css">
 
 # SimView - Printing a model
-An alternative to *ModelList* is the [*ModelDoc*]() model documentation function. *ModelDoc* is called via *View* | *ModelDoc*.
+An alternative to *ModelList* is the [ModelDoc](../24Miscellaneous/24_77_ModelDocumentation.md) model documentation function. *ModelDoc* is called via *View* | *ModelDoc*.
 
 If *ModelList* has been selected from the toolbar or if the user is working in *XSun*, *tsbi5* or *SimLight*, the displayed information can be output directly on a printer.
 
-<img src="./assets/STOP.GIF" width=15> An icon like a stop sign at the beginning of a line indicates that there may be an error or data are missing. Double-clicking or Ctrl-click on the line shifts the focus to the object in question in the hierarchical summary. Right-click the object in the tree to edit or add data. The summary can be updated by clicking the *ModelList* icon again. Click here to see explanations on the [error messages]() in *ModelList*.
+<img src="./assets/STOP.GIF" width=15> An icon like a stop sign at the beginning of a line indicates that there may be an error or data are missing. Double-clicking or Ctrl-click on the line shifts the focus to the object in question in the hierarchical summary. Right-click the object in the tree to edit or add data. The summary can be updated by clicking the *ModelList* icon again. Click [here](../06BSim_Program_structure/06_08_Error_messages.md) to see explanations on the [error messages](../06BSim_Program_structure/06_08_Error_messages.md) in *ModelList*.
 
 It is <u>not</u> possible to carry out a tsbi5 simulation if the *ModelList* is open or closed as an icon.
 
@@ -122,13 +122,12 @@ See also:
 
 *   [Creating a building](../09SimView/09_14_SimView_Creating_a_building.md)
 *   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
-*   [Default constructions](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner)
+*   [Default constructions](10_06_SimView_Default_constructions.md)
 *   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
 *   [Creating thermal zones](10_01_Thermal_Zone_property.md)
 *   [Systems in thermal zones](../11Systems/11_01_Systems.md)
 *   [Editing the model geometry](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
-*   [Solar light factors for WinDoors](https://bsim.outseta.com/support/kb/articles/49EdwkQ7/sollysfaktorer-for-windoors)
+*   [Solar light factors for WinDoors](10_07_Solar_light_factors_for_WinDoors.md)
 *   [Adding an opening or WinDoor](10_08_SimView_Adding_an_opening_or_WinDoor.md)
 *   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
-*   [Climate data and ground](https://bsim.outseta.com/support/kb/articles/vWyP8M9b/klimadata)
-*   [Printing a model](https://bsim.outseta.com/support/kb/articles/z9MKj7m4/udskrift-af-model)
+*   [Climate data and ground](../09SimView/09_10_Climate_data.md)

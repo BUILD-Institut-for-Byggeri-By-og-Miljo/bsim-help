@@ -19,4 +19,4 @@ Clicking the button with the double arrow ">>" opens a dialog box for choosing a
 </figure>
 
 
-[Next >](https://help.bsim.dk/support/kb/articles/BWzd0LQE/projekt-wizard-3) dialog of the project wizard
+[Next >](24_53_Project_Wizard_3.md) dialog of the project wizard

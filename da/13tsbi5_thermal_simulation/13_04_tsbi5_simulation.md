@@ -17,20 +17,20 @@ Det er muligt at ændre rækkefølgen på de termiske zoner ved at trække dem t
 
 Under den interaktive graf der viser udetemperaturen og temperaturen i de termiske zoner findes fire knapper:
 
-*   *Start* iværksætter en simulering for de periode som er givet på [*Options*](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html) fanebladet. <u>NB</u>: Det er <u>ikke</u> muligt at gennemføre en tsbi5 simulering med [*ModelList* ](/09SimView/09_11_Model_information.html)vinduet åbent, eller lukket ned som et ikon.
+*   *Start* iværksætter en simulering for de periode som er givet på [*Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) fanebladet. <u>NB</u>: Det er <u>ikke</u> muligt at gennemføre en tsbi5 simulering med [*ModelList* ](../09SimView/09_11_Model_information.md)vinduet åbent, eller lukket ned som et ikon.
 
-*   *Check* gennemfører et check af syntaksen for den aktuelle model og viser eventuelle manglende informationer i [*ModelList*](/09SimView/09_11_Model_information.html) vinduet. Hvis der ingen fejl vises betyder det ikke at modellen er fejlfri, men blot at der er tilstrækkelig information til at gennemføre en simulering.  
+*   *Check* gennemfører et check af syntaksen for den aktuelle model og viser eventuelle manglende informationer i [*ModelList*](../09SimView/09_11_Model_information.md) vinduet. Hvis der ingen fejl vises betyder det ikke at modellen er fejlfri, men blot at der er tilstrækkelig information til at gennemføre en simulering.  
 Funktionen kaldes også umiddelbart før starten af en simulering. Hvis fugtmodellen er aktiv vises tillige information om den automatiske underinddeling af materialelagene i konstruktionerne.
 
-*   *Stop* knappen kan bruges til at afbryde en kørende simulering inden slutningen (*Last Day*) af den simuleringsperiode som er givet på [*Options* ](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html)fanebladet.
+*   *Stop* knappen kan bruges til at afbryde en kørende simulering inden slutningen (*Last Day*) af den simuleringsperiode som er givet på [*Options* ](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)fanebladet.
 
-*   Når en simulering er afsluttet kan resultaterne gemmes i et nyt navn ved at trykke på *Save Log As* knappen. De gemte resultater kan senere [sammenlignes](/13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html) med andre resultater fra den samme model, udsat for parametervariationer.
+*   Når en simulering er afsluttet kan resultaterne gemmes i et nyt navn ved at trykke på *Save Log As* knappen. De gemte resultater kan senere [sammenlignes](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) med andre resultater fra den samme model, udsat for parametervariationer.
 
 Under knapperne vises information om hvor lang tid der forventes at gå før hele simuleringsperioden er gennemregnet.
 
-Når simuleringen startes gennemføres der først en indsvingning af modellen, og den egentlige simulering starter først når [stabilitetskriteriet](/24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.html) er opfyldt eller det maksimalt tilladelige antal iterationer er nået. Det tilladelige antal iterationer kan angives i menuen [*Edit* | *Options*](/24Miscellaneous/24_16_tsbi5_general_options.html) når tsbi5 er aktiv.
+Når simuleringen startes gennemføres der først en indsvingning af modellen, og den egentlige simulering starter først når [stabilitetskriteriet](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md) er opfyldt eller det maksimalt tilladelige antal iterationer er nået. Det tilladelige antal iterationer kan angives i menuen [*Edit* | *Options*](../24Miscellaneous/24_16_tsbi5_general_options.md) når tsbi5 er aktiv.
 
-Hvis antallet af tilladte iterationer overskrides uden at stabilitetskriteriet er opfyldt vises nedenstående dialog. I dialogen vises til information de parametre som ingår i bestemmelsen af [stabilitetskriteriet](/24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.html).
+Hvis antallet af tilladte iterationer overskrides uden at stabilitetskriteriet er opfyldt vises nedenstående dialog. I dialogen vises til information de parametre som indgår i bestemmelsen af [stabilitetskriteriet](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md).
 
 <figure id="center_img">
 <img src="./assets/stability.gif" alt="">
@@ -41,9 +41,9 @@ Trykkes der "Ja" vil indsvingningen fortsætte, dog kun i en cyklus op til det m
 
 Se også:
 
-*   [Faneblad *Options*](/13tsbi5_thermal_simulation/13_02_tsbi5_options.html)
-*   [Faneblad *Moisture*](/24Miscellaneous/24_60_tsbi5_moisture.html)
-*   [Faneblad *Simulation*](/13tsbi5_thermal_simulation/13_04_tsbi5_simulation.html)
-*   [Faneblad *HeatBalance*](/13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.html)
-*   [Faneblad *Parametres*](/13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.html)
-*   [Faneblad *Tables*](/13tsbi5_thermal_simulation/13_09_tsbi5_Tables.html)
+*   [Faneblad *Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)
+*   [Faneblad *Moisture*](../24Miscellaneous/24_60_tsbi5_moisture.md)
+*   [Faneblad *Simulation*](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
+*   [Faneblad *HeatBalance*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
+*   [Faneblad *Parametres*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)
+*   [Faneblad *Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)

@@ -22,7 +22,7 @@ Tidsangivelsen er inddelt i fire felter, markeret *Month, Week, Day* og *Hour.* 
 
 Der findes tre særlige knapper i dialogen: *Heating* (under *Month)* og *Work* (under *Day* og *Hour).* Den første sætter en markering i fyringssæsonen og de to sidste i arbejdstiden for ugen hhv. dagen.
 
-Fra BSim version 3,2,8,16 er der ind ført et tarif-system på energiforbruget, således at energiforbruget på termisk zone niveau kan opgøres i op til otte forskellige tarif-klasser (Tariff 0 - Tariff 7). Tarif-systemet knytter sig til systemer som er energiforbrugende, dvs. [Heating](/11Systems/11_12_Systems_Heating.html), [Cooling](/11Systems/11_09_Systems_cooling.html), [Equipment](/11Systems/11_19_Systems_Equipment.html), [Lighting](/11Systems/11_03_Systems_Lighting.html) og [Ventilation](/11Systems/11_21_Systems_Ventilation.html).
+Fra BSim version 3,2,8,16 er der ind ført et tarif-system på energiforbruget, således at energiforbruget på termisk zone niveau kan opgøres i op til otte forskellige tarif-klasser (Tariff 0 - Tariff 7). Tarif-systemet knytter sig til systemer som er energiforbrugende, dvs. [Heating](../11Systems/11_12_Systems_Heating.md), [Cooling](../11Systems/11_09_Systems_cooling.md), [Equipment](../11Systems/11_19_Systems_Equipment.md), [Lighting](../11Systems/11_03_Systems_Lighting.md) og [Ventilation](../11Systems/11_21_Systems_Ventilation.md).
 
 Tarif-klassen knyttes til en tidsangivelse:
 
@@ -46,6 +46,6 @@ Under tsbi5/Parameters er der indført en ny parameter-gruppe 'Tariff Distributi
 </figure>
 
 
-Se også [tidsplan](/11Systems/11_02_Systems_schedule.html) (Schedule).
+Se også [tidsplan](../11Systems/11_02_Systems_schedule.md) (Schedule).
 
 

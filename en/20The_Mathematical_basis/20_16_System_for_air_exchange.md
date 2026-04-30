@@ -30,5 +30,5 @@ In order to find the opening fraction of the openings that provides the desired 
 
 When the best possible setting has been found, iterations should be made between mzm and the heat balance. The multi-zone model calculates the air volumes on the basis of temperatures; the heat balance calculates the temperatures on the basis of air volumes.
 
-*   [Implementation of the multi-zone model](https://help.bsim.dk/support/kb/articles/7mawyJ9E/regulering-af-multizone-modellen)
+*   [Implementation of the multi-zone model](20_18_Control_systems_in_the_multi-zone_model.md)
 

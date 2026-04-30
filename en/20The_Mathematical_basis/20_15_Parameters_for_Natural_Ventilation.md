@@ -11,13 +11,13 @@ Any feed-back to the module given at [bsim-support@sbi.dk](mailto:bsim-support@s
 </div>
  
 
-The parameter Cd is central for the simulation of natural ventilation using the multi-zone model (mzm) and can be determined according to [By og Byg (SBi), Direction 202](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) (In Danish). The inlet air handling unit constant Ka are used to calculate the penetration depth for the inlet air through a opening. Ka can be determined according to the [Danvak basic book, chapter 7](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) (In Danish).
+The parameter Cd is central for the simulation of natural ventilation using the multi-zone model (mzm) and can be determined according to [By og Byg (SBi), Direction 202](20_28_Literature.md) (In Danish). The inlet air handling unit constant Ka are used to calculate the penetration depth for the inlet air through a opening. Ka can be determined according to the [Danvak basic book, chapter 7](20_28_Literature.md) (In Danish).
 
  
 
 #### **Cd - Discharge coefficient**
 
-The value can be determined according to [By og Byg (SBi), Direction 202](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur), page 70-71 (typical values range from 0.62 to 0.70):
+The value can be determined according to [By og Byg (SBi), Direction 202](20_28_Literature.md), page 70-71 (typical values range from 0.62 to 0.70):
 
  
 
@@ -67,13 +67,13 @@ $$ C_d = \frac{1.0}{\sqrt{\frac{2 \cdot 11}{1.2}}} = 0.23 $$
 
 Inlet openings, where the air passes by a radiator, have the same average air velocity at the same pressure difference as outlet openings and thus the same discharge coefficient.
 
-Read more in [By og Byg (SBi) Direction 202](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) (In Danish).
+Read more in [By og Byg (SBi) Direction 202](20_28_Literature.md) (In Danish).
 
  
 
 #### **Inlet air handling unit constant Ka**
 
-The value is determined according to [Danvak basic book, chapter 7](https://help.bsim.dk/support/kb/articles/A93zbqQ0/litteratur) (In Danish) where further explanations and constants can be found in the chapter *Luftfordeling i rum (Air distribution in rooms)* section *Luftstråler (Air beams).* The inlet air handling unit constant Ka are used to calculate the penetration depth for the inlet air through a opening.
+The value is determined according to [Danvak basic book, chapter 7](20_28_Literature.md) (In Danish) where further explanations and constants can be found in the chapter *Luftfordeling i rum (Air distribution in rooms)* section *Luftstråler (Air beams).* The inlet air handling unit constant Ka are used to calculate the penetration depth for the inlet air through a opening.
 
 | **Opening** | **Conditions** | **Ka** |
 |------------|---------------|--------|
@@ -81,5 +81,5 @@ The value is determined according to [Danvak basic book, chapter 7](https://help
 | Rectangular<br>distance x > 6 multiplied by width | width/height = 1<br>width/height = 5<br>width/height = 10<br>width/height = 20 | 9,2<br>8,8<br>8,5<br>7,9 |
 
 
-Read more in [Danvak basic book](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur) (In Danish).
+Read more in [Danvak basic book](20_28_Literature.md) (In Danish).
 

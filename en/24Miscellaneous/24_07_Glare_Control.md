@@ -3,7 +3,7 @@
 # Glare Control
 Often it is anticipated that solar shadings are controlled according to the solar incidence or the temperature in the room. Several research surveys do though indicate that the user rather control the shading according to glare from the daylight, e.g. from direct solar incidence or high sky illuminance. Research do also show that the user often let the shading remain closed until the daylight level in the room is inadequate for the actual task. The control type GlareCtrl aims at minimizing the visual discomfort both from glare and from too little daylight. The two criteria for discomfort are expressed by an index giving the probability for a user to endeavor visual discomfort, VDP (<a href="#visual-discomfort-high-lighting">Visual Discomfort Probability</a>).
 
-The control is made according to the daylight level in 2 [reference points](https://bsim.outseta.com/support/kb/articles/79O3J49E/referencepunkt), one for the location of the eye and one for a work-plane.
+The control is made according to the daylight level in 2 [reference points](../10Thermal_zones/10_03_Reference_point.md), one for the location of the eye and one for a work-plane.
 
 <figure id="center_img">
 <img src="./assets/glare_fig1.gif" alt="">
@@ -13,7 +13,7 @@ The control is made according to the daylight level in 2 [reference points](http
 <br>
 
 <h4 id="visual-discomfort-high-lighting"><strong>Visual discomfort probability due to high lighting level</strong></h4>  
-As basic for calculating the visual discomfort due to glare, a simplified expression for an equation developed in the EU research project[ ECCO-Build](https://vbn.aau.dk/ws/portalfiles/portal/691269896/sbi-2011-15.pdf.pdf) is being used. The simplified formula, expressing the probability that a person will experience discomfort from the lighting level at the eye is:
+As basic for calculating the visual discomfort due to glare, a simplified expression for an equation developed in the EU research project [ECCO-Build](https://vbn.aau.dk/ws/portalfiles/portal/691269896/sbi-2011-15.pdf.pdf) is being used. The simplified formula, expressing the probability that a person will experience discomfort from the lighting level at the eye is:
 
 E<sub>v</sub> < 500:                   VGDP = 0,2  
 E<sub>v</sub> > 13.000:               VGDP = 1  
@@ -32,7 +32,7 @@ The expression, shown graphically in the figure below, illustrate that there are
 
 #### **Visual discomfort probability due to low lighting levels at the working plane**
 
-The probability to experience visual discomfort due to glare must be evaluated in combination with the probability for visual discomfort due to low lighting levels on the working plane. An expression for experienced visual discomfort due to low lighting levels on the working plans is developed by [Lindelöf](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur):
+The probability to experience visual discomfort due to glare must be evaluated in combination with the probability for visual discomfort due to low lighting levels on the working plane. An expression for experienced visual discomfort due to low lighting levels on the working plans is developed by [Lindelöf](../20The_Mathematical_basis/20_28_Literature.md):
 
 E<sub>h</sub> < 10 (lux):                VGDP = 1,0
 

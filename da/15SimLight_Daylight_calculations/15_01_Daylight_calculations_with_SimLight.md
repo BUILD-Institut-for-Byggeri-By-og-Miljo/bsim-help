@@ -27,6 +27,6 @@ Det er muligt at beregne dagslysforholdene i et punkt eller i et plan, som kan s
 </div>
  
 
-*   [Dagslysberegning i et punkt](/15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.html)
+*   [Dagslysberegning i et punkt](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md)
 
-*   [Dagslysberegning i et plan](/15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.html)
+*   [Dagslysberegning i et plan](../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.md)

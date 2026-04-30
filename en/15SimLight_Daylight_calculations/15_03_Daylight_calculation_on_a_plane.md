@@ -46,5 +46,5 @@ Various assumptions are made for the calculations:
 
 See also:
 
-*   [Daylight calculation at a point](https://help.bsim.dk/support/kb/articles/DQ2xz6WV/dagslysberegning-i-et-punkt)
+*   [Daylight calculation at a point](15_02_Daylight_calculation_at_a_point.md)
 

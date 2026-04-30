@@ -4,7 +4,7 @@
 
 #### **Modification of building model**
 
-The example carries on with the building description and data model described in the examples [EX1](https://bsim.outseta.com/support/kb/articles/ZmNrg7m2/eksempel-1) and [EX2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2). It is assumed that data of these models have been saved as a basis for this continuation. The building model is complemented with data for the following conditions:
+The example carries on with the building description and data model described in the examples [EX1](21_03_Example_1.md) and [EX2](21_04_Example_2.md). It is assumed that data of these models have been saved as a basis for this continuation. The building model is complemented with data for the following conditions:
 
 *   shadows from the surroundings
 
@@ -14,13 +14,13 @@ The example carries on with the building description and data model described in
 
 *   ventilation systems
 
-On the basis of the completed building model, a one year's simulation is carried out, and the energy and indoor climatic conditions are compared with the results from [example 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2).
+On the basis of the completed building model, a one year's simulation is carried out, and the energy and indoor climatic conditions are compared with the results from [example 2](21_04_Example_2.md).
 
  
 
 #### **Read existing model and copy to a new name**
 
-Fetch the building model EX2 into BSim and save under the name "EX3" as described in [example 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2). The new model (the file EX3.DIS) is then used for further extension of the building model.
+Fetch the building model EX2 into BSim and save under the name "EX3" as described in [example 2](21_04_Example_2.md). The new model (the file EX3.DIS) is then used for further extension of the building model.
 
  
 
@@ -57,7 +57,7 @@ This creates a new building in the model. The new building will cast shadows on 
 
 #### **Selection of another type of glazing**
 
-In order to examine the significance of the thermal resistance of the glazing on the overall heat requirement, the type of pane used is to be replaced by a super low energy pane. The [database](https://bsim.outseta.com/support/kb/articles/y9q842QA/databasen-simdb) is opened (click the database-button in the job list or click the *SimDB* icon in the [toolbar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken)) and the entry *External* is selected in the *BuildingElement* part of the database. The entry "*SuperLavE-Kr i træramme*" is selected. The SfB-number is selected and drawn to those windows that should have the new type, and the SfB-number is released here. It is also possible to use the *Defaults* entry of the *SimView* menu, as described in [example 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2).
+In order to examine the significance of the thermal resistance of the glazing on the overall heat requirement, the type of pane used is to be replaced by a super low energy pane. The [database](../07SimDB_Database/07_01_The_SimDB_database.md) is opened (click the database-button in the job list or click the *SimDB* icon in the [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md)) and the entry *External* is selected in the *BuildingElement* part of the database. The entry "*SuperLavE-Kr i træramme*" is selected. The SfB-number is selected and drawn to those windows that should have the new type, and the SfB-number is released here. It is also possible to use the *Defaults* entry of the *SimView* menu, as described in [example 2](./21_04_Example_2.md).
 
  
 
@@ -111,7 +111,7 @@ In this case the value 0.8 (kW) is entered. The total window pane area for the t
 
 This means: First the program checks if the solar radiation at the internal face of the WinDoor exceeds the limit of 180 W/m². If this is the case, the solar shading comes into use, depending on the *Control Form* given at the *ShadingCtrl* tab. Then the program check if the operative temperature in the thermal zone is above 24,5 °C and if the total solar incidence through all WinDoors in the thermal zone exceeds 800 W. If this is the case the solar shading comes into use, depending on the *Control Form*, in this case just so much (as *Continuous* control is selected) that the limit - if possible - for the operative temperature is maintained.
 
-The last input field, *SF4 shading*, defines the "solar light factor" for the window, when the solar shading is completely drawn. The solar light factor is defined for a given reference point in the room, and expresses the ratio between the daylight illuminance level at the reference point and the simultaneous illuminance outdoors on the surface of the facade, cf [Algorithms for calculation of solar radiation and daylight](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys).
+The last input field, *SF4 shading*, defines the "solar light factor" for the window, when the solar shading is completely drawn. The solar light factor is defined for a given reference point in the room, and expresses the ratio between the daylight illuminance level at the reference point and the simultaneous illuminance outdoors on the surface of the facade, cf [Algorithms for calculation of solar radiation and daylight](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
 For unshaded windows, the solar light factor will normally vary considerably through the room, from a magnitude of 0.20 - 0.15 close to the window to a magnitude of 0.02 - 0.005 at the back of the room. The factor SF4 for a shaded window is defined for a "window" with transmittance 1, as the reduction of the transmittance for window pane and solar shading is accounted for in the data for window pane and shading, respectively.
 
@@ -119,7 +119,7 @@ Note that whilst the illuminance at any point in the room is reduced proportiona
 
 When the solar shading is partly drawn for the window, the daylight illuminance at a given point is calculated as a weighted value of the illuminance for portion af the window which is shaded and the illuminance of the other, unshaded part of the window.
 
-In the present example, it has been decided to let the artificial lighting be controlled simply according to the solar radiation through the windows (cf. [example 2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2)) and the value of the solar light factor [SF4](https://help.bsim.dk/support/kb/articles/BWzdaPQE/algoritmer-til-beregning-af-solstraling-og-dagslys) will therefore not be used. The general principle is, however, that all parameters for components and systems used must be assigned a value, so here the value 0 is entered.
+In the present example, it has been decided to let the artificial lighting be controlled simply according to the solar radiation through the windows (cf. [example 2](21_04_Example_2.md)) and the value of the solar light factor [SF4](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md) will therefore not be used. The general principle is, however, that all parameters for components and systems used must be assigned a value, so here the value 0 is entered.
 
  
 
@@ -220,7 +220,7 @@ The last parameter in the dialog *Air Hum*. is only of significance for systems 
 
 The defined control form is selected by clicking the *Apply* button.
 
-A description of the different control types is given in the section entitled [Ventilation systems](https://bsim.outseta.com/support/kb/articles/OW4N5AQg/ventilation-system).
+A description of the different control types is given in the section entitled [Ventilation systems](../11Systems/11_21_Systems_Ventilation.md).
 
  
 
@@ -232,13 +232,13 @@ All the data for the building have now been entered, and the model must therefor
 
 #### **Simulation**
 
-A simulation is now to be undertaken in order to compare the indoor climate and energy consumption for the new model (EKS3) with that of the old model ([EX2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2)).
+A simulation is now to be undertaken in order to compare the indoor climate and energy consumption for the new model (EKS3) with that of the old model ([EX2](21_04_Example_2.md)).
 
  
 
 **Selection of parameters in "hour-log"**
 
-By copying the model from [EX2](https://bsim.outseta.com/support/kb/articles/7mawgK9E/eksempel-2) over to EX3 (at the beginning of example 3) in addition to copying data for the current building model (the file EX3.DIS) also information (data) regarding hour-log, parameter lists etc. were copied into a new file named EKS3.G97.
+By copying the model from [EX2](21_04_Example_2.md) over to EX3 (at the beginning of example 3) in addition to copying data for the current building model (the file EX3.DIS) also information (data) regarding hour-log, parameter lists etc. were copied into a new file named EKS3.G97.
 
 As the simulation period is already defined (from [EX2](As%20the simulation period is already defined (from EX2), simulation can be started by clicking the Start-button at the Simulation tab of tsbi5. )), simulation can be started by clicking the *Start*-button at the Simulation tab of tsbi5.
 
@@ -257,7 +257,7 @@ The best overall view of the results of the calculations is normally obtained by
 
 Select "period" in the *Time scale* selection-menu (the first selection-menu counted from left), to obtain the heat balance for the whole simulation period, in this case the whole year. An energy balance will be shown, in which all contributions to the balance are indicated for the selected period. The statistics also show for how many hours of the year the operative temperature is below 20 °C and how many hours it exceeds 21, 24 respectively 26 °C (standard values for the temperature limits).
 
-An overall view of the indoor temperature sequence can be obtained by selecting a "graphic" printout of the operative temperature *OpTmp* via the [*Tables* ](https://help.bsim.dk/support/kb/articles/BWzdLlQE/tsbi5---tables)tab.
+An overall view of the indoor temperature sequence can be obtained by selecting a "graphic" printout of the operative temperature *OpTmp* via the [*Tables* ](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)tab.
 
  
 

@@ -70,4 +70,4 @@ $$ d[1]+ = \left( h[1] + h_{rad,out} \right) \cdot t_{out} + h_{rad,sky} \cdot (
 With h[1] calculated as in the section "Outdoor surface convection coefficient dependent on wind speed".
 
 See also
-*   Calculation of [the sky temperature](https://help.bsim.dk/support/kb/articles/wQXx3oQK/himmeltemperatur).
+*   Calculation of [the sky temperature](20_10_Sky_temperature.md).

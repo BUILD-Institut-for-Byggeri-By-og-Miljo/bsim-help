@@ -13,6 +13,6 @@
 </figure>
 
 
-efault constructions attached to faces can be removed by deselecting them in the dialog box for defining default constructions and highlighting the constructions in the Insert Default Options dialog box.
+Default constructions attached to faces can be removed by deselecting them in the dialog box for defining default constructions and highlighting the constructions in the Insert Default Options dialog box.
 
 If selected, the thickness of the constructions is now displayed in the geometric view. Please note that the thickness of a construction is plotted from the system lines inwards in the case of external walls and symmetrically around the system lines in the case of internal walls.

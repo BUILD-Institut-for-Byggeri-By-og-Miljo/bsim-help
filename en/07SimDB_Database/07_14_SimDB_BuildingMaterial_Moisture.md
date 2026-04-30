@@ -5,7 +5,7 @@ The tab Moisture contains information about the moisture technical properties of
 
 <div id="gray_background">
 
-If a new material is created in a database containing information about moisture transport in materials the moisture transport data <u>must</u> be given, even if a moisture transport simulation is not to be performed. [See limitations](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begransninger).
+If a new material is created in a database containing information about moisture transport in materials the moisture transport data <u>must</u> be given, even if a moisture transport simulation is not to be performed. [See limitations](../05Introduction/05_05_Limitations.md).
 
 </div>
 
@@ -20,13 +20,13 @@ On tab *Moisture* the moisture properties of a building material is given. In th
 
 <div id="gray_background">
 
-Lambda is the heat transfer coefficient for the material which is being used when the "Moisture Transport" option is turned ON at the Options tab of the simulations with tsbi5. See also "[Thermal](https://help.bsim.dk/support/kb/articles/y9q8b2QA/simdb---buildingmaterial-thermal)".
+Lambda is the heat transfer coefficient for the material which is being used when the "Moisture Transport" option is turned ON at the Options tab of the simulations with tsbi5. See also "[Thermal](07_12_SimDB_BuildingMaterial_Thermal.md)".
 
 </div>
 
 **Only the value of Lambda is used for the time being, together with tables defined under Absorption, Desorption and DeltaRh.**
 
-*Absorption/Desorption*: If you click the Absorption (Desorption) button, a [table is opened](https://help.bsim.dk/support/kb/articles/y9gBGVQM/sorptiondesorption). Here you can input coupled values of relative humidity (-) and moisture content (kg/kg) for points on the absorption (desorption) curve for each material. The first point is always assumed to be (0, 0), and can thus be omitted. The values must be typed in with increasing values for the relative humidity.
+*Absorption/Desorption*: If you click the Absorption (Desorption) button, a [table is opened](../24Miscellaneous/24_43_Sorption_desorption.md). Here you can input coupled values of relative humidity (-) and moisture content (kg/kg) for points on the absorption (desorption) curve for each material. The first point is always assumed to be (0, 0), and can thus be omitted. The values must be typed in with increasing values for the relative humidity.
 
 *DeltaRH*: Clicking the *DeltaRH* button a table is opened. Here you can input value(s) for the material curve under hygroscopic conditions as coupled values of relative humidity (-) and moisture permeability (kg/m s Pa).
 
@@ -34,10 +34,10 @@ Lambda is the heat transfer coefficient for the material which is being used whe
 
 See also:
 
-*   [Tab Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
-*   [Tab Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
-*   [Tab Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
-*   [Tab UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
-*   [Tab Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
-*   [Tab Finish](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish)
-*   [Constructing a model](https://help.bsim.dk/support/kb/articles/y9q8azQA/opbygning-af-model)
+*   [Tab Material](07_11_SimDB_BuildingMaterial_Material.md)
+*   [Tab Moisture](07_14_SimDB_BuildingMaterial_Moisture.md)
+*   [Tab Glazing](07_10_SimDB_BuildingMaterial_Glazing.md)
+*   [Tab UserDefined](07_16_SimDB_BuildingMaterial_UserDefined.md)
+*   [Tab Frame](07_09_SimDB_BuildingMaterial_Frame.md)
+*   [Tab Finish](07_08_SimDB_BuildingMaterial_Finish.md)
+*   [Constructing a model](../21Getting_started_with_BSim/21_01_Constructing_a_model.md)

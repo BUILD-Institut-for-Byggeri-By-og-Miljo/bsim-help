@@ -88,4 +88,4 @@ Hvis man skulle fortryde ændringerne af grafens udseende, er det muligt at vend
 
 Se også:
 
-*   [Wizard](/13tsbi5_thermal_simulation/13_14_Chart_Wizard.html)
+*   [Wizard](../13tsbi5_thermal_simulation/13_14_Chart_Wizard.md)

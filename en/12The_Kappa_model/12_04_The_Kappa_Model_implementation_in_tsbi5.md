@@ -25,7 +25,7 @@ If there is mechanical extraction only, the temperature of the outdoor air shoul
 
 In practice a contribution will also be made by infiltration, particularly in the case of tall, leaky buildings. The temperature of this air flow will be somewhere between the temperature of the outdoor air and the room air following passage and heat exchange through cracks. This contribution to *T<sub>0</sub>*, is being ignored for the time being, but it ought to be included in the long term.
 
-Since the temperature of the exhaust air *T<sub>R</sub>* is dependent on, among other things, the convective heat flow along all internal surfaces – which in turn is dependent on the vertical temperature progression – an iterative calculation will be necessary. First *F<sub>konv</sub>*. is calculated using equation [(3)](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen---modelbeskrivelse) without taking account of the temperature gradient, then the temperature *T* is determined as a function of the height y using equation [(7)](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen---modelbeskrivelse), with *H*, *κ* and *T<sub>0</sub>* already being known. This makes it possible to carry out a corrected calculation of *F<sub>konv</sub>*, etc. If complete mixing is reckoned with, this procedure is unnecessary, which is why it is skipped in the software when κ = 1.0 to reduce the calculation time.
+Since the temperature of the exhaust air *T<sub>R</sub>* is dependent on, among other things, the convective heat flow along all internal surfaces – which in turn is dependent on the vertical temperature progression – an iterative calculation will be necessary. First *F<sub>konv</sub>*. is calculated using equation [(3)](12_03_The_Kappa_Model_Model_description.md) without taking account of the temperature gradient, then the temperature *T* is determined as a function of the height y using equation [(7)](12_03_The_Kappa_Model_Model_description.md), with *H*, *κ* and *T<sub>0</sub>* already being known. This makes it possible to carry out a corrected calculation of *F<sub>konv</sub>*, etc. If complete mixing is reckoned with, this procedure is unnecessary, which is why it is skipped in the software when κ = 1.0 to reduce the calculation time.
 
  
 
@@ -65,9 +65,9 @@ If a calculation results in the exhaust temperature being less than the supply t
 
 See also:
 
-*   [Input in SimView](https://help.bsim.dk/support/kb/articles/yW1xGP9B/kappa-modellen-inddata)
-*   [Background](https://help.bsim.dk/support/kb/articles/MQvEaomY/baggrund)
-*   [Model description](https://help.bsim.dk/support/kb/articles/yWogRdWD/kappa-modellen---modelbeskrivelse)
-*   [References](https://help.bsim.dk/support/kb/articles/gWKDo0mp/kappa-modellen---referencer)
-*   [Nomenclature](https://help.bsim.dk/support/kb/articles/VmAOoa9a/kappa-modellen---nomenklatur)
+*   [Input in SimView](12_05_The_Kappa_Model_input_data.md)
+*   [Background](12_02_Background.md)
+*   [Model description](12_03_The_Kappa_Model_Model_description.md)
+*   [References](12_07_The_Kappa_Model_References.md)
+*   [Nomenclature](12_06_The_Kappa_Model_Nomenclature.md)
 

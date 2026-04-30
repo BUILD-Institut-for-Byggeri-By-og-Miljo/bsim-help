@@ -17,4 +17,4 @@ In the *Construction Property* dialog an number of information on the actual con
 
 *   Finally the name of the faces on each side of the construction are shown.
 
-See also [Cold Bridges](https://help.bsim.dk/support/kb/articles/NmdK5OW0/kuldebroer) along the edges of a construction.
+See also [Cold Bridges](09_08_Thermal_bridges.md) along the edges of a construction.

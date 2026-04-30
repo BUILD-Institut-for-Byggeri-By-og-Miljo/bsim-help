@@ -347,5 +347,7 @@
 * [Windoor Systems](24Miscellaneous/24_73_Windoor_Systems.md)
 * [Control strategy for floor heating and cooling](24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md)
 * [Model information](24Miscellaneous/24_75_Model_information.md)
+* [ASHRAE](24Miscellaneous/24_76_ASHRAE.md)
+* [Model Documentation](24Miscellaneous/24_77_ModelDocumentation.md)
 
 ----

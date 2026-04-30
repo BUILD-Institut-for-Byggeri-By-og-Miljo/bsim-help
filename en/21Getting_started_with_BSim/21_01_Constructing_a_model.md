@@ -11,7 +11,7 @@ To be effective, learning requires more than just access to a PC, some documenta
 
 There are a number of golden rules that should be observed when constructing models for simulating the thermal conditions in buildings:
 
-*   Spend the necessary [time](https://help.bsim.dk/support/kb/articles/dQG2Okm4/tidsforbrug) gathering knowledge (drawings, materials data, loads, etc.) of the building.
+*   Spend the necessary [time](../24Miscellaneous/24_46_Time_consumption.md) gathering knowledge (drawings, materials data, loads, etc.) of the building.
 
 *   Think about the problem and the questions to be answered by the simulation in advance.
 
@@ -19,69 +19,69 @@ There are a number of golden rules that should be observed when constructing mod
 
 *   Assess whether the results are probable on a continuous basis (while constructing the model).
 
-In the section with [learning examples](https://help.bsim.dk/support/kb/articles/BWzd7LQE/indlaringseksempler) three examples are found. These examples guides the first-time user through a simple creation of a building geometry, over addition of systems to the model and the first simulation with the tsbi5 program.
+In the section with [learning examples](21_02_Learning_examples.md) three examples are found. These examples guides the first-time user through a simple creation of a building geometry, over addition of systems to the model and the first simulation with the tsbi5 program.
 
-Before using the program it is recommended to get aquatinted with the [structure of BSim](https://bsim.outseta.com/support/kb/articles/wmjnBKmV/strukturen-i-bsim).
+Before using the program it is recommended to get aquatinted with the [structure of BSim](../06BSim_Program_structure/06_01_BSim_Program_structure.md).
 
-*   A number of [short-cuts](https://bsim.outseta.com/support/kb/articles/vWyPMJ9b/genvejstaster) exists in *BSim*.
+*   A number of [short-cuts](../05Introduction/05_06_Shortcut_keys.md) exists in *BSim*.
 
-*   Models can be edited using the [menu](https://help.bsim.dk/support/kb/articles/49EdrJQ7/simview---menu) in *SimView*.
+*   Models can be edited using the [menu](../06BSim_Program_structure/06_06_SimView_Menu.md) in *SimView*.
 
-*   The [mouse](https://bsim.outseta.com/support/kb/articles/DQ2xp4WV/operationer-med-musen-i-simview) is a tool that can be used in different ways within *SimView*.
+*   The [mouse](../09SimView/09_02_Mouse_operations_in_SimView.md) is a tool that can be used in different ways within *SimView*.
 
-*   At the top of the user interface there is a [toolbar](https://help.bsim.dk/support/kb/articles/E9Lw5nQw/simview---varktojsbjalken) giving easy access to different functions in *BSim*.
+*   At the top of the user interface there is a [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md) giving easy access to different functions in *BSim*.
 
-*   The [menus](https://bsim.outseta.com/support/kb/articles/pWrnYLWn/programmenuer-i-bsim) in BSim is interactive and **only** those entries valid for the actual selections or location are accessible.
+*   The [menus](../06BSim_Program_structure/06_04_Program_menus_in_BSim.md) in BSim is interactive and **only** those entries valid for the actual selections or location are accessible.
 
 The following ordered list of links to different pages in the user's guide runs through a typical work sequence from the start of a project, through editing the model geometry, to final simulation using *tsbi5*.
 
 The BSim program to which the specified description belongs is indicated at the end of each line in *italics*.
 
-*   A new project is created with a *[wizard](https://help.bsim.dk/support/kb/articles/yWogPPWD/model-wizard---oprette-en-ny-model)*.
+*   A new project is created with a *[wizard](../09SimView/09_12_Model_wizard_creating_a_new_model.md)*.
 
-*   A [building model](https://help.bsim.dk/support/kb/articles/yW1x059B/simview---oprette-en-bygning) is created in the project with *SimView*.
+*   A [building model](../09SimView/09_13_Creating_a_building.md) is created in the project with *SimView*.
 
-*   More [spaces](https://help.bsim.dk/support/kb/articles/gWKDMlmp/simview---oprette-et-rum) are added to the model in *SimView*.
+*   More [spaces](../09SimView/09_14_Creating_a_space.md) are added to the model in *SimView*.
 
-*   The model geometry is [edited](https://help.bsim.dk/support/kb/articles/L9PwMrQJ/simview---redigere-modelgeometrien) with *SimView*.
+*   The model geometry is [edited](../09SimView/09_15_Editing_the_model_geometry.md) with *SimView*.
 
-*   [Default constructions](https://bsim.outseta.com/support/kb/articles/y9gBKGQM/standardkonstruktioner) are attached from the database *SimDB*.
+*   [Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md) are attached from the database *SimDB*.
 
-*   [New materials](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial) are created for use in new constructions in the database *SimDB*.
+*   [New materials](../07SimDB_Database/07_06_SimDB_BuildingMaterial.md) are created for use in new constructions in the database *SimDB*.
 
-*   [New constructions](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement) are created from the materials in the database *SimDB*.
+*   [New constructions](../07SimDB_Database/07_02_SimDB_BuildingElement.md) are created from the materials in the database *SimDB*.
 
-*   Some [default constructions are overwritten](https://help.bsim.dk/support/kb/articles/rmklGkQg/simview---ikke-standard-konstruktioner) with constructions from *SimDB*.
+*   Some [default constructions are overwritten](../09SimView/09_09_SimView_Non_default_constructions.md) with constructions from *SimDB*.
 
-*   [Windows, doors and openings in the faces are added](https://help.bsim.dk/support/kb/articles/A93z8lQ0/tilfoje-abning-eller-windoor) in *SimView*.
+*   [Windows, doors and openings in the faces are added](../09SimView/09_05_Adding_windows_doors_and_openings_WinDoor.md) in *SimView*.
 
 *   Systems are added to the windows.
-    *   [Shading](https://help.bsim.dk/support/kb/articles/7maw8X9E/systemer-shading)
-    *   [Shutters](https://help.bsim.dk/support/kb/articles/ZmNrMxm2/systemer-shutter)
+    *   [Shading](../11Systems/11_23_Systems_Shading.md)
+    *   [Shutters](../11Systems/11_24_Systems_Shutters.md)
 
-*   A face is [filled](https://help.bsim.dk/support/kb/articles/xmer2wQV/simview---insert-windoor) with a window or opening in *SimView*.
+*   A face is [filled](../24Miscellaneous/24_30_SimView_Insert_WinDoor.md)  with a window or opening in *SimView*.
 
-*   [Shadows from the surroundings](https://bsim.outseta.com/support/kb/articles/E9LwJGQw/skygger-fra-omgivelser) are added to the model in *SimView*.
+*   [Shadows from the surroundings](../10Thermal_zones/10_05_Shadows_from_the_surroundings.md) are added to the model in *SimView*.
 
-*   Incident solar radiation in the model is simulated in [*XSun*](https://bsim.outseta.com/support/kb/articles/amRGdMQJ/analyse-af-solindfald-med-xsun).
+*   Incident solar radiation in the model is simulated in [*XSun*](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md).
 
-*   The [daylight conditions](https://bsim.outseta.com/support/kb/articles/LmJvYAmP/dagslysberegninger-med-simlight) in a space are calculated with *SimLight*.
+*   The [daylight conditions](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md) in a space are calculated with *SimLight*.
 
-*   [Thermal zones are created](https://help.bsim.dk/support/kb/articles/rm0x8ZmX/termisk-zone---egenskaber) for simulation in *tsbi5*.
+*   [Thermal zones are created](../10Thermal_zones/10_01_Thermal_Zone_property.md) for simulation in *tsbi5*.
 
-*   [The spaces in the model are attached to the thermal zones](https://help.bsim.dk/support/kb/articles/amRGJpQJ/tilfoje-rum-til-termiske-zoner) in *SimView*.
+*   [The spaces in the model are attached to the thermal zones](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md) in *SimView*.
 
-*   [Systems are added](https://help.bsim.dk/support/kb/articles/amRGrOQJ/simview---systemer) to the thermal zones in *SimView*.
-    *   [Cooling](https://help.bsim.dk/support/kb/articles/y9gBNGQM/systemer-cooling)
-    *   [Equipment](https://help.bsim.dk/support/kb/articles/vW5a8pW4/systemer-equipment)
-    *   [Heating](https://help.bsim.dk/support/kb/articles/wmjnq7mV/systemer-heating)
-    *   [Infiltration](https://help.bsim.dk/support/kb/articles/Rm8JRZ94/systemer-infiltration)
-    *   [Lighting](https://help.bsim.dk/support/kb/articles/wQXxbnQK/systemer-lighting)
-    *   [Mixing](https://help.bsim.dk/support/kb/articles/Rm8JEd94/systemer-mixing) (air transfer between thermal zones)
-    *   [Moisture](https://help.bsim.dk/support/kb/articles/xmere5QV/systemer-moisture)
-    *   [People](https://help.bsim.dk/support/kb/articles/XQYdjgmP/systemer-persons)
-    *   [Ventilation](https://help.bsim.dk/support/kb/articles/OW4N5AQg/systemer-ventilation)
-    *   [Venting](https://help.bsim.dk/support/kb/articles/gWKDJlmp/systemer-venting)
-*   [Simulation](https://bsim.outseta.com/support/kb/articles/A93z0lQ0/tsbi5) with tsbi5.
+*   [Systems are added](../11Systems/11_01_Systems.md) to the thermal zones in *SimView*.
+    *   [Cooling](../11Systems/11_09_Systems_cooling.md)
+    *   [Equipment](../11Systems/11_19_Systems_Equipment.md)
+    *   [Heating](../11Systems/11_12_Systems_Heating.md)
+    *   [Infiltration](../11Systems/11_08_Systems_Infiltration.md)
+    *   [Lighting](../11Systems/11_03_Systems_Lighting.md)
+    *   [Mixing](../11Systems/11_10_systems_mixing.md) (air transfer between thermal zones)
+    *   [Moisture](../11Systems/11_05_Systems_Moisture.md)
+    *   [People](../11Systems/11_13_Systems_Persons.md)
+    *   [Ventilation](../11Systems/11_21_Systems_Ventilation.md)
+    *   [Venting](../11Systems/11_18_Systems_Venting.md)
+*   [Simulation](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md) with tsbi5.
 
-*   The [graphical presentation of the results](https://help.bsim.dk/support/kb/articles/aWxnxAQV/andring-af-den-grafiske-afbildning-af-resultater) can be modified and the graphics can be [imported](https://bsim.outseta.com/support/kb/articles/nmDBo29y/bsim-og-andre-windows-programmer) into other Windows programs.
+*   The [graphical presentation of the results](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) can be modified and the graphics can be [imported](../19BSim_and_other_windows_programs/19_01_BSim_and_other_Windows_programs.md) into other Windows programs.

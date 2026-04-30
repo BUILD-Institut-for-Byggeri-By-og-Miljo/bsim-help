@@ -27,7 +27,7 @@ where:
 
 *Set Point* indicates the set point for the room thermostat in the case of cooling need.
 
-*Design Temp* gives the zone temperature at which the cooling unit reaches its maximum power, [*Max Power*](https://help.bsim.dk/support/kb/articles/y9gBNGQM/cooling-system).
+*Design Temp* gives the zone temperature at which the cooling unit reaches its maximum power, [*Max Power*](../11Systems/11_09_Systems_cooling.md).
 
 *T Cool* gives the average temperature of the cooling fluid.
 

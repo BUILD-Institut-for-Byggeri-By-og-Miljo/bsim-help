@@ -4,8 +4,8 @@
 
 The following systems can be associated with any WinDoor:
 
-*   [*Regulation* (natural ventilation)](https://help.bsim.dk/support/kb/articles/y9gB57QM/regulation)
+*   [*Regulation* (natural ventilation)](24_62_Regulation.md)
 
-*   [*Shutter* (insulating night shutters)](https://help.bsim.dk/support/kb/articles/ZmNrMxm2/shutter-system)
+*   [*Shutter* (insulating night shutters)](../11Systems/11_15_Systems_shutter.md)
 
-*   [*SolarShading* (solar shading to prevent overheating)](https://help.bsim.dk/support/kb/articles/7maw8X9E/shading-system)
+*   [*SolarShading* (solar shading to prevent overheating)](../11Systems/11_16_Systems_shading.md)

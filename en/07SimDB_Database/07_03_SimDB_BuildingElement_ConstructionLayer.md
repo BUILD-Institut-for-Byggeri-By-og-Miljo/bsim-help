@@ -3,11 +3,11 @@
 # SimDB - BuildingElement, ConstructionLayer
 The second tab contains information on the individual layers, which make up a building element. It has the following input fields:
 
-*   *Type*: Building materials can be selected from the various basic [SfB groups](https://bsim.outseta.com/support/kb/articles/DQ2xwBWV/sfb-i-bsim) (insulation materials are in the *Inorganic materials* group, for example) as defined in the *BuildingMaterial* part of the database.
+*   *Type*: Building materials can be selected from the various basic [SfB groups](../24Miscellaneous/24_39_SfB_in_BSim.md) (insulation materials are in the *Inorganic materials* group, for example) as defined in the *BuildingMaterial* part of the database.
 
 *   *ConstructionMaterial*: The construction material is chosen from a list containing materials of the type selected in the *Type field*.
 
-*   Three unnamed fields with a different meaning depending on the type of building element – [WinDoor](https://bsim.outseta.com/support/kb/articles/49EdNJQ7/materialelag-for-windoor) or other elements.
+*   Three unnamed fields with a different meaning depending on the type of building element – [WinDoor](07_05_Material_layers_for_BuildingConstruction_WinDoor.md) or other elements.
 
     *   Field 1 (grey) indicates which material entry (SfB) that defines the current material layer.
 
@@ -17,7 +17,7 @@ The second tab contains information on the individual layers, which make up a bu
 
          *   If a material have been selected for the actual layer, the resistance is a **thermal resistance** [m²K/W], i.e. as a closed air-filled enclosure between two layers of material.
 
-         *   If **no** material have been selected, the resistance is a **moisture resistance** [m²sPa/kg] of the actual material equal to a vapour barrier. A table with typical moisture resistance is shown at the page dealing with [sorption/desorption](https://help.bsim.dk/support/kb/articles/y9gBGVQM/sorptiondesorption) <!-- TODO: verify link -->.
+         *   If **no** material have been selected, the resistance is a **moisture resistance** [m²sPa/kg] of the actual material equal to a vapour barrier. A table with typical moisture resistance is shown at the page dealing with [sorption/desorption](../24Miscellaneous/24_43_Sorption_desorption.md).
 
         *   If **no** material is selected and **no** resistance is given, the material layer is the geometric definition of an air-layer, e.g. a suspended ceiling. In this case the thermal resistance of the air-layer **must** be given as a resistance at the previous (counted from face 1 of the construction) material layer.
 
@@ -52,7 +52,7 @@ WinDoors are defined in the same structure in the database as the other construc
 
 See also:
 
-*   [MaterialLayer for WinDoor](https://bsim.outseta.com/support/kb/articles/49EdNJQ7/materialelag-for-windoor) <!-- TODO: verify link -->
+*   [MaterialLayer for WinDoor](07_05_Material_layers_for_BuildingConstruction_WinDoor.md)
 
 *   [Tab *BuildingElement*](07_02_SimDB_BuildingElement.md)
 

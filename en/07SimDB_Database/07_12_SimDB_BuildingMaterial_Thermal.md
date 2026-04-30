@@ -1,15 +1,15 @@
 <link rel="stylesheet" href="../style.css">
 
 # SimDB - BuildingMaterial, Thermal
-The *Thermal* tab contains information on the thermal properties of the material and is displayed for all materials apart from those located in [SfB](https://bsim.outseta.com/support/kb/articles/DQ2xwBWV/sfb-i-bsim) groups a, b, c and 0, 1, ... .
+The *Thermal* tab contains information on the thermal properties of the material and is displayed for all materials apart from those located in [SfB](../24Miscellaneous/24_39_SfB_in_BSim.md) groups a, b, c and 0, 1, ... .
 
 The thermal properties are thermal capacity C<sub>p</sub> [J/kg K] and thermal conductivity l [W/m K]. This information is only used if the material forms part of a building construction (not a *WinDoor*) used in a simulation with *tsbi5* or *Bv98*.
 
 <div id="gray_background">
 
-If "Moisture Transport" is turned OFF at the "Options" tab under simulations with tsbi5, the lambda-value given on this tab is being used. See also "[Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)".
+If "Moisture Transport" is turned OFF at the "Options" tab under simulations with tsbi5, the lambda-value given on this tab is being used. See also "[Moisture](07_14_SimDB_BuildingMaterial_Moisture.md)".
 
-If a new material is created in a database containing information about moisture transport in materials the moisture transport data <span style="text-decoration: underline;">must</span> be given, even if a moisture transport simulation is not to be performed. [See limitations](https://help.bsim.dk/support/kb/articles/rQV5b8m6/begransninger).
+If a new material is created in a database containing information about moisture transport in materials the moisture transport data <span style="text-decoration: underline;">must</span> be given, even if a moisture transport simulation is not to be performed. [See limitations](../05Introduction/05_05_Limitations.md).
 
 </div>
 
@@ -21,10 +21,10 @@ If a new material is created in a database containing information about moisture
 
 See also:
 
-*   [Tab Material](https://help.bsim.dk/support/kb/articles/4966z49X/simdb---buildingmaterial-material)
-*   [Tab Moisture](https://help.bsim.dk/support/kb/articles/wQXx4nQK/simdb---buildingmaterial-moisture)
-*   [Tab Environment](https://help.bsim.dk/support/kb/articles/nmDBzx9y/simdb---buildingmaterial-environment)
-*   [Tab Glazing](https://help.bsim.dk/support/kb/articles/7maw2j9E/simdb---buildingmaterial-glazing)
-*   [Tab UserDefined](https://help.bsim.dk/support/kb/articles/xmerM5QV/simdb---buildingmaterial-userdefined)
-*   [Tab Frame](https://help.bsim.dk/support/kb/articles/ZmNreEm2/simdb---buildingmaterial-frame)
-*   [Tab Finish](https://help.bsim.dk/support/kb/articles/BWzdbgQE/simdb---buildingmaterial-finish)
+*   [Tab Material](07_11_SimDB_BuildingMaterial_Material.md)
+*   [Tab Moisture](07_14_SimDB_BuildingMaterial_Moisture.md)
+*   [Tab Environment](07_07_SimDB_BuildingMaterial_Environment.md)
+*   [Tab Glazing](07_10_SimDB_BuildingMaterial_Glazing.md)
+*   [Tab UserDefined](07_16_SimDB_BuildingMaterial_UserDefined.md)
+*   [Tab Frame](07_09_SimDB_BuildingMaterial_Frame.md)
+*   [Tab Finish](07_08_SimDB_BuildingMaterial_Finish.md)

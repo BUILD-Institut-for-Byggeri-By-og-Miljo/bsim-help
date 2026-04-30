@@ -15,23 +15,23 @@ Radiatoreffekten regnes styret efter udetemperaturen, lineært fra maksimalydels
 *Unit:* Ved at sætte et "hak" ud for *Unit* er det muligt at skifte fra angivelse af den termiske zones absolutte installerede effekt til den installerede effekt pr. m<sup>2</sup> gulvareal. Dette er især nyttigt hvis det samme varmesystem ønskes benyttet (kopieret) i flere termiske zoner med forskelligt varmetab.
 
 *Max Power* er den maksimale varmeeffekt ved udetemperaturen *Design Temp.* Ved alle udetemperaturer under den dimensionerende udetemperatur vil den maksimale effekt være til rådighed i radiatoren, fx svarende til den højeste fremløbstemperatur i radiatorsystemet. Ved højere udetemperaturer antages det, at fremløbstemperaturen sænkes, hvilket simuleres ved en lineært aftagende radiatorydelse.  
-I forbindelse med [gulvvarme](/11Systems/11_07_Floor_Heating_Control.html) (BSim) er det også muligt at angive en negativ værdi for *Max Power* og således simulere konstruktiv køling.
+I forbindelse med [gulvvarme](../11Systems/11_07_Floor_Heating_Control.md) (BSim) er det også muligt at angive en negativ værdi for *Max Power* og således simulere konstruktiv køling.
 
 *Fixed Part* er den andel af den til rådighed værende effekt, der ikke er regulerbar (mellem 0 og 1). Kan fx angive et rørtab fra systemet. Det bemærkes, at der er tale om en fast andel, dvs. en uregulerbar varmeafgivelse, som er en konstant procentdel af den til rådighed værende effekt.
 
 *Part to Air* angiver hvor stor en del af radiatorens varmeafgivelse, som tilføres indeluften ved konvektion. Den resterende varmeafgivelse sker ved stråling til zonens overflader. Andelen der afgives til luften afhænger af den aktuelle type radiator / konvektor, men tallet bør normalt ikke sættes lavere end 0,5. For en normal radiator placeret ved en ydervæg (brystning) under et vindue, kan en værdi mellem 0,5 og 0,7 antages.
 
-*Central Heat Pump* angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Varmepumen kan først aktiveres som kilde til varmetsystemet når programmet [PackCalc](/24Miscellaneous/24_01_PackCalc_Cooling.html) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
+*Central Heat Pump* angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Varmepumen kan først aktiveres som kilde til varmetsystemet når programmet [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
 *Heat Pump data:* Åbner en dialog som giver mulighed for at give data for en central varmepumpe.
 
-I [tidsplanen](/11Systems/11_02_Systems_schedule.html) (Schedule) defineres, hvorledes radiatoren reguleres på forskellige tidspunkter af dagen, ugen og året. For systemer med nat- eller weekendsænkning af indetemperaturen vil det være nødvendigt at specificere mindst to forskellige tidsplaner svarende til regulering efter forskellige temperatursetpunkter.
+I [tidsplanen](../11Systems/11_02_Systems_schedule.md) (Schedule) defineres, hvorledes radiatoren reguleres på forskellige tidspunkter af dagen, ugen og året. For systemer med nat- eller weekendsænkning af indetemperaturen vil det være nødvendigt at specificere mindst to forskellige tidsplaner svarende til regulering efter forskellige temperatursetpunkter.
 
-Reguleringen af et varmeanlæg kan ske som traditionel [radiatorregulering](/11Systems/11_12_Systems_Heating.html) eller som [gulvvarmeregulering](/11Systems/11_07_Floor_Heating_Control.html).
+Reguleringen af et varmeanlæg kan ske som traditionel [radiatorregulering](../11Systems/11_12_Systems_Heating.md) eller som [gulvvarmeregulering](../11Systems/11_07_Floor_Heating_Control.md).
 
 Se også
 
-*   Faneblad [Schedule](/11Systems/11_02_Systems_schedule.html)
-*   Faneblad [HeatCoolCtrl](/11Systems/11_12_Systems_Heating.html)
-*   Faneblad [FloorHeatCtrl](/11Systems/11_07_Floor_Heating_Control.html)
-*   Faneblad [Time](/11Systems/11_17_Systems_Time.html)
+*   Faneblad [Schedule](../11Systems/11_02_Systems_schedule.md)
+*   Faneblad [HeatCoolCtrl](../11Systems/11_12_Systems_Heating.md)
+*   Faneblad [FloorHeatCtrl](../11Systems/11_07_Floor_Heating_Control.md)
+*   Faneblad [Time](../11Systems/11_17_Systems_Time.md)

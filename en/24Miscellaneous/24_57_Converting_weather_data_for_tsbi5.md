@@ -4,7 +4,7 @@
 
 Weather data to be used by tsbi5 must exist in a special binary format. Weather data supplied as ASCII-files can be converted to this binary tsbi5-format by use of the *tsbi5* | *File* | *Weather Data* | *Convert*.
 
-An [automatic function](https://help.bsim.dk/support/kb/articles/dQG2XEm4/energyashrae-klimadata) for converting energy+/ASHRAE climate data files to the binary BSim format has been implemented in BSim from version 2002, using the *tsbi5* | *File* | *Weather Data* | *ASHRAE* command.
+An [automatic function](24_14_Energy_ASHRAE_climate_data.md) for converting energy+/ASHRAE climate data files to the binary BSim format has been implemented in BSim from version 2002, using the *tsbi5* | *File* | *Weather Data* | *ASHRAE* command.
 
 This page gives a short description of the manual conversion of climate data.
 
@@ -47,7 +47,7 @@ A definition file is created in the interface for converting climate data to the
 
  * *eec*: Special fixed format. In the line for hour 24, the solar irradiation data gives the day sum of all hourly values. The day sums are not used in the converted file.
 
-*   [*Fixed columns from left to right*](https://help.bsim.dk/support/kb/articles/L9PwAjQJ/klimadata-fast-format): Defines the location of data in columns (index starting with 1 at left). Used in connection with format *Fixed*.
+*   [*Fixed columns from left to right*](24_61_Climate_data_fixed_format.md): Defines the location of data in columns (index starting with 1 at left). Used in connection with format *Fixed*.
 
 *   *Skip lines*: A number (positive or zero) indicating a number of lines, which has to be skipped in the beginning of the ASCII-file. Normally this is used to skip comment lines in the head of a file.
 
@@ -61,7 +61,7 @@ A definition file is created in the interface for converting climate data to the
 
 *   *Altitude*: Height above sea level for measuring station.
 
-In the rows of the sheet the individual parameters in the data file is defined one by one in the [*Weather Data Definition Row dialog*](https://help.bsim.dk/support/kb/articles/dQG2Dkm4/klimadata-definition), say which parameter, scaling and unit, as well as the relative position (parameter number or column number) in the line counted from left to right.
+In the rows of the sheet the individual parameters in the data file is defined one by one in the [*Weather Data Definition Row dialog*](24_58_Climate_data_definition.md), say which parameter, scaling and unit, as well as the relative position (parameter number or column number) in the line counted from left to right.
 
 The following data **must** be present in the ASCII file for converting to a binary climate file:
 

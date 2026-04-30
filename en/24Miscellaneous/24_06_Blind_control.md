@@ -20,7 +20,9 @@ It is important to notice that the shading factor for the solar shading is the a
 | SlatAngle Close | Angle for slats in maximum closed position. | 30–90 | 90 |
 | OverClose Angle | Extra closing angle. Used only in combination with <a href="#cut-off-control">CutOff control strategy</a>. | 0–5 | 0 |
 | <a href="#cut-off-control">CutOff Strategy</a> | Slat closing strategy that exactly ensures cut-off of direct solar incidence. | on / off | off |
-| [Ref. Point](https://bsim.outseta.com/support/kb/articles/79O3J49E/referencepunkt) | Gives a possibility of selecting already defined [reference points](https://bsim.outseta.com/support/kb/articles/79O3J49E/referencepunkt) where the level of daylight determines the control of the solar shading. |  |  |
+| [Ref. Point](../10Thermal_zones/10_03_Reference_point.md) | Gives a possibility of selecting already defined [reference points](../10Thermal_zones/10_03_Reference_point.md)  where the level of daylight determines the control of the solar shading. |  |  |
+
+en\10Thermal_zones\10_03_Reference_point.md
 
 
 The total solar transmittance a any given angle (β) of the slats in the solar shading is determined by: 
@@ -41,7 +43,7 @@ $$ E_{total} = E_{dif} \cdot g_{s, dif}(\beta) \cdot g_{g, dif} + E_{dir} \cdot 
 
 *   β is the tilt of the slats in the shading device, measured from horizontal,
 
-*   Θ<sub>p</sub> is the [profile angle](https://help.bsim.dk/support/kb/articles/7mawb19E/profilvinkel),
+*   Θ<sub>p</sub> is the [profile angle](./24_31_Profile_angle.md),
 
 *   Θ<sub>i</sub> is the angle of incidence for direct solar radiation.
 
@@ -71,7 +73,7 @@ The critical opening angle (cut-off) depends on the profile angle of the sun and
 
 $$ \beta_c = \arctan\left\{ \frac{\tan\theta \pm d \cdot \sqrt{1 + \tan^2\theta - d^2}}{d^2 - 1} \right\} \; \text{where minus must be used} $$
 
-*   Θ is the [profile angle](https://bsim.outseta.com/support/kb/articles/79O3J49E/referencepunkt) calculated from the solar-window azimuth and the solar height,
+*   Θ is the [profile angle](24_31_Profile_angle.md) calculated from the solar-window azimuth and the solar height,
 
 *   d is the proportion between the distance and the width of the slats.
 

@@ -8,29 +8,29 @@ Den ønskede operative temperatur kan søges opnået ved hjælp af flere af de i
 
 Følgende systemer kan bidrage til at hæve temperaturen:
 
-*   [Radiator](/11Systems/11_12_Systems_Heating.html)
+*   [Radiator](../11Systems/11_12_Systems_Heating.md)
 
-*   [Ventilationsanlæg (varmegenvinding, varmeflade)](/11Systems/11_21_Systems_Ventilation.html)
+*   [Ventilationsanlæg (varmegenvinding, varmeflade)](../11Systems/11_21_Systems_Ventilation.md)
 
 Det system, der har det højeste setpunkt, aktiveres først, dog således at grænserne for de til rådighed værende effekter samt grænser for indblæsningstemperaturer altid overholdes (hvis dette er muligt).
 
 **Eksempel**
 
-I 'varmeregulering' for en [radiator](/11Systems/11_12_Systems_Heating.html) er setpunktet sat til 21,5 °C, mens der i '[rumtemperaturregulering](/11Systems/11_25_Ventilation_Zone_Temperature_control.html)' for et [ventilationsanlæg](/11Systems/11_21_Systems_Ventilation.html) er angivet en minimum indblæsningstemperatur på 16,0 °C samt et setpunkt for opvarmning på 21,0 °C. Funktionen vil da være, at temperaturen på indblæsningsluften vil være 16,0 °C, mens der ved stigende varmebehov afgives mere og mere varme fra radiatoren for at holde rumtemperaturen på 21,5 °C. Hvis den til rådighed værende effekt på radiatoren er utilstrækkelig til at holde 21,0 °C, vil indblæsningstemperaturen blive hævet for at holde denne rumtemperatur.
+I 'varmeregulering' for en [radiator](../11Systems/11_12_Systems_Heating.md) er setpunktet sat til 21,5 °C, mens der i '[rumtemperaturregulering](../11Systems/11_25_Ventilation_Zone_Temperature_control.md)' for et [ventilationsanlæg](../11Systems/11_21_Systems_Ventilation.md) er angivet en minimum indblæsningstemperatur på 16,0 °C samt et setpunkt for opvarmning på 21,0 °C. Funktionen vil da være, at temperaturen på indblæsningsluften vil være 16,0 °C, mens der ved stigende varmebehov afgives mere og mere varme fra radiatoren for at holde rumtemperaturen på 21,5 °C. Hvis den til rådighed værende effekt på radiatoren er utilstrækkelig til at holde 21,0 °C, vil indblæsningstemperaturen blive hævet for at holde denne rumtemperatur.
 
 **Regulering ved kølebehov (temperaturen ønskes sænket)**
 
 Følgende systemer kan bidrage til at sænke temperaturen:
 
-*   [Solafskærmning](/11Systems/11_16_Systems_shading.html)
+*   [Solafskærmning](../11Systems/11_16_Systems_shading.md)
 
-*   [Udluftning](/11Systems/11_18_Systems_Venting.html)
+*   [Udluftning](../11Systems/11_18_Systems_Venting.md)
 
-*   [Køling (køleradiator)](/11Systems/11_09_Systems_cooling.html)
+*   [Køling (køleradiator)](../11Systems/11_09_Systems_cooling.md)
 
-*   [Ventilationsanlæg](/11Systems/11_21_Systems_Ventilation.html) (kuldegenvinding, [VAV](/11Systems/11_26_Ventilation_VAV_control.html), køleflade)
+*   [Ventilationsanlæg](../11Systems/11_21_Systems_Ventilation.md) (kuldegenvinding, [VAV](../11Systems/11_26_Ventilation_VAV_control.md), køleflade)
 
-*   ([Belysning](/11Systems/11_03_Systems_Lighting.html))
+*   ([Belysning](../11Systems/11_03_Systems_Lighting.md))
 
 I dette tilfælde aktiveres de enkelte systemer/komponenter efter laveste setpunkt.
 

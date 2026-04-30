@@ -4,11 +4,12 @@
 
 The SfB-system is used for classification of building materialials and  building elements in BSim. In the following tables an overview of those parts of the SfB-system used in BSim are shown.
 
-*   [BuildingElements](https://help.bsim.dk/support/kb/articles/dQG2dzm4/simdb---buildingelement)
+*   [BuildingElements](#buildingelements)
 
-*   [BuildingMaterials](https://help.bsim.dk/support/kb/articles/A93zR3Q0/simdb---buildingmaterial)
+*   [BuildingMaterials](#buildingmaterials)
 
-#### **BuildingElements**
+<a id="buildingelements"></a>
+### **BuildingElements**
 
 In BSim only parts of the classification system is used. In the table below those parts used (marked with white background) in BSim are shown with the rest of the SfB-system.
 
@@ -46,6 +47,7 @@ In BSim only parts of the classification system is used. In the table below thos
 
  
 
+<a id="buildingmaterials"></a>
 ### **BuildingMaterials**
 
 In BSim the materials are grouped according to the SfB-system. Most groups are sub-divided, but not all sub divisions are implemented (marked with gray ) in BSim. Some groups serves a special purpose in BSim and do thus not fully respect the SfB-system. Theses groups are: a, b and c group o and the groups 0 to 5.

@@ -28,7 +28,7 @@ WinDoors are defined in the same database structure as al other constructions, b
 
 The dialog box for editing material data can be opened by right-clicking the name of the material.
 
-The linear coefficient of transmission heat loss (*LinTrCoeff* or the Ψ<sub>g</sub> value) in W/m K through spacer profiles made of aluminum or ordinary steel are shown in the table below (Source: [DS 418:2002](https://bsim.outseta.com/support/kb/articles/A93zbqQ0/litteratur)). It is possible to interpolate in the table.
+The linear coefficient of transmission heat loss (*LinTrCoeff* or the Ψ<sub>g</sub> value) in W/m K through spacer profiles made of aluminum or ordinary steel are shown in the table below (Source: [DS 418:2002](../20The_Mathematical_basis/20_28_Literature.md)). It is possible to interpolate in the table.
 
 <div id="windoor-table">
 

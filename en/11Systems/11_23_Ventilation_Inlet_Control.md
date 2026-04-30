@@ -18,7 +18,7 @@ Inlet control consists of controlling the supply temperature as a function of th
 *Air Hum:* Specifies the desired absolute moisture content of the supply air. This parameter is only significant if a humidifier has been defined in the system. Dehumidification will not therefore take place in this type of control.
 
 See also:
-*   [Moisture control](https://help.bsim.dk/support/kb/articles/E9LwjGQw/fugtregulering)
-*   [Zone temperature control](https://help.bsim.dk/support/kb/articles/DQ2x0yWV/ventilation---rumtemperaturregulering)
-*   [VAV control](https://help.bsim.dk/support/kb/articles/j9b8kamn/ventilation---vav-regulering)
-*   [Night cooling control](https://help.bsim.dk/support/kb/articles/L9nrXz9Z/ventilation---natkoling-ventilation)
+*   [Moisture control](11_22_Ventilation_Moisture_control.md)
+*   [Zone temperature control](11_25_Ventilation_Zone_Temperature_control.md)
+*   [VAV control](11_26_Ventilation_VAV_control.md)
+*   [Night cooling control](11_24_Ventilation_Night_Cooling_Control.md)

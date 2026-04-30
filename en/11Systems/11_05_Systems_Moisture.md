@@ -38,7 +38,7 @@ The moisture liberation is calculated according to the equations below:
 
 
 
-For the number of persons N is used the number of persons defined for the thermal zone under [PeopleLoad](https://help.bsim.dk/support/kb/articles/XQYdjgmP/persons).
+For the number of persons N is used the number of persons defined for the thermal zone under [PeopleLoad](11_13_Systems_Persons.md).
 
 where:
 
@@ -56,11 +56,11 @@ where:
 
  
 
-The moisture and air balances are described in greater detail in [the mathematical basis](https://help.bsim.dk/support/kb/categories/OW4JLRQg/det-matematiske-grundlag).
+The moisture and air balances are described in greater detail in [the mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_basis.md).
 
-[The schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---tidsplan) defines connected sets of control and[ time definition](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse). "Moisture load" control is of the [day profile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dognprofil) type, with the variation over the hours of the day being specified in percent.
+[The schedule](11_02_Systems_schedule.md) defines connected sets of control and [time definition](11_17_Systems_Time.md). "Moisture load" control is of the [day profile](11_04_Systems_DayProfile.md) type, with the variation over the hours of the day being specified in percent.
 
 See also:
-*   Tab [Schedule](https://help.bsim.dk/support/kb/articles/79O3DZ9E/systemer---tidsplan)
-*   Tab [DayProfile](https://help.bsim.dk/support/kb/articles/L9PwDAQJ/dognprofil)
-*   Tab [Time](https://help.bsim.dk/support/kb/articles/VmAOwo9a/tidsangivelse)
+*   Tab [Schedule](11_02_Systems_schedule.md)
+*   Tab [DayProfile](11_04_Systems_DayProfile.md)
+*   Tab [Time](11_17_Systems_Time.md)

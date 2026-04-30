@@ -32,11 +32,11 @@ Parameters saved as average values for the hour are marked with an “M” after
 
 Input data from the climate file and calculated solar position.
 
-These parameters are **only** accessible in the results log if a tick mark has been placed next to *Weather* on the [*Options* tab]() in advance of the simulation.
+These parameters are **only** accessible in the results log if a tick mark has been placed next to *Weather* on the [*Options* tab](13_02_tsbi5_options.md) in advance of the simulation.
 
 | Parameter | Description |
 |---------|-------------|
-| *AtmPres* | Atmospheric pressure, Pascal. If the atmospheric pressure is constant equal to 0, natural ventilation can still be simulated using the [multi-zone model](), but with reduced accuracy. |
+| *AtmPres* | Atmospheric pressure, Pascal. If the atmospheric pressure is constant equal to 0, natural ventilation can still be simulated using the [multi-zone model](../20The_Mathematical_basis/20_14_The_multizone_model.md), but with reduced accuracy. |
 | *CldCover* | Cloud cover, octas (8 = fully overcast, 0 = clear sky). |
 | *DifRad* | Diffuse solar radiation on horizontal, kW/m². |
 | *ExtTmp* | Outdoor (dry bulb) air temperature, °C. |
@@ -57,7 +57,7 @@ These parameters are **only** accessible in the results log if a tick mark has b
 <span id="indoorclimate"></span>  
 **Note:** All system set-points relate to the operative temperature (Top) of the thermal zone.
 
-These parameters are **only** accessible in the result log if a tick mark has been placed next to *ThermalZones* on the [Options tab]() prior to the simulation.
+These parameters are **only** accessible in the result log if a tick mark has been placed next to *ThermalZones* on the [Options tab](13_02_tsbi5_options.md) prior to the simulation.
 
 | Parameter | Description |
 |----------|-------------|
@@ -68,7 +68,7 @@ These parameters are **only** accessible in the result log if a tick mark has be
 | *ElecLight* | Illuminance from electric lighting in a reference point of a given plane, lux. |
 | *GrossSun*<sup>M</sup> | Total solar radiation through WinDoors in the zone, kW. |
 | *HumRatio* | Humidity ratio, kg water vapor / kg dry air. |
-| *PAQ* | [Perceived indoor air quality](), –. |
+| *PAQ* | [Perceived indoor air quality](../20The_Mathematical_basis/20_19_PAQ.md), –. |
 | *RelHumid* | Relative humidity, %. |
 | *Ti* | Indoor air temperature, °C in the height TopHeight above floor level, °C. |
 | *Tmrt* | Mean radiant (area-weighted surface temperature) temperature , °C. |
@@ -117,7 +117,7 @@ Parameters marked with *) do <u> only</u> occur if the simulation has been perfo
 | *qLighting* | Energy used for artificial lighting in the thermal zone, kWh. |
 | *qMixing* | Energy moved (positive or negative) by exchange of air between the thermal zone and other neighboring thermal zones or rooms, kWh. |
 | *qPeople* | Energy from persons in the thermal zone, kWh. |
-| *qSunRad* | Energy from solar through WinDoors in the thermal zone minus solar which is [lost before it enters the zone](), and minus solar that passes on to other rooms, kWh. |
+| *qSunRad* | Energy from solar through WinDoors in the thermal zone minus solar which is [lost before it enters the zone](../10Thermal_zones/10_01_Thermal_Zone_property.md), and minus solar that passes on to other rooms, kWh. |
 | *qTransmis* | Energy transferred (positive or negative) by transmission through the constructions and WinDoors of the thermal zone, kWh. *qTransmis* is calculated as the heat flow from the air in the thermal zone to the <u>first</u> node in all faces surrounding the thermal zone. It is thus possible to have an overall transmission loss from a thermal zone, even if the outdoor air has a higher temperature than the air in the thermal zone. |
 | *qVentilat* | Energy transferred (positive or negative) by air-transport through the ventilation system in the thermal zone - incl. energy used in the components of the ventilation system (heating coil, cooling coil, etc.), kWh. |
 | *qVenting* | Energy transferred by opening windows or similar in the thermal zone, kWh. |
@@ -195,12 +195,12 @@ Contributions to moisture balance of zones. Supplied moisture is counted positiv
 
 Parameters for surface temperatures and solar radiation on the model constructions.
 
-These parameters are **only** accessible in the results log if a tick mark has been placed next to *Constructions* on the [Options tab]() in advance of the simulation.
+These parameters are **only** accessible in the results log if a tick mark has been placed next to *Constructions* on the [Options tab](13_02_tsbi5_options.md) in advance of the simulation.
 
 | Parameter | Description |
 |---|---|
-| *CondRisk1* <sup>M</sup> | Indicator for [risk of condensation]() at the surface facing the thermal zone, –. |
-| *CondRisk2* <sup>M</sup> | Indicator for [risk of condensation]() at the surface facing away from the thermal zone, –. |
+| *CondRisk1* <sup>M</sup> | Indicator for [risk of condensation](../24Miscellaneous/24_66_Risk_of_condensation.md) at the surface facing the thermal zone, –. |
+| *CondRisk2* <sup>M</sup> | Indicator for [risk of condensation](../24Miscellaneous/24_66_Risk_of_condensation.md) at the surface facing away from the thermal zone, –. |
 | *DirRad* <sup>M</sup> | Direct solar irradiation (on side facing outdoors), kW/m². |
 | *GroundRad* <sup>M</sup> | Solar irradiation reflected from ground and surroundings, kW/m². |
 | *NyDuct* | Wind speed in ventilated, vertical crevice inside the construction, m/s. |
@@ -212,7 +212,7 @@ These parameters are **only** accessible in the results log if a tick mark has b
 | *qRad1* & *qRad2* | Long-wave radiative contribution on face 1 and 2 of constructions from all radiative sources (equipment, heating, cooling, people, lighting and sun through WinDoors) of the thermal zone, W/m². *qRad* is positive if the surface gains energy. |
 | *qPvGross* *) | Electrical yield from solar cells integrated in the construction <u>without</u> considering reduction because of shading, kW. The parameter will <u>only</u> be shown if the construction contains solar cells <u>and</u> the result log from the PV simulation in *SimPv* is open via the *Open New Model* function on the *Parameters* tab in *tsbi5*. The results file from the PV simulation has the same name as the model followed by *"#pv"*. |
 | *qPvNet* *) | Electrical yield from solar cells integrated in the construction, kW. The parameter will <u>only</u> be shown if the construction contains solar cells <u>and</u> the result log from the PV simulation in *SimPv* is open via the *Open New Model* function on the *Parameters* tab in *tsbi5*. The results file from the PV simulation has the same name as the model followed by *"#pv"*.|
-| *RSurf1* & *RSurf2* | The combined (radiation and convection) thermal surface resistance for the face, m²K/W. If the option long wave radiation was turned on during the simulation, the values will vary. If this is not the case, BSim will use the values defined for the individual face, or the [default values]() if nothing is given.|
+| *RSurf1* & *RSurf2* | The combined (radiation and convection) thermal surface resistance for the face, m²K/W. If the option long wave radiation was turned on during the simulation, the values will vary. If this is not the case, BSim will use the values defined for the individual face, or the [default values](../24Miscellaneous/24_67_Default_values.md) if nothing is given.|
 | *SensorTmp* | Is the temperature of the sensor, located in a construction with floor heating, °C. |
 | *SkyRad* <sup>M</sup> | Diffuse solar irradiation (on side facing outdoors), kW/m². |
 | *SurfMoist1* & *SurfMoist2* | Moisture content in surface 1 and 2 of constructions, kg/kg. |
@@ -231,12 +231,12 @@ Parameters marked with *) do <u>only</u> occur if the simulation have been perfo
 
 <h3 id="windoors">Parameters in the group <em>WinDoors</em></h3>
 
-These parameters are **only** accessible in the result log if a tick mark has been placed next to *WinDoor* on the [Options tab]() in advance of the simulation.
+These parameters are **only** accessible in the result log if a tick mark has been placed next to *WinDoor* on the [Options tab](13_02_tsbi5_options.md) in advance of the simulation.
 
 | Parameter | Description |
 |---|---|
-| CondRisc1<sup>M</sup> | Indicator for [risk of condensation]() at the surface facing the thermal zone, -. |
-| CondRisc2<sup>M</sup> | Indicator for [risk of condensation]() at the surface not facing the thermal zone, often towards the outdoor, -. |
+| CondRisc1<sup>M</sup> | Indicator for [risk of condensation](../24Miscellaneous/24_66_Risk_of_condensation.md) at the surface facing the thermal zone, -. |
+| CondRisc2<sup>M</sup> | Indicator for [risk of condensation](../24Miscellaneous/24_66_Risk_of_condensation.md) at the surface not facing the thermal zone, often towards the outdoor, -. |
 | ExtIllum | External lighting level at the surface of the WinDoor. The value is being used for the solar shading control SensorCtrl, - |
 | GrossSun<sup>M</sup> | Solar irradiation on the exterior side of WinDoors transparent area, kW. |
 | NetSun<sup>M</sup> | Solar radiation transmitted through WinDoors transparent area, kW. |
@@ -254,4 +254,4 @@ These parameters are **only** accessible in the result log if a tick mark has be
 
 Parameters marked with *) do only occur if the simulation has been performed using the BSim module (NatVent) for simulation of natural ventilation.
 
-1\) The secondary reference point is defined and used in combination with calculation and transfer of solar light factors using [SimLight]().
+1\) The secondary reference point is defined and used in combination with calculation and transfer of solar light factors using [SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md).

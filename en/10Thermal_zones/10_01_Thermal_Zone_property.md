@@ -5,7 +5,7 @@ Thermal zone as a term is virtually identical to the term zone in tsbi3. In BSim
 
 A building model consists of a number of spaces that have been described geometrically and, if necessary, thermally (constructions, windows, etc). Some of these spaces can be in thermal zones and will be included in a thermal simulation with tsbi5. Spaces that belong to the same thermal zone are therefore simulated as a single zone with the same temperature and loads.
 
-If all the spaces in a building model are described thermally, including those outside thermal zones, the entire model can be transferred for calculation in the *[Be18 program](https://bsim.outseta.com/support/kb/articles/wmjnRomV/eksport-til-be10)*. A model can therefore be used simultaneously for simple calculation in *Be18* and detailed simulation in tsbi5.
+If all the spaces in a building model are described thermally, including those outside thermal zones, the entire model can be transferred for calculation in the *[Be18 program](../07SimDB_Database/07_14_Export_calculation_options_and_templates_for_Be18.md)*. A model can therefore be used simultaneously for simple calculation in *Be18* and detailed simulation in tsbi5.
 
 A thermal zone is created by right-clicking the building in the tree summary and clicking the Insert Thermal Zone button. Rooms are attached to thermal zones by dragging (while pressing the left mouse button) it to the desired thermal zone in the tree structure.
 
@@ -30,7 +30,7 @@ See also:
 
 *   [Creating a building](../09SimView/09_14_SimView_Creating_a_building.md)
 *   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
-*   [Default constructions](../09SimView/09_06_Construction_Property.md)
+*   [Default constructions](10_06_SimView_Default_constructions.md)
 *   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
 *   [Adding spaces to thermal zones ](10_02_SimView_Adding_spaces_to_thermal_zones.md)
 *   [Systems in thermal zones](../11Systems/11_01_Systems.md)
@@ -38,4 +38,4 @@ See also:
 *   [Solar light factors for WinDoors](10_07_Solar_light_factors_for_WinDoors.md)
 *   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
 *   [Climate data and ground](../09SimView/09_10_Climate_data.md)
-*   [Printing a model](../09SimView/09_04_Documentation_of_model.md)
+*   [Printing a model](10_09_SimView_Printing_a_model.md)
