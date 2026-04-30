@@ -193,7 +193,7 @@ Zone nodes are connected to thermal zones and the outdoor climate. One node is d
 <img src="./assets/mzm_im7.gif" alt="Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature.">
 <figcaption>Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature.</figcaption>
 </figure>
-
+</figure>
 
 For every opening two nodes are defined. One node on each side of the opening. The nodes are located in the geometrical centre of the active part of the opening.
 
