@@ -189,6 +189,7 @@ There are two types of nodes:
 
 Zone nodes are connected to thermal zones and the outdoor climate. One node is defined in each thermal zone with activated openings. The node is located in the same height as SensorHgt (<a href="#figure6">Figure 6</a>). SensorHgt indicates in which height the temperature of the thermal zone is recorded and which temperature the systems of the zone use as reference point. This is only relevant when vertical temperature gradients are taken into account in the simulations by means of the [Cappa model](https://help.bsim.dk/support/kb/articles/BWzdGlQE/kappa-modellen).
 
+<figure id="center_img">
 <figure id="figure6">
 <img src="./assets/mzm_im7.gif" alt="Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature.">
 <figcaption>Figure 6. Dialog with properties for a thermal zone. SensorHgt indicates in which height all systems measure the operative temperature.</figcaption>
