@@ -79,10 +79,10 @@ The analytical solution was obtained by Glück. That consists in the formula:
 
 $$ \theta(x, y) = \theta_1 + \frac{\frac{1}{h_1} + \frac{s_1 - y}{\lambda_s}}{\frac{1}{U_1} + \frac{1}{U_2}} \cdot (\theta_2 - \theta_1) - \Gamma \cdot \left[ \theta_3 - \theta_1 - \frac{U_2}{U_1 + U_2} (\theta_2 - \theta_1) \right] \cdot $$
 
-$$ \cdot \left\{ \frac{\pi}{P} \left( \frac{U_1 - U_2}{U_1 + U_2} y - \frac{2 \lambda_s}{U_1 + U_2} + |y| \right)   
+$$ \cdot { \frac{\pi}{P} \left( \frac{U_1 - U_2}{U_1 + U_2} y - \frac{2 \lambda_s}{U_1 + U_2} + |y| \right)   
 - \sum_{n=1}^{\infty} \frac{1}{n} \left[ e^{\frac{-2 \cdot \pi \cdot n}{P} \cdot |y|} + g_1(n) \cdot e^{\frac{-2 \cdot \pi \cdot n}{P} \cdot y} + g_2(n) \cdot e^{\frac{2 \cdot \pi \cdot n}{P} \cdot y} \right] \cdot $$
 
-$$ \cdot \cos\left( \frac{2 \cdot \pi \cdot n}{P} \cdot x \right) \right\} $$
+$$ \cdot \cos\left( \frac{2 \cdot \pi \cdot n}{P} \cdot x \right) } $$
 
  
 
@@ -135,7 +135,7 @@ The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were consi
 
 
 
-|   |   |
+| &nbsp; | &nbsp; |
 |:-:|:-:|
 | **Type A** | **Type E** |
 | <img src="./assets/fh_fig4.gif" width="150"> | <img src="./assets/fh_fig5.gif" width="150"> |
@@ -153,7 +153,7 @@ As a general rule, in all types, the air cavities were not considered as conduct
 
 In the following figure the analyzed geometries are shown. They have been analyzed via fine anc coarse meshes.
 
-|   |   |   |
+| &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|
 | <img src="./assets/fh_fig8.gif" width="150"><br>*1.1 Real geometry*<br>*and fine mesh.* | **1. Type A**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.10, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Material 3: s=0.25, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig9.gif" width="150"><br>*1.2 Simplified geometry*<br>*and rough mesh.* |
 | <img src="./assets/fh_fig10.gif" width="150"><br>*2.1 Real geometry*<br>*and fine mesh.* | **2. Type E**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.07, λ=1.200, ρ=2000, c<sub>p</sub>=900<br>Material 3: s=0.03, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 4: s=0.20, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig11.gif" width="150"><br>*2.2 Simplified geometry*<br>*and rough mesh.* |
