@@ -177,8 +177,10 @@ Der er overordnet to typer af knuder:
 Zoneknuderne er knyttet til de termiske zoner og omgivelserne. Der defineres én knude i de termiske zoner der indeholder åbninger der er aktiveret. Knuden placeres i samme højde som *SensorHgt* (<a href="#figur-6">figur 6</a>). *SensorHgt* angiver i hvilken højde temperaturen i den termiske zone registreres (reguleres efter). Dette er kun relevant når der regnes med lodret temperaturgradient i den termiske zone. Ved beregning med lodret temperaturgradient benyttes [Kappa-modellen](/12The_Kappa_model/12_01_Kappa_model_description.html).
 
 <figure id="center_img">
+<figure id="figure6">
 <img src="./assets/mzm_im7.gif" alt="Figur 6. Dialogboks med egenskaber for en termisk zone. SensorHgt angiver i hvilken højde systemerne måler temperaturen.">
 <figcaption id="figur-6">Figur 6. Dialogboks med egenskaber for en termisk zone. SensorHgt angiver i hvilken højde systemerne måler temperaturen.</figcaption>
+</figure>
 </figure>
 
 For hver åbning defineres to knuder. En på hver side af åbningen. Knuderne placeres midt i den aktiverede del af åbningen.

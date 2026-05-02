@@ -120,28 +120,21 @@ These contributions originate from the following systems: people, equipment, lig
 
 #### **The zone's total heat balance**
 
-The zone's total heat balance can now be defined by setting the sum of all the above mentioned heat contributions equal to zero, since with the stationary calculation method, heat will not be accumulated in the zone's air. On this basis, the equation in the next formula can be set up for calculation of the air temperature in the actual time-step
+The zone's total heat balance can now be defined by setting the sum of all the above mentioned heat contributions equal to zero, since with the stationary calculation method, heat will not be accumulated in the zone's air. On this basis, the equation in the next formula can be set up for calculation of the air temperature in the actual time-step.
+
 
 $$
-\begin{aligned}
-T_{\text{air}} &\Bigg[
-\sum_{\text{constructions}} \frac{A_{\text{surf}}}{R_{\text{surf}}}
-+ \sum_{\text{windoor}} A_{\text{windoor}} U_{\text{windoor}} \\
-&\quad + V (\rho c_p)_{\text{air}}
-  \left( n_{\text{outdoor}} + \sum_{\text{zone}} n_{\text{zone}} \right)
-\Bigg] \\
-= {} &
-\sum_{\text{constructions}} \frac{A_{\text{surf}}}{R_{\text{surf}}}
-+ \sum_{\text{windoor}} A_{\text{windoor}} U_{\text{windoor}} \\
-&+ V (\rho c_p)_{\text{air}}
-  \left(
-    n_{\text{outdoor}} T_{\text{outdoor}}
-    + \sum_{\text{zone}} n_{\text{zone}} T_{\text{zone}}
-  \right) \\
-&+ \Phi_{\text{air,sol}}
-+ \Phi_{\text{air,vent}}
-+ \Phi_{\text{air,syst}}
-+ \Phi_{\text{thermal\,bridges}}
-\tag{6}
-\end{aligned}
+T_{\text{air}}\left[
+\sum_{\text{constructions}}\frac{A_{\text{surf}}}{R_{\text{surf}}}
++\sum_{\text{windoor}}A_{\text{windoor}}\,U_{\text{windoor}}
++V(\rho c_p)_{\text{air}}\Bigl(n_{\text{outdoor}}+\sum_{\text{zone}}n_{\text{zone}}\Bigr)
+\right]
+=
+$$
+
+$$
+\sum_{\text{constructions}}\frac{A_{\text{surf}}}{R_{\text{surf}}}
++\sum_{\text{windoor}}A_{\text{windoor}}\,U_{\text{windoor}}
++V(\rho c_p)_{\text{air}}\Bigl[n_{\text{outdoor}}\,T_{\text{outdoor}}+\sum_{\text{zone}}n_{\text{zone}}\,T_{\text{zone}}\Bigr]
++\Phi_{\text{air,sol}}+\Phi_{\text{air,vent}}+\Phi_{\text{air,syst}}+\Phi_{\text{thermal\,bridges}}
 $$
