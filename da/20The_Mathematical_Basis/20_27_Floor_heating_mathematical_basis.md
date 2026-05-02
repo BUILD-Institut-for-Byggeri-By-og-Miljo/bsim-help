@@ -79,10 +79,10 @@ The analytical solution was obtained by Glück. That consists in the formula:
 
 $$ \theta(x, y) = \theta_1 + \frac{\frac{1}{h_1} + \frac{s_1 - y}{\lambda_s}}{\frac{1}{U_1} + \frac{1}{U_2}} \cdot (\theta_2 - \theta_1) - \Gamma \cdot \left[ \theta_3 - \theta_1 - \frac{U_2}{U_1 + U_2} (\theta_2 - \theta_1) \right] \cdot $$
 
-$$ \cdot { \frac{\pi}{P} \left( \frac{U_1 - U_2}{U_1 + U_2} y - \frac{2 \lambda_s}{U_1 + U_2} + |y| \right)   
-- \sum_{n=1}^{\infty} \frac{1}{n} \left[ e^{\frac{-2 \cdot \pi \cdot n}{P} \cdot |y|} + g_1(n) \cdot e^{\frac{-2 \cdot \pi \cdot n}{P} \cdot y} + g_2(n) \cdot e^{\frac{2 \cdot \pi \cdot n}{P} \cdot y} \right] \cdot $$
+$$ \cdot \left{ \frac{\pi}{P} \left( \frac{U_1 - U_2}{U_1 + U_2} y - \frac{2 \lambda_s}{U_1 + U_2} + |y| \right)   
+- \sum_{n=1}^{\infty} \frac{1}{n} \left[ e^{\frac{-2 \cdot \pi \cdot n}{P} \cdot |y|} + g_1(n) \cdot e^{\frac{-2 \cdot \pi \cdot n}{P} \cdot y} + g_2(n) \cdot e^{\frac{2 \cdot \pi \cdot n}{P} \cdot y} \right] \cdot \right}$$
 
-$$ \cdot \cos\left( \frac{2 \cdot \pi \cdot n}{P} \cdot x \right) } $$
+$$ \left{ \cdot \cos\left( \frac{2 \cdot \pi \cdot n}{P} \cdot x \right) \right} $$
 
  
 
@@ -133,7 +133,8 @@ For that purpose, the thermal behaviors of various kinds of slabs were examined 
 
 The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were considered.
 
-
+| hej | hej|
+|     |    |
 
 | &nbsp; | &nbsp; |
 |:-:|:-:|
