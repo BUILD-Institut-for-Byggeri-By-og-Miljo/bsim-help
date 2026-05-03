@@ -29,4 +29,4 @@ Buildings from the inserted project can be viewed directly in *SimView*.
 
 
 See also:
-*   [Simulating with XSun](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md)
+*   [Simulating with XSun](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md) 
