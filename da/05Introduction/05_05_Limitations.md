@@ -87,7 +87,7 @@ Beregning af solceller
 
 Oprettelse af faces i SimDxf
 
-*   Hvis det er umuligt at oprette en flade (face) mellem to knudepúnkter i SimDxf, er årsagen ofte at knudepunkterne <u>ikke</u> har én linie fra cad-tegningen fælles. På den relevante hjælpeside er der beskrevet en mulig [metode](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_surfaces.md) til at omgå problemet.
+*   Hvis det er umuligt at oprette en flade (face) mellem to knudepunkter i SimDxf, er årsagen ofte at knudepunkterne <u>ikke</u> har én linie fra cad-tegningen fælles. På den relevante hjælpeside er der beskrevet en mulig [metode](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_surfaces.md) til at omgå problemet.
 
  
 
