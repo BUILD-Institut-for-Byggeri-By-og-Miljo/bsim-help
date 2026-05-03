@@ -77,16 +77,10 @@ R<sub>x</sub> is the most interesting part of the model. In fact, it is shown th
 
 The analytical solution was obtained by Glück. That consists in the formula:
 
-$$ \theta(x, y) = \theta_1 + \frac{\frac{1}{h_1} + \frac{s_1 - y}{\lambda_s}}{\frac{1}{U_1} + \frac{1}{U_2}} \cdot (\theta_2 - \theta_1) - \Gamma \cdot \left[ \theta_3 - \theta_1 - \frac{U_2}{U_1 + U_2} (\theta_2 - \theta_1) \right] \cdot $$
-
-$$ \cdot \left{ \frac{\pi}{P} \left( \frac{U_1 - U_2}{U_1 + U_2} y - \frac{2 \lambda_s}{U_1 + U_2} + |y| \right)   
-- \sum_{n=1}^{\infty} \frac{1}{n} \left[ e^{\frac{-2 \cdot \pi \cdot n}{P} \cdot |y|} + g_1(n) \cdot e^{\frac{-2 \cdot \pi \cdot n}{P} \cdot y} + g_2(n) \cdot e^{\frac{2 \cdot \pi \cdot n}{P} \cdot y} \right] \cdot \right} $$
-
-$$ \left{ \cdot \cos\left( \frac{2 \cdot \pi \cdot n}{P} \cdot x \right) \right} $$
-
- 
-
-$$ \Gamma = \left[  \ln \left( \frac{P}{\pi \cdot d_p} \right) + \frac{2 \cdot \pi \cdot \lambda_s}{P \cdot (U_1 + U_2)} + \sum_{n=1}^{\infty} \frac{g_1(n) + g_2(n)}{n}  \right]^{-1} $$
+<figure id="center_img">
+<img src="./assets/fh_eq1.gif" alt="Analytical solution">
+<figcaption>Analytical solution</figcaption>
+</figure>
 
  
 
@@ -131,28 +125,97 @@ Such limitations were defined in order to obtain an easy-to-use formula, but, ba
 
 For that purpose, the thermal behaviors of various kinds of slabs were examined via a 2D calculation tool and via a 1D model connected to the water temperature via a proper thermal resistance, under unsteady state conditions.
 
-The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were considered.
-
-| hej | hej|
-|     |    |
-
-| &nbsp; | &nbsp; |
-|:-:|:-:|
-| **Type A** | **Type E** |
-| <img src="./assets/fh_fig4.gif" width="150"> | <img src="./assets/fh_fig5.gif" width="150"> |
-| **Type X1** | **Type G** |
-| <img src="./assets/fh_fig6.gif" width="150"> | <img src="./assets/fh_fig7.gif" width="150"> |
+The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were considered:
 
 
-<p align="center">
-<em>Figure 3 - Kinds of radiant systems considered in the analysis.</em>
-</p>
+<figure id="center_img">
+<img src="./assets/fh_fig4.gif" alt="Type A">
+<figcaption>Type A</figcaption>
+</figure>
+
+<figure id="center_img">
+<img src="./assets/fh_fig5.gif" alt="Type E">
+<figcaption>Type E</figcaption>
+</figure>
+
+<figure id="center_img">
+<img src="./assets/fh_fig6.gif" alt="Type X1">
+<figcaption>Type X1</figcaption>
+</figure>
+
+<figure id="center_img">
+<img src="./assets/fh_fig7.gif" alt="Type G">
+<figcaption>Type G</figcaption>
+</figure>
+
 
 The simulations were aimed at the study of the thermal behavior of the entire deck, from the floor and ceiling surfaces to the external surface of the pipe, thus neglecting the rest of the pipe. In fact, the rest of the pipe can be modeled as a mere thermal resistance, since its "memory effect" due to thermal inertia is assumed to be negligible.
 
 As a general rule, in all types, the air cavities were not considered as conductive regions, thus their edges were considered adiabatic.
 
 In the following figure the analyzed geometries are shown. They have been analyzed via fine anc coarse meshes.
+
+<h4> 1. Type A </h4>
+
+<figure id="center_img">
+<img src="./assets/fh_fig8.gif" alt="1.1 Real geometry and fine mesh">
+<figcaption>1.1 Real geometry and fine mesh</figcaption>
+</figure>
+
+
+Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.10, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Material 3: s=0.25, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m 
+
+<figure id="center_img">
+<img src="./assets/fh_fig9.gif" alt="1.2 Simplified geometry and rough mesh">
+<figcaption>1.2 Simplified geometry and rough mesh</figcaption>
+</figure>
+
+<h4> 2. Type E </h4>
+
+<figure id="center_img">
+<img src="./assets/fh_fig10.gif" alt="2.1 Real geometry and fine mesh">
+<figcaption>2.1 Real geometry and fine mesh</figcaption>
+</figure>
+
+Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.07, λ=1.200, ρ=2000, c<sub>p</sub>=900<br>Material 3: s=0.03, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 4: s=0.20, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m
+
+
+<figure id="center_img">
+<img src="./assets/fh_fig11.gif" alt="2.2 Simplified geometry and rough mesh">
+<figcaption>2.2 Simplified geometry and rough mesh</figcaption>
+</figure>
+
+<h4> 3. Type X1 </h4>
+
+<figure id="center_img">
+<img src="./assets/fh_fig12.gif" alt="3.1 Real geometry and fine mesh">
+<figcaption>3.1 Real geometry and fine mesh</figcaption>
+</figure>
+
+Material 1: s=0.06, λ=0.200, ρ=300, c<sub>p</sub>=2500<br>Material 2: s=0.05, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 3: s=0.30, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m
+
+<figure id="center_img">
+<img src="./assets/fh_fig13.gif" alt="3.2 Simplified geometry and rough mesh">
+<figcaption>3.2 Simplified geometry and rough mesh</figcaption>
+</figure>
+
+
+<h4> 4. Type G </h4>
+
+<figure id="center_img">
+<img src="./assets/fh_fig14.gif" alt="4.1 Real geometry and fine mesh">
+<figcaption>4.1 Real geometry and fine mesh</figcaption>
+</figure>
+
+Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.04, λ=0.200, ρ=300, c<sub>p</sub>=2500<br>Material 3: s=0.10, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Material 4: s=0.12, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Plate: s=0.0005, λ=200, ρ=2700, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m
+
+
+<figure id="center_img">
+<img src="./assets/fh_fig15.gif" alt="4.2 Simplified geometry and rough mesh">
+<figcaption>4.2 Simplified geometry and rough mesh</figcaption>
+</figure>
+
+
 
 | &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|
@@ -244,6 +307,43 @@ so that
 $$ \dot{Q} = (\dot{m} \cdot c_p)_{H} \cdot (\theta_{H,\text{In}} - \theta_{H,\text{Out}}) = (\dot{m} \cdot c_p)_{C} \cdot (\theta_{C,\text{Out}} - \theta_{C,\text{In}}) = U \cdot A \cdot \text{LMTD} $$
 
 At this point, it is necessary to split the treatment in (at least) two parts. In fact, depending on the kind of relative fluid flows (pure counter flow, pure parallel flow, pure cross flow, and consequent combinations), LMTD, Q and Q<sub>max</sub> must be expressed in different ways. For our purposes, the treatment is limited to the cases of counter flow and parallel flow:
+
+<h3> Fluids in pure counter flow </h3>
+
+Definition of maximum heat flow deliverable between the fluids:
+
+$ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In}) $
+
+As a consequence,
+
+$ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $
+
+Moreover,
+
+$ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,In}) - (\theta_{H,In} - \theta_{C,Out})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,In})}{(\theta_{H,In} - \theta_{C,Out})} \right)}  $
+
+As a consequence,
+
+$ \varepsilon = \frac{1 - e^{[-NTU (1 - R)]}}{1 - R \cdot e^{[-NTU (1 - R)]}} $
+
+
+<h3> Fluids in pure parallel flow </h3>
+
+Definition of maximum heat flow deliverable between the fluids:
+
+$ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,Out}) $
+
+As a consequence,
+
+$ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $
+
+Moreover,
+
+$ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,Out}) - (\theta_{H,In} - \theta_{C,In})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,Out})}{(\theta_{H,In} - \theta_{C,In})} \right)} $
+
+As a consequence,
+
+$ \varepsilon = \frac{1 - e^{[-NTU (1 + R)]}}{1 + R} $
 
 | **Fluids in pure counter flow**   | **Fluids in pure parallel flow**   |
 |:-:|:-:|
