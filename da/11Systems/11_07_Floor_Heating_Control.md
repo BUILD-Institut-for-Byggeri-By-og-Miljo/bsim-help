@@ -10,11 +10,15 @@ Gulvvarmen defineres lige som et almindeligt varmeanlæg i en termisk zone. Det 
 
 Et gulvvarmeanlæg er defineret ved en installeret effekt (på fanebladet *Heating*) samt en regulering på fanebladet *FloorHeatCtrl*. Det er også muligt at at angive en negativ værdi for *Max Power* samt *Min*. *Power* og således simulere konstruktiv køling.
 
+<div id="gray_background">
 Systemet aktiveres ved opvarmning når:   
 temperaturen ved sensoren *< Max. Surf. Temp.* **og** Top < *Set Point*
 
 I tilfælde af konstruktiv køling aktiveres systemet når:   
 temperaturen ved sensoren > *Max. Surf. Temp* **og** Top *> Set Point*
+</div>
+
+<br>
 
 <figure id="center_img">
 <img src="./assets/floor_heat_ctrl.jpg " alt="Regulering (FloorHeatCtrl) af varmeafgivelsen i en termisk zone som gulvvarme.">

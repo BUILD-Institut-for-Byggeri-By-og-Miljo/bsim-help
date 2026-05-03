@@ -17,6 +17,8 @@ sensor temperature < *Max. Surf. Temp*. **and** Top < *Set Point*
 In the case of cooling the system will be activated when:   
 sensor temperature > *Max. Surf. Temp* **and** Top > *Set Point* </div>
 
+<br>
+
 <figure id="center_img">
 <img src="./assets/floor_heat_ctrl.jpg" alt="Control of the heat emission from a floor heating system in a thermal zone.">
 <figcaption>Control of the heat emission from a floor heating system in a thermal zone.</figcaption>
