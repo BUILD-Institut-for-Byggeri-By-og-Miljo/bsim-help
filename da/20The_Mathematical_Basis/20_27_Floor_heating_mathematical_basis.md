@@ -150,7 +150,7 @@ The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were consi
 
 The simulations were aimed at the study of the thermal behavior of the entire deck, from the floor and ceiling surfaces to the external surface of the pipe, thus neglecting the rest of the pipe. In fact, the rest of the pipe can be modeled as a mere thermal resistance, since its "memory effect" due to thermal inertia is assumed to be negligible.
 As a general rule, in all types, the air cavities were not considered as conductive regions, thus their edges were considered adiabatic.
-In the following figure the analyzed geometries are shown. They have been analyzed via fine anc coarse meshes.
+In the following figure the analyzed geometries are shown. They have been analyzed via fine and coarse meshes.
 
 <h4> 1. Type A </h4>
 <figure id="center_img">
@@ -247,7 +247,7 @@ For the following treatment, we may refer to the following figure.
 </figure>
 
 The ε-NTU method is mainly based on two definitions:
-
+<br>
 *   Efficiency
 
 $$ \varepsilon = \frac{\text{Actual heat transfer}}{\text{Theoretical max heat transfer}} = \frac{\dot Q}{\dot Q_{max}} $$

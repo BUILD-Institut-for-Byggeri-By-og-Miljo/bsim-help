@@ -31,13 +31,13 @@ The dialog box for editing material data can be opened by right-clicking the nam
 The linear coefficient of transmission heat loss (*LinTrCoeff* or the Ψ<sub>g</sub> value) in W/m K through spacer profiles made of aluminum or ordinary steel are shown in the table below (Source: [DS 418:2002](../20The_Mathematical_basis/20_28_Literature.md)). It is possible to interpolate in the table.
 
 <div id="windoor-table">
+</div>
 
 | WinDoor U-value (W/m²K) | Linear coefficient of transmission (W/mK) |
 |------------------------|-------------------------------------------|
-| 1.0 – 1.2              | 0.10                                      |
-| 2.7 – 3.0              | 0.07                                      |
+| 1,0 – 1,2              | 0,10                                      |
+| 2,7 – 3,0              | 0,07                                      |
 
-</div>
 
 
 See also:
