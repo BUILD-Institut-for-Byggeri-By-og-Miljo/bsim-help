@@ -5,11 +5,11 @@ The tab Moisture contains information about the moisture technical properties of
 
 <div id="gray_background">
 
-If a new material is created in a database containing information about moisture transport in materials the moisture transport data <u>must</u> be given, even if a moisture transport simulation is not to be performed. [See limitations](../05Introduction/05_05_Limitations.md).
+If a new material is created in a database containing information about moisture transport in materials the moisture transport data <u>must</u> be given, even if a moisture transport simulation is not to be performed. <a href="../05Introduction/05_05_Limitations.md">See limitations</a>..
 
 </div>
 
-<br>
+
 
 <figure id="center_img">
 <img src="./assets/db-fugt.jpg" alt="Moisture properties for building materials.">
@@ -20,7 +20,7 @@ On tab *Moisture* the moisture properties of a building material is given. In th
 
 <div id="gray_background">
 
-Lambda is the heat transfer coefficient for the material which is being used when the "Moisture Transport" option is turned ON at the Options tab of the simulations with tsbi5. See also "[Thermal](07_12_SimDB_BuildingMaterial_Thermal.md)".
+Lambda is the heat transfer coefficient for the material which is being used when the "Moisture Transport" option is turned ON at the Options tab of the simulations with tsbi5. See also <a href="../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md">Thermal</a>.
 
 </div>
 

@@ -9,7 +9,7 @@ The thermal properties are thermal capacity C<sub>p</sub> [J/kg·K] and thermal 
 
 If "Moisture Transport" is turned OFF at the "Options" tab under simulations with tsbi5, the lambda-value given on this tab is being used. See also <a href="../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md">Moisture</a>
 
-If a new material is created in a database containing information about moisture transport in materials the moisture transport data <span style="text-decoration: underline;">must</span> be given, even if a moisture transport simulation is not to be performed. [See limitations](../05Introduction/05_05_Limitations.md).
+If a new material is created in a database containing information about moisture transport in materials the moisture transport data <span style="text-decoration: underline;">must</span> be given, even if a moisture transport simulation is not to be performed. <a href="../05Introduction/05_05_Limitations.md">See limitations</a>.
 
 </div>
 
