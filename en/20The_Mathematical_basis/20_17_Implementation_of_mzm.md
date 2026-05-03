@@ -771,8 +771,8 @@ The convergence criteria is calculated according to the equation below. The driv
 $$ \max \left( |p_{Total} - \Delta p_{Resistance}| \right) \leq MaxDif \tag{22} $$
 
 where:  
-*Δp<sub>*Total*</sub>* is the total driving pressure for one loop [Pa]  
-*Δp<sub>*Resistance*</sub>* is the resistance through the openings [Pa]  
+*Δp*<sub>Total*</sub>* is the total driving pressure for one loop [Pa]  
+*Δp*<sub>Resistance*</sub>* is the resistance through the openings [Pa]  
 *MaxDif* is the convergence criteria [Pa]
 
 The convergence criteria is as default given as 0.01 Pa. The user have the option to change the criteria, <a href="#figure12">Figure 12</a>.
