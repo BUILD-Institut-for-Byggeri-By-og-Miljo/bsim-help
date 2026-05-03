@@ -14,7 +14,7 @@ The BSim program package uses the following file types:
 | *.arc                | Model files generated from CAD drawings using *SimDXF*. Can be used as a basis for further detailing of new models of the same building. Can be opened from *SimDXF*. |
 | *.ts3                | Model exported to *tsbi3*. This export facility can only be activated when *tsbi5* is active. |
 | *.geo                | Export of text file with information on model geometry to be used in CFD programs. This export facility can only be activated when *tsbi5* is active. |
-| *.cfd                | Export of boundary conditions to be used in CFD calculations. This export facility can only be activated when *tsbi5* | *Tables* is active. |
+| *.cfd                | Export of boundary conditions to be used in CFD calculations. This export facility can only be activated when *tsbi5* &#124; *Tables* is active. |
 | *.rad                | Export of model geometry to be used in *Radiance*. This export facility can only be activated when *SimView* is active. |
 | *.rif                | Export of controls for the use of the model in *Radiance*. This export facility can only be activated when *SimView* is active. |
 | *.wdf                | Definition file for conversion of climate data in text format (ASCII) to the binary format used by BSim. |
