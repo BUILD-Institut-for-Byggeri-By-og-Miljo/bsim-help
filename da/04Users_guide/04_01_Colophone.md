@@ -4,9 +4,7 @@
 
 Et **abonnement** er en rabatordning med mange fordele for dem, der vil sikre sig løbende orientering om væsentlige udgivelser inden for byggeforskningsområdet. Kontakt Statens Byggeforskningsinstitut og hør nærmere.
 
-<br><br>
 Copyright ©: Statens Byggeforskningsinstitut (SBi), 1999-2009.
-<br><br>
 
 Statens Byggeforskningsinstitut, SBi
 
@@ -25,10 +23,8 @@ Telefax: (+45) 45 86 7535
 E-post: info@sbi.dk
 
 Internet: [http://www.sbi.dk](https://www.build.aau.dk/til-byggebranchen)
+BSim hjemmeside: [http://www.bsim.dk](https://www.bsim.dk/)
 
-               [http://www.bsim.dk](https://www.bsim.dk/)
-
- 
 
 Eftertryk i uddrag - ud over til den daglige brug af hjælpen - tilladt, men kun med kildeangivelsen:
 

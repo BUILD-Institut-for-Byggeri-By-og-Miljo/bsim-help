@@ -2,8 +2,8 @@
 
 | Shortcut        | Function                                                                 | Program               |
 |-----------------|--------------------------------------------------------------------------|-----------------------|
-| gray +          | Zoom in on graphical view of the model                                   | SimView, XSun         |
-| gray -          | Zoom out from graphical view of the model                                | SimView, XSun         |
+| +          | Zoom in on graphical view of the model                                   | SimView, XSun         |
+| -          | Zoom out from graphical view of the model                                | SimView, XSun         |
 | Ctrl-A          | Auto-scale graphical view of the model                                   | SimView               |
 | Ctrl-C          | Copy                                                                     |                |
 | Ctrl-N          | Start wizard to create a new model                                       | SimView               |

@@ -14,7 +14,7 @@ Da programmet har en engelsk brugergrænsefladelade, er der i vid udstrækning b
 
 Inden analyse eller ændring af bygningsmodeller bør brugeren være bekendt med indholdet i denne vejledning. Der findes en række eksempler og øvelser som giver en introduktion til brugen af programmerne i programpakken.
 
-Enkelte overskrifter indeholder en understregning af et bogstav. Denne skrivemåde benyttes, fordi den er analog med menuerne i programmet og har en særlig betydning i programmet. Understregningen angiver, at punktet også kan aktiveres ved hjælp af en række tryk på tastaturet. Fx. kan punktet *<u>V</u>iew* i hovedmenuen *<u>V</u>iew* aktiveres med følgende kombination: *Alt v v*. Et "+" mellem to anslag betyder, at begge taster skal nedtrykkes samtidig.
+Enkelte overskrifter indeholder en understregning af et bogstav. Denne skrivemåde benyttes, fordi den er analog med menuerne i programmet og har en særlig betydning i programmet. Understregningen angiver, at punktet også kan aktiveres ved hjælp af en række tryk på tastaturet. Fx. kan punktet *<u>V</u>iew* i hovedmenuen *<u>V</u>iew* aktiveres med følgende kombination: *Alt + v*. Et "+" mellem to anslag betyder, at begge taster skal nedtrykkes samtidig.
 
 Programpakken betjener sig af en række genvejstaster, som generelt har samme funktion som kendes fra MS-Windows. Der er dog også en række genvejstaster som er programspecifikke. Disse kaldes ved at trykke på "Alt-knappen" og et bogstav. De anvendte [genvejstaster](../24Miscellaneous/24_05_Keyboard_shortcuts.md) kan ses i oversigten.
 
