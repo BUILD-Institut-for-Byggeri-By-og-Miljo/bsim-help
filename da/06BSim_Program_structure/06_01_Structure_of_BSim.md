@@ -8,9 +8,9 @@ I SimView vises en bygningsmodel dels som en hierarkisk træ-oversigt til venstr
 
 Skærmens højre side er således inddelt i fire felter, der viser modellen som:
 
-*   opstalt vinkelret på X-aksen eller fra nord mod syd hvis modellen ikke er roteret (øverst til venstre)
+*   opstalt vinkelret på x-aksen eller fra nord mod syd hvis modellen ikke er roteret (øverst til venstre)
 
-*   opstalt vinkelret på Y-aksen eller fra øst mod vest hvis modellen ikke er roteret (øverst til højre)
+*   opstalt vinkelret på y-aksen eller fra øst mod vest hvis modellen ikke er roteret (øverst til højre)
 
 *   plantegning (for neden til venstre)
 
@@ -36,6 +36,7 @@ Når der tilknyttes konstruktioner til modellens flader afsættes de således:
 <img src="./assets/Structure.GIF " alt="Programvinduet i SimView med træ-oversigten til venstre og fire visninger af modellen til højre.">
 <figcaption>Programvinduet i SimView med træ-oversigten til venstre og fire visninger af modellen til højre.</figcaption>
 </figure>
+
 
 Modellens enkelte objekter kan [bearbejdes og undersøges](../06BSim_Program_structure/06_03_Mouse_operations_in_SimView.md) ved hjælp af klik med musen i kombination med tastaturets Ctrl-tast og Shift-tast. Et klik med musens venstre tast kaldes et venstre-klik (eller blot et klik), mens et klik med musens højre tast kaldes en højre-klik.
 
