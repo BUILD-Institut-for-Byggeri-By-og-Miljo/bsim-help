@@ -29,18 +29,18 @@ Konstruer *hjælpelinier* for de ønskede vægge og konstruktioner.
 
 Se også:
 
-*   [Vælg DXF-filter - Edit DXF-filter](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
+*   [Vælg DXF-filter - Edit DXF-filter](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
 
-*   [Hent DXF-fil - Open DXF-file](/24Miscellaneous/24_47_About_SimDXF.html)
+*   [Hent DXF-fil - Open DXF-file](../24Miscellaneous/24_47_About_SimDXF.md)
 
-*   [Knudepunkter (nodes)](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
+*   [Knudepunkter (nodes)](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
 
-*   [Flade - Face](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
+*   [Flade - Face](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
 
-*   [Rum - Room](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
+*   [Rum - Room](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
 
-*   [WinDoor](/24Miscellaneous/24_48_SimDXF_Create_help_lines.html)
+*   [WinDoor](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
 
-*   [Tegningsrevisioner](/24Miscellaneous/24_47_About_SimDXF.html)
+*   [Tegningsrevisioner](../24Miscellaneous/24_47_About_SimDXF.md)
 
-*   [Tilføjelse af SimDXF som applikation](/24Miscellaneous/24_19_Setting_up_applications.html)
+*   [Tilføjelse af SimDXF som applikation](../24Miscellaneous/24_19_Setting_up_applications.md)

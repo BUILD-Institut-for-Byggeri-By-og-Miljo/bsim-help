@@ -14,7 +14,7 @@ Siden er under opbygning! 
 
 **OBS:** Standardværdier bør **kun** ændres med stor forsigtighed! Når der klikkes "OK" gemmes de aktuelle værdier og benyttes i ALLE simuleringer indtil de ændres igen.
 
-Fanebladet Natural Ventilation er reserveret særlige data i forbindelse med multizone (mzm) simulering af naturlig ventilation *([Venting](/11Systems/11_18_Systems_Venting.html))* i BSim.
+Fanebladet Natural Ventilation er reserveret særlige data i forbindelse med multizone (mzm) simulering af naturlig ventilation *([Venting](../11Systems/11_18_Systems_Venting.md))* i BSim.
 
 Reset
 
@@ -37,7 +37,7 @@ Geometry
 
 Convective Heat Transfer Model
 
-*   *ka value*: [Ka værdien](/11Systems/11_11_Natural_ventilation.html) for åbningen jf.[ Danvak Grundbogen, kapitel 7.](/20The_Mathematical_Basis/20_28_Literature.html)
+*   *ka value*: [Ka værdien](../11Systems/11_11_Natural_ventilation.md) for åbningen jf.[ Danvak Grundbogen, kapitel 7.](../20The_Mathematical_Basis/20_28_Literature.md)
 
 *   *Inlet Air Angle*: Luftstrålens breddevinkel.
 
@@ -59,4 +59,4 @@ Mzm Heat Balance - beskriver konvergenskriterierne mellem multizonemodellen og d
 
 *   Max Iterations: Der kan maksimalt gennemføres det antal iterationer som er givet i feltet.
 
-Se også: [Regulering af multizone modellen](/24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.html)
+Se også: [Regulering af multizone modellen](/24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md)

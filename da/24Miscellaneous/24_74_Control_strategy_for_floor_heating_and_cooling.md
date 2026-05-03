@@ -223,4 +223,4 @@ Available controls:
 
 <br>
 
-See also the [mathematical basic for the system.](/24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.html)
+See also the [mathematical basic for the system.](/24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md)
