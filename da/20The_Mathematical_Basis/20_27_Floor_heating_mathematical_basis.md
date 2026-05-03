@@ -203,9 +203,6 @@ Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.04, 
 
 
 
-<p align="center">
-<em>Figure 4 - Real and simplified 2D geometries, together with meshes.</em>
-</p>
 
 The 2D calculations and the 1D model have been contrasted by comparing the corresponding thermal behaviors along a period with imposed temperatures at the surfaces of the floor, ceiling and pipe. In Figure 5, an example of temperature profiles used in the comparison is shown:
 
@@ -287,51 +284,71 @@ At this point, it is necessary to split the treatment in (at least) two parts. I
 
 <h3> Fluids in pure counter flow </h3>
 
-Definition of maximum heat flow deliverable between the fluids:
+Definition of maximum heat flow deliverable between the fluids: 
+
+<br>
 
 $ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In}) $
 
+<br>
+
 As a consequence,
+
+<br>
 
 $ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $
 
+<br>
+
 Moreover,
+
+<br>
 
 $ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,In}) - (\theta_{H,In} - \theta_{C,Out})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,In})}{(\theta_{H,In} - \theta_{C,Out})} \right)}  $
 
+<br>
+
 As a consequence,
 
+<br>
+
 $ \varepsilon = \frac{1 - e^{[-NTU (1 - R)]}}{1 - R \cdot e^{[-NTU (1 - R)]}} $
+
+
 
 
 <h3> Fluids in pure parallel flow </h3>
 
 Definition of maximum heat flow deliverable between the fluids:
 
+<br>
+
 $ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,Out}) $
 
+<br>
+
 As a consequence,
+
+<br>
 
 $ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $
 
+<br>
+
 Moreover,
+
+<br>
 
 $ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,Out}) - (\theta_{H,In} - \theta_{C,In})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,Out})}{(\theta_{H,In} - \theta_{C,In})} \right)} $
 
+<br>
+
 As a consequence,
+
+<br>
 
 $ \varepsilon = \frac{1 - e^{[-NTU (1 + R)]}}{1 + R} $
 
-| **Fluids in pure counter flow**   | **Fluids in pure parallel flow**   |
-|:-:|:-:|
-| Definition of maximum heat flow deliverable between the fluids:   | Definition of maximum heat flow deliverable  between the fluids:  |
-| $ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In}) $  | $ \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,Out}) $  |
-|  As a consequence,   | As a consequence,  |
-|  $ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $ | $ \varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} = \frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} $  |
-| Moreover,  | Moreover,  |
-| $ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,In}) - (\theta_{H,In} - \theta_{C,Out})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,In})}{(\theta_{H,In} - \theta_{C,Out})} \right)}  $  | $ \text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,Out}) - (\theta_{H,In} - \theta_{C,In})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,Out})}{(\theta_{H,In} - \theta_{C,In})} \right)} $  |
-|  As a consequence,  | As a consequence, |
-| $ \varepsilon = \frac{1 - e^{[-NTU (1 - R)]}}{1 - R \cdot e^{[-NTU (1 - R)]}} $  |  $ \varepsilon = \frac{1 - e^{[-NTU (1 + R)]}}{1 + R} $ |
 
 
 <h3 id="epsilon-ntu-developed-model"><strong>3.2. The e-NTU method in the developed model</strong></h3>
