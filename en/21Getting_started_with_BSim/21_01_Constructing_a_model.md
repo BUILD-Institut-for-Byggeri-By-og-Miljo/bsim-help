@@ -21,13 +21,13 @@ There are a number of golden rules that should be observed when constructing mod
 
 In the section with [learning examples](21_02_Learning_examples.md) three examples are found. These examples guides the first-time user through a simple creation of a building geometry, over addition of systems to the model and the first simulation with the tsbi5 program.
 
-Before using the program it is recommended to get aquatinted with the [structure of BSim](../06BSim_Program_structure/06_01_BSim_Program_structure.md).
+Before using the program it is recommended to get aquatinted with the [structure of BSim](../06BSim_Program_structure/06_01_Structure_of_BSim.md).
 
 *   A number of [short-cuts](../05Introduction/05_06_Shortcut_keys.md) exists in *BSim*.
 
 *   Models can be edited using the [menu](../06BSim_Program_structure/06_06_SimView_Menu.md) in *SimView*.
 
-*   The [mouse](../09SimView/09_02_Mouse_operations_in_SimView.md) is a tool that can be used in different ways within *SimView*.
+*   The [mouse](../06BSim_Program_structure/06_03_Mouse_operations_in_SimView.md) is a tool that can be used in different ways within *SimView*.
 
 *   At the top of the user interface there is a [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md) giving easy access to different functions in *BSim*.
 
