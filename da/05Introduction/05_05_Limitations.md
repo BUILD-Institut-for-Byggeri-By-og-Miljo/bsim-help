@@ -54,9 +54,9 @@ Resultatsammenligning
 
 Solfordeling på delflader
 
-*   Med *XSun* sluet **til** på [*Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) fanebladet til simuleringerne med tsbi5, vil det direkte solindfald blive fordelt geometrisk korrekt til alle delflader i en flade (fx et gulv opdelt i flere felter).
+*   Med *XSun* slået **til** på [*Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) fanebladet til simuleringerne med tsbi5, vil det direkte solindfald blive fordelt geometrisk korrekt til alle delflader i en flade (fx et gulv opdelt i flere felter).
 
-*   Hvis XSun er sluet **fra** vil solindfaldet blive fordelt efter de enkelte delfladers areal og den fordelingssnøgle som gives i [*ThermalZone Property*](../10Thermal_zones/10_01_Thermal_zone_property.md) dialogen.
+*   Hvis XSun er slået **fra** vil solindfaldet blive fordelt efter de enkelte delfladers areal og den fordelingssnøgle som gives i [*ThermalZone Property*](../10Thermal_zones/10_01_Thermal_zone_property.md) dialogen.
 
 *   Solpåvirkningen vil således blive den samme (pr. m²) for alle delflader i gulve, vægge og lofter, ligegyldigt hvor i rummet delfladen er placeret (fx ved bagvæg og ved vindue).
 
