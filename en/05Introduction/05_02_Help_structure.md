@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Help structure
-A common help text exists for all modules in BSim, although some modules are only available as add-ons to the basic package or only available in BSim version 2002 and more recent. These pages are formatted with a light yellow background.
+
 
 Help is based on a design allowing direct access to the Danish Building Research Institute's website plus the BSim web site.
 

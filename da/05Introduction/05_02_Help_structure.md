@@ -2,10 +2,7 @@
 
 # Opbygning af hjælp
 
-Der findes én hjælpetekst til BSim-pakken, selvom nogle funktioner kun findes til udvidelsesmoduler til basispakken eller i BSim version 2002 eller nyere. Disse sider vises med svagt gul baggrund.
-
  
-
 Hjælpeteksten er opbygget omkring det design, som giver adgang til Statens Byggeforskningsinstituts hjemmeside på dansk og engelsk samt BSim's hjemmeside.
 
 <figure id="center_img">
