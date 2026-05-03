@@ -24,7 +24,7 @@ Værktøjsbjælken i *BSim* indeholder en række knapper med følgende funktione
 | <img src="./assets/12SimView - Værktøjsbjælken.png" width=50> | Udskriv (genvej: *Ctrl + p*), |
 | <img src="./assets/13SimView - Værktøjsbjælken.png" width=50> | Vis modellen som HTML i pc'ens standard internet browser som [model doc](../24Miscellaneous/24_29_Model_DOC.md), |
 | <img src="./assets/14SimView - Værktøjsbjælken.png" width=50> | Vis listning (dokumentation) for aktuelle visning, [ModelList](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md), |
-| <img src="./assets/15SimView - Værktøjsbjælken.png" width=50> | [Eksport af bygningsmodellen](../24Miscellaneous/24_50_Export_to_Be10.md) for brug i Be10-programmet, |
+| <img src="./assets/15SimView - Værktøjsbjælken.png" width=50> | [Eksport af bygningsmodellen](../24Miscellaneous/24_50_Export_to_Be10.md) for brug i Be18-programmet, |
 | <img src="./assets/16SimView - Værktøjsbjælken.png" width=50> | Skift til værktøjet [BEAT](../24Miscellaneous/24_51_About_BEAT.md) for miljøvurdering af bygningen, |
 | <img src="./assets/17SimView - Værktøjsbjælken.png" width=50> | [Beregning af dagslys med *SimLight*](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md), |
 | <img src="./assets/18SimView - Værktøjsbjælken.png" width=50> | [Skift til *SimView*](../09SimView/09_01_SimView.md), |
@@ -46,7 +46,7 @@ Værktøjsbjælken i *BSim* indeholder en række knapper med følgende funktione
 | <img src="./assets/34SimView - Værktøjsbjælken.png" width=50> | Viser generel information, 
  
 
-<img src="./assets/35SimView - Værktøjsbjælken.png" width=20> Vælg menupunktet View/*ModelList* eller klik på den tilhørende ikon. Herved åbnes et vindue, hvori modellens data vises linie for linie. I starten af hver linie vises en ikon, som angiver informationens type. Så længe dette vindue vises, kan modellen udskrives til printer. 
+<img src="./assets/35SimView - Værktøjsbjælken.png" width=20> Vælg menupunktet View/*ModelList* eller klik på den tilhørende ikon. Herved åbnes et vindue, hvori modellens data vises linie for linie. I starten af hver linie vises et ikon, som angiver informationens type. Så længe dette vindue vises, kan modellen udskrives til printer. 
 
 
 Relaterede emner:

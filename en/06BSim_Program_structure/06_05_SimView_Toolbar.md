@@ -37,7 +37,7 @@ The toolbar in *BSim* contains a number of buttons with the following functions 
 <br>
 <img src="./assets/14SimView - Værktøjsbjælken.png" width=15> Show listing (documentation) for current view, [*ModelList*]().
 <br>
-<img src="./assets/15SimView - Værktøjsbjælken.png" width=15> Converts the building model to be used in the Danish building code energy frame compliance checker, Be10 (available in English and using customized weather data). 
+<img src="./assets/15SimView - Værktøjsbjælken.png" width=15> Converts the building model to be used in the Danish building code energy frame compliance checker, Be18 (available in English and using customized weather data). 
 <br>
 <img src="./assets/16SimView - Værktøjsbjælken.png" width=15> Open [BEAT]() to perform environmental analyses.
 <br>
