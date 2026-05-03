@@ -39,11 +39,11 @@ The BSim program to which the specified description belongs is indicated at the 
 
 *   A new project is created with a *[wizard](../09SimView/09_12_Model_wizard_creating_a_new_model.md)*.
 
-*   A [building model](../09SimView/09_13_Creating_a_building.md) is created in the project with *SimView*.
+*   A [building model](../06BSim_Program_structure/06_09_SimView_Creating_a_building.md) is created in the project with *SimView*.
 
-*   More [spaces](../09SimView/09_14_Creating_a_space.md) are added to the model in *SimView*.
+*   More [spaces](../09SimView/09_15_SimView_Creating_a_space.md) are added to the model in *SimView*.
 
-*   The model geometry is [edited](../09SimView/09_15_Editing_the_model_geometry.md) with *SimView*.
+*   The model geometry is [edited](../09SimView/09_02_SimView_Editing_the_model_geometry.md) with *SimView*.
 
 *   [Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md) are attached from the database *SimDB*.
 
@@ -53,11 +53,11 @@ The BSim program to which the specified description belongs is indicated at the 
 
 *   Some [default constructions are overwritten](../09SimView/09_09_SimView_Non_default_constructions.md) with constructions from *SimDB*.
 
-*   [Windows, doors and openings in the faces are added](../09SimView/09_05_Adding_windows_doors_and_openings_WinDoor.md) in *SimView*.
+*   [Windows, doors and openings in the faces are added](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md) in *SimView*.
 
 *   Systems are added to the windows.
-    *   [Shading](../11Systems/11_23_Systems_Shading.md)
-    *   [Shutters](../11Systems/11_24_Systems_Shutters.md)
+    *   [Shading](../11Systems/11_16_Systems_shading.md)
+    *   [Shutters](../11Systems/11_15_Systems_shutter.md)
 
 *   A face is [filled](../24Miscellaneous/24_30_SimView_Insert_WinDoor.md)  with a window or opening in *SimView*.
 

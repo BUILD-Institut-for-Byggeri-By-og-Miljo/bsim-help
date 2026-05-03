@@ -47,7 +47,7 @@ I slutningen af hver linie er markeret med *kursiv* i hvilket af BSim's programm
 
 *   Modelgeometrien [redigeres](../09SimView/09_02_SimView_Editing_the_model_geometry.md) med *SimView*.
 
-*   Der tilknyttes [standardkonstruktioner](../07SimDB_Database/07_02_SimDB_BuildingElement.md) fra databasen *SimDB*.
+*   Der tilknyttes [standardkonstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md) fra databasen *SimDB*.
 
 *   [Nye materialer](../07SimDB_Database/07_06_SimDB_BuildingMaterial.md) oprettes til brug for nye konstruktioner i databasen *SimDB*.
 
