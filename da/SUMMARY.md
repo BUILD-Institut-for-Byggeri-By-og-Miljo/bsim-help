@@ -346,5 +346,7 @@
 * [tsbi5 Natural Ventilation options](24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md)
 * [Windoor systemer](24Miscellaneous/24_73_Windoor_Systems.md)
 * [Model information](24Miscellaneous/24_75_Model_information.md)
+* [Ashrae](24Miscellaneous/24_76_ASHRAE.md)
+* [Model documentation](24Miscellaneous/24_77_ModelDocumentation.md)
 
 ----
