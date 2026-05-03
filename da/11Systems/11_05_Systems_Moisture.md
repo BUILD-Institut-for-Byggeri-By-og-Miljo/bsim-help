@@ -4,7 +4,7 @@
 
 Dialog for angivelse af fugtbelastning i den aktuelle termiske zone, bortset fra fugt fra personer.
 
-Programmets [standard-model](../20The_Mathematical_Basis/20_01_The_moisture_balance.md) for fugtberegninger er meget enkel, idet der ikke tages hensyn til fugtabsorption og adsorption i rummets overflader eller til fugttransport og fugtakkumulering i materialer. Med udvidelsesmodulet til detaljeret [hygro-termisk simulering](../20The_Mathematical_Basis/20_XX_Detailed_moisture_transport_model.md) er det dog muligt at tage højde for disse forhold.
+Programmets [standard-model](../20The_Mathematical_Basis/20_04_Moisture_balance_for_a_zone.md) for fugtberegninger er meget enkel, idet der ikke tages hensyn til fugtabsorption og adsorption i rummets overflader eller til fugttransport og fugtakkumulering i materialer. Med udvidelsesmodulet til detaljeret [hygro-termisk simulering](../20The_Mathematical_Basis/20_05_Detailed_Moisture_balance.md) er det dog muligt at tage højde for disse forhold.
 
 
 <figure id="center_img">
