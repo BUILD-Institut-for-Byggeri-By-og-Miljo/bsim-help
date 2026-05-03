@@ -6,7 +6,7 @@
 
 En bygningsmodel består af en række rum geometrisk og evt. termisk beskrevet (konstruktioner, vinduer m.v.). Nogle af disse rum kan være i *termiske zoner*, og disse vil indgå i en termisk simulering med *tsbi5.* Rum, der tilhører den samme termiske zone, bliver således simuleret som en zone med samme temperatur og belastninger.
 
-Hvis alle rum i en bygningsmodel er beskrevet termisk - også dem uden for *termiske zoner*, kan hele modellen overføres til beregning i *[Be18-programmet](../24Miscellaneous/24_20_Be10_Be18_Export.md)*. En model kan således samtidig benyttes til simpel beregning i *Be18* og detaljeret simulering i *tsbi5.*
+Hvis alle rum i en bygningsmodel er beskrevet termisk - også dem uden for *termiske zoner*, kan hele modellen overføres til beregning i *Be18*. En model kan således samtidig benyttes til simpel beregning i *Be18* og detaljeret simulering i *tsbi5.*
 
 En termisk zone oprettes ved at højre-klikke på bygningen i træ-oversigten og trykke på knappen *Insert Thermal Zone.* Et eller flere rum tilknyttes en termisk zone ved at trække (med venstre muse-knap holdt nede) den til den ønskede termiske zone.
 

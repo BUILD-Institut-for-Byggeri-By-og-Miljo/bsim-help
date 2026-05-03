@@ -13,6 +13,7 @@ If a new material is created in a database containing information about moisture
 
 </div>
 
+<br>
 
 <figure id="center_img">
 <img src="./assets/dbthermal.gif" alt="Thermal data (over and above density) for the material.">
