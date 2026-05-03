@@ -13,7 +13,6 @@ The individual functions of the *BSim* menus are described below:
 
 *   [Help](../24Miscellaneous/24_23_Help.md)
 
-<br>
 
 See also:
 
