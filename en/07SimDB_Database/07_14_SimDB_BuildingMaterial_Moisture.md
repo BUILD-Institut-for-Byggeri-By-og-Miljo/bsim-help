@@ -5,7 +5,7 @@ The tab Moisture contains information about the moisture technical properties of
 
 <div id="gray_background">
 
-If a new material is created in a database containing information about moisture transport in materials the moisture transport data <u>must</u> be given, even if a moisture transport simulation is not to be performed. <a href="../05Introduction/05_05_Limitations.md">See limitations</a>..
+If a new material is created in a database containing information about moisture transport in materials the moisture transport data <u>must</u> be given, even if a moisture transport simulation is not to be performed. <a href="../05Introduction/05_05_Limitations.md">See limitations</a>.
 
 </div>
 
