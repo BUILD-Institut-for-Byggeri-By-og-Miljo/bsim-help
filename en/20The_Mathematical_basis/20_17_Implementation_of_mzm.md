@@ -73,7 +73,7 @@ As a default, openings are activated flow elements, while WinDoor's are not. The
 
 For WinDoors the open-able fraction of the WinDoor have to be defined, and in which relative height the centre of this open-able fraction is located. A WinDoor have a limited number of degrees of opening, which cen be specified by the user. If 10 degrees of opening is being used, the active part of the WinDoor can thus be 0, 10, 20, … % of the open-able area.
 
-Only openings in the thermal envelope need to be defined as the single zone model assumes that all rooms in the same thermal zone is connected in one single open space. It must therefore be considered if there are flow resistances between the individual rooms of the thermal zone as these are not part of the simulations. REsistances from internal openings can be added at the openings of the thermal envelope.
+Only openings in the thermal envelope need to be defined as the single zone model assumes that all rooms in the same thermal zone is connected in one single open space. It must therefore be considered if there are flow resistances between the individual rooms of the thermal zone as these are not part of the simulations. Resistances from internal openings can be added at the openings of the thermal envelope.
 
 <div id="center_img">
 <figure id="figure2">
