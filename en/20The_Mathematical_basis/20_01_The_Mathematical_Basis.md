@@ -4,7 +4,7 @@
 
 The matematical basis for the algorithms in BSim are described in the following sections.
 
-*   [Internal building description, definition of nodes in constructions.](20_02_Building_description_and_definition_of_nodes_in_constructions.md)
+*   [Internal building description, definition of nodes in constructions.](20_02_Building_description_and_definition_of_nodes_in_constructions.md) 
 
 *   [The heat balance for the zone air.](20_25_Heat_balance_for_the_zone_air.md)
 

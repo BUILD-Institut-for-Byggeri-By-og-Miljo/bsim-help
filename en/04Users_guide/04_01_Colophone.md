@@ -3,23 +3,25 @@
 
 **The Subscription** is a discount scheme offering many advantages to people wishing to be kept up to date on specific subjects within the building research field. Call Danish Building Research Institute for further information.
 
-<br>
-
 Copyright ©: Danish Building Research Institute (SBi), 1999-2010.
 
-<br>
-
 Danish Building Research Institute, SBi  
-AALBORG UNIVERSITY   
-P.O.Box 119   
-DK-2970 Hørsholm.   
-Telephone: (+45) 45 86 5533  
-Telefax: (+45) 45 86 7535   
-E-mail: info@sbi.dk   
-Web: [http://www.sbi.dk](https://www.build.aau.dk/til-byggebranchen)  
-BSim website: [http://www.bsim.dk](https://www.bsim.dk/)
 
- 
+AALBORG UNIVERSITY   
+
+P.O.Box 119   
+
+DK-2970 Hørsholm.   
+
+Telephone: (+45) 45 86 5533  
+
+Telefax: (+45) 45 86 7535   
+
+E-mail: info@sbi.dk   
+
+Web: [http://www.sbi.dk](https://www.build.aau.dk/til-byggebranchen)  
+
+BSim website: [http://www.bsim.dk](https://www.bsim.dk/) 
 
 Reprint - except for the daily use of the help - is allowed, but **only** by mentioning the source:
 
