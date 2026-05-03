@@ -58,11 +58,12 @@ hvor: 
 
 Using the single zone model it is necessary to consider which of the rooms in the building that must be part of the thermal zones. In a normal thermal simulation rooms with the same thermal characteristics can be merged together in the same thermal zone. This is for instance the case for offices having the same orientation, as shown with the blue circles in <a href="#figure1">Figure 1</a>. Modeling cross ventilation will as a contract require division of the rooms into thermal zones as indicated by the red circles.
 
+<div id=center_img>
 <figure id="figure1">
 <img src="./assets/mzm_im2.gif" alt="Figure 1. Different division of rooms into thermal zones. Blue circles is equal to a division of thermal zones according to thermal considerations while red circles indicates a division according to natural ventilation considerations using the single zone model.">
 <figcaption>Figure 1. Different division of rooms into thermal zones. Blue circles is equal to a division of thermal zones according to thermal considerations while red circles indicates a division according to natural ventilation considerations using the single zone model.</figcaption>
 </figure>
-
+</div>
 
 **<span id="openings">Definitions on openings</span>**
 
@@ -770,8 +771,8 @@ The convergence criteria is calculated according to the equation below. The driv
 $$ \max \left( |p_{Total} - \Delta p_{Resistance}| \right) \leq MaxDif \tag{22} $$
 
 where:  
-*Δp<sub>*Total*</sub>* is the total driving pressure for one loop [Pa]  
-*Δp<sub>*Resistance*</sub>* is the resistance through the openings [Pa]  
+*Δp*<sub>Total*</sub>* is the total driving pressure for one loop [Pa]  
+*Δp*<sub>Resistance*</sub>* is the resistance through the openings [Pa]  
 *MaxDif* is the convergence criteria [Pa]
 
 The convergence criteria is as default given as 0.01 Pa. The user have the option to change the criteria, <a href="#figure12">Figure 12</a>.

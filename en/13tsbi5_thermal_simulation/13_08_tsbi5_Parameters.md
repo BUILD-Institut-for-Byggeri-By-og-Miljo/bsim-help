@@ -12,6 +12,7 @@ The *Parameters* tab contains lists of the [parameters that have been saved on a
 Values saved in the result log represents snap-shots of the calculated conditions at the end of the last time step in each hour unless anything else is given for the individual parameter.
 </div>
 
+<br>
 
 <figure id="center_img">
 <img src="./assets/tsbi5Parametres.GIF" alt="The Parameters tab contains a list of saved parameters that can be displayed on an hourly basis.">
@@ -32,9 +33,8 @@ The button *Open New Model* gives the opportunity of selecting results from othe
 If the model name is too long, it is not possible to compare results from different models at the Tables tab.</em>
 </div>
 
-<br>
 
-Result files from simulations with [SimPv](../16SimPV/16_01_SimPV.md) can be analyzed using the normal result analyses functions. These result files are named as *model name#pv*. Results occurs as two parameters (*qPvGross og qPvNet*) at all constructions with solar cells. There <u>must</u> thus be a check-mark next to *Constructions* at the [*Options*](13_02_tsbi5_options.md)tab to be able to see these parameters.
+Result files from simulations with [SimPv](../16SimPV/16_01_SimPV.md) can be analyzed using the normal result analyses functions. These result files are named as *model name#pv*. Results occurs as two parameters (*qPvGross og qPvNet*) at all constructions with solar cells. There <u>must</u> thus be a check-mark next to *Constructions* at the [*Options*](13_02_tsbi5_options.md) tab to be able to see these parameters.
 
 If a simulation over several years have been performed, results from each year will occour as individual result files. These result files are named after the model followed by a "#yy", where yy are the last two digits of the year. *tsbi5* automatically shows the first year in a series of years. Additional years must be opened as individual result files.
 
