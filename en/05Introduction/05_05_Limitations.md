@@ -139,7 +139,7 @@ Systems
 
 [XSun video](../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.md) recording
 
-*   Recording and replaying video sequences happens in the same size of window as BSim had during the recording (do not use full screen windows). If focus changes from BSim to any other application , i.e. using Alt+Tab, that part of this application located within the size of the BSim window will be recorded in stead of the XSun animation.
+*   Recording and replaying video sequences happens in the same size of window as BSim had during the recording (do not use full screen windows). If focus changes from BSim to any other application , i.e. using Alt + Tab, that part of this application located within the size of the BSim window will be recorded in stead of the XSun animation.
 
  
 
