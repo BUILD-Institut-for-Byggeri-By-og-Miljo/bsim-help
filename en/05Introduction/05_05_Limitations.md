@@ -1,15 +1,13 @@
 <link rel="stylesheet" href="../style.css">
 
 # Limitations
-<center>
 
+<div id="center_img">
 *There are a number of limitations connected to the different applications in the BSim program package.*
-</center>
-<center>
 
-*Some of them are listed below.*
+Some of them are listed below.
 
-</center>
+</div>
 
 
 Comparison of results from different models
