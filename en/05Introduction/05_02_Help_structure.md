@@ -48,6 +48,6 @@ In the left side of the User's Guide, three tabs are found: *Contents*, *Search*
 
 The search can be refined using the three options at the bottom of the search window.
 
-*   In *Favor<u>i</u>tes* it is possible to save links to pages often used.
+*   In *<u>Favorites</u>* it is possible to save links to pages often used.
 
 Generally graphics are used as illustrations of different functions in the program in terms of screen dumps and drawings. Some of these graphic elements contain hot-spots, leading on to other help pages or somewhere else in the same page, where the topic is described more detailed. Graphics with hot-spots are marked with a thin blue frame. It is not possible to see in which parts of the graphic the hot-spots are, but when moving the cursor over the graphic, the shape of the cursor changes to a hand <img src="./assets/MouseOver.gif" width=15> when located over a hotspot.
