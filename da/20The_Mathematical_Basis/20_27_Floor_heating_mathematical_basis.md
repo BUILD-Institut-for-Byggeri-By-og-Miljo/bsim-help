@@ -78,10 +78,11 @@ R<sub>x</sub> is the most interesting part of the model. In fact, it is shown th
 The analytical solution was obtained by Glück. That consists in the formula:
 
 <figure id="center_img">
-<img src="./assets/fh_eq1.gif" alt="Analytical solution">
-<figcaption>Analytical solution</figcaption>
+<img src="./assets/fh_eq1.gif" alt="">
+<figcaption></figcaption>
 </figure>
 
+, where
  
 
 $$ U_1 = \left( \frac{1}{h_1} + \frac{s_1}{\lambda_s} \right)^{-1} $$
@@ -128,96 +129,7 @@ For that purpose, the thermal behaviors of various kinds of slabs were examined 
 The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were considered:
 
 
-<figure id="center_img">
-<img src="./assets/fh_fig4.gif" alt="Type A">
-<figcaption>Type A</figcaption>
-</figure>
 
-<figure id="center_img">
-<img src="./assets/fh_fig5.gif" alt="Type E">
-<figcaption>Type E</figcaption>
-</figure>
-
-<figure id="center_img">
-<img src="./assets/fh_fig6.gif" alt="Type X1">
-<figcaption>Type X1</figcaption>
-</figure>
-
-<figure id="center_img">
-<img src="./assets/fh_fig7.gif" alt="Type G">
-<figcaption>Type G</figcaption>
-</figure>
-
-
-The simulations were aimed at the study of the thermal behavior of the entire deck, from the floor and ceiling surfaces to the external surface of the pipe, thus neglecting the rest of the pipe. In fact, the rest of the pipe can be modeled as a mere thermal resistance, since its "memory effect" due to thermal inertia is assumed to be negligible.
-
-As a general rule, in all types, the air cavities were not considered as conductive regions, thus their edges were considered adiabatic.
-
-In the following figure the analyzed geometries are shown. They have been analyzed via fine anc coarse meshes.
-
-<h4> 1. Type A </h4>
-
-<figure id="center_img">
-<img src="./assets/fh_fig8.gif" alt="1.1 Real geometry and fine mesh">
-<figcaption>1.1 Real geometry and fine mesh</figcaption>
-</figure>
-
-
-Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.10, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Material 3: s=0.25, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m 
-
-<figure id="center_img">
-<img src="./assets/fh_fig9.gif" alt="1.2 Simplified geometry and rough mesh">
-<figcaption>1.2 Simplified geometry and rough mesh</figcaption>
-</figure>
-
-<h4> 2. Type E </h4>
-
-<figure id="center_img">
-<img src="./assets/fh_fig10.gif" alt="2.1 Real geometry and fine mesh">
-<figcaption>2.1 Real geometry and fine mesh</figcaption>
-</figure>
-
-Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.07, λ=1.200, ρ=2000, c<sub>p</sub>=900<br>Material 3: s=0.03, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 4: s=0.20, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m
-
-
-<figure id="center_img">
-<img src="./assets/fh_fig11.gif" alt="2.2 Simplified geometry and rough mesh">
-<figcaption>2.2 Simplified geometry and rough mesh</figcaption>
-</figure>
-
-<h4> 3. Type X1 </h4>
-
-<figure id="center_img">
-<img src="./assets/fh_fig12.gif" alt="3.1 Real geometry and fine mesh">
-<figcaption>3.1 Real geometry and fine mesh</figcaption>
-</figure>
-
-Material 1: s=0.06, λ=0.200, ρ=300, c<sub>p</sub>=2500<br>Material 2: s=0.05, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 3: s=0.30, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m
-
-<figure id="center_img">
-<img src="./assets/fh_fig13.gif" alt="3.2 Simplified geometry and rough mesh">
-<figcaption>3.2 Simplified geometry and rough mesh</figcaption>
-</figure>
-
-
-<h4> 4. Type G </h4>
-
-<figure id="center_img">
-<img src="./assets/fh_fig14.gif" alt="4.1 Real geometry and fine mesh">
-<figcaption>4.1 Real geometry and fine mesh</figcaption>
-</figure>
-
-Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.04, λ=0.200, ρ=300, c<sub>p</sub>=2500<br>Material 3: s=0.10, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Material 4: s=0.12, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Plate: s=0.0005, λ=200, ρ=2700, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m
-
-
-<figure id="center_img">
-<img src="./assets/fh_fig15.gif" alt="4.2 Simplified geometry and rough mesh">
-<figcaption>4.2 Simplified geometry and rough mesh</figcaption>
-</figure>
-
-
-
-| &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|
 | <img src="./assets/fh_fig8.gif" width="150"><br>*1.1 Real geometry*<br>*and fine mesh.* | **1. Type A**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.10, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Material 3: s=0.25, λ=0.039, ρ=50, c<sub>p</sub>=850<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig9.gif" width="150"><br>*1.2 Simplified geometry*<br>*and rough mesh.* |
 | <img src="./assets/fh_fig10.gif" width="150"><br>*2.1 Real geometry*<br>*and fine mesh.* | **2. Type E**<br>Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br>Material 2: s=0.07, λ=1.200, ρ=2000, c<sub>p</sub>=900<br>Material 3: s=0.03, λ=0.040, ρ=100, c<sub>p</sub>=850<br>Material 4: s=0.20, λ=1.600, ρ=2300, c<sub>p</sub>=900<br>Pipe: d<sub>e</sub>=0.02 m<br>Pipe spacing: P = 0.3 m | <img src="./assets/fh_fig11.gif" width="150"><br>*2.2 Simplified geometry*<br>*and rough mesh.* |
