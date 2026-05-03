@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# About BSim
+# Om BSim
 
 <figure id="center_img">
 <img src="./assets/about.jpg " alt="Dialogen vises ved klik på Help | About BSim.">
