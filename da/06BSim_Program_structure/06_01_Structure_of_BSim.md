@@ -8,9 +8,9 @@ I SimView vises en bygningsmodel dels som en hierarkisk træ-oversigt til venstr
 
 Skærmens højre side er således inddelt i fire felter, der viser modellen som:
 
-*   opstalt vinkelret på X-aksen eller fra nord mod syd hvis modellen ikke er roteret (øverst til venstre)
+*   opstalt vinkelret på x-aksen eller fra nord mod syd hvis modellen ikke er roteret (øverst til venstre)
 
-*   opstalt vinkelret på Y-aksen eller fra øst mod vest hvis modellen ikke er roteret (øverst til højre)
+*   opstalt vinkelret på y-aksen eller fra øst mod vest hvis modellen ikke er roteret (øverst til højre)
 
 *   plantegning (for neden til venstre)
 

@@ -8,9 +8,9 @@ In *SimView* a building model is displayed both in the form of a hierarchical tr
 
 The right-hand side of the screen is therefore divided into four fields, which display the model in the form of
 
-*   an elevation at right angles to the X-axis or from north to south if the model has not been rotated (top left)
+*   an elevation at right angles to the x-axis or from north to south if the model has not been rotated (top left)
 
-*   an elevation at right angles to the Y-axis or from east to west if the model has not been rotated (top right)
+*   an elevation at right angles to the y-axis or from east to west if the model has not been rotated (top right)
 
 *   a plan drawing (bottom left)
 
