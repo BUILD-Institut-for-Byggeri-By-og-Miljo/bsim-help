@@ -10,7 +10,7 @@
 Værktøjsbjælken i *BSim* indeholder en række knapper med følgende funktioner (fra venstre):
 
 |<img src="./assets/1SimView - Værktøjsbjælken.png" width=50> | [Opret nyt projekt (genvej: *Ctrl + n*)](../09SimView/09_12_Model_wizard_creating_a_new_model.md) |
-|---|---|
+|---|:---|
 | <img src="./assets/2SimView - Værktøjsbjælken.png" width=50> | Åben eksisterende projekt (genvej: *Ctrl + o*). I dialogboksen angives (fra version 1,1,12,12) modeller med en farvet ikon <img src="./assets/18SimView - Værktøjsbjælken.png" width=20> og backup af modeller med en grå ikon <img src="./assets/grå hus.gif" width=12>, |
 | <img src="./assets/3SimView - Værktøjsbjælken.png" width=50> | Gem det aktuelle projekt (genvej: *Ctrl + s*), |
 | <img src="./assets/4SimView - Værktøjsbjælken.png" width=50> | Ekspander træ-oversigten fra det aktuelle niveau og nedefter, |
