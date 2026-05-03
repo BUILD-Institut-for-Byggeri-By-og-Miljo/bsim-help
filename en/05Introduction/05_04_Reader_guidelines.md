@@ -12,7 +12,7 @@ The term Windows is used generally as a synonym for the following Microsoft oper
 
 Before analyzing or modifying building models, the user should be familiar with the contents of this guide. A number of [examples and tutorials](), giving an introduction to the use of the applications in the BSim program package.
 
-In some headings a letter is underlined. This has been done because the heading is analogous with the software menus and has a special meaning in the software. Underlining indicates that the option can also be activated using a series of keystrokes. The *<u>V</u>iew* option in the main View menu, for example, can be activated with the following combination: *Alt v* *v*. A "+" between two keystrokes means that both keys have to be pressed simultaneously.
+In some headings a letter is underlined. This has been done because the heading is analogous with the software menus and has a special meaning in the software. Underlining indicates that the option can also be activated using a series of keystrokes. The *<u>V</u>iew* option in the main View menu, for example, can be activated with the following combination: *Alt +* *v*. A "+" between two keystrokes means that both keys have to be pressed simultaneously.
 
 The software suite uses a number of shortcut keys, which generally have the same function as in MS Windows. There are also a number of program-specific shortcut keys, however, These can be accessed by pressing the "Alt" key and a letter. The [shortcut keys](05_06_Shortcut_keys.md) used are set out in the summary.
 
