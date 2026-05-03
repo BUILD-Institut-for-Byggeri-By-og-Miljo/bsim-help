@@ -15,9 +15,9 @@ The second tab contains information on the individual layers, which make up a bu
 
     *   Field 3 indicates an extra resistance between two material layers. The resistance have different meaning, dependant on the way the layer is defined:
 
-         *   If a material have been selected for the actual layer, the resistance is a **thermal resistance** [m²K/W], i.e. as a closed air-filled enclosure between two layers of material.
+         *   If a material have been selected for the actual layer, the resistance is a **thermal resistance** [m²·K/W], i.e. as a closed air-filled enclosure between two layers of material.
 
-         *   If **no** material have been selected, the resistance is a **moisture resistance** [m²sPa/kg] of the actual material equal to a vapour barrier. A table with typical moisture resistance is shown at the page dealing with [sorption/desorption](../24Miscellaneous/24_43_Sorption_desorption.md).
+         *   If **no** material have been selected, the resistance is a **moisture resistance** [m²·s·Pa/kg] of the actual material equal to a vapour barrier. A table with typical moisture resistance is shown at the page dealing with [sorption/desorption](../24Miscellaneous/24_43_Sorption_desorption.md).
 
         *   If **no** material is selected and **no** resistance is given, the material layer is the geometric definition of an air-layer, e.g. a suspended ceiling. In this case the thermal resistance of the air-layer **must** be given as a resistance at the previous (counted from face 1 of the construction) material layer.
 
@@ -25,7 +25,7 @@ If one wish to simulate the moisture transport over such a air layer, i.e. a coo
 
 1.  If the air is not moving, which can be acceptable, if the lower boundary is the coolest and there is no forced convection. The the resistance og diffusion will be the thickness of the air layer (meter) dividet by the moisture permeability for air (1.85e-10 kg/m·s·Pa).
 
-2.  In the second case (i.e. in the whinter, when the cooling ceiling is off and the roof face is the coolest), the equivalent resistance of diffucion assumabely will somewhat lower, i.e. 0.1e+9 m²s·Pa/kg, but persumably varying.
+2.  In the second case (i.e. in the whinter, when the cooling ceiling is off and the roof face is the coolest), the equivalent resistance of diffucion assumabely will somewhat lower, i.e. 0.1e+9 m²·s·Pa/kg, but persumably varying.
 
 3.  Normally it will only be of interest to know the approximate value when the cooling ceiling is on, equal to case 1.
 
