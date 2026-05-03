@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Printing help pages
-The pages in this help function are formatted for display on PC monitors with a resolution of 1024x768 dpi and a text size selected in MS Internet Explorer of size "Medium" or less.
+
 
 <figure id="center_img">
 <img src="./assets/ie_textsize.gif" alt="Selection of text size in MS Internet Explorer is done from the 'View' menu.">

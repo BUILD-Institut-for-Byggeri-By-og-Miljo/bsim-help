@@ -2,7 +2,6 @@
 
 # Udskrift af hjælpesider
 
-Siderne i denne hjælpetekst er formateret til visning på pc-skærme med en opløsning på 1024x768 dpi og en valgt skriftstørrelse i MS Internet Explorer på "Mellem" eller derunder.
 
 <figure id="center_img">
 <img src="./assets/ie_textsize.gif" alt="Valg af tekststørrelse i MS Internet Explorer sættes fra menuen Vis.">
