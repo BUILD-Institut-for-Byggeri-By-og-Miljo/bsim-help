@@ -37,6 +37,7 @@ Når der tilknyttes konstruktioner til modellens flader afsættes de således:
 <figcaption>Programvinduet i SimView med træ-oversigten til venstre og fire visninger af modellen til højre.</figcaption>
 </figure>
 
+
 Modellens enkelte objekter kan [bearbejdes og undersøges](../06BSim_Program_structure/06_03_Mouse_operations_in_SimView.md) ved hjælp af klik med musen i kombination med tastaturets Ctrl-tast og Shift-tast. Et klik med musens venstre tast kaldes et venstre-klik (eller blot et klik), mens et klik med musens højre tast kaldes en højre-klik.
 
 Det er generelt muligt at ændre visningen af bygningsmodellen. Der kan zoomes ind eller ud ved tryk på knappen "+" eller "-" og modellen kan drejes ved at trykke på "pil-højre" eller "pil-venstre". De samme funktioner findes også på værktøjsbjælken eller via menuindgangen *<u>V</u>iew* | *<u>V</u>iew* efterfulgt af *Zoom-In*, *Zoom-Out* eller *ViewPoint*.

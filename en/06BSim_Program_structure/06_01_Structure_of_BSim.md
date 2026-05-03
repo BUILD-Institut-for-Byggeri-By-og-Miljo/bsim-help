@@ -35,6 +35,7 @@ When constructions are attached to the surfaces of the model they are drawn as:
 <figcaption>The program window in SimView with the tree summary on the left and four views of the model on the right.</figcaption>
 </figure>
 
+
 The model's individual objects can be [worked on and examined](06_03_Mouse_operations_in_SimView.md) by clicking the mouse in combination with the Ctrl and Shift keys on the keyboard. Clicking with the left mouse button is called a left click (or just a click), while a click with the right mouse button is called a right click.
 
 It is generally possible to change the view of the building model. The user can zoom in or out by pressing "+" or "-", and the model can be rotated by pressing "right arrow" or "left arrow". The same functions are also available on the toolbar or by selecting *<u>V</u>iew* | *<u>V</u>iew* followed by *Zoom In, Zoom Out* or *ViewPoint*.
