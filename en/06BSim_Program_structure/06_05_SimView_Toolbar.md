@@ -71,7 +71,7 @@ The toolbar in *BSim* contains a number of buttons with the following functions 
 <br>
 <img src="./assets/31SimView - Værktøjsbjælken.png" width=15> Move viewpoint down (view the model more from above) (shortcut: "up arrow").
 <br>
-<img src="./assets/32SimView - Værktøjsbjælken.png" width=15> Move viewpoint up (view the model more from below (shortcut: "down arrow").
+<img src="./assets/32SimView - Værktøjsbjælken.png" width=15> Move viewpoint up (view the model more from below) (shortcut: "down arrow").
 <br>
 <img src="./assets/33SimView - Værktøjsbjælken.png" width=15> Move viewpoint (rotate the model) to the right (shortcut "right arrow").
 <br>
@@ -79,23 +79,18 @@ The toolbar in *BSim* contains a number of buttons with the following functions 
 <br>
 <img src="./assets/35SimView - Værktøjsbjælken.png" width=15> Select the [*View/ModelList*]() menu option or click the corresponding icon. This will open a window in which the model's data is displayed line by line. Each line starts with an icon indicating the type of information. As long as this window is displayed, the model can be printed.
 
-<br>
 
 Related subjects:
 
-* [Creating a building](../09_14_SimView_Creating_a_building.md) 
-* [Creating a space](../09_15_SimView_Creating_a_space.md) 
-* [Default constructions](../10_06_SimView_Default_constructions.md) 
-* [Non-default constructions](../09_09_SimView_Non_default_constructions.md) 
-* [Creating thermal zones](../10_01_Thermal_Zone_property.md) 
-* [Systems in thermal zones](../11_01_Systems.md) 
-* [Editing the model geometry](../10_04_SimView_Editing_the_model_geometry.md) 
-* [Solar light factors for WinDoors](../10_07_Solar_light_factors_for_WinDoors.md) 
-* [Adding an opening or WinDoor](../10_08_SimView_Adding_an_opening_or_WinDoor.md)  
-* [Virtual zones](../09_05_Sim_View_Virtual_zones.md) 
-* [Climate data and ground](../09_10_Climate_data.md) 
-* [Printing a model](../10_09_SimView_Printing_a_model.md)
-
-
-
-
+* [Creating a building](../09SimView/09_14_SimView_Creating_a_building.md) 
+* [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md) 
+* [Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md) 
+* [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md) 
+* [Creating thermal zones](../10Thermal_zones/10_01_Thermal_Zone_property.md) 
+* [Systems in thermal zones](../11Systems/11_01_Systems.md) 
+* [Editing the model geometry](../10Thermal_zones/10_04_SimView_Editing_the_model_geometry.md) 
+* [Solar light factors for WinDoors](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) 
+* [Adding an opening or WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)  
+* [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md) 
+* [Climate data and ground](../09SimView/09_10_Climate_data.md) 
+* [Printing a model](../10Thermal_zones/10_09_SimView_Printing_a_model.md)
