@@ -11,7 +11,7 @@ Varmeafgivelsen fra belysning - minus evt. andel som udsuges gennem armaturet (E
 <figcaption>Dialog til definition af den kunstige belysning i en termisk zone.</figcaption>
 </figure>
 
-*Task Lighting* (særlys) betegner arbejdspladsbelysning, som regnes tændt i alle timer, der ligger inden for tidsangivelserne i tidsplanen. Varmeafgivelsen fra særbelysning fordeles altid med halvdelen til indeluft og halvdelen til zonens overflader ligeligt efter areal, dvs. med samme effekt til alle flader (W/m<sup>2</sup>).
+*Task Lighting* (særlys) betegner arbejdspladsbelysning, som regnes tændt i alle timer, der ligger inden for tidsangivelserne i tidsplanen. Varmeafgivelsen fra særbelysning fordeles altid med halvdelen til indeluft og halvdelen til zonens overflader ligeligt efter areal, dvs. med samme effekt til alle flader (W/m²).
 
 *General Lighting (kW)* er betegnelsen for generel loftsbelysning (almenbelysning), som i princippet reguleres efter det indfaldende dagslys. Almenlyset kan reguleres efter tre forskellige principper. Ved den simpleste reguleringsform reguleres efter det totale solindfald (kW) gennem vinduerne i zonen, mens en anden regulering sker efter dagslysniveauet (lux) i et givet punkt i zonen. Den tredje regulering af almenlyset sker efter lysbehovet beregnet ved hjælp af andre beregningsmetoder (edb-programmer), hvorved *BSim* benytter timeværdier for belysningseffekten gemt på en resultatfil fra disse beregninger.
 
@@ -38,9 +38,9 @@ og for fluorescerede belysning som:
 \( P = 0.0 \) for \( f \leq 0.1 \)
 
 hvor   
-P                  er den effekt som behøves for at opnå det ønskede belysningsniveau, kW   
-f                   er det ønskede belysningsniveau i andele af det nominelle niveau,   
-genlight        er det nominelle belysningsniveau. lux
+$ P $                  er den effekt som behøves for at opnå det ønskede belysningsniveau, kW   
+$ f $                  er det ønskede belysningsniveau i andele af det nominelle niveau,   
+$ \text{genlight} $      er det nominelle belysningsniveau. lux
 
 Se i øvrigt [algoritmer til beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_03_Algorithms_for_solar_radiation_and_daylight_calculations.md).
 

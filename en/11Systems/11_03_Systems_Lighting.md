@@ -12,7 +12,7 @@ Heat from lighting equipment - minus an eventual part that is removed directly f
 </figure>
 
 
-*Task Lighting* is the workstation lighting, which is regarded as being on during all the hours within the time definitions in the schedule. Half the heat emissions are always regarded as going to the indoor air and half to the zone's surfaces, divided equally according to area, i.e. with the same power to all faces (W/m<sup>2</sup>).
+*Task Lighting* is the workstation lighting, which is regarded as being on during all the hours within the time definitions in the schedule. Half the heat emissions are always regarded as going to the indoor air and half to the zone's surfaces, divided equally according to area, i.e. with the same power to all faces (W/m²).
 
 *General Lighting (kW)* is the general ceiling lighting, which is basically controlled according to the incident daylight. The general lighting can be controlled according to three different principles. In the simplest form of control the lighting is controlled on the basis of the total incident solar radiation (kW) through the windows in the zone, while the second form of control uses the level of daylight (lux) at a given point in the zone. The third form of control for general lighting is based on the lighting need calculated using other calculation methods (computer programs), with BSim using hourly values for lighting power saved in a result file imported from these calculations.
 
@@ -44,7 +44,7 @@ $ P $                    is the power needed to achieve the desired l
 
 $ f $                     is the desired lighting level in fraction of the nominal level, -
 
-$ genlight $        is the nominal lighting level, lux
+$ \text{genlight} $        is the nominal lighting level, lux
 
 For further information see: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
