@@ -23,15 +23,15 @@ Dialogen for oprettelse af en bygning indeholder 10 felter til indtastning:
 
 *   *Rotation*: Bygningens rotation i forhold til det globale koordinatsystem (i grader), positiv med uret.
 
-*   *X extend*: Bygningens udstrækning i X-retningen - øst når koordinatsystemet ikke er roteret (meter).
+*   *X extend*: Bygningens udstrækning i x-retningen - øst når koordinatsystemet ikke er roteret (meter).
 
-*   *Y extend*: Bygningens udstrækning i Y-retningen - nord når koordinatsystemet ikke er roteret (meter).
+*   *Y extend*: Bygningens udstrækning i y-retningen - nord når koordinatsystemet ikke er roteret (meter).
 
 *   *Height*: Højden af bygningen (meter).
 
 Målene beskriver **systemliniernes** beliggenhed i modellen. Når der senere tilknyttes konstruktioner til de enkelte flader, afsættes de efter følgende konvention:
 
-*   <span id="red_text">**Udvendige vægge afsættes fra systemlinien og indefter**</span>
+*   <span id="red_text">**Udvendige vægge afsættes fra systemlinien og indefter.**</span>
 
 *   <span id="red_text">**Indvendige vægge afsættes med systemlinien som centerlinie.**</span>
 
