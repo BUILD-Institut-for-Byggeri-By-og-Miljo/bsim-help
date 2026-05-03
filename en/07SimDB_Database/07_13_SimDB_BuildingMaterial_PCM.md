@@ -4,9 +4,9 @@
 
 <div style="text-align:center">
 
-*Material properties for phase changing materials (PCM) is available from database BSim2008.mdb.*
+Material properties for phase changing materials (PCM) is available from database BSim2008.mdb.
 
-*If tables with information about PCM is unavailable in the selected database, the tab PCM is not shown in the dialog Edit Material.*
+If tables with information about PCM is unavailable in the selected database, the tab PCM is not shown in the dialog Edit Material.
 
 </div>
  
