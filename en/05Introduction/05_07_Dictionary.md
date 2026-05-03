@@ -23,7 +23,7 @@
 | Kill animate      | *Stops* the animation in [XSun](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md) at the current point in time. It is possible to jump back and forth one time step at a time. |
 | Lighting          | [Lighting](../11Systems/11_03_Systems_Lighting.md). |
 | Moisture          | [Moisture](../11Systems/11_05_Systems_Moisture.md). |
-| Node              | The temperature is calculated at the constructions’ [*nodes*](../20The_Mathematical_basis/20_01_The_Mathematical_basis.md) during simulation with tsbi5. |
+| Node              | The temperature is calculated at the constructions’ [nodes](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md) during simulation with tsbi5. |
 | Options           | *Options*, typically for defining various default values for the model and the programs. |
 | People            | The [*people*](../11Systems/11_13_Systems_Persons.md) system provides a heat load to the thermal zone to which they are assigned. |
 | Recess            | *Recessing* of the glazing in a window or door relative to the outer face of the façade. |

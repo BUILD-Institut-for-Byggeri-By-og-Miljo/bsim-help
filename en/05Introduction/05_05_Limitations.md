@@ -3,7 +3,7 @@
 # Limitations
 
 <div id="center_img">
-*There are a number of limitations connected to the different applications in the BSim program package.*
+There are a number of limitations connected to the different applications in the BSim program package.
 
 Some of them are listed below.
 
