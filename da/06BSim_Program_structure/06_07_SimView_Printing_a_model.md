@@ -3,9 +3,9 @@
 # SimView - Udskrift af model
 Alternativt til *ModelList* er *ModelDoc* som kaldes via *View* | [*ModelDoc*](../24Miscellaneous/24_29_Model_DOC.md). *ModelDoc* er en sorteret dokumentation af modellen.
 
-Når *ModelList* er valgt fra værktøjsbjælken, eller der arbejdes i *XSun*, *tsbi5* eller *SimLight*, kan den viste information udskrives direkte på en printer
+Når *ModelList* er valgt fra værktøjsbjælken, eller der arbejdes i *XSun*, *tsbi5* eller *SimLight*, kan den viste information udskrives direkte på en printer.
 
-<img src="./assets/18SimView - Udskrift af model.png" width=20> Vises en ikon som et stopsignal i starten af en linie, angiver det, at der kan være fejl, eller at der mangler data. Ved dobbelt-klik eller Ctrl-klik på linien flyttes fokus til det pågældende objekt i den hierarkiske oversigt. Højre-klik på objektet i træet for at rette eller tilføje data. Oversigten kan opdateres ved igen at klikke på *ModelList*-ikonet. Klik [her](../06BSim_Program_structure/06_08_Error_messages.md) for at se forklaringer til [fejlmeddelelserne](../06BSim_Program_structure/06_08_Error_messages.md) i *ModelList*.
+<img src="./assets/18SimView - Udskrift af model.png" width=20> Vises et ikon som et stopsignal i starten af en linie, angiver det, at der kan være fejl, eller at der mangler data. Ved dobbelt-klik eller Ctrl-klik på linien flyttes fokus til det pågældende objekt i den hierarkiske oversigt. Højre-klik på objektet i træet for at rette eller tilføje data. Oversigten kan opdateres ved igen at klikke på *ModelList*-ikonet. Klik [her](../06BSim_Program_structure/06_08_Error_messages.md) for at se forklaringer til [fejlmeddelelserne](../06BSim_Program_structure/06_08_Error_messages.md) i *ModelList*.
 
 Det er <u>ikke</u> muligt at gennemføre en tsbi5 simulering med *ModelList* åben, eller lukket ned som en ikon.
 
@@ -37,7 +37,7 @@ I tabellen ses betydningen af de enkelte ikoner i modellisten og træ-oversigten
 | <img src="./assets/23SimView - Udskrift af model.png" width=20> | Udluftning (*Venting*). |
 | <img src="./assets/24SimView - Udskrift af model.png" width=20> | Advarsel om mulige manglende data. Der kan gennemføres en tsbi5 simulering med advarsler i modellen. |
 | <img src="./assets/25SimView - Udskrift af model.png" width=20> | Vinduer og døre (WinDoor) uden åbning. |
-| <img src="./assets/26SimView - Udskrift af model.png" width=20> | Vinduer og døre (WinDoor) med åbning til naturlig ventilation (BSim udvidelse). |
+| <img src="./assets/26SimView - Udskrift af model.png" width=20> | Vinduer og døre (WinDoor) med åbning til naturlig ventilation. |
 | <img src="./assets/27SimView - Udskrift af model.png" width=20> | Systemer. |
 | <img src="./assets/28SimView - Udskrift af model.png" width=20> | Beskrivelse. |
 | <img src="./assets/29SimView - Udskrift af model.png" width=20> | Jord (*Ground*) med temperaturvariation. |
@@ -45,8 +45,8 @@ I tabellen ses betydningen af de enkelte ikoner i modellisten og træ-oversigten
 | <img src="./assets/31SimView - Udskrift af model.png" width=20> | Isolerende vinduesskodde (*Shutter*). |
 | <img src="./assets/32SimView - Udskrift af model.png" width=20> | Døgnprofil (*Dayprofile*). |
 | <img src="./assets/33SimView - Udskrift af model.png" width=20> | Åbning (*Opening*). |
-| <img src="./assets/34SimView - Udskrift af model.png" width=20> | Mixing |
-| <img src="./assets/35SimView - Udskrift af model.png" width=20> | Termisk zone |
+| <img src="./assets/34SimView - Udskrift af model.png" width=20> | Mixing. |
+| <img src="./assets/35SimView - Udskrift af model.png" width=20> | Termisk zone. |
 
  
 
