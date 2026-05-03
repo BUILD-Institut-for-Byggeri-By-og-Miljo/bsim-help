@@ -33,7 +33,7 @@
 | Site              | Den *geografiske placering* af modellen. Når der vælges klimadata hentes denne information fra klimafilen. |
 | Split             | Kommandoen opdel benyttes fx til inddeling af en kant af en flade i to lige lange stykker. |
 | Thermal zone      | *Termisk zone*. Styringen af systemerne sker på niveau af termiske zoner. En termisk zone kan indeholde flere rum, som derved får samme simulerede temperatur. |
-| Transmittance     | *Solenergitransmittans* for en rude ved en normal indstråling på rudens plan. Angives ofte som rudens G-værdi. |
+| Transmittance     | *Solenergitransmittans* for en rude ved en normal indstråling på rudens plan. Angives ofte som rudens g-værdi. |
 | Venting           | [Udluftning](../11Systems/11_18_Systems_Venting.md). |
 | Windoor           | En fælles betegnelse for [vinduer](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.md) og døre. |
 | Wizard            | En *"troldmand"* som sørger for opsætning af en lang række standardparametre ved nogle få klik med
