@@ -17,7 +17,7 @@ Telephone: (+45) 45 86 5533
 Telefax: (+45) 45 86 7535   
 E-mail: info@sbi.dk   
 Web: [http://www.sbi.dk](https://www.build.aau.dk/til-byggebranchen)  
-          [http://www.bsim.dk](https://www.bsim.dk/)
+BSim website: [http://www.bsim.dk](https://www.bsim.dk/)
 
  
 
