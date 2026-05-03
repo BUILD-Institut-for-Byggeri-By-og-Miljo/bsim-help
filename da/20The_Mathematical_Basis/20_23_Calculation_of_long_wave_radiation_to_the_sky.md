@@ -61,4 +61,4 @@ With h[1] calculated as in the section "Outdoor surface convection coefficient d
 
 See also
 
-*   Calculation of [the sky temperature](/20The_Mathematical_Basis/20_10_Sky_temperature.html).
+*   Calculation of [the sky temperature](../20The_Mathematical_Basis/20_10_Sky_temperature.md).

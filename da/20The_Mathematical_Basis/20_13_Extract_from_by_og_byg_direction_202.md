@@ -141,7 +141,7 @@ hvor:
 | Saddeltag, hældning > 30°         | 6         | -0,4  | -0,3  | -0,5   | -0,3   | 0,25   | -0,3   | -0,5   | -0,3   |
 
 
-*Tabel 1. Vindtrykkoefficienter i afhængighed af vindretningen q for bygninger med op til tre etager, med kvadratisk grundplan og med omkringliggende bygninger af samme højde. Referencehøjden er lig med bygningshøjden ([Orme, Liddament & Wilson, 1998](/20The_Mathematical_Basis/20_28_Literature.html))*.
+*Tabel 1. Vindtrykkoefficienter i afhængighed af vindretningen q for bygninger med op til tre etager, med kvadratisk grundplan og med omkringliggende bygninger af samme højde. Referencehøjden er lig med bygningshøjden ([Orme, Liddament & Wilson, 1998](../20The_Mathematical_Basis/20_28_Literature.md))*.
 
 | Terræntype                | ruhedsfaktor $k$ | højdeeksponent $a$ |
 |---------------------------|:----------------:|:------------------:|
@@ -151,7 +151,7 @@ hvor:
 | Forstadsområder           | 0,21             | 0,33               |
 | Bycentrum                 |              |                |
 
-*Tabel 2. Faktorer til karakterisering af forskellige terrænformer ([British Standard Institution, 1991](/20The_Mathematical_Basis/20_28_Literature.html)).*
+*Tabel 2. Faktorer til karakterisering af forskellige terrænformer ([British Standard Institution, 1991](../20The_Mathematical_Basis/20_28_Literature.md))*.
 
 #### **Flere åbninger**
 
@@ -173,7 +173,7 @@ hvor n<sub>v </sub>angiver de åbninger, hvor Δp<sub>j</sub> > 0. Dermed vil 
 
 ### **OPDRIFTVENTILATION**
 
-Ved opdriftventilation tilstræbes stort trykbidrag fra termisk opdrift ved at etablere stor, lodret afstand mellem indtags- og afkaståbningerne. Det har ingen betydning , om åbningerne er lodrette, vandrette eller skråtstillede. Formel (1) kan anvendes med c<sub>T</sub> bestemt som vist nedenstående. Der skelnes mellem ensartet indetemperatur og indetemperatur med lineær, lodret temperaturgradient bestemt ved brug af [kappa-modellen](/12The_Kappa_model/12_01_Kappa_model_description.html).
+Ved opdriftventilation tilstræbes stort trykbidrag fra termisk opdrift ved at etablere stor, lodret afstand mellem indtags- og afkaståbningerne. Det har ingen betydning , om åbningerne er lodrette, vandrette eller skråtstillede. Formel (1) kan anvendes med c<sub>T</sub> bestemt som vist nedenstående. Der skelnes mellem ensartet indetemperatur og indetemperatur med lineær, lodret temperaturgradient bestemt ved brug af [kappa-modellen](../12The_Kappa_model/12_01_Kappa_model_description.md).
 
 <figure id="center_img">
 <img src="./assets/nvt_img4.gif" alt="">
@@ -323,7 +323,7 @@ Der kan i første omgang regnes med et almindeligt vindue med en udstrømningsko
 
 #### **Vindtrykkoefficienter**
 
-Der kan i første omgang regnes med vindtrykkoefficienter hentet fra [Anvisning 202, Appendiks A](/20The_Mathematical_Basis/20_28_Literature.html). Brugerne skal dog kunne angive egne værdier (fx bestemt ved CFD-beregninger eller vindtunnelførsøg).
+Der kan i første omgang regnes med vindtrykkoefficienter hentet fra [Anvisning 202, Appendiks A](../20The_Mathematical_Basis/20_28_Literature.md). Brugerne skal dog kunne angive egne værdier (fx bestemt ved CFD-beregninger eller vindtunnelførsøg).
 
 #### **Vindhastigheder, vindtryk og vindtrykkoefficienter**
 
@@ -354,7 +354,7 @@ hvor: 
 | Forstadsområder           | 0,21  | 0,33  |
 | Bycentrum                 |       |       |
 
-*Tabel 3. Faktorer til karakterisering af forskellige terrænformer ([British Standard Institution, 1991](/20The_Mathematical_Basis/20_28_Literature.html))*.
+*Tabel 3. Faktorer til karakterisering af forskellige terrænformer ([British Standard Institution, 1991](../20The_Mathematical_Basis/20_28_Literature.md))*.
 
 Den samlede vindkraft på en udvendig bygningsflade kan bestemmes af:
 

@@ -82,12 +82,12 @@ $ f_{sol, til \; luft} $ er fordelingsfaktoren defineret i solfordelingsdialog,
 
 $ Φ_{sol} $ er den samlede tilførte effekt fra solen tilført zonen, W
 
-Beregningen af $ \Phi_{sol} $ er beskrevet i [\[5\]](/20The_Mathematical_Basis/20_28_Literature.html), [\[19\]](/20The_Mathematical_Basis/20_28_Literature.html) og [\[20\]](/20The_Mathematical_Basis/20_28_Literature.html).
+Beregningen af $ \Phi_{sol} $ er beskrevet i [\[5\]](../20The_Mathematical_Basis/20_28_Literature.md), [\[19\]](../20The_Mathematical_Basis/20_28_Literature.md) og [\[20\]](../20The_Mathematical_Basis/20_28_Literature.md).
 
 
 ### **Lufttilførsel ved ventilation**
 
-Lufttilførslen kan stamme fra fire forskellige '[systemer](/11Systems/11_01_Systems.html)': [Mixing](/11Systems/11_02_Systems_mixing_system.html), [infiltration](/11Systems/11_04_Infiltration_system.html), [udluftning](/11Systems/11_06_Venting_system.html) samt (mekanisk) [ventilation](/11Systems/11_05_Ventilation_system.html). Virkningen af hvert af disse bidrag på luftens varmebalance afhænger af volumenstrømmen og af temperaturen af luften, der tilføres zonen. I varmebalancen bestemmes hvert led for sig, idet de alle beregnes under hensyntagen til de variationer, der er bestemt af tidsplanerne for de enkelte systemer formlen:
+Lufttilførslen kan stamme fra fire forskellige '[systemer](../11Systems/11_01_Systems.md)': [Mixing](../11Systems/11_02_Systems_mixing_system.md), [infiltration](../11Systems/11_04_Infiltration_system.md), [udluftning](../11Systems/11_06_Venting_system.md) samt (mekanisk) [ventilation](../11Systems/11_05_Ventilation_system.md). Virkningen af hvert af disse bidrag på luftens varmebalance afhænger af volumenstrømmen og af temperaturen af luften, der tilføres zonen. I varmebalancen bestemmes hvert led for sig, idet de alle beregnes under hensyntagen til de variationer, der er bestemt af tidsplanerne for de enkelte systemer formlen:
 
 $$ \Phi_{luft,vent} = n_{vent} V (\rho c_p) (T_{vent} - T_{luft}) \tag{5} $$
 

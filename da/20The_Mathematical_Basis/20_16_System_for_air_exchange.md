@@ -2,7 +2,7 @@
 
 ### **Overordnet beskrivelse af multizone modellen**
 
-Teorien bag multizone modellen er gennemgået i sektionen om det teoretiske grundlag for multizone modeller. På baggrund af gennemgangen er det valgt at implementere en multizone model (mzm) baseret på ringmetoden, og med en nyudviklet [reguleringsstruktur](/20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.html).
+Teorien bag multizone modellen er gennemgået i sektionen om det teoretiske grundlag for multizone modeller. På baggrund af gennemgangen er det valgt at implementere en multizone model (mzm) baseret på ringmetoden, og med en nyudviklet [reguleringsstruktur](../20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.md).
 
 ### **Krav og behov som multizone modellen skal opfylde**
 
@@ -30,4 +30,4 @@ For at finde frem til den åbningsgrad af åbningerne, der giver det ønskede lu
 
 Når det bedst mulige indstilling af åbningerne er fundet skal der itereres mellem mzm og varmebalancen. Multizone modellen beregner luftmængder på baggrund af temperaturer, og varmebalancen beregner temperaturerne på baggrund af luftmængder. Der skal derfor itereres mellem de to indtil en ønsket nøjagtighed er opnået.
 
-*   [Implementering af multizone modellen](/20The_Mathematical_Basis/20_17_Implementation_of_mzm.html)
+*   [Implementering af multizone modellen](../20The_Mathematical_Basis/20_17_Implementation_of_mzm.md)
