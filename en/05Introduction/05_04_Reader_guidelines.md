@@ -15,7 +15,7 @@ In some headings a letter is underlined. This has been done because the heading 
 
 The software suite uses a number of shortcut keys, which generally have the same function as in MS Windows. There are also a number of program-specific shortcut keys, however, These can be accessed by pressing the "Alt" key and a letter. The [shortcut keys](05_06_Shortcut_keys.md) used are set out in the summary.
 
-The "|" symbol (pipe) indicates that a menu can be reached via another menu. *View* | *View* followed by *Zoom-In*, for example, refers to the *Zoom-In* option, which is located under *<u>V</u>iew* in the main menu.
+The "|" symbol (pipe) indicates that a menu can be reached via another menu. *View* | *View* followed by *Zoom-In*, for example, refers to the *Zoom-In* option, which is located under *<u>View</u>* in the main menu.
 
 Some pages or sections are marked with a light yellow background colour. This indicates that the function is <u>only</u> available in BSim version 2002 (BSim2002) and later.
 
