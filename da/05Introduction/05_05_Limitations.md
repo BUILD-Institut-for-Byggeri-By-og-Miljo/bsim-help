@@ -128,22 +128,20 @@ Dagslysberegning med [SimLight](../15SimLight_Daylight_calculations/15_01_SimLig
 3.  Der kan <u>kun</u> regnes med SimLight i rum med <u>rektangulære</u> vinduer.
 
  
-
 Luftbalance
 
-*   Hvid der introduceres en ubalance i luftstrømmen til eller fra en termisk zone, vil tsbi5 automatisk balancerer denne ubalance ved in- eller eksfiltration med udeluft. Dette uagtet at den termiske zone fysisk måtte være placeret <u>uden</u> direkte forbindelse til det fri.
+*   Hvis der introduceres en ubalance i luftstrømmen til eller fra en termisk zone, vil tsbi5 automatisk balancere denne ubalance ved in- eller eksfiltration med udeluft. Dette uagtet at den termiske zone fysisk måtte være placeret <u>uden</u> direkte forbindelse til det fri.
 
  
-
 Systemer
 
-*   Der kan <u>kun</u> optraede et system (undtagen [*Mixing*](../11Systems/11_31_Mixing_system.md) og [*Heating*](../11Systems/11_02_Heating_system.md) - radiator og gulvvarme) i en termisk zone ad gangen. Der kan godt optraede forskellige reguleringer til forskellige [tidsangivelser](../24Miscellaneous/24_06_Time_scheme.md), men <u>kun</u> et system kan være aktivt ad gangen.
+*   Der kan <u>kun</u> optraede et system (undtagen [*Mixing*](../11Systems/11_31_Mixing_system.md) og [*Heating*](../11Systems/11_02_Heating_system.md) - radiator og gulvvarme) i en termisk zone ad gangen. Der kan godt optræde forskellige reguleringer til forskellige [tidsangivelser](../24Miscellaneous/24_06_Time_scheme.md), men <u>kun</u> et system kan være aktivt ad gangen.
 
  
 
 [XSun video](../14XSun_Analysis_of_incident_solar_radiation/14_02_XSun_video.md)-optagelser
 
-*   Optagelsen og afspilningen af videoen sker i den størrelse vindue BSim har under optagelsen. Hvis fokus skifter fra BSim til en anden kørende applikation, fx ved hjælp af Alt+Tab, vil den del af denne applikation som fysisk er inden for det BSim vindue som optages, blive optaget i stedet for XSun animationen.
+*   Optagelsen og afspilningen af videoen sker i den størrelse vindue BSim har under optagelsen. Hvis fokus skifter fra BSim til en anden kørende applikation, fx ved hjælp af Alt + Tab, vil den del af denne applikation som fysisk er inden for det BSim vindue som optages, blive optaget i stedet for XSun animationen.
 
  
 

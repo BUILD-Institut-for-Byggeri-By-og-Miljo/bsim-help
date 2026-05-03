@@ -14,7 +14,7 @@ BSim programpakken anvender følgende filtyper:
 | *.arc*               | Modelfiler genereret ud fra CAD tegninger i *SimDxf*. Kan benyttes som grundlag for videre detaljering af nye modeller af den samme bygning. Kaldes fra *SimDxf*. |
 | *.ts3*               | Model eksporteret til *tsbi3*. Kan kun aktiveres når *tsbi5* er aktiv. |
 | *.geo*               | Eksport af tekstfil med information om modellens geometri til brug i CFD-programmer. Kan kun aktiveres når *tsbi5* er aktiv. |
-| *.cfd*               | Eksport af randbetingelser til brug i CFD beregninger. Kan kun aktiveres når *tsbi5 \| Tables* er aktiv. |
+| *.cfd*               | Eksport af randbetingelser til brug i CFD beregninger. Kan kun aktiveres når *tsbi5 &#124; Tables* er aktiv. |
 | *.rad*               | Eksport af modellens geometri til brug i *Radiance*. Kan kun aktiveres når *SimView* er aktiv. |
 | *.rif*               | Eksport af kontrol for modellens anvendelse i *Radiance*. Kan kun aktiveres når *SimView* er aktiv. |
 | *.wdf*               | Definitionsfil til konvertering af klimadata fra tekstformat (ASCII) til *BSim's* binære format. |
