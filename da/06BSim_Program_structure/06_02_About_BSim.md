@@ -11,7 +11,7 @@ Dialogen indeholder en række informationer, hvoraf nogle er afhængige af den a
 
  
 
-*   Øverst, til højre for ikonen, vises den aktuelt kørende version af BSim. Versionsnummeret, her 3,2,8,2, refererer direkte til den dato hvor nærværende opdatering er genereret og skal læses som: BSim version 3, år 2002, den 2. august. Det er muligt at checke om man har den seneste version installeret ved at klikke på *Help* | *BSim200x on the Web* ... | *Check for new update* ... .
+*   Øverst, til højre for ikonet, vises den aktuelt kørende version af BSim. Versionsnummeret, her 3,2,8,2, refererer direkte til den dato hvor nærværende opdatering er genereret og skal læses som: BSim version 3, år 2002, den 2. august. Det er muligt at checke om man har den seneste version installeret ved at klikke på *Help* | *BSim20xx on the Web* ... | *Check for new update* ... .
 
 *   Umiddelbart under findes et fast felt med informationer om hvordan Statens Byggeforskningsinstitut kan kontaktes i forbindelse med BSim.
 
