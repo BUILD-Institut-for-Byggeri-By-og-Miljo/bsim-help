@@ -2,13 +2,7 @@
 
 
 # Læsevejledning
-<div id="red_text">
-Denne hjælpetekst er optimeret til visning i fuld bredde på pc-skærme med en opløsning på 1024x768.
-</div>
- 
 
-Betegnelsen Windows benyttes generelt som synonym for følgende styresystemer fra Microsoft: Windows 98 (anden udgave), Windows NT version 4, service pack 3, MS-Windows 2000 og MS-Windows XP.   
-Ordet *bibliotek* eller *kartotek* har samme betydning som *mappe* i Windows.
 
 Da programmet har en engelsk brugergrænsefladelade, er der i vid udstrækning benyttet engelske vendinger i vejledningen for at kunne relatere direkte til skærmbilleder i teksten. Der findes en dansk oversættelse af en del af disse udtryk i [ordbogen](../24Miscellaneous/24_04_Glossary.md).
 

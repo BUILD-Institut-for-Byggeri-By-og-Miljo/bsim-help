@@ -1,13 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Reader guidelines
-<span id="red_text">
-This help has been optimized for full-width display on PC monitors with a resolution of 1024x768.
-</span>
 
-
-The term Windows is used generally as a synonym for the following Microsoft operating systems: MS-Windows 98 (second edition), MS-Windows NT version 4 with service pack 3, MS-Windows 2000 and MS-Windows XP.   
-    The word *directory* means the same as *folder* in Windows.
 
 Before analyzing or modifying building models, the user should be familiar with the contents of this guide. A number of [examples and tutorials](), giving an introduction to the use of the applications in the BSim program package.
 
