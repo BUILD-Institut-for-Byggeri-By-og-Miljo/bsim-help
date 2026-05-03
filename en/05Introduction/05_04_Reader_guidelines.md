@@ -11,8 +11,6 @@ The software suite uses a number of shortcut keys, which generally have the same
 
 The "|" symbol (pipe) indicates that a menu can be reached via another menu. *View* | *View* followed by *Zoom-In*, for example, refers to the *Zoom-In* option, which is located under *<u>View</u>* in the main menu.
 
-Some pages or sections are marked with a light yellow background colour. This indicates that the function is <u>only</u> available in BSim version 2002 (BSim2002) and later.
-
 See also:
 
 *   [Printing help pages](05_03_Printing_help_pages.md)
