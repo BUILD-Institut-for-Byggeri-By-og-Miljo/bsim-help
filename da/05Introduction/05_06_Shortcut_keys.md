@@ -33,4 +33,4 @@
 | Alt-f                         | Tilføj en flade fra tre hjørner (vertex) eller en flade og et hjørne fra samme rum.                        | SimView                |
 | Alt-i                         | Indsæt (udfyldning) en WinDoor eller en åbning midt i en flade.                                            | SimView                |
 | Alt-m                         | Flyt den aktuelle flade.                                                                                   | SimView                |
-| Alt-x                         | Eksporter den aktuelle resultattabel fra tsbi5 \| Tables som en tabulatorsepareret tekst
+| Alt-x                         | Eksporter den aktuelle resultattabel fra tsbi5. | Tables som en tabulatorsepareret tekst
