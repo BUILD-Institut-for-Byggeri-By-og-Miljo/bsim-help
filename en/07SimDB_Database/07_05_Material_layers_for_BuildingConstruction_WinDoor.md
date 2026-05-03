@@ -34,8 +34,8 @@ The linear coefficient of transmission heat loss (*LinTrCoeff* or the Ψ<sub>g</
 
 | WinDoor U-value (W/m²K) | Linear coefficient of transmission (W/mK) |
 |------------------------|-------------------------------------------|
-| 1,0 – 1,2              | 0,10                                      |
-| 2,7 – 3,0              | 0,07                                      |
+| 1.0 – 1.2              | 0.10                                      |
+| 2.7 – 3.0              | 0.07                                      |
 
 </div>
 
