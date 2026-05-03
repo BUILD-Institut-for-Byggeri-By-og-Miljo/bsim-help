@@ -29,7 +29,7 @@ hvor:
 
 <u>*Set Point*</u> angiver det indstillede setpunkt for rumtermostaten i tilfælde af kølebehov.
 
-*Design Temp* angiver den zone-temperatur, ved hvilken køleradiatoren opnår sin maksimale ydelse, [*Max Power*](/11Systems/11_09_Systems_cooling.html).
+*Design Temp* angiver den zone-temperatur, ved hvilken køleradiatoren opnår sin maksimale ydelse, [*Max Power*](../11Systems/11_09_Systems_cooling.md).
 
 *T Cool* angiver mideltemperaturen for kølemediet.
 

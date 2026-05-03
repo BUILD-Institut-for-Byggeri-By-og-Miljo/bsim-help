@@ -43,7 +43,7 @@ $$ E_{total} = E_{dif} \cdot g_{s, dif}(\beta) \cdot g_{g, dif} + E_{dir} \cdot 
 
 *   β is the tilt of the slats in the shading device, measured from horizontal,
 
-*   Θ<sub>p</sub> is the [profile angle](./24_31_Profile_angle.md),
+*   Θ<sub>p</sub> is the [profile angle](../24_31_Profile_angle.md),
 
 *   Θ<sub>i</sub> is the angle of incidence for direct solar radiation.
 
@@ -73,7 +73,7 @@ The critical opening angle (cut-off) depends on the profile angle of the sun and
 
 $$ \beta_c = \arctan\left\{ \frac{\tan\theta \pm d \cdot \sqrt{1 + \tan^2\theta - d^2}}{d^2 - 1} \right\} \; \text{where minus must be used} $$
 
-*   Θ is the [profile angle](24_31_Profile_angle.md) calculated from the solar-window azimuth and the solar height,
+*   Θ is the [profile angle](../24_31_Profile_angle.md) calculated from the solar-window azimuth and the solar height,
 
 *   d is the proportion between the distance and the width of the slats.
 

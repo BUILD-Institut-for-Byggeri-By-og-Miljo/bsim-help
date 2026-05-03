@@ -18,26 +18,26 @@ En WinDoor eller en åbning kan indsættes til udfyldning af en flade eller midt
 
 Se også:
 
-*   [Options](/24Miscellaneous/24_16_tsbi5_general_options.html)
+*   [Options](/24Miscellaneous/24_16_tsbi5_general_options.md)
 
-*   [Defaults](/07SimDB_Database/07_02_SimDB_BuildingElement.html)
+*   [Defaults](../07SimDB_Database/07_02_SimDB_BuildingElement.md)
 
-*   [Add Building](/06BSim_Program_structure/06_09_SimView_Creating_a_building.html)
+*   [Add Building](../06BSim_Program_structure/06_09_SimView_Creating_a_building.md)
 
-*   [Add Room](/09SimView/09_15_SimView_Creating_a_space.html)
+*   [Add Room](../09SimView/09_15_SimView_Creating_a_space.md)
 
-*   [Add Face](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Add Face](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
-*   [Add Edge](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Add Edge](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
-*   [Add Opening](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html)
+*   [Add Opening](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 
-*   [Add WinDoors](/10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.html)
+*   [Add WinDoors](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 
-*   [Insert Windoor](/24Miscellaneous/24_30_SimView_Insert_Windoor.html)
+*   [Insert Windoor](/24Miscellaneous/24_30_SimView_Insert_Windoor.md)
 
-*   [Move](/09SimView/09_13_SimView_Move.html)
+*   [Move](../09SimView/09_13_SimView_Move.md)
 
-*   [Split Face](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Split Face](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
-*   [Split Edge](/09SimView/09_02_SimView_Editing_the_model_geometry.html)
+*   [Split Edge](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
