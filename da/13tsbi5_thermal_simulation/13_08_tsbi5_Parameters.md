@@ -8,6 +8,8 @@ Fanebladet *Parameters* indeholder lister med de [parametre, der er gemt på tim
 
 <div id="gray_background"> De værdier som vises i resultat-loggen er et øjebliksbillede af forholdene i det sidste tidsskridt (ved timens slutning) i hver time, med mindre andet er angivet for den enkelte parameter. </div>
 
+<br>
+
 <figure id="center_img">
 <img src="./assets/tsbi5Parametres.GIF" alt="Fanebladet Parameters indeholder en liste med gemte parametre, som kan vises på timebasis.">
 <figcaption>Fanebladet Parameters indeholder en liste med gemte parametre, som kan vises på timebasis.</figcaption>

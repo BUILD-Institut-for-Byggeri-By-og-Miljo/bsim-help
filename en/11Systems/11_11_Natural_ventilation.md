@@ -69,7 +69,7 @@ Natural ventilation is implemented as a special kind of Venting (airing) in an e
 </figure>
 
 
-*   *Cd:* The air [discharge coefficient Cd](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) is found according to [Direction 202, page 70-71](../../20The_Mathematical_basis/20_28_Literature.md). Typical values range from 0.62 to 0.70.
+*   *Cd:* The air [discharge coefficient Cd](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) is found according to [Direction 202, page 70-71](../20The_Mathematical_basis/20_28_Literature.md). Typical values range from 0.62 to 0.70.
 
 *   *[Ka](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md):* This parameter is being used for calculation of the penetration depth of outside air in a room and thus the part of the ceiling that is directly influenced by outdoor air entering the room through a opening.
 
