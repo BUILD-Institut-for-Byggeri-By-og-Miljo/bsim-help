@@ -5,7 +5,6 @@
 This help has been optimized for full-width display on PC monitors with a resolution of 1024x768.
 </span>
 
-<br>
 
 The term Windows is used generally as a synonym for the following Microsoft operating systems: MS-Windows 98 (second edition), MS-Windows NT version 4 with service pack 3, MS-Windows 2000 and MS-Windows XP.   
     The word *directory* means the same as *folder* in Windows.
