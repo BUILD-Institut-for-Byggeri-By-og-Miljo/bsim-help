@@ -14,10 +14,6 @@ Programpakken betjener sig af en række genvejstaster, som generelt har samme fu
 
 Tegnet "|" (pipe) angiver, at der er tale om en menu, der kan nås via en anden menu. For eksempel henviser *View* | *View* efterfulgt af *Zoom-In* til indgangen *Zoom-In* som findes under punktet *<u>V</u>iew* i hovedmenuen.
 
-Nogle sider eller afsnit er markeret med en lys gul baggrundsfarve. Det indikerer funktioner som kun er tilgængelige i BSim version 2002 (BSim2002) og fremefter.
-
- 
-
 Se også:
 
 *   [Udskrift af hjælpesider](../04Users_guide/04_04_Print_help_pages.md)
