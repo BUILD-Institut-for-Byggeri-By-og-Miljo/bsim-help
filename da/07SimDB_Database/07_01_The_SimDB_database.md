@@ -3,7 +3,7 @@ I *BSim* er et af de centrale elementer databasen *SimDB*, der indeholder standa
 
 Databasen indeholder i princippet to databaser, en med materialer ([*BuildingMaterial*](../07SimDB_Database/07_06_SimDB_BuildingMaterial.md)) og en med bygningselementer ([*BuildingElement*](../07SimDB_Database/07_02_SimDB_BuildingElement.md)), som er sammensat af en kombination af materialer.
 
-Alle bygningselementer og materialer er navngivet i henhold til [SfB-systemet](../24Miscellaneous/24_39_SfB_in_BSim.md), og det er vigtigt, at konventionen overholdes, når der defineres nye data i databasen, idet bygningselementerne sorteres efter SfB-systemet, og databasen viser forskellige faneblade med data, afhængig af SfB-nummeret.
+Alle bygningselementer og materialer er navngivet i henhold til [SfB-systemet](../24Miscellaneous/24_39_SfB_in_BSim.md), og det er <span id="red_text"> vigtigt </span>, at konventionen overholdes, når der defineres nye data i databasen, idet bygningselementerne sorteres efter SfB-systemet, og databasen viser forskellige faneblade med data, afhængig af SfB-nummeret.
 
 Overalt i dialogerne, hvor knappen "Edit" optræder, vil et højre-klik på et SfB-nummer åbne dialogen for redigering af data for objektet.
 
