@@ -22,6 +22,7 @@ As with the building elements, the materials are divided into basic [SfB groups]
 <figcaption>Option for defining and selecting materials (BuildingMaterial) in the database.</figcaption>
 </figure>
 
+
 Clicking *Edit* for a selected material opens a window in which the data registered for the material in question can be edited. The individual tables in the materials database will be described below. The tabs are structured in such a way that they start with the information needed for the main purpose of the database, with new information being added for each new tab. The number and type of tabs displayed depends on which material group (SfB number) has been selected.
 
 See also:
