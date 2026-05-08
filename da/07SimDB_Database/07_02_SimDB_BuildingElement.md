@@ -13,7 +13,7 @@ Til venstre i databasedialogen kan der sættes to options for visningen af SimDB
 
 *   Ved "hak" ud for *Keep* *on top* sikres det at databasen altid er det øverste vindue på skærmen. Det er især praktisk når der skal trækkes fra databasen til konstruktioner i træstrukturen.
 
-*   "Hak" i *Show Amount* viser fanablade med information om [materialeforbruget](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md) for en regningsenhed af konstruktionen. Materialeforbruget benyttes i forbindelse med livscyklusvurderinger, som pt. ikke er en del af BSim-pakken.
+*   "Hak" i *Show Amount* viser faneblade med information om [materialeforbruget](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md) for en regningsenhed af konstruktionen. Materialeforbruget benyttes i forbindelse med livscyklusvurderinger, som pt. ikke er en del af BSim-pakken.
 
 I højre side af databaseindgangen *BuildingElement* vises de informationer, som er til rådighed for elementet, fx de enkelte lag, den totale tykkelse af elementet og R-værdien (den reciprokke U-værdi uden overgangsisolanser). Det er muligt at udvide eller kollapse visningen ved at trykke på de små kasser med et "+" (udvid) eller et "-" (kollaps). Ved tryk på knappen *Edit* gives der adgang til at redigere i bygningselementerne.
 
