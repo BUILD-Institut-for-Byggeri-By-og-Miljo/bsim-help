@@ -246,7 +246,7 @@ In the *Finish Property* dialog a field with information about the combined (con
 
 A virtual zone can also be created as a new space which is physically connected to the space in the model where it is to be used. Spaces outside thermal zones do not need to have defined constructions for all faces. A space can have a pre-defined temperature and humidity variation over the year - like the ground - and can further have a variation over the day.
 
-Instead of attaching a space as a virtual zone, it is possible to define that the temperature and moisture conditions on the other side (side 2) of a wall is the same as in the thermal zone of side 1. This can be done by right-clicking the *Finish* of the face 2 and selecting that this face faces (*Facing*) the thermal zone itself. A more detailed description of this can be found in the description of [virtual zones](../09SimView/09_11_Virtual_zones.md).
+Instead of attaching a space as a virtual zone, it is possible to define that the temperature and moisture conditions on the other side (side 2) of a wall is the same as in the thermal zone of side 1. This can be done by right-clicking the *Finish* of the face 2 and selecting that this face faces (*Facing*) the thermal zone itself. A more detailed description of this can be found in the description of [virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md).
 
  
 
@@ -264,7 +264,7 @@ Now data for a simple building model, comprising two thermal zones, each surroun
 
 #### **Creating a thermal zone**
 
-It is still not possible to carry out a tsbi5-simulation. To be able to do this, at least one [thermal zone](../10Thermal_zones/10_04_Thermal_zone_property.md), containing at least one space, must be created.
+It is still not possible to carry out a tsbi5-simulation. To be able to do this, at least one [thermal zone](../10Thermal_zones/10_01_Thermal_Zone_property.md), containing at least one space, must be created.
 
 Right-click on the building in the tree structure to open the building property dialog, which have a button for creation of thermal zones. Each click on the *Insert ThermalZone* button, adds a thermal zone to the model. In this case one thermal zone is required.
 

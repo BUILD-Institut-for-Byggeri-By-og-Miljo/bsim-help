@@ -21,13 +21,13 @@ There are a number of golden rules that should be observed when constructing mod
 
 In the section with [learning examples](21_02_Learning_examples.md) three examples are found. These examples guides the first-time user through a simple creation of a building geometry, over addition of systems to the model and the first simulation with the tsbi5 program.
 
-Before using the program it is recommended to get aquatinted with the [structure of BSim](../06BSim_Program_structure/06_01_BSim_Program_structure.md).
+Before using the program it is recommended to get aquatinted with the [structure of BSim](../06BSim_Program_structure/06_01_Structure_of_BSim.md).
 
 *   A number of [short-cuts](../05Introduction/05_06_Shortcut_keys.md) exists in *BSim*.
 
 *   Models can be edited using the [menu](../06BSim_Program_structure/06_06_SimView_Menu.md) in *SimView*.
 
-*   The [mouse](../09SimView/09_02_Mouse_operations_in_SimView.md) is a tool that can be used in different ways within *SimView*.
+*   The [mouse](../06BSim_Program_structure/06_03_Mouse_operations_in_SimView.md) is a tool that can be used in different ways within *SimView*.
 
 *   At the top of the user interface there is a [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md) giving easy access to different functions in *BSim*.
 
@@ -39,11 +39,11 @@ The BSim program to which the specified description belongs is indicated at the 
 
 *   A new project is created with a *[wizard](../09SimView/09_12_Model_wizard_creating_a_new_model.md)*.
 
-*   A [building model](../09SimView/09_13_Creating_a_building.md) is created in the project with *SimView*.
+*   A [building model](../06BSim_Program_structure/06_09_SimView_Creating_a_building.md) is created in the project with *SimView*.
 
-*   More [spaces](../09SimView/09_14_Creating_a_space.md) are added to the model in *SimView*.
+*   More [spaces](../09SimView/09_15_SimView_Creating_a_space.md) are added to the model in *SimView*.
 
-*   The model geometry is [edited](../09SimView/09_15_Editing_the_model_geometry.md) with *SimView*.
+*   The model geometry is [edited](../09SimView/09_02_SimView_Editing_the_model_geometry.md) with *SimView*.
 
 *   [Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md) are attached from the database *SimDB*.
 
@@ -53,11 +53,11 @@ The BSim program to which the specified description belongs is indicated at the 
 
 *   Some [default constructions are overwritten](../09SimView/09_09_SimView_Non_default_constructions.md) with constructions from *SimDB*.
 
-*   [Windows, doors and openings in the faces are added](../09SimView/09_05_Adding_windows_doors_and_openings_WinDoor.md) in *SimView*.
+*   [Windows, doors and openings in the faces are added](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md) in *SimView*.
 
 *   Systems are added to the windows.
-    *   [Shading](../11Systems/11_23_Systems_Shading.md)
-    *   [Shutters](../11Systems/11_24_Systems_Shutters.md)
+    *   [Shading](../11Systems/11_16_Systems_shading.md)
+    *   [Shutters](../11Systems/11_15_Systems_shutter.md)
 
 *   A face is [filled](../24Miscellaneous/24_30_SimView_Insert_WinDoor.md)  with a window or opening in *SimView*.
 

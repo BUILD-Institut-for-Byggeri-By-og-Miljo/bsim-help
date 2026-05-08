@@ -240,7 +240,7 @@ A simulation is now to be undertaken in order to compare the indoor climate and 
 
 By copying the model from [EX2](21_04_Example_2.md) over to EX3 (at the beginning of example 3) in addition to copying data for the current building model (the file EX3.DIS) also information (data) regarding hour-log, parameter lists etc. were copied into a new file named EKS3.G97.
 
-As the simulation period is already defined (from [EX2](As%20the simulation period is already defined (from EX2), simulation can be started by clicking the Start-button at the Simulation tab of tsbi5. )), simulation can be started by clicking the *Start*-button at the Simulation tab of tsbi5.
+As the simulation period is already defined from EX2, simulation can be started by clicking the Start-button at the Simulation tab of tsbi5. The simulation can be started by clicking the *Start*-button at the Simulation tab of tsbi5.
 
  
 
