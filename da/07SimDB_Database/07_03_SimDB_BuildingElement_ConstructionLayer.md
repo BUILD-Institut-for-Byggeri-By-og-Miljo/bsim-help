@@ -27,7 +27,7 @@ Andet faneblad indeholder information om de enkelte lag, et bygningselement er o
 
 2.  I andre tilfælde (fx om vinteren, når køleloftet er slukket og tagfladen er den koldeste), vil den ækvivalente diffusionsmodstand skønsmæssigt være noget mindre, fx 0.1e+9 m²s·Pa/kg, men antageligt noget varierende.
 
-3.  Det er normalt kun af interesse at kende værdien nogenlunde korrekt, når køleloftet er tændt, svarende til tilfælde 1.
+    Det er normalt kun af interesse at kende værdien nogenlunde korrekt, når køleloftet er tændt, svarende til tilfælde 1.
 
 *   Tabel (nederst til venstre) med oversigt over elementets enkelte lag.
 
