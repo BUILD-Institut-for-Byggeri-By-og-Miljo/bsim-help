@@ -105,7 +105,7 @@
 
 *   Added information about use of [secondary reference point in SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) calculations.
 
-*   Corrected link to sending an e-mail to[ join the BSim user's debate forum.](./23Internet/23_01_Join_the_debate_and_information_forum.md) 
+*   Corrected link to sending an e-mail to[ join the BSim user's debate forum.](../23Internet/23_01_Join_the_debate_and_information_forum.md) 
 ### **6.9.10.23**
 
 *   Added text about selection of design parameters for [heat pumps](../11Systems/11_20_Heat_pump.md) and at [Heatloss](../09SimView/09_11_Model_information.md) tab
@@ -158,7 +158,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   Updated description of [properties for a construction](../09SimView/09_06_Construction_Property.md) with information about thermal bridges.
 
-*   Updated theory for zone air heat balance](../20The_Mathematical_basis/20_25_Heat_balance_for_the_zone_air.md)
+*   Updated theory for [zone air heat balance](../20The_Mathematical_basis/20_25_Heat_balance_for_the_zone_air.md)
 
 *   Update of [system description](../11Systems/11_06_Hydronic_constructive_heating_cooling.md) for constructive heating/cooling re. Massimiliano Scarpa.
 
@@ -352,7 +352,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*systems\systems_lighting.htm*:](../11Systems/11_03_Systems_Lighting.md) Added convective/radiative distribution key.
 
-*   [*filtypes.htm*:](../24Miscellaneous/24_11_File_Types.md) Added information about introduction of a new file type for BSim databases (*.disdb) due to restrictions in the safety for transport of Access databases (*.mdb) in several mail systems.
+*   [*filtypes.htm*:](../24Miscellaneous/24_12_File.md) Added information about introduction of a new file type for BSim databases (*.disdb) due to restrictions in the safety for transport of Access databases (*.mdb) in several mail systems.
 
 *   [*tsbi5\heat_balance_parametres.htm*:](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) Added units to the description of parameters in the heat balance sheet.
 
@@ -436,7 +436,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*tsbi5\row.htm*:](../24Miscellaneous/24_58_Climate_data_definition.md) Added text on how to use atmospheric pressure as input to weather data files.
 
-*   [*tsbi5\climate.htm*:](../24Miscellaneous/24_12_Converting_weather_data.md) Added info. about use of atmospheric pressure.
+*   [*tsbi5\climate.htm*:](../24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md) Added info. about use of atmospheric pressure.
 
 *   [*limitations.htm*:](../05Introduction/05_05_Limitations.md) Added text on limitations in connection with time steps used in simulations with *tsbi5*.
 
@@ -448,27 +448,27 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*tsbi5\tsbi5_parametres.htm*:](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) Added text about selection of parameters and moved important text into gray box.
 
-*   [*simdxf\cad.htm*:](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings.md) Added link to new page About SimDXF.
+*   [*simdxf\cad.htm*:](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md) Added link to new page About SimDXF.
 
-*   [*simlight\simlight_punkt.htm*:](../15SimLight_Daylight_calculations/15_02_Daylight_calculations.md) Added link to new page About SimLight.
+*   [*simlight\simlight_punkt.htm*:](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md) Added link to new page About SimLight.
 
 *   [*simdb\simdb-be0.htm*:](../07SimDB_Database/07_02_SimDB_BuildingElement.md) Added link to About SimDb and removed surplus text at the bottom of the page.
 
-*   [*simdb\about_simdb.htm*:](../07SimDB_Database/07_01_About_SimDB.md) Updated graphic.
+*   [*simdb\about_simdb.htm*:](../07SimDB_Database/07_01_The_SimDB_database.md) Updated graphic.
 
 *   [*simview\nat_vent.htm*:](../24Miscellaneous/24_71_Natural_Ventilation.md) Revised description of *Cnt*.
 
-*   [*systems\light_control.htm*:](../11Systems/11_04_Systems_Lighting_Control.md) Added links.
+*   [*systems\light_control.htm*:](../11Systems/11_03_Systems_Lighting.md) Added links.
 
 ### **5.5.1.7**
 
-*   [*tsbi5\climate.htm*:](../24Miscellaneous/24_12_Converting_weather_data.md) Added info about order of climate data for conversion to BSim format.
+*   [*tsbi5\climate.htm*:](../24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md) Added info about order of climate data for conversion to BSim format.
 
 *   [*SimDb\simdb-bm-finish.htm*:](../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md) Added information about default values for reflection from floors, ceilings, walls, glazings and outdoor ground in SimLight.
 
 *   [*systems\floor_heat_ctrl.htm*:](../11Systems/11_07_Floor_Heating_Control.md) Added information about qHeat as result from floor heating systems.
 
-*   [*systems\fan_coil_ctrl.htm*:](../11Systems/11_14_Systems_Fan_Coil_Control.md) Corrected Θ<sub>z</sub> to Θ<sub>i</sub> and elaborated the description on why qCooling can exceed the immediate apparent max-value.
+*   [*systems\fan_coil_ctrl.htm*:](../11Systems/24_59_Fan_coil_control.md) Corrected Θ<sub>z</sub> to Θ<sub>i</sub> and elaborated the description on why qCooling can exceed the immediate apparent max-value.
 
 ### **5.4.11.10**
 
@@ -478,11 +478,11 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*tsbi5\tsbi5_options.htm*:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Added link to *Edit* + *Options*.
 
-*   [*simview\simview-add_windoor.htm*:](../09SimView/09_06_Modify_WinDoor.md) Added link to *Regulation*.
+*   [*simview\simview-add_windoor.htm*:](../09SimView/24_30_SimView_Insert_WinDoor.md) Added link to *Regulation*.
 
-*   [*systems\systems_windoor.htm*:](../11Systems/11_19_Systems_WinDoor.md) New page for systems on WinDoors. Moved navigation of *Shutter* and *Solar Shading* to this page from [add]().
+*   [*systems\systems_windoor.htm*:](../11Systems/24_73_Windoor_Systems.md) New page for systems on WinDoors. Moved navigation of *Shutter* and *Solar Shading* to this page from [add](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md).
 
-*   [*simview\windoor_property.htm*:](../09SimView/09_05_WinDoor_Property.md) Updated graphic. Added link to Regulation for natural ventilation.
+*   [*simview\windoor_property.htm*:](../09SimView/09_07_WinDoor_Property.md) Updated graphic. Added link to Regulation for natural ventilation.
 
 *   [*tsbi5\tsbi5_nvoptions_page.htm*:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) New page with info about multi-zone natural ventilation standard parameters (under construction). Added to navigation structure under tsbi5/Options.
 
@@ -490,11 +490,11 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*simview\finish_property.htm*:](../24Miscellaneous/24_34_Finish_Property.md) Changed appearance of graphic.
 
-*   [*systems\systems_moisture.htm*](../11Systems/11_06_Systems_Moisture.md): Replaced graphic and added information on moisture liberation from a free water surface + link to simple and advanced moisture model. Removed mathematics and only refer to the theory section. Added disclaimer on verification of models.
+*   [*systems\systems_moisture.htm*](../11Systems/11_05_Systems_Moisture.md): Replaced graphic and added information on moisture liberation from a free water surface + link to simple and advanced moisture model. Removed mathematics and only refer to the theory section. Added disclaimer on verification of models.
 
 *   [*defaults.htm*](../24Miscellaneous/24_67_Default_values.md): Added the page in the navigation structure.
 
-*   [*about.htm:*](../05Introduction/05_01_About_BSim.md) Replaced graphic.
+*   [*about.htm:*](../06BSim_Program_structure/06_02_About_BSim.md) Replaced graphic.
 
 *   [*help\cover_chm.htm*:]() Replaced graphic.
 
@@ -520,15 +520,15 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*help\spørgsmål.htm*]() (*Questions*): Updated text with information about German BSim list for questions.
 
-*   [*systems\fan_coil_ctrl.htm:*](../11Systems/11_14_Systems_Fan_Coil_Control.md) Added new page with description of the fan coil control.
+*   [*systems\fan_coil_ctrl.htm:*](../24Miscellaneous/24_59_Fan_coil_control.md) Added new page with description of the fan coil control.
 
 *   [*systems\cool_ctrl.htm*](../11Systems/11_09_Systems_cooling.md): New graphic.
 
-*   [*systems\systems_cooling.htm:*](../11Systems/11_05_Systems_Cooling.md) Changed text on schedule, new graphic.
+*   [*systems\systems_cooling.htm:*](../11Systems/11_09_Systems_cooling.md) Changed text on schedule, new graphic.
 
 *   [*læsevejledning.htm*](../05Introduction/05_04_Reader_guidelines.md)  (*Readers Guide*): Added information about yellow pages with functions only available in BSim version 2002 and later.
 
-*   [*filtypes.htm:*](../24Miscellaneous/24_11_File_Types.md) Added information on BSim2003.mdb.
+*   [*filtypes.htm:*](../24Miscellaneous/24_12_File.md) Added information on BSim2003.mdb.
 
 ### **4.4.8.11**
 
@@ -538,7 +538,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*simview\simview_toolbar.htm:*](../06BSim_Program_structure/06_05_SimView_Toolbar.md) Added description of the "redo" and the model DOC buttons.
 
-*   [*simview\menu_edit.htm:*](../09SimView/09_02_Menu_Edit.md) Added description of "Edit + Options" under tsbi5.
+*   [*simview\menu_edit.htm:*](../06BSim_Program_structure/06_06_SimView_Menu.md) Added description of "Edit + Options" under tsbi5.
 
 *   [*tsbi5\standardparametre.htm:*]() Added new page with description of the standard parameters in tsbi5.
 
