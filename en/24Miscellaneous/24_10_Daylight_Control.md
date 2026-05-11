@@ -20,4 +20,4 @@ With this control type the general lighting is regulated on the basis of the lum
 
 *Control Form:* This field opens a drop-down list box in which the control type has to be selected. It is possible to choose between on/off control, step-by-step control with a specified number of steps, continuous control and a user-defined type.
 
-See also: [Light Control](../24_09_Light_Control.md) 
+See also: [Light Control](../24Miscellaneous/24_09_Light_Control.md) 
