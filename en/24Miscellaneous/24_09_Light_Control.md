@@ -5,10 +5,12 @@ In LightCtrl a simple measure for the "light" in the room is used - the total so
 
 Another control criteria are the indoor temperature: If it becomes too hot in the thermal zone, it is possible to turn off the light to lower the indoor temperature. This is given in LightCtrl as <a href="#lightctrl-dialog">Temp. Max</a> (°C). However this has no meaning if it occurs during the night and a minimum value of the total solar incidence in the thermal zone ensures that the light will only be turned of if some light (sun) is available, as given by <a href="#lightctrl-dialog">Lower Limit</a> (kW).
 
+<div id="center_img">
 <figure id="lightctrl-dialog">
 <img src="./assets/light-lightctrl.gif" alt="Dialog for defining control of artificial lighting as a function of incident solar radiation and temperature in the zone.">
 <figcaption>Dialog for defining control of artificial lighting as a function of incident solar radiation and temperature in the zone.</figcaption>
 </figure>
+</div>
 
 #### **Control on the basis of incident solar radiation and temperature**
 
@@ -23,4 +25,4 @@ If the *Temp. Max* value is exceeded, it is assumed that the general lighting wi
 *Solar Limit* is used in connection with lighting control on the basis of the total incident solar radiation in the zone. If the incident solar radiation is less than the value for Daylight Limit, the general lighting is assumed to be on within the relevant time definition. Please note that the Factor parameter (specified under control in the schedule) for the current period will be multiplied by the power value entered for general lighting.
 Solar Limit is the same parameter as defined at the tab "LightCtrl". If a value is defined (different from 0) on this tab (Lighting), this value is being used and the value defined on the LightCtrl tab is not being used.
 
-See also: [Daylight Control](../24_10_Daylight_Control.md)
+See also: [Daylight Control](../24Miscellaneous/24_10_Daylight_Control.md)
