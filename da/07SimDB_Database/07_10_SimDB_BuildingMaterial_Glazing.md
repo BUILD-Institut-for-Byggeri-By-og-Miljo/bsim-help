@@ -12,7 +12,7 @@ Betydningen af de enkelte felter er:
 
 *   *Heat Transmittance*:
 
-    *   *Normal*: Solenergitransmittansen ([g-værdien](../20The_Mathematical_Basis/20_02_References.md)) for indstråling vinkelret på glassets plan. Hvis man kender mere detaljerede data (benyttes fx. ved transparente isoleringsmaterialer) for energitransmittansen for forskellige indfaldsvinkler, **kan** de gives på fanebladet [*UserDefined*](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md).
+    *   *Normal*: Solenergitransmittansen ([g-værdien](../20The_Mathematical_Basis/20_28_Literature.md)) for indstråling vinkelret på glassets plan. Hvis man kender mere detaljerede data (benyttes fx. ved transparente isoleringsmaterialer) for energitransmittansen for forskellige indfaldsvinkler, **kan** de gives på fanebladet [*UserDefined*](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md).
 
     *   *Diffuse*: Solenergitransmittansen for diffus stråling. Hvis der ikke kendes en bedre værdi, bør "0", opgives som værdi. Derved antager programmet at transmittansen for diffus stråling (reflekteret fra omgivelser, fx nabobygninger, jorden, skyer osv.) er den samme som for direkte stråling, men ved en indfaldsvinkel på 60° i forhold til glassets normal. Gives der en værdi for transmittansen af diffus stråling bør denne altid være mindre end transmittansen for direkte stråling vinkelret på glassets plan (normalstråling).
 

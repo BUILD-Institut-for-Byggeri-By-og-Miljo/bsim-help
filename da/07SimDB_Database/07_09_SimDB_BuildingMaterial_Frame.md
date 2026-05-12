@@ -8,7 +8,7 @@ Dette faneblad indeholder alene en U-værdi og fremkommer kun, når der er valgt
 <figcaption>U-værdien for en ramme-/karmkonstruktion (Edit Material | Frame) eller en fyldning. Benyttes, når materialet indgår som en del af en WinDoor.</figcaption>
 </figure>
 
-I henhold til [DS418, tillæg 1](../20The_Mathematical_Basis/20_02_References.md) kan følgende værdier benyttes for U-værdien af vinduesrammer.
+I henhold til [DS418, tillæg 1](../20The_Mathematical_Basis/20_28_Literature.md) kan følgende værdier benyttes for U-værdien af vinduesrammer.
 
 For rammer og karme af træ eller beklædt træ anvendes transmissionskoefficienten angivet i nedenstående figur, medmindre der er bestemt en nøjagtigere værdi. Ved bestemmelse af tykkelsen af rammer og karme af træ ses der bort fra eventuelle inddækninger af metal eller plast. ved forskellig tykkelse af fx ramme og karm anvendes middelværdien. Ved koblede rammer anvendes den samlede tykkelse af rammerne.
 
