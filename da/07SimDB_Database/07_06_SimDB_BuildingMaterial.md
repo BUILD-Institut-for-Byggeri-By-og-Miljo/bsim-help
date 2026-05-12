@@ -32,7 +32,7 @@ Se også:
 
 *   [Faneblad Thermal](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
 
-*   [Faneblad PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
+*   [Faneblad PCM](../07SimDB_Database/07_13_SimDb_BuildingMaterial_PCM.md)
 
 *   [Faneblad Environment](../07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.md)
 
