@@ -34,7 +34,7 @@ Se også:
 
 *   [Faneblad Thermal](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
 
-*   [Faneblad PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
+*   [Faneblad PCM](../07SimDB_Database/07_13_SimDb_BuildingMaterial_PCM.md)
 
 *   [Faneblad Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
 
@@ -49,4 +49,4 @@ Se også:
 
  
 
-*   [Godt i gang med BSim2000](../21Getting_started_with_BSim/21_01_Getting_started_with_BSim.md)
+*   [Godt i gang med BSim2000](../21Getting_started_with_BSim/21_01_Constructing_a_model.md)
