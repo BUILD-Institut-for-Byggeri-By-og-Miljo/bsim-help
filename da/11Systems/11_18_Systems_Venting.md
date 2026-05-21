@@ -21,7 +21,7 @@ $$ n_{udeluft} = n_0 + c_t \cdot (t_i - t_u)^{tp} + c_v \cdot v \tag{1} $$
 
 Den til udluftningen hørende regulering simulerer, at vinduer eller ventilationsåbninger åbnes, såfremt temperaturen kommer over et vist niveau defineret ved et brugerbestemt setpunkt. Når der er tendens til, at setpunktet overskrides, forøges den naturlige ventilation så meget, som det er nødvendigt for at opretholde den ønskede temperatur, dog ikke mere end svarende til et brugerbestemt maksimalt luftskifte.
 
-I modsætning til infiltration er udluftning defineret sådan, at der går en lige så stor luftstrøm ud af den termiske zone (til udeluften), som der kommer ind i den termiske zone (fra udeluften). Udluftning er altså pr. definition i (luft)balance og vil således ikke influere på størrelsen af infiltration eller eksfiltration, jf. afsnittet [Infiltration](../10Thermal_zones/10_08_Infiltration.md).
+I modsætning til infiltration er udluftning defineret sådan, at der går en lige så stor luftstrøm ud af den termiske zone (til udeluften), som der kommer ind i den termiske zone (fra udeluften). Udluftning er altså pr. definition i (luft)balance og vil således ikke influere på størrelsen af infiltration eller eksfiltration, jf. afsnittet [Infiltration](../11Systems/11_08_Systems_Infiltration.md).
 
 <figure id="center_img">
 <img src="./assets/Venting_old.gif " alt="Definition af udluftningen i en termisk zone.">
@@ -58,7 +58,7 @@ Et tryk på knappen *TmpFactor* åbner en dialog til dimensionering af åbningsa
 
 Naturlig ventilation kan simuleres ved enkeltzone modellen eller ved multizone modellen. Enkeltzone modellen simulerer luftudveksling mellem enkelte termiske zoner og omgivelserne. Multizone modellen simulerer luftudveksling mellem omgivelserne og termiske zone samt internt mellem termiske zoner afhængigt af det opståede drivtryk og setpunkterne for regulering af Venting.
 
-Hvis modellen for simulering af naturlig ventilation ved multi-zone modellen ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](../13tsbi5_thermal_simulation/13_XX_tsbi5_Options.md) under tsbi5.
+Hvis modellen for simulering af naturlig ventilation ved multi-zone modellen ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](../13tsbi5_thermal_simulation/13_02_tsbi5_Options.md) under tsbi5.
 
 [Tidsplanen](../11Systems/11_02_Systems_schedule.md) for udluftning definerer sammenhørende sæt af regulering og tidsangivelse. I almindelige opholdsrum vil udluftningen simulere brugernes åbning af vinduer, når indetemperaturen bliver for høj, og udluftningen vil da normalt kun være 'aktiv' inden for bygningens brugstid. I større bygninger, hvor der er udstyr for automatisk udluftning ved overskridelse af setpunktet for en temperaturføler, må det vurderes, om det opnåelige luftskifte afhænger af tiden på døgnet og på året.
 
