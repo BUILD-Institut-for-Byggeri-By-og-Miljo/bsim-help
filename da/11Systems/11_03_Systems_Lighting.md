@@ -42,7 +42,7 @@ $ P $                  er den effekt som behøves for at opnå det øns
 $ f $                  er det ønskede belysningsniveau i andele af det nominelle niveau,   
 $ \text{genlight} $      er det nominelle belysningsniveau. lux
 
-Se i øvrigt [algoritmer til beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_03_Algorithms_for_solar_radiation_and_daylight_calculations.md).
+Se i øvrigt [algoritmer til beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
 *Solar Limit* anvendes i forbindelse med lysregulering efter det samlede solindfald i zonen. Ved solindfald mindre end værdien af Sollys regnes almenlyset tændt inden for den tilhørende tidsangivelse. Bemærk, at parameteren Faktor (angivet under regulering i tidsplanen) for den aktuelle periode bliver multipliceret på den indlæste effektværdi for almenlys.  
 Solar Limit er den samme parameter som er defineret på fanebladet "LightCtrl". Hvis der er defineret en værdi på "Lighting" benyttes en eventuel værdi defineret på fanebladet LightCtrl ikke.
