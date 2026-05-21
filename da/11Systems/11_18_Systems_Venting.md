@@ -58,7 +58,7 @@ Et tryk på knappen *TmpFactor* åbner en dialog til dimensionering af åbningsa
 
 Naturlig ventilation kan simuleres ved enkeltzone modellen eller ved multizone modellen. Enkeltzone modellen simulerer luftudveksling mellem enkelte termiske zoner og omgivelserne. Multizone modellen simulerer luftudveksling mellem omgivelserne og termiske zone samt internt mellem termiske zoner afhængigt af det opståede drivtryk og setpunkterne for regulering af Venting.
 
-Hvis modellen for simulering af naturlig ventilation ved multi-zone modellen ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](../13tsbi5_thermal_simulation/13_02_tsbi5_Options.md) under tsbi5.
+Hvis modellen for simulering af naturlig ventilation ved multi-zone modellen ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) under tsbi5.
 
 [Tidsplanen](../11Systems/11_02_Systems_schedule.md) for udluftning definerer sammenhørende sæt af regulering og tidsangivelse. I almindelige opholdsrum vil udluftningen simulere brugernes åbning af vinduer, når indetemperaturen bliver for høj, og udluftningen vil da normalt kun være 'aktiv' inden for bygningens brugstid. I større bygninger, hvor der er udstyr for automatisk udluftning ved overskridelse af setpunktet for en temperaturføler, må det vurderes, om det opnåelige luftskifte afhænger af tiden på døgnet og på året.
 
