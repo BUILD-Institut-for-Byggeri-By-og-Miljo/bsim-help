@@ -54,7 +54,7 @@ Se også:
 
 *   [Hent DXF-fil - Open DXF-file](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.md)
 
-*   [Oprette hjælpelinier](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.md)
+*   [Oprette hjælpelinier](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
 
 *   [Knudepunkter (nodes)](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.md)
 
