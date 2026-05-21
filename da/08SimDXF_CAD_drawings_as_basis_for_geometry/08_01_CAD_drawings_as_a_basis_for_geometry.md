@@ -4,10 +4,10 @@
 
 <div id="center_img">
 
-*SimDXF er et simpelt værktøj til import af cad tegninger i DXF-format som grundlag for opbygning af den geometriske beskrivelse af bygningsmodeller i BSim.*
+SimDXF er et simpelt værktøj til import af cad tegninger i DXF-format som grundlag for opbygning af den geometriske beskrivelse af bygningsmodeller i BSim.
 
 
-*Der kan importeres en etage ad gangen via SimDXF. Hvis der ønskes oprettet en model med mere end en etage er det nødvendigt at oprette hver etage for sig i SimDXF, og [importere](../10Thermal_zones/10_05_Shadows_from_the_surroundings.md) etage nummer 2 og følgende i SimView. Herved fås en model med flere bygninger (en for hver etage). Det er **kun** muligt at simulere en bygning ad gangen (current building) med tsbi5. Ved at trække (i træstrukturen i [SimView](../09SimView/09_01_SimView.md)) den eller de nye bygninger ind i den først oprettede bygning (etage), tilføjes disse til modellen for den aktuelle bygning, og kan simuleres samtidigt i [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md). Det kan være nødvendigt at flytte nye etager (fx. opad) i modellen med kommandoen [Move](../09SimView/09_13_SimView_Move.md) fra SimView-menuen.*
+Der kan importeres en etage ad gangen via SimDXF. Hvis der ønskes oprettet en model med mere end en etage er det nødvendigt at oprette hver etage for sig i SimDXF, og [importere](../10Thermal_zones/10_05_Shadows_from_the_surroundings.md) etage nummer 2 og følgende i SimView. Herved fås en model med flere bygninger (en for hver etage). Det er **kun** muligt at simulere en bygning ad gangen (current building) med tsbi5. Ved at trække (i træstrukturen i [SimView](../09SimView/09_01_SimView.md)) den eller de nye bygninger ind i den først oprettede bygning (etage), tilføjes disse til modellen for den aktuelle bygning, og kan simuleres samtidigt i [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md). Det kan være nødvendigt at flytte nye etager (fx. opad) i modellen med kommandoen [Move](../09SimView/09_13_SimView_Move.md) fra SimView-menuen.
 
 </div>
  
