@@ -4,7 +4,7 @@
 
 Dette faneblad giver mulighed for at indtaste detaljeret information om transmittansens afhængighed af indfaldsvinklen og vises alene for materialer fra [SfB-materialegruppe](../24Miscellaneous/24_39_SfB_in_BSim.md) "a". Der skal opgives mindst 3 sammenhørende værdier af indfaldsvinkel og transmittans ud over den første, som er fast. Det kan særligt have betydning at kende kurven for transmittansen, hvis der benyttes transparente isoleringsmaterialer eller ruder med specielle belægninger, idet disse kan have en transmittanskurve, som afviger fra den, der kendes fra almindeligt bygningsglas.
 
-Det er ikke muligt at vise den beregnede kurve korrekt på fanebladet [*Glazing*](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md), før det sidst redigerede felt er forladt ved brug af pil-tasterne.
+Det er ikke muligt at vise den beregnede kurve korrekt på fanebladet [*Glazing*](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md), før det sidst redigerede felt er forladt ved brug af piletasterne.
 
 <figure id="center_img">
 <img src="./assets/Dbtransm.gif" alt="Tabel (Edit Material | Transmittance) for inddatering af detaljeret information om transmittansens afhængighed af indfaldsvinklen.">

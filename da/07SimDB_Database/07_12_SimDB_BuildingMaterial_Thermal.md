@@ -13,6 +13,8 @@ Uanset om "Moisture Transport" er slået til eller fra på "Options" fanebladet 
 Oprettes der nye materialer i en database med information om egenskaber for fugttransport <u>skal</u> der angives data for fugttransporten, også selvom der ikke skal simuleres fugttransport.<a href="../05Introduction/05_05_Limitations.md"> Se begrænsninger</a>. 
 </div>  
 
+
+
 <figure id="center_img">
 <img src="./assets/dbthermal.gif " alt="Termiske data (ud over densiteten) for materialet på Edit Material | Thermal. Edit Material | Thermal.">
 <figcaption>Termiske data (ud over densiteten) for materialet på Edit Material | Thermal. Edit Material | Thermal.</figcaption>
