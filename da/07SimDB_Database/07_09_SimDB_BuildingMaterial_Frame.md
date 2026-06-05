@@ -19,14 +19,14 @@ For rammer og karme af træ eller beklædt træ anvendes transmissionskoefficien
 
 For rammer og karme af plast eller metal anvendes transmissionskoefficienterne angives i følgende tabel, medmindre der er bestemt en nøjagtigere værdi. For PUR-profiler forudsættes metalforstærkningen dækket af mindst 5 mm polyuretanskum. Ved PVC-profiler forudsættes, at der højst er metalforstærkning i ét kammer, og at afstanden mellem vægoverfladerne i alle kamre er mindst 5 mm. Transmissionskoefficienten for metalprofiler med brudt kuldebro afhænger meget af detailudformningen og må derfor bestemmes specifikt for det enkelte profil.
 
-|                              | **W/m²K** |
-|------------------------------|:---------:|
-| **Plastprofiler**            |           |
-| PUR-profiler           | 2,6       |
-| 2-kammer PVC-profiler  | 2,1       |
-| 3-kammer PVC-profiler  | 1,9       |
-| **Metalprofiler**
-| uden brudt kuldebro  | 5,9       |
+| Profil                | W/m²K |
+|--------------------------|--------|
+| **Plastprofiler**     |  |
+| PUR-profiler             | 2,6   |
+| 2-kammer PVC-profiler   | 2,1   |
+| 3‑chamber PVC-profiles   | 1,9   |
+| **Metalprofiler**       |        |
+| Uden brudt kuldebro | 5,9 |
 *Transmissionskoefficient* *U<sub>ramme  </sub>i W/m²K for rammer og karme af plast- eller metalprofiler*.
 
 For vinduer med selvstændige rammer og en afstand mellem rammerne på mindst 10 mm beregnes transmissionskoefficienten som:

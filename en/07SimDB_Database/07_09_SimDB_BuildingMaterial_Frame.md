@@ -19,13 +19,14 @@ For frames made of wood or covered wood the values can be obtained from the figu
 
 For frames made of plastic or metal the transmission coefficients given in the following table can be used, unless a more accurate value is known. For PUR-profilers a metal bearing is expected to be covered wit at least 5 mm polyuretan foam. For PVC-profiles it is anticipated that there will be metal enforcement in a maximum of one chamber, and that the distance between the surface in all chambers is at least 5 mm. The transmission coefficient for metal profiles with broken cold-bridge depends strongly on the actual design and must thus be determined for each profile individually.
 
-
-|         |                     | W/m²K |
-|-------------------|----------------------------------|-------|
-| **Plastic profiles** | PUR-profiler                     | 2,6   |
-|                   | 2‑chamber PVC-profiles           | 2,1   |
-|                   | 3‑chamber PVC-profiles           | 1,9   |
-| **Metal profiles**   | without broken cold bridge        | 5,9   |
+| Profile                | W/m²K |
+|--------------------------|--------|
+| **Plastic profiles**     |  |
+| PUR-profiler             | 2,6   |
+| 2‑chamber PVC-profiles   | 2,1   |
+| 3‑chamber PVC-profiles   | 1,9   |
+| **Metal profiles**       |        |
+| Without broken cold bridge | 5,9 |
 
 *Transmission coefficient U<sub>frame </sub>in W/m²K for frames made of plastic or metal profiles.*
 
