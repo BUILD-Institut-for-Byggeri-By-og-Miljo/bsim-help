@@ -9,7 +9,7 @@ En flade kan opdeles ved først at opdele to af dens kanter (*Edges*). Dette gø
 
 <figure id="center_img">
 <img src="./assets/split_edge.gif " alt="Split edge">
-<figcaption>Split edge</figcaption>
+<figcaption>Split edge.</figcaption>
 </figure>
 
 

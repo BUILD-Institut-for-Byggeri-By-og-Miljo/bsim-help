@@ -7,8 +7,9 @@ A face can be split by first splitting two of its *edges*. This is done by selec
 
 <figure id="center_img">
 <img src="./assets/split_edge.gif" alt="">
-<figcaption></figcaption>
+<figcaption>Split edge.</figcaption>
 </figure>
+
 
 A similar approach can be used for the rest of the edges that are to be splitted.
 
