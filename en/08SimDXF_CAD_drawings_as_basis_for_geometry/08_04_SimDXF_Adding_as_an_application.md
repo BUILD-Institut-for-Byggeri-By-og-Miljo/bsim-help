@@ -8,6 +8,8 @@
 <figcaption>Dialog box (Application Config) for adding programs to the toolbar in BSim.</figcaption>
 </figure>
 
+
+
 Use the *<u>A</u>dd* button to add a program to the toolbar, the *Remove* button to remove a program and the *Move up* and *Move Down* buttons to change the order of the programs on the toolbar.
 
 See also:

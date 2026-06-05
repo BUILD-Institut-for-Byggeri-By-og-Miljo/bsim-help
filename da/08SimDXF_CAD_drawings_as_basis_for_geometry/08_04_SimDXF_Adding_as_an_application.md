@@ -10,6 +10,7 @@
 </figure>
 
 
+
 Brug knappen *<u>A</u>dd* for at tilføje et program til værktøjsbjælken, *Remove* for at fjerne et program samt *Move up* og *Move Down* for at ændre rækkefølgen af programmerne på værktøjsbjælken.
 
  
