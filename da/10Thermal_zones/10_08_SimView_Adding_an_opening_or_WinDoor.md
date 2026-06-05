@@ -33,11 +33,11 @@ Vinduer og åbninger kan ikke placeres helt ude ved kanten af de konstruktioner 
 
 Hver gang der trykkes på *Apply* tilføjes et objekt *(Opening* eller *WinDoor)* med den givne geometri. Alle åbninger og *WinDoor* tilhørende den samme flade kan derfor med fordel oprettes fra dialogen på en gang.
 
-Hvis et vindue eller en åbning ønskes placeret midt i en flade med lige stor afstand til alle kanter, kan funktionen [Insert Windoor](../24Miscellaneous/24_72_Insert_Windoor_Function.md) benyttes i stedet.
+Hvis et vindue eller en åbning ønskes placeret midt i en flade med lige stor afstand til alle kanter, kan funktionen [Insert Windoor](../24Miscellaneous/24_30_SimView_Insert_Windoor.md) benyttes i stedet.
 
-Den geometriske beskrivelse af en WinDoor (rammer, sprosser, udhæng og sidefinner samt systemer der knytter sig hertil - skodder og solafskærmning) sker ved at højre-klikke på objektet i træ-oversigten, hvorved dialogen [Windoor Property](../24Miscellaneous/24_73_Windoor_Property.md) vises.
+Den geometriske beskrivelse af en WinDoor (rammer, sprosser, udhæng og sidefinner samt systemer der knytter sig hertil - skodder og solafskærmning) sker ved at højre-klikke på objektet i træ-oversigten, hvorved dialogen [Windoor Property](../09SimView/09_07_Windoor_property.md) vises.
 
-Et bestemt vindue knyttes til modellen ved at trække det fra [databasen](../07SimDB_Database/07_08_WinDoor_material_layers.md) til det rigtige sted i modellens træ-oversigt.
+Et bestemt vindue knyttes til modellen ved at trække det fra [databasen](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md) til det rigtige sted i modellens træ-oversigt.
 
 Systemer tilknyttet en WinDoor:
 

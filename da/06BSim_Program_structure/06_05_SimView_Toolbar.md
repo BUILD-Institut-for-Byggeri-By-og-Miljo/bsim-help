@@ -24,8 +24,8 @@ Værktøjsbjælken i *BSim* indeholder en række knapper med følgende funktione
 | <img src="./assets/12SimView - Værktøjsbjælken.png" width=50> | Udskriv (genvej: *Ctrl + p*), |
 | <img src="./assets/13SimView - Værktøjsbjælken.png" width=50> | Vis modellen som HTML i pc'ens standard internet browser som [model doc](../24Miscellaneous/24_29_Model_DOC.md), |
 | <img src="./assets/14SimView - Værktøjsbjælken.png" width=50> | Vis listning (dokumentation) for aktuelle visning, [ModelList](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md), |
-| <img src="./assets/15SimView - Værktøjsbjælken.png" width=50> | [Eksport af bygningsmodellen](../24Miscellaneous/24_50_Export_to_Be10.md) for brug i Be18-programmet, |
-| <img src="./assets/16SimView - Værktøjsbjælken.png" width=50> | Skift til værktøjet [BEAT](../24Miscellaneous/24_51_About_BEAT.md) for miljøvurdering af bygningen, |
+| <img src="./assets/15SimView - Værktøjsbjælken.png" width=50> | [Eksport af bygningsmodellen](../24Miscellaneous/24_29_Model_information.md) for brug i Be18-programmet, |
+| <img src="./assets/16SimView - Værktøjsbjælken.png" width=50> | Skift til værktøjet [BEAT](../24Miscellaneous/24_75_Model_information.md) for miljøvurdering af bygningen, |
 | <img src="./assets/17SimView - Værktøjsbjælken.png" width=50> | [Beregning af dagslys med *SimLight*](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md), |
 | <img src="./assets/18SimView - Værktøjsbjælken.png" width=50> | [Skift til *SimView*](../09SimView/09_01_SimView.md), |
 | <img src="./assets/19SimView - Værktøjsbjælken.png" width=50> | [Skift til *XSun*](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md), |
@@ -65,7 +65,7 @@ Relaterede emner:
 
 *   [Tilføje rum til termiske zoner](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
 
-*   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems_property.md)
+*   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems.md)
 
 *   [Redigere geometrien](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 

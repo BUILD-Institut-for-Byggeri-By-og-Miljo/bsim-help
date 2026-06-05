@@ -2,7 +2,7 @@
 
 # SimDB - BuildingMaterial, Thermal
 
-Fanebladet *Thermal* indeholder oplysninger om materialets termiske egenskaber, og vises for alle andre materialer end dem som er beliggende i [SfB-grupperne](../24Miscellaneous/24_08_SfB_building_classification.md) a, b, c og 0, 1, ... .
+Fanebladet *Thermal* indeholder oplysninger om materialets termiske egenskaber, og vises for alle andre materialer end dem som er beliggende i [SfB-grupperne](../24Miscellaneous/24_39_SfB_in_BSim.md) a, b, c og 0, 1, ... .
 
 De termiske egenskaber er den termiske kapacitet C<sub>p  </sub>[J/kg K] og varmeledningsevnen l [W/m K]. Disse informationer benyttes kun, hvis materialet indgår i en bygningskonstruktion (ikke *WinDoor*), som benyttes i en simulering med *tsbi5*.
 

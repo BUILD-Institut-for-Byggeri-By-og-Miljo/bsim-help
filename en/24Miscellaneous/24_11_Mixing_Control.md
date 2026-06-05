@@ -14,7 +14,7 @@ The control action is dependent on:
 <figcaption>Dialog box for defining mixing control.</figcaption>
 </figure>
 
-*Factor* defines the fraction of the nominal air-flow (defined on the [*Mixing tab*](../11Systems/11_10_Systems_Mixing.md)) available in the matching [time definition](../11Systems/11_17_Systems_Time.md). *Factor* can be values between 1 and 0.01.
+*Factor* defines the fraction of the nominal air-flow (defined on the [*Mixing tab*](../11Systems/11_10_systems_mixing.md)) available in the matching [time definition](../11Systems/11_17_Systems_Time.md). *Factor* can be values between 1 and 0.01.
 
 *Temp. Limit* specifies the limit value for the air temperature in the current thermal zone.
 

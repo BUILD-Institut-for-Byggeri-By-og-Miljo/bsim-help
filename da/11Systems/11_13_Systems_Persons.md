@@ -30,8 +30,7 @@ I dialogen findes to felter:
 *   Afgivelse af CO<sub>2</sub> fra personer afhænger af deres aktivitetsniveau som:
 
 *   q<sub>v,CO2</sub> = 17 M  
-hvor q<sub>v,CO2</sub> er CO<sub>2</sub>-strømmen, l/h,  
-           M er stofskiftet, met.
+hvor q<sub>v,CO2</sub> er CO<sub>2</sub>-strømmen, l/h, og M er stofskiftet, met.
 
  
 | Aktivitet / Beklædning | Tør varme[W] Bsim input | Fordampning [g/h] | Fordampning [W] |

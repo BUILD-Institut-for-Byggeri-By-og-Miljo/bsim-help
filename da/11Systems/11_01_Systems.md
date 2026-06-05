@@ -34,7 +34,7 @@ Kombinationen af komponent og den tilhørende tidsplan betegnes et system og def
 |         | [Opvarmning](../11Systems/11_12_Systems_Heating.md) | [Varme](../11Systems/11_12_Systems_Heating.md)-/køleregulering | Heating |
 |         |           | [Gulvvarmeregulering](../11Systems/11_07_Floor_Heating_Control.md) | Heating2 |
 |         | [Køling](../11Systems/11_09_Systems_cooling.md) | Varme-/[køleregulering](../11Systems/11_09_Systems_cooling.md) | - |
-|         | [Ventilationsanlæg](../11Systems/11_21_Systems_Ventilation.md) | [Indblas ningsstyring](../11Systems/11_23_Ventilation_Inlet_Control.md) | Indblas ning |
+|         | [Ventilationsanlæg](../11Systems/11_21_Systems_Ventilation.md) | [Indblæsningsstyring](../11Systems/11_23_Ventilation_Inlet_Control.md) | Indblas ning |
 |         |           | [Rumtemperaturregulering](../11Systems/11_25_Ventilation_Zone_Temperature_control.md) | Rumtemperatur |
 |         |           | [Fugtstyring](../11Systems/11_22_Ventilation_Moisture_control.md) | Fugt |
 |         |           | [VAV regulering](../11Systems/11_26_Ventilation_VAV_control.md) | VAV |
@@ -80,9 +80,9 @@ Når de ønskede systemer er tilføjet den termiske zone, kan definitionerne red
 
 Se også:
 
-*   [tidsplan](../11Systems/11_02_Systems_schedule.md) (Fanebladet *Schedule)*
-*   [tidsangivelse](../11Systems/11_17_Systems_Time.md) (Fanebladet *Time)*
-*   [reguleringsprioritet](../11Systems/11_14_Control_priority_for_systems.md)
+*   [Tidsplan](../11Systems/11_02_Systems_schedule.md) (Fanebladet *Schedule)*
+*   [Tidsangivelse](../11Systems/11_17_Systems_Time.md) (Fanebladet *Time)*
+*   [Reguleringsprioritet](../11Systems/11_14_Control_priority_for_systems.md)
 Systemer (ikke regulerbar) tilknyttet bygningsmodellen
 *   [Eksterne skygger](../10Thermal_zones/10_05_Shadows_from_the_surroundings.md)
 

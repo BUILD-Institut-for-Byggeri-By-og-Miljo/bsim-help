@@ -68,7 +68,7 @@ Se også:
 
 *   [Tilføje rum til termiske zoner](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
 
-*   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems_property.md)
+*   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems.md)
 
 *   [Redigere geometrien](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 

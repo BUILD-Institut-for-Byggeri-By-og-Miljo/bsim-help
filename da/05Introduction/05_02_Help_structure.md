@@ -19,7 +19,7 @@ I sidernes øverste højre hjørne er placeret SBi's logo over knappen BSim.dk. 
 
 I toppen af hjælpen findes en række knapper som kan benyttes som genveje:  
 Startside åbner en standard startside i hjælpefilen, som indeholder information om leveringsbetingelser og ansvar.  
-Udskriv giver mulighed for at [udskrive](../04Users_guide/04_04_Print_help_pages.md) hele eller dele af hjælpeteksten.  
+Udskriv giver mulighed for at [udskrive](../05Introduction/05_03_Printing_help_pages.md) hele eller dele af hjælpeteksten.  
 Indstillinger åbner en menu for valg af visning for hjælpefilen.  
 Versionscheck åbner en fil på Statens Byggeforskningsinstituts hjemmeside (virker **kun** hvis der er forbindelse til Internettet) hvor versionsnummeret for den nyeste hjælpefil som kan hentes fra [www.bsim.dk](http://www.bsim.dk) kan læses.  
 *Stikord* åbner listen med stikord til hjælpen.

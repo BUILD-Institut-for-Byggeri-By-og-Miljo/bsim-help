@@ -39,9 +39,9 @@ Dialogen indeholder yderligere to faneblade: [HeatLoss](../09SimView/09_11_Model
 
 Ud over konstruktionerne og overfladeegenskaberne er der standardmæssigt tilknyttet en overgangsisolans til samtlige [overflader](../24Miscellaneous/24_34_Finish_Property.md).
 
-En konstruktion fra databasen tilknyttes en af grupperne ved at holde venstre museknap nede på den ønskede konstruktions [SfB-nummer](../07SimDB_Database/07_07_BuildingElement.md), trække det til *Defaults* vinduet og slippe det på navnet for den ønskede konstruktionsgruppe. Når de ønskede standardkonstruktioner er tilknyttet, trykkes på knappen *Anvend* eller *OK* i vinduet *Defaults.*
+En konstruktion fra databasen tilknyttes en af grupperne ved at holde venstre museknap nede på den ønskede konstruktions [SfB-nummer](../07SimDB_Database/07_02_SimDB_BuildingElement.md), trække det til *Defaults* vinduet og slippe det på navnet for den ønskede konstruktionsgruppe. Når de ønskede standardkonstruktioner er tilknyttet, trykkes på knappen *Anvend* eller *OK* i vinduet *Defaults.*
 
-Ændringerne træder først i kraft, når der højre-klikkes på bygningen i træ-oversigten og trykkes på knappen [Insert Defaults](../24Miscellaneous/24_71_Insert_Default_Options.md) i den dialog, der fremkommer.
+Ændringerne træder først i kraft, når der højre-klikkes på bygningen i træ-oversigten og trykkes på knappen [Insert Defaults](../24Miscellaneous/24_28_Insert_Default_Options.md) i den dialog, der fremkommer.
 
 Det er ikke alle konstruktioner, der kan defineres som standardkonstruktioner. I disse tilfælde må konstruktionerne [vælges enkeltvis fra databasen](../09SimView/09_09_SimView_Non_default_constructions.md).
 

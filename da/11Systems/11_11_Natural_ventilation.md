@@ -32,7 +32,7 @@ Naturlig ventilation kan aktiveres på termisk zone niveau.
 
 *   I simuleringerne med MZM tages der tillige hensyn til luftstrømning gennem åbninger imellem termiske zoner. MZM kan dermed erstatte luftoverførsel mellem termiske zoner ved Mixing.
 
-Naturlig ventilation ved EZM er implementeret som en speciel form for *Venting* (udluftning) i et udvidelsesmodul til BSim, og er baseret på [By og Byg Anvisning 202](../11Systems/11_11_Natural_ventilation.md), Naturlig ventilation i erhvervsbygninger, Beregning og dimensionering (2002).   
+Naturlig ventilation ved EZM er implementeret som en speciel form for *Venting* (udluftning) i et udvidelsesmodul til BSim, og er baseret på [By og Byg Anvisning 202](../20The_Mathematical_Basis/20_28_Literature.md), Naturlig ventilation i erhvervsbygninger, Beregning og dimensionering (2002).   
 MZM er ligeledes implementeret som en form for *Venting* og er baseret på Jensen R.L. *Modellering af naturlig ventilation og natkøling - ved hjælp af ringmetoden.*
 
  
@@ -177,5 +177,5 @@ Som vindtrykkoefficienter - der afhænger af åbningernes orientering og vindens
 Se alle [parametre i resultatloggen](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) her.
 
 **tsbi5 Options**  
-Hvis modellen for simulering af naturlig ventilation ved [multi-zone modellen](../20The_Mathematical_Basis/20_14_The_multizone_model.md) ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](../13tsbi5_thermal_simulation/13_XX_tsbi5_Options.md) under tsbi5.
+Hvis modellen for simulering af naturlig ventilation ved [multi-zone modellen](../20The_Mathematical_Basis/20_14_The_multizone_model.md) ønskes benyttet ved simuleringen med tsbi5, skal der sættes et flag i [Options dialogen](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) under tsbi5.
 

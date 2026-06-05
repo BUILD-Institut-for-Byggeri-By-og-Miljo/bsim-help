@@ -30,7 +30,7 @@ WinDoors defineres i samme struktur i databasen som de øvrige konstruktioner, m
 
 Dialogen for redigering af materialedata kan åbnes ved at højre-klikke på materialets navn.
 
-Den lineær transmissionskoefficient (*LinTrCoeff* eller Ψ<sub>g </sub> værdien) i W/m K for afstandsprofiler af aluminium eller almindeligt stål i afhængighed af rudens U-værdi (jvf. [DS 418](../20The_Mathematical_Basis/20_02_References.md)). Der kan interpoleres i tabellen.
+Den lineær transmissionskoefficient (*LinTrCoeff* eller Ψ<sub>g </sub> værdien) i W/m K for afstandsprofiler af aluminium eller almindeligt stål i afhængighed af rudens U-værdi (jvf. [DS 418](../20The_Mathematical_Basis/20_28_Literature.md)). Der kan interpoleres i tabellen.
 
 <h4 id="lintrtranscoeff-table"></h4>
 

@@ -12,7 +12,7 @@ Indblæsningsstyring er en styring af indblæsningstemperaturen som funktion af 
 
 *Part of nom. flow:* Angiver, at anlæggets ydelse inden for den til denne regulering knyttede tidsangivelse er reduceret i forhold til den nominelle ydelse med faktoren *Part of nom. flow.*
 
-*Regul. kurve, Te1, Tinl1, Te2, Tinl2:* Angiver de to knækpunkter (*Point 1* og *Point 2*) for reguleringskurven. På figuren i dialogen er punkterne defineret som: (-10, 30) og (10, 17).
+*Regul. kurve, Te1, Tinl1, Te2, Tinl2:* Angiver de to knækpunkter (*Point 1* og *Point 2*) for reguleringskurven. På figuren i dialogen er punkterne defineret som: (-12, 26) og (10, 22).
 
 *Slope before 1* og *Slope after 2*: Angiver hældningen af reguleringskurvens liniestykker ved udetemperaturer lavere end *Te1* og højere end *Te2*, som vist på figuren. Eksemplet i figuren har hældningen 0 før *P1* og 0,4 efter *P2*.
 
