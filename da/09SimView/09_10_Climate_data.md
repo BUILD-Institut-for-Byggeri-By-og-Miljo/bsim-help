@@ -12,15 +12,15 @@ En beregning kan hverken gennemføres med *tsbi5*, *XSun* eller *SimLight* uden 
 
 Ved tryk på knappen *Browse* kan man manuelt gennemsøge computeren for filer med klimadata. Der skal trykkes *New*, før en klimafil kan vælges. Til højre for *Browse*-knappen vises information om indholdet af den valgte klimadatafil.
 
-Der er gennem tiden leveret fire klimafiler med BSim: CPH.try, CPH.dry, Denmark.dry og Denmark-v2.dry. De fire filers indehold er lidt [forskelligt](../24Miscellaneous/24_58_Climate_data_definition.md).
+Der er gennem tiden leveret fire klimafiler med BSim: CPH.try, CPH.dry, Denmark.dry og Denmark-v2.dry. De fire filers indhold er lidt [forskelligt](../24Miscellaneous/24_58_Climate_data_definition.md).
 
 Hvis der alene skal gennemføres en analyse af solindfaldet med *XSun*, er det tilstrækkeligt at udfylde data i gruppen *Location* i stedet for at vælge en vejrdatafil.
 
 Hvis der vælges en vejrdatafil hentes information til gruppen *Location* fra denne og datafelterne fremstår grå. Bygningens geografiske placering er givet i *Location* ved breddegrad (*Latitude*), længdegrad (*Longitude*) og tidszone (*TimeZone*). Tidszonen er positiv mod øst, dvs. Danmark ligger i tidszone 1. *Elevation* viser højden over havet for den station hvor klimadata er målt.
 
-I gruppen *Ground Reflectance* kan den generelle horisontafskæring (*Horizon*) refleksionen af solstråling (*SolarRad*.) og refleksionen af dagslys (*Light*) fra omgivelserne opgives.
+I gruppen *Ground Reflectance* kan den generelle horisontafskæring (*Horizon*), refleksionen af solstråling (*SolarRad*.) og refleksionen af dagslys (*Light*) fra omgivelserne opgives.
 
-Ved tryk på knappen [*Ground* ](../24Miscellaneous/24_26_Ground.md)åbnes dialogen for definition af udeforholdene svarende til jorden under bygningen.
+Ved tryk på knappen [*Ground*](../24Miscellaneous/24_26_Ground.md) åbnes dialogen for definition af udeforholdene svarende til jorden under bygningen.
 
 Det er muligt at [generere](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) egne klimadata ud fra tekst (ASCII) filer med timeværdier af udeklimaparametre.
 

@@ -2,7 +2,7 @@
 
 # SimView
 
-*SimView* indeholder en simpel editor til oprettelse og redigering af datamodeller. For at få det bedste udbytte af modeleditoren, er det nødvendigt at have kendskab til den måde, editoren arbejder på. De enkelte programmer er opbygget, så de kan håndtere en konveks 3-dimensionel geometri. Det vil sige, at det fra ethvert punkt i rummet skal være muligt at "se" alle øvrige overfladerfor i rummet for at opnå en korrekt beregning. Skal der fx opbygges en L-formet [termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md), er det enklest at opbygge den som to rektangulære rum med en åbning der fylder hele skillefladen mellem rummene.
+*SimView* indeholder en simpel editor til oprettelse og redigering af datamodeller. For at få det bedste udbytte af modeleditoren, er det nødvendigt at have kendskab til den måde, editoren arbejder på. De enkelte programmer er opbygget, så de kan håndtere en konveks 3-dimensionel geometri. Det vil sige, at det fra ethvert punkt i rummet skal være muligt at "se" alle øvrige overflader i rummet for at opnå en korrekt beregning. Skal der fx opbygges en L-formet [termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md), er det enklest at opbygge den som to rektangulære rum med en åbning der fylder hele skillefladen mellem rummene.
 
  
 

@@ -20,7 +20,7 @@ Funktionerne for oprettelse af det nye rums geometri (*Room Shape*) er:
 
 *   *Cone* (pyramide) - opretter et pyramideformet rum på ydersiden (i forhold til det eksisterende rum) af den valgte flade. Afstanden fra den valgte flade til toppunktet af pyramiden er givet ved værdien af *Projection*.
 
-*   *Copy of Current Room* opretter en geometrisk kopi - inklusiv vinduer og åbninger i flader der vender mod det fri - af det rum, som den markerede flade tilhører. *For den valgte flade <u>skal</u> der findes en modstående flade i det det eksisterende rum som er parallel og har samme form og areal*.
+*   *Copy of Current Room* opretter en geometrisk kopi - inklusiv vinduer og åbninger i flader der vender mod det fri - af det rum, som den markerede flade tilhører. *For den valgte flade <u>skal</u> der findes en modstående flade i det eksisterende rum, som er parallel og har samme form og areal*.
 
 *   *Copy of whole Storey* opretter en komplet kopi af alle de rum som er beliggende umiddelbart under (eller over) den valgte flade. For den valgte flade og alle flader som støder op mod den valgte flade - direkte eller indirekte - og som er parallel med den valgte flade, kopieres de tilhørende rum lige som ved *Copy of Current Room* funktionen. Det er således muligt at kopiere en hel etage til en ny etage, ovenover eller nedenunder, i en operation. *Ved oprettelse af nye etager i store modeller vil operationen tage en del tid - så hav tålmodighed*. *Selv om funktionen opfordrer til opbygning af store modeller, anbefales det altid, at forenkle modellen så meget som muligt under hensyntagen til det problem som søges løst ved simuleringen. Regnetiden vokser proportionalt med antallet af flader og termiske zoner.*
 

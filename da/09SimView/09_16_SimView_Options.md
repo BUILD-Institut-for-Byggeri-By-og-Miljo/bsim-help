@@ -5,7 +5,7 @@
 
 I *Options* menuen kan de generelle data for modelvisningen og programmets opsætning indstilles. 
 
-<span id="red_text"> Visse ændringer af options træder først i funktion næste gang BSim startes. </span>
+<span id="red_text"> Visse ændringer af options træder først i kraft næste gang BSim startes. </span>
 
 <figure id="center_img">
 <img src="./assets/SimViewOptions.GIF" alt="Dialog for indstilling af standardopsætning for gitter, øjepunkt osv.">
@@ -50,7 +50,7 @@ Bounding Box
 
 *   *Floating toolbar* giver mulighed for at have [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md) placeret valgfrit på skærmen (trækkes til en ny placering med musen). Funktionen træder først i kraft næste gang programmet startes.
 
-*   *Auto Arrange FaceSides* sikrer at en model automatisk ændres så:
+*   *Auto Arrange FaceSides* sikrer, at en model automatisk ændres, så:
 
     *   Flader der vender imod *Outdoor* eller *Ground* altid har side 2 mod disse.
 
@@ -70,4 +70,4 @@ Se også:
 
 *   [SimView-menuen](../06BSim_Program_structure/06_06_SimView_Menu.md)
 
-The general data for the model view and program setup can be adjusted in the *Options menu.*
+

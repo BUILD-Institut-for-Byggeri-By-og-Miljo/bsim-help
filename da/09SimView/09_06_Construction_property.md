@@ -16,6 +16,6 @@ I *Construction Property* dialogen findes en række informationer om den aktuell
 
 *   Hvilket SfB-nummer der er tilknyttet fra databasen samt dette nummers navn.
 
-*   Endelig er vises hvilke overflader som findes på de to sider af konstruktionen.
+*   Endelig vises hvilke overflader som findes på de to sider af konstruktionen.
 
 Se også [kuldebroer](../09SimView/09_08_Thermal_bridges.md) langs konstruktionens kanter.

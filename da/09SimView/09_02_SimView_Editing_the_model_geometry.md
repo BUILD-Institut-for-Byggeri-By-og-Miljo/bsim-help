@@ -5,7 +5,7 @@
 
 Geometrien for virkelige bygninger kan ikke altid beskrives som simple kasser. Derfor er det nødvendigt, at kunne redigere den opbyggede geometri.
 
-En flade kan opdeles ved først at opdele to af dens kanter (*Edges*). Dette gøres ved at vælge kanten (lettest fra 3D-visningen), dobbeltklik eller shift-venstre-klik på kanten, højre-klikke og vælge menuindgangen *Split Edge*. Tilsvarende fremgangsmåde benyttes for de(n) andre kanter, der skal opdeles. Herved indsættes en ny vertex midt i kanten. Vælges yderligere en af den valgte kants endepunkter (vertex) fremkommer en dialog, hvor afstanden fra den valgte vertex til den indsatte vertex kan angives, dvs. længden af den nye kant:
+En flade kan opdeles ved først at opdele to af dens kanter (*Edges*). Dette gøres ved at vælge kanten (lettest fra 3D-visningen), dobbeltklik eller shift-venstre-klik på kanten, højre-klikke og vælge menuindgangen *Split Edge*. Tilsvarende fremgangsmåde benyttes for de andre kanter, der skal opdeles. Herved indsættes en ny vertex midt i kanten. Vælges yderligere en af den valgte kants endepunkter (vertex) fremkommer en dialog, hvor afstanden fra den valgte vertex til den indsatte vertex kan angives, dvs. længden af den nye kant:
 
 <figure id="center_img">
 <img src="./assets/split_edge.gif " alt="Split edge">
