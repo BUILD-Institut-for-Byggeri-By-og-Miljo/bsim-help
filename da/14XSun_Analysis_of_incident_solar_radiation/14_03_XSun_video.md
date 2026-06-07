@@ -25,9 +25,9 @@ Der er en række kompressionsformater til rådighed.
 </figure>
 
 
-**NB:** I visse versioner af Windows 98, Windows 2000 og Windows ME er denne valgmenu ikke aktiv ved brug af musen, og umiddelbart er det kun muligt, at vælge *Helt billede* (*ikke komprimeret*). Det er dog muligt at vælge en komprimering ved, at aktivere valgmenuen (klik med musen) og bruge pil-tasterne på tastaturet til at flytte mellem de forskellige komprimeringsformater.
+**NB:** I visse versioner af Windows 98, Windows 2000 og Windows ME er denne valgmenu ikke aktiv ved brug af musen, og umiddelbart er det kun muligt at vælge *Helt billede* (*ikke komprimeret*). Det er dog muligt at vælge en komprimering ved at aktivere valgmenuen (klik med musen) og bruge pil-tasterne på tastaturet til at flytte mellem de forskellige komprimeringsformater.
 
-Hvis videoklippet ønskes overført til en anden computer, er det nødvendigt at den benyttede komprimeringsmetode et tilgængelig på begge maskiner. De mest almindeligt udbredte komprimeringsmetoder er *Microsoft RLE* og *Microsoft Video 1*.
+Hvis videoklippet ønskes overført til en anden computer, er det nødvendigt, at den benyttede komprimeringsmetode er tilgængelig på begge maskiner. De mest almindeligt udbredte komprimeringsmetoder er *Microsoft RLE* og *Microsoft Video 1*.
 
 Når et komprimeringsformat er valgt, er det muligt at ændre på graden af komprimeringen (komprimeringskvaliteten) ved at justere på det vandrette rullepanel nederst i dialogen.
 
@@ -42,5 +42,5 @@ Hvis der allerede er foretaget en optagelse af en video, springes der direkte fr
 
 
 <div id="gray_background"> 
-<b> Note: </b> <em> Optagelse og afspilning af videosekvenser sker i den størrelse vinduet havde under optagelsen fra BSim. Derfor bør man normalt bør ikke optage videosekvenser fra vinduer i fuld skærmstørrelse da der tilføjes yderligere top og bund under afspilningen.</em> 
+<b> Note: </b> <em>Optagelse og afspilning af videosekvenser sker i den størrelse, vinduet havde under optagelsen fra BSim. Derfor bør man normalt ikke optage videosekvenser fra vinduer i fuld skærmstørrelse, da der tilføjes yderligere top og bund under afspilningen.</em> 
 </div>
