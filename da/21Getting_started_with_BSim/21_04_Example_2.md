@@ -11,7 +11,7 @@ Eksemplet bygger videre på beskrivelser og dataindlæsningen i [eksempel 1](../
 
 #### **Hent eksisterende model**
 
-Programmet startes som beskrevet i [eksempel 1](../21Getting_started_with_BSim/21_03_Example_1.md) ved at at klikke på BSim via menuen *Start* | *Programmer* | *BSim* | *BSim*. I SimView vælges indgangen *Open* fra menuen *File* eller der trykkes på knappen *Open* i [værktøjsbjælken](../09SimView/09_05_SimView_toolbar.md), hvorved der fremkommer en dialog, som viser den aktuelle sti. Stien til [eksempel 1](../21Getting_started_with_BSim/21_03_Example_1.md) findes, fx C:\Programmer\Statens Byggeforskningsinstitut\BSim\Modeller, hvorved programmet viser en oversigt over bygningsmodeller i den beskrevne sti. Her vælges modellen EKS1. Herved henter programmet data for den tidligere indlæste bygningsmodel EKS1 ind i BSim.
+Programmet startes som beskrevet i [eksempel 1](../21Getting_started_with_BSim/21_03_Example_1.md) ved at at klikke på BSim via menuen *Start* | *Programmer* | *BSim* | *BSim*. I SimView vælges indgangen *Open* fra menuen *File* eller der trykkes på knappen *Open* i [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md), hvorved der fremkommer en dialog, som viser den aktuelle sti. Stien til [eksempel 1](../21Getting_started_with_BSim/21_03_Example_1.md) findes, fx C:\Programmer\Statens Byggeforskningsinstitut\BSim\Modeller, hvorved programmet viser en oversigt over bygningsmodeller i den beskrevne sti. Her vælges modellen EKS1. Herved henter programmet data for den tidligere indlæste bygningsmodel EKS1 ind i BSim.
 
  
 
@@ -65,13 +65,13 @@ Ved at højre-klikke på ikonet for personlast ([*PeopleLoad*](../11Systems/11_1
 
 **Tidsplan**
 
-For alle typer af 'systemer' skal der tilknyttes en tidsplan ([*Schedule*](../11Systems/11_02_Systems_schedule.md)), som beskriver, hvorledes systemets drift, regulering og belastning varierer med tiden. En tidsplan er en samling af sammenhængende par af reguleringer (tredje faneblad) og [tidsangivelser](../11Systems/11_01_Systems.md) (sidste faneblad) som definerer hvordan og hvornår et system reguleres. Tidsplanen findes på andet faneblad i dialogen.
+For alle typer af 'systemer' skal der tilknyttes en tidsplan ([*Schedule*](../11Systems/11_02_Systems_schedule.md)), som beskriver, hvorledes systemets drift, regulering og belastning varierer med tiden. En tidsplan er en samling af sammenhængende par af reguleringer (tredje faneblad) og [tidsangivelser](../11Systems/11_17_Systems_Time.md) (sidste faneblad) som definerer hvordan og hvornår et system reguleres. Tidsplanen findes på andet faneblad i dialogen.
 
 For den definerede personlast skal der angives en tidsplan, som udtrykker at inden for arbejdstiden er der to personer til stede mandag-onsdag, mens der kun er én person torsdag-fredag.
 
-Da der findes (oprettet med [wizard'en](../06BSim_Program_structure/06_10_Model_wizard_create_a_new_model.md) da modellen blev startet) data både for døgnprofiler (som er den aktuelle reguleringstype) og for tidsangivelser, vil programmet ved valg af 'Regulering', henholdsvis 'Tidsangivelse' vise en oversigt over mulige objekter, der kan vælges fra i valgmenuerne øverst på de to faneblade.
+Da der findes (oprettet med [wizard'en](../09SimView/09_12_Model_wizard_creating_a_new_model.md) da modellen blev startet) data både for døgnprofiler (som er den aktuelle reguleringstype) og for tidsangivelser, vil programmet ved valg af 'Regulering', henholdsvis 'Tidsangivelse' vise en oversigt over mulige objekter, der kan vælges fra i valgmenuerne øverst på de to faneblade.
 
-En mere detaljeret beskrivelse af [døgnprofiler](../11Systems/11_08_Dayprofile_system.md) og [tidsangivelser](../11Systems/11_01_Systems.md) findes i afsnittet [Systemer](../11Systems/11_01_Systems.md). Det valgte døgnprofil definerer, at hele (100 %) den i systemet angivet effekt (varmelast og fugtlast) afgives inden for den tilhørende tidsangivelse. I det aktuelle tilfælde er dette døgnprofil gældende i arbejdstiden mandag til onsdag. Døgnprofilet tilknyttes den valgte tidsplan ved at trykke på knappen *Anvend* (Apply) nederst på fanebladet.
+En mere detaljeret beskrivelse af [døgnprofiler](../11Systems/11_04_Systems_DayProfile.md) og [tidsangivelser](../11Systems/11_17_Systems_Time.md) findes i afsnittet [Systemer](../11Systems/11_01_Systems.md). Det valgte døgnprofil definerer, at hele (100 %) den i systemet angivet effekt (varmelast og fugtlast) afgives inden for den tilhørende tidsangivelse. I det aktuelle tilfælde er dette døgnprofil gældende i arbejdstiden mandag til onsdag. Døgnprofilet tilknyttes den valgte tidsplan ved at trykke på knappen *Anvend* (Apply) nederst på fanebladet.
 
 Da der ikke på forhånd findes en tidsangivelse svarende hertil, må den oprettes som en ny tidsangivelse i modellen. Dette kan fx gøres ved at kopiere tiden 'hverdage 9-16' og heri ændre dagsangivelse fra dag 1-5 til dag 1-3 og samtidig ændre navnet til 'mandag-onsdag 9-16'.
 
@@ -124,7 +124,7 @@ Ud over fugtafgivelsen fra personerne regnes der i dette eksempel med fugtafgive
 
 **Infiltration**
 
-Via systemet Infiltration fås en dialog med data for beskrivelse af, hvorledes infiltrationen kan antages at variere med forskellen mellem inde- og udetemperatur samt med vindhastigheden. En nærmere forklaring på data i denne dialog er givet under beskrivelsen i afsnittet [Infiltration](../11Systems/11_04_Infiltration_system.md).
+Via systemet Infiltration fås en dialog med data for beskrivelse af, hvorledes infiltrationen kan antages at variere med forskellen mellem inde- og udetemperatur samt med vindhastigheden. En nærmere forklaring på data i denne dialog er givet under beskrivelsen i afsnittet [Infiltration](../11Systems/11_08_Systems_Infiltration.md).
 
 <figure id="center_img">
 <img src="./assets/infiltration.gif" alt="Dialog (Infiltration) for definition af infiltration.">
@@ -321,13 +321,13 @@ Simuleringen kan afbrydes ved at trykke på knappen *Stop*, idet programmet da m
 
 #### **Resultater**
 
-Efter simuleringen kan beregningsresultaterne analyseres på forskellig måde via fanebladene [*HeatBalanace*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md), [*Parametres* ](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)og [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md).
+Efter simuleringen kan beregningsresultaterne analyseres på forskellig måde via fanebladene [*HeatBalance*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md), [*Parameters*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) og [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md).
 
  
 
 #### **Varmebalance for termiske zoner**
 
-Ved at klikke på fanebladet *HeatBalanace* fås en oversigt over hele bygningens eller de enkelte termiske zoners energibalancer uge for uge, måned for måned eller for den totale simuleringsperiode, afhængigt af, hvad der er valgt via første (længst til venstre) valgmenu. Energibalancerne beregnes ud fra døgnsumværdier, som altid gemmes under simuleringen.
+Ved at klikke på fanebladet *HeatBalance* fås en oversigt over hele bygningens eller de enkelte termiske zoners energibalancer uge for uge, måned for måned eller for den totale simuleringsperiode, afhængigt af, hvad der er valgt via første (længst til venstre) valgmenu. Energibalancerne beregnes ud fra døgnsumværdier, som altid gemmes under simuleringen.
 
 I dette tilfælde er der valgt 'måned' for 'Tidsskala', og energibalancen beregnes derfor månedsvis.
 
@@ -367,7 +367,7 @@ På fanebladet *Parameters* findes ingen parameterlister, hvilket betyder, at de
 </figure>
 
 
-Dernæst klikkes på parametergruppen '*Outdoor*', hvorfra der vælges parameteren *ExtTmp*, altså udetemperaturen. Endelig overskrives navnet på parameterlisten med navnet 'Temperaturer'. Timeværdierne for de valgte parametre kan ses i tabelform og grafisk på fanebladet [*Tables*](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md).
+Dernæst klikkes på parametergruppen '*Outdoor*', hvorfra der vælges parameteren *ExtTmp*, altså udetemperaturen. Endelig overskrives navnet på parameterlisten med navnet 'Temperaturer'. Timeværdierne for de valgte parametre kan ses i tabelform og grafisk på fanebladet [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md).
 
  
 
@@ -415,7 +415,7 @@ Knappen
 </img>
  giver mulighed for at vælge at vise resultaterne som kurver for temperaturer, effekter etc. som funktion af tiden. Programmet viser nu temperaturkurverne for det første døgn i resultatperioden. Klikkes der nu med musen på piltasterne nederst i dialogen kan der 'bladres' frem til den 8. januar. Kurverne viser, hvorledes indetemperaturen stiger fra niveauet på 17 °C i sænkningsperioden til set-punktet på 21 °C, som først nås i time 11. Hvis der højre-klikkes på grafikken kan det aktuelle skærmbillede kopieres til udklipsholderen for at kunne indsættes i andre Windows-baserede programmer, fx flere tekstbehandlings- og regneark-programmer.
 
-I afsnittet om [*Tables* ](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)fanebladet i tsbi5 findes en nærmere beskrivelse af resultatanalysen og links til en beskrivelse af mulighederne for [manipulation](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) med grafikken.
+I afsnittet om [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)-fanebladet i tsbi5 findes en nærmere beskrivelse af resultatanalysen og links til en beskrivelse af mulighederne for [manipulation](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) med grafikken.
 
  
 

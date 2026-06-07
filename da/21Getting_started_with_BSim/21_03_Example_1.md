@@ -11,7 +11,7 @@ Herved fremkommer programmets hovedvindue ([SimView](../09SimView/09_01_SimView.
 
 Inden arbejdet med opbygning af modellen er det en god ide at sætte parametrene for automatisk gemning af *Undo*-niveauer for ændringer i geometrien. Dette gøres ved at højreklikke i den grafiske visning og vælge indgangen [*Options*](../09SimView/09_16_SimView_Options.md). Vær opmærksom på at en ændring i antallet af *Undo*-niveauer <span style="text-decoration: underline;">først</span> træder i kraft næste gang programmet startes.
 
-Når der skal opbygges en ny model, flyttes markøren til menuen *File* | *New*, hvorpå der klikkes med musen (venstre tast). Der kan også trykkes på ikonet for et nyt projekt (længst til venstre i [værktøjsbjælken](../09SimView/09_05_SimView_toolbar.md)) eller alternativt trykkes *Ctrl+n* som en [genvej](../24Miscellaneous/24_27_Keyboard_shortcuts.md).
+Når der skal opbygges en ny model, flyttes markøren til menuen *File* | *New*, hvorpå der klikkes med musen (venstre tast). Der kan også trykkes på ikonet for et nyt projekt (længst til venstre i [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md)) eller alternativt trykkes *Ctrl+n* som en [genvej](../05Introduction/05_06_Shortcut_keys.md).
 
 
 <figure id="center_img">
@@ -19,7 +19,7 @@ Når der skal opbygges en ny model, flyttes markøren til menuen *File* | *New*,
 <figcaption>Første dialog til oprettelse af en ny model.</figcaption>
 </figure>
 
-Herved fremkommer en "[wizard](../06BSim_Program_structure/06_10_Model_wizard_create_a_new_model.md)" for oprettelse af en ny model. Navnet (øverste linje) og stien (nederste linje) til den aktuelle model skal indtastes i den første dialog. Det ønskede navn kan nu indtastes i navnefeltet, i dette tilfælde 'EKS1'. I stifeltet kan fx indtastes:
+Herved fremkommer en "[wizard](../09SimView/09_12_Model_wizard_creating_a_new_model.md)" for oprettelse af en ny model. Navnet (øverste linje) og stien (nederste linje) til den aktuelle model skal indtastes i den første dialog. Det ønskede navn kan nu indtastes i navnefeltet, i dette tilfælde 'EKS1'. I stifeltet kan fx indtastes:
 
 C:\Programmer\Statens Byggeforskningsinstitut\BSim\Modeller
 
@@ -75,7 +75,7 @@ I den rumlige visning kan der ctrl-klikkes (ctrl-tasten holdt nede mens der vens
 
 **Indlæsning af data for vinduer**
 
-Vælg den flade (Ctrl+venstre-klik) som vender mod syd (omdøb den eventuelt til 'Sydvæg'). Definer et lokalt koordinatsystem i den flade, vinduet ønskes indsat i. Det gøres ved at vælge et nulpunkt (dobbelt venstre-klik eller Shift+venstre-klik på et af hjørnepunkterne) for koordinatsystemet og vælge en akse (dobbelt venstre-klik eller Shift+venstre-klik på en kant) i det lokale koordinatsystem. Kald [SimView-menuen](../09SimView/09_02_SimView_menu.md) frem og vælg indgangen *Add WinDoor* for at definere vinduets geometri og placering i forhold til det lokale koordinatsystem.
+Vælg den flade (Ctrl+venstre-klik) som vender mod syd (omdøb den eventuelt til 'Sydvæg'). Definer et lokalt koordinatsystem i den flade, vinduet ønskes indsat i. Det gøres ved at vælge et nulpunkt (dobbelt venstre-klik eller Shift+venstre-klik på et af hjørnepunkterne) for koordinatsystemet og vælge en akse (dobbelt venstre-klik eller Shift+venstre-klik på en kant) i det lokale koordinatsystem. Kald [SimView-menuen](../06BSim_Program_structure/06_06_SimView_Menu.md) frem og vælg indgangen *Add WinDoor* for at definere vinduets geometri og placering i forhold til det lokale koordinatsystem.
 
 <figure id="center_img">
 <img src="./assets/AddWindoor.GIF" alt="Dialog til indsættelse af vinduer og døre i en flade. Illustrationen nederst til højre i dialogen viser en skitse af det lokale koordinatsystem og hvordan et vindue afsættes i dette.">
@@ -93,7 +93,7 @@ For at definere geometrien omkring vinduet nærmere højre-klikkes på feltet vi
 </figure>
 
 
-Nu kan modellens andet rum oprettes som en kopi af "Box rum 1". Det nye rum kan oprettes ved at vælge den flade i rummet, som det nye rum skal have fælles med det eksisterende rum, og tilføje rummet hertil ved at vælge indgangen *Add Room* fra [SimView-menuen](../09SimView/09_02_SimView_menu.md). Det nye rums udbredelse og/eller standard geometri kan vælges i den herved fremkomne dialog.
+Nu kan modellens andet rum oprettes som en kopi af "Box rum 1". Det nye rum kan oprettes ved at vælge den flade i rummet, som det nye rum skal have fælles med det eksisterende rum, og tilføje rummet hertil ved at vælge indgangen *Add Room* fra [SimView-menuen](../06BSim_Program_structure/06_06_SimView_Menu.md). Det nye rums udbredelse og/eller standard geometri kan vælges i den herved fremkomne dialog.
 
 <figure id="center_img">
 <img src="./assets/EKS12.JPG" alt="Tilføj et rum (Box rum 2) til modellen.">
@@ -109,7 +109,7 @@ Det nye rum oprettes som en kopi af det aktuelle rum. Herved kopieres hele rumme
 
 Det er ikke alle de i eksemplet beskrevne konstruktioner som findes i standarddatabasen, og det er derfor nødvendigt at oprette nogle nye elementer i modellens database.
 
-Åben databasen ved at klikke på DB-ikonet i [værktøjsbjælken](../09SimView/09_05_SimView_toolbar.md).
+Åben databasen ved at klikke på DB-ikonet i [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md).
 
  
 
@@ -129,7 +129,7 @@ Det anbefales at der laves en kopi af det element, som ønskes ændret, i dette 
 </figure>
 
 
-Når det nye bygningselement har fået et [SfB-nummer](../24Miscellaneous/24_08_SfB_building_classification.md) åbnes databasens *Edit BuildingElement* dialog. På første faneblad (*BuildingElement*) ændres konstruktionens navn så det afspejler lagene i den nye konstruktion og der skiftes til andet faneblad (*ConstructionLayer*). For en beskrivelse af felterne i [*BuildingElement*](../07SimDB_Database/07_01_Building_element.md), [*ConstructionLayer* ](../07SimDB_Database/07_02_Building_element_construction_layer.md)og [*MaterialAmount* ](../07SimDB_Database/07_03_Building_element_material_amount.md)henvises til beskrivelsen af databasen [SimDB](../07SimDB_Database/07_00_Database.md).
+Når det nye bygningselement har fået et [SfB-nummer](../24Miscellaneous/24_08_SfB_building_classification.md) åbnes databasens *Edit BuildingElement* dialog. På første faneblad (*BuildingElement*) ændres konstruktionens navn så det afspejler lagene i den nye konstruktion og der skiftes til andet faneblad (*ConstructionLayer*). For en beskrivelse af felterne i [*BuildingElement*](../07SimDB_Database/07_02_SimDB_BuildingElement.md), [*ConstructionLayer* ](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)og [*MaterialAmount* ](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)henvises til beskrivelsen af databasen [SimDB](../07SimDB_Database/07_01_The_SimDB_database.md).
 
 
 <figure id="center_img">
@@ -176,7 +176,7 @@ Der i bygningsbeskrivelsen angivet, at vinduets U-værdi er 1,6 W/(m² K), men i
 
 #### **Tilknytning af konstruktioner til modellens flader**
 
-Det fremgår af træstrukturen, at der endu ikke er defineret konstruktioner eller Windoor, idet der i disse felter står '*No Type*' ved de respektive objekter. For at definere, hvorledes de enkelte flader, fx nordvæggen, er opbygget, kaldes SimView-menuen frem (højre-klik med musen i den grafiske afbildning) og vælges indgangen *Defaults*. Herved kaldes dialogen for definition af [standardkonstruktioner](../06BSim_Program_structure/06_14_Default_constructions.md) frem.
+Det fremgår af træstrukturen, at der endu ikke er defineret konstruktioner eller Windoor, idet der i disse felter står '*No Type*' ved de respektive objekter. For at definere, hvorledes de enkelte flader, fx nordvæggen, er opbygget, kaldes SimView-menuen frem (højre-klik med musen i den grafiske afbildning) og vælges indgangen *Defaults*. Herved kaldes dialogen for definition af [standardkonstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md) frem.
 
 <figure id="center_img">
 <img src="./assets/DefaultConstructions.GIF" alt="Dobbelt dialog for valg af standardkonstruktioner og Windoor til alle modellens flader.">
@@ -186,7 +186,7 @@ Det fremgår af træstrukturen, at der endu ikke er defineret konstruktioner ell
 
 Den ønskede konstruktion tilknyttes modellens konstruktioner ved at venstre-klikke på SfB-nummeret for den ønskede konstruktion og trække (med venstre muse-knap holdt nede) til den ønskede placering i *Defaults* dialogen.
 
-De ønskede konstruktionstyper kan vælges fra forskellige grupper af data i [databasen](../07SimDB_Database/07_00_Database.md).
+De ønskede konstruktionstyper kan vælges fra forskellige grupper af data i [databasen](../07SimDB_Database/07_01_The_SimDB_database.md).
 
 
 <figure id="center_img">
@@ -228,7 +228,7 @@ I eksemplet vender gulvet mod jord, som i dette tilfælde ønskes defineret som 
 
 For at definere en (ny) placering (*Site*) af modellen trykkes på knappen New. Herved oprettes en ny *Site* og det er muligt at vælge et klimadatasæt ved at trykke på knappen *Browse*. Søg og vælg klimadatafilen *cph.dry*.
 
-Tryk herefter på knappen *Ground* og knappen *New* i *Ground* dialogen for at oprette den [fiktive zone jord](../07SimDB_Database/07_14_Fictitious_ground_zone.md) med en konstant temperatur på 10 °C gennem hele året.
+Tryk herefter på knappen *Ground* og knappen *New* i *Ground* dialogen for at oprette den [fiktive zone jord](../24Miscellaneous/24_26_Ground.md) med en konstant temperatur på 10 °C gennem hele året.
 
 <figure id="center_img">
 <img src="./assets/GROUND.GIF" alt="Dialog (Ground) for definition af den fiktive zone jords temperaturvariation over året.">
@@ -255,7 +255,7 @@ I *Finish Property* dialogen findes et felt med information om overgangsiolansen
 
 En fiktiv zone kan også oprettes som et nyt rum som har forbindelse til den termiske zone som den ønskes tilknyttet. Rum uden for termiske behøver ikke at have defineret konstruktioner for alle flader. Et rum kan påtrykkes en temperatur- og fugtvariation over året - lige som jorden - og kan tillige have en variation over det enkelte døgn.
 
-I stedet for at tilknytte et rum som en fiktiv zone, er der mulighed for at definere, at temperatur- og fugtforholdene på den anden side (side 2) af væggen er den samme som den termiske zone som ligger ved side 1. Dette kan specificeres ved at højre-klikke på den pågældende flades *Finish* for side 2 og vælge at denne side skal vende (*Facing*) imod den termiske zone. En nærmere beskrivelse heraf er givet under beskrivelsen af [fiktive zoner](SimView%20- fiktive zoner).
+I stedet for at tilknytte et rum som en fiktiv zone, er der mulighed for at definere, at temperatur- og fugtforholdene på den anden side (side 2) af væggen er den samme som den termiske zone som ligger ved side 1. Dette kan specificeres ved at højre-klikke på den pågældende flades *Finish* for side 2 og vælge at denne side skal vende (*Facing*) imod den termiske zone. En nærmere beskrivelse heraf er givet under beskrivelsen af [fiktive zoner](../09SimView/09_05_Sim_View_Virtual_zones.md).
 
  
 
@@ -267,7 +267,7 @@ For en mere nøjagtig beregning kan i princippet benyttes reglerne i [DS 418](..
 
 **Kontrol af indlæste data**
 
-Der er nu indlæst data for en simpel bygningsmodel bestående af én zone, som begrænses af 6 flader, og det vil nu være fornuftigt at gemme modellen. Inden modellen gemmes, bør det dog kontrolleres, at der ikke er fejl eller mangler i de indtastede data. Der klikkes derfor med musen (venstre tast) på knappen [*ModelList* ](../09SimView/09_10_Print_model.md)i [værktøjsbjælken](../09SimView/09_01_SimView_toolbar.md). Såfremt der mangler data, vil programmet give en fejlmeddelelse vedrørende manglende data i form af stop-skilet ud for det objekt som er fejlbehæftet i listen med dokumentation for modellen. Det er muligt at hoppe direkte til et objekt med fejl ved at dobbelt-klikke på stop-skiltet i listen. Listen kan fjernes ved at klikke med musen på **x**'et i øverste højre hjørne af vinduet med listen.
+Der er nu indlæst data for en simpel bygningsmodel bestående af én zone, som begrænses af 6 flader, og det vil nu være fornuftigt at gemme modellen. Inden modellen gemmes, bør det dog kontrolleres, at der ikke er fejl eller mangler i de indtastede data. Der klikkes derfor med musen (venstre tast) på knappen [*ModelList* ](../10Thermal_zones/10_09_SimView_Printing_a_model.md)i [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md). Såfremt der mangler data, vil programmet give en fejlmeddelelse vedrørende manglende data i form af stop-skilet ud for det objekt som er fejlbehæftet i listen med dokumentation for modellen. Det er muligt at hoppe direkte til et objekt med fejl ved at dobbelt-klikke på stop-skiltet i listen. Listen kan fjernes ved at klikke med musen på **x**'et i øverste højre hjørne af vinduet med listen.
 
  
 
