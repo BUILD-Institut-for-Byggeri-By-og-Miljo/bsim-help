@@ -6,7 +6,7 @@ $$ Q_{p v} = \varepsilon_t \cdot \left( I_{diffus} + I_{direkte} \cdot \left(1 -
 
 hvor:
 
-*   ε<sub>t </sub>er den totale effektivitet (solceller, vekselretter, ledningstab mv.) af solcelleanlægget. Systemeffektiviteten kan hentes med [SimDb fra databasens materialedel i tabel 9](www.google.dk).
+*   ε<sub>t </sub>er den totale effektivitet (solceller, vekselretter, ledningstab mv.) af solcelleanlægget. Systemeffektiviteten kan hentes med [SimDb fra databasens materialedel i tabel 9](../07SimDB_Database/07_06_SimDB_BuildingMaterial.md).
 
 *   I<sub>diffus</sub> er den diffuse solintensitet på solcellerne.
 
