@@ -5,7 +5,7 @@ Alternativt til *ModelList* er *ModelDoc* som kaldes via *View* | [*ModelDoc*](.
 
 Når *ModelList* er valgt fra værktøjsbjælken, eller der arbejdes i *XSun*, *tsbi5* eller *SimLight*, kan den viste information udskrives direkte på en printer
 
-<img src="./assets/STOP.GIF" width=15> Vises en ikon som et stopsignal i starten af en linie, angiver det, at der kan være fejl, eller at der mangler data. Ved dobbelt-klik eller Ctrl-klik på linien flyttes fokus til det pågældende objekt i den hierarkiske oversigt. Højre-klik på objektet i træet for at rette eller tilføje data. Oversigten kan opdateres ved igen at klikke på *ModelList*-ikonet. Klik [her](../06BSim_Program_structure/06_08_Error_messages.md) for at se forklaringer til [fejlmeddelelserne](../06BSim_Program_structure/06_08_Error_messages.md) i *ModelList*.
+<img src="./assets/STOP.GIF" width=15> Vises et ikon som et stopsignal i starten af en linie, angiver det, at der kan være fejl, eller at der mangler data. Ved dobbelt-klik eller Ctrl-klik på linien flyttes fokus til det pågældende objekt i den hierarkiske oversigt. Højre-klik på objektet i træet for at rette eller tilføje data. Oversigten kan opdateres ved igen at klikke på *ModelList*-ikonet. Klik [her](../06BSim_Program_structure/06_08_Error_messages.md) for at se forklaringer til [fejlmeddelelserne](../06BSim_Program_structure/06_08_Error_messages.md) i *ModelList*. 
 
 Det er <u>ikke</u> muligt at gennemføre en tsbi5 simulering med *ModelList* åben, eller lukket ned som en ikon.
 
@@ -116,7 +116,7 @@ I tabellen ses betydningen af de enkelte ikoner i modellisten og træ-oversigten
 <img src="./assets/35SimView - Udskrift af model.png" width=15> Termisk zone.
 <br> 
 
-Når et system er de-aktiveret i SimView optræder de i *ModelList* med deres respektive ikon, overstreget med et rødt kryds.
+Når et system er deaktiveret i SimView, optræder det i *ModelList* med sit respektive ikon, overstreget med et rødt kryds.
 
  
 

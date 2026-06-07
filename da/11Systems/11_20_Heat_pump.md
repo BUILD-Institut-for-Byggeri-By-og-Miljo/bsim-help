@@ -48,7 +48,7 @@ For varmepumper i kombineret drift til varmt brugsvand og rumopvarmning, hvor de
 
 Inden det er muligt at gennemføre en simulering af en varmepumpe er det nødvendigt at definere designparametrene for varmepumpen. Dette gøres ved fra *SimView* at højreklikke i grafikken og fra [menuen](../06BSim_Program_structure/06_06_SimView_Menu.md) vælge *Defaults*. Skift til fanebladet [Heatloss](../09SimView/09_11_Model_information.md), og vælg ok.
 
-Varmepumpen kan først aktiveres som kilde til varmetsystemet når programmet [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
+Varmepumpen kan først aktiveres som kilde til varmesystemet når programmet [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
  
 

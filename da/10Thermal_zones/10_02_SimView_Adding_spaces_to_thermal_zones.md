@@ -2,7 +2,7 @@
 
 # Tilføje rum til termiske zoner
 
-Et eller flere rum kan angives til at ligge i samme *termiske zone*. Et rum tilknyttes en *termisk zone* ved at holde venstre museknap nede på det ønskede rum, medens det trækkes til den ønskede *termiske zone* og slippes på navnet. Flere rum tilknyttes på samme måde.
+Et eller flere rum kan angives til at ligge i samme *termiske zone*. Et rum tilknyttes en *termisk zone* ved at holde venstre museknap nede på det ønskede rum, mens det trækkes til den ønskede *termiske zone* og slippes på navnet. Flere rum tilknyttes på samme måde.
 
 Et rum kan fjernes fra en *termisk zone* på tilsvarende måde, ved at trække rummet ud af den *termiske zone* og slippe det på bygningen eller i en anden *termisk zone.* Når et rum fjernes fra en *termisk zone* fjernes samtidig alle informationer om de systemer, som er tilknyttet den *termiske zone.*
 

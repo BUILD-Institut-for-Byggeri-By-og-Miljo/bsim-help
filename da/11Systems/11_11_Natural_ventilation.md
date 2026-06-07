@@ -4,7 +4,7 @@
 
 *Modulet til simulering af naturlig ventilation med multi-zone modellen (mzm) er i øjeblikket udsendt i beta-test og resultater opnået med modulet skal, som altid, betragtes med sund skepsis.*
 
-*Feed-back til modulet på bsim-support@sbi.dk er meget velkommen!*
+*Feedback til modulet på bsim-support@sbi.dk er meget velkommen!*
 
  Denne side er under ombygning <img src="./assets/SIGN.gif" width=25>
 
@@ -93,7 +93,7 @@ MZM er ligeledes implementeret som en form for *Venting* og er baseret på Jense
 
 *   *Cd:* Udstrømningskoefficienten *[Cd](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) findes* jvf. [Anvisning 202, side 70-71](../20The_Mathematical_Basis/20_28_Literature.md).
 
-*   *Ka:* [Koefficienten](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) bruges i forbindelse med bestemmelse af størelsen af det areal hvor der er tvungen strømning og udetemperatur i modstætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
+*   *Ka:* [Koefficienten](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) bruges i forbindelse med bestemmelse af størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
 
 I simuleringerne benyttes det fulde (geometriske) areal af åbningen.
 
@@ -108,9 +108,9 @@ I simuleringerne benyttes det fulde (geometriske) areal af åbningen.
 
 *   *Cnt:* Åbningens center (0-1) er placeret i afstanden *Cnt**H over vinduets underkant, hvor H er vinduets højde. Åbningens bredde antages at være bredden af vinduet.
 
-*   *Afrac:* Andelen af det aktuelle vindues totale areal som kan åbnes. Hvis *Afrac* = 0 kan vinduet ikke åbnes, og kan således ikke bidrage til naturlig ventilation af den termiske zone
+*   *Afrac:* Andelen af det aktuelle vindues totale areal som kan åbnes. Hvis *Afrac* = 0 kan vinduet ikke åbnes, og kan således ikke bidrage til naturlig ventilation af den termiske zone.
 
-*   *Ka:* [Koefficienten](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) bruges i forbindelse med bestemmelse af størelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
+*   *Ka:* [Koefficienten](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) bruges i forbindelse med bestemmelse af størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur.
 
 Som vindtrykkoefficienter - der afhænger af åbningernes orientering og vindens retning - anvendes værdierne angivet i [Anvisning 202, Appendiks A, side 109-110](../20The_Mathematical_Basis/20_28_Literature.md).
 
@@ -153,7 +153,7 @@ Som vindtrykkoefficienter - der afhænger af åbningernes orientering og vindens
 
 *   *SetPoint:* Temperatur setpunkt (°C). Hvis den operative temperatur i sensor zonen er over setpunktet udluftes der netop så meget, at setpunktet kan overholdes.
 
-*   *SetP Co2*: Setpunkt for CO<sub>2</sub> koncentration (ppm). Angives 0 styres der ikke efter CO<sub>2</sub>. Hvis CO<sub>2</sub> koncentration i sensor zonen er over setpunktet udluftes der netop så meget, at setpunktet kan overholdes. Hvis *SetP Co2* er angivet (> 0) styres først efter den ønskede CO<sub>2</sub> koncentration, og derefter styres efter setpunktet for temperaturen.
+*   *SetP CO2*: Setpunkt for CO<sub>2</sub> koncentration (ppm). Hvis der angives 0, styres der ikke efter CO<sub>2</sub>. Hvis CO<sub>2</sub> koncentrationen i sensorzonen er over setpunktet, udluftes der netop så meget, at setpunktet kan overholdes. Hvis *SetP CO2* er angivet (> 0), styres der først efter den ønskede CO<sub>2</sub> koncentration og derefter efter setpunktet for temperaturen.
 
 *   *Factor:* Andel af den maksimale luftmængde, som kan komme i brug.**  
 

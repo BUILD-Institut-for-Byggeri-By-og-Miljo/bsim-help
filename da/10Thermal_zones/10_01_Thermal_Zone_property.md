@@ -24,7 +24,7 @@ Solfordelingen til den termiske zones gulv *(ToFloor),* vægge *(ToWalls)* og lo
 
 I dialogen er det også muligt at angive hvor stor en andel af den indkomne solenergi, som overføres direkte til luften *(ToAir)* fx ved at ramme gardiner eller andre lette møbler.
 
-Desuden er det muligt at definere hvor meget af solenergien der tabes *(Lost)* fx på grund af refleksion fra gardiner, potteplanter, snavs på ruderne, spejlende overflader i rummet etc., inden den afsættes i den termiske zone. For store vinduespartier vil værdien typisk være mindre end for små. Hvis vinduerne derimod flyder hele facaden vil værdien typisk stige på grund af refleksioner i rummet som ikke opfanges af brystninger mv.
+Desuden er det muligt at definere hvor meget af solenergien der tabes *(Lost)* fx på grund af refleksion fra gardiner, potteplanter, snavs på ruderne, spejlende overflader i rummet etc., inden den afsættes i den termiske zone. For store vinduespartier vil værdien typisk være mindre end for små. Hvis vinduerne derimod fylder hele facaden, vil værdien typisk stige på grund af refleksioner i rummet, som ikke opfanges af brystninger mv.
 
 Beregningen af den operative temperatur sker ved en vægtning af lufttemperaturen og gennemsnittet af de indvendige overfladers temperatur. Normalt vægtes de to temperaturer ens, men det er muligt at ændre på dette ved at angive hvor stor en vægt *(TiFraction* = 0,1 - 0,9) lufttemperaturen skal have.
 

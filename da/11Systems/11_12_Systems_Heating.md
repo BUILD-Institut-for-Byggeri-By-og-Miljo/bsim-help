@@ -21,7 +21,7 @@ I forbindelse med [gulvvarme](../11Systems/11_07_Floor_Heating_Control.md) (BSim
 
 *Part to Air* angiver hvor stor en del af radiatorens varmeafgivelse, som tilføres indeluften ved konvektion. Den resterende varmeafgivelse sker ved stråling til zonens overflader. Andelen der afgives til luften afhænger af den aktuelle type radiator / konvektor, men tallet bør normalt ikke sættes lavere end 0,5. For en normal radiator placeret ved en ydervæg (brystning) under et vindue, kan en værdi mellem 0,5 og 0,7 antages.
 
-*Central Heat Pump* angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Varmepumen kan først aktiveres som kilde til varmetsystemet når programmet [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
+*Central Heat Pump* angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Varmepumpen kan først aktiveres som kilde til varmesystemet når programmet [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
 *Heat Pump data:* Åbner en dialog som giver mulighed for at give data for en central varmepumpe.
 

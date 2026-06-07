@@ -8,7 +8,7 @@ Det er muligt at definere en regulering af varmeafgivelsen i en termisk zone som
 
 Gulvvarmen defineres lige som et almindeligt varmeanlæg i en termisk zone. Det er muligt at definere både en radiator og et gulvvarmeanlæg som værende aktive på samme tid.
 
-Et gulvvarmeanlæg er defineret ved en installeret effekt (på fanebladet *Heating*) samt en regulering på fanebladet *FloorHeatCtrl*. Det er også muligt at at angive en negativ værdi for *Max Power* samt *Min*. *Power* og således simulere konstruktiv køling.
+Et gulvvarmeanlæg er defineret ved en installeret effekt (på fanebladet *Heating*) samt en regulering på fanebladet *FloorHeatCtrl*. Det er også muligt at angive en negativ værdi for *Max Power* samt *Min*. *Power* og således simulere konstruktiv køling.
 
 <div id="gray_background">
 Systemet aktiveres ved opvarmning når:   
@@ -35,7 +35,7 @@ temperaturen ved sensoren > *Max. Surf. Temp* **og** Top *> Set Point*
 
 *   *Design Temp*: Er den udetemperatur hvorunder varmeanlægget opnår sin maksimale effekt (*= Factor * MaxPower* - fra faneblad *Heating*).
 
-*   *Min. Power*: Er den minimale effekt som kan afsættes i anlægget. Beregnes der et effektbehov som er under *Min. Power* afbrydes anlægget. Imellem *Factor*MaxPower* og *Min. Power* reguleres efter udetemperaturen i overensstemmelse med den skrå kurve som vises i dialogen.
+*   *Min. Power*: Er den minimale effekt som kan afsættes i anlægget. Beregnes der et effektbehov som er under *Min. Power* afbrydes anlægget. Imellem *Factor* *MaxPower* og *Min. Power* reguleres efter udetemperaturen i overensstemmelse med den skrå kurve som vises i dialogen.
 
 *   *Te Min*: Er den udetemperatur hvorover gulvvarmeanlægget afbrydes. *Te Min.* danner sammen med *Min. Power* knækpunktet længst til højre på reguleringskurven.
 

@@ -9,7 +9,7 @@ Et system består af den generelle fysiske komponent, beskrevet ved en simpel ma
 <figcaption>Generel beskrivelse af systemer.</figcaption>
 </figure>
 
-Alle systemer i *BSim* reguleres efter en operative temperatur i den termiske zone de er knyttet til.
+Alle systemer i *BSim* reguleres efter en operativ temperatur i den termiske zone, de er knyttet til.
 
 Til en bygningsmodel skal alle de installationer og belastninger defineres, som har indflydelse på det termiske indeklima. De kaldes i det følgende under et for *komponenter.*
 
@@ -34,7 +34,7 @@ Kombinationen af komponent og den tilhørende tidsplan betegnes et system og def
 |         | [Opvarmning](../11Systems/11_12_Systems_Heating.md) | [Varme](../11Systems/11_12_Systems_Heating.md)-/køleregulering | Heating |
 |         |           | [Gulvvarmeregulering](../11Systems/11_07_Floor_Heating_Control.md) | Heating2 |
 |         | [Køling](../11Systems/11_09_Systems_cooling.md) | Varme-/[køleregulering](../11Systems/11_09_Systems_cooling.md) | - |
-|         | [Ventilationsanlæg](../11Systems/11_21_Systems_Ventilation.md) | [Indblæsningsstyring](../11Systems/11_23_Ventilation_Inlet_Control.md) | Indblas ning |
+|         | [Ventilationsanlæg](../11Systems/11_21_Systems_Ventilation.md) | [Indblæsningsstyring](../11Systems/11_23_Ventilation_Inlet_Control.md) | Indblæsning |
 |         |           | [Rumtemperaturregulering](../11Systems/11_25_Ventilation_Zone_Temperature_control.md) | Rumtemperatur |
 |         |           | [Fugtstyring](../11Systems/11_22_Ventilation_Moisture_control.md) | Fugt |
 |         |           | [VAV regulering](../11Systems/11_26_Ventilation_VAV_control.md) | VAV |
@@ -83,7 +83,9 @@ Se også:
 *   [Tidsplan](../11Systems/11_02_Systems_schedule.md) (Fanebladet *Schedule)*
 *   [Tidsangivelse](../11Systems/11_17_Systems_Time.md) (Fanebladet *Time)*
 *   [Reguleringsprioritet](../11Systems/11_14_Control_priority_for_systems.md)
-Systemer (ikke regulerbar) tilknyttet bygningsmodellen
+
+Systemer (ikke regulerbare) tilknyttet bygningsmodellen:
+
 *   [Eksterne skygger](../10Thermal_zones/10_05_Shadows_from_the_surroundings.md)
 
 Systemer tilknyttet termiske zoner:

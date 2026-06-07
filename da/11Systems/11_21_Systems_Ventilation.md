@@ -64,7 +64,7 @@ Beregningsmodellen forudsætter, at genvindingen sker modulerende (optimalt) eft
 
 *Max Power*: Maksimal effekt, der kan afgives fra ventilationsanlæggets varmeflade. Ud fra den valgte reguleringsstrategi og de valgte temperatursetpunkter beregnes behovet for opvarmning af ventilationsluften gennem varmefladen. Reguleringen regnes at fungere optimalt, dvs. med fuldt modulerende varmeafgivelse inden for det aktuelle tidsstep.
 
-Central Heat Pump angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Varmepumen kan først aktiveres som kilde til ventilationssystemet når programmet [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
+Central Heat Pump angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Varmepumpen kan først aktiveres som kilde til ventilationssystemet når programmet [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
 Heat Pump: Åbner en dialog hvor data for varmepumpen angives.
 
@@ -76,7 +76,7 @@ Heat Pump: Åbner en dialog hvor data for varmepumpen angives.
 
 Central Heat Pump angiver at varmen til varmeanlægget kommer fra en central varmepumpe. Den centrale køling kan først aktiveres som kilde til ventilationssystemet når programmet [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) er installeret. PackCalc er udviklet af IPU Teknologiudvikling og kan hentes fra SBi's hjemmeside.
 
-Coolig: Åbner en dialog som giver mulighed for at give inddata til køleanlægget.
+Cooling: Åbner en dialog som giver mulighed for at give inddata til køleanlægget.
 
 **Humidifier:** Den eneste form for befugter, som kan simuleres, er en adiabatisk dampbefugter, som fungerer uden ændring af luftens temperatur.
 
