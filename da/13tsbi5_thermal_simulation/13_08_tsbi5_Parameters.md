@@ -34,7 +34,7 @@ Er der gennemført en simulering der strækker sig over flere år vil resultater
 
 Parametre fra andre modeller fjernes automatisk når fanebladet forlades, hvis parametre fra modellen ikke optræder i en parameterliste.
 
-En eksisterende parameterliste kan let rettes ved at dobbelt-klikke på en indgang i listen (vinduet til højre i tsbi5). Herved skifter fokus til den aktuelle parameter i den globale parameterliste (vinduet til venstre i tsbi5) og 'check-mærket' kan fjernes.
+En eksisterende parameterliste kan let rettes ved at dobbeltklikke på en indgang i listen (vinduet til højre i tsbi5). Herved skifter fokus til den aktuelle parameter i den globale parameterliste (vinduet til venstre i tsbi5) og 'check-mærket' kan fjernes.
 
 Hvis data for *Construction* er valgt gemt på [*Options* fanebladet](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md), vil der optræde grupper med data for de beregnede værdier på overfladerne af og i knudepunkterne for konstruktionerne. Fx. angiver parametrene T2 til T6 på figuren de beregnede temperaturer i knudepunkterne ind gennem konstruktionen. På overfladerne af konstruktionen er beregnet temperaturerne SurfTmp1 og SurfTmp2 for henholdsvis den indvendige og den udvendige overflade. Data for den relative fugtighed i konstruktionerne vil <u>kun</u> optræde hvis der benyttes en database med fugttekniske data for materialerne.
 

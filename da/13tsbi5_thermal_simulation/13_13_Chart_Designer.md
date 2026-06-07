@@ -2,7 +2,7 @@
 
 # Chart Designer
 
-I *Chart Designer* dialogen er det muligt at ændre den generelle layout for den aktuelle grafik. Det anbefales dog at anvende Wizard, hvis udseendet fx ønskes ændret fra stavdiagram til lagkage. Til hver indgang (punkt) i venstre side af vinduet hører en række faneblade (til højre), som giver mulighed for ændring af data relateret til punktet.
+I *Chart Designer*-dialogen er det muligt at ændre det generelle layout for den aktuelle grafik. Det anbefales dog at anvende Wizard, hvis udseendet fx ønskes ændret fra stavdiagram til lagkage. Til hver indgang (punkt) i venstre side af vinduet hører en række faneblade (til højre), som giver mulighed for ændring af data relateret til punktet.
 
 <figure id="center_img">
 <img src="./assets/CHARTD1.GIF" alt="Punktet Chart Designer.">
