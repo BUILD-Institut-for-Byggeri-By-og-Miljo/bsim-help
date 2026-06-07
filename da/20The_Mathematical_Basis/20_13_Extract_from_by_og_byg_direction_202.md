@@ -173,7 +173,7 @@ hvor n<sub>v </sub>angiver de åbninger, hvor Δp<sub>j</sub> > 0. Dermed vil 
 
 ### **OPDRIFTVENTILATION**
 
-Ved opdriftventilation tilstræbes stort trykbidrag fra termisk opdrift ved at etablere stor, lodret afstand mellem indtags- og afkaståbningerne. Det har ingen betydning , om åbningerne er lodrette, vandrette eller skråtstillede. Formel (1) kan anvendes med c<sub>T</sub> bestemt som vist nedenstående. Der skelnes mellem ensartet indetemperatur og indetemperatur med lineær, lodret temperaturgradient bestemt ved brug af [kappa-modellen](../12The_Kappa_model/12_01_Kappa_model_description.md).
+Ved opdriftventilation tilstræbes stort trykbidrag fra termisk opdrift ved at etablere stor, lodret afstand mellem indtags- og afkaståbningerne. Det har ingen betydning , om åbningerne er lodrette, vandrette eller skråtstillede. Formel (1) kan anvendes med c<sub>T</sub> bestemt som vist nedenstående. Der skelnes mellem ensartet indetemperatur og indetemperatur med lineær, lodret temperaturgradient bestemt ved brug af [kappa-modellen](../12The_Kappa_model/12_03_The_Kappa_Model_Model_description.md).
 
 <figure id="center_img">
 <img src="./assets/nvt_img4.gif" alt="">
