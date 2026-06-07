@@ -13,6 +13,6 @@ Bygningsintegrerede solcelleanlæg defineres ved en global systemeffektivitet so
 
 *   *Feltet Efficiency* (*ShadEff*) giver mulighed for at angive effektiviteten som skal benyttes for de arealer på panelerne som rammes af slagskygger når der **ikke** regnes med proportional reduktion på grund af slagskygger. Normalt er størrelsen af denne faktor 10-20 %.
 
-*   Ved afkrydsning i *Proportional Shading Reduction* vil programmet beregne ydelsen proportionalt til de slagskygger som rammer panelerne, og ikke reducere ydelsen fra det skyggede areal til *ShadEff* når en slagskygge rammer arealet. I praksis kan dette opnås ved at optimere opstrengningen i modulerne samt delvist ved bruge af amorfe eller tyndfilm solceller som er mindre påvirkelige af slagskygger.
+*   Ved afkrydsning i *Proportional Shading Reduction* vil programmet beregne ydelsen proportionalt til de slagskygger, som rammer panelerne, og ikke reducere ydelsen fra det skyggede areal til *ShadEff*, når en slagskygge rammer arealet. I praksis kan dette opnås ved at optimere opstrengningen i modulerne samt delvist ved brug af amorfe eller tyndfilm solceller, som er mindre påvirkelige af slagskygger.
 
-I *System Description* er det muligt at give en tekstmæssig beskrivelse af det system som er valgt, og dermed verificere hvilke overvejelser som ligger til grund for den valgte systemeffektivitet. Feltet er alene et informationsfelt.
+I *System Description* er det muligt at give en tekstmæssig beskrivelse af det system, som er valgt, og dermed verificere, hvilke overvejelser der ligger til grund for den valgte systemeffektivitet. Feltet er alene et informationsfelt.

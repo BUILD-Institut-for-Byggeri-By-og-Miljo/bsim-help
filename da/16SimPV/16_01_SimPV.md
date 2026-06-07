@@ -4,9 +4,9 @@
 
 SimPv er et udvidelsesmodul til BSim for simpel beregning af den elektriske ydelse fra et bygningsintegreret solcelleanlæg.
 
-SimPv er implementeret som en integreret del af XSun, og kan kun kaldes hvis der er opnået licens til brug af modulet.
+SimPv er implementeret som en integreret del af XSun, og kan kun kaldes, hvis der er opnået licens til brug af modulet.
 
-Arealer med solceller [indsættes i modellen](../24Miscellaneous/24_30_SimView_Insert_Windoor.md) lige som WinDoors.
+Arealer med solceller [indsættes i modellen](../24Miscellaneous/24_30_SimView_Insert_Windoor.md) ligesom WinDoors.
 
 <figure id="center_img">
 <img src="./assets/SIMPV.JPG" alt="Beregning af ydelsen fra et bygningsintegreret solcelleanlæg summeres op gennem beregningsperiodens måneder individuelt for hver konstruktion som indeholder solceller.">
@@ -32,9 +32,9 @@ Arealer med solceller [indsættes i modellen](../24Miscellaneous/24_30_SimView_I
 
 *   *No shading reduction* giver mulighed for at gennemføre en beregning af ydelsen fra modellens solceller hvis der ikke havde været slagskygger på panelerne. Forskellen mellem ydelse med og uden skygger udtrykker solcellernes *performance ratio*.
 
-*   *Create Hour Log* giver mulighed for at gemme beregningsresultaterne fra *SimPv* i en resultatfil (*modelnavn#pv*) som kan hentes ind i den almindelige resultatbehandling i *tsbi5* med *Open New Model* fra [*Parametres* ](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)fanebladet.
+*   *Create Hour Log* giver mulighed for at gemme beregningsresultaterne fra *SimPv* i en resultatfil (*modelnavn#pv*) som kan hentes ind i den almindelige resultatbehandling i *tsbi5* med *Open New Model* fra [*Parametres*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) fanebladet.
 
-*   Nederst vises løbende hvor lang beregningen er kommet.
+*   Nederst vises løbende, hvor langt beregningen er kommet.
 
  
 
