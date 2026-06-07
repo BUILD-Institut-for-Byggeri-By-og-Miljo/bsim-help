@@ -94,9 +94,9 @@ CP-værdierne findes for tre forskellige grader af læ fra de omkringliggende by
 
 <h4 id="regulering-af-naturlig-ventilation"><strong>Regulering af naturlig ventilation</strong></h4>
 
-Enkeltzonemodellen aktiveres fra systemet [*Venting*](../11Systems/11_06_Venting_system.md). [*Venting* ](../11Systems/11_06_Venting_system.md)er et kølesystem, og kommer dermed kun i drift hvis temperaturen i den termiske zone, der reguleres efter, overskrider det ønskede setpunkt.
+Enkeltzonemodellen aktiveres fra systemet [*Venting*](../11Systems/11_18_Systems_Venting.md). [*Venting* ](../11Systems/11_18_Systems_Venting.md) er et kølesystem, og kommer dermed kun i drift hvis temperaturen i den termiske zone, der reguleres efter, overskrider det ønskede setpunkt.
 
-Hvis der er behov for køling, beregner BSim hvor meget luft der er behov for og vælger den åbningsgrad af vinduerne der giver et luftskifte tættest muligt på den krævede luftmængde. Reguleringen virker på samme måde, hvis [*Venting* ](../11Systems/11_06_Venting_system.md)styres efter CO<sub>2 </sub>niveauet.
+Hvis der er behov for køling, beregner BSim hvor meget luft der er behov for og vælger den åbningsgrad af vinduerne der giver et luftskifte tættest muligt på den krævede luftmængde. Reguleringen virker på samme måde, hvis [*Venting* ](../11Systems/11_18_Systems_Venting.md) styres efter CO<sub>2 </sub>niveauet.
 
 <h4 id="hvad-er-nyt-med-multizone-modellen"><strong>Hvad er nyt med multizone modellen?</strong></h4>
 
@@ -174,7 +174,7 @@ Der er overordnet to typer af knuder:
 
 *   Åbnings knuder
 
-Zoneknuderne er knyttet til de termiske zoner og omgivelserne. Der defineres én knude i de termiske zoner der indeholder åbninger der er aktiveret. Knuden placeres i samme højde som *SensorHgt* (<a href="#figur-6">figur 6</a>). *SensorHgt* angiver i hvilken højde temperaturen i den termiske zone registreres (reguleres efter). Dette er kun relevant når der regnes med lodret temperaturgradient i den termiske zone. Ved beregning med lodret temperaturgradient benyttes [Kappa-modellen](../12The_Kappa_model/12_01_Kappa_model_description.md).
+Zoneknuderne er knyttet til de termiske zoner og omgivelserne. Der defineres én knude i de termiske zoner der indeholder åbninger der er aktiveret. Knuden placeres i samme højde som *SensorHgt* (<a href="#figur-6">figur 6</a>). *SensorHgt* angiver i hvilken højde temperaturen i den termiske zone registreres (reguleres efter). Dette er kun relevant når der regnes med lodret temperaturgradient i den termiske zone. Ved beregning med lodret temperaturgradient benyttes [Kappa-modellen](../12The_Kappa_model/12_03_The_Kappa_Model_Model_description.md).
 
 <figure id="center_img">
 <figure id="figure6">
@@ -592,7 +592,7 @@ Alle ændringer i temperatur, fugtighed og densitet sker ved knuden for omgivels
 
 #### **Beregning**
 
-Der udføres en integration for hver af de zoner der er indeholdt i ringen, og for omgivelserne hvis ringen indeholder knuden for udeluften. For hver zone findes koten for de to åbninger der indgår i ringen, og det termiske drivtryk beregnes efter <a href="#eq9">Formel 9</a>, hvis [Kappa](../12The_Kappa_model/12_01_Kappa_model_description.md) er lig 1 eller <a href="#eq10">Formel 10</a> hvis [Kappa](../12The_Kappa_model/12_01_Kappa_model_description.md) er forskellig fra 1.
+Der udføres en integration for hver af de zoner der er indeholdt i ringen, og for omgivelserne hvis ringen indeholder knuden for udeluften. For hver zone findes koten for de to åbninger der indgår i ringen, og det termiske drivtryk beregnes efter <a href="#eq9">Formel 9</a>, hvis [Kappa](../12The_Kappa_model/12_03_The_Kappa_Model_Model_description.md) er lig 1 eller <a href="#eq10">Formel 10</a> hvis [Kappa](../12The_Kappa_model/12_03_The_Kappa_Model_Model_description.md) er forskellig fra 1.
 
 ### **Drivtryk fra vind**
 
