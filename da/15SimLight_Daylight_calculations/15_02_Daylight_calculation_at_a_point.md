@@ -8,7 +8,7 @@ Det er muligt at vælge mellem forskellige referencepunkter som er defineret ind
 
 Efter hvert dobbeltklik i et af vinduerne startes en ny beregning for det netop valgte punkt. Ved klik på *Calculate* eller en af de tre beregningsnøjagtigheder (Low, Medium, High) starter beregning for det aktuelt valgte beregningspunkt.
 
-Ved afkrydsning i boksen *Keep on top* vil dialogen forblive forrest på skærmen og referencepunktets placering kan ændres ved, at dobbelt-klikke i plan og opstalter. Der gennemføres automatisk en ny beregning af dagslysfaktorerne for hver ny placering af referencepunktet.
+Ved afkrydsning i boksen *Keep on top* vil dialogen forblive forrest på skærmen, og referencepunktets placering kan ændres ved at dobbeltklikke i plan og opstalter. Der gennemføres automatisk en ny beregning af dagslysfaktorerne for hver ny placering af referencepunktet.
 
 <figure id="center_img">
 <img src="./assets/DGL02.GIF" alt="Dialog for dagslysberegningsprogrammet SimLight.">
@@ -19,7 +19,7 @@ Resultaterne, der vises nederst i dialogboksen, omfatter mængden af direkte lys
 
 Programmet beregner desuden sollysfaktorerne ([SF1, SF2 og SF3](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)) for rummets WinDoor og de kan overføres automatisk til alle WinDoor i det rum der er regnet på ved tryk på *Transfer SF* knappen. Samtidig gemmes referencepunktet for det aktuelle rum. Det er således muligt at beregne, gemme referencepunktet og overføre sollysfaktorerne for alle rum i modellen, et rum ad gangen. De overførte sollysfaktorer kan ses i [*Windoor Property*](../24Miscellaneous/24_30_SimView_Insert_Windoor.md) dialogen når der højre-klikkes rummets WinDoor i træ-strukturen.
 
-*   Ved afkrydsning i feltet *Daylighting* under *Transfer SF* overføres et sekundært sæt sollysfaktorer for det valget sekundært referencepunkt til senere brug ved regulering af solafskærmning.
+*   Ved afkrydsning i feltet *Daylighting* under *Transfer SF* overføres et sekundært sæt sollysfaktorer for det valgte sekundære referencepunkt til senere brug ved regulering af solafskærmning.
 
 Ved markering i *Keep on top* er det muligt at bevare dialogen forrest på skærmen. Derved er det muligt at flytte referencepunktet (træk eller dobbelt-klik i planen eller opstalterne) og automatisk få gennemført en beregning af dagslysforholdene i det nye referencepunkt.
 
@@ -31,7 +31,7 @@ Ved klik i [*Calculation for multiple points*](../15SimLight_Daylight_calculatio
 
 Nederst til venstre i dialogen ses tre informationsfelter:
 
-*   *Diffuce Sky Light (lux)*: Belysningsstyrken i referencepunktet fra diffus himmelstråling, henholdsvis det direkte bidrag og det interreflekterede bidrag.
+*   *Diffuse Sky Light (lux)*: Belysningsstyrken i referencepunktet fra diffus himmelstråling, henholdsvis det direkte bidrag og det interreflekterede bidrag.
 
 *   *Externally Reflected (lux)*: Belysningsstyrken i referencepunktet fra eksternt reflekteret lys fra jordoverfladen, henholdsvis det direkte bidrag og det interreflekterede bidrag.
 
