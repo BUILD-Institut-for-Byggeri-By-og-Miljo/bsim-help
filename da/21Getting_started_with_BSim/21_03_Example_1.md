@@ -129,7 +129,7 @@ Det anbefales at der laves en kopi af det element, som ønskes ændret, i dette 
 </figure>
 
 
-Når det nye bygningselement har fået et [SfB-nummer](../24Miscellaneous/24_08_SfB_building_classification.md) åbnes databasens *Edit BuildingElement* dialog. På første faneblad (*BuildingElement*) ændres konstruktionens navn så det afspejler lagene i den nye konstruktion og der skiftes til andet faneblad (*ConstructionLayer*). For en beskrivelse af felterne i [*BuildingElement*](../07SimDB_Database/07_02_SimDB_BuildingElement.md), [*ConstructionLayer* ](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)og [*MaterialAmount* ](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)henvises til beskrivelsen af databasen [SimDB](../07SimDB_Database/07_01_The_SimDB_database.md).
+Når det nye bygningselement har fået et [SfB-nummer](../24Miscellaneous/24_39_SfB_in_BSim.md) åbnes databasens *Edit BuildingElement* dialog. På første faneblad (*BuildingElement*) ændres konstruktionens navn så det afspejler lagene i den nye konstruktion og der skiftes til andet faneblad (*ConstructionLayer*). For en beskrivelse af felterne i [*BuildingElement*](../07SimDB_Database/07_02_SimDB_BuildingElement.md), [*ConstructionLayer* ](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)og [*MaterialAmount* ](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)henvises til beskrivelsen af databasen [SimDB](../07SimDB_Database/07_01_The_SimDB_database.md).
 
 
 <figure id="center_img">

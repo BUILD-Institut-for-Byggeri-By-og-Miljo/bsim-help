@@ -212,7 +212,7 @@ En beskrivelse af de forskellige reguleringstyper er givet i afsnittet [Ventilat
 
 #### **Gem bygningsmodel**
 
-Alle data for bygningen er nu indlæst, og modellen ønskes derfor gemt. Før dette gøres, bør der foretages en kontrol af at modellen er komplet ved at trykke på [*ModelList*](../09SimView/09_06_ModelList.md). Såfremt der findes fejl eller mangler i data, giver programmet oplysning herom, og i modsat fald er alle data (formelt) i orden. Ved starten af eksemplet blev navnet for modellen defineret som 'EKS3' og modellen gemmes nu igen under dette navn ved at klikke på feltet *Save* i menuen *File*. Den gamle model bliver ikke overskrevet, men bevares som filen EKS3.dbk som en "back-up" fil.
+Alle data for bygningen er nu indlæst, og modellen ønskes derfor gemt. Før dette gøres, bør der foretages en kontrol af at modellen er komplet ved at trykke på [*ModelList*](../10Thermal_zones/10_09_SimView_Printing_a_model.md). Såfremt der findes fejl eller mangler i data, giver programmet oplysning herom, og i modsat fald er alle data (formelt) i orden. Ved starten af eksemplet blev navnet for modellen defineret som 'EKS3' og modellen gemmes nu igen under dette navn ved at klikke på feltet *Save* i menuen *File*. Den gamle model bliver ikke overskrevet, men bevares som filen EKS3.dbk som en "back-up" fil.
 
  
 
