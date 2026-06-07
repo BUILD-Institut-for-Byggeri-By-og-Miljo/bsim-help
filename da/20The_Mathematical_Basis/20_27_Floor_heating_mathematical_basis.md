@@ -78,12 +78,13 @@ R<sub>x</sub> is the most interesting part of the model. In fact, it is shown th
 The analytical solution was obtained by Glück. That consists in the formula:
 
 $$
+\begin{aligned}
 \theta(x,y) = \theta_1
 + \frac{\frac{1}{h}\cdot \frac{s_1 - y}{\lambda_s}}{\frac{1}{U_1} + \frac{1}{U_2}} (\theta_2 - \theta_1)
 - \Gamma \left[
 \theta_3 - \theta_1 - \frac{U_2}{U_1 + U_2}(\theta_2 - \theta_1)
-\right]
-\cdot
+\right] \\
+\quad \cdot
 \left[
 \frac{\pi}{P}
 \left(
@@ -99,8 +100,8 @@ e^{- \frac{2\pi n}{P}|y|}
 \right)
 \cos\left(\frac{2\pi n}{P} x\right)
 \right]
- $$
-
+\end{aligned}
+$$
 <!--- 
 <figure id="center_img">
 <img src="./assets/fh_eq1.gif" alt="">
