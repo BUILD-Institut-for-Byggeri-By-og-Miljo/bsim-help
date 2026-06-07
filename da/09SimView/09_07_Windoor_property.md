@@ -20,9 +20,10 @@ Oplysningsfelterne under *Area* beskriver U-værdien for det WinDoor der er tilk
 <span id="red_text"> **NB:** Recess fungerer <u>kun</u> hvis [XSun solfordeling](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) er slået til. </span>
 
 *   *Select Systems*: Der kan vælges tre systemer som knytter sig til objektet:   
-Regulering ([Regulation](../24Miscellaneous/24_62_Regulation.md)),  
-Skodder ([*Shutter*](../11Systems/11_15_Systems_shutter.md)) og   
-solafskærmning ([*SolarShading*](../11Systems/11_16_Systems_shading.md)).   
+Regulering ([Regulation](../24Miscellaneous/24_62_Regulation.md))  
+Skodder ([*Shutter*](../11Systems/11_15_Systems_shutter.md))   
+Solafskærmning ([*SolarShading*](../11Systems/11_16_Systems_shading.md)).   
+
 Systemerne defineres ved at højre-klikke i træ-oversigten, hvorved den tilhørende dialog kaldes frem
 
 *   *DayLight*: Giver mulighed for manuel indtastning af sollysfaktorerne [Sf1](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md), [Sf2](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) og [Sf3](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) for et vindue. Det er også muligt at beregne og overføre dagslysfaktorerne automatisk fra [SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) programmet.

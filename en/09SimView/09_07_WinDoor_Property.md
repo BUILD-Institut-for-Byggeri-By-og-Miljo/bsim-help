@@ -18,9 +18,11 @@ The following characteristics can be defined to describe a WinDoor:
 *   *Recess (m)*: The retraction of the glass in relation to the outside of the wall in meters. If Recess = 0 is given, shading will be calculated as if the glazing was located parallel to the inner face of the construction. If the glass is to be placed parallel to the outer face of the construction, a small value (larger than 0.0001) must be given. <span id="red_text"> **NB**: Recess <u>only</u> works if [XSun solar distribution](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) is turned on. </span>
 
 *   *Select Systems* It is possible to select three systems to be linked to the WinDoor object:  
-[Regulation](../24Miscellaneous/24_62_Regulation.md) (of natural ventilation),  
-[Shutter](../11Systems/11_15_Systems_shutter.md) (for night insulation) and  
+[Regulation](../24Miscellaneous/24_62_Regulation.md) (of natural ventilation)
+
+[Shutter](../11Systems/11_15_Systems_shutter.md) (for night insulation)  
 [SolarShading](../11Systems/11_16_Systems_shading.md) (for reducing the risk of overheating).   
+
 These systems are defined by right-clicking the objects in the tree summary, which will open the relevant dialog box.
 
 *   *DayLight*: Here three [solar light factors](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) can be defined for the window ([Sf1](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md), [Sf2](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) and [Sf3](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md)) manually. The solar light factors can be calculated and transferred automatic to the windoor dialog from [SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md).
