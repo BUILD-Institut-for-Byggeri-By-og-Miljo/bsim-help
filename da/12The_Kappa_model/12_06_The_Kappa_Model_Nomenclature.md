@@ -13,7 +13,7 @@
 | *y**                  | Dimensionsløs højde (-)                                                                              |
 | *H*                   | Rumhøjde (m)                                                                                         |
 | *T₀*                  | Indblæsningstemperatur (°C)                                                                          |
-| *T<sub>f<sub>*                 | Lufttemperatur ved gulvet (°C)                                                                       |
+| *T<sub>f</sub>*                 | Lufttemperatur ved gulvet (°C)                                                                       |
 | *Tₘₑₖ.*               | Indblæsningstemperatur ved balanceret mekanisk ventilation (°C)                                      |
 | *Tₙₐₜ.*               | Temperaturen af "naturlig ventilationsluft", normalt svarende til udeluften (°C)                    |
 | *T<sub>R</sub>*                 | Udsugningsluftens temperatur (°C)                                                                   |
@@ -31,4 +31,4 @@ Se også:
 *   [Kappa-modellen](../12The_Kappa_model/12_03_The_Kappa_Model_Model_description.md)
 *   [Implementering af modellen](../12The_Kappa_model/12_04_The_Kappa_Model_implementation_in_tsbi5.md)
 *   [Inddata i SimView](../12The_Kappa_model/12_05_The_Kappa_Model_input_data.md)
-*   [Referenser](../12The_Kappa_model/12_07_The_Kappa_Model_References.md)
+*   [Referencer](../12The_Kappa_model/12_07_The_Kappa_Model_References.md)
