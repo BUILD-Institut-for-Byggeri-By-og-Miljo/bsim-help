@@ -197,7 +197,7 @@ Der oprettes grene
 
 #### **Lister med knuder og grene**
 
-Der oprettes to lister der indeholder hhv. alle knuder og alle grene. Listerne kan ses ved at vælge "chek" fra "[Simulation](../13tsbi5_thermal_simulation/13_04_Simulation.md)" faneblad i tsbi5. Listerne heder "Nodes" (knuder) og "Arches" (grene).
+Der oprettes to lister der indeholder hhv. alle knuder og alle grene. Listerne kan ses ved at vælge "chek" fra "[Simulation](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)" faneblad i tsbi5. Listerne heder "Nodes" (knuder) og "Arches" (grene).
 
 <h3 id="opstilling-af-det-udspændende-træ"><strong>Opstilling af det udspændende træ</strong></h3>
 
