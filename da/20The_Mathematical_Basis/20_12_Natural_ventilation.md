@@ -2,7 +2,7 @@
 
 # Naturlig ventilation
 
-Simulering af naturlig ventilation i BSim kræver inddata på en række [forskellige steder](../11Systems/11_03_Natural_ventilation_system.md) i modellen.
+Simulering af naturlig ventilation i BSim kræver inddata på en række [forskellige steder](../11Systems/11_11_Natural_ventilation.md) i modellen.
 
 Naturlig ventilation kan aktiveres på termisk zone niveau.
 
