@@ -5,9 +5,9 @@
 
 **Indblæsningstemperaturen *T<sub>0</sub>***
 
-Temperaturen *T<sub>0</sub>* er ovenfor benævnt "indblæsningstemperaturen". Hvis der er tale om ren mekanisk ventilation, og der i teorien ingen infiltration forekommer, svarer *T<sub>0</sub>* til indblæsningstemperaturen. Hvis bygningen omvendt alene ventileres naturligt uden varmegenvinding, svarer *T<sub>0</sub>* til temperaturen af udeluften. Kombineres mekanisk ventilation med fx vinduesåbning (naturlig ventilation), bliver indblæsningstemperaturen en blanding en de to størrelser. Her bestemmes *T<sub>0</sub>* som en vægtet værdi af indblæsningstemperaturen og udeluftens temperatur:
+Temperaturen *T<sub>0</sub>* er ovenfor benævnt "indblæsningstemperaturen". Hvis der er tale om ren mekanisk ventilation, og der i teorien ingen infiltration forekommer, svarer *T<sub>0</sub>* til indblæsningstemperaturen. Hvis bygningen omvendt alene ventileres naturligt uden varmegenvinding, svarer *T<sub>0</sub>* til temperaturen af udeluften. Kombineres mekanisk ventilation med fx vinduesåbning (naturlig ventilation), bliver indblæsningstemperaturen en blanding af de to størrelser. Her bestemmes *T<sub>0</sub>* som en vægtet værdi af indblæsningstemperaturen og udeluftens temperatur:
 
-$$ T_0 = \frac{ m_{nat.} T_{nat.} + m_{mek.} T_{mek.} }{m_{mat.} + m_{mek.}} \tag{1} $$
+$$ T_0 = \frac{ m_{nat.} T_{nat.} + m_{mek.} T_{mek.} }{m_{nat.} + m_{mek.}} \tag{1} $$
 
 hvor
 
