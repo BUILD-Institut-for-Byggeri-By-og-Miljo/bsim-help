@@ -207,7 +207,7 @@ Den sidste parameter på fanebladet *Air Hum*. har kun betydning for anlæg som 
 
 Den definerede reguleringsform vælges ved at klikke på knappen *Anvend*.
 
-En beskrivelse af de forskellige reguleringstyper er givet i afsnittet [Ventilationsanlæg](../11Systems/11_04_Ventilation_systems.md).
+En beskrivelse af de forskellige reguleringstyper er givet i afsnittet [Ventilationsanlæg](../11Systems/11_21_Systems_Ventilation.md).
  
 
 #### **Gem bygningsmodel**
