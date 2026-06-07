@@ -87,7 +87,7 @@ Beregningen af $ \Phi_{sol} $ er beskrevet i [\[5\]](../20The_Mathematical_Basis
 
 ### **Lufttilførsel ved ventilation**
 
-Lufttilførslen kan stamme fra fire forskellige '[systemer](../11Systems/11_01_Systems.md)': [Mixing](../11Systems/11_02_Systems_mixing_system.md), [infiltration](../11Systems/11_04_Infiltration_system.md), [udluftning](../11Systems/11_06_Venting_system.md) samt (mekanisk) [ventilation](../11Systems/11_05_Ventilation_system.md). Virkningen af hvert af disse bidrag på luftens varmebalance afhænger af volumenstrømmen og af temperaturen af luften, der tilføres zonen. I varmebalancen bestemmes hvert led for sig, idet de alle beregnes under hensyntagen til de variationer, der er bestemt af tidsplanerne for de enkelte systemer formlen:
+Lufttilførslen kan stamme fra fire forskellige '[systemer](../11Systems/11_01_Systems.md)': [Mixing](../11Systems/11_10_systems_mixing.md), [infiltration](../11Systems/11_08_Systems_Infiltration.md), [udluftning](../11Systems/11_18_Systems_Venting.md) samt (mekanisk) [ventilation](../11Systems/11_21_Systems_Ventilation.md). Virkningen af hvert af disse bidrag på luftens varmebalance afhænger af volumenstrømmen og af temperaturen af luften, der tilføres zonen. I varmebalancen bestemmes hvert led for sig, idet de alle beregnes under hensyntagen til de variationer, der er bestemt af tidsplanerne for de enkelte systemer formlen:
 
 $$ \Phi_{luft,vent} = n_{vent} V (\rho c_p) (T_{vent} - T_{luft}) \tag{5} $$
 
