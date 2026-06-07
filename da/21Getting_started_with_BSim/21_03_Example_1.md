@@ -115,7 +115,7 @@ Det er ikke alle de i eksemplet beskrevne konstruktioner som findes i standardda
 
 **Tilknytning af nye konstruktioner til modellens database**
 
-Af [bygningsbeskrivelsen](../21Getting_started_with_BSim/21_01_Example_description.md) fremgår det, at vægkonstruktionen indefra består af letbeton, isolering samt tegl. Denne konstruktionstype findes ikke i standardbiblioteket, men der findes en type, hvor blot ét af lagene skal ændres. I dette tilfælde trækkes markøren ned til typen med navnet 'Br 39I100 Br', som er en dobbelt teglvæg med 100 mm isolering i hulrummet. Konstruktionstypen, der er brug for, består imidlertid indvendig af letbeton i stedet for tegl, og det er derfor nødvendigt at ændre på lagdelingen.
+Af [bygningsbeskrivelsen](../21Getting_started_with_BSim/21_02_Learning_examples.md) fremgår det, at vægkonstruktionen indefra består af letbeton, isolering samt tegl. Denne konstruktionstype findes ikke i standardbiblioteket, men der findes en type, hvor blot ét af lagene skal ændres. I dette tilfælde trækkes markøren ned til typen med navnet 'Br 39I100 Br', som er en dobbelt teglvæg med 100 mm isolering i hulrummet. Konstruktionstypen, der er brug for, består imidlertid indvendig af letbeton i stedet for tegl, og det er derfor nødvendigt at ændre på lagdelingen.
 
  
 
@@ -138,7 +138,7 @@ Når det nye bygningselement har fået et [SfB-nummer](../24Miscellaneous/24_08_
 </figure>
 
 
-Letbeton kan findes i databasens materialedel som der er adgang til via andet faneblad. Der klikkes på tredje materialelag (*Brick ext 1800*) for at vælge dette. I indgangen *Type* vælges gruppe f. Precast elements, hvorefter der, via indgangen *ConstructionMaterial* vælges et materiale som passer til [beskrivelsen af konstruktionerne](../21Getting_started_with_BSim/21_01_Example_description.md).
+Letbeton kan findes i databasens materialedel som der er adgang til via andet faneblad. Der klikkes på tredje materialelag (*Brick ext 1800*) for at vælge dette. I indgangen *Type* vælges gruppe f. Precast elements, hvorefter der, via indgangen *ConstructionMaterial* vælges et materiale som passer til [beskrivelsen af konstruktionerne](../21Getting_started_with_BSim/21_02_Learning_examples.md).
 
 Når der er valgt et nyt materiale i stedet for den indvendige teglvange, skal tykkelsen af laget ændres til 0,1 m. Dette gøres ved at vælge laget (klik med musen) og ændre værdien i andet felt, umiddelbart under valgmenuen for *ConstructionMaterial*. Den ny tykkelse vil optræde i kolonnen *Thickness* ud for navnet for det nye materiale.
 
@@ -150,7 +150,7 @@ Parameteren *resistance* angiver den termiske modstand i m²K/W af eventuelle lu
 
 **Konstruktioner i gulv og loft**
 
-Den [beskrevne](../21Getting_started_with_BSim/21_01_Example_description.md) gulvkonstruktion findes ikke umiddelbart i standarddatabasen, men den ligner konstruktionen 'C150 39I100', dog med den modifikation, at der tillægges et jordlag på 1 m som et ekstra lag yderst i konstruktionen. Med markøren på den ønskede konstruktion trykkes *Copy* for at lave en lokal kopi af standardkonstruktionen.
+Den [beskrevne](../21Getting_started_with_BSim/21_02_Learning_examples.md) gulvkonstruktion findes ikke umiddelbart i standarddatabasen, men den ligner konstruktionen 'C150 39I100', dog med den modifikation, at der tillægges et jordlag på 1 m som et ekstra lag yderst i konstruktionen. Med markøren på den ønskede konstruktion trykkes *Copy* for at lave en lokal kopi af standardkonstruktionen.
 
 Som beskrevet for de udvendige vægge dannes der herved en kopi som kan ændres. På *ConstructionLayer* fanebladet flyttes markøren til det andet lag, 'Min. wool 39', hvorpå der trykkes på knappen *New Layer*. Herved oprettes et nyt materialelag med navnet ? og samme procedure som beskrevet ovenfor anvendes til at definere materialelaget jord. Jord (*Soil(humid)*) findes i materialegruppe k. *Soil Materials*.
 
@@ -261,7 +261,7 @@ I stedet for at tilknytte et rum som en fiktiv zone, er der mulighed for at defi
 
 **Nøjagtigere beregning af varmetab til jord**
 
-For en mere nøjagtig beregning kan i princippet benyttes reglerne i [DS 418](../23Internet/23_01_Literature.md) for bestemmelse af jordens isolans, eventuelt forenklet således, at varmetabet fra kældervægge under terræn samt terrændækrandfeltet, 0-1 m fra indvendig side af ydervæg, regnes at ske til udeluften gennem et jordlag med isolansen 1,0 m² K/W, mens varmetabet fra kældergulve samt terrændækmidterfeltet, over 1 m fra indvendig side af ydervæg, sker til jorden gennem en jordisolans på 2,0 m² K/W. Temperaturen under opvarmede bygninger (20 °C) afhænger især af gulvets isolering og af bygningens størrelse. Normalt kan den antages at variere 'Sinusformet' med laveste temperatur (10-12 °C) i slutningen af vinteren (februar-marts) og højeste temperatur (14-16 °C) i slutningen af sommeren (august-september).
+For en mere nøjagtig beregning kan i princippet benyttes reglerne i [DS 418](../20The_Mathematical_Basis/20_28_Literature.md) for bestemmelse af jordens isolans, eventuelt forenklet således, at varmetabet fra kældervægge under terræn samt terrændækrandfeltet, 0-1 m fra indvendig side af ydervæg, regnes at ske til udeluften gennem et jordlag med isolansen 1,0 m² K/W, mens varmetabet fra kældergulve samt terrændækmidterfeltet, over 1 m fra indvendig side af ydervæg, sker til jorden gennem en jordisolans på 2,0 m² K/W. Temperaturen under opvarmede bygninger (20 °C) afhænger især af gulvets isolering og af bygningens størrelse. Normalt kan den antages at variere 'Sinusformet' med laveste temperatur (10-12 °C) i slutningen af vinteren (februar-marts) og højeste temperatur (14-16 °C) i slutningen af sommeren (august-september).
 
  
 
@@ -273,7 +273,7 @@ Der er nu indlæst data for en simpel bygningsmodel bestående af én zone, som 
 
 #### **Oprette en termisk zone**
 
-Det er endu ikke muligt at gennemføre en simulering med tsbi5. For at gøre dette kræves det at der oprettes mindst en [termisk zone](../10Thermal_zones/10_01_Thermal_zone_properties.md) som indeholder et eller flere rum.
+Det er endu ikke muligt at gennemføre en simulering med tsbi5. For at gøre dette kræves det at der oprettes mindst en [termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md) som indeholder et eller flere rum.
 
 Ved at højre-klikke på bygningen i træstrukturen fremkommer en dialog som giver mulighed for at tilføje termiske zoner til modellen. For hvert tryk på knappen *Insert ThermalZone* tilføjes en termisk zone til modellen. I dette eksempel skal der bruges en termisk zone.
 
