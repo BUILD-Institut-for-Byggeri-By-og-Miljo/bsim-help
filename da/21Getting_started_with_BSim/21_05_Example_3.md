@@ -104,7 +104,7 @@ Det bemærkes, at mens belysningsstyrken i ethvert punkt i rummet reduceres prop
 
 Når afskærmningen er trukket delvist for vinduet, beregnes belysningsstyrken i et punkt som en vægtet værdi af belysningsstyrken for 'vinduesdelen' med afskærmning og belysningsstyrken for den anden del af vinduet uden afskærmning.
 
-I det aktuelle eksempel er det valgt at lade lyset regulere efter solindfaldet gennem vinduerne (jf. [eksempel 2](../21Getting_started_with_BSim/21_03_Example_2.md)), og værdien af sollysfaktoren [SF4](../15SimLight_Daylight_calculations/15_04_Light_factors_for_windows.md) vil derfor ikke blive benyttet. Det generelle princip er imidlertid, at alle parametre for komponenter og systemer, som benyttes, skal tildeles en værdi, og her indtastes værdien 0.
+I det aktuelle eksempel er det valgt at lade lyset regulere efter solindfaldet gennem vinduerne (jf. [eksempel 2](../21Getting_started_with_BSim/21_04_Example_2.md)), og værdien af sollysfaktoren [SF4](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) vil derfor ikke blive benyttet. Det generelle princip er imidlertid, at alle parametre for komponenter og systemer, som benyttes, skal tildeles en værdi, og her indtastes værdien 0.
 
  
 
