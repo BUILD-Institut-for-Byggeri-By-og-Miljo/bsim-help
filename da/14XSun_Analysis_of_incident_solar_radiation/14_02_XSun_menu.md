@@ -10,21 +10,21 @@ Menuen i *XSun* kaldes frem ved at højre-klikke i den grafiske visning.
 </figure>
 
 
-Højre-klik menuen er ændret, så den er direkte relateret til funktionerne i *XSun*. Indgangene i menuen er:
+Højre-klik-menuen er ændret, så den er direkte relateret til funktionerne i *XSun*. Indgangene i menuen er:
 
 *   *SunDate and Options*: Åbner en dialog til definition af datoen for analyse af direkte solindfald med følgende felter:
 
     *   *Site* giver information (hentes normalt fra klimadatafilen) om placeringen af bygningen.
 
-    *   *Sun Position* viser solens placering himlen (Azimut og Højdevinkel) på det valgte tidspunkt - dato og klokkeslæt - af året samt tidspunktet for solopgang (*Rise*.) og solnedgang (*Set*.).
+    *   *Sun Position* viser solens placering på himlen (azimut og højdevinkel) på det valgte tidspunkt - dato og klokkeslæt - af året samt tidspunktet for solopgang (*Rise*) og solnedgang (*Set*).
 
-    *   *Hour* angiver hvilken time den stationære beregning skal vise i timer,minutter.
+    *   *Hour* angiver, hvilken time den stationære beregning skal vise i timer, minutter.
 
-    *   *Hour Step* angiver, med hvor store spring (timer,minutter) XSun skal vise "solpletternes" placering ved animation af solfordelingen.
+    *   *Hour Step* angiver, med hvor store spring (timer, minutter) XSun skal vise "solpletternes" placering ved animation af solfordelingen.
 
-    *   *Day Step* giver mulighed for at vælge hvor mang dage programmet skal springe frem efter afslutningen af en animation inden der startes en ny animation (kan være 0).
+    *   *Day Step* giver mulighed for at vælge, hvor mange dage programmet skal springe frem efter afslutningen af en animation, inden der startes en ny animation (kan være 0).
 
-    *   *Animation period* felterne angiver start og stoptidspunktet på den enkelte dag for animation af solpletternes placering i modellen. Tidspunkterne angives som timer,minutter med 2 decimaler.
+    *   *Animation period* felterne angiver start- og stoptidspunktet på den enkelte dag for animation af solpletternes placering i modellen. Tidspunkterne angives som timer, minutter med 2 decimaler.
 
     *   *Under Options* er der tre muligheder for tilpasning af den grafiske visning.
 
@@ -46,7 +46,7 @@ Højre-klik menuen er ændret, så den er direkte relateret til funktionerne i *
 
 *   *Capture Screen*: Gemmer det aktuelle skærmbillede i video-filen. Kan først startes når der er valgt et [navn for en video-fil](../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.md) og en komprimeringsteknik.
 
-*   *Capture Animation*: Starter optagelsen af en video-sekvens af animationen. Kan først startes når der er valgt et [navn for en video-fil](../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.md) og en komprimeringstenkik.
+*   *Capture Animation*: Starter optagelsen af en video-sekvens af animationen. Kan først startes når der er valgt et [navn for en video-fil](../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.md) og en komprimeringsteknik.
 
 *   *SimPv*: Kalder udvidelsesmodulet [SimPv](../16SimPV/16_01_SimPV.md) til beregning af el-ydelsen fra bygningsintegrerede solceller i BSim.
 
