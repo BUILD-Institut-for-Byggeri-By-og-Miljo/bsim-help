@@ -77,7 +77,7 @@ Det skal bemærkes, at den direkte solstråling i beregningerne antages at ramme
 
 **Himmellys SF2**
 
-SF2 giver normalt det største bidrag til belysningsstyrken i et punkt, der kan "se" himlen. Ved beregningerne antages, at uanset himlens tilstand (skyet eller skyføri), er luminansfordelingen som en CIE-overskyet himmel eller ensartet overskyet, og SF2 beregnes svarende til en af disse tilstande. *Størrelsen* af dagslysindfaldeberes efter algoritmer fundet ved målinger under danske forhold ([Petersen, 1982](../20The_Mathematical_Basis/20_28_Literature.md)).
+SF2 giver normalt det største bidrag til belysningsstyrken i et punkt, der kan "se" himlen. Ved beregningerne antages, at uanset himlens tilstand (skyet eller skyfri), er luminansfordelingen som en CIE-overskyet himmel eller ensartet overskyet, og SF2 beregnes svarende til en af disse tilstande. *Størrelsen* af dagslysindfald beregnes efter algoritmer fundet ved målinger under danske forhold ([Petersen, 1982](../20The_Mathematical_Basis/20_28_Literature.md)).
 
 De to bidrag til sollysfaktoren SF2 fra henholdsvis den direkte og den interreflekterede del af den diffuse himmelstråling kan bestemmes hver for sig, som beskrevet i [algoritmer for beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
@@ -90,7 +90,7 @@ Summen af de to bidrag er vist på den følgende figur, der viser sollysfaktorer
 
 **Reflekteret lys SF3**
 
-SF3 bestemmer bidraget fra det reflekterede sollys fra jordoverfladen, og heri indgår både bidraget fra diffust himmellys og fra direkte sollys. Der regnes med diffus refleksion fra jordoverfladen. Det reflekterede bidrag er karakteriseret ved, at lyset først skal ramme andre flader i lokalet især loftet, inden det når punktet. denne faktor indeholder derfor kun bidrag fra den interreflekterede del af lyset (punktet i arbejdsplanet kan ikke "se" nogen stråling direkte fra jorden).
+SF3 bestemmer bidraget fra det reflekterede sollys fra jordoverfladen, og heri indgår både bidraget fra diffust himmellys og fra direkte sollys. Der regnes med diffus refleksion fra jordoverfladen. Det reflekterede bidrag er karakteriseret ved, at lyset først skal ramme andre flader i lokalet, især loftet, inden det når punktet. Denne faktor indeholder derfor kun bidrag fra den interreflekterede del af lyset (punktet i arbejdsplanet kan ikke "se" nogen stråling direkte fra jorden).
 
 <figure id="center_img">
 <img src="./assets/SF3-8M.JPG" alt="Sollysfaktoren SF3 for den reflekterede strålings bidrag til dagslyset i et lokale med dybden 8 meter ved forskellige vinduesarealer."> 

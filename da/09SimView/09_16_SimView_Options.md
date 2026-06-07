@@ -50,7 +50,7 @@ Bounding Box
 
 *   *Floating toolbar* giver mulighed for at have [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md) placeret valgfrit på skærmen (trækkes til en ny placering med musen). Funktionen træder først i kraft næste gang programmet startes.
 
-*   *Auto Arrange FaceSides* sikrer at en model automatisk ændres så:
+*   *Auto Arrange FaceSides* sikrer, at en model automatisk ændres, så:
 
     *   Flader der vender imod *Outdoor* eller *Ground* altid har side 2 mod disse.
 

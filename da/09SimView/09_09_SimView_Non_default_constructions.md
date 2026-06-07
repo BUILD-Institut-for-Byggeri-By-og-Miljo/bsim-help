@@ -2,9 +2,9 @@
 
 # SimView - Ikke-standard konstruktioner
 
-Det vil selvsagt ikke være alle konstruktioner, der kan tilknyttes som standardkonstruktioner i de forskellige konstruktiongrupper.
+Det vil selvsagt ikke være alle konstruktioner, der kan tilknyttes som standardkonstruktioner i de forskellige konstruktionsgrupper.
 
-En konstruktion tilknyttes eller ændres på tilsvarende måde som standardkonstruktioner tilknyttes. Databasen åbnes, og den ønskede konstruktion trækkes (SfB-nummeret) fra databasen til den konstruktion i modellens træ-oversigt, den skal tilknyttes.
+En konstruktion tilknyttes eller ændres på tilsvarende måde som standardkonstruktioner tilknyttes. Databasen åbnes, og den ønskede konstruktion trækkes (SfB-nummeret) fra databasen til den konstruktion i modellens træ-oversigt, som den skal tilknyttes.
 
  
 

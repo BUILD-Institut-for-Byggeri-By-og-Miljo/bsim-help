@@ -2,7 +2,7 @@
 
 # Model wizard - oprette en ny model
 
-Når der oprettes en ny model, ved tryk på "ny" i værktøjsbjælken eller ved at vælge "New" fra menuen "File", startes en såkaldt *wizard* som automatisk sætter en række standardværdier som kan benyttes i forbindelse med definition af modellen. *Wizard*'en går gennem en række dialoger:
+Når der oprettes en ny model, ved tryk på "ny" i værktøjsbjælken eller ved at vælge "New" fra menuen "File", startes en såkaldt *wizard* som automatisk sætter en række standardværdier som kan benyttes i forbindelse med definition af modellen. *Wizard'en* går gennem en række dialoger:
 
 <figure id="center_img">
 <img src="./assets/Mw1.jpg " alt="Dialogen 'Project Name' til navngivning af et nyt projekt.">

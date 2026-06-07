@@ -42,7 +42,7 @@ Et tryk på knappen *TmpFactor* åbner en dialog til dimensionering af åbningsa
 
 *Max Wind* anvendes i forbindelse med udvidelsesmodulet NatVent (BSim fra version 2002) til simulering af naturlig ventilation og angiver den højest acceptable vindhastighed hvorunder der kan forekomme naturlig ventilation. Hvis *Max Wind* sættes til 0, vil den naturlige ventilation være aktiv for alle vindhastigheder.
 
-*Sensor Zone* angiver en termiske zone hvor den operative temperatur ønskes benyttet til regulering af udluftningen i den aktuelle termiske zone. Det kan fx være temperaturen i et kontor som er bestemmende for udluftningen i et atrium.
+*Sensor Zone* angiver en termisk zone hvor den operative temperatur ønskes benyttet til regulering af udluftningen i den aktuelle termiske zone. Det kan fx være temperaturen i et kontor som er bestemmende for udluftningen i et atrium.
 
 *Natural Ventilation* (udvidelsesmodul til BSim) Den ønskede model for naturlig ventilation vælges i listen under Natural Ventilation. Umiddelbart over listen vises hvilken model BSim selv foreslår ud fra den given geometri af rummet. Der kan vælges følgende:
 

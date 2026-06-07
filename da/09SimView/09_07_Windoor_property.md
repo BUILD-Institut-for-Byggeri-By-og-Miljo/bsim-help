@@ -8,11 +8,11 @@
 </figure>
 
 
-I feltet *Area* vises de oplysninger som programmet har beregnet af åbningens geometri og information fra databasen. De beregnede størrelser er: åbningens areal (*Opening*), glassets areal (*GlassArea*), rammens areal (*FrameArea*), fyldningens areal (*PanelArea*) som benyttes i forbindelse med simuelring af døre og længden af afstandsprofilet (*SpacerLength*).
+I feltet *Area* vises de oplysninger som programmet har beregnet af åbningens geometri og information fra databasen. De beregnede størrelser er: åbningens areal (*Opening*), glassets areal (*GlassArea*), rammens areal (*FrameArea*), fyldningens areal (*PanelArea*) som benyttes i forbindelse med simulering af døre og længden af afstandsprofilet (*SpacerLength*).
 
 Bemærk, at første gang dialogen åbnes, vil informationen *Impossible Geometry* fremkomme i stedet for *SpacerLength* og der vises et stopsignal til højre for *Override*-knappen hvis åbningen ikke er en rektangel eller der ikke er valgt et vindue fra databasen. Ved klik på [knappen *Override*](../24Miscellaneous/24_51_WinDoor_Override.md) kan arealet for rammen og fyldningen samt afstandsprofilets længde ændres. Fra disse data beregnes arealet af glasset.
 
-Meddelelsen *Impossible Geometry* kan også skyldes at den aktuelle Windoor er placeret så den strækker sig ind over *Inner Shell*, dvs. konstruktionerne i de flader som støder op til den fladen hvori Windoor placeret. Kan opstå hvis tykkelsen af modellens konstruktioner forøges fx ved valg af nye konstruktioner. Det vil ikke være muligt at gennemføre en simulering så længe Windoors geometri er umulig.
+Meddelelsen *Impossible Geometry* kan også skyldes, at den aktuelle Windoor er placeret så den strækker sig ind over *Inner Shell*, dvs. konstruktionerne i de flader som støder op til den flade, hvori WinDoor er placeret. Det kan opstå, hvis tykkelsen af modellens konstruktioner forøges, fx ved valg af nye konstruktioner. Det vil ikke være muligt at gennemføre en simulering, så længe Windoor-geometrien er umulig.
 
 Oplysningsfelterne under *Area* beskriver U-værdien for det WinDoor der er tilknyttet, samt dets indgang i databasen (SfB-nummer og navn).
 

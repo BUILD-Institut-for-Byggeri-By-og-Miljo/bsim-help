@@ -13,7 +13,7 @@ I *BSim* er det muligt at tilknytte standardkonstruktioner til alle bygningselem
 
 *   *ExtConstructions:* Konstruktioner med den ene side mod det fri.
 
-*   *IntConstuctions:* Konstruktioner med begge sider mod rum.
+*   *IntConstructions:* Konstruktioner med begge sider mod rum.
 
 *   *ExtWindoor:* Vinduer og døre med den ene side mod det fri.
 
@@ -33,7 +33,7 @@ I *BSim* er det muligt at tilknytte standardkonstruktioner til alle bygningselem
 
 *   *IntWindoorFinish:* Overfladeegenskaber for WinDoor med et rum på hver side.
 
-Knappen *Delete* giver mulighed for at fjerne tilknytningen til databasen for grupper af konstruktioner. En gruppe markeres og der trykkes *Delete* for at fjerne tilknytningen. Ændringerne træder ført i kraft når standardkonstruktionerne er opdateret ved *Insert Defaults* via højre-klik på bygningen.
+Knappen *Delete* giver mulighed for at fjerne tilknytningen til databasen for grupper af konstruktioner. En gruppe markeres og der trykkes *Delete* for at fjerne tilknytningen. Ændringerne træder først i kraft når standardkonstruktionerne er opdateret ved *Insert Defaults* via højre-klik på bygningen.
 
 Dialogen indeholder yderligere to faneblade: [HeatLoss](../09SimView/09_11_Model_information.md) og [Description](../09SimView/09_11_Model_information.md).
 

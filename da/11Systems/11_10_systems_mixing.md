@@ -17,7 +17,7 @@ Mixing er defineret som en luftudveksling mellem termiske zoner og rum i modelle
 
 *   *From Zone* viser hvilken termisk zone eller rum luften kommer fra.
 
-**Note:** Enhver ubalance i luftstrømmene til eller fra en termisk zone (skabt af et vilkårligt system som påvirker luftbalancen) vil i tsbi5 automatisk blive balanceret ved infiltration eller exfiltration til udeluften (outdoor) - lige gyldigt om den termiske zone er helt omsluttet af andre termiske zoner eller rum.
+**Note:** Enhver ubalance i luftstrømmene til eller fra en termisk zone (skabt af et vilkårligt system som påvirker luftbalancen) vil i tsbi5 automatisk blive balanceret ved infiltration eller eksfiltration til udeluften (outdoor) - lige gyldigt om den termiske zone er helt omsluttet af andre termiske zoner eller rum.
 
 **Note:** Det er muligt at vælge mixing fra en fiktiv zone (et rum med samme termiske egenskaber som en egentlig termisk zone) som støder op til den termiske zone som skal modtage luften. Det er dog <u>kun</u> muligt at have en mixing fra hver termiske zone, og den fiktive zone opfattes som værende den samme som den termiske zone den har samme egenskaber som. Derfor vil der <u>kun</u> optræde mixing fra den egentlige termiske zone.
 

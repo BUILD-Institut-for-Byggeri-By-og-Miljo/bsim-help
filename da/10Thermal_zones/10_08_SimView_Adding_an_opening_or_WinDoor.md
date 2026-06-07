@@ -4,7 +4,7 @@
 
 Flader består ikke af ugennemskinnelige dele alene, der er også åbninger, vinduer og døre. I *BSim* er der indført et nyt begreb: *WinDoor.* Dette begreb dækker over såvel vinduer som døre, idet disse i simuleringssammenhænge opfører sig ens. At åbninger behandles under samme overskrift skyldes, at den geometriske placering defineres på samme måde, og at en *WinDoor* principielt tilføjes i en åbning.
 
-Placeringen i en flade vælges ved først at vælge et hjørnepunkt *(vertex)* i fladen - normalt det punkt i fladen der har den mindste x- eller y-koordinat i fladens retning. En vertex vælges ved at venstre-klikke på en vertex i 3D-visningen samtidig med at *Shift-knappen* holdes nede. Alternativt kan der også dobbelt venstre-klikkes uden aktiveret *Shift-*knap*.* Dette punkt bliver origo i et midlertidigt, lokalt koordinatsystem hvori åbningen eller WinDoor placeres. Et valgt punkt vises som en sort firkant med en sort ramme udenom. Desuden skal der vælges en kant *(edge)* - normalt bunden af fladen - som lokal x-akse, hvorfra placeringen defineres. En kant vælge på samme måde som beskrevet ovenfor ved valg af vertex. En valgt kant vises som en grøn linie.
+Placeringen i en flade vælges ved først at vælge et hjørnepunkt *(vertex)* i fladen - normalt det punkt i fladen der har den mindste x- eller y-koordinat i fladens retning. En vertex vælges ved at venstre-klikke på en vertex i 3D-visningen samtidig med at *Shift-knappen* holdes nede. Alternativt kan der også dobbelt venstre-klikkes uden aktiveret *Shift-knap*. Dette punkt bliver origo i et midlertidigt, lokalt koordinatsystem, hvori åbningen eller WinDoor placeres. Et valgt punkt vises som en sort firkant med en sort ramme udenom. Desuden skal der vælges en kant *(edge)* - normalt bunden af fladen - som lokal x-akse, hvorfra placeringen defineres. En kant vælges på samme måde som beskrevet ovenfor ved valg af vertex. En valgt kant vises som en grøn linie.
 
 Højre-klik derefter i den geometriske visning og vælg indgangen *Add Opening* eller *Add WinDoor* for at åbne dialogen for definition af placeringen i fladen.
 
@@ -29,7 +29,7 @@ Der skal opgives en række informationer for en entydig placering:
 
 *   *Distance between*: Hvis der indsættes mere en et objekt i fladen skal deres indbyrdes afstand angives i meter i begge akseretninger.
 
-Vinduer og åbninger kan ikke placeres helt ude ved kanten af de konstruktioner som støder op til den flade vinduet eller åbningen skal indsættes i. Hvis der trykkes OK og tolerancen er overskredet forlades menuen uden indsættelse af et objekt. Trykkes der derimod *Apply* søger programmet at indsætte det ønskede objekt. Hvis placeringen er uden for tolerancerne vil indsættelsen ikke lykkes og inddata kan ændres.
+Vinduer og åbninger kan ikke placeres helt ude ved kanten af de konstruktioner som støder op til den flade vinduet eller åbningen skal indsættes i. Hvis der trykkes OK og tolerancen er overskredet, forlades menuen uden indsættelse af et objekt. Trykkes derimod *Apply*, søger programmet at indsætte det ønskede objekt. Hvis placeringen er uden for tolerancerne, vil indsættelsen ikke lykkes, og inddata kan ændres.
 
 Hver gang der trykkes på *Apply* tilføjes et objekt *(Opening* eller *WinDoor)* med den givne geometri. Alle åbninger og *WinDoor* tilhørende den samme flade kan derfor med fordel oprettes fra dialogen på en gang.
 
@@ -42,7 +42,7 @@ Et bestemt vindue knyttes til modellen ved at trække det fra [databasen](../07S
 Systemer tilknyttet en WinDoor:
 
 *   [Regulering](../11Systems/11_03_Regulation.md) (af naturlig ventilation)
-*   [Skodder](../11Systems/11_04_Shutter_System.md) (for reduktions af varmetab om natten)
+*   [Skodder](../11Systems/11_04_Shutter_System.md) (for reduktion af varmetab om natten)
 *   [Solafskærmning](../11Systems/11_05_Shading_System.md) (for reduktion af overhedning)
 
 Se også:

@@ -93,7 +93,7 @@ Then, the main data regarding the pipe and the circuit are collected in the wind
 
 *   Thermal conductivity of the pipe wall [W/(m·K)]
 
-The last parameter to be entered is the maximum radiant surface area per circuit [m²]. It is useful in order to take into account the presence of various similar circuits in the same radiant surface. As a consequence, the pipe is split into various circuits, basing on the ratio between the radiant surface area and the maximum area per circuit. The default value is 10 m² when nothing is specified.
+The last parameter to be entered is the maximum radiant surface area per circuit [m²]. It is useful in order to take into account the presence of various similar circuits in the same radiant surface. As a consequence, the pipe is split into various circuits, based on the ratio between the radiant surface area and the maximum area per circuit. The default value is 10 m² when nothing is specified.
 
 See also the [mathematical basic for the system](../20The_Mathematical_Basis/20_27_Floor_heating_mathematical_basis.md).
 
