@@ -12,7 +12,7 @@ Det er muligt at beregne dagslysindfaldet på et plan. Ved klik på *Calculate i
 
 Efter godkendelse af plankoordinater (centrum og udstrækning i to retninger) og maskestørrelse ved klik på knappen *OK* (returnerer til hoveddialogen), vil klik på *Calculate* eller en af de tre beregningsnøjagtigheder starte beregningen for punkterne i beregningsplanen. Efter endt beregning aktiveres knappen *Daylight graph*. Ved tryk på knappen fremkommer et vindue, hvori vises lysfordelingskurver, samt en tabel med de punktspecifikke resultater fra beregningen. Der kan vælges resultater for direkte dagslys, eksternt hhv. internt reflekteret lys, samlet lysindfald (alle i lux) samt den samlede dagslysfaktor i referencepunkterne (i %). Lysfordelingskurverne optegnes vha. lineær interpolation, hvorfor der for beregninger på grovmaskede net kan forekomme synlige tangentielle diskontinuiteter i grænseovergangene.
 
-Resultaterne kan vises individuelt som grafik eller som tabeller for de følgende beregnede dagslysbidrag: *Direct illumination, Externally reflected, Internally reflected, Total sunlight factor, Total daylight factor* and *Total illuminantion.* Det ønskede bidrag vælges i valg-menuen nederst til venstre i dialogen
+Resultaterne kan vises individuelt som grafik eller som tabeller for de følgende beregnede dagslysbidrag: *Direct illumination, Externally reflected, Internally reflected, Total sunlight factor, Total daylight factor* og *Total illumination.* Det ønskede bidrag vælges i valgmenuen nederst til venstre i dialogen
 
 <figure id="center_img">
 <img src="./assets/DGL04.GIF" alt="Dagslysfaktor beregnet med SimLight og vist som grafik.">

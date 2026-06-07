@@ -12,7 +12,7 @@ Dagslysberegningerne aktiveres ved klik på ikonet med solen eller menupunktet *
 </figure>
 
 
-Det er <span id="red_text"> **kun** </span> muligt at gennemføre en dagslysberegning med SimLight i rum hvor **samtlige** vinduer (*WinDoor*) er beskrevet ved **netop** fire hjørnepunkter.
+Det er <span id="red_text"> **kun** </span> muligt at gennemføre en dagslysberegning med SimLight i rum, hvor **samtlige** vinduer (*WinDoor*) er beskrevet ved **netop** fire hjørnepunkter.
 
 Det er muligt at beregne dagslysforholdene i et punkt eller i et plan, som kan strække sig over et helt rum.
 
