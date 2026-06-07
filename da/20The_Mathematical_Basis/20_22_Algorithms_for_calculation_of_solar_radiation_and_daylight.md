@@ -33,7 +33,7 @@ Nyere målinger, bl.a. i Danmark, [5] har vist, at strålingen fra himmelhvælvi
 
 ## **Solstråling**
 
-Modellen for beregning af solstråling på udvendige overflader beskrevet nedenfor kaldes *Lund* på [Options fanen af tsbi5](../13tsbi5_thermal_simulation/13_02_Options.md). Alle solstrålingsmodeller i BSim er opkaldt efter deres forfatter og er beskrevet i de følgende referencer:
+Modellen for beregning af solstråling på udvendige overflader beskrevet nedenfor kaldes *Lund* på [Options fanen af tsbi5](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md). Alle solstrålingsmodeller i BSim er opkaldt efter deres forfatter og er beskrevet i de følgende referencer:
 
 *   Muneer T. (1989). *Algorithms for estimating hourly solar irradiation on slopes*. Journal of Building Services, Enginering, Research and Technology 10(2).
 
