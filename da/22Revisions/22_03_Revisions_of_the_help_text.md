@@ -10,7 +10,7 @@
 
 *   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
-*   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_02_Joining_BSim_forum.md) og [send en e-mail til BSim listen](Spørgsmål%20via e-ma) with correct information about the list at AAU.
+*   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_02_Joining_BSim_forum.md) og [send en e-mail til BSim listen](../23Internet/23_02_Joining_BSim_forum.md) with correct information about the list at AAU.
 
 *   Rettet formal for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](../20The_Mathematical_Basis/20_26_Calculation_of_long_wave_radiation_to_the_sky.md).
 
@@ -34,13 +34,13 @@
 
 *   Tilføjet information om PackCalc under [Heating](../11Systems/11_02_Heating_system.md) og tilføjet link til download af programmet.
 
-*   Tilføjet information om PackCalc under [Heatpump](.../11Systems/11_05_Heat_pump_system.md) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Heatpump](../11Systems/11_05_Heat_pump_system.md) og tilføjet link til download af programmet.
 
 *   Udvidet beskrvelsen af regulering af [Fan Coil](../11Systems/11_09_Fan_Coil_control.md).
 
 *   Udvidet beskrivelsen af [fixed format](../05Introduction/05_03_Climate_data_fixed_format.md) som bruges ved konvertering af klimadata.
 
-*   Tilføjet advarsel om alfa-numeriske data ved [konvertering af klimadata](Konvertering%20af vejrdata til tsbi5).
+*   Tilføjet advarsel om alfa-numeriske data ved [konvertering af klimadata](../05Introduction/05_04_Weather_data_conversion_to_tsbi5.md).
 
 *   Opdateret tekst for styring af [solafskærmning med lameller](../11Systems/11_15_Blind_control_for_shading.md).
 
@@ -88,7 +88,7 @@
 
 *   Tilføjet information om advarslen Impossible Geometry for [Windoors](../09SimView/09_10_WinDoor_property.md).
 
-*   Rettet forkert beskrivelse af bygningens rotation på [Building Property](../09SimView/09_03_Building_property.md).
+*   Rettet forkert beskrivelse af bygningens rotation på [Building Property](../09SimView/09_03_Property_dialogs_in_SimView.md).
 
 *   Udviklet beskrivelse af [resultatparameter](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md) WaterTempMean.
 
@@ -103,7 +103,7 @@
 
 *   Tilføjet advarsel om brug af forskellige reguleringsformer inden for samme tidsangivelse i forbindelse med [regulering af vandbåren gulv-varme/køling](../11Systems/11_10_Floor_heating_cooling_control.md).
 
-*   Tilføjet advarsel om nødvendigheden af individuel regulering for [elektrisk gulvvarme](../11Systems/11_04_Electric_floor_heating_control.md) til hver termisk zone.
+*   Tilføjet advarsel om nødvendigheden af individuel regulering for [elektrisk gulvvarme](../11Systems/11_07_Floor_Heating_Control.md) til hver termisk zone.
 
 *   Opdateret beskrivelse af parameteren *Lost* på [*ThermalZone property*](../10Thermal_zones/10_01_Thermal_zone_property.md) som angiver hvor meget sol der tabes inden den afsættes i zonen og opdateret grafik.
 
@@ -425,7 +425,7 @@
 
 *   [tsbi5\tsbi5_nvoptons_page.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Opdateret grafik og tilføjet information til inddatafelterne.
 
-*   [SimView\building_property.htm](../09SimView/09_03_Building_property.md): Opdateret grafik og tilføjet beskrivelse af Height.
+*   [SimView\building_property.htm](../09SimView/09_03_Property_dialogs_in_SimView.md): Opdateret grafik og tilføjet beskrivelse af Height.
 
 *   [defaults.htm:](../09SimView/09_04_SimView_menu_Defaults.md) Opdateret beskrivelse af overgangsisolanser jf. DS418.
 
