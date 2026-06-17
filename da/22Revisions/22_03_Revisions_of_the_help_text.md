@@ -10,15 +10,15 @@
 
 *   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
-*   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_02_Joining_BSim_forum.md) og [send en e-mail til BSim listen](../23Internet/23_02_Joining_BSim_forum.md) with correct information about the list at AAU.
+*   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_01_Join_the_debate_and_information_forum.md) og [send en e-mail til BSim listen](../23Internet/23_01_Join_the_debate_and_information_forum.md) with correct information about the list at AAU.
 
 *   Rettet formal for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](../20The_Mathematical_Basis/20_26_Calculation_of_long_wave_radiation_to_the_sky.md).
 
-*   Ændret download link for [PackCalc](../24Miscellaneous/24_04_PackCalc.md) til SBi's website.
+*   Ændret download link for [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) til SBi's website.
 
 *   Tilføjet informatioon on tegningsstandarder og lagstruktur der benyttes i forbindelse med [SimDXF](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Select_DXF_filter.md).
 
-*   Tilføjet advarsel om rækkefølge af [Lighting](../11Systems/11_06_Lighting_system.md) i forhold til Ventilation.
+*   Tilføjet advarsel om rækkefølge af [Lighting](../11Systems/11_03_Systems_Lighting.md) i forhold til Ventilation.
 
 ###   
 **7.13.10.1** 
@@ -38,15 +38,15 @@
 
 *   Udvidet beskrvelsen af regulering af [Fan Coil](../11Systems/11_09_Fan_Coil_control.md).
 
-*   Udvidet beskrivelsen af [fixed format](../05Introduction/05_03_Climate_data_fixed_format.md) som bruges ved konvertering af klimadata.
+*   Udvidet beskrivelsen af [fixed format](../24Miscellaneous/24_61_Climate_data_fixed_format.md) som bruges ved konvertering af klimadata.
 
-*   Tilføjet advarsel om alfa-numeriske data ved [konvertering af klimadata](../05Introduction/05_04_Weather_data_conversion_to_tsbi5.md).
+*   Tilføjet advarsel om alfa-numeriske data ved [konvertering af klimadata](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md).
 
 *   Opdateret tekst for styring af [solafskærmning med lameller](../11Systems/11_15_Blind_control_for_shading.md).
 
 *   Tilføjet information om NvWaterTemp i data i [parameterlisten](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md).
 
-*   Oprettet ny side til [PackCalc](../24Miscellaneous/24_04_PackCalc.md).
+*   Oprettet ny side til [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md).
 
 *   Tilføjet information om Central Heat Pump på [Cooling](../11Systems/11_03_Cooling_system.md).
 
@@ -60,7 +60,7 @@
 
 *   Tilføjed [advarsel](../09SimView/09_10_WinDoor_property.md) mod brug af Overhangs og Sidefins i kombination med XSun solar distribution.
 
-*   Tilføjet "[på vandret](../05Introduction/05_02_Climate_data_definition.md)" for sol-data som skal konverteres til BSim's vejrdataformat.
+*   Tilføjet "[på vandret](../24Miscellaneous/24_58_Climate_data_definition.md)" for sol-data som skal konverteres til BSim's vejrdataformat.
 
 *   Opdateret grafik på [SolarSensorCtrl](../11Systems/11_16_Solar_sensor_control_for_shading.md).
 
@@ -119,7 +119,7 @@
 
 *   Tilføjet information om brug af [sekundært referencepunkt i SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) beregninger.
 
-*   Rettet fejl i automatisk [tilmelding til BSim debatforum via e-mail](../23Internet/23_02_Joining_BSim_forum.md).
+*   Rettet fejl i automatisk [tilmelding til BSim debatforum via e-mail](../23Internet/23_01_Join_the_debate_and_information_forum.md).
 
 ###   
 **6.9.10.23** 
@@ -250,7 +250,7 @@
 
 *   Rettet [bygningsbeskrivelse](../09SimView/09_02_Building_description.md) og slettet tekst der antydede at BSim ikke rummer en fuld 3D geometri.
 
-*   Tilføjet beskrivelse af hvordan en samling med [spørgsmål og svar fra debatforum](../23Internet/23_02_Joining_BSim_forum.md) kan hentes.
+*   Tilføjet beskrivelse af hvordan en samling med [spørgsmål og svar fra debatforum](../23Internet/23_01_Join_the_debate_and_information_forum.md) kan hentes.
 
 *   [SolarCtrl](../11Systems/11_16_Shading_control_based_on_solar_radiation_and_temperature.md) revideret.
 
@@ -280,7 +280,7 @@
 
     *   [Naturlig ventilation](../11Systems/11_11_Natural_ventilation_system.md).
 
-*   Tilføjet information om indholdet af [TRY klimadata](../05Introduction/05_04_Weather_data_conversion_to_tsbi5.md) og forbehold ved lufttryk = 0 i forbindelse med konvertering af klimadata.
+*   Tilføjet information om indholdet af [TRY klimadata](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) og forbehold ved lufttryk = 0 i forbindelse med konvertering af klimadata.
 
 *   Opdateret information om [standard-værdier](../24Miscellaneous/24_02_Default_surface_properties_for_daylight_calculations.md) for overfladeegenskaber ved lysberegninger.
 
@@ -309,7 +309,7 @@
 
 *   Opdateret tabel med[ varmeafgivelser fra personer.](../11Systems/11_07_Persons_system.md)
 
-*   Tilføjet information om hvilke virkelige [måneder](../05Introduction/05_04_Weather_data_conversion_to_tsbi5.md) der er i DRY.
+*   Tilføjet information om hvilke virkelige [måneder](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) der er i DRY.
 
 *   Tilføjet information om standardplacering for klimadata ved klik på Browse i [Site-property](../09SimView/09_05_Site_property.md).
 
@@ -435,7 +435,7 @@
 
 *   [help\menu_help.htm:](../23Internet/23_03_Help_menu.md) Udskiftet grafik og rettet mindre tekst-fejl.
 
-*   [help\tilmelding_debatforum.htm:](../23Internet/23_02_Joining_BSim_forum.md) Udskiftet links til BSim's web-sider.
+*   [help\tilmelding_debatforum.htm:](../23Internet/23_01_Join_the_debate_and_information_forum.md) Udskiftet links til BSim's web-sider.
 
 *   [tsbi5\heat_balance_parametres.htm:](../13tsbi5_thermal_simulation/13_06_Parameters_in_heat_balance.md) Korrigeret beskrivelse af temperaturgrænser.
 
