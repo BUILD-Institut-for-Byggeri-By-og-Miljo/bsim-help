@@ -875,4 +875,3 @@ bullet Tilføjet View/ConstDoc: gem tekstfil med oversigt over bygningens konstr
 *  <span id="red_text"> **BSim2002: Version 3.** </span>
 
 [Tidligere revisioner i BSim2000](../24Miscellaneous/24_69_Revisions_of_BSim2000.md)
- 
