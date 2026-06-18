@@ -12,11 +12,11 @@
 
 *   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_01_Join_the_debate_and_information_forum.md) og [send en e-mail til BSim listen](../23Internet/23_01_Join_the_debate_and_information_forum.md) with correct information about the list at AAU.
 
-*   Rettet formal for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](../20The_Mathematical_Basis/20_26_Calculation_of_long_wave_radiation_to_the_sky.md).
+*   Rettet formal for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md).
 
 *   Ændret download link for [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) til SBi's website.
 
-*   Tilføjet informatioon on tegningsstandarder og lagstruktur der benyttes i forbindelse med [SimDXF](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Select_DXF_filter.md).
+*   Tilføjet informatioon on tegningsstandarder og lagstruktur der benyttes i forbindelse med [SimDXF](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md).
 
 *   Tilføjet advarsel om rækkefølge af [Lighting](../11Systems/11_03_Systems_Lighting.md) i forhold til Ventilation.
 
@@ -28,94 +28,94 @@
 ###   
 **6.13.9.26**
 
-*   Tilføjet information om PackCalc under [Ventilation](../11Systems/11_04_Ventilation_systems.md) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Ventilation](../11Systems/11_21_Systems_Ventilation.md) og tilføjet link til download af programmet.
 
-*   Tilføjet information om PackCalc under [Cooling](../11Systems/11_03_Cooling_system.md) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Cooling](../11Systems/11_09_Systems_cooling.md) og tilføjet link til download af programmet.
 
-*   Tilføjet information om PackCalc under [Heating](../11Systems/11_02_Heating_system.md) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Heating](../11Systems/11_12_Systems_Heating.md) og tilføjet link til download af programmet.
 
-*   Tilføjet information om PackCalc under [Heatpump](../11Systems/11_05_Heat_pump_system.md) og tilføjet link til download af programmet.
+*   Tilføjet information om PackCalc under [Heatpump](../11Systems/11_20_Heat_pump.md) og tilføjet link til download af programmet.
 
-*   Udvidet beskrvelsen af regulering af [Fan Coil](../11Systems/11_09_Fan_Coil_control.md).
+*   Udvidet beskrvelsen af regulering af [Fan Coil](../24Miscellaneous/24_59_Fan_coil_control.md).
 
 *   Udvidet beskrivelsen af [fixed format](../24Miscellaneous/24_61_Climate_data_fixed_format.md) som bruges ved konvertering af klimadata.
 
 *   Tilføjet advarsel om alfa-numeriske data ved [konvertering af klimadata](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md).
 
-*   Opdateret tekst for styring af [solafskærmning med lameller](../11Systems/11_15_Blind_control_for_shading.md).
+*   Opdateret tekst for styring af [solafskærmning med lameller](../11Systems/11_15_Systems_shutter.md).
 
-*   Tilføjet information om NvWaterTemp i data i [parameterlisten](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md).
+*   Tilføjet information om NvWaterTemp i data i [parameterlisten](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md).
 
 *   Oprettet ny side til [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md).
 
-*   Tilføjet information om Central Heat Pump på [Cooling](../11Systems/11_03_Cooling_system.md).
+*   Tilføjet information om Central Heat Pump på [Cooling](../11Systems/11_09_Systems_cooling.md).
 
-*   Tilføjet information om Central Heat Pump på [Ventilation](../11Systems/11_04_Ventilation_systems.md).
+*   Tilføjet information om Central Heat Pump på [Ventilation](../11Systems/11_21_Systems_Ventilation.md).
 
-*   Tilføjet information om Central Heat Pump på [Heating](../11Systems/11_02_Heating_system.md).
+*   Tilføjet information om Central Heat Pump på [Heating](../11Systems/11_12_Systems_Heating.md).
 
 *   Ændret Be06 til Be10 på alle sider.
 
-*   Tilføjet beskrivelse til liste med [parametre](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md) i resultatloggen om hvordan qTransmis er beregnet.
+*   Tilføjet beskrivelse til liste med [parametre](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) i resultatloggen om hvordan qTransmis er beregnet.
 
-*   Tilføjed [advarsel](../09SimView/09_10_WinDoor_property.md) mod brug af Overhangs og Sidefins i kombination med XSun solar distribution.
+*   Tilføjed [advarsel](../09SimView/09_10_Climate_data.md) mod brug af Overhangs og Sidefins i kombination med XSun solar distribution.
 
 *   Tilføjet "[på vandret](../24Miscellaneous/24_58_Climate_data_definition.md)" for sol-data som skal konverteres til BSim's vejrdataformat.
 
-*   Opdateret grafik på [SolarSensorCtrl](../11Systems/11_16_Solar_sensor_control_for_shading.md).
+*   Opdateret grafik på [SolarSensorCtrl](../11Systems/11_16_Systems_shading.md).
 
-*   Opdateret grafik og tilføjet tekst om referencepunkter til [GlareCtrl](../11Systems/11_17_Glare_control_for_shading.md).
+*   Opdateret grafik og tilføjet tekst om referencepunkter til [GlareCtrl](../11Systems/11_17_Systems_Time.md).
 
-*   Udvidet beskrivelsen af oprettelse og brug af [referencepunkter](../10Thermal_zones/10_08_Reference_point.md).
+*   Udvidet beskrivelsen af oprettelse og brug af [referencepunkter](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md).
 
-*   Tilføjet manglende beskrivelse til [Blind control for solafskærmning](../11Systems/11_15_Blind_control_for_shading.md) og opdateret grafik.
+*   Tilføjet manglende beskrivelse til [Blind control for solafskærmning](../11Systems/11_15_Systems_shutter.md) og opdateret grafik.
 
-*   Rettet beskrivelse af *Min Supply Ratio* for [recirkulationsstyring af ventilationsluften](../11Systems/11_12_Recirculation_ventilation.md).
+*   Rettet beskrivelse af *Min Supply Ratio* for [recirkulationsstyring af ventilationsluften](../11Systems/11_28_Ventilation_Recirculation.md).
 
-*   Tilføjet beskrivelse af indsæt af grafik fra [SimLight](../15SimLight_Daylight_calculations/15_03_Daylight_calculation_in_a_plane.md) via Clipboard i nyere Office-programmer.
+*   Tilføjet beskrivelse af indsæt af grafik fra [SimLight](../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.md) via Clipboard i nyere Office-programmer.
 
-*   Udvidet beskrivelse af [Recess for Windoor](../09SimView/09_10_WinDoor_property.md).
+*   Udvidet beskrivelse af [Recess for Windoor](../09SimView/09_10_Climate_data.md).
 
-*   Tilføjet information om brug af 0 for MaxSun på [ShadingCtrl](../11Systems/11_18_Shading_control_based_on_solar_radiation_and_temperature.md).
+*   Tilføjet information om brug af 0 for MaxSun på [ShadingCtrl](../11Systems/11_18_Systems_Venting.md).
 
-*   Tilføjet variabelnavn *TiFraction* i beskrivelse af [egenskaber for termisk zone](../10Thermal_zones/10_01_Thermal_zone_property.md).
+*   Tilføjet variabelnavn *TiFraction* i beskrivelse af [egenskaber for termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md).
 
-*   Updated grafik for [inddata](../12The_Kappa_model/12_02_Input_data_Kappa_model.md) til Kappa-modellen og tilføjet variabelnavn TiFraction.
+*   Updated grafik for [inddata](../12The_Kappa_model/12_05_The_Kappa_Model_input_data.md) til Kappa-modellen og tilføjet variabelnavn TiFraction.
 
-*   Tilføjet link til [geometriske kuldebroer](../09SimView/09_13_Cold_bridges_geometric.md) under [konstruktive (linære) kuldebroer](../09SimView/09_12_Cold_bridges_linear.md).
+*   Tilføjet link til [geometriske kuldebroer](../09SimView/09_08_Thermal_bridges.md) under [konstruktive (linære) kuldebroer](../09SimView/09_08_Thermal_bridges.md).
 
-*   Tilføjet link til [konstruktive (linære) kuldebroer](../09SimView/09_12_Cold_bridges_linear.md) under [geometriske kuldebroer](../09SimView/09_13_Cold_bridges_geometric.md).
+*   Tilføjet link til [konstruktive (linære) kuldebroer](../09SimView/09_08_Thermal_bridges.md) under [geometriske kuldebroer](../09SimView/09_08_Thermal_bridges.md).
 
-*   Tilføjet information om advarslen Impossible Geometry for [Windoors](../09SimView/09_10_WinDoor_property.md).
+*   Tilføjet information om advarslen Impossible Geometry for [Windoors](../09SimView/09_07_Windoor_property.md).
 
 *   Rettet forkert beskrivelse af bygningens rotation på [Building Property](../09SimView/09_03_Property_dialogs_in_SimView.md).
 
-*   Udviklet beskrivelse af [resultatparameter](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md) WaterTempMean.
+*   Udviklet beskrivelse af [resultatparameter](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) WaterTempMean.
 
 ###   
 **6.11.1.17** 
 
 *   Tilføjet information om *Reg. System Time Step* på [tsbi5 | Options](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md).
 
-*   Tilføjet advarsel om tykkelsen af lag over gulvvarmeslanger for [vandbåren gulv-varme/køling](../11Systems/11_08_Floor_heating_cooling_system.md).
+*   Tilføjet advarsel om tykkelsen af lag over gulvvarmeslanger for [vandbåren gulv-varme/køling](../11Systems/11_07_Floor_Heating_Control.md).
 
-*   Tilføjet advarsel om brug af samme regulering for forskellige systemer til [regulering af vandbåren gulv-varme/køling](../11Systems/11_10_Floor_heating_cooling_control.md).
+*   Tilføjet advarsel om brug af samme regulering for forskellige systemer til [regulering af vandbåren gulv-varme/køling](../24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md).
 
-*   Tilføjet advarsel om brug af forskellige reguleringsformer inden for samme tidsangivelse i forbindelse med [regulering af vandbåren gulv-varme/køling](../11Systems/11_10_Floor_heating_cooling_control.md).
+*   Tilføjet advarsel om brug af forskellige reguleringsformer inden for samme tidsangivelse i forbindelse med [regulering af vandbåren gulv-varme/køling](../24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md).
 
 *   Tilføjet advarsel om nødvendigheden af individuel regulering for [elektrisk gulvvarme](../11Systems/11_07_Floor_Heating_Control.md) til hver termisk zone.
 
-*   Opdateret beskrivelse af parameteren *Lost* på [*ThermalZone property*](../10Thermal_zones/10_01_Thermal_zone_property.md) som angiver hvor meget sol der tabes inden den afsættes i zonen og opdateret grafik.
+*   Opdateret beskrivelse af parameteren *Lost* på [*ThermalZone property*](../10Thermal_zones/10_01_Thermal_Zone_property.md) som angiver hvor meget sol der tabes inden den afsættes i zonen og opdateret grafik.
 
-*   Tilføjet information om tsbi5 Batch til [værktøjsbjælken](../09SimView/09_01_SimView_toolbar.md) og opdateret lay-out af siden.
+*   Tilføjet information om tsbi5 Batch til [værktøjsbjælken](../09SimView/09_01_SimView.md) og opdateret lay-out af siden.
 
 *   Oprettet side som skal indeholde information om [batch-afvikling](../13tsbi5_thermal_simulation/13_08_tsbi5_Batch.md) af simuleringer.
 
-*   Tilføjet information om [maksimal længde](../24Miscellaneous/24_01_Limitations.md) på modelnavne ved sammenligning af resultater på tværs af modeller.
+*   Tilføjet information om [maksimal længde](../05Introduction/05_05_Limitations.md) på modelnavne ved sammenligning af resultater på tværs af modeller.
 
-*   Tilføjet information om valg af flere styringer til [FloorHeatingCooling](../11Systems/11_10_Floor_heating_cooling_control.md).
+*   Tilføjet information om valg af flere styringer til [FloorHeatingCooling](../24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md).
 
-*   Tilføjet information om *ExtIlum* og *WinIllum2* i [resultatloggen](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md).
+*   Tilføjet information om *ExtIlum* og *WinIllum2* i [resultatloggen](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md).
 
 *   Tilføjet information om brug af [sekundært referencepunkt i SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) beregninger.
 
@@ -124,21 +124,21 @@
 ###   
 **6.9.10.23** 
 
-*   Tilføjet tekst om valg af designparametre for [varmepumper](../11Systems/11_05_Heat_pump_system.md) og på [Heatloss](../13tsbi5_thermal_simulation/13_09_Model_Information.md) fanebladet på [SimView menuens Defaults](../09SimView/09_04_SimView_menu_Defaults.md) dialog.
+*   Tilføjet tekst om valg af designparametre for [varmepumper](../11Systems/11_20_Heat_pump.md) og på [Heatloss](../09SimView/09_11_Model_information.md) fanebladet på [SimView menuens Defaults](../09SimView/09_11_Model_information.md) dialog.
 
-*   Rettet beskrivelse af [FanCoilControl](../11Systems/11_09_Fan_Coil_control.md).
+*   Rettet beskrivelse af [FanCoilControl](../24Miscellaneous/24_59_Fan_coil_control.md).
 
-*   Tilføjet information om udvendigt overgangstal i forbindelse med konstruktioner mod jord på [Finish Property](../09SimView/09_08_Finish_property.md).
+*   Tilføjet information om udvendigt overgangstal i forbindelse med konstruktioner mod jord på [Finish Property](../24Miscellaneous/24_34_Finish_Property.md).
 
-*   Rettet beskrivelse af solens azimut-vinkel i [resultatloggen](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md).
+*   Rettet beskrivelse af solens azimut-vinkel i [resultatloggen](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md).
 
-*   Tilføjet information om ny parameter for gulvvarme i [resultatloggen](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md) (*WaterTempSupply*) og omdøbning af *WaterTemp* til *WaterTempMean*.
+*   Tilføjet information om ny parameter for gulvvarme i [resultatloggen](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) (*WaterTempSupply*) og omdøbning af *WaterTemp* til *WaterTempMean*.
 
-*   Opdateret grafik og tilføjet information om ny parameter i [varmebalancen](../13tsbi5_thermal_simulation/13_05_tsbi5_Heat_balance.md) og [parametre i varmebalancen](../13tsbi5_thermal_simulation/13_06_Parameters_in_heat_balance.md) (FloorCool).
+*   Opdateret grafik og tilføjet information om ny parameter i [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) og [parametre i varmebalancen](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) (FloorCool).
 
-*   Tilføjet information om at *Sidefin* og *Overhang* ikke fungerer sammen med [XSun solfordeling](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) på [WinDoor property](../09SimView/09_10_WinDoor_property.md) hjælpen.
+*   Tilføjet information om at *Sidefin* og *Overhang* ikke fungerer sammen med [XSun solfordeling](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) på [WinDoor property](../09SimView/09_07_Windoor_property.md) hjælpen.
 
-*   Opdateret grafik og tilføjet information om knapperne *Table Values og Remove Table* (definition af [solafskærmning via ekstern fil](../11Systems/11_19_Standard_tables_for_blinds_shading.md)) fra [solafskærmningen](../11Systems/11_14_Shading_system.md).
+*   Opdateret grafik og tilføjet information om knapperne *Table Values og Remove Table* (definition af [solafskærmning via ekstern fil](../24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.md)) fra [solafskærmningen](../11Systems/11_16_Systems_shading.md).
 
 *   Oprettet ny side med beskrivelse af definition af [solafskærmning via ekstern fil](../11Systems/11_19_Standard_tables_for_blinds_shading.md).
 
