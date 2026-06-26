@@ -3,7 +3,7 @@
 
 # Opsætning af applikationer
 
-Det er muligt at tilføje egne applikationer til BSims generelle [værktøjsbjælke]() gennem indgangen *Application* | *Setup*, som åbner følgende dialog.
+Det er muligt at tilføje egne applikationer til BSims generelle [værktøjsbjælke](../06BSim_Program_structure/06_05_SimView_Toolbar.md) gennem indgangen *Application* | *Setup*, som åbner følgende dialog.
 
 <figure id="center_img">
 <img src="./assets/AplicationConfig.jpg" alt="Dialog (Application Config) for tilføjelse af programmer til BSim værktøjsbjælken.">
