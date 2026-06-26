@@ -121,10 +121,10 @@
 
 *   Rettet fejl i automatisk [tilmelding til BSim debatforum via e-mail](../23Internet/23_01_Join_the_debate_and_information_forum.md).
 
-###   
-**6.9.10.23** 
+###
+**6.9.10.23** -
 
-*   Tilføjet tekst om valg af designparametre for [varmepumper](../11Systems/11_20_Heat_pump.md) og på [Heatloss](../09SimView/09_11_Model_information.md) fanebladet på [SimView menuens Defaults](../09SimView/09_11_Model_information.md) dialog.
+*   Tilføjet tekst om valg af designparametre for [varmepumper](../11Systems/11_20_Heat_pump.md) og på [Heatloss](../09SimView/09_11_Model_information.md) fanebladet på [SimView menuens Defaults](../06BSim_Program_structure/06_04_Program_menus_in_BSim.md) dialog.
 
 *   Rettet beskrivelse af [FanCoilControl](../24Miscellaneous/24_59_Fan_coil_control.md).
 
@@ -134,37 +134,30 @@
 
 *   Tilføjet information om ny parameter for gulvvarme i [resultatloggen](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) (*WaterTempSupply*) og omdøbning af *WaterTemp* til *WaterTempMean*.
 
-*   Opdateret grafik og tilføjet information om ny parameter i [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) og [parametre i varmebalancen](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) (FloorCool).
+*   Opdateret grafik og tilføjet information om ny parameter i [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) og [parametre i varmebalancen](../24Miscellaneous/24_65_Parameters_in_the_heat_balance.md) (FloorCool).
 
 *   Tilføjet information om at *Sidefin* og *Overhang* ikke fungerer sammen med [XSun solfordeling](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) på [WinDoor property](../09SimView/09_07_Windoor_property.md) hjælpen.
 
 *   Opdateret grafik og tilføjet information om knapperne *Table Values og Remove Table* (definition af [solafskærmning via ekstern fil](../24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.md)) fra [solafskærmningen](../11Systems/11_16_Systems_shading.md).
 
-*   Oprettet ny side med beskrivelse af definition af [solafskærmning via ekstern fil](../11Systems/11_19_Standard_tables_for_blinds_shading.md).
+*   Oprettet ny side med beskrivelse af definition af [solafskærmning via ekstern fil](../24Miscellaneous/24_32_Standard_tables_for_slate_based_shading_systems.md).
 
-*   Opdateret beskrivelse af [Room Property](../10Thermal_zones/10_04_Room_property.md) med information om muligheden for valg af udeklimaet som temperatur og fugt i et rum uden for de termiske zoner.
+*   Opdateret beskrivelse af [Room Property](../24Miscellaneous/24_55_Room_property.md) med information om muligheden for valg af udeklimaet som temperatur og fugt i et rum uden for de termiske zoner.
 
-*   Opdateret grafik og tilføjet link til [NvCoolCtrl](../11Systems/11_20_NvCool_control_ventilation.md) fra [Ventilation](../11Systems/11_04_Ventilation_systems.md) og reguleringsformerne: [InletCtrl](../11Systems/11_21_Inlet_control_ventilation.md), [ZoneTempCtrl](../11Systems/11_22_Zone_temperature_control_ventilation.md), [MoistureCtrl](../11Systems/11_23_Moisture_control_ventilation.md), [VAVCtrl](../11Systems/11_24_VAV_control_ventilation.md), [NightCoolCtrl](../11Systems/11_25_Night_cooling_ventilation.md), og [ReturnAirCtrl](../11Systems/11_12_Recirculation_ventilation.md).
+*   Opdateret grafik og tilføjet link til [NvCoolCtrl](../11Systems/11_27_NvCool_regulation_ventilation.md) fra [Ventilation](../11Systems/11_21_Systems_Ventilation.md) og reguleringsformerne: [InletCtrl](../11Systems/11_23_Ventilation_Inlet_Control.md), [ZoneTempCtrl](../11Systems/11_25_Ventilation_Zone_Temperature_control.md), [MoistureCtrl](../11Systems/11_22_Ventilation_Moisture_control.md), [VAVCtrl](../11Systems/11_26_Ventilation_VAV_control.md), [NightCoolCtrl](../11Systems/11_24_Ventilation_Night_Cooling_Control.md), og [ReturnAirCtrl](../11Systems/11_28_Ventilation_Recirculation.md).
 
-*   Opdateret grafik og tilføjet information om parameteren *Master Zone* ved [rumtemperaturregulering](../11Systems/11_22_Zone_temperature_control_ventilation.md) af ventilationen.
+*   Opdateret grafik og tilføjet information om parameteren *Master Zone* ved [rumtemperaturregulering](../11Systems/11_25_Ventilation_Zone_Temperature_control.md) af ventilationen.
 
-*   Tilføjet link til de øvrige reguleringsformer for ventilation fra [NvCoolCtrl](../11Systems/11_20_NvCool_control_ventilation.md).
+*   Tilføjet link til de øvrige reguleringsformer for ventilation fra [NvCoolCtrl](../11Systems/11_27_NvCool_regulation_ventilation.md).
 
-*   Opdateret grafik og tilføjet information om parameteren *SwitchOff* i forbindelse med [styring af kunstlyset efter dagslyset](../11Systems/11_28_Lighting_Daylight_control.md).
+*   Opdateret grafik og tilføjet information om parameteren *SwitchOff* i forbindelse med [styring af kunstlyset efter dagslyset](../24Miscellaneous/24_10_Daylight_Control.md).
 
-*   Opdateret grafik og tilføjet information om parameteren Solar Limit i forbindelse med styring af [kunstlyset efter sollyset](../11Systems/11_27_Lighting_control.md).
+*   Opdateret grafik og tilføjet information om parameteren Solar Limit i forbindelse med styring af [kunstlyset efter sollyset](../24Miscellaneous/24_09_L)".
 
-*   Opdateret grafik og tabel til beskrivelse af [solafskærmning](../11Systems/11_14_Shading_system.md) og tilføjet information om brug af data fra eksterne tabeller.
+*   Tilføjet information om gemning af resultater i [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) ved "Alt + X".
 
-*   Opdateret grafik til [VAV regulering](../11Systems/11_24_VAV_control_ventilation.md) og tilføjet information om [regulering efter CO2 indholdet](../11Systems/11_24_VAV_control_ventilation.md) i indeluften.
+*   Fjernet forbehold for fordampningsmodeller fra [vandoverflader](../11Systems/11_05_Systems_Moisture.md).
 
-*   Opdateret grafik til [køling](../11Systems/11_03_Cooling_system.md).
-
-*   Tilføjet information om at *.mdb filer omdøbes ved "[Mail project to ...](../09SimView/09_11_File_menu.md)".
-
-*   Tilføjet information om gemning af resultater i [varmebalancen](../13tsbi5_thermal_simulation/13_05_tsbi5_Heat_balance.md) ved "Alt + X".
-
-*   Fjernet forbehold for fordampningsmodeller fra [vandoverflader](../11Systems/11_29_Moisture_system.md).
 
 ###   
 **6.9.8.24** 
