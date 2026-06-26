@@ -1783,100 +1783,99 @@
 
 *   Opdateret beskrivelse af brug af [overfladeegenskaber](../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md) i simuleringerne.
 
-###   
-**6.8.4.30** 
+###
+**6.8.4.30** -
 
-*   Opdateret grafik for [varmebalancen](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md) og [parametre i varmebalancen](../10Thermal_zones/10_03_Reference_point.md) og udvidet med parametre for varmepumper.
+*   Opdateret grafik for [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) og [parametre i varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) og udvidet med parametre for varmepumper.
 
-*   Opdateret listen med [parametre i resultatloggen](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) med nye parametre (HeatPump, HeatPumpEl, RtnFrac, Filtration, WaterTemp).
+*   Opdateret listen med [parametre i resultatloggen](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) med nye parametre (HeatPump, HeatPumpEl, RtnFrac, Filtration, WaterTemp).
 
-*   Opdateret grafik for [Finish property](../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.md) og beskrevet parameteren Filtration som bestemmer utætheden af konstruktionen.
+*   Opdateret grafik for [Finish property](../24Miscellaneous/24_34_Finish_Property.md) og beskrevet parameteren Filtration som bestemmer utætheden af konstruktionen.
 
-*   Opdateret grafik for [materialedelen af databasen](../10Thermal_zones/10_01_Thermal_Zone_property.md) og beskrevet materialegruppe v.
+*   Opdateret grafik for [materialedelen af databasen](../07SimDB_Database/07_06_SimDB_BuildingMaterial.md) og beskrevet materialegruppe v.
 
 *   Ændret træstrukturen i hjælpen, indføjet termiske zoner og flyttet Systemer og Kappa-modellen ind som underemner.
 
-*   Oprettet ny side til beskrivelse af [referencepunkter](../24Miscellaneous/24_55_Room_property.md) i et rum.
+*   Oprettet ny side til beskrivelse af [referencepunkter](../10Thermal_zones/10_03_Reference_point.md) i et rum.
 
-*   Tilføjet beregning med SimLight i et [punkt](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) og et [plan](../06BSim_Program_structure/06_05_SimView_Toolbar.md) til navigationsstrukturen.
+*   Tilføjet beregning med SimLight i et [punkt](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) og et [plan](../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.md) til navigationsstrukturen.
 
-*   Flyttet navigationen for [termiske zoner](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) og rum til en del af SimView.
+*   Flyttet navigationen for [termiske zoner](../10Thermal_zones/10_01_Thermal_Zone_property.md) og rum til en del af SimView.
 
-*   Tilføjet information om åbning af [room property](../20The_Mathematical_Basis/20_27_Floor_heating_mathematical_basis.md) dialog.
+*   Tilføjet information om åbning af [room property](../24Miscellaneous/24_55_Room_property.md) dialog.
 
-*   Opdateret grafik og tekst til [SimLight](../11Systems/11_27_NvCool_regulation_ventilation.md).
+*   Opdateret grafik og tekst til [SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md).
 
-*   Opdateret [forord](../24Miscellaneous/24_07_Glare_Control.md).
+*   Opdateret [forord](../04Users_guide/04_02_Foreword.md).
 
 *   Renset hjælpeteksten for henvisninger til Bv98 hvor det er passende.
 
-*   Opdateret information om [ThermalZoneProperty ](../11Systems/11_20_Heat_pump.md)med henvisning til Be06 i stedet for Bv98.
+*   Opdateret information om [ThermalZoneProperty ](../10Thermal_zones/10_01_Thermal_Zone_property.md)med henvisning til Be06 i stedet for Bv98.
 
-*   Oprettet ny side med information om [konvertering af bygningsmodel](../11Systems/11_06_Hydronic_constructive_heating_cooling.md) til brug i Be06.
+*   Oprettet ny side med information om [konvertering af bygningsmodel](../24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md) til brug i Be06.
 
-*   Opdateret [værktøjsbjælken](../11Systems/11_07_Floor_Heating_Control.md) med information om brug af Be06 ikonen.
+*   Opdateret [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md) med information om brug af Be06 ikonen.
 
-*   Opdateret tekst for qSunRad i [parameterlisten](../20The_Mathematical_Basis/20_02_Building_description_and_definition_of_nodes_in_constructions.md).
+*   Opdateret tekst for qSunRad i [parameterlisten](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md).
 
-*   Oprettet ny side med beskrivelse af det [matematiske grundlag for vandbåre gulvvarme (engelsk).](../23Internet/23_01_Join_the_debate_and_information_forum.md)
+*   Oprettet ny side med beskrivelse af det [matematiske grundlag for vandbåre gulvvarme (engelsk).](../20The_Mathematical_Basis/20_27_Floor_heating_mathematical_basis.md)
 
-*   Oprettet ny side til beskrivelse af ny [styring (NVVK)](../24Miscellaneous/24_04_Shading_Control.md) til mekanisk ventilation.
+*   Oprettet ny side til beskrivelse af ny [styring (NVVK)](../24Miscellaneous/24_08_Venting_Control.md) til mekanisk ventilation.
 
-*   Oprettet ny side med beskrivelse af [blændingsregulering](../24Miscellaneous/24_06_Blind_control.md) for solafskærmning.
+*   Oprettet ny side med beskrivelse af [blændingsregulering](../24Miscellaneous/24_07_Glare_Control.md) for solafskærmning.
 
-*   Oprettet ny side til beskrivelse af [varmepumper](../06BSim_Program_structure/06_05_SimView_Toolbar.md).
+*   Oprettet ny side til beskrivelse af [varmepumper](../11Systems/11_20_Heat_pump.md).
 
-*   Oprettet ny side til beskrivelse af system med vandbåren [gulvvarme](../24Miscellaneous/24_18_Application.md).
+*   Oprettet ny side til beskrivelse af system med vandbåren [gulvvarme](../11Systems/11_07_Floor_Heating_Control.md).
 
-*   Oprettet ny side til beskrivelse [regulering for vandbåren gulvvarme](../24Miscellaneous/24_62_Regulation.md).
+*   Oprettet ny side til beskrivelse [regulering for vandbåren gulvvarme](../11Systems/11_07_Floor_Heating_Control.md).
 
-*   Rettet [bygningsbeskrivelse](../24Miscellaneous/24_05_External_sensor_control.md) og slettet tekst der antydede at BSim ikke rummer en fuld 3D geometri.
+*   Rettet [bygningsbeskrivelse](../20The_Mathematical_Basis/20_02_Building_description_and_definition_of_nodes_in_constructions.md) og slettet tekst der antydede at BSim ikke rummer en fuld 3D geometri.
 
-*   Tilføjet beskrivelse af hvordan en samling med [spørgsmål og svar fra debatforum](../11Systems/11_16_Systems_shading.md) kan hentes.
+*   Tilføjet beskrivelse af hvordan en samling med [spørgsmål og svar fra debatforum](../23Internet/23_01_Join_the_debate_and_information_forum.md) kan hentes.
 
-*   [SolarCtrl](../22Revisions/22_02_Building_model_updates.md) revideret.
+*   [SolarCtrl](../24Miscellaneous/24_05_External_sensor_control.md) revideret.
 
-*   Oprettet ny side til regulering af [Persienner](../11Systems/11_11_Natural_ventilation.md).
+*   Oprettet ny side til regulering af [Persienner](../24Miscellaneous/24_06_Blind_control.md).
 
-*   Opdateret [værktøjsbjælken](../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md) med ikon for BEAT.
+*   Opdateret [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md) med ikon for BEAT.
 
-*   Oprettet side til beskrivelse af [BEAT](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md)
+*   Oprettet side til beskrivelse af [BEAT](../24Miscellaneous/24_68_Description.md)
 
 *   [Regulation](../11Systems/11_11_Natural_ventilation.md) for åbning af vinduer, siden er under opbygning!
 
-*   Oprettet ny side med regulering af solafskærmning efter [udvendig sensor](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md).
+*   Oprettet ny side med regulering af solafskærmning efter [udvendig sensor](../24Miscellaneous/24_05_External_sensor_control.md).
 
-*   Opdateret grafik og beskrivelse af [solafskærmning](../11Systems/11_13_Systems_Persons.md).
+*   Opdateret grafik og beskrivelse af [solafskærmning](../11Systems/11_16_Systems_shading.md).
 
 *   Opdateret afsnittet med internetforbindelser (opdateringer, faq, etc.).
 
-*   Oprettet ny side med information om [opdateringer af bygningsmodellen](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) for check af kompatibilitet med gamle bygningsmodeller. Oprettet link til siden under fra afsnittet revisioner.
+*   Oprettet ny side med information om [opdateringer af bygningsmodellen](../22Revisions/22_02_Building_model_updates.md) for check af kompatibilitet med gamle bygningsmodeller. Oprettet link til siden under fra afsnittet revisioner.
 
 *   Tilføjet information om konstanten Ka på siderne:
 
-    *   [Aktivering af model for naturlig ventilation](../24Miscellaneous/24_25_Site_Property.md),
+    *   [Aktivering af model for naturlig ventilation](../11Systems/11_11_Natural_ventilation.md),
 
-    *   [tsbi5, Natural Ventilation options](../24Miscellaneous/24_54_WinDoor_overhangs_and_side-fins.md),
+    *   [tsbi5, Natural Ventilation options](../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md),
 
-    *   [Parametre til naturlig ventilation](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md),
+    *   [Parametre til naturlig ventilation](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md),
 
-    *   [Naturlig ventilation](../05Introduction/05_05_Limitations.md).
+    *   [Naturlig ventilation](../20The_Mathematical_Basis/20_12_Natural_ventilation.md).
 
 *   Tilføjet information om indholdet af [TRY klimadata](../24Miscellaneous/24_25_Site_Property.md) og forbehold ved lufttryk = 0 i forbindelse med konvertering af klimadata.
 
 *   Opdateret information om [standard-værdier](../24Miscellaneous/24_26_Ground.md) for overfladeegenskaber ved lysberegninger.
 
-*   Tilføjet lufttryk til listen med [resultatparametre](../24Miscellaneous/24_11_Mixing_Control.md).
+*   Tilføjet lufttryk til listen med [resultatparametre](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md).
 
-*   Opdateret "signatur" i [forord](../11Systems/11_01_Systems.md).
+*   Opdateret "signatur" i [forord](../04Users_guide/04_02_Foreword.md).
 
-*   Opdateret tekst vedr. begrænsninger ved [SimLight](../11Systems/11_11_Natural_ventilation.md).
+*   Opdateret tekst vedr. begrænsninger ved [SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md).
 
-*   Tilføjet tekst til ny [resultatparameter: NyDuct](../11Systems/11_11_Natural_ventilation.md) på konstruktioner.
+*   Tilføjet tekst til ny [resultatparameter: NyDuct](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) på konstruktioner.
 
 
-###
-**5,7,1,19** -
+### **5,7,1,19** -
 
 *   Tilføjet Aalborg Universitet i toppen af alle hjælpesider.
 
@@ -1911,15 +1910,13 @@
 *   [Systemer](../11Systems/11_01_Systems.md): Tilføjet recirkulationsregulering af ventilationsluft.
 
 
-###
-**5,6,8,21** -
+### **5,6,8,21** -
 
 *   [tsbi5\tsbi5_nvoptions_page.htm](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) &amp; [system\natural_ventilation.htm](../11Systems/11_11_Natural_ventilation.md) &amp; [simview\nat_vent.htm:](../11Systems/11_11_Natural_ventilation.md) Link til ny side med information om hvordan Cd og Ka bestemmes samt disclaimer om mzm i beta-test.
 
 *   [theory\mzm_cd_ka.htm:](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) Ny side med information om Ka fra Danvak grundbogen og om bestemmelse af Cd fra SBi anvisning 202, side 70-71. Desuden disclaimer om mzm i beta-test.
 
-###   
-**5,6,8,4** -
+###    **5,6,8,4** -
 
 *   [simview\simview_print_model.htm:](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md) Tilføjet link til side med fejlmeddelelser.
 
@@ -1931,8 +1928,7 @@
 
 *   [SimDb\simdb-bm-thermal.htm:](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
 
-###   
-**5,6,6,30** -
+###   **5,6,6,30** -
 
 *   [SimDb\simdb-be-contructionlayer.htm](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md): Tilføjet reference til nedhængt loft.
 
@@ -1946,8 +1942,7 @@
 
 *   [systems/light_daylightcontrol.htm:](../24Miscellaneous/24_10_Daylight_Control.md) Slettet dobbelt tekstafsnit.
 
-###
-**5,6,3,8** -
+### **5,6,3,8** -
 
 *   [tsbi5/tsbi5_options_page.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Opdateret tekst og tilføjet link til regulering af mzm.
 
