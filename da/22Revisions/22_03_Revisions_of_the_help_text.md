@@ -1911,135 +1911,135 @@
 *   [Systemer](../11Systems/11_01_Systems.md): Tilføjet recirkulationsregulering af ventilationsluft.
 
 
-###   
-**5,6,8,21** 
+###
+**5,6,8,21** -
 
-*   [tsbi5\tsbi5_nvoptions_page.htm](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) & [system\natural_ventilation.htm](../11Systems/11_11_Natural_ventilation.md) & [simview\nat_vent.htm:](../11Systems/11_21_Systems_Ventilation.md) Link til ny side med information om hvordan Cd og Ka bestemmes samt disclaimer om mzm i beta-test.
+*   [tsbi5\tsbi5_nvoptions_page.htm](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) &amp; [system\natural_ventilation.htm](../11Systems/11_11_Natural_ventilation.md) &amp; [simview\nat_vent.htm:](../11Systems/11_11_Natural_ventilation.md) Link til ny side med information om hvordan Cd og Ka bestemmes samt disclaimer om mzm i beta-test.
 
-*   [theory\mzm_cd_ka.htm:](../11Systems/11_26_Ventilation_VAV_control.md) Ny side med information om Ka fra Danvak grundbogen og om bestemmelse af Cd fra SBi anvisning 202, side 70-71. Desuden disclaimer om mzm i beta-test.
-
-###   
-**5,6,8,4** 
-
-*   [simview\simview_print_model.htm:](../11Systems/11_22_Ventilation_Moisture_control.md) Tilføjet link til side med fejlmeddelelser.
-
-*   [ErrorMsg.htm:](../11Systems/11_25_Ventilation_Zone_Temperature_control.md) Ny side med samling af fejlmeddelelser, primært fra ModelList.
-
-*   [limitations.htm:](../11Systems/11_23_Ventilation_Inlet_Control.md) Tilføjet tekst om oprettelse af nye materialer.
-
-*   [SimDb\simdb-bm-moist.htm:](../11Systems/11_24_Ventilation_Night_Cooling_Control.md) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
-
-*   [SimDb\simdb-bm-thermal.htm:](../20The_Mathematical_Basis/20_14_The_multizone_model.md) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
+*   [theory\mzm_cd_ka.htm:](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) Ny side med information om Ka fra Danvak grundbogen og om bestemmelse af Cd fra SBi anvisning 202, side 70-71. Desuden disclaimer om mzm i beta-test.
 
 ###   
-**5,6,6,30** 
+**5,6,8,4** -
 
-*   [SimDb\simdb-be-contructionlayer.htm](../20The_Mathematical_Basis/20_16_System_for_air_exchange.md): Tilføjet reference til nedhængt loft.
+*   [simview\simview_print_model.htm:](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md) Tilføjet link til side med fejlmeddelelser.
 
-*   [tsbi5\climate.htm:](../20The_Mathematical_Basis/20_17_Implementation_of_mzm.md) Tilføjet enheder og tilladte værdier for input til konvertering af klimadata.
+*   [ErrorMsg.htm:](../06BSim_Program_structure/06_08_Error_messages.md) Ny side med samling af fejlmeddelelser, primært fra ModelList.
 
-*   [theory\theory_solar_and_daylight.htm:](../20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.md) Tilføjet referencer til modeller for solstråling og navnet på den beskrevne model <span id="red_text"> (mangler to referencer). </span> <!-- XXX -->
+*   [limitations.htm:](../05Introduction/05_05_Limitations.md) Tilføjet tekst om oprettelse af nye materialer.
 
-*   [limitations.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Korrigeret tekst med begrænsninger til solfordeling med XSun.
+*   [SimDb\simdb-bm-moist.htm:](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
 
-*   [tsbi5/tsbi5_tables.htm:](../11Systems/11_28_Ventilation_Recirculation.md) Tilføjet information om eksport af timedata til *.txt fil.
-
-*   [systems/light_daylightcontrol.htm:](../20The_Mathematical_Basis/20_21_Recirculation_of_ventilation_air.md) Slettet dobbelt tekstafsnit.
+*   [SimDb\simdb-bm-thermal.htm:](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
 
 ###   
-**5,6,3,8** 
+**5,6,6,30** -
 
-*   [tsbi5/tsbi5_options_page.htm:](../11Systems/11_13_Systems_Persons.md) Opdateret tekst og tilføjet link til regulering af mzm.
+*   [SimDb\simdb-be-contructionlayer.htm](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md): Tilføjet reference til nedhængt loft.
 
-*   [litteratur.htm:](../11Systems/11_03_Systems_Lighting.md) Tilføjet Jensen R.L. thesis om mzm samt diverse link med relation til mzm.
+*   [tsbi5\climate.htm:](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) Tilføjet enheder og tilladte værdier for input til konvertering af klimadata.
 
-*   [simview\menu_edit.htm:](../05Introduction/05_08_File_types.md) Rettet link til side med generelle options for tsbi5.
+*   [theory\theory_solar_and_daylight.htm:](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md) Tilføjet referencer til modeller for solstråling og navnet på den beskrevne model <span id="red_text"> (mangler to referencer). </span> <!-- XXX -->
 
-*   [tsbi5\tsbi5_options.htm:](../24Miscellaneous/24_65_Parameters_in_the_heat_balance.md) Tilføjet information om anvendelse af mzm.
+*   [limitations.htm:](../05Introduction/05_05_Limitations.md) Korrigeret tekst med begrænsninger til solfordeling med XSun.
 
-*   [systms\natural_ventilation.htm:](../20The_Mathematical_Basis/20_28_Literature.md) Tilføjet reference til mzm for simulering af multi-zone naturlig ventilation. Opdateret tekst så både ezm og mzm behandles.
+*   [tsbi5/tsbi5_tables.htm:](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md) Tilføjet information om eksport af timedata til *.txt fil.
 
-*   [simlight\simlight_punkt.htm:](../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md) Opdateret grafik og tilføjet midlertidig beskrivelse af Daylighting under Transfer SF.
+*   [systems/light_daylightcontrol.htm:](../24Miscellaneous/24_10_Daylight_Control.md) Slettet dobbelt tekstafsnit.
 
-*   [systems\systems_venting.htm:](../24Miscellaneous/24_27_Building_Property.md) Tilføjet reference til mzm for simulering af multi-zone naturlig ventilation.
+###
+**5,6,3,8** -
 
-*   [systems\systems_ventilation.htm:](../24Miscellaneous/24_67_Default_values.md) Opdateret grafik og link til recirkulation.
+*   [tsbi5/tsbi5_options_page.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Opdateret tekst og tilføjet link til regulering af mzm.
 
-*   [systems\vavregulering.htm:](../24Miscellaneous/24_34_Finish_Property.md) Opdateret grafik og link til recirkulation.
+*   [litteratur.htm:](../20The_Mathematical_Basis/20_28_Literature.md) Tilføjet Jensen R.L. thesis om mzm samt diverse link med relation til mzm.
 
-*   [systems\fugtregulering.htm:](../21Getting_started_with_BSim/21_02_Learning_examples.md) Opdateret grafik og link til recirkulation.
+*   [simview\menu_edit.htm:](../06BSim_Program_structure/06_04_Program_menus_in_BSim.md) Rettet link til side med generelle options for tsbi5.
 
-*   [systems\rumtemperaturregulering.htm:](../24Miscellaneous/24_23_Help.md) Opdateret grafik og link til recirkulation.
+*   [tsbi5\tsbi5_options.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Tilføjet information om anvendelse af mzm.
 
-*   [systems\indblæsningsstyring.htm:](../24Miscellaneous/24_65_Parameters_in_the_heat_balance.md) Opdateret grafik og link til recirkulation.
+*   [systms\natural_ventilation.htm:](../11Systems/11_11_Natural_ventilation.md) Tilføjet reference til mzm for simulering af multi-zone naturlig ventilation. Opdateret tekst så både ezm og mzm behandles.
 
-*   [systems\natkøling.htm](../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.md): Opdateret grafik og link til recirkulation.
+*   [simlight\simlight_punkt.htm:](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) Opdateret grafik og tilføjet midlertidig beskrivelse af Daylighting under Transfer SF.
 
-*   [theory\mzm.htm:](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md) Startside for teori for mzm - multizone model for naturlig ventilation.
+*   [systems\systems_venting.htm:](../11Systems/11_18_Systems_Venting.md) Tilføjet reference til mzm for simulering af multi-zone naturlig ventilation.
 
-*   [theory\mzm_luftudveksling.htm:](../20The_Mathematical_Basis/20_24_Form_factor_between_two_polygons.md) Ny side med luftudvekslingsteori for mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+*   [systems\systems_ventilation.htm:](../11Systems/11_21_Systems_Ventilation.md) Opdateret grafik og link til recirkulation.
 
-*   [theory\mzm_implementering.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Ny side om implementering af mzm i BSim. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+*   [systems\vavregulering.htm:](../11Systems/11_26_Ventilation_VAV_control.md) Opdateret grafik og link til recirkulation.
 
-*   [theory\mzm_regulering.htm:](../11Systems/11_10_systems_mixing.md) Ny side om regulering af mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+*   [systems\fugtregulering.htm:](../11Systems/11_22_Ventilation_Moisture_control.md) Opdateret grafik og link til recirkulation.
+
+*   [systems\rumtemperaturregulering.htm:](../11Systems/11_25_Ventilation_Zone_Temperature_control.md) Opdateret grafik og link til recirkulation.
+
+*   [systems\indblæsningsstyring.htm:](../11Systems/11_23_Ventilation_Inlet_Control.md) Opdateret grafik og link til recirkulation.
+
+*   [systems\natkøling.htm](../11Systems/11_24_Ventilation_Night_Cooling_Control.md): Opdateret grafik og link til recirkulation.
+
+*   [theory\mzm.htm:](../20The_Mathematical_Basis/20_14_The_multizone_model.md) Startside for teori for mzm - multizone model for naturlig ventilation.
+
+*   [theory\mzm_luftudveksling.htm:](../20The_Mathematical_Basis/20_16_System_for_air_exchange.md) Ny side med luftudvekslingsteori for mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+
+*   [theory\mzm_implementering.htm:](../20The_Mathematical_Basis/20_17_Implementation_of_mzm.md) Ny side om implementering af mzm i BSim. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+
+*   [theory\mzm_regulering.htm:](../20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.md) Ny side om regulering af mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
+
+###
+**5,6,2,6** - 
+
+*   [tsbi5\par-list.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Tilføjet information om valg af resultater på tsbi5/Options.
+
+*   [systems\recirculation_ctrl.htm:](../11Systems/11_28_Ventilation_Recirculation.md) Ny side med beskrivelse af regulering af recirkuleret ventilationsluft.
+
+*   [theory\recirculation.htm:](../20The_Mathematical_Basis/20_21_Recirculation_of_ventilation_air.md) Ny side om opbygning af recirkulation for ventilationsanlæg.
+
+*   [systems\systems_persons.htm:](../11Systems/11_13_Systems_Persons.md) Tilføjet konvektiv/stråling fordelingsnøgle.
+
+*   [systems\systems_lighting.htm:](../11Systems/11_03_Systems_Lighting.md) Tilføjet konvektiv/stråling fordelingsnøgle.
+
+*   [filtypes.htm:](../05Introduction/05_08_File_types.md) Tilføjet information om indførelse af ny filtype for BSim databaser (*.disdb) pga. restriktioner for sikkerheden over for transport af Access databaser (*.mdb) i flere mail systemer.
+
+*   [tsbi5\heat_balance_parametres.htm:](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) Tilføjet enheder til beskrivelsen af parametre i varmebalancen.
 
 ###   
-**5,6,2,6** 
-
-*   [tsbi5\par-list.htm:](../11Systems/11_12_Systems_Heating.md) Tilføjet information om valg af resultater på tsbi5/Options.
-
-*   [systems\recirculation_ctrl.htm:](../11Systems/11_07_Floor_Heating_Control.md) Ny side med beskrivelse af regulering af recirkuleret ventilationsluft.
-
-*   [theory\recirculation.htm:](../24Miscellaneous/24_66_Risk_of_condensation.md) Ny side om opbygning af recirkulation for ventilationsanlæg.
-
-*   [systems\systems_persons.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Tilføjet konvektiv/stråling fordelingsnøgle.
-
-*   [systems\systems_lighting.htm:](../11Systems/11_11_Natural_ventilation.md) Tilføjet konvektiv/stråling fordelingsnøgle.
-
-*   [filtypes.htm:](../24Miscellaneous/24_08_Venting_Control.md) Tilføjet information om indførelse af ny filtype for BSim databaser (*.disdb) pga. restriktioner for sikkerheden over for transport af Access databaser (*.mdb) i flere mail systemer.
-
-*   [tsbi5\heat_balance_parametres.htm:](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) Tilføjet enheder til beskrivelsen af parametre i varmebalancen.
-
-###   
-**5,5,12,19** 
+**5,5,12,19** -
 
 *   applications\bv98.htm: Tilføjet info om ophør af brug af Bv98 og refererer i stedet til Be06.
 
-*   [litteratur.htm:](../05Introduction/05_05_Limitations.md) Tilføjet Danvak Grundbogen.
+*   [litteratur.htm:](../20The_Mathematical_Basis/20_28_Literature.md) Tilføjet Danvak Grundbogen.
 
-*   [tsbi5\tsbi5_nvoptons_page.htm:](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md) Opdateret grafik og tilføjet information til inddatafelterne.
+*   [tsbi5\tsbi5_nvoptons_page.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Opdateret grafik og tilføjet information til inddatafelterne.
 
-*   [SimView\building_property.htm](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md): Opdateret grafik og tilføjet beskrivelse af Height.
+*   [SimView\building_property.htm](../24Miscellaneous/24_27_Building_Property.md): Opdateret grafik og tilføjet beskrivelse af Height.
 
-*   [defaults.htm:](../24Miscellaneous/24_14_Energy_ASHRAE_climate_data.md) Opdateret beskrivelse af overgangsisolanser jf. DS418.
+*   [defaults.htm:](../24Miscellaneous/24_75_Model_information.md) Opdateret beskrivelse af overgangsisolanser jf. DS418.
 
-*   [SimView\finish_property.htm:](../11Systems/11_03_Systems_Lighting.md) Opdateret tabel med overgangsisolans jf. DS418.
+*   [SimView\finish_property.htm:](../24Miscellaneous/24_34_Finish_Property.md) Opdateret tabel med overgangsisolans jf. DS418.
 
-*   [examples\tutorial1.htm:](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md) Rettet tekst omkring overgangsisolanser.
+*   [examples\tutorial1.htm:](../21Getting_started_with_BSim/21_06_Tutorial.md) Rettet tekst omkring overgangsisolanser.
 
-*   [help\menu_help.htm:](../24Miscellaneous/24_25_Site_Property.md) Udskiftet grafik og rettet mindre tekst-fejl.
+*   [help\menu_help.htm:](../24Miscellaneous/24_23_Help.md) Udskiftet grafik og rettet mindre tekst-fejl.
 
-*   [help\tilmelding_debatforum.htm:](../11Systems/11_13_Systems_Persons.md) Udskiftet links til BSim's web-sider.
+*   [help\tilmelding_debatforum.htm:](../23Internet/23_01_Join_the_debate_and_information_forum.md) Udskiftet links til BSim's web-sider.
 
-*   [tsbi5\heat_balance_parametres.htm:](../24Miscellaneous/24_58_Climate_data_definition.md) Korrigeret beskrivelse af temperaturgrænser.
+*   [tsbi5\heat_balance_parametres.htm:](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) Korrigeret beskrivelse af temperaturgrænser.
 
-*   [simlight\simlight_plan.htm:](../09SimView/09_10_Climate_data.md) Opdateret beregningsforudsætninger.
+*   [simlight\simlight_plan.htm:](../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.md) Opdateret beregningsforudsætninger.
 
-*   [theory\theory_longwave_exterior.htm:](../20The_Mathematical_Basis/20_28_Literature.md) Opdateret side med teori for langbølget strålingsudveksling mellem udvendige overflader og himlen.
+*   [theory\theory_longwave_exterior.htm:](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md) Opdateret side med teori for langbølget strålingsudveksling mellem udvendige overflader og himlen.
 
-*   [theory\theory_longwave_surfaces.htm:](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md) Opdateret side med teori for langbølget strålingsudveksling mellem indvendige overflader.
+*   [theory\theory_longwave_surfaces.htm:](../20The_Mathematical_Basis/20_25_Heat_balance_for_the_zone_air.md) Opdateret side med teori for langbølget strålingsudveksling mellem indvendige overflader.
 
-*   [tsbi5\par-list.htm:](../11Systems/11_11_Natural_ventilation.md) qCon beregnes ikke for overflader der vender mod det fri. Tilføjet definition af RSurf og SensorTmp.
+*   [tsbi5\par-list.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) qCon beregnes ikke for overflader der vender mod det fri. Tilføjet definition af RSurf og SensorTmp.
 
-*   [systems\systems_mixing.htm:](../24Miscellaneous/24_58_Climate_data_definition.md) Tilføjet note om mixing fra fiktive zoner.
+*   [systems\systems_mixing.htm:](../11Systems/11_10_systems_mixing.md) Tilføjet note om mixing fra fiktive zoner.
 
-*   [systems\systems_heating.htm:](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) Tilføjet bemærkning om negativ værdi af Max Power.
+*   [systems\systems_heating.htm:](../11Systems/11_12_Systems_Heating.md) Tilføjet bemærkning om negativ værdi af Max Power.
 
-*   [systems\floor_heat_ctrl.htm:](../05Introduction/05_05_Limitations.md) Tilføjet tekst i fm. konstruktiv køling.
+*   [systems\floor_heat_ctrl.htm:](../11Systems/11_07_Floor_Heating_Control.md) Tilføjet tekst i fm. konstruktiv køling.
 
-*   [systems\fugtregulering.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Slettet tre-dobbelt tekst.
+*   [systems\fugtregulering.htm:](../11Systems/11_22_Ventilation_Moisture_control.md) Slettet tre-dobbelt tekst.
 
-*   [systems\natkøling.htm:](../11Systems/11_26_Ventilation_VAV_control.md) Tilføjet tekst vedr. Fans for Active components. Opdateret grafik.
+*   [systems\natkøling.htm:](../11Systems/11_24_Ventilation_Night_Cooling_Control.md) Tilføjet tekst vedr. Fans for Active components. Opdateret grafik.
 
 ###   
 **5,5,5,17** 
