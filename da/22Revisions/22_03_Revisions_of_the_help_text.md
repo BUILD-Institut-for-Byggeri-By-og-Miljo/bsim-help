@@ -2041,82 +2041,83 @@
 
 *   [systems\natkøling.htm:](../11Systems/11_24_Ventilation_Night_Cooling_Control.md) Tilføjet tekst vedr. Fans for Active components. Opdateret grafik.
 
+###
+**5,5,5,17** - 
+
+*   [tsbi5\risk_of_condensation.htm:](../24Miscellaneous/24_66_Risk_of_condensation.md) Ny side, forklarer hvordan CondRisk beregnes.
+
+*   [tsbi5\par-list.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Tilføjet CondRisc1, CondRisc2, VentOfrac og SurfTmp2 til beskrivelsen af resultatlisten for vinduer samt CondRisc1 og CondRisc2, til resultatlisten for konstruktioner.
+
+*   [systems\natural_ventilation.htm:](../11Systems/11_11_Natural_ventilation.md) Åbninger - erstattet grafik for openings og tilføjet tekst om Ka.
+
+*   [systems\venting_ctrl.htm](../11Systems/11_18_Systems_Venting.md): Revideret grafik. Tilføjet ligning som grafik.
+
 ###   
-**5,5,5,17** 
+**5,5,5,4** - 
 
-*   [tsbi5\risk_of_condensation.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Ny side, forklarer hvordan CondRisk beregnes.
+*   [tsbi5\grafik.htm:](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) Udskiftet grafik, korrigeret link og revideret tekst i henhold til ny højre-klik menu.
 
-*   [tsbi5\par-list.htm:](../24Miscellaneous/24_10_Daylight_Control.md) Tilføjet CondRisc1, CondRisc2, VentOfrac og SurfTmp2 til beskrivelsen af resultatlisten for vinduer samt CondRisc1 og CondRisc2, til resultatlisten for konstruktioner.
+*   [limitations.htm:](../05Introduction/05_05_Limitations.md) Tilføjet beskrivelse om brug af lambda-værdi afhængig af "Moisture Transport" på "tsbi5 | Options".
 
-*   [systems\natural_ventilation.htm:](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) Åbninger - erstattet grafik for openings og tilføjet tekst om Ka.
+*   [simdb\simdb-bm-thermal.htm:](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md) Tilføjet info. om hvilken værdi af lambda der benyttes med hvilke options under tsbi5.
 
-*   [systems\venting_ctrl.htm](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md): Revideret grafik. Tilføjet ligning som grafik.
+*   [simdb\simdb-bm-moist.htm:](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md) Tilføjet info. om hvilken værdi af lambda der benyttes med hvilke options under tsbi5.
 
-###   
-**5,5,5,4** 
+*   [tsbi5\ASHRAE.htm:](../24Miscellaneous/24_76_ASHRAE.md) Nu +800 tilgængelige klimafiler via EnergyPlus.
 
-*   [tsbi5\grafik.htm:](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) Udskiftet grafik, korrigeret link og revideret tekst i henhold til ny højre-klik menu.
-
-*   [limitations.htm:](../07SimDB_Database/07_02_SimDB_BuildingElement.md) Tilføjet beskrivelse om brug af lambda-værdi afhængig af "Moisture Transport" på "tsbi5 | Options".
-
-*   [simdb\simdb-bm-thermal.htm:](../11Systems/11_22_Ventilation_Moisture_control.md) Tilføjet info. om hvilken værdi af lambda der benyttes med hvilke options under tsbi5.
-
-*   [simdb\simdb-bm-moist.htm:](../11Systems/11_24_Ventilation_Night_Cooling_Control.md) Tilføjet info. om hvilken værdi af lambda der benyttes med hvilke options under tsbi5.
-
-*   [tsbi5\ASHRAE.htm:](../24Miscellaneous/24_66_Risk_of_condensation.md) Nu +800 tilgængelige klimafiler via EnergyPlus.
-
-*   [systems\systems_lighting.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Tilføjet formler for effektafgivelse for forskellige belysningstyper.
+*   [systems\systems_lighting.htm:](../11Systems/11_03_Systems_Lighting.md) Tilføjet formler for effektafgivelse for forskellige belysningstyper.
 
 *   hjælp: Flyttet Litteratur til øverste niveau i træet. Udskiftet de sidste "by-og-byg" med "sbi".
 
 ###   
-**5,5,4,8** 
+**5,5,4,8** - 
 
-*   [tsbi5\tsbi5_simulation.htm:](../11Systems/11_11_Natural_ventilation.md) Tilføjet tekst om farvekodning på grafer under simuleringen. Udskiftet skærm klip.
+*   [tsbi5\tsbi5_simulation.htm:](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md) Tilføjet tekst om farvekodning på grafer under simuleringen. Udskiftet skærm klip.
 
-*   [simview\site_property.htm:](../24Miscellaneous/24_08_Venting_Control.md) Tilføjet information om Elevation og nyt info. felt for de valgte klimadata. Udskiftet skærmklip.
+*   [simview\site_property.htm:](../24Miscellaneous/24_25_Site_Property.md) Tilføjet information om Elevation og nyt info. felt for de valgte klimadata. Udskiftet skærmklip.
 
-*   [systems\systems_persons.htm:](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) Tilføjet tekst til informationsfelt om samlet CO2 afgivelse fra personerne i en termisk zone. Udskiftet skærmklip.
+*   [systems\systems_persons.htm:](../11Systems/11_13_Systems_Persons.md) Tilføjet tekst til informationsfelt om samlet CO2 afgivelse fra personerne i en termisk zone. Udskiftet skærmklip.
 
-*   [simview\standard_klimadata.htm](../05Introduction/05_05_Limitations.md): Ny side om forskellene mellem de klimadata som gennem tiden er leveret med BSim.
+*   [simview\standard_klimadata.htm](../24Miscellaneous/24_58_Climate_data_definition.md): Ny side om forskellene mellem de klimadata som gennem tiden er leveret med BSim.
 
-*   [simview\simview-climate.htm:](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md) Tilføjet tekst om info. felt for klimadata. Tilføjet beskrivelse af Elevation. Tilføjet link til ny side om forskelle i klimadata leveret med BSim.
+*   [simview\simview-climate.htm:](../09SimView/09_10_Climate_data.md) Tilføjet tekst om info. felt for klimadata. Tilføjet beskrivelse af Elevation. Tilføjet link til ny side om forskelle i klimadata leveret med BSim.
 
-*   [litteratur.htm:](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md) Opdateret reference til DS418. Tilføjet reference til DRY.
+*   [litteratur.htm:](../20The_Mathematical_Basis/20_28_Literature.md) Opdateret reference til DS418. Tilføjet reference til DRY.
 
-*   [simdb\simbd-be-windoor.htm](../24Miscellaneous/24_14_Energy_ASHRAE_climate_data.md): Opdateret tabel med linjetab i henhold til rev. DS418.
+*   [simdb\simbd-be-windoor.htm](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md): Opdateret tabel med linjetab i henhold til rev. DS418.
 
-*   [systems\natural_ventilation.htm](../11Systems/11_03_Systems_Lighting.md): Tilføjet info. om at klimadata skal indeholde data for vindretningen for simulering af naturlig ventilation.
+*   [systems\natural_ventilation.htm](../11Systems/11_11_Natural_ventilation.md): Tilføjet info. om at klimadata skal indeholde data for vindretningen for simulering af naturlig ventilation.
 
 *   [tsbi5\row.htm:](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md) Tilføjet tekst for brug af lufttryk som inddata.
 
-*   [tsbi5\climate.htm](../24Miscellaneous/24_25_Site_Property.md): Tilføjet info. om brug af lufttrykket.
+*   [tsbi5\climate.htm](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md): Tilføjet info. om brug af lufttrykket.
 
-*   [limitations.htm:](../11Systems/11_13_Systems_Persons.md) Tilføjet tekst ombegrænsninger i forbindelse med tidskridt i simuleringer med tsbi5.
+*   [limitations.htm:](../05Introduction/05_05_Limitations.md) Tilføjet tekst ombegrænsninger i forbindelse med tidskridt i simuleringer med tsbi5.
 
-*   [tsbi5\tsbi5_options.htm](../24Miscellaneous/24_58_Climate_data_definition.md): Tilføjet ekstra opmærksomhed på valg af det rette antal tidskridt.
+*   [tsbi5\tsbi5_options.htm](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md): Tilføjet ekstra opmærksomhed på valg af det rette antal tidskridt.
 
-*   [systems\vavregulering.htm:](../09SimView/09_10_Climate_data.md) Tilføjet note om at VAV max. factor skal være større end 1. Tilføjet hot-spots til grafik.
+*   [systems\vavregulering.htm:](../11Systems/11_26_Ventilation_VAV_control.md) Tilføjet note om at VAV max. factor skal være større end 1. Tilføjet hot-spots til grafik.
 
-*   [tsbi5\par_list.htm:](../20The_Mathematical_Basis/20_28_Literature.md) Entydig definition af GrossSun og NetSun.
+*   [tsbi5\par_list.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Entydig definition af GrossSun og NetSun.
 
-*   [systems\daylight_control.htm](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md): Slettet gentagen tekst.
+*   [systems\daylight_control.htm](../24Miscellaneous/24_10_Daylight_Control.md): Slettet gentagen tekst.
 
-*   [tsbi5\tsbi5_parametres.htm:](../11Systems/11_11_Natural_ventilation.md) Tilføjet tekst om valg af parametre og flyttet vigtig tekst ind i grå box.
+*   [tsbi5\tsbi5_parametres.htm:](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) Tilføjet tekst om valg af parametre og flyttet vigtig tekst ind i grå box.
 
-*   [simdxf\cad.htm:](../24Miscellaneous/24_58_Climate_data_definition.md) Tilføjet link til ny side About SimDXF.
+*   [simdxf\cad.htm:](../24Miscellaneous/24_47_About_SimDXF.md) Tilføjet link til ny side About SimDXF.
 
-*   [simlight\simlight_punkt.htm:](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) Tilføjet link til ny side About SimLight.
+*   [simlight\simlight_punkt.htm:](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md) Tilføjet link til ny side About SimLight.
 
-*   [simdb\simdb-be0.htm:](../05Introduction/05_05_Limitations.md) Tilføjet link til About SimDb og fjernet overflødig tekst i bunden af siden.
+*   [simdb\simdb-be0.htm:](../24Miscellaneous/24_42_About_SimDB.md) Tilføjet link til About SimDb og fjernet overflødig tekst i bunden af siden.
 
-*   [simdb\about_simdb.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Opdateret grafik.
+*   [simdb\about_simdb.htm:](../24Miscellaneous/24_42_About_SimDB.md) Opdateret grafik.
 
-*   [simview\nat_vent.htm:](../11Systems/11_26_Ventilation_VAV_control.md) Ændret beskrivelse af Cnt.
+*   [simview\nat_vent.htm:](../11Systems/11_11_Natural_ventilation.md) Ændret beskrivelse af Cnt.
 
-*   [systems\light_ctrl.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Fjernet dobbelt tekst og revideret link til andre sider. Ændret Sun Limit til Lower Limit.
+*   [systems\light_ctrl.htm:](../24Miscellaneous/24_09_Light_Control.md) Fjernet dobbelt tekst og revideret link til andre sider. Ændret Sun Limit til Lower Limit.
 
-*   [systems\systems_lighting.htm:](../24Miscellaneous/24_10_Daylight_Control.md) Tilføjet hot-spots i grafik.
+*   [systems\systems_lighting.htm:](../11Systems/11_03_Systems_Lighting.md) Tilføjet hot-spots i grafik.
+
 
 ###   
 **5,5,1,7**
