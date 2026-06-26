@@ -40,7 +40,7 @@ $$ E_{total} = E_{dif} \cdot g_{s, dif}(\beta) \cdot g_{g, dif} + E_{dir} \cdot 
 
 *   β er hældningen af afskærmningens lameller, målt fra vandret,
 
-*   Θ<sub>p</sub> er [profilvinklen](../14XSun_Analysis_of_incident_solar_radiation/14_09_Profile_angle.md),
+*   Θ<sub>p</sub> er [profilvinklen](../24Miscellaneous/24_31_Profile_angle.md),
 
 *   Θ<sub>i</sub> er indfaldsvinklen for den direkte solstråling. 
 
@@ -72,7 +72,7 @@ Den kritiske åbningsvinkel (cut-off) afhænger af solens profilvinkel samt forh
 
 $$ \beta_c = \arctan\left\{ \frac{\tan\theta \pm d \cdot \sqrt{1 + \tan^2\theta - d^2}}{d^2 - 1} \right\} \; \text{hvor minus skal benyttes} $$
 
-*   Θ er [profilvinklen](www.help.bsim.dk) beregnet ud fra solens azimut minus vinduets azimut samt solhøjden,
+*   Θ er [profilvinklen](../24Miscellaneous/24_31_Profile_angle.md) beregnet ud fra solens azimut minus vinduets azimut samt solhøjden,
 
 *   d er forholdet mellem lamellernes afstand og deres bredde.
 

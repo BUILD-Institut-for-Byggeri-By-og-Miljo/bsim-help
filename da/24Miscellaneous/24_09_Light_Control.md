@@ -3,7 +3,7 @@
 # Belysning - Light control
 
 
-I *LightCtrl* benyttes som et simpelt mål for "lyset" i rummet det samlede solindfald i zonen. Dette defineres ved en grænse, [Solar Limit](www.help.bsim.dk) (kW), hvorunder lyset tændes.
+I *LightCtrl* benyttes som et simpelt mål for "lyset" i rummet det samlede solindfald i zonen. Dette defineres ved en grænse, [Solar Limit](../11Systems/11_03_Systems_Lighting.md) (kW), hvorunder lyset tændes.
 
 Imidlertid er der også et andet reguleringskriterium, nemlig på temperaturen: Hvis der bliver meget varmt i den termiske zone, er det muligt at slukke lyset for at holde temperaturen nede. Dette angives i *LightCtrl* som *Temp Max* (°C). Dette har dog ingen mening, hvis det er midt om natten og derfor angives samtidig en *Lower Limit* for solindfaldet, der sikrer at lyset kun slukkes, hvis der dog er lidt lys (sol) til stede angivet ved *Lower Limit* (kW).
 
