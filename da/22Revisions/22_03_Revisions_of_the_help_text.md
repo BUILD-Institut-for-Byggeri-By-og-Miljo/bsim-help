@@ -1594,7 +1594,7 @@
 
  
 
-### **7.14.mm.dd** -
+### **7,14,mm,dd**
 
 *   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
@@ -1608,13 +1608,11 @@
 
 *   Tilføjet advarsel om rækkefølge af [Lighting](../11Systems/11_03_Systems_Lighting.md) i forhold til Ventilation.
 
-###   
-**7.13.10.1** -
+###   **7,13,10,1**
 
 *   Skiftet til version 7 for at følge BSim versionen.
 
-###   
-**6.13.9.26** -
+###   **6,13,9,26**
 
 *   Tilføjet information om PackCalc under [Ventilation](../11Systems/11_21_Systems_Ventilation.md) og tilføjet link til download af programmet.
 
@@ -1680,8 +1678,7 @@
 
 *   Udvidet beskrivelse af [resultatparameter](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) WaterTempMean.
 
-###   
-**6.11.1.17** -
+###   **6,11,1,17**
 
 *   Tilføjet information om *Reg. System Time Step* på [tsbi5 | Options](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md).
 
@@ -1709,8 +1706,7 @@
 
 *   Rettet fejl i automatisk [tilmelding til BSim debatforum via e-mail](../23Internet/23_01_Join_the_debate_and_information_forum.md).
 
-###   
-**6.9.10.23** -
+###    **6,9,10,23**
 
 
 *   Tilføjet tekst om valg af designparametre for [varmepumper](../11Systems/11_20_Heat_pump.md) og på [Heatloss](../09SimView/09_11_Model_information.md) fanebladet på [SimView menuens Defaults](../06BSim_Program_structure/06_04_Program_menus_in_BSim.md) dialog.
@@ -1748,8 +1744,7 @@
 *   Fjernet forbehold for fordampningsmodeller fra [vandoverflader](../11Systems/11_05_Systems_Moisture.md).
 
 
-###   
-**6.9.8.24** -
+###   **6,9,8,24**
 
 *   Tilføjet link til [PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md) fra [hovedindgang](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md) til materialedelen af SimDb.
 
@@ -1783,8 +1778,7 @@
 
 *   Opdateret beskrivelse af brug af [overfladeegenskaber](../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md) i simuleringerne.
 
-###
-**6.8.4.30** -
+### **6,8,4,30**
 
 *   Opdateret grafik for [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) og [parametre i varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) og udvidet med parametre for varmepumper.
 
@@ -1875,7 +1869,7 @@
 *   Tilføjet tekst til ny [resultatparameter: NyDuct](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) på konstruktioner.
 
 
-### **5,7,1,19** -
+### **5,7,1,19**
 
 *   Tilføjet Aalborg Universitet i toppen af alle hjælpesider.
 
@@ -1910,13 +1904,13 @@
 *   [Systemer](../11Systems/11_01_Systems.md): Tilføjet recirkulationsregulering af ventilationsluft.
 
 
-### **5,6,8,21** -
+### **5,6,8,21**
 
 *   [tsbi5\tsbi5_nvoptions_page.htm](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) &amp; [system\natural_ventilation.htm](../11Systems/11_11_Natural_ventilation.md) &amp; [simview\nat_vent.htm:](../11Systems/11_11_Natural_ventilation.md) Link til ny side med information om hvordan Cd og Ka bestemmes samt disclaimer om mzm i beta-test.
 
 *   [theory\mzm_cd_ka.htm:](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) Ny side med information om Ka fra Danvak grundbogen og om bestemmelse af Cd fra SBi anvisning 202, side 70-71. Desuden disclaimer om mzm i beta-test.
 
-###    **5,6,8,4** -
+###    **5,6,8,4**
 
 *   [simview\simview_print_model.htm:](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md) Tilføjet link til side med fejlmeddelelser.
 
@@ -1928,7 +1922,7 @@
 
 *   [SimDb\simdb-bm-thermal.htm:](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md) Tilføjet advarsel om manglende materialeegenskaber for fugttransport.
 
-###   **5,6,6,30** -
+###   **5,6,6,30**
 
 *   [SimDb\simdb-be-contructionlayer.htm](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md): Tilføjet reference til nedhængt loft.
 
@@ -1942,7 +1936,7 @@
 
 *   [systems/light_daylightcontrol.htm:](../24Miscellaneous/24_10_Daylight_Control.md) Slettet dobbelt tekstafsnit.
 
-### **5,6,3,8** -
+### **5,6,3,8**
 
 *   [tsbi5/tsbi5_options_page.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Opdateret tekst og tilføjet link til regulering af mzm.
 
@@ -1978,8 +1972,7 @@
 
 *   [theory\mzm_regulering.htm:](../20The_Mathematical_Basis/20_18_Control_systems_in_the_multi-zone_model.md) Ny side om regulering af mzm. Opdateret mhp brug som teorigrundlag i hjælpetekst.
 
-###
-**5,6,2,6** - 
+### **5,6,2,6** 
 
 *   [tsbi5\par-list.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Tilføjet information om valg af resultater på tsbi5/Options.
 
@@ -1995,8 +1988,7 @@
 
 *   [tsbi5\heat_balance_parametres.htm:](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) Tilføjet enheder til beskrivelsen af parametre i varmebalancen.
 
-###   
-**5,5,12,19** -
+###   **5,5,12,19**
 
 *   applications\bv98.htm: Tilføjet info om ophør af brug af Bv98 og refererer i stedet til Be06.
 
@@ -2036,8 +2028,7 @@
 
 *   [systems\natkøling.htm:](../11Systems/11_24_Ventilation_Night_Cooling_Control.md) Tilføjet tekst vedr. Fans for Active components. Opdateret grafik.
 
-###
-**5,5,5,17** - 
+### **5,5,5,17**
 
 *   [tsbi5\risk_of_condensation.htm:](../24Miscellaneous/24_66_Risk_of_condensation.md) Ny side, forklarer hvordan CondRisk beregnes.
 
@@ -2047,8 +2038,7 @@
 
 *   [systems\venting_ctrl.htm](../11Systems/11_18_Systems_Venting.md): Revideret grafik. Tilføjet ligning som grafik.
 
-###   
-**5,5,5,4** - 
+###   **5,5,5,4** 
 
 *   [tsbi5\grafik.htm:](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) Udskiftet grafik, korrigeret link og revideret tekst i henhold til ny højre-klik menu.
 
@@ -2064,8 +2054,7 @@
 
 *   hjælp: Flyttet Litteratur til øverste niveau i træet. Udskiftet de sidste "by-og-byg" med "sbi".
 
-###   
-**5,5,4,8** - 
+###   **5,5,4,8** 
 
 *   [tsbi5\tsbi5_simulation.htm:](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md) Tilføjet tekst om farvekodning på grafer under simuleringen. Udskiftet skærm klip.
 
@@ -2114,8 +2103,7 @@
 *   [systems\systems_lighting.htm:](../11Systems/11_03_Systems_Lighting.md) Tilføjet hot-spots i grafik.
 
 
-###
-**5,5,1,7** -
+### **5,5,1,7** 
 
 *   [tsbi5\climate.htm:](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) Tilføjet info om rækkefølge af data for klimakonvertering.
 
@@ -2125,8 +2113,7 @@
 
 *   [systems\fan_coil_ctrl.htm:](../24Miscellaneous/24_59_Fan_coil_control.md) Rettet Qz til Qi og udbygget forklaring af hvorfor qCooling kan overskride den umiddelbart beregnelige max-værdi.
 
-###   
-**5,4,11,10** -
+###   **5,4,11,10**
 
 *   [systems\venting_ctrl.htm:](../11Systems/11_18_Systems_Venting.md) Tilføjet advarsel om ikke at sætte CO2 set-punkt og CO2 indhold i udeluft for tæt og hvilke bidrag af udeluft der benyttes til regulering efter et ønsket CO2 niveau.
 
@@ -2180,9 +2167,9 @@
 
 *   [filtypes.htm:](../05Introduction/05_08_File_types.md) Tilføjet information om BSim2003.mdb.
 
-&nbsp;
 
-### **4,4,8,11** - 
+
+### **4,4,8,11** 
 
 *   [litteratur.htm:](../20The_Mathematical_Basis/20_28_Literature.md) Tilføjet link til artikler i fuld længde på internettet.
 
@@ -2207,8 +2194,7 @@
 *   [systems\venting_ctrl.htm:](../11Systems/11_18_Systems_Venting.md) Præcisering af reduktion af naturlig ventilation ved brug af parameteren Factor.
 
 
-###   
-**4,4,4,28** 
+###   **4,4,4,28** 
 
 *   systems\mixing_ctrl.htm: Tilføjet betingelse om mixing afhænger af temperaturen Min. Outdoor.
 
@@ -2216,8 +2202,7 @@
 
 *   tutorial.htm: Flyttet til tutorial\tutorial.htm.
 
-###   
-**4,4,3,16** 
+###   **4,4,3,16** 
 
 *   systems\light_control.htm: Tilføjet listesvar af 8.3.2004 som introduktion.
 
@@ -2243,8 +2228,7 @@
 
 *   Hjælp: Tilføjet manglende simview\nat_vent.htm side.
 
-###   
-**4,4,1,16** 
+###  **4,4,1,16** 
 
 *   Hjælp: Oprettet indgang til gulvvarme og til uddrag fra anvisning 202. Flyttet simlight_theory.htm til Theory mappen.
 
@@ -2288,8 +2272,7 @@
 
 *   litteratur.htm: Reference til DS/EN410 tilføjet.
 
-###   
-**4,3,10,22** 
+###   **4,3,10,22** 
 
 *   simview\simview-create_thermal_zone.htm: Tilføjet begrænsning på solfordeling ved kombinationen af XSun og langbølget strålingsudveksling.
 
@@ -2315,8 +2298,7 @@
 
 *   simview\opening_property.htm: Tilføjet link til systems\natural_ventilation.htm.
 
-###   
-**4,3,8,25** 
+###   **4,3,8,25** 
 
 *   simview\menu_view.htm: Opdateret grafik og tilføjet tekst om ModelDoc.
 
@@ -2332,8 +2314,7 @@
 
 *   tsbi5\tsbi5_options.htm: Tilføjet ydelse fra solceller under Constructions.
 
-###   
-**4,3,6,20** 
+###   **4,3,6,20** 
 
 *   simview\mouse_operations.htm: Beskrevet ændring af zone-rækkefølge.
 
@@ -2345,8 +2326,7 @@
 
 *   systems\systems_shutter.htm: Rettet beskrivelse af isolans (R-value) for skodder.
 
-###   
-**4,3,5,20** 
+###   **4,3,5,20** 
 
 *   simlight\simlight_theory.htm: Tilføjet ny side med teori for beregning af dagslys med SimLight.
 
@@ -2356,18 +2336,16 @@
 
 *   tsbi5\tsbi5_options.htm: Tilføjet information om simulering af flere år.
 
-### 
-**4,3,3,21**
+### **4,3,3,21**
 
 * defaults.htm: Tilføjet ny side med samlet information om standardværdier der benyttes hvis intet andet er givet af brugeren. <span id="red_text"> Skal gøres færdig! </span>  <!-- XXX -->
 * simdb\simdb-bm-finish.htm: Tilføjet standardværdier for reflektans når der ikke vælges et materiale til en overflade. <span id="red_text"> Skal gøres færdig! </span>  <!-- XXX -->
 * systems\natkøling.htm: Revideret beskrivelse af sensor zone.
 * simview\simview-fictive_zones.htm: Opdateret forklaringen på brugen af fiktive zoner.
 * systems\roomtemp.htm: Opdateret tekst om egenskaber for rumtemperatur.
-...existing code...
 
-###   
-**4,3,3,12** 
+
+###   **4,3,3,12** 
 
 *   simview\simview-insert_windoor.htm: Udskiftet grafik og tilføjet tekst om dt0.
 
@@ -2415,8 +2393,7 @@
 
 *   simview\simview_options.htm: Opdateret grafik og beskrivelse af Auto Update View og Recent files.
 
-###   
-**4,2,12,11** 
+###   **4,2,12,11** 
 
 *   Ny version af hjælp med ny biblioteksstruktur. BSim understøtter begge versioner. Kosmetiske ændringer på mange sider, især under det matematiske grundlag.
 
@@ -2450,8 +2427,7 @@
 
 *   simdb-bm-thermal.htm: Tilføjet link til fugtfaneblad.
 
-###   
-**3,2,11,23** 
+###   **3,2,11,23** 
 
 *   simpv.htm: Redigeret tekst og tilføjet link til indsættelse af pv.
 
@@ -2475,8 +2451,7 @@
 
 *   simview-create_thermal_zone.htm: Forkert link til grafik.
 
-###   
-**3,2,10,4** 
+###   **3,2,10,4** 
 
 *   site_property.htm: Tilføjet Emmisivity og CO2.
 
@@ -2510,8 +2485,7 @@
 
 *   genveje.htm: Tilføjet beskrivelse af ny genvejs-funktion Alt-ENTER som åbner property dialog fra træet samt Shift-pil-op og Shift-pil-ned.
 
-###   
-**3,2,8,2** 
+###   **3,2,8,2** 
 
 *   hjælp_knapper.htm: Tilføjet beskrivelse af værktøjsbjælke i hjælp + ny funktion "Versionscheck".
 
@@ -2527,8 +2501,7 @@
 
 *   simdb-be-windoor.htm: Rettet beskrivelsen af WinDoor i databasen.
 
-###   
-**3,2,6,24** 
+###   **3,2,6,24** 
 
 *   NB: Ny version af hjælpeteksten til BSim version 2000 og BSim vesrion 2002. Hjælpesider som alene er rettet imod BSim version 2002 og frem er markeret med lys gul baggrundsfarve.
 
@@ -2584,8 +2557,7 @@
 
  
 
-###   
-**2,2,4,15** 
+###   **2,2,4,15** 
 
 *   floor_heat_ctrl.htm: Tilføjet beskrivelse af hvor varmen fra et gulvvarmeanlæg afsættes.
 
@@ -2593,8 +2565,7 @@
 
 *   ts3-options.htm: Tilføjet beskrivelse af to options til simulering af fugt.
 
-###   
-**2,2,2,1** 
+###  **2,2,2,1** 
 
 *   simdb-be-contructionlayer.htm: Tilføjet tekst som forklarer definition af geometri for luftlag i konstruktioner samt hvor termisk modstand af luftlag skal indlæses. Tilføjet tekst om definition af fugtmodstand for et materialelag.
 
@@ -2602,8 +2573,7 @@
 
 *   pv-material.htm: Oprettet ny side som skal rumme information om behandling af PV-materialer i SimDb.
 
-###   
-**2,2,1,21** 
+###   **2,2,1,21** 
 
 *   heating_ctrl.htm: Rettet formel for beregning af den til rådighed værende effekt.
 
@@ -2613,8 +2583,7 @@
 
 *   simview_toolbar.htm: Tilføjet beskrivelse af forskellige ikoner for modeller og backup i åben-dialog.
 
-###   
-**2,1,11,30** 
+###   **2,1,11,30** 
 
 *   dxf_space.htm: Tilføjet NB om ingen skillevægge i et rum.
 
@@ -2634,8 +2603,7 @@
 
 *   literratur.htm: Tilføjet reference til DS418/Til.4.
 
-###   
-**2,1,11,1** 
+###   **2,1,11,1** 
 
 *   cool_ctrl.htm: Ændret grafik for cooling control så min power er negativ.
 
@@ -2671,8 +2639,7 @@
 
 *   par-list.htm: Tilføjet beskrivelse af parameteren SkyTemp. Ændret navne fra Tfloor til TzFloor og fra Treturn til TzInlet. Ændret beskrivelse af TzInlet.
 
-###   
-**2,1,7,25** 
+###   **2,1,7,25** 
 
 *   tsbi5_options.htm: Tilføjet tekst om optionen langbølget strålingsudveksling til himlen i simuleringsdialogen.
 
@@ -2684,8 +2651,7 @@
 
 *   limitations.htm: Tilføjet begrænsning på langbølget strålingsudveksling med himlen og fjernet noget af begrænsningen på langbølget strålingsudveksling mellem et rums indvendige overflader.
 
-###   
-**2,1,6,27** 
+###   **2,1,6,27** 
 
 *   xsun_video.htm: Tilføjet note om størrelsen af vinduer ved optagelse af videoklip.
 
@@ -2705,8 +2671,7 @@
 
 *   simview-add_room.htm: Tilføjet beskrivelse af Copy of whole Storey funktionen.
 
-###   
-**2,1,5,28**
+###  **2,1,5,28**
 
 *   par-list.htm: Opdateret tekst vedr. indeklimaparametre.
 
@@ -2732,8 +2697,7 @@
 
 *   sf1-4.htm: Reduceret bredden af graferne til 700 pixels.
 
-###   
-**2,1,4,24** 
+###  **2,1,4,24** 
 
 *   systems_shading.htm: Teksten udvidet, bl.a. med et eksempel.
 
@@ -2743,8 +2707,7 @@
 
 *   tsbi5_parametres.htm: Timeværdier som øjebliksbillede ved timens udgang.
 
-###   
-**2,1,4,18** 
+###   **2,1,4,18** 
 
 *   Implementeret "hot-spots" på grafik hvor relevant.
 
@@ -2754,8 +2717,7 @@
 
 *   climate.htm tilføjet hot-spots og link til ovenstående.
 
-###   
-**2,1,3,30** 
+###   **2,1,3,30** 
 
 *   stikord.htm alle link gennemgået og revideret.
 
@@ -2771,8 +2733,7 @@
 
 *   alle sider påbegyndt indførsel af hot-spots på grafiske elementer, kommer i den takt siderne revideres alligevel.
 
-###   
-**2,1,3,21** 
+###   **2,1,3,21** 
 
 *   alle sider ændret link til "SØG".
 
@@ -2786,8 +2747,7 @@
 
 *   systems_schedule.htm tilføjet udvidet beskrivelse + grafik af tidsangivelser i Schedule.
 
-###   
-**2,1,3,16** 
+###   **2,1,3,16** 
 
 *   undocumented.htm oprettet.
 
@@ -2845,8 +2805,7 @@
 
 *   tutorial: Ny rækkefølge af emnerne, vedr. standardkonstruktioner før vinduer og døre.
 
-###   
-**2,1,3,5** 
+###   **2,1,3,5** 
 
 *   bsim_history.htm & help_history.htm: Ændret lay-out.
 
@@ -2856,8 +2815,7 @@
 
 *   simview-systems.htm: Generelt fjerenet referencer til skygger og SuperLight.
 
-###   
-**2,1,2,7** 
+###   **2,1,2,7** 
 
 *   simdb-be0.htm: Tilføjet afsnit om options i SimDB.
 
@@ -2869,8 +2827,7 @@
 
 *   simlight_plan.htm: Udskiftet og tilføjet grafik. Tilføjet tekst om valg af vist parameter.
 
-###   
-**2,1,1,16** 
+###   **2,1,1,16** 
 
 *   simview_move_face.htm: Tilføjet tekst om flytning af bygninger.
 
@@ -2880,39 +2837,33 @@
 
 *   struktur.htm: Tilføjet tekst om vinduer med negativ z-værdi.
 
-###   
-**2,1,1,12** 
+###  **2,1,1,12** 
 
 *   simview-options.htm: Ny grafk og tilføjet information om Auto Arrange FaceSides.
 
 *   simlight-plan.htm: Udskiftet grafk og tilføjet tekst om definition af et plan.
 
-###   
-**2,1,1,8** 
+###   **2,1,1,8** 
 
 *   modeloplysninger.htm: Tilføjet beskrivelse af dimensionerende varmetab for bygningen / rummet.
 
 *   dialogs.htm: Tilføjet beskrivelse af info-felt om dimensionerende varmetab for bygning / rum.
 
-###   
-**2,1,1,3** 
+###   **2,1,1,3** 
 
 *   simdb-be-windoor.htm: Tilføjet tabel med værdier for linær transmissionskoefficient for afstandsprofiler i windoors.
 
-###   
-**2,0,12,22** 
+###   **2,0,12,22** 
 
 *   simdb-bm-glazing.htm: Udskiftet grafik. Ændret beskrivelse af dialogen.
 
 *   simdb-bm-*.htm: Rettet link til UserDefined på alle paralelle sider.
 
-###   
-**2,0,12,21** 
+###   **2,0,12,21** 
 
 *   imitations.htm: Tilføjet side med beskrivelse af forskellige bergænsninger i programmerne.
 
-###   
-**2,0,12,19** 
+###   **2,0,12,19** 
 
 *   dialogs.htm: Udskiftet dialog Room Property og tilføjet tekst om konveks/konkav, volumen samt kald af Edit | Clean | Geometry.
 
@@ -2936,23 +2887,19 @@
 
 *   simdb-be-windoor.htm: Udskiftet grafik og tilføjet beskrivelse af info-felt.
 
-###   
-**2,0,12,04** 
+###   **2,0,12,04** 
 
 *   simlight.htm: Tilføjet tekst om vinduer mellem rum.
 
-###   
-**2,0,11,22** 
+###   **2,0,11,22** 
 
 *   simview-add_windoor.htm: Fjernet gammel bekrivelse af WinDoor Layout og forkert navn for Offset.
 
-###   
-**2,0,11,20** 
+###   **2,0,11,20** 
 
 *   systems_heating.htm: Tilføjet beskrivelse af Sensor Zone.
 
-###   
-**2,0,11,8**
+###   **2,0,11,8**
 
 *   Intern version!!! bullet Ændret link fra "SBI" til "by-og-byg" samt grafik til "Danish Building and Urban Research".
 
@@ -2960,8 +2907,7 @@
 
 *   simview_systems.htm: Tilføjet bemærkning om rækkefølgen af systemerne.
 
-###   
-**2,0,10,30** 
+###   **2,0,10,30** 
 
 *   Intern version!!! bullet databasen.htm: Tilføjet "Read only" beskrivelse.
 
@@ -2973,8 +2919,7 @@
 
 *   Navigation: Tilføjet "Indlæringseksempler" under "Godt i gang ..." og eks1, eks2 og eks3 herunder.
 
-###   
-**2,0,10,25** 
+###   **2,0,10,25** 
 
 *   xsun.htm: Tilføjet beskrivelse af Day Step feltet.
 
@@ -2992,18 +2937,15 @@
 
 *   simview_options.htm: Tilføjet beskrivelse af Show STEP Errors.
 
-###   
-**2,0,10,19** 
+###   **2,0,10,19** 
 
 *   Start på opbygning af ny tutorial ved: tutorial1.htm, eks1.htm, eks2.htm og eks3.htm. Disse sider er endnu ikke implementeret i den kompilerede hjælpefil.
 
-###   
-**2,0,10,13** 
+###   **2,0,10,13** 
 
 *   simview-fictive_zones.htm: Tilføjet beskrivelse af fiktive zoner som zone.
 
-###   
-**2,0,10,11** 
+###   **2,0,10,11** 
 
 *   simview_move_face.htm: Tilføjet beskrivelse af fastholdelse af enkelte hjørnepunkter ved flytning af en flade.
 
@@ -3017,18 +2959,15 @@
 
 *   climate.htm: Tilføjet figur med dialog for definition af linjer og beskrivelse af Delete-knap.
 
-###   
-**2,0,9,25** 
+###   **2,0,9,25** 
 
 *   climate.htm: Oprettet side med beskrivelse af konvertering af klimadata.
 
-###   
-**2,0,9,20** 
+###   **2,0,9,20** 
 
 *   dialogs.htm: Tilføjet side med beskrivelse af Property dialoger i SimView.
 
-###   
-**2,0,9,6** 
+###   **2,0,9,6** 
 
 *   converting_weather_data.htm: Ny side for beskrivelse af procedure til konvertering af klimadata.
 
@@ -3042,8 +2981,7 @@
 
 *   print_help.htm: Fjernet link til PDF brugervejledning.
 
-###   
-**2,0,8,17** 
+###   **2,0,8,17** 
 
 *   tsbi5_parametres.htm: Tilføjet beskrivelse af sammenligning af resultater fra flere modeller samt låsning af y-aksens skalering.
 
@@ -3065,8 +3003,7 @@
 
 *   filetypes.htm: Tilføjet side med beskrivelse af filtyper og databaser.
 
-###   
-**2,0,8,7** 
+###   **2,0,8,7** 
 
 *   simview-fictive_zones.htm: Tilføjet beskrivelse af års- og døgnvariationen for en rumtemperatur.
 
@@ -3074,8 +3011,7 @@
 
 *   tsbi5_parametres.htm: Tilføjet beskrivelse af dobbelt-klik funktionen i parameterlisten.
 
-###   
-**2,0,8,4** 
+###   **2,0,8,4** 
 
 *   Tilføjet navne på samtlige dialobokse så det er muligt at søge ordret på navnet på en dialgoboks.
 
@@ -3085,18 +3021,15 @@
 
 *   hjælp_knapper.htm: Tilføjet beskrivelse af fanebladene i "hjælp".
 
-###   
-**2,0,7,31** 
+###   **2,0,7,31** 
 
 *   kolofon.htm: Tilføjet et "eftertryk".
 
-###   
-**2,0,7,19** 
+###   **2,0,7,19** 
 
 *   systems_mixing.htm: udvidet beskrivelse af mixing mellem termiske zoner og rum
 
-###   
-**2,0,7,17** 
+###   **2,0,7,17** 
 
 *   Udvidelse af beskrivelsen af Options i tsbi5 dialog.
 
@@ -3104,8 +3037,7 @@
 
 *   Rettelser vil optræde med diskret lilla farve for lettere genkendelse ved generering af endelig oversættelse til engelsk.
 
-###   
-**2,0,5,31** 
+###   **2,0,5,31** 
 
 *   Tilføjet link til PDF-version af hjælpeteksten.
 
@@ -3113,8 +3045,7 @@
 
 *   Tilføjet versionsnummer i sidefoden på Word versionen.
 
-###   
-**2,0,5,29** 
+###   **2,0,5,29** 
 
 *   Anbefaling af kote 0 for overside af gulv i nederste etage i SimDXF filter.
 
@@ -3124,18 +3055,15 @@
 
 *   Generering af første PDF brugervejledning.
 
-###   
-**2,0,5,26** 
+###   **2,0,5,26** 
 
 *   Rettet forkerte link i indholdet
 
-###   
-**2,0,5,23** 
+###   **2,0,5,23** 
 
 *   Tilføjet begrænsning for beregninger med SimLight: Netop 4 hjørnepunkter i alle windoor i rummet der skal regnes på.
 
-###   
-**2,0,5,4** 
+###   **2,0,5,4** 
 
 *   Ændret beskrivelse af expand og kollaps i værktøjsbjælken
 
@@ -3143,8 +3071,7 @@
 
 *   Tilføjet side for tilmelding til debatforum. Imødeser postsystemer der ikke accepreter "BODY".
 
-###   
-**2,0,5,3** 
+###   **2,0,5,3** 
 
 *   Beskrivelse af horisontafskæring i Site Property.
 
@@ -3154,7 +3081,6 @@
 
 *   Tilføjelse af kolofon.
 
-###   
-**2,0,4,27** 
+###   **2,0,4,27** 
 
 *   Tilføjet beskrivelse af funktionen for flytning af WinDoor i SimView - Move.
