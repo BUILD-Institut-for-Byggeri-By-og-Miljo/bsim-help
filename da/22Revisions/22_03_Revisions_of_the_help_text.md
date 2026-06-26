@@ -1594,7 +1594,7 @@
 
  
 
-### **7.14.mm.dd** 
+### **7.14.mm.dd** -
 
 *   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
@@ -1609,12 +1609,12 @@
 *   Tilføjet advarsel om rækkefølge af [Lighting](../11Systems/11_03_Systems_Lighting.md) i forhold til Ventilation.
 
 ###   
-**7.13.10.1** 
+**7.13.10.1** -
 
 *   Skiftet til version 7 for at følge BSim versionen.
 
 ###   
-**6.13.9.26**
+**6.13.9.26** -
 
 *   Tilføjet information om PackCalc under [Ventilation](../11Systems/11_21_Systems_Ventilation.md) og tilføjet link til download af programmet.
 
@@ -1681,7 +1681,7 @@
 *   Udvidet beskrivelse af [resultatparameter](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) WaterTempMean.
 
 ###   
-**6.11.1.17** 
+**6.11.1.17** -
 
 *   Tilføjet information om *Reg. System Time Step* på [tsbi5 | Options](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md).
 
@@ -2119,51 +2119,51 @@
 *   [systems\systems_lighting.htm:](../11Systems/11_03_Systems_Lighting.md) Tilføjet hot-spots i grafik.
 
 
+###
+**5,5,1,7** -
+
+*   [tsbi5\climate.htm:](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) Tilføjet info om rækkefølge af data for klimakonvertering.
+
+*   [SimDb\simdb-bm-finish.htm:](../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md) Tilføjet information om standardværdier for reflektionen fra gulve, lofter, vægge, glas og ude i SimLight.
+
+*   [systems\floor_heat_ctrl.htm](../11Systems/11_07_Floor_Heating_Control.md): Skiftet baggrundsfarve til gul og tilføjet beskrivelse af qHeat som resultat fra gulvvarme.
+
+*   [systems\fan_coil_ctrl.htm:](../24Miscellaneous/24_59_Fan_coil_control.md) Rettet Qz til Qi og udbygget forklaring af hvorfor qCooling kan overskride den umiddelbart beregnelige max-værdi.
+
 ###   
-**5,5,1,7**
+**5,4,11,10** -
 
-*   [tsbi5\climate.htm:](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) Tilføjet info om rækkefølge af data for klimakonvertering.
+*   [systems\venting_ctrl.htm:](../11Systems/11_18_Systems_Venting.md) Tilføjet advarsel om ikke at sætte CO2 set-punkt og CO2 indhold i udeluft for tæt og hvilke bidrag af udeluft der benyttes til regulering efter et ønsket CO2 niveau.
 
-*   [SimDb\simdb-bm-finish.htm:](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md) Tilføjet information om standardværdier for reflektionen fra gulve, lofter, vægge, glas og ude i SimLight.
+*   [bsim_history.htm:](../22Revisions/22_01_Revisions_of_BSim.md) Opdateret.
 
-*   [systems\floor_heat_ctrl.htm](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md): Skiftet baggrundsfarve til gul og tilføjet beskrivelse af qHeat som resultat fra gulvvarme.
+*   [tsbi5\tsbi5_options.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Tilføjet link til Edit + Options.
 
-*   [systems\fan_coil_ctrl.htm:](../07SimDB_Database/07_02_SimDB_BuildingElement.md) Rettet Qz til Qi og udbygget forklaring af hvorfor qCooling kan overskride den umiddelbart beregnelige max-værdi.
+*   [simview\simview-add_windoor.htm:](../09SimView/09_07_Windoor_property.md) Tilføjet link til Regulation.
 
-###   
-**5,4,11,10** 
+*   [systems\systems_windoor.htm:](../24Miscellaneous/24_73_Windoor_Systems.md) Ny side for systemer tilknyttet Windoors. Flyttet navigation af Shutter og Solar Shading til denne side fra add windoor.
 
-*   [systems\venting_ctrl.htm:](../07SimDB_Database/07_02_SimDB_BuildingElement.md) Tilføjet advarsel om ikke at sætte CO2 set-punkt og CO2 indhold i udeluft for tæt og hvilke bidrag af udeluft der benyttes til regulering efter et ønsket CO2 niveau.
+*   [simview\windoor_property.htm:](../09SimView/09_07_Windoor_property.md) Opdateret grafik. Tilføjet link til Regulation for naturlig ventilation.
 
-*   [bsim_history.htm:](../11Systems/11_11_Natural_ventilation.md) Opdateret.
+*   [tsbi5\tsbi5_nvoptions_page.htm:](../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md) Ny side med information om fler-zone simulering af naturlig ventilation standard paramentres (under opbygning). Tilføjer navigationen under tsbi5/Options.
 
-*   [tsbi5\tsbi5_options.htm:](../24Miscellaneous/24_09_Light_Control.md) Tilføjet link til Edit + Options.
+*   [tsbi5\tsbi5_options_page.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Omdøbt fra tsbi5/standardparametre.htm og opdelt i to sider (se ovenfor). Tilføjet til navigationen under tsbi5/Options.
 
-*   [simview\simview-add_windoor.htm:](../11Systems/11_03_Systems_Lighting.md) Tilføjet link til Regulation.
+*   [simview\finish_property.htm:](../24Miscellaneous/24_34_Finish_Property.md) Ændret visning af grafik.
 
-*   [systems\systems_windoor.htm:](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) Ny side for systemer tilknyttet Windoors. Flyttet navigation af Shutter og Solar Shading til denne side fra add windoor.
+*   [systems\systems_moisture.htm:](../11Systems/11_05_Systems_Moisture.md) Udskiftet grafik og tilføjet information om fugtafgivelse fra fri en vandoverflade, fx en svømmehal + link til enkel og avanceret fugtmodel. Fjernet matematik og henviser i stedet til teoriafsnittet. Tilføjet info om pt. manglende verifikation af modellerne.
 
-*   [simview\windoor_property.htm:](../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md) Opdateret grafik. Tilføjet link til Regulation for naturlig ventilation.
+*   [defaults.htm:](../24Miscellaneous/24_67_Default_values.md) Tilføjet siden til navigationsstrukturen.
 
-*   [tsbi5\tsbi5_nvoptions_page.htm:](../11Systems/11_07_Floor_Heating_Control.md) Ny side med information om fler-zone simulering af naturlig ventilation standard paramentres (under opbygning). Tilføjer navigationen under tsbi5/Options.
-
-*   [tsbi5\tsbi5_options_page.htm:](../24Miscellaneous/24_59_Fan_coil_control.md) Omdøbt fra tsbi5/standardparametre.htm og opdelt i to sider (se ovenfor). Tilføjet til navigationen under tsbi5/Options.
-
-*   [simview\finish_property.htm:](../11Systems/11_18_Systems_Venting.md) Ændret visning af grafik.
-
-*   [systems\systems_moisture.htm:](../22Revisions/22_01_Revisions_of_BSim.md) Udskiftet grafik og tilføjet information om fugtafgivelse fra fri en vandoverflade, fx en svømmehal + link til enkel og avanceret fugtmodel. Fjernet matematik og henviser i stedet til teoriafsnittet. Tilføjet info om pt. manglende verifikation af modellerne.
-
-*   [defaults.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Tilføjet siden til navigationsstrukturen.
-
-*   [about.htm:](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md) Udskiftet grafik.
+*   [about.htm:](../06BSim_Program_structure/06_02_About_BSim.md) Udskiftet grafik.
 
 *   help\cover_chm.htm: Udskiftet grafik.
 
 *   help\cover_html.htm: Udskiftet grafik.
 
-*   [help\læsevejledning.htm:](../11Systems/11_10_systems_mixing.md) Skiftet placering.
+*   [help\læsevejledning.htm:](../05Introduction/05_04_Reader_guidelines.md) Skiftet placering.
 
-*   [help\hjælp_knapper.htm:](../09SimView/09_07_Windoor_property.md) Opdateret beskrivelse af hvad der sker når der klikkes på SBi-logo og knappen BSim.dk. Tilføjet information om gule hjælpesider.
+*   [help\hjælp_knapper.htm:](../24Miscellaneous/24_23_Help.md) Opdateret beskrivelse af hvad der sker når der klikkes på SBi-logo og knappen BSim.dk. Tilføjet information om gule hjælpesider.
 
 *   Alle sider:  
 
@@ -2171,45 +2171,46 @@
 
     *   Tilføjet Copyright i bunden af sider.
 
-    *   Udskiftet to knapper Dansk og Engelsk med SBi logo som åbner [www.sbi.dk](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) når der klikkes på det.
+    *   Udskiftet to knapper Dansk og Engelsk med SBi logo som åbner [www.sbi.dk](../23Internet/23_01_Join_the_debate_and_information_forum.md) når der klikkes på det.
 
     *   Udskiftet BSim2002 med BSim og passende tekst.
 
-*   [systems\fan_coil_ctrl.htm:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Tilføjet ny side med beskrivelse køleregulering som fan coil.
+*   [systems\fan_coil_ctrl.htm:](../24Miscellaneous/24_59_Fan_coil_control.md) Tilføjet ny side med beskrivelse køleregulering som fan coil.
 
-*   [systems\cool_ctrl.htm:](../24Miscellaneous/24_34_Finish_Property.md) Ny grafik.
+*   [systems\cool_ctrl.htm:](../11Systems/11_09_Systems_cooling.md) Ny grafik.
 
-*   [systems\systems_cooling.htm](../11Systems/11_05_Systems_Moisture.md): Ændret tekst om schedule, ny grafik, link til Max Power.
+*   [systems\systems_cooling.htm](../11Systems/11_09_Systems_cooling.md): Ændret tekst om schedule, ny grafik, link til Max Power.
 
-*   [læsevejledning.htm:](../24Miscellaneous/24_67_Default_values.md) Tilføjet information om gule sider med funktioner som kun findes i BSim version 2002 og fremefter.
+*   [læsevejledning.htm:](../05Introduction/05_04_Reader_guidelines.md) Tilføjet information om gule sider med funktioner som kun findes i BSim version 2002 og fremefter.
 
-*   [filtypes.htm:](../06BSim_Program_structure/06_02_About_BSim.md) Tilføjet information om BSim2003.mdb.
+*   [filtypes.htm:](../05Introduction/05_08_File_types.md) Tilføjet information om BSim2003.mdb.
 
- 
+&nbsp;
 
-### **4,4,8,11** 
+### **4,4,8,11** - 
 
-*   [litteratur.htm:](../05Introduction/05_04_Reader_guidelines.md) Tilføjet link til artikler i fuld længde på internettet.
+*   [litteratur.htm:](../20The_Mathematical_Basis/20_28_Literature.md) Tilføjet link til artikler i fuld længde på internettet.
 
-*   [simview\simview_options.htm:](../05Introduction/05_02_Help_structure.md) Tilføjet beskrivelse af lokal gemning af undo filer.
+*   [simview\simview_options.htm:](../09SimView/09_16_SimView_Options.md) Tilføjet beskrivelse af lokal gemning af undo filer.
 
-*   [simview\simview_toolbar.htm:](https://www.build.aau.dk/til-byggebranchen) Tilføjet beskrivelse af "redo" knappen og Model Doc.
+*   [simview\simview_toolbar.htm:](../06BSim_Program_structure/06_05_SimView_Toolbar.md) Tilføjet beskrivelse af "redo" knappen og Model Doc.
 
-*   [simview\menu_edit.htm:](../24Miscellaneous/24_59_Fan_coil_control.md) Tilføjet beskrivelse af "Edit + Options" under tsbi5.
+*   [simview\menu_edit.htm:](../06BSim_Program_structure/06_04_Program_menus_in_BSim.md) Tilføjet beskrivelse af "Edit + Options" under tsbi5.
 
 *   tsbi5\standardparametre.htm: Tilføjet ny side med beskrivelse af standardparametre i tsbi5.
 
-*   [simview\model_doc.htm:](../24Miscellaneous/24_01_PackCalc_Cooling.md) Ny side med kort intro til model DOC og link til eksempel på udskrift. <span id="red_text"> Skal udbygges! </span> <!-- XXX -->
+*   [simview\model_doc.htm:](../24Miscellaneous/24_29_Model_DOC.md) Ny side med kort intro til model DOC og link til eksempel på udskrift. <span id="red_text"> Skal udbygges! </span> <!-- XXX -->
 
 *   help\stikord.htm: Tilføjet "tsbi5 standardværdier" og "model DOC".
 
-*   [tsbi5\tsbi5_parametres.htm:](../11Systems/11_09_Systems_cooling.md) Tilføjet info om hvordan timeværdier er gemt (middel værdi eller øjebliksværdi).
+*   [tsbi5\tsbi5_parametres.htm:](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) Tilføjet info om hvordan timeværdier er gemt (middel værdi eller øjebliksværdi).
 
-*   [tsbi5\par-list.htm:](../05Introduction/05_04_Reader_guidelines.md) Tilføjet info om hvordan timeværdier er gemt (middel værdi eller øjebliksværdi).
+*   [tsbi5\par-list.htm:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) Tilføjet info om hvordan timeværdier er gemt (middel værdi eller øjebliksværdi).
 
 *   hjælp: Ændret link til versionscheck til BSim bibliotek på www.
 
-*   [systems\venting_ctrl.htm:](../05Introduction/05_08_File_types.md) Præcisering af reduktion af naturlig ventilation ved brug af parameteren Factor.
+*   [systems\venting_ctrl.htm:](../11Systems/11_18_Systems_Venting.md) Præcisering af reduktion af naturlig ventilation ved brug af parameteren Factor.
+
 
 ###   
 **4,4,4,28** 
