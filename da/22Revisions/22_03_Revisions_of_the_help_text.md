@@ -1741,7 +1741,7 @@
 
 *   Opdateret grafik og tilføjet information om parameteren *SwitchOff* i forbindelse med [styring af kunstlyset efter dagslyset](../24Miscellaneous/24_10_Daylight_Control.md).
 
-*   Opdateret grafik og tilføjet information om parameteren Solar Limit i forbindelse med styring af [kunstlyset efter sollyset](../24Miscellaneous/24_09_L)".
+*   Opdateret grafik og tilføjet information om parameteren Solar Limit i forbindelse med styring af [kunstlyset efter sollyset](../24Miscellaneous/24_09_Light_Control.md)".
 
 *   Tilføjet information om gemning af resultater i [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) ved "Alt + X".
 
@@ -1749,39 +1749,39 @@
 
 
 ###   
-**6.9.8.24** 
+**6.9.8.24** -
 
-*   Tilføjet link til [PCM](../09SimView/09_07_Windoor_property.md) fra [hovedindgang](../11Systems/11_11_Natural_ventilation.md) til materialedelen af SimDb.
+*   Tilføjet link til [PCM](../07SimDB_Database/07_13_SimDb_BuildingMaterial_PCM.md) fra [hovedindgang](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md) til materialedelen af SimDb.
 
-*   Opdateret [Windoor property](../09SimView/09_08_Thermal_bridges.md) med link til [NatVent](../09SimView/09_08_Thermal_bridges.md) og [kuldebroer](../09SimView/09_06_Construction_property.md).
+*   Opdateret [Windoor property](../09SimView/09_07_Windoor_property.md) med link til [NatVent](../11Systems/11_11_Natural_ventilation.md) og [kuldebroer](../09SimView/09_08_Thermal_bridges.md).
 
-*   Opdateret [NatVent](../20The_Mathematical_Basis/20_25_Heat_balance_for_the_zone_air.md) fane under [Windoor property](../11Systems/11_06_Hydronic_constructive_heating_cooling.md) med link til kuldebroer.
+*   Opdateret [NatVent](../11Systems/11_11_Natural_ventilation.md) fane under [Windoor property](../09SimView/09_07_Windoor_property.md) med link til kuldebroer.
 
-*   Oprettet ny side med beskrivelse af [kuldebroer](../11Systems/11_07_Floor_Heating_Control.md) langs kanterne af en konstruktion.
+*   Oprettet ny side med beskrivelse af [kuldebroer](../09SimView/09_08_Thermal_bridges.md) langs kanterne af en konstruktion.
 
-*   Opdateret beskrivelse af [egenskaber for en konstruktion](../07SimDB_Database/07_13_SimDb_BuildingMaterial_PCM.md) med tilføjelse af kuldebroer.
+*   Opdateret beskrivelse af [egenskaber for en konstruktion](../09SimView/09_06_Construction_property.md) med tilføjelse af kuldebroer.
 
-*   Opdateret [teori for varmebalancen i et rum](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md) med bidrag fra kuldebroer.
+*   Opdateret [teori for varmebalancen i et rum](../20The_Mathematical_Basis/20_25_Heat_balance_for_the_zone_air.md) med bidrag fra kuldebroer.
 
-*   Opdateret [systembeskrivelse](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
+*   Opdateret [systembeskrivelse](../11Systems/11_06_Hydronic_constructive_heating_cooling.md) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
 
-*   Opdateret [regulering](../11Systems/11_27_NvCool_regulation_ventilation.md) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
+*   Opdateret [regulering](../11Systems/11_07_Floor_Heating_Control.md) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
 
-*   Tilføjet ny side med beskrivelse af [materialeegenskaber for faseskiftende materialer (PCM)](../11Systems/11_06_Hydronic_constructive_heating_cooling.md).
+*   Tilføjet ny side med beskrivelse af [materialeegenskaber for faseskiftende materialer (PCM)](../07SimDB_Database/07_13_SimDb_BuildingMaterial_PCM.md).
 
-*   Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [tables](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md) fanebladet under tsbi5.
+*   Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [tables](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md) fanebladet under tsbi5.
 
-*   Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [varmebalancen](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md).
+*   Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md).
 
-*   Tilføjet tekst til [NvCoolCtrl](../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md) af ventilation.
+*   Tilføjet tekst til [NvCoolCtrl](../11Systems/11_27_NvCool_regulation_ventilation.md) af ventilation.
 
-*   Opdateret beskrivelse af "Destination" for [gulvvarme/køling](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md).
+*   Opdateret beskrivelse af "Destination" for [gulvvarme/køling](../11Systems/11_06_Hydronic_constructive_heating_cooling.md).
 
-*   Ny side som beskriver [stabilitetskriteriet](../24Miscellaneous/24_65_Parameters_in_the_heat_balance.md) for stop af indsvingning inden start af egentlig simulering.
+*   Ny side som beskriver [stabilitetskriteriet](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md) for stop af indsvingning inden start af egentlig simulering.
 
-*   [Tilføjet tekst og link](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) vedr. indsvingning før start af egentlig simulering.
+*   [Tilføjet tekst og link](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md) vedr. indsvingning før start af egentlig simulering.
 
-*   Opdateret beskrivelse af brug af [overfladeegenskaber](../24Miscellaneous/24_34_Finish_Property.md) i simuleringerne.
+*   Opdateret beskrivelse af brug af [overfladeegenskaber](../07SimDB_Database/07_08_SimDB_BuildingMaterial_Finish.md) i simuleringerne.
 
 ###   
 **6.8.4.30** 
@@ -1874,40 +1874,42 @@
 
 *   Tilføjet tekst til ny [resultatparameter: NyDuct](../11Systems/11_11_Natural_ventilation.md) på konstruktioner.
 
-###   
-**5,7,1,19** 
+
+###
+**5,7,1,19** -
 
 *   Tilføjet Aalborg Universitet i toppen af alle hjælpesider.
 
-*   Tilføjet tekst om fastlæggelse af den operative temperatur for den enkelte [termiske zone](../11Systems/11_11_Natural_ventilation.md) (ny input parameter). Opdateret grafik og fjernet direkte link fra grafikken til teori om Kappa-modellen.
+*   Tilføjet tekst om fastlæggelse af den operative temperatur for den enkelte [termiske zone](../10Thermal_zones/10_01_Thermal_Zone_property.md) (ny input parameter). Opdateret grafik og fjernet direkte link fra grafikken til teori om Kappa-modellen.
 
-*   Tilføjet information om ny [materialegruppe](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) "v" (lodrette, ventilerede luftspalter) og tilføjet kort beskrivelse af de øvrige materialegrupper i BuildingMaterial delen af SimDB.
+*   Tilføjet information om ny [materialegruppe](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md) "v" (lodrette, ventilerede luftspalter) og tilføjet kort beskrivelse af de øvrige materialegrupper i BuildingMaterial delen af SimDB.
 
-*   Tilføjet information om brug af [flere klimadatafiler](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md) i samme simulering.
+*   Tilføjet information om brug af [flere klimadatafiler](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) i samme simulering.
 
-*   Oprettet [ny side](../06BSim_Program_structure/06_08_Error_messages.md) med information om tryktabskoefficienter (Cp værdier) for lodrette, ventilerede luftspalter.
+*   Oprettet [ny side](../24Miscellaneous/24_35_Wind_pressure_coefficient_for_crevices.md) med information om tryktabskoefficienter (Cp værdier) for lodrette, ventilerede luftspalter.
 
-*   Opdateret grafik og tilføjet tekst til: Wind exposure, filtration air flow og wind pressure coefficient på dialogen med [egenskaber for overflader](../05Introduction/05_05_Limitations.md) der vender imod det fri og tilføjet link til [ny side om Cp-værdierne](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md). Tilføjet link til standardværdier for overgangsmodstande længere nede på siden.
+*   Opdateret grafik og tilføjet tekst til: Wind exposure, filtration air flow og wind pressure coefficient på dialogen med [egenskaber for overflader](../24Miscellaneous/24_34_Finish_Property.md) der vender imod det fri og tilføjet link til [ny side om Cp-værdierne](../24Miscellaneous/24_35_Wind_pressure_coefficient_for_crevices.md). Tilføjet link til standardværdier for overgangsmodstande længere nede på siden.
 
-*   Opdateret tabel med[ varmeafgivelser fra personer.](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
+*   Opdateret tabel med[ varmeafgivelser fra personer.](../11Systems/11_13_Systems_Persons.md)
 
-*   Tilføjet information om hvilke virkelige [måneder](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md) der er i DRY.
+*   Tilføjet information om hvilke virkelige [måneder](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md) der er i DRY.
 
-*   Tilføjet information om standardplacering for klimadata ved klik på Browse i [Site-property](../13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md).
+*   Tilføjet information om standardplacering for klimadata ved klik på Browse i [Site-property](../24Miscellaneous/24_25_Site_Property.md).
 
-*   Tilføjet definition af placering af [sidefinner](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md) ved WinDoor.
+*   Tilføjet definition af placering af [sidefinner](../24Miscellaneous/24_54_WinDoor_overhangs_and_side-fins.md) ved WinDoor.
 
-*   [Resultatsammenligning](../05Introduction/05_05_Limitations.md): Tilføjet advarsel om lange modelnavne ved sammenligning af resultater.
+*   [Resultatsammenligning](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md): Tilføjet advarsel om lange modelnavne ved sammenligning af resultater.
 
-*   [Begrænsninger](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md): Tilføjet advarsel om lange modelnavne ved sammenligning af resultater.
+*   [Begrænsninger](../05Introduction/05_05_Limitations.md): Tilføjet advarsel om lange modelnavne ved sammenligning af resultater.
 
-*   [Site](../24Miscellaneous/24_10_Daylight_Control.md): Tilføjet information om åbning af dialogen.
+*   [Site](../24Miscellaneous/24_25_Site_Property.md): Tilføjet information om åbning af dialogen.
 
-*   [Ground](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md): Tilføjet information om åbning af dialogen.
+*   [Ground](../24Miscellaneous/24_26_Ground.md): Tilføjet information om åbning af dialogen.
 
-*   [Recirkulation](../20The_Mathematical_Basis/20_28_Literature.md): Opdateret tekst til recirkulation.
+*   [Recirkulation](../11Systems/11_28_Ventilation_Recirculation.md): Opdateret tekst til recirkulation.
 
-*   [Systemer](../24Miscellaneous/24_15_Edit.md): Tilføjet recirkulationsregulering af ventilationsluft.
+*   [Systemer](../11Systems/11_01_Systems.md): Tilføjet recirkulationsregulering af ventilationsluft.
+
 
 ###   
 **5,6,8,21** 
