@@ -3,13 +3,13 @@
 # Opbygning af model
 
 
-Abstraktion, beskrivelsen af essensen af problemet i den syntaks som et simuleringsværktøj benytter, er en af de mest vanskelige opgaver, både for novicen og eksperten. Det er sjældent at der er dels ressourcerne og dels grunden til at gennemføre en en-til-en beskrivelse af virkeligheden i programmet. Det kan være nyttigt at beskrive en pc som en varmekilde hvorimod ingen vil finde på at beskrive boksen med disketter eller bogen på skrivebordet. En generel regel for abstraktion er at stræbe efter, at bibeholde volumen, overfladeareal og termisk masse inden for en termisk zone. Denne vejledning er for kort til at give en komplet redegørelse for dette emne.
+Abstraktion, beskrivelsen af essensen af problemet i den syntaks som et simuleringsværktøj benytter, er en af de mest vanskelige opgaver, både for novicen og eksperten. Det er sjældent, at der hverken er ressourcerne eller grunden til at gennemføre en en-til-en beskrivelse af virkeligheden i programmet. Det kan være nyttigt at beskrive en pc som en varmekilde, hvorimod ingen vil finde på at beskrive boksen med disketter eller bogen på skrivebordet. En generel regel for abstraktion er at stræbe efter at beholde volumen, overfladeareal og termisk masse inden for en termisk zone. Denne vejledning er for kort til at give en komplet redegørelse for dette emne.
 
-Indlæringskurven i brugen af BSim, som er i stand til at modellere en lang række forskellige typer af problemer, er ikke ligegyldig. Som i de fleste avancerede ingeniør programmer er der problemet med syntaksen - udtrykt med dialoger og menuer, som styrer programmet og dets data, der tilsammen udgør dets inddata og uddata. Yderligere problematisk for nye brugere er betydningen af systemet i henseende af hvordan programmet forudsætter de forskellige fysiske fænomener modelleret.
+Indlæringskurven i brugen af BSim, som er i stand til at modellere en lang række forskellige typer af problemer, er ikke ligegyldig. Som i de fleste avancerede ingeniør programmer er der problemet med syntaksen - udtrykt med dialoger og menuer, som styrer programmet og dets data, der tilsammen udgør dets inddata og uddata. Yderligere problematisk for nye brugere er, hvordan systemet forudsætter de forskellige fysiske fænomener, der modelleres.
 
-Styrken, og på samme tid svagheden, ved BSim er dets evne til at tilbyde brugeren forskellige måder at beskrive og analysere et problem. Ikke alene forventer BSim en beskrivelse af problemet som er systematisk korrekt (der er selvfølgelig en række indbyggede sandsynlighedscheck), men det antager at problemet har mening i termodynamisk henseende. Det vil sige, at programmet ikke har nogen mulighed for at checke betydningen af den opbyggede model.
+Styrken, og på samme tid svagheden, ved BSim er dets evne til at tilbyde brugeren forskellige måder at beskrive og analysere et problem. Ikke alene forventer BSim en beskrivelse af problemet, som er systematisk korrekt (der er selvfølgelig en række indbyggede sandsynlighedscheck), men det antager, at problemet har mening i termodynamisk henseende. Det vil sige, at programmet ikke har nogen mulighed for at tjekke betydningen af den opbyggede model.
 
-For at være effektiv kræver indlæringen mere end blot adgang til en pc, noget dokumentation og tilstrækkelig tid til at finde ud af tingene ved "trial and error" metoden. Denne brugervejledning er et skridt på vejen til at gøre denne indlæringskurve mindre pinefuld. Vejledningen kan på ingen måde erstatte adgangen til en erfaren bruger af programmet eller egentlig træning, men er snarere en hjælp i gennemførelsen af denne proces. Det er hermed ikke sagt at det ikke er muligt at blive ekspert ved selvstudier, men at de ikke tekniske aspekter af simuleringsprocessen er svære at kommunikere.
+For at være effektiv kræver indlæringen mere end blot adgang til en pc, noget dokumentation og tilstrækkelig tid til at finde ud af tingene ved "trial and error" metoden. Denne brugervejledning er et skridt på vejen til at gøre denne indlæringskurve mindre pinefuld. Vejledningen kan på ingen måde erstatte adgangen til en erfaren bruger af programmet eller egentlig træning, men er snarere en hjælp til gennemførelsen af denne proces. Det er hermed ikke sagt, at det ikke er muligt at blive ekspert ved selvstudier, men at de ikke-tekniske aspekter af simuleringsprocessen er svære at kommunikere.
 
 Der er en række gyldne regler som bør overholdes ved opbygning af modeller til simulering af de termiske forhold i bygninger:
 
@@ -37,7 +37,7 @@ Inden opbygningen af modellen starter er det en god ide at være bekendt med den
 
 *   [Menuerne](../06BSim_Program_structure/06_04_Program_menus_in_BSim.md) i BSim er interaktive og giver **kun** adgang til de funktioner som kan benyttes på det aktuelle sted i programmet.
 
-I slutningen af hver linie er markeret med *kursiv* i hvilket af BSim's programmer den givne beskrivelse tilhører.
+I slutningen af hver linje er det markeret med *kursiv*, hvilket af BSim's programmer den givne beskrivelse tilhører.
 
 *   Et nyt projekt oprettes med en [wizard](../09SimView/09_12_Model_wizard_creating_a_new_model.md).
 

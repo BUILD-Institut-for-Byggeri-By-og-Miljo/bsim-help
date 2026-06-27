@@ -64,7 +64,7 @@ For at reducere solindfaldet og begrænse overophedningen af bygningen om sommer
 <figcaption>Dialog (Windoor Property) for ændring af vinduets lokale geometri og tilknytning af systemer til vinduet.</figcaption>
 </figure>
 
-Ved at sætte "hak" ud for *SolarShading* tilføjes systemet solafskærmning til vinduet. I træstrukturen højre-klikkes nu på *SolarShading* for det aktuelle vindue hvorved den tilhørende dialog kaldes frem:
+Ved at sætte "hak" ud for *SolarShading* tilføjes systemet solafskærmning til vinduet. I træstrukturen højreklikkes nu på *SolarShading* for det aktuelle vindue, hvorved den tilhørende dialog kaldes frem:
 
 <figure id="center_img">
 <img src="./assets/EKS3410.JPG" alt="Dialog (Shading) til definition af solafskærmning.">
@@ -75,7 +75,7 @@ For afskærmningsfaktoren *Shading Coeff*. indtastes værdien 0,35, fx svarende 
 
 Den anden parameter, der skal indlæses for afskærmningen er *Max Sun*, der angiver en grænse for solindfaldet pr. m² af det aktuelle vindue, hvorover solafskærmningen aktiveres. Værdien af denne parameter må vælges under hensyn til det samlede vinduesareal, solafskærmningen for øvrige vinduer i zonen samt geometrien af zonen og placeringen af arbejdspladser i forhold til vinduerne.
 
-Direkte solstråling, som rammer personer i rummet, opfattes normalt som ubehageligt. transmitteret diffus solstråling fra himlen og reflekteret fra omgivelserne vil sjældent overstige 150 W/m², og det kan antages, at solgrænsen (*Max Sun*) vil ligge mellem 100 og 200 W/m². I dette tilfælde indtastes 180 W/m².
+Direkte solstråling, som rammer personer i rummet, opfattes normalt som ubehageligt. Transmitteret diffus solstråling fra himlen og reflekteret fra omgivelserne vil sjældent overstige 150 W/m², og det kan antages, at solgrænsen (*Max Sun*) vil ligge mellem 100 og 200 W/m². I dette tilfælde indtastes 180 W/m².
 
 Feltet *Max Wind* angiver over hvilken vindhastighed det ikke tillades at solafskærmningen er i brug. Det kan fx være markiser som ikke tåler vindhastigheder større end 10 m/s.
 
@@ -94,7 +94,7 @@ Værdierne af de to næste parametre *Sun Limit* og *Temp*. *Max* definerer tils
 
 I dette tilfælde indtastes værdien 0,8 (kW). Det samlede rudeareal for de to vinduer er ca. 7,4 m² (2 x 1,8 x 2,05) og solgrænsen svarer derfor til en solindfald på ca. 108 W/m². For temperaturgrænsen *Temp. Max* indtastes værdien 24,5 (°C).
 
-Det vil sige: Det checkes først om solintensiteten på indersiden af ruden overskrider 180 W/m². Er dette tilfældet trækkes solafskærmningen for afhængigt af den reguleringsform som er valgt på fanebladet *ShadingCtrl*. Dernæst checkes om den operative temperatur i zonen er over 24,5 °C og om det samlede solindfald gennem alle zonens vinduer overskrider 800 W. Er dette tilfældet trækkes solafskærmningen for afhængigt af reguleringsformen, i dette tilfælde netop så meget (fordi der er valgt kontinuert regulering) at grænsen for den operative temperatur - hvis muligt - kan overholdes.
+Det vil sige: Det tjekkes først, om solintensiteten på indersiden af ruden overskrider 180 W/m². Er dette tilfældet, trækkes solafskærmningen for afhængigt af den reguleringsform, som er valgt på fanebladet *ShadingCtrl*. Dernæst tjekkes det, om den operative temperatur i zonen er over 24,5 °C, og om det samlede solindfald gennem alle zonens vinduer overskrider 800 W. Er dette tilfældet, trækkes solafskærmningen for afhængigt af reguleringsformen, i dette tilfælde netop så meget (fordi der er valgt kontinuert regulering), at grænsen for den operative temperatur - hvis muligt - kan overholdes.
 
 Det sidste indtastningsfelt *SF4 shading* definerer sollysfaktoren for vinduet, når afskærmningen er trukket helt for. Sollysfaktoren er knyttet til ét bestemt punkt i et givet plan i rummet, og er defineret som forholdet mellem belysningsstyrken i punktet i planet og den samtidige belysningsstyrke udendørs på den facadens plan, jf. [Algoritmer til beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
@@ -112,7 +112,7 @@ I det aktuelle eksempel er det valgt at lade lyset regulere efter solindfaldet g
 
 Det sidste felt på fanebladet for afskærmningsregulering er indgang til en valgmenu, hvori det skal defineres, hvordan afskærmningen benyttes. For alle tre reguleringsformer antages det, at afskærmningen trækkes så meget for, at solindfaldet bringes ned på eller under grænsen Max sol defineret i afskærmningsfanebladet og så meget, at temperaturen kommer under grænsen Temp. max defineret på fanebladet for afskærmningsregulering. I begge tilfælde dog kun såfremt disse maxværdier kan holdes ved den definerede afskærmningsfaktor. Afskærmningen trækkes netop så meget for, som det er nødvendigt for at overholde begge grænseværdier.
 
-Ved 'trinløs' (*Continuos*) regulering antages det, at afskærmningen trækkes lige akkurat så meget for, som nødvendigt for at overholde begge grænser. Ved 'on/off' trækkes afskærmningen (helt) for, såfremt én af grænseværdier overskrides. Ved '0 - ½ - 1' reguleringen trækkes afskærmningen halvt for, hvis dette er tilstrækkeligt for at forhindre overskridelse af grænseværdierne, men hvis dette ikke er tilstrækkeligt, trækkes den helt for.
+Ved 'trinløs' (*Continuous*) regulering antages det, at afskærmningen trækkes lige akkurat så meget for, som nødvendigt for at overholde begge grænser. Ved 'on/off' trækkes afskærmningen (helt) for, såfremt én af grænseværdierne overskrides. Ved '0 - ½ - 1' reguleringen trækkes afskærmningen halvt for, hvis dette er tilstrækkeligt for at forhindre overskridelse af grænseværdierne, men hvis dette ikke er tilstrækkeligt, trækkes den helt for.
 
 Det definerede system for vinduet kan kopieres til vinduet i det andet rum ved at trække (med Ctrl-knappen og venstre muse-knap holdt nede) fra vinduet i 'Box rum 1' til vinduet i 'Box rum 2' og slippe det her.
 
@@ -122,7 +122,7 @@ Det definerede system for vinduet kan kopieres til vinduet i det andet rum ved a
 
 Som den sidste udbygning af eksemplet forsynes bygningen med et ventilationsanlæg, der indblæser og udsuger 0,1 m³/s eller 360 m³/h i 'arbejdstiden', dvs. time 9-16 på hverdage. Anlægget indeholder en varmegenvinder med en temperaturvirkningsgrad på 0,6, samt en varmeflade med en maksimaleffekt på 1 kW, hvori luften kan opvarmes til minimum 17 °C før indblæsning.
 
-I træstrukturen højre-klikkes på den termiske zone hvor ventilationssystemet skal tilknyttes, hvorved der fremkommer en ventilationsdialog, som definerer forhold vedrørende luften i det aktuelle anlæg:
+I træstrukturen højreklikkes på den termiske zone, hvor ventilationssystemet skal tilknyttes, hvorved der fremkommer en ventilationsdialog, som definerer forhold vedrørende luften i det aktuelle anlæg:
 
 <figure id="center_img">
 <img src="./assets/EKS3411.JPG" alt="Første faneblad i ventilationsdialogen viser ventilationskomponenterne.">
