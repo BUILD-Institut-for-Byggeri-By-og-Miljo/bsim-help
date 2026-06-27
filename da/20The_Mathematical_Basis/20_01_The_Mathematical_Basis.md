@@ -24,7 +24,7 @@ I disse sektioner gennemgås det teoretiske grundlag for beregningerne i BSim.
 
 *   [Algoritmer til beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
-*   [Langbølget strålingsudveksling mellem rummet overflader](../20The_Mathematical_Basis/20_24_Form_factor_between_two_polygons.md)
+*   [Langbølget strålingsudveksling mellem rummets overflader](../20The_Mathematical_Basis/20_24_Form_factor_between_two_polygons.md)
 
 *   [Langbølget strålingsudveksling med omgivelserne](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md)
 

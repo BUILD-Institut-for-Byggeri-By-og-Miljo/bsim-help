@@ -14,7 +14,7 @@ I dette afsnit beskrives den del af opbygningen af en BSim model, der har med mz
 
 #### **Præsentation enkeltzonemodellen**
 
-De ting der blev indført med enkeltzonemodellen var: 
+De ting, der blev indført med enkeltzonemodellen, var: 
 
 *   <a href="#valg-af-vindprofil">Valg af vindprofil for grunden</a>
 
@@ -30,7 +30,7 @@ Disse punkter vil kort blive gennemgået i det følgende. 
 
 <h4 id="valg-af-vindprofil"><strong>Valg af vindprofil</strong></h4>
 
-På bygningsniveau vælges et vindprofil der benyttes til at beregne vindhastigheden i andre højder end 10 m - hvor vindhastigheden i vejrdata er målt.
+På bygningsniveau vælges et vindprofil, der benyttes til at beregne vindhastigheden i andre højder end 10 m - hvor vindhastigheden i vejrdata er målt.
 
 Vindhastigheden beregnes efter (British Standard):
 
@@ -74,7 +74,7 @@ Som standard er huller aktiveret, mens WinDoors ikke er aktiverede. På <a href=
 
 For WinDoors skal der også angives, hvor stor en del af arealet der kan åbnes, og i hvilken højde det åbne areals centrum ligger. En WinDoor har et endeligt antal åbningsgrader, som kan specificeres af brugeren. Benyttes 10 åbningsgrader kan det aktive areal være 0, 10, 20, … % af det areal der kan åbnes.
 
-Der kan/skal kun defineres åbninger i klimaskærmen, da enkeltzonemodellen regner alle rum i den termiske zone som et stort sammenhængende rum. Det skal derfor overvejes om der er modstand mellem rummene i den termiske zone, da disse ikke medtages i beregningerne. Modstand fra interne åbninger kan medtages ved åbningerne i klimaskærmen.
+Der kan/skal kun defineres åbninger i klimaskærmen, da enkeltzonemodellen regner alle rum i den termiske zone som et stort sammenhængende rum. Det skal derfor overvejes, om der er modstand mellem rummene i den termiske zone, da disse ikke medtages i beregningerne. Modstand fra interne åbninger kan medtages ved åbningerne i klimaskærmen.
 
 <figure id="center_img">
 <img src="./assets/mzm_im3.jpg" alt="Figur 2. Dialoger til aktivering af huller og WinDoors i enkeltzonemodellen.">
@@ -83,7 +83,7 @@ Der kan/skal kun defineres åbninger i klimaskærmen, da enkeltzonemodellen regn
 
 <h4 id="valg-af-cp-værdier"><strong>Valg af CP-værdier</strong></h4>
 
-De benyttede CP-værdier stammer fra ([Orme et al. 1998](../20The_Mathematical_Basis/20_28_Literature.md)) og er middelværdier for fladerne. Brugeren kan ikke selv angive CP-værdier. Orme et al. (1998) angiver CP-værdier for kvadratiske bygninger og bygninger med et sidforhold på 1:2. Der er ligeledes angivet CP-værdier for forskellige taghældninger. BSim vælger CP-værdier på baggrund af modellens geometri. *Det er derfor vigtigt at der opbygges tilpas meget af bygningen til at BSim vælger de rigtige CP-værdier.*
+De benyttede CP-værdier stammer fra ([Orme et al. 1998](../20The_Mathematical_Basis/20_28_Literature.md)) og er middelværdier for fladerne. Brugeren kan ikke selv angive CP-værdier. Orme et al. (1998) angiver CP-værdier for kvadratiske bygninger og bygninger med et sidforhold på 1:2. Der er ligeledes angivet CP-værdier for forskellige taghældninger. BSim vælger CP-værdier på baggrund af modellens geometri. *Det er derfor vigtigt, at der opbygges tilpas meget af bygningen til, at BSim vælger de rigtige CP-værdier.*
 
 CP-værdierne findes for tre forskellige grader af læ fra de omkringliggende bygninger og angives som en egenskab på den udvendige side af åbningen, se <a href="#figur-3">figur 3</a>.
 
@@ -197,18 +197,18 @@ Der oprettes grene
 
 #### **Lister med knuder og grene**
 
-Der oprettes to lister der indeholder hhv. alle knuder og alle grene. Listerne kan ses ved at vælge "chek" fra "[Simulation](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)" faneblad i tsbi5. Listerne heder "Nodes" (knuder) og "Arches" (grene).
+Der oprettes to lister, der indeholder hhv. alle knuder og alle grene. Listerne kan ses ved at vælge "chek" fra "[Simulation](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)" faneblad i tsbi5. Listerne hedder "Nodes" (knuder) og "Arches" (grene).
 
 <h3 id="opstilling-af-det-udspændende-træ"><strong>Opstilling af det udspændende træ</strong></h3>
 
-Opstilling af det udspændende træ skal kun inkludere de zoner der, evt. gennem andre zoner, er forbundet med omgivelserne. Det vil sige at der ikke kan regnes på luftudveksling mellem to termiske zoner, hvis disse ikke, evt. gennem andre zoner, er forbundet med omgivelserne, se <a href="#figur-7">figur 7</a>.
+Opstilling af det udspændende træ skal kun inkludere de zoner der, evt. gennem andre zoner, er forbundet med omgivelserne. Det vil sige, at der ikke kan regnes på luftudveksling mellem to termiske zoner, hvis disse ikke, evt. gennem andre zoner, er forbundet med omgivelserne, se <a href="#figur-7">figur 7</a>.
 
 <figure id="center_img">
 <img src="./assets/mzm_im8.gif" alt="Figur 7. BSim model med to interne åbninger og ingen eksterne. Multizone modellen bliver ikke aktiveret.">
 <figcaption id="figur-7">Figur 7. BSim model med to interne åbninger og ingen eksterne. Multizone modellen bliver ikke aktiveret.</figcaption>
 </figure>
 
-Ved opstilling af det udspændende træ er det valgt altid at starte i knuden for omgivelserne. Træet opstilles ud fra følgende systematik efter ([Savić et al. 1996](../20The_Mathematical_Basis/20_28_Literature.md)) , kaldet "depth-first-search". N er antallet af Nodes (knuder) og P er antallet af pipes (grene). Beregningsgangen i opstillingen af det udspændende træ forklares i det følgende:
+Ved opstilling af det udspændende træ er det valgt altid at starte i knuden for omgivelserne. Træet opstilles ud fra følgende systematik efter ([Savić et al. 1996](../20The_Mathematical_Basis/20_28_Literature.md)), kaldet "depth-first-search". N er antallet af Nodes (knuder) og P er antallet af pipes (grene). Beregningsgangen i opstillingen af det udspændende træ forklares i det følgende:
 
 <div id="gray_background">
 

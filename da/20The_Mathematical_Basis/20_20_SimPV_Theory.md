@@ -10,7 +10,7 @@ hvor:
 
 *   I<sub>diffus</sub> er den diffuse solintensitet på solcellerne.
 
-*   I<sub>direkte </sub>er de direkte solintensitet på solcellerne.
+*   I<sub>direkte</sub> er den direkte solintensitet på solcellerne.
 
 *   *f* er en faktor som angiver om en del af fladen er ramt af slagskygger.   
 

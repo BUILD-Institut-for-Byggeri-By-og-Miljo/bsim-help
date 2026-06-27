@@ -31,7 +31,7 @@ hvor:
 
 *   ΔT er forskellen mellem inde- og udetemperatur, K.
 
-Ligning (1) er et tilnærmet udtryk når der både optræder vind og opdrift og der samtidig er flere end to åbninger. Der skal holdes styr på om vind og opdrift forstærker eller svækker hinanden, og dette sker via fortegnene for c<sub>v </sub>og ΔT. Der regnes med positive værdier, når vind og opdrift hver for sig giver opadrettet strømning i rummet og negativ når de hver for sig giver nedadrettet strømning. Termisk opdrift alene optræder ved vindstille, dvs. når v<sub>10 </sub>= 0, og dette antages at være tilfældet når v<sub>10</sub> < 1,0 m/s. Ved vind alene sættes ΔT = 0.
+Ligning (1) er et tilnærmet udtryk, når der både optræder vind og opdrift, og der samtidig er flere end to åbninger. Der skal holdes styr på, om vind og opdrift forstærker eller svækker hinanden, og dette sker via fortegnene for c<sub>v</sub> og ΔT. Der regnes med positive værdier, når vind og opdrift hver for sig giver opadrettet strømning i rummet, og negativ, når de hver for sig giver nedadrettet strømning. Termisk opdrift alene optræder ved vindstille, dvs. når v<sub>10 </sub>= 0, og dette antages at være tilfældet når v<sub>10</sub> < 1,0 m/s. Ved vind alene sættes ΔT = 0.
 
 ### **ENSIDET VENTILATION**
 
@@ -59,7 +59,7 @@ hvor:
 
 #### **Flere lodrette åbninger i forskellige niveauer. Termisk opdrift**
 
-Svarer til forholdene ved opdriftventilation, der behandles senere.
+Svarer til forholdene ved opdriftsventilation, der behandles senere.
 
 #### **Enkelt, lodret åbning. Termisk opdrift og vind**
 
@@ -118,7 +118,7 @@ hvor:
 
 *   C<sub>p2</sub> er vindtrykkoefficienten på bygningsfladen med den øverste åbning (bruger/bibliotek, fx interpolation fra tabel 1),
 
-*   h er de lodrette afstand fra terræn til kiphøjde, m,
+*   h er den lodrette afstand fra terræn til kiphøjde, m,
 
 *   k er en ruhedsfaktor, der er afhængig af terrænet (bruger/bibliotek, anføres på "site" og/eller hentes fra tabel 2),
 

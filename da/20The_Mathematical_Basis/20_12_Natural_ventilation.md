@@ -18,7 +18,7 @@ $$ q_v = \left| \pm q_{Vv}^2 \pm q_{\text{VT}}^2 \right|^{½} = \left| \frac{c_v
 
  
 #### **Single Sided One Level**
-Èt sæt åbninger i én flade, i samme lodrette niveau. <br>
+Ét sæt åbninger i én flade, i samme lodrette niveau. <br>
 Termisk opdrift og vind:
 $$
 c_V = 0{,}03A
@@ -35,7 +35,7 @@ $$
 
 
 #### **Single Sided Horizontal**
-Èt sæt åbninger i én ikke lodret flade. <br>
+Ét sæt åbninger i én ikke lodret flade. <br>
 Termisk opdrift:
 
 $$

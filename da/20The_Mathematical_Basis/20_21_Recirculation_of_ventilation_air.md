@@ -74,7 +74,7 @@ Det skal overvejes, om MinHeatRec og MaxCoolRec senere skal flyttes over i regul
 
 Værdi i zonen (4) under SetP CO<sub>2</sub>: ingen regulering
 
-Værdi i zonen (4) over SetP CO<sub>2 </sub>:
+Værdi i zonen (4) over SetP CO<sub>2</sub>:
 
 *regulering*
 

@@ -119,7 +119,7 @@ Den relative belysningsstyrke i lokalet må derfor angives i forhold til det akt
 
 #### ***Sollysfaktorer***
 
-Sollysfaktoren SF i et punkt i et givet plan er defineret som forholdet mellem belysningsstyrken i punktet i planet og den samtidige belysningsstyrke udendørs på facadens plan uden skygger fra omgivelserne. Belysningsstyrken i et punkt kan ikke beskrives med en enkelt værdi af sollysfaktoren, men må opdeles i forskellige bidrag idet:
+Sollysfaktoren SF i et punkt i et givet plan er defineret som forholdet mellem belysningsstyrken i punktet i planet og den samtidige belysningsstyrke udendørs på facadens plan uden skygger fra omgivelserne. Belysningsstyrken i et punkt kan ikke beskrives med en enkelt værdi af sollysfaktoren, men må opdeles i forskellige bidrag, idet:
 
 *   SF1 er sollysfaktoren for direkte sollys (rettet lys)
 
