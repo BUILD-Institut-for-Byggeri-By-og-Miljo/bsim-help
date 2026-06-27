@@ -12,6 +12,6 @@ Der spørges automatisk om denne oversigt skal åbnes hvis en gammel bygningsmod
 
 | **Version** | **Parameter** | **Tekst** |
 |-------------|---------------|----------|
-| 4,7,1,4     | Max Sun       | Er flyttet fra systemet [*Shading*](../11Systems/11_16_Systems_shading.md) til de reguleringer for skygger hvor parameteren har betydning:<br><br>xyz, xyz, xyz. |
+| 4,7,1,4     | Max Sun       | Er flyttet fra systemet [*Shading*](../11Systems/11_16_Systems_shading.md) til de reguleringer for skygger, hvor parameteren har betydning. |
 
  
