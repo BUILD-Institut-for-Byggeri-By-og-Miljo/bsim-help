@@ -52,7 +52,7 @@ $$ E_{total} = E_{dif} \cdot g_{s, dif}(\beta) \cdot g_{g, dif} + E_{dir} \cdot 
 
 ## **Reduktion af dagslyset ved brug af lamelafskærmning**
 
-Når den aktuelle vinkel på afskærmningens lameller er beregnet, kan lysreduktionen i et valgt referencepunkt beregnes. Ved lys-beregningen skelnes der ikke mellem, om afskærmningen er placeret indvendigt eller udvendigt. Forløbet af reduktionsfaktoren for en hvid afskærmning er vist i figuren, hvoraf det fremgår at lysreduktionen er væsentligt større tæt ved vinduet end længere inde i rummet. Reduktionsfaktoren kan benyttes ved simulering af dagslysstyring i BSim, idet den også benyttes som en tilnærmelse ved beregnede sollysfaktorer.
+Når den aktuelle vinkel på afskærmningens lameller er beregnet, kan lysreduktionen i et valgt referencepunkt beregnes. Ved lys-beregningen skelnes der ikke mellem, om afskærmningen er placeret indvendigt eller udvendigt. Forløbet af reduktionsfaktoren for en hvid afskærmning er vist i figuren, hvoraf det fremgår, at lysreduktionen er væsentligt større tæt ved vinduet end længere inde i rummet. Reduktionsfaktoren kan benyttes ved simulering af dagslysstyring i BSim, idet den også benyttes som en tilnærmelse ved beregnede sollysfaktorer.
 
 <figure id="center_img">
 <img src="./assets/blind_fig2.gif" alt="Typisk reduktion af dagslyset ved en solafskærmning med hvide lameller. Reduktionsfaktoren kan benyttes ved simulering af dagslysstyring i BSim, idet den også benyttes som en tilnærmelse ved beregnede sollysfaktorer.">
@@ -79,14 +79,14 @@ $$ \beta_c = \arctan\left\{ \frac{\tan\theta \pm d \cdot \sqrt{1 + \tan^2\theta 
 For en traditionel (indvendig) persienne er der typisk et overlap af lamellerne på ca. 20 % i lukket tilstand, hvilket giver en værdi af d = 1 / 1,2 = 0,83. Den følgende figur viser kurver for cut-off vinklen som funktion af profilvinklen ved forskellige forhold mellem bredde og afstand af lamellerne.
 
 <figure id="center_img">
-<img src="./assets/blind_fig4.gif" alt="Variationen I Cut-Off vinkel for en lamelbaseret solafskærmning som funktion af solens profilvinkel og for forskellige forhold (d) mellem lamelafstand og lamelbredde.">
-<figcaption>Variationen I Cut-Off vinkel for en lamelbaseret solafskærmning som funktion af solens profilvinkel og for forskellige forhold (d) mellem lamelafstand og lamelbredde.</figcaption>
+<img src="./assets/blind_fig4.gif" alt="Variationen i Cut-Off vinkel for en lamelbaseret solafskærmning som funktion af solens profilvinkel og for forskellige forhold (d) mellem lamelafstand og lamelbredde.">
+<figcaption>Variationen i Cut-Off vinkel for en lamelbaseret solafskærmning som funktion af solens profilvinkel og for forskellige forhold (d) mellem lamelafstand og lamelbredde.</figcaption>
 </figure>
 
 
-Når feltet for CutOff Strategy er hakket af i BlindCtrl dialogen, undersøges det, om der vil være direkte solindfald ved den aktuelle indstilling af afskærmningen. Hvis der er direkte sol på facaden, defineret ved at værdien af Close er overskredet, drejes afskærmningens lameller til den kritiske vinkel β<sub>c</sub> plus eventuel værdi af OverCloseAngle. Hvis OverCloseAngle sættes til en værdi større end 0, bliver antallet af reguleringer i løbet af dagen reduceret. Den følgende fiigur viser hvordan CutOff vinklen varierer for en lamelbaseret solafskærmning på en sydvendt facade hen over dagen i de måneder, hvor vinklen er større end 0.
+Når feltet for CutOff Strategy er hakket af i BlindCtrl dialogen, undersøges det, om der vil være direkte solindfald ved den aktuelle indstilling af afskærmningen. Hvis der er direkte sol på facaden, defineret ved at værdien af Close er overskredet, drejes afskærmningens lameller til den kritiske vinkel β<sub>c</sub> plus eventuel værdi af OverCloseAngle. Hvis OverCloseAngle sættes til en værdi større end 0, bliver antallet af reguleringer i løbet af dagen reduceret. Den følgende figur viser, hvordan CutOff vinklen varierer for en lamelbaseret solafskærmning på en sydvendt facade hen over dagen i de måneder, hvor vinklen er større end 0.
 
 <figure id="center_img">
-<img src="./assets/blind_fig5.gif" alt="Variation af CutOff vinklen for en sydvendt facade i løbet af dagen og for forskellige måneder (den 15. i måneden). Diagrammet gælder for Danmarks breddegrad og for en værdi af lamelbredde og lamelafstand på 0,83. For alle tidspunkter, som ikke er vist på grafen er CuttOff vinklen 0 eller mindre.">
-<figcaption>Variation af CutOff vinklen for en sydvendt facade i løbet af dagen og for forskellige måneder (den 15. i måneden). Diagrammet gælder for Danmarks breddegrad og for en værdi af lamelbredde og lamelafstand på 0,83. For alle tidspunkter, som ikke er vist på grafen er CuttOff vinklen 0 eller mindre.</figcaption>
+<img src="./assets/blind_fig5.gif" alt="Variation af CutOff vinklen for en sydvendt facade i løbet af dagen og for forskellige måneder (den 15. i måneden). Diagrammet gælder for Danmarks breddegrad og for en værdi af lamelbredde og lamelafstand på 0,83. For alle tidspunkter, som ikke er vist på grafen, er CutOff vinklen 0 eller mindre.">
+<figcaption>Variation af CutOff vinklen for en sydvendt facade i løbet af dagen og for forskellige måneder (den 15. i måneden). Diagrammet gælder for Danmarks breddegrad og for en værdi af lamelbredde og lamelafstand på 0,83. For alle tidspunkter, som ikke er vist på grafen, er CutOff vinklen 0 eller mindre.</figcaption>
 </figure>

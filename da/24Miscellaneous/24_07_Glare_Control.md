@@ -8,8 +8,8 @@ Ofte antages det, at solafskærmninger reguleres efter solindfaldet, eller efter
 Reguleringen sker i forhold til belysningsniveauet i to [referencepunkter](../10Thermal_zones/10_03_Reference_point.md), dels for øjets placering og dels for et arbejdsplan.
 
 <figure id="center_img">
-<img src="./assets/glare_fig1.gif" alt="BSim dialog for definition af GlareCtrl. Ud fra den ønskede maksimale værdi af VDP beregnes grænseværdier belysningsstyrken i de to valgte referencepunkter (normalt på lodret plan ved øje-position samt på arbejdsplan).">
-<figcaption>BSim dialog for definition af GlareCtrl. Ud fra den ønskede maksimale værdi af VDP beregnes grænseværdier belysningsstyrken i de to valgte referencepunkter (normalt på lodret plan ved øje-position samt på arbejdsplan).</figcaption>
+<img src="./assets/glare_fig1.gif" alt="BSim dialog for definition af GlareCtrl. Ud fra den ønskede maksimale værdi af VDP beregnes grænseværdier for belysningsstyrken i de to valgte referencepunkter (normalt på lodret plan ved øje-position samt på arbejdsplan).">
+<figcaption>BSim dialog for definition af GlareCtrl. Ud fra den ønskede maksimale værdi af VDP beregnes grænseværdier for belysningsstyrken i de to valgte referencepunkter (normalt på lodret plan ved øje-position samt på arbejdsplan).</figcaption>
 </figure>
 
 
@@ -28,8 +28,8 @@ VGDP = 6⋅10<sup>-5</sup> E<sub>v</sub> + 0,2 
 Udtrykket, vist grafisk i nedenstående figur, illustrerer at der er store variationer i personers oplevelse af blænding. Mens nogle vil opleve ubehagsblænding allerede ved en belysningsstyrke på øjet på 1.000 lux, kan andre tolerere belysningsstyrker på helt op til 13.000 lux.
 
 <figure id="center_img">
-<img src="./assets/glare_fig2.gif" alt="Diskomfort pga. blænding (Visual discomfort probability due to glare, VGDP), normalt defineret ved belysningsstyrken på lodret plan ved brugerens øjenposition.">
-<figcaption>Diskomfort pga. blænding (Visual discomfort probability due to glare, VGDP), normalt defineret ved belysningsstyrken på lodret plan ved brugerens øjenposition.</figcaption>
+<img src="./assets/glare_fig2.gif" alt="Diskomfort pga. blænding (Visual discomfort probability, VGDP), normalt defineret ved belysningsstyrken på lodret plan ved brugerens øjenposition.">
+<figcaption>Diskomfort pga. blænding (Visual discomfort probability, VGDP), normalt defineret ved belysningsstyrken på lodret plan ved brugerens øjenposition.</figcaption>
 </figure>
 
 
@@ -56,6 +56,6 @@ Ved behov for regulering pga. blænding afhænger reguleringsformen af afskærmn
 For typerne *Curtain* eller *Screen* trækkes afskærmningen helt for, og den nye belysningsstyrke beregnes ud fra reduktionsfaktorerne gardin. Afskærmningens indstilling er ved starten af hvert tidsstep (halvtime) ligesom i forrige tidsstep. Hvis blændingskriteriet er overholdt, undersøges det, om afskærmningen kan åbnes mere for at opnå en højere belysningsstyrke i det andet referencepunkt (normalt på vandret arbejdsplan) samt for at opnå størst muligt udsyn.
 
 <figure id="center_img">
-<img src="./assets/glare_fig3.gif" alt="Visuel discomfort pga. for lidt lys (visual discomfort probability,VLDP), normalt defineret ved belysningsstyrken på arbejdsplanet (eller arbejdsobjektet). Den ønskede værdi af belysningsstyrken (Min. Lux) vælges af brugeren ud fra den aktuelle arbejdsopgave. I figuren er værdien 500 lux.">
-<figcaption>Visuel discomfort pga. for lidt lys (visual discomfort probability,VLDP), normalt defineret ved belysningsstyrken på arbejdsplanet (eller arbejdsobjektet). Den ønskede værdi af belysningsstyrken (Min. Lux) vælges af brugeren ud fra den aktuelle arbejdsopgave. I figuren er værdien 500 lux.</figcaption>
+<img src="./assets/glare_fig3.gif" alt="Visuel discomfort pga. for lidt lys (visual discomfort probability, VLDP), normalt defineret ved belysningsstyrken på arbejdsplanet (eller arbejdsobjektet). Den ønskede værdi af belysningsstyrken (Min. Lux) vælges af brugeren ud fra den aktuelle arbejdsopgave. I figuren er værdien 500 lux.">
+<figcaption>Visuel discomfort pga. for lidt lys (visual discomfort probability, VLDP), normalt defineret ved belysningsstyrken på arbejdsplanet (eller arbejdsobjektet). Den ønskede værdi af belysningsstyrken (Min. Lux) vælges af brugeren ud fra den aktuelle arbejdsopgave. I figuren er værdien 500 lux.</figcaption>
 </figure>

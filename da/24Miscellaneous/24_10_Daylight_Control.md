@@ -18,9 +18,9 @@ Ved denne reguleringstype reguleres almenlyset efter belysningsstyrken i et give
 
 *Light Level* (lux) angiver den ønskede belysningsstyrke i det valgte referencepunkt. Hvis det beregnede dagslys giver den ønskede belysningsstyrke i punktet, antages almenlyset at være slukket. Hvis dette niveau ikke opnås ved dagslys alene, antages almenlyset at være tændt. Typen af lyskilde samt måden, almenlyset kan reguleres på, er bestemmende for, størrelsen af effekten, der optages.
 
-*SwitchOff*: Angiver den procentvise effekt der optages i systemet når lyste er "slukket". Fungerer kun i forbindelse med kontinuert regulering.
+*SwitchOff*: Angiver den procentvise effekt, der optages i systemet, når lyset er "slukket". Fungerer kun i forbindelse med kontinueret regulering.
 
-*Control Form*: Dette felt er indgang til en valgmenu, hvori reguleringsmåden skal vælges. Der er mulighed for at vælge en on/off regulering, en trinvis i et specificeret antal trin, en kontinuert regulering samt en brugerdefineret type.
+*Control Form*: Dette felt er indgang til en valgmenu, hvori reguleringsmåden skal vælges. Der er mulighed for at vælge en on/off regulering, en trinvis i et specificeret antal trin, en kontinueret regulering samt en brugerdefineret type.
 
 Ved denne reguleringstype reguleres almenlyset efter belysningsstyrken i et givet referencepunkt i zonen. Belysningsstyrken afhænger naturligvis meget af punktets placering, men normalt refereres der til belysningsstyrken på et vandret arbejdsplan 0,85 m over gulvet. I programmet bestemmes belysningsstyrken time for time ud fra det beregnede solindfald på vinduerne i zonen samt værdierne af sollysfaktorerne SF1, SF2 og SF3, defineret for hvert vindue samt [sollyssfaktorerne](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md) SF4, der er defineret for eventuelle solafskærmninger eller skodder, knyttet til vinduerne. Sollysfaktorerne er nærmere forklaret i [algoritmer til beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 

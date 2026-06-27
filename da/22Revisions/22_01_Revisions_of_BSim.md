@@ -860,7 +860,7 @@ bullet Tilføjet View/ConstDoc: gem tekstfil med oversigt over bygningens konstr
 
 *   tsbi5: F1-hjælp i skemaer: hjælpen dirigeres til dialogen/fanebladet som indeholder skemaet.
 
-*   tsbi5: Vandret rullebjælke for vejrdatakonverterings-dialogen.
+*   tsbi5: Horisontal scroll-bar for vejrdatakonverterings-dialogen.
 
 *   tsbi5: For åbninger tilføjet initiering af sidefinner.
 

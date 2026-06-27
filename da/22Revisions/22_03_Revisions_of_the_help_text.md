@@ -8,9 +8,9 @@
 
 ### **7.14.mm.dd** 
 
-*   Tilføjet referencer til beregning af [solstråling på udvendige overflader](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
+*   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
-*   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_01_Join_the_debate_and_information_forum.md) og [send en e-mail til BSim listen](../23Internet/23_01_Join_the_debate_and_information_forum.md) med korrekte oplysninger om listen på AAU.
+*   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_01_Join_the_debate_and_information_forum.md) og [send en e-mail til BSim listen](../23Internet/23_01_Join_the_debate_and_information_forum.md) with correct information about the list at AAU.
 
 *   Rettet formel for beregning af udvendig konvektiv overgangsmodstand i [teori for beregning af langbølget stråling til himlen](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md).
 
