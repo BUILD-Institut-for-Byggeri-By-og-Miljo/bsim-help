@@ -9,6 +9,22 @@
 
  </div>
 
+
+### **7.14.mm.dd**
+
+*   Added references for calculation of [solar radiation on external surfaces](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
+
+*   Updated pages about [signing up for the BSim forum](../23Internet/23_01_Join_the_debate_and_information_forum.md) and [send an e-mail to the BSim list](../05Introduction/05_09_Questions_via_e-mail.md) with correct information about the list at AAU.
+
+*   Corrected formula for calculation of external convective heat transfer resistance in [theory for calculation of long-wave radiation to the sky](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md).
+
+*   Changed download link for [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) to SBi's website.
+
+*   Added information on drawing standards and layer structure used in connection with [SimDXF](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md).
+
+*   Added warning about the order of [Lighting](../11Systems/11_03_Systems_Lighting.md) in relation to Ventilation.
+
+
 ### **7.13.10.1**
 
 *   Changed to version 7 to follow BSim the version.

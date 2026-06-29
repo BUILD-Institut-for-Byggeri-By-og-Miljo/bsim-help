@@ -34,6 +34,7 @@ Error messages occurs at:
 | Panel = x % | The panel area of the WinDoor is negative. |
 | Dens = x kg/m³ / Cp = x J/kgK / lambda = x W/mK | The properties of the material is not defined correct. |
 | U = x W/m²K | The U-value for the panel in the WinDoor is not defined correct. |
+| Undefined | ALL material parameters must be defined.|
 
 
 <h3 id="xsun"><strong>XSun</strong></h3>

@@ -12,11 +12,11 @@
 
 *   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_01_Join_the_debate_and_information_forum.md) og [send en e-mail til BSim listen](../05Introduction/05_09_Questions_via_e-mail.md) with correct information about the list at AAU.
 
-*   Rettet formal for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md).
+*   Rettet formel for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md).
 
 *   Ændret download link for [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) til SBi's website.
 
-*   Tilføjet informatioon on tegningsstandarder og lagstruktur der benyttes i forbindelse med [SimDXF](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md).
+*   Tilføjet information om tegningsstandarder og lagstruktur der benyttes i forbindelse med [SimDXF](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md).
 
 *   Tilføjet advarsel om rækkefølge af [Lighting](../11Systems/11_03_Systems_Lighting.md) i forhold til Ventilation.
 
