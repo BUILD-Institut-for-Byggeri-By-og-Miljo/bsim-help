@@ -85,7 +85,7 @@ Vælg den flade (Ctrl+venstre-klik) som vender mod syd (omdøb den eventuelt til
 
 For hul-bredden indtastes 2,0 m og for hul-højden 2,25 m. For vinduets afstand fra gulvet (*Offset*) indtastes som 1,55 m (gulvet + 30 cm afstand fra gulvet) og for afstanden fra væggen (*Dist.*) indtastes 0,808 m (ydervæggens tykkelse + afstanden fra ydervæggen). Standardværdien 1 for antal og 0,2 for afstand imellem ens vinduer ændres ikke.
 
-For at definere geometrien omkring vinduet nærmere højre-klikkes på feltet vinduet i træstrukturen, hvorved der fremkommer en dialog for valg af lokal geometri omkring vinduet, systemer tilknyttet vinduet samt definition af sollysfaktorer for vinduet. Heri indtastes 0,1 for glassets placering i forhold til facaden. Dialogen forladens ved at trykke på OK-knappen
+For at definere geometrien omkring vinduet nærmere højreklikkes på feltet vinduet i træstrukturen, hvorved der fremkommer en dialog for valg af lokal geometri omkring vinduet, systemer tilknyttet vinduet samt definition af sollysfaktorer for vinduet. Heri indtastes 0,1 for glassets placering i forhold til facaden. Dialogen forlades ved at trykke på OK-knappen.
 
 <figure id="center_img">
 <img src="./assets/EKS13.JPG" alt="Dialog (Windoor Property) for definitions af lokal geometri, systemer og sollysfaktorer for et vindue. Der vil optræde et stop-skilt i dialogen så længe der ikke er tilknyttet en konstruktion til vindueshullet.">
@@ -239,7 +239,7 @@ I reguleringen for den fiktive zone jord angives en temperaturvariation over år
 
 Det bemærkes, at der stort set ikke er restriktioner på, hvilke navne de enkelte elementer i modellen kan tildeles, fx kan navnet for jordzonen skrives som 'Jordtemp. 10 °C', hvor gradtegnet kan indtastes som Alt+248 (ASCII-karakter 248).
 
-I dette eksempel vender gulvet mod jorden, og for at indlæse dette i modellen højre-klikkes på *Finish* nr. 2 for gulvet i træstrukturen og vælge at gulvets flade nr. 2 vender imod den nyoprettede zone jord via valg-feltet *Facing*.
+I dette eksempel vender gulvet mod jorden, og for at indlæse dette i modellen højreklikkes på *Finish* nr. 2 for gulvet i træstrukturen og vælges, at gulvets flade nr. 2 vender imod den nyoprettede zone jord via valg-feltet *Facing*.
 
 <figure id="center_img">
 <img src="./assets/finish_property.gif" alt="Dialog (Finish Property) for valg af hvad en flade vender imod. Det er kun muligt at ændre denne parameter for side 2 af en konstruktion.">
@@ -247,7 +247,7 @@ I dette eksempel vender gulvet mod jorden, og for at indlæse dette i modellen h
 </figure>
 
 
-I *Finish Property* dialogen findes et felt med information om overgangsiolansen (*Rcomb*) for den pågældende side af fladen. Standardværdien for *Rcomb* er 0, hvilket betyder at programmet selv finder ud af om det er en indvendig eller en udvendig overflade og påtrykker værdien 0,13 eller 0,04 m²K/W for en indvendig hhv. udvendig overflade. Hvis standardværdien ændres er programmet ikke længere i stand til at ændre værdien hvis overfladen skifter fra at være udvendig til at være indvendig, fx ved tilføjelse af et atrium til modellen.
+I *Finish Property* dialogen findes et felt med information om overgangsisolansen (*Rcomb*) for den pågældende side af fladen. Standardværdien for *Rcomb* er 0, hvilket betyder, at programmet selv finder ud af, om det er en indvendig eller en udvendig overflade og påtrykker værdien 0,13 eller 0,04 m²K/W for en indvendig hhv. udvendig overflade. Hvis standardværdien ændres, er programmet ikke længere i stand til at ændre værdien, hvis overfladen skifter fra at være udvendig til at være indvendig, fx ved tilføjelse af et atrium til modellen.
 
  
 
@@ -267,13 +267,13 @@ For en mere nøjagtig beregning kan i princippet benyttes reglerne i [DS 418](..
 
 **Kontrol af indlæste data**
 
-Der er nu indlæst data for en simpel bygningsmodel bestående af én zone, som begrænses af 6 flader, og det vil nu være fornuftigt at gemme modellen. Inden modellen gemmes, bør det dog kontrolleres, at der ikke er fejl eller mangler i de indtastede data. Der klikkes derfor med musen (venstre tast) på knappen [*ModelList* ](../10Thermal_zones/10_09_SimView_Printing_a_model.md)i [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md). Såfremt der mangler data, vil programmet give en fejlmeddelelse vedrørende manglende data i form af stop-skilet ud for det objekt som er fejlbehæftet i listen med dokumentation for modellen. Det er muligt at hoppe direkte til et objekt med fejl ved at dobbelt-klikke på stop-skiltet i listen. Listen kan fjernes ved at klikke med musen på **x**'et i øverste højre hjørne af vinduet med listen.
+Der er nu indlæst data for en simpel bygningsmodel bestående af én zone, som begrænses af 6 flader, og det vil nu være fornuftigt at gemme modellen. Inden modellen gemmes, bør det dog kontrolleres, at der ikke er fejl eller mangler i de indtastede data. Der klikkes derfor med musen (venstre tast) på knappen [*ModelList* ](../10Thermal_zones/10_09_SimView_Printing_a_model.md) i [værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md). Såfremt der mangler data, vil programmet give en fejlmeddelelse vedrørende manglende data i form af stop-skiltet ud for det objekt, som er fejlbehæftet i listen med dokumentation for modellen. Det er muligt at hoppe direkte til et objekt med fejl ved at dobbelt-klikke på stop-skiltet i listen. Listen kan fjernes ved at klikke med musen på **x**'et i øverste højre hjørne af vinduet med listen.
 
  
 
 #### **Oprette en termisk zone**
 
-Det er endu ikke muligt at gennemføre en simulering med tsbi5. For at gøre dette kræves det at der oprettes mindst en [termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md) som indeholder et eller flere rum.
+Det er endnu ikke muligt at gennemføre en simulering med tsbi5. For at gøre dette kræves det, at der oprettes mindst en [termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md), som indeholder et eller flere rum.
 
 Ved at højre-klikke på bygningen i træstrukturen fremkommer en dialog som giver mulighed for at tilføje termiske zoner til modellen. For hvert tryk på knappen *Insert ThermalZone* tilføjes en termisk zone til modellen. I dette eksempel skal der bruges en termisk zone.
 
@@ -283,7 +283,7 @@ Ved at højre-klikke på bygningen i træstrukturen fremkommer en dialog som giv
 </figure>
 
 
-Det er muligt at opererer med flere bygninger i den samme model, fx som skyggegivende objekter, men tsbi5 kan <span style="text-decoration: underline;">kun</span> simulere en bygning ad gangen (*Current Building*). Derfor skal der sættes et "hak" ud for markeringen *Current Building*.
+Det er muligt at operere med flere bygninger i den samme model, fx som skyggegivende objekter, men tsbi5 kan <span style="text-decoration: underline;">kun</span> simulere en bygning ad gangen (*Current Building*). Derfor skal der sættes et "hak" ud for markeringen *Current Building*.
 
 I træstrukturen ses nu en ikon for en termisk zone
 <img id="center_img">

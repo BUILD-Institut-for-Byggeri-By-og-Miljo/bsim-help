@@ -23,7 +23,7 @@ De eksterne åbninger hører pr. definition til den termiske zone, hvor de er pl
 
 De interne åbninger forbinder to termiske zoner, og det er derfor nødvendigt at have en konvention for hvordan disse reguleres. Det er valgt at åbningerne skal høre til en af zonerne og dermed reguleres af denne. Dette er valgt for at give en så enkel og entydig definition af hvordan åbningerne reguleres.
 
-De termiske zoners rækkefølge i BSim's træstruktur bestemmer deres rækkefølge i beregningsgangen. Det er derfor valgt at rækkefølgen også bruges til at bestemme ejerskabet af de interne åbninger. Den af de to termiske zoner der er øverst i træet regulerer de interne åbninger mellem de to termiske zoner, figur 2.
+De termiske zoners rækkefølge i BSim's træstruktur bestemmer deres rækkefølge i beregningsgangen. Det er derfor valgt, at rækkefølgen også bruges til at bestemme ejerskabet af de interne åbninger. Den af de to termiske zoner, der er øverst i træet, regulerer de interne åbninger mellem de to termiske zoner, figur 2.
 
 <figure id="center_img">
 <img src="./assets/mzm_fig20_2.gif" alt="Figur 2. Skærmbillede af træstrukturen i BSim. Den termiske zone Tz1 er placeret over Tz2, og Tz1 regulerer dermed den eller de interne åbninger mellem de to zoner.">
@@ -33,7 +33,7 @@ De termiske zoners rækkefølge i BSim's træstruktur bestemmer deres rækkeføl
 
 ## **Åbningsgrader**
 
-I dette afsnit beskrives hvordan de to typer af åbninger kan reguleres.
+I dette afsnit beskrives, hvordan de to typer åbninger kan reguleres.
 
 ### **Åbningsgrad for regulerbare åbninger**
 
@@ -49,7 +49,7 @@ Alle de regulerbare åbninger (vinduer og døre) har et entydigt antal åbningsg
 
  
 
-Alle ikke-regulerbare åbninger (huller) er pr. definition altid helt åbne. De er dog kun aktive i de perioder hvor [*Venting* ](../11Systems/11_06_Venting_system.md)er aktiveret. Når [*Venting* ](../11Systems/11_06_Venting_system.md)ikke er aktiv regner tsbi5 som om hullerne ikke findes.
+Alle ikke-regulerbare åbninger (huller) er pr. definition altid helt åbne. De er dog kun aktive i de perioder, hvor [*Venting*](../11Systems/11_06_Venting_system.md) er aktiveret. Når [*Venting*](../11Systems/11_06_Venting_system.md) ikke er aktiv, regner tsbi5 som om hullerne ikke findes.
 
 ## **Beregningsgang ved regulering**
 
@@ -69,7 +69,7 @@ Beregningsgangen ved reguleringen er beskrevet på punktform nedenfor.
 
 ### **Eksempel på beregningsgang ved regulering**
 
-På figur 4 er beregningsgang ved reguleringen vist. Der er taget udgangspunkt i en temperaturstyring af [Venting](../11Systems/11_06_Venting_system.md) og at der er tale om et køletilfalfælde
+På figur 4 er beregningsgang ved reguleringen vist. Der er taget udgangspunkt i en temperaturstyring af [Venting](../11Systems/11_06_Venting_system.md) og at der er tale om et køletilfælde.
 
 De tal der er markeret med FED ud for mzm og varmebalancen er de værdier der beregnes og dem der ikke er fede er dem der bruges til beregningen. Alle temperaturer og luftmængder er fiktive. Det eneste der "rigtigt" er ændringens retning (op eller ned).
 

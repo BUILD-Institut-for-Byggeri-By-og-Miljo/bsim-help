@@ -7,7 +7,7 @@ I dette afsnit gives eksempler på den praktiske anvendelse af BSim lige fra vej
 
 Gennem 3 eksempler beskrives modelopbygning samt simulering og resultatbehandling som en fortløbende proces for den samme bygningsmodel, således at de fleste aspekter af programanvendelsen forklares trin for trin.
 
-En mere overordtnet gennemgang af de enkelte trin ved [opbygning af en model](../21Getting_started_with_BSim/21_01_Constructing_a_model.md) findes som en ordnet række af links til sider i brugervejledningen som beskriver det enkelte trin i opbygning af en model til simulering og resultatbehandling.
+En mere overordnet gennemgang af de enkelte trin ved [opbygning af en model](../21Getting_started_with_BSim/21_01_Constructing_a_model.md) findes som en ordnet række af links til sider i brugervejledningen, som beskriver det enkelte trin i opbygning af en model til simulering og resultatbehandling.
 
 For at give brugeren mulighed for hurtigt at sætte sig ind i programmets vigtigste funktioner, anvendes der som eksempel en meget simpel bygning, for hvilken der gradvist opbygges en BSim-model. Dette betyder, at ikke alle detaljer af programmet beskrives gennem eksemplerne. For en beskrivelse af emner, som ikke behandles her, samt en uddybende forklaring til de enkelte dele af bygningsmodellen, henvises til beskrivelsen af de enkelte dialoger og til [Det matematiske grundlag](../20The_Mathematical_Basis/20_01_The_Mathematical_Basis.md).
   

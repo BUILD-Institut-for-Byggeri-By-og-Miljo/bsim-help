@@ -15,4 +15,4 @@ Tutorialen er udarbejdet på BYG-DTU af:
 
 under ledelse af Lektor Kaj Christensen.
 
-Tutorialen (6,1 Mb i PDF-format) er ikke en del af denne brugervejledning/hjælp, men kan hentes via siderne om BSim på Internettet under [litteratur](../20The_Mathematical_Basis/20_28_Literature.md).
+Tutorialen (6,1 MB i PDF-format) er ikke en del af denne brugervejledning/hjælp, men kan hentes via siderne om BSim på Internettet under [litteratur](../20The_Mathematical_Basis/20_28_Literature.md).

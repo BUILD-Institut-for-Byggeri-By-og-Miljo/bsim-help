@@ -43,7 +43,7 @@ For den simple bygning, der er indlæst data for i [eksempel 1](../21Getting_sta
 
 #### **Indlæsning af data for systemer**
 
-For at definere systemerne højre-klikkes på den termiske zone i træoversigten. Herved fremkommer en dialog der viser de mulige systemer, der kan beskrives. De systemer, som ønskes benyttet i modellen, vælges ved at sætte et "hak" ud for det enkelte system. Klikkes der en gang til på "hakket", får det en grå baggrund, hvilket betyder, at systemet oprettes, men er inaktivt. Mere uddybende forklaringer vedrørende systemerne gives i afsnittet om [systemer](../11Systems/11_01_Systems.md).
+For at definere systemerne højreklikkes på den termiske zone i træoversigten. Herved fremkommer en dialog, der viser de mulige systemer, der kan beskrives. De systemer, som ønskes benyttet i modellen, vælges ved at sætte et "hak" ud for det enkelte system. Klikkes der en gang til på "hakket", får det en grå baggrund, hvilket betyder, at systemet oprettes, men er inaktivt. Mere uddybende forklaringer vedrørende systemerne gives i afsnittet om [systemer](../11Systems/11_01_Systems.md).
 
 <figure id="center_img">
 <img src="./assets/system_add.gif" alt="Dialog (ThermalZone Property) for til- eller fravælgelse af systemer i en termisk zone.">
@@ -51,7 +51,7 @@ For at definere systemerne højre-klikkes på den termiske zone i træoversigten
 </figure>
 
 
-Når dialogen forlades, ved tryk på knappen *OK*, tilføjes de valgte systemer til træstrukturen undre den aktuelle termiske zone.
+Når dialogen forlades ved tryk på knappen *OK*, tilføjes de valgte systemer til træstrukturen under den aktuelle termiske zone.
 
 **Personlast**
 
@@ -65,7 +65,7 @@ Ved at højre-klikke på ikonet for personlast ([*PeopleLoad*](../11Systems/11_1
 
 **Tidsplan**
 
-For alle typer af 'systemer' skal der tilknyttes en tidsplan ([*Schedule*](../11Systems/11_02_Systems_schedule.md)), som beskriver, hvorledes systemets drift, regulering og belastning varierer med tiden. En tidsplan er en samling af sammenhængende par af reguleringer (tredje faneblad) og [tidsangivelser](../11Systems/11_17_Systems_Time.md) (sidste faneblad) som definerer hvordan og hvornår et system reguleres. Tidsplanen findes på andet faneblad i dialogen.
+For alle typer af 'systemer' skal der tilknyttes en tidsplan ([*Schedule*](../11Systems/11_02_Systems_schedule.md)), som beskriver, hvorledes systemets drift, regulering og belastning varierer med tiden. En tidsplan er en samling af sammenhængende par af reguleringer (tredje faneblad) og [tidsangivelser](../11Systems/11_17_Systems_Time.md) (sidste faneblad), som definerer, hvordan og hvornår et system reguleres. Tidsplanen findes på andet faneblad i dialogen.
 
 For den definerede personlast skal der angives en tidsplan, som udtrykker at inden for arbejdstiden er der to personer til stede mandag-onsdag, mens der kun er én person torsdag-fredag.
 
@@ -305,7 +305,7 @@ I gruppen af indeklimadata (*ThermalZones*) findes data for de termiske zoners i
 
 Simuleringen startes ved at skifte til næste faneblad (*Simulation*) og klikke på knappen *Start*. Inden selve simleringen påbegyndes, kontrollerer programmet, om der er mangler eller fejl i bygningsmodellens data, og hvis dette er tilfældet, fås en oversigt over fejl. Ligesom i 'Model List' kan der dobbeltklikkes på en linie for at lokalisere fejlkilden i træstrukturen.
 
-Når modellen er komplet, starter simuleringen med, at BSim beregner det anbefalede antal tidsstep pr. time, hvilket normalt vil være bestemt af et tyndt lag med lille masse eller et lag med høj varmeledningsevne i en af modellens konstruktionstyper. Hvis det beregnede antal tidsstep er større end det aktuelle, spørges der, om det beregnede antal stepps skal anvendes. Er det anbefalde antal tidsskridt større end 6-10, bør det overvejes, om det pågældende lag kan udelades eller blot defineres som en ekstra isolans i konstruktionen.
+Når modellen er komplet, starter simuleringen med, at BSim beregner det anbefalede antal tidsstep pr. time, hvilket normalt vil være bestemt af et tyndt lag med lille masse eller et lag med høj varmeledningsevne i en af modellens konstruktionstyper. Hvis det beregnede antal tidsstep er større end det aktuelle, spørges der, om det beregnede antal steps skal anvendes. Er det anbefalede antal tidsskridt større end 6-10, bør det overvejes, om det pågældende lag kan udelades eller blot defineres som en ekstra isolans i konstruktionen.
 
 Simuleringen starter med den først angivne dag i simuleringsperioden, idet det første døgn i denne periode gennemregnes et antal gange, indtil der er en opnået en tilfredsstillende stabilitet, udtrykt ved at forskellen i indetemperaturen (i time 15, i hver zone) ved to successive gennemregninger ikke afviger mere end 0,1 °C.
 
@@ -351,7 +351,7 @@ Energibalancen (netto-)energiforbruget til opvarmning, køling, udstyr og belysn
 
 #### **Varmebalance for bygningen**
 
-Via terdje valg-menu er det muligt at vælge at se varmebalancen for hele bygningen eller for den enkelte termiaks zone for den valgte tidsskala: Uge, måned eller år. Vælges 'Year' som tidsskala, fås den viste årsenergibalance (det forudsætter dog, at der er simuleret et helt år). I dette tilfælde er bygningens varmebalance lig med den termiske zones varmebalance, da der kun er defineret en termisk zone.
+Via tredje valg-menu er det muligt at vælge at se varmebalancen for hele bygningen eller for den enkelte termiske zone for den valgte tidsskala: uge, måned eller år. Vælges 'Year' som tidsskala, fås den viste årsenergibalance (det forudsætter dog, at der er simuleret et helt år). I dette tilfælde er bygningens varmebalance lig med den termiske zones varmebalance, da der kun er defineret en termisk zone.
 
  
 
@@ -407,13 +407,13 @@ Dagene omkring den 7.-8. januar er en af de koldeste perioder i året, og result
 
  
 
-**Resulter som grafik**
+**Resultater som grafik**
 
 Knappen
 <img id="center_img">
 <img src="./assets/garfikknap.gif">
 </img>
- giver mulighed for at vælge at vise resultaterne som kurver for temperaturer, effekter etc. som funktion af tiden. Programmet viser nu temperaturkurverne for det første døgn i resultatperioden. Klikkes der nu med musen på piltasterne nederst i dialogen kan der 'bladres' frem til den 8. januar. Kurverne viser, hvorledes indetemperaturen stiger fra niveauet på 17 °C i sænkningsperioden til set-punktet på 21 °C, som først nås i time 11. Hvis der højre-klikkes på grafikken kan det aktuelle skærmbillede kopieres til udklipsholderen for at kunne indsættes i andre Windows-baserede programmer, fx flere tekstbehandlings- og regneark-programmer.
+ giver mulighed for at vælge at vise resultaterne som kurver for temperaturer, effekter etc. som funktion af tiden. Programmet viser nu temperaturkurverne for det første døgn i resultatperioden. Klikkes der nu med musen på piltasterne nederst i dialogen, kan der 'bladres' frem til den 8. januar. Kurverne viser, hvorledes indetemperaturen stiger fra niveauet på 17 °C i sænkningsperioden til set-punktet på 21 °C, som først nås i time 11. Hvis der højreklikkes på grafikken, kan det aktuelle skærmbillede kopieres til udklipsholderen for at kunne indsættes i andre Windows-baserede programmer, fx flere tekstbehandlings- og regneark-programmer.
 
 I afsnittet om [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)-fanebladet i tsbi5 findes en nærmere beskrivelse af resultatanalysen og links til en beskrivelse af mulighederne for [manipulation](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) med grafikken.
 

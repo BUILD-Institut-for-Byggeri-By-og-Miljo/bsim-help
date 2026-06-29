@@ -5,10 +5,10 @@ Modulet til simulering af naturlig ventilation med multi-zone modellen (mzm) er 
 </p>
 
 <p align="center">
-Feed-back til modulet på bsim-support@sbi.dk er meget velkommen!
+Feedback til modulet på bsim-support@sbi.dk er meget velkommen!
 </p>
 
-Parameteren Cd er central for simulering af naturlig ventilation med multizone modellen (mzm) og kan bestemmes i henhold til [By og Byg (SBi), Anvisning 202](../20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.md). Indblæsningstemperaturkonstanten Ka benyttes størrelsen af det areal hvor der er tvungen strømning og udetemperatur i modsætning til resten af loftet hvor der er fri strømning/konvektion og indetemperatur og kan findes i henhold til [Danvak grundbogen, kapitel 7.](../20The_Mathematical_Basis/20_28_Literature.md)
+Parameteren Cd er central for simulering af naturlig ventilation med multizone modellen (mzm) og kan bestemmes i henhold til [By og Byg (SBi), Anvisning 202](../20The_Mathematical_Basis/20_13_Extract_from_by_og_byg_direction_202.md). Indblæsningstemperaturkonstanten Ka benyttes størrelsen af det areal, hvor der er tvungen strømning og udetemperatur, i modsætning til resten af loftet, hvor der er fri strømning/konvektion og indetemperatur, og kan findes i henhold til [Danvak grundbogen, kapitel 7](../20The_Mathematical_Basis/20_28_Literature.md).
 
 ## **Cd - Udstrømningskoefficienten**
 
@@ -27,7 +27,7 @@ $$ C_d = C_v C_k = \frac{C_k}{\sqrt{1+\zeta}} \tag{9.30} $$
 
 For en almindelig ventilationsåbning uden kanaler vil friktionen være beskeden og svare til et modstandstal på 0,05-0,1. Kontraktionskoefficienten er 0,6-0,7, hvis åbningen er skarpkantet, og den nærmer sig 1,0 hvis åbningen er godt afrundet.
 
-For mere komplicerede åbninger kan friktions-, kontraktions- og udstrømningskoefficienten bestemmes ud fra middelstrømningshastigheder eller volumenstrømme, der er målt i afhængighed af trykdifferensen over åbningen. Middelstrømningshastigheden v<sub>m</sub> i åbningen kan bestemme af:
+For mere komplicerede åbninger kan friktions-, kontraktions- og udstrømningskoefficienten bestemmes ud fra middelstrømningshastigheder eller volumenstrømme, der er målt i afhængighed af trykdifferensen over åbningen. Middelstrømningshastigheden v<sub>m</sub> i åbningen kan bestemmes af:
 
 $$ v_m = v_k \left( \frac{A_k}{A} \right) = v_k C_k = \frac{q_v}{A} \tag{9.31} $$
 

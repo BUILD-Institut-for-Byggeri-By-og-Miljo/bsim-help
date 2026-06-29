@@ -816,7 +816,7 @@ bullet Tilføjet View/ConstDoc: gem tekstfil med oversigt over bygningens konstr
 
 **3,2,9,24** 
 
-*   SimView: Rettet scroll i grafiken.
+*   SimView: Rettet scroll i grafikken.
 
 **3,2,9,23** 
 

@@ -2,7 +2,7 @@
 
 # Fugtbalancen for en zone
 
-I den simple form er fugtbalancen for en zone beregnet efter samme princip som zonens varmebalance, idet der dog regnes med færre kilder for fugtudveksling. Det er dog også muligt at simulere fugtudveksling med konstruktionerne efter en [detaljeret model](../20The_Mathematical_Basis/20_05_Detailed_Moisture_balance.md) der taget hensyn til absorption og frigivelse af fugt fra de materialer konstruktionerne består af.
+I den simple form er fugtbalancen for en zone beregnet efter samme princip som zonens varmebalance, idet der dog regnes med færre kilder for fugtudveksling. Det er dog også muligt at simulere fugtudveksling med konstruktionerne efter en [detaljeret model](../20The_Mathematical_Basis/20_05_Detailed_Moisture_balance.md), der tager hensyn til absorption og frigivelse af fugt fra de materialer, konstruktionerne består af.
 
 Zonens fugttilskud stammer fra personer, andre fugtbelastninger i zonen samt de fugttilskud, der kan være i forbindelse med de tre former for lufttilførsel: [infiltration](../11Systems/11_08_Systems_Infiltration.md), [udluftning](../11Systems/11_18_Systems_Venting.md) samt (mekanisk) [ventilation](../11Systems/11_21_Systems_Ventilation.md). Hertil kommer det fugttilskud, der kan være ved tilførsel af luft fra nabozoner, [mixing](../11Systems/11_10_systems_mixing.md). Der regnes derimod ikke med affugtning af rumluften ved kondensation i zonen, hverken på kolde overflader af vinduer eller konstruktioner eller på køleradiatorens overflade.
 

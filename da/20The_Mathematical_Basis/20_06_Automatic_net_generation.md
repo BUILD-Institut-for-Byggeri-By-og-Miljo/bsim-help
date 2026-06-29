@@ -10,14 +10,14 @@ November, 2002
 
 #### **Fugtberegning ved flere materialer og/eller dampbremsende lag**
 
-Der sker en automatisk netinddeling til i forbindelse med fugtberegninger, der betragter forholdene, når der er flere materialer nær den indvendige overflade, og/eller når der er dampspærre eller malingslag inde før eller imellem lagene.
+Der sker en automatisk netinddeling i forbindelse med fugtberegninger, der betragter forholdene, når der er flere materialer nær den indvendige overflade, og/eller når der er dampspærre eller malingslag inde før eller imellem lagene.
 
 1. Ved overgang fra et materiale til et andet i lagfølgen fortsættes den automatiske kontrolvolumen inddeling (som nu), men med en anden udvikling i lagtykkelsen. Laggrænsen mellem materiale I og II betragtes. Hvis sI er den tykkelse det første kontrolvolumen efter laggrænsen vil have fået, hvis materiale I var fortsat, skal tykkelsen af det første kontrolvolumen i materiale II i stedet sættes til:
 
 $$ S_{II} = \frac{s_{36.7 \%, II}}{s_{36.7 \%, I}} \cdot s_I \tag{1} $$
 
 hvor s<sub>36,7% </sub>er materialernes effektive fugtindtrængningsdybde.   
-Fx vil mineraluld bag en gipsplade få meget større kontrolvolumener (og det er ikke nogen skade til for beregningerne).
+Fx vil mineraluld bag en gipsplade få meget større kontrolvolumener (og det er ikke nogen skade for beregningerne).
 
 2. For materialer bag "enkeltfugtmodstande", fx malingslag på overfladen mod indeklimaet eller dampspærre beliggende mellem to materialelag i konstruktionen behøver lagtykkelsen af kontrolvolumenerne ikke væres så fin som ellers. Der foreslås følgende lagtykkelse for første kontrolvolumen bag en enkeltfugtmodstand:
 
