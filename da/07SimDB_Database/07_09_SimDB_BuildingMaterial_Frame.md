@@ -12,7 +12,7 @@ I henhold til [DS418, tillæg 1](../20The_Mathematical_Basis/20_28_Literature.md
 
 For rammer og karme af træ eller beklædt træ anvendes transmissionskoefficienten angivet i nedenstående figur, medmindre der er bestemt en nøjagtigere værdi. Ved bestemmelse af tykkelsen af rammer og karme af træ ses der bort fra eventuelle inddækninger af metal eller plast. ved forskellig tykkelse af fx ramme og karm anvendes middelværdien. Ved koblede rammer anvendes den samlede tykkelse af rammerne.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/U-FRAME.GIF" alt="Transmissionskoefficient U_ramme i W/m2K for rammer og karme af træ og beklædt træ.">
 <figcaption>Transmissionskoefficient U<sub>ramme</sub> i W/m²K for rammer og karme af træ og beklædt træ.</figcaption>
 </figure>
