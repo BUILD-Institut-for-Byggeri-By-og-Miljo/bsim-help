@@ -76,7 +76,7 @@
 
 *   [Eksport af data til Radiance](../18Radiance_Visualisation_og_the_building/18_01_Radiance_visualisation.md)
 
-*   [Det matematiske grundlag](../20The_Mathematical_Basis/20_01_Mathematical_basis.md)
+*   [Det matematiske grundlag](../20The_Mathematical_Basis/20_01_The_Mathematical_Basis.md)
 
 *   [Beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_11_Solar_and_daylight_algorithms.md)
 
