@@ -45,7 +45,7 @@ It is a good idea always to save an archive file at the same time as a STEP file
 
 #### **Program version**
 
-Via the menu entry [Help | About SimDXF ...](08_04_SimDXF_Adding_as_an_application.md) information about the program version is shown.
+Via the menu entry [Help | About SimDXF ...](../24Miscellaneous/24_47_About_SimDXF.md) information about the program version is shown.
 
  
 

@@ -56,7 +56,7 @@ Det er en god ide altid at gemme en arkivfil samtidig med at der gemmes en STEP-
 
 ### **Programversion**
 
-Via menu-indgangen *Help* | *About SimDXF* ... kan information om programversionen ses.
+Via menu-indgangen [*Help* | *About SimDXF* ...](../24Miscellaneous/24_47_About_SimDXF.md) kan information om programversionen ses.
 
  
 
