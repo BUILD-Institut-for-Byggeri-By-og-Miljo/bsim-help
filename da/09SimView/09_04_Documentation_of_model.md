@@ -21,7 +21,13 @@
 
 
 <figure id="center_img">
-  <img src="./assets/dokumentation_af_model.png" alt="Dokumentation af model" style="width:300%;">
+  <img src="./assets/dokumentation_af_model.png" alt="Dokumentation af model" style="width:300;">
   <figcaption>Dokumentation af model</figcaption>
 </figure>
 
+
+
+<figure id="center_img">
+  <img src="./assets/dokumentation_af_model.png" alt="Dokumentation af model" width="800">
+  <figcaption>Dokumentation af model</figcaption>
+</figure>
