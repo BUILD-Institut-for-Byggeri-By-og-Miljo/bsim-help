@@ -15,13 +15,9 @@ The entire drawing can be shown in the window (AutoScale = Ctrl+A), or one can z
 
 Create *help lines* for the desired walls and constructions.
 
-<span id="red_text">
+<span id="red_text"> **For internal walls, the help line is the centrelines (chose the wall faces + Ctrl+C), or make a rectangle containing the lines of the faces + Ctrl+C.** </span>
 
-**For internal walls, the help line is the centrelines (chose the wall faces + Ctrl+C), or make a rectangle containing the lines of the faces + Ctrl+C.**
-
-**For exterior walls the help line must be the exterior face (facing the ambient).**
-
-</span>
+<span id="red_text"> **For exterior walls the help line must be the exterior face (facing the ambient).** </span>
 
 
 <figure id="center_img">

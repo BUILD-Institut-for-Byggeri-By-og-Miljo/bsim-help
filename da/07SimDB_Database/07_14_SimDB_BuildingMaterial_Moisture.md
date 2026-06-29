@@ -5,8 +5,10 @@ Fanebladet Moisture indeholder oplysninger om materialets fugtegenskaber.
 
 <div id="gray_background">
 Oprettes der nye materialer i en database med information om egenskaber for fugttransport <u>skal</u> der angives data for fugttransporten, også selvom der ikke skal simuleres fugttransport. <a href="../05Introduction/05_05_Limitations.md">Se begrænsninger</a>.
+
 </div>
 
+<br>
 
 <figure id="center_img">
 <img src="./assets/DB-FUGT.JPG " alt="Fugtegenskaber for bygningsmateriale.">
@@ -17,7 +19,9 @@ I fanebladet *Moisture* angives fugtegenskaber for et materiale. I fanebladet ka
 
 <div id="gray_background">
 Lambda er varmeledningsevnen for materialet som anvendes når "Moisture Transport" er slået TIL under options for simuleringer med tsbi5. Se også "<a href="../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md">Thermal</a>."
+
 </div>
+
 <br>
 
 **Kun værdien Lambda anvendes endnu, samt de tabeller som defineres under Absorption, Desorption og DeltaRh.**

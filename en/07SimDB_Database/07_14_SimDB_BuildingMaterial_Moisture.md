@@ -9,7 +9,7 @@ If a new material is created in a database containing information about moisture
 
 </div>
 
-
+<br>
 
 <figure id="center_img">
 <img src="./assets/db-fugt.jpg" alt="Moisture properties for building materials.">
