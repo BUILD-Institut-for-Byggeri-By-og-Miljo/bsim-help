@@ -11,9 +11,8 @@ Uanset om "Moisture Transport" er slået til eller fra på "Options" fanebladet 
 
 <br>
 Oprettes der nye materialer i en database med information om egenskaber for fugttransport <u>skal</u> der angives data for fugttransporten, også selvom der ikke skal simuleres fugttransport.<a href="../05Introduction/05_05_Limitations.md"> Se begrænsninger</a>. 
-</div>  
 
-<br>
+</div>
 
 <br>
 
