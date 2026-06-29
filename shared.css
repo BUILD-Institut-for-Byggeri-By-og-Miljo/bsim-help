@@ -44,6 +44,9 @@
 #image_linewidth img {
   width: 1000px;
   text-align: center;
+  display: block;
+  margin: 0 auto;
+
 }
 
 #image_linewidth figcaption {
