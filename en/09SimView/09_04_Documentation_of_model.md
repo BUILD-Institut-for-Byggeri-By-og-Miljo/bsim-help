@@ -4,5 +4,5 @@
 
 <figure id="image_linewidth">
 <img src="./assets/documentation_of_model_1.png" alt="Dokumentation af model">
-<figcaption>Documentation of model -</figcaption>
+<figcaption>Documentation of model</figcaption>
 </figure>

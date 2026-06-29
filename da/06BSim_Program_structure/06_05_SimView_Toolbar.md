@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # SimView - Værktøjsbjælken
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/ToolBar.GIF " alt="Værktøjsbjælken i BSim.">
 <figcaption>Værktøjsbjælken i BSim.</figcaption>
 </figure>
