@@ -41,4 +41,14 @@
 
 }
 
+#image_linewidth img {
+  width: 1000px;
+  text-align: center;
+}
 
+#image_linewidth figcaption {
+  margin-top: 0.5em;
+  font-style: italic;
+  text-align: center;
+  color: #929090;
+}
