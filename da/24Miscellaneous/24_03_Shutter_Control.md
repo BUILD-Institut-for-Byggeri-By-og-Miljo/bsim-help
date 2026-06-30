@@ -6,7 +6,7 @@
 </figure>
 
 
-Inden for den tilhørende tidsangivelse kontrolleres det, om udetemperaturen i den første time ligger under værdien angivet i parameteren *Temp. Limit.* Hvis dette er tilfældet, vil skodden blive lukket og forblive lukket, indtil tidsangivelsen afbrydes første gang. Normalt defineres en tidsangivelse, der forudsætter, at skodden lukkes i en sammenhængende periode af vinteren, eller at skodden lukkes om natten, når temperaturen er under en grænseværdi indlæst i reguleringen.
+Inden for den tilhørende tidsangivelse kontrolleres det, om udetemperaturen i den første time ligger under værdien, angivet i parameteren *Temp. Limit.* Hvis dette er tilfældet, vil skodden blive lukket og forblive lukket, indtil tidsangivelsen afbrydes første gang. Normalt defineres en tidsangivelse, der forudsætter, at skodden lukkes i en sammenhængende periode af vinteren, eller at skodden lukkes om natten, når temperaturen er under en grænseværdi, indlæst i reguleringen.
 
  
 

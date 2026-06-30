@@ -2,7 +2,7 @@
 
 # Udhæng og sidefinner
 
-Dialogerne til definition af udhæng og sidefinner beskriver skyggegiveren relativt i forhold til vinduet ved anstanden fra glassets nærmeste kant og afstanden fra væggens yderside og frem til skyggegiverens forkant.
+Dialogerne til definition af udhæng og sidefinner beskriver skyggegiveren relativt i forhold til vinduet ved afstanden fra glassets nærmeste kant og afstanden fra væggens yderside og frem til skyggegiverens forkant.
 
 <figure id="center_img">
 <img src="./assets/shadows-vertical.gif" alt="Definition af målangivelser for 'overhæng' og 'sidefinner'.">

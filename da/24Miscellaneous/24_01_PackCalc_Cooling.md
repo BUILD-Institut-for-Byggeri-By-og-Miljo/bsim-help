@@ -15,7 +15,7 @@ Indtil videre indeholder programmet 11 almindeligt anvendte kredsprocesser, og m
 
 Programmet er udviklet i samarbejde med både danske og udenlandske firmaer, og udviklingen er delvist financieret af Dansk Energi under [ELFORSK](https://ens.dk/tilskud-og-puljer/elforsk) programmet.
 
-PackCalc findes i en licensbelagt version som ikke er kompatibel med BSim. Se seneste information om [PackCalc på IPU's hjemmeside](https://www.ipu.dk/indhold/koele-og-energiteknik/pack-calculation-ii/pack-calculation-ii.aspx).
+PackCalc findes i en licensbelagt version, som ikke er kompatibel med BSim. Se seneste information om [PackCalc på IPU's hjemmeside](https://www.ipu.dk/indhold/koele-og-energiteknik/pack-calculation-ii/pack-calculation-ii.aspx).
 
-En ældre, gratis version som er kompatibel med BSim kan hentes fra SBi's hjemmeside.
+En ældre, gratis version, som er kompatibel med BSim, kan hentes fra SBi's hjemmeside.
 

@@ -6,13 +6,13 @@ I *SimDXF* vælges skæringspunkter mellem linier som grundlag for definition af
 
 Følgende regler er gældende for manøvrering i *SimDXF*:
 
-*   Linier/punkter (nodes) kan VÆLGES ved Ctrl+klik på linien (vises normalt blå)
+*   Linjer/punkter (nodes) kan VÆLGES ved Ctrl+klik på linjen (vises normalt blå)
 
-*   Gentages klik, fjernes valget (on/off funktion)
+*   Gentages klik, fjernes valget (on/off-funktion)
 
-*   Alternativt kan linier/punkter vælges ved at tegne et REKTANGEL (træk med venstre musetast nede) omkring de ønskede linier eller punkter
+*   Alternativt kan linjer/punkter vælges ved at tegne et REKTANGEL (træk med venstre musetast nede) omkring de ønskede linjer eller punkter
 
-*   Valg af linier/punkter nulstilles med Ctrl+X.
+*   Valg af linjer/punkter nulstilles med Ctrl+X.
 
 Hele tegningen kan vises i vinduet (AutoScale = Ctrl+A), eller der kan zoomes ind på et markeret område af tegningen (tegn rektangel + Ctrl+Z).
 

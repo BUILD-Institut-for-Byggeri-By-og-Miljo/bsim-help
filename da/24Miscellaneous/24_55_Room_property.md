@@ -2,7 +2,7 @@
 
 # Rumtemperatur
 
-Når der højre-klikkes på den fiktive zone (rum) åbnes vinduet for definition af rummets termiske egenskaber.
+Når der højreklikkes på den fiktive zone (rum), åbnes vinduet for definition af rummets termiske egenskaber.
 
 <figure id="center_img">
 <img src="./assets/room_property_ok.jpg" alt="Rummets termiske egenskaber (Room Property) kan vælges som en termisk zone eller som et temperaturprofil ved tryk på Room Temp knappen.">
@@ -13,7 +13,7 @@ I valgmenuen ROOM kan rummets tilstand vælges (Unknown/Heated/Unheated). Valg a
 
 Hvis rummet altid skal have samme temperatur som en termisk zone, kan denne vælges i listen under Thermal Properties.
 
-Temperaturvariationen i et rum uden for de termiske zone kan beskrives som en cosinus formet svingnig hen over året.
+Temperaturvariationen i et rum uden for de termiske zoner kan beskrives som en cosinusformet svingning hen over året.
 
 <figure id="center_img">
 <img src="./assets/ROOMTEMP.GIF" alt="Dialogen RoomTemp giver mulighed for definition af et temperaturprofil for rum uden for termiske zoner. Disse kan opfattes som fiktive zoner.">

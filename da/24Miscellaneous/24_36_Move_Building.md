@@ -2,7 +2,7 @@
 
 # Move: Bygninger
 
-En bygning i modellen kan flyttes i forhold til det globale koordinatsystem ved, at vælge bygningen i træstrukturen og derefter indgangen *Move* fra [*SimView*-menuen](). Herved vises en dialog som giver mulighed for at flytte bygningen et antal meter i hver af de 3 akseretninger.
+En bygning i modellen kan flyttes i forhold til det globale koordinatsystem ved at vælge bygningen i træstrukturen og derefter indgangen *Move* fra [*SimView*-menuen](). Herved vises en dialog som giver mulighed for at flytte bygningen et antal meter i hver af de 3 aksretninger.
 
 <figure id="center_img">
 <img src="./assets/move_building.gif" alt="Dialog (Move/Scale Building) til flytning af en bygning i modellen.">

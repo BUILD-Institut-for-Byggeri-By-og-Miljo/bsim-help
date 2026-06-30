@@ -9,7 +9,7 @@
 
 Modellens placering vises nederst på grafen. Tilhørsforholdet til de forskellige benyttede modeller ved modelsammenligning er vist som et foranstillet *modelnavn@* (som i figuren hvor resultater fra den aktuelle model *guidemodel* er sammenlignet med resultaterne fra *office2*) foran den enkelte parameter.
 
-Det et muligt at fastlåse y-aksens maksimum og minimum værdier så akseinddelingerne ikke ændres fra den ene periode til den næste.
+Det er muligt at fastlåse y-aksens maksimum og minimum værdier, så akseinddelingerne ikke ændres fra den ene periode til den næste.
 
 Dialogen for angivelse af y-aksens skala kaldes frem ved tryk på [Yscale-knappen](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md).
 

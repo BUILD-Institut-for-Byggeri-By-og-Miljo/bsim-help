@@ -20,4 +20,4 @@
 
 *   *Site* viser navnet på den valgte geografisk placering for modellen.
 
-*   Under *Site* findes et felt med information om modellens dimensionerende varmetab beregnet af konstruktionernes U-værdier og temperaturerne givet på [*Heatloss*](/24Miscellaneous/24_75_Model_information.md) fanebladet fra [*Defaults* ](../07SimDB_Database/07_02_SimDB_BuildingElement.md)menupunktet i [*SimView*-menuen](../06BSim_Program_structure/06_06_SimView_Menu.md). Det dimensionerende varmetab vises **kun** hvis de dimensionerende temperaturer er accepteret ved klik på OK på fanebladet *Heatloss* i dialogen *Defaults*.
+*   Under *Site* findes et felt med information om modellens dimensionerende varmetab beregnet af konstruktionernes U-værdier og temperaturerne givet på [*Heatloss*](/24Miscellaneous/24_75_Model_information.md)-fanebladet fra [*Defaults*](../07SimDB_Database/07_02_SimDB_BuildingElement.md)-menupunktet i [*SimView*-menuen](../06BSim_Program_structure/06_06_SimView_Menu.md). Det dimensionerende varmetab vises **kun** hvis de dimensionerende temperaturer er accepteret ved klik på OK på fanebladet *Heatloss* i dialogen *Defaults*.
