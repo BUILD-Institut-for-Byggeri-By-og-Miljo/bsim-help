@@ -3,7 +3,7 @@
 # Light Control
 In LightCtrl a simple measure for the "light" in the room is used - the total solar incidence in the room. This is defined by a limit - [Solar Limit](../11Systems/11_03_Systems_Lighting.md) (kW) - over which the light is turned on.
 
-Another control criteria are the indoor temperature: If it becomes too hot in the thermal zone, it is possible to turn off the light to lower the indoor temperature. This is given in LightCtrl as <a href="#lightctrl-dialog">Temp. Max</a> (°C). However this has no meaning if it occurs during the night and a minimum value of the total solar incidence in the thermal zone ensures that the light will only be turned of if some light (sun) is available, as given by <a href="#lightctrl-dialog">Lower Limit</a> (kW).
+Another control criteria is the indoor temperature: If it becomes too hot in the thermal zone, it is possible to turn off the light to lower the indoor temperature. This is given in LightCtrl as <a href="#lightctrl-dialog">Temp. Max</a> (°C). However this has no meaning if it occurs during the night and a minimum value of the total solar incidence in the thermal zone ensures that the light will only be turned off if some light (sun) is available, as given by <a href="#lightctrl-dialog">Lower Limit</a> (kW).
 
 <div id="center_img">
 <figure id="lightctrl-dialog">

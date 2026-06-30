@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Blind control
-This shading type can be used in the control of venetian blinds or other types of solar shading with hinged slats. The shading is controlled depending in the intensity of the solar incidence through the system: glazing + slats. The control is determined by the threshold value for the solar incidence for when the shading is being closed, and when it is being deactivated (opened more). At the beginning of the actual time schedule it is assumed that the solar shading will be in the position *"Open".* If the solar incidence in this position exceeds the value of *"Close"* (W/m²), the slats will turn to close more until the value of the solar incidence through the system reaches the value of *Close.* The solar incidence is being calculated from look-ups for the g-value in a table valid for the actual profile angle. As there are different g-values for direct and diffuse radiation (the latter independent of the profile angle), the optimum tilt of the slats must be determined by iterations.
+This shading type can be used in the control of venetian blinds or other types of solar shading with hinged slats. The shading is controlled depending on the intensity of the solar incidence through the system: glazing + slats. The control is determined by the threshold value for the solar incidence for when the shading is being closed, and when it is being deactivated (opened more). At the beginning of the actual time schedule it is assumed that the solar shading will be in the position *"Open".* If the solar incidence in this position exceeds the value of *"Close"* (W/m²), the slats will turn to close more until the value of the solar incidence through the system reaches the value of *Close.* The solar incidence is being calculated from look-ups for the g-value in a table valid for the actual profile angle. As there are different g-values for direct and diffuse radiation (the latter independent of the profile angle), the optimum tilt of the slats must be determined by iterations.
 
 It is important to notice that the shading factor for the solar shading is the actual factor, which is valid for the shading alone, but in combination with the actual glazing type. Typical g-values for different glazing types are found in the <a href="#daylight-reduction-venetian-blinds">graph</a> at the bottom of the page.
 
@@ -25,7 +25,7 @@ It is important to notice that the shading factor for the solar shading is the a
 en\10Thermal_zones\10_03_Reference_point.md
 
 
-The total solar transmittance a any given angle (β) of the slats in the solar shading is determined by: 
+The total solar transmittance at any given angle (β) of the slats in the solar shading is determined by: 
 
 $$ E_{total} = E_{dif} \cdot g_{s, dif}(\beta) \cdot g_{g, dif} + E_{dir} \cdot g_{s, dir}(\beta, \theta_p) \cdot g_{g, dir}(\theta_i) $$
 
@@ -77,16 +77,16 @@ $$ \beta_c = \arctan\left\{ \frac{\tan\theta \pm d \cdot \sqrt{1 + \tan^2\theta 
 
 *   d is the proportion between the distance and the width of the slats.
 
-For a traditional (internal) venetian blind there is a typical overlap of the slats on approx. 20 % when the blind is closed, which gives a value of d = 1 / 1.2 = 0.83. The next figure show curves for the cut-off angle as a function of the profile angle at different proportions between width and distance if the slats.
+For a traditional (internal) venetian blind there is a typical overlap of the slats on approx. 20 % when the blind is closed, which gives a value of d = 1 / 1.2 = 0.83. The next figure shows curves for the cut-off angle as a function of the profile angle at different proportions between width and distance of the slats.
 
 <figure id="center_img">
 <img src="./assets/blind_fig4.gif" alt="Variation of the Cut-Off angle for venetian blind based solar shading as a function of the solar profile angle and different proportions (d) between slat distance and slat width.">
 <figcaption>Variation of the Cut-Off angle for venetian blind based solar shading as a function of the solar profile angle and different proportions (d) between slat distance and slat width.</figcaption>
 </figure>
 
-When the flag for CutOff Strategy is On in the <a href="#blindctrl-parameters">*BlindCtrl* dialog</a>, it is being examined if there will be direct solar incidence with the actual position of the slats. If there is direct solar on the facade, defined by the value of *Close* being exceeded, the slats are being turned to the critical β<sub>c</sub> plus an eventual value of OverCloseAngle. If OverCloseAngle have a value larger than 0, the number possible changes of the slat positions during the will be reduced. The next figure show how the CutOff angel vary for a venetian blind type solar shading on a South facing facade over the day in those months where the angle is above 0.
+When the flag for CutOff Strategy is On in the <a href="#blindctrl-parameters">*BlindCtrl* dialog</a>, it is being examined if there will be direct solar incidence with the actual position of the slats. If there is direct solar on the facade, defined by the value of *Close* being exceeded, the slats are being turned to the critical β<sub>c</sub> plus an eventual value of OverCloseAngle. If OverCloseAngle has a value larger than 0, the number of possible changes of the slat positions during the will be reduced. The next figure show how the CutOff angle vary for a venetian blind type solar shading on a South facing facade over the day in those months where the angle is above 0.
 
 <figure id="center_img">
 <img src="./assets/blind_fig5.gif" alt="Variation of the CutOff angle for a South facing facade during the day and for different months (the 15. in each month). The diagram is valid for Danish latitude (55.4 °N) and for proportions of slat with and slat distance of 0.83. For all times not shown on the figure, the CutOff angle is 0 or less.">
-<figcaption>Variation of the CutOff angle for a South facing facade during the day and for different months (the 15. in each month). The diagram is valid for Danish latitude (55.4 °N) and for proportions of slat with and slat distance of 0.83. For all times not shown on the figure, the CutOff angle is 0 or less.</figcaption>
+<figcaption>Variation of the CutOff angle for a South facing facade during the day and for different months (the 15. in each month). The diagram is valid for Danish latitude (55.4 °N) and for proportions of slat width and slat distance of 0.83. For all times not shown on the figure, the CutOff angle is 0 or less.</figcaption>
 </figure>

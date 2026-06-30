@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Visualisering med DirectX
-It is possible to visualise a BSim model using a third party program that supports the DirectX technology. On example of this type of programs is Deep Exploration from Right Hemisphere.
+It is possible to visualise a BSim model using a third party program that supports the DirectX technology. One example of this type of program is Deep Exploration from Right Hemisphere.
 
 <figure id="center_img">
 <img src="./assets/directx.jpg" alt="BSim model shown using Deep Exploration.">
