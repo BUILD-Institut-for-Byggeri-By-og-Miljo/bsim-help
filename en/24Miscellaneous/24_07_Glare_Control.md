@@ -32,7 +32,7 @@ The expression, shown graphically in the figure below, illustrate that there are
 
 #### **Visual discomfort probability due to low lighting levels at the working plane**
 
-The probability to experience visual discomfort due to glare must be evaluated in combination with the probability for visual discomfort due to low lighting levels on the working plane. An expression for experienced visual discomfort due to low lighting levels on the working plans is developed by [Lindelöf](../20The_Mathematical_basis/20_28_Literature.md):
+The probability to experience visual discomfort due to glare must be evaluated in combination with the probability for visual discomfort due to low lighting levels on the working plane. An expression for experienced visual discomfort due to low lighting levels on the working plans is developed by [Lindelöf](../20The_Mathematical_Basis/20_28_Literature.md):
 
 E<sub>h</sub> < 10 (lux):                VGDP = 1,0
 
@@ -52,7 +52,7 @@ VGDP = VLDP<sub>min</sub>
 
 When control is needed due to glare, the control strategy depends on the type of shading device. For the type Venetian (blind), the lighting level in the selected reference point (normally a vertical plane at the position of the eye) is reduced to a level that the glare limit is just met.
 
-For the types *Curtain* or *Screen* the shading is closed completely, and the new lighting level is calculated from the reduction factors for curtain. The adjustment of he shading at the start of a time-step is the same as at the end of the previous time-step. If the glare criteria is kept, it is being tested if the shading can be opened more to reach a higher lighting level in the second reference point (normally on a horizontal working plane) and to obtain the largest possible view.
+For the types *Curtain* or *Screen* the shading is closed completely, and the new lighting level is calculated from the reduction factors for curtain. The adjustment of the shading at the start of a time-step is the same as at the end of the previous time-step. If the glare criteria is kept, it is being tested if the shading can be opened more to reach a higher lighting level in the second reference point (normally on a horizontal working plane) and to obtain the largest possible view.
 
 <figure id="center_img">
 <img src="./assets/glare_fig3.gif" alt="Visual discomfort due to too little light (visual discomfort probability, VLDP), normally defined by the lighting level on the working plane (or the working object). The desired value of the lighting level (Min. Lux) is selected by the user to perform the actual working task. In the figure the value is 500 lux.">

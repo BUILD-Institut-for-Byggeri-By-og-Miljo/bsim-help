@@ -13,6 +13,6 @@ The application makes this comparison based on a geographical location.
 
 In the current version, the application contains models of 11 commonly used refrigeration cycles and more than 4000 commercially available compressors.
 
-The application is developed together with both Danish and international companies and the development is partly financed by Dansk Energi as part of the ELFORSK R&D program.
+The application is developed in collaboration with with both Danish and international companies and the development is partly financed by Dansk Energi as part of the ELFORSK R&D program.
 
 See the most recent information at [IPU's web-site](https://www.ipu.dk/indhold/koele-og-energiteknik/pack-calculation-ii/pack-calculation-ii.aspx).

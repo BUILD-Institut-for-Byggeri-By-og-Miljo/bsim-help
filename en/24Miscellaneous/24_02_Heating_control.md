@@ -11,12 +11,12 @@ $$ P_{heating} = P_{min} + (P_{max} - P_{min}) \cdot \frac{t_0 - t_{min}}{t_{des
 
 <figure id="center_img">
 <img src="./assets/heatingctrl.gif" alt="Defining control for a radiator. The red curve shows the available power for space heating according to the given input in the dialog. The blue curve shows the un-controllable part of the hetaing power (given at the 'Heating' tab). The curves are updated when focus changes from one input field to another.">
-<figcaption>Defining control for a radiator. The red curve shows the available power for space heating according to the given input in the dialog. The blue curve shows the un-controllable part of the hetaing power (given at the "Heating" tab). The curves are updated when focus changes from one input field to another.</figcaption>
+<figcaption>Defining control for a radiator. The red curve shows the available power for space heating according to the given input in the dialog. The blue curve shows the un-controllable part of the heating power (given at the "Heating" tab). The curves are updated when focus changes from one input field to another.</figcaption>
 </figure>
 
 *Factor* specifies that only some of the calculated power is available within the schedules attached to the control action. The factor can also be used when specifying simple control systems (e.g. manual shunt valve) where the heating power is controlled according to the time of year. The default value for Factor is 1.0.
 
-*Set Point* specifies the setting of the room thermostat. The radiator is controlled on the basis of operative temperature of the selected Sensor Zone.
+*Set Point* specifies the setting of the room thermostat. The radiator is controlled on the basis of the operative temperature of the selected Sensor Zone.
 
 *Design Temp* specifies the design outdoor temperature for the radiator.
 
@@ -24,4 +24,4 @@ $$ P_{heating} = P_{min} + (P_{max} - P_{min}) \cdot \frac{t_0 - t_{min}}{t_{des
 
 *Te Min* specifies the outdoor temperature at which the available power in the radiator reaches its minimum value, Min Power. The heat output is set to 0 outside the time definitions in the [schedule](../11Systems/11_02_Systems_schedule.md).
 
-*Sensor Zone* indicates in which thermal zone the sensor of the heating system is located. This is especially important if one wish to simulated a floor heating system, where the floor heating zone is a separate thermal zone with heat emmitance controlled by the temperature in an other thermal zone. If *(None)* is shown in the input field, it means that the sensor is located in the thermal zone where the control is used. The same heating system can thus be used in different thermal zones, without trying to reach the same thermal zone temperature in all thermal zones using the same heating control. **NB:** The use of a sensor located in an other thermal zone is not yet fully validated - so results obtained with this function should be looked upon with great care.
+*Sensor Zone* indicates in which thermal zone the sensor of the heating system is located. This is especially important if one wishes to simulate a floor heating system, where the floor heating zone is a separate thermal zone with heat emmitance controlled by the temperature in another thermal zone. If *(None)* is shown in the input field, it means that the sensor is located in the thermal zone where the control is used. The same heating system can thus be used in different thermal zones, without trying to reach the same thermal zone temperature in all thermal zones using the same heating control. **NB:** The use of a sensor located in an other thermal zone is not yet fully validated - so results obtained with this function should be looked upon with great care.
