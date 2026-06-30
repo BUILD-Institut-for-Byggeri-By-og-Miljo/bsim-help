@@ -2,7 +2,7 @@
 
 # SimView - træ-menu
 
-Ved højre-klik i træ strukturen til venstre i SimView kaldes en menu som giver adgang til kald af forskellige funktioner til redigering på globalt plan af modellen.
+Ved højreklik i træstrukturen til venstre i SimView kaldes en menu, som giver adgang til kald af forskellige funktioner til redigering på globalt plan af modellen.
 
 <figure id="center_img">
 <img src="./assets/tree_menu.jpg" alt="Menuen som vises ved højre-klik i træ-strukturen.">

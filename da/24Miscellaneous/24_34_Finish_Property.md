@@ -16,7 +16,7 @@
 
 *   *Z*: Overfladens modstand imod fugttransport (se standardværdier).
 
-*   *Facing*. På den side af en flade som vender imod det fri er det muligt at angive at fladen vender imod en enden termisk zone - dvs. der er samme termiske forhold som i den angivne termiske zone - eller en jord-zone. Det er hermed muligt at oprette en simpel fiktiv zone, enten med samme temperatur- og fugtforhold som i den aktuelle zone eller som angivet under definitionen af en [jord-zone](/24Miscellaneous/24_26_Ground.md).
+*   *Facing*. På den side af en flade, som vender imod det fri, er det muligt at angive, at fladen vender imod en anden termisk zone - dvs. der er samme termiske forhold som i den angivne termiske zone - eller en jord-zone. Det er hermed muligt at oprette en simpel fiktiv zone, enten med samme temperatur- og fugtforhold som i den aktuelle zone eller som angivet under definitionen af en [jord-zone](/24Miscellaneous/24_26_Ground.md).
 
 *   *Locality* indeholder informationer om eksponeringen af overflader der vender imod det fri. Feltet er inaktivt for flader der vender imod et rum.
 

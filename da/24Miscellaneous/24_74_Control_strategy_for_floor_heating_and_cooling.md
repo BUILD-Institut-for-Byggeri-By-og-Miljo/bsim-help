@@ -12,7 +12,7 @@ By Massimiliano Scarpa
 
 *   If you like to use the same control, make a copy and use that and select the face to host the floor heating system (use different names for faces in different thermal zones)!  
 
-In the figure below an example of the window collecting the data about the system controls is shown.
+In the figure below, an example of the window collecting the data about the system controls is shown.
 
 <figure id="center_img">
 <img src="./assets/floorHeatCtrl.jpg" alt="Dialog for the input of system control strategies.">
@@ -38,9 +38,9 @@ Available controls:
 
 * Cooling Basic:
 
-  * Sensor Zone [-]:* This field enables to set the thermal zone whose mean temperature is used by the system in order to define whether the cooling system has to run. The mean temperature of the sensor zone is compared with *"Room Set Point"*, and, consequently, it is defined whether the system must cool.
+  * Sensor Zone [-]:* This field enables you to set the thermal zone whose mean temperature is used by the system in order to define whether the cooling system has to run. The mean temperature of the sensor zone is compared with *"Room Set Point"*, and, consequently, it is defined whether the system must cool.
 
-  * *Delta DP Temp* [°C]: It defines the temperature difference between the minimum water supply temperature and the dew point temperature inside the controlling zone, according with the following equation:
+  * *Delta DP Temp* [°C]: It defines the temperature difference between the minimum water supply temperature and the dew point temperature inside the controlling zone, according to the following equation:
 
   $$
   \theta_{Water}^{Supply, Min} = \theta_{Zone}^{DewPoint} + \text{DeltaDPTemp}
@@ -86,7 +86,7 @@ Available controls:
 
 * Heating Basic:
 
-  *  *Sensor Zone* [-]: This field enables to set the thermal zone whose mean temperature is used by the system in order to define whether the heating system has to run. The mean temperature of the sensor zone is compared with *"Room Set Point"*, and, consequently, it is defined whether the system must heat.
+  *  *Sensor Zone* [-]: This field enables you to set the thermal zone whose mean temperature is used by the system in order to define whether the heating system has to run. The mean temperature of the sensor zone is compared with *"Room Set Point"*, and, consequently, it is defined whether the system must heat.
 
   *  *Delta DP Temp* [°C]: It is not used in the present running mode.
 
@@ -223,4 +223,4 @@ Available controls:
 
 <br>
 
-See also the [mathematical basic for the system.](/24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md)
+See also the [mathematical basis for the system.](/24Miscellaneous/24_74_Control_strategy_for_floor_heating_and_cooling.md)

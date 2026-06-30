@@ -13,5 +13,5 @@ Siden er under opbygning! <img src="./assets/SIGN.gif" width=20>
 
  <figure id="center_img">
 <img src="./assets/regulation.gif" alt="Dialog for definition af Windoor regulering for naturlig ventilation.">
-<figcaption>Dialog for definition af Windoor regulering for naturlig ventilation.</figcaption>
+<figcaption>Dialog for definition af Windoor-regulering for naturlig ventilation.</figcaption>
 </figure>

@@ -2,7 +2,7 @@
 
 # SimView - Insert Windoor
 
-En WinDoor eller en åbning kan indsættes til udfyldning af en flade eller midt i den aktuelle flade med funktionen *Insert Windoor* fra SimView menuen. Denne funktion giver mulighed for hel udfyldning af en flade.
+En WinDoor eller en åbning kan indsættes til udfyldning af en flade eller midt i den aktuelle flade med funktionen *Insert Windoor* fra SimView-menuen. Denne funktion giver mulighed for hel udfyldning af en flade.
 
 <figure id="center_img">
 <img src="./assets/inset_windoor.gif" alt="Dialog (Insert Windoor or Opening) for udfyldning af en flade med et WinDoor eller en åbning.">

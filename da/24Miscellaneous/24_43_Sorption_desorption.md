@@ -13,7 +13,7 @@ Absorption/Desorption
 
 DeltaRH
 
-*   Indtast værdi(er) for materialets kurve for det hygroskopiske område, som sammenhørende værdier af relativ fugt (-) og fugt permeabilitet (kg/m s Pa).
+*   Indtast værdi(er) for materialets kurve for det hygroskopiske område, som sammenhørende værdier af relativ fugt (-) og fugtpermeabilitet (kg/m s Pa).
 
  
 

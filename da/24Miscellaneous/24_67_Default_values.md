@@ -3,7 +3,7 @@
 # Standardværdier
 
 
-Der anvendes generelt standardværdier for en lang række data forskellige steder i programmet hvis der ikke er opgivet brugerdefinerede værdier. I det følgende vil BSim's standardværdier blive samlet.
+Der anvendes generelt standardværdier for en lang række data forskellige steder i programmet, hvis der ikke er opgivet brugerdefinerede værdier. I det følgende vil BSim's standardværdier blive samlet.
 
 *   Overfladeegenskaber (finish)
 
@@ -33,9 +33,9 @@ Standardværdierne for overgangsisolanser og konvektive overgangsisolanser fremg
 | Indvendig konvektiv overgangsmodstand for vægge | 0,33                 | m²K/W    |
 
 
-*Standardværdier for overgangsmodstande som benyttes når der gives 0 som inddata i Finish Property dialogen.*
+*Standardværdier for overgangsmodstande, som benyttes, når der gives 0 som inddata i Finish Property-dialogen.*
 
-Er der valgt simulering af langbølget strålingsudveksling (inde / ude) på *Options* fanebladet i *tsbi5* vil der dynamisk blive beregnet en variabel overgangsmodstand for konvektion, afhængig af temperaturforskellen mellem overfladen og luften og vindhastigheden på ydersiden af konstruktionerne.
+Er der valgt simulering af langbølget strålingsudveksling (inde / ude) på *Options*-fanebladet i *tsbi5*, vil der dynamisk blive beregnet en variabel overgangsmodstand for konvektion, afhængig af temperaturforskellen mellem overfladen og luften og vindhastigheden på ydersiden af konstruktionerne.
 
 #### **Lystekniske egenskaber**
 
@@ -49,7 +49,7 @@ Hvis der ikke vælges et materiale til at repræsentere en overflade vil *SimLig
 
 ### **Rum - temperatur og fugt**
 
-Hvis et rum **ikke** er placeret i en *termisk zone*, tildelt den samme temperatur som en *termisk zone* eller tilknyttet et *temperaturprofil*, benyttes 20 °C som en fast indetemperatur gennem hele simuleringsperioden.
+Hvis et rum **ikke** er placeret i en *termisk zone*, tildelt den samme temperatur som en *termisk zone*, eller tilknyttet et *temperaturprofil*, benyttes 20 °C som en fast indetemperatur gennem hele simuleringsperioden.
 
 ### **Solceller**
 

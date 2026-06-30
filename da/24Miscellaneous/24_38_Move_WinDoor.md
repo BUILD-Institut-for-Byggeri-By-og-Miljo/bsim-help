@@ -17,10 +17,10 @@ I de to grupper af information i dialogen er det muligt, dels at ændre størrel
 
 *   *Add to Height* ændrer højden af WinDoor.
 
-*   *Move Offset* flytter WinDoor WinDoor parallelt med y-aksen.
+*   *Move Offset* flytter WinDoor parallelt med y-aksen.
 
 *   *Move Dist.* flytter WinDoor parallelt med x-aksen.
 
 *   Ved afkrydsning i *Move all Windoors/Openings in the Construction* vil alle WinDoors som tilhører den samme flade som den aktuelle blive flyttet samtidig med den aktuelle WinDoor.
 
-Eksemplet i figuren angiver en forøgelse af bredden med 0,25 m, en reduktion af højden med 0,2 m. Bunden bibeholdes i samme højde over gulvet, men WInDoor flyttes 0,5 meter i samme retning som x-aksen.
+Eksemplet i figuren angiver en forøgelse af bredden med 0,25 m, en reduktion af højden med 0,2 m. Bunden bibeholdes i samme højde over gulvet, men WinDoor flyttes 0,5 meter i samme retning som x-aksen.

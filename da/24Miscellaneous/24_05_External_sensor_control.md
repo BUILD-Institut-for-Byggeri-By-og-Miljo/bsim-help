@@ -2,7 +2,7 @@
 
 # Regulering efter lysføler på facaden
 
-Ved denne afskærmningsform styres afskærmningen efter lysindfaldet på facaden. Når belysningsstyrken målt udvendigt på fladen, hvori det aktuelle vindue er placeret, overstiger værdien af *Shade Close* (lux), trækkes afskærmningen for. Afskærmningen forbliver trukket for, indtil belysningsstyrken på facaden falder under værdien *Shade Open* (lux). Figuren viser dialogen for definition af reguleringstypen SensorCtrl.
+Ved denne afskærmningsform styres afskærmningen efter lysindfaldet på facaden. Når belysningsstyrken målt udvendigt på fladen, hvori det aktuelle vindue er placeret, overstiger værdien af *Shade Close* (lux), trækkes afskærmningen for. Afskærmningen forbliver trukket for, indtil belysningsstyrken på facaden falder under værdien af *Shade Open* (lux). Figuren viser dialogen for definition af reguleringstypen SensorCtrl.
 
 <figure id="center_img">
 <img src="./assets/shd_sensor_ctrl.gif" alt="Dialog til definition af regulering af solafskærmning efter udvendig sensor - SensorCtrl.">

@@ -1,6 +1,6 @@
 # Kondensrisiko
 
-I parameterlisten fra simuleringerne med tsbi5 vises kondensrisikoen på overfladerne af konstruktioner og vinduer som angivet nedenfor.
+I parameterlisten fra simuleringerne med tsbi5 vises kondensrisikoen på overflader af konstruktioner og vinduer, som angivet nedenfor.
 
 
 | CondRisc | Betingelse |

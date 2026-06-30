@@ -33,7 +33,7 @@ hvor
 <figcaption>Årsvariationen af temperaturen i jorden eller et rum. Års middeltemperaturen er 13 °C. Svingningen er på 6°C (Maksimum - Minimum) med sit maksimum den 12. august (dagnummer 225).</figcaption>
 </figure>
 
-En tilsvarende variation af fugtindholdet i jordens, eller snarere fugtindholdet i den luft som kan hentes fra den fiktive zone jord, kan påtrykkes.
+En tilsvarende variation af fugtindholdet i jorden, eller snarere i den luft, som kan hentes fra den fiktive zone jord, kan påtrykkes.
 
 Der kan oprettes vilkårligt mange "Ground" i en model, og de kan benyttes som fiktive zoner imod vægflader hvor der ikke ønskes en detaljeret simulering af de termiske forhold på begge sider af en konstruktion.
 
