@@ -3,10 +3,10 @@
 # CAD drawings as a basis for geometry
 
 
-SimDXF is a simple tool for import of CAD drawings in DXF-format as base for constructing the geometric description of building models in BSim.
+SimDXF is a simple tool for importing CAD drawings in DXF format as base for constructing the geometric description of building models in BSim.
 
 
-One floor of a multi story building can be imported via SimDXF at the time. If more floors needs to be created in the same model, it is necessary to create each floor separately and Insert the new floor(s) in the current project in SimView. Doing this the model gets more buildings (one for each new floor). It is **only** possible to simulate one building at the time (current building) in tsbi5. By dragging (in the tree structure of [SimView](../09SimView/09_01_SimView.md)) the new building(s) to the actual building, these floors (buildings) are added to the actual model and can be simulated simultaneously in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md). Occasionally it will be necessary to move the new floors (i.e. upwards) in the model, using the [Move](../09SimView/09_13_SimView_Move.md) command from the SimView-menu.
+One floor of a multi-storey building can be imported via SimDXF at a time. If more floors need to be created in the same model, it is necessary to create each floor separately and insert the new floor(s) in the current project in SimView. By doing this, the model gets more buildings (one for each new floor). It is **only** possible to simulate one building at a time (current building) in tsbi5. By dragging (in the tree structure of [SimView](../09SimView/09_01_SimView.md)) the new building(s) to the current building, these floors (buildings) are added to the actual model and can be simulated simultaneously in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md). Occasionally, it will be necessary to move the new floors (i.e. upwards) in the model, using the [Move](../09SimView/09_13_SimView_Move.md) command from the SimView-menu.
 
 
 
@@ -51,12 +51,12 @@ Via the menu entry [Help | About SimDXF ...](../24Miscellaneous/24_47_About_SimD
 
 See also:
 
-*   [Selecting the DXF filter](08_03_SimDXF_Selecting_the_DXF_filter.md)
-*   [Opening a DXF drawing](08_02_SimDXF_Opening_a_DXF_drawing.md)
+*   [Selecting the DXF filter](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md)
+*   [Opening a DXF drawing](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_02_SimDXF_Opening_a_DXF_drawing.md)
 *   [Creating help lines](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
-*   [Creating nodes](08_09_SimDXF_Creating_nodes.md)
-*   [Faces](08_05_SimDXF_Faces.md)
-*   [Spaces](08_06_SimDXF_Spaces.md)
-*   [WinDoor](08_08_SimDXF_WinDoor.md)
-*   [Drawing revisions](08_07_SimDXF_Drawing_revisions.md)
-*   [Adding SimDXF as an application](08_04_SimDXF_Adding_as_an_application.md)
+*   [Creating nodes](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.md)
+*   [Faces](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_05_SimDXF_Faces.md)
+*   [Spaces](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_06_SimDXF_Spaces.md)
+*   [WinDoor](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.md)
+*   [Drawing revisions](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_07_SimDXF_Drawing_revisions.md)
+*   [Adding SimDXF as an application](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_04_SimDXF_Adding_as_an_application.md)
