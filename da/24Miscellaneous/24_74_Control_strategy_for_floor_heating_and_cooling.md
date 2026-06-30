@@ -10,7 +10,7 @@ By Massimiliano Scarpa
 
 *   Do **NOT** use the same floor heating control in more floor heating systems!
 
-*   If you want to use the same control, make a copy of it and select the face to host the floor heating system (use different names for faces in different thermal zones).  
+*   If you like to use the same control, make a copy and use that and select the face to host the floor heating system (use different names for faces in different thermal zones)!  
 
 In the figure below, an example of the window collecting the data about the system controls is shown.
 

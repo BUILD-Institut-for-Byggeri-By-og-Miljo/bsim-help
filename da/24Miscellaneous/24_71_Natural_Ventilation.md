@@ -21,7 +21,7 @@ Fanebladet Natural Ventilation (*vises kun hvis der er erhvervet licens til udvi
 *   *Cnt*: Angiver åbningens geometriske center (0-1). Centeret er placeret i afstanden *Cnt*·H* over vinduets underkant, hvor *H* er vinduets totale højde.   
 *Eksempel*: For et vindue med vandret åbning og hængsling i toppen af vinduet vil åbningens centrum være placeret ca. 20 % af vinduets højde fra vinduets underkant (rektangulær, vandret åbning langs vinduets bund og trekantede, lodrette åbning langs siderne), og *Cnt*-værdien sættes til 0,2.
 
-*   *Afrac*: Er den andel af det aktuelle WinDoor's totale areal, som kan åbnes. Hvis *Afrac* = *0*, kan WinDoor'et ikke åbnes og således ikke bidrage til den naturlige ventilation af den termiske zone.
+*   *Afrac*: Er den andel af vinduets det aktuelle WinDoor's totale areal som kan åbnes. Hvis *Afrac* = *0* kan vinduet WinDoor ikke åbnes og således ikke bidrage til den naturlige ventilation af den termiske zone.
 
     *   Skitsen til højre illustrer BSim's opfattelse af åbningen og inddata.
 

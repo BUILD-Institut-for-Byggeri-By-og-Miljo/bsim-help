@@ -26,7 +26,7 @@
 
 **2,2,4,3**
 
-*   *SimView*: Rettet, at udskriften af varmebalancen manglede en kolonne.
+*   *SimView*: Rettet, at udskrift af varmebalance mangler kolonne.
 
  
 

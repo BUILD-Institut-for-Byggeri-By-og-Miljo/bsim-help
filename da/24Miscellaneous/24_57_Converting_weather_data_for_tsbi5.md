@@ -39,7 +39,7 @@ En definitionsfil dannes via det interface, som findes for konvertering af klima
 
     *   *Fixed*: Fast kolonneformat, dvs. timeværdier findes linje for linje i fast rækkefølge i faste kolonner med eller uden adskillelse med blanktegn.  
 
-    * *NB: Hvis data indeholder ikke-numeriske oplysninger på samme linje som timedata, er dette format det eneste som kan benyttes*.
+    * *NB: Hvis data indeholder ikke-numeriske informationer på samme linje som timedata, er dette format det eneste som kan benyttes*.
 
     *   *Time+free*: Variant af frit format. Før døgnværdierne findes en linje med datoangivelse.
 
@@ -118,7 +118,7 @@ Konverteringen af klimadata forudsætter at data findes i følgende formater:
 
 #### **Convert**
 
-Tryk <u>altid</u> på *Save*, inden data konverteres!
+Tryk <u>altid</u> *Save*, inden data konverteres!
 
 Når klimadata er konverteret, vises en statistik over de konverterede klimadata. I statistikken vises måned for måned minimum-, middel- og maksimumværdierne for Udetemperatur (°C), Absolut fugtindhold (kg/kg), Normal stråling (W/m²), Diffus stråling (W/m²), Skydække (oktas), Vindretning (°) og Vindhastighed (m/s).
 

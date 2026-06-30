@@ -9,7 +9,7 @@ Dialogen for visning af egenskaberne for et rum åbnes ved at højre-klikke på 
 <figcaption>Room Property.</figcaption>
 </figure>
 
-*   *ROOM*: Beskriver for Be10-programmet, hvilken temperatur rummet har.
+*   *ROOM*: Beskriver for Be10 programmet, hvilken temperatur rummet har.
 
 *   *Rep. by* angiver hvilken celle, som repræsenterer rummet, samt om rummet er konvekst (Convex) eller konkavt (Concave). Det er ikke muligt at regne på dagslys eller langbølget strålingsudveksling i konkave rum - tsbi5 slår selv dette fra i denne type rum.
 
@@ -19,7 +19,7 @@ Dialogen for visning af egenskaberne for et rum åbnes ved at højre-klikke på 
 
 *  *Thermal Properties*: Beskriver de termiske egenskaber for rum, der er placeret uden for termiske zoner. Kan benyttes til beskrivelse af fiktive zoner med regulering af indetemperaturen. Det er muligt at vælge, at temperatur- og fugtforholdene i et rum til ethvert tidspunkt skal følge forholdene i en egentlig termisk zone eller udeklimaet.
 
-*   *Room Temp*: Åbner en [dialog](/24Miscellaneous/24_56_Room_Temperature.md) for definition af et rums (uden for termiske zoner) temperatur- og fugtvariation som en cosinusformet variation over året og dagen.
+*   *Room Temp*: Åbner en [dialog](/24Miscellaneous/24_56_Room_Temperature.md) for definition af et rums (uden for termiske zoner) temperatur- og fugtvariation som en cosinus formet variation over året og dagen.
 
 *   *Hide View*: Giver mulighed for at skjule geometriske visningen af det aktuelle rum - især nyttigt ved store modeller med mange rum.
 
