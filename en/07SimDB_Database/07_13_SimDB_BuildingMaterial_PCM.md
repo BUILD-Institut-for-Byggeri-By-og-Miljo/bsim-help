@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# SimDb - BuildingMaterial, PCM
+# SimDB - BuildingMaterial, PCM
 
 <div style="text-align:center">
 

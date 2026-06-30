@@ -35,6 +35,7 @@ Fejlmeddelelser optræder følgende steder:
 | Panel = x % | Fyldningsarealet i WinDoor er mindre end 0. |
 | Dens = x kg/m³ / Cp = x J/kgK / lambda = x W/mK | Egenskaberne for materialet er ikke defineret korrekt. |
 | U = x W/m²K | U-værdien for rammen i WinDoor er ikke defineret |
+| Undefined | ALLE materialeparametre skal være defineret.|
  
 
 <h3 id="xsun"><strong>XSun</strong></h3>

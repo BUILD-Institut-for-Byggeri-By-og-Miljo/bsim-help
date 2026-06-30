@@ -194,11 +194,11 @@
 * [SimDB - PV-materialer](16SimPV/16_04_SimDB_PV_materials.md)
 
 ----
-
+<!---
 ### Hd98 Heating Demand Calculation
 
 * [Calculating with Hd98](17Hd98_Heating_Demand_Calculation/17_01_Calculating_with_Hd98.md)
-
+-->
 ----
 
 ### Radiance Visualisering

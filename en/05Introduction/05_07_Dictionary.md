@@ -27,7 +27,7 @@
 | Options           | *Options*, typically for defining various default values for the model and the programs. |
 | People            | The [*people*](../11Systems/11_13_Systems_Persons.md) system provides a heat load to the thermal zone to which they are assigned. |
 | Recess            | *Recessing* of the glazing in a window or door relative to the outer face of the façade. |
-| Room              | A room in the model. A *room* **can** be located in a thermal zone, and only *rooms* in thermal zones are included in simulations with tsbi5. All *rooms*, also those outside thermal zones, are included in the model when it is imported into the [Be10](../20The_Mathematical_basis/20_01_The_Mathematical_basis.md) program. |
+| Room              | A room in the model. A *room* **can** be located in a thermal zone, and only *rooms* in thermal zones are included in simulations with tsbi5. All *rooms*, also those outside thermal zones, are included in the model when it is imported into the [Be10](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md) program. |
 | Schedule          | A schedule is a collection of pairs of control settings and time indications that together make up the control strategy for a system. |
 | Shading           | [Solar shading](../11Systems/11_16_Systems_shading.md). |
 | Shutter           | [Shutters](../11Systems/11_15_Systems_shutter.md), normally perceived as night shutters, but can also be used to completely or partially block solar gains within a given [time period](../11Systems/11_17_Systems_Time.md). |

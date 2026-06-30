@@ -2,7 +2,7 @@
 
 # SimView - Toolbar 
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/ToolBar.GIF" alt="Toolbar in BSim.">
 <figcaption>Toolbar in BSim.</figcaption>
 </figure>

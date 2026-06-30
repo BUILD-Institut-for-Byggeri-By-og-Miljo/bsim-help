@@ -12,7 +12,7 @@ According to the Danish norm [DS418, amendment 1](../20The_Mathematical_basis/20
 
 For frames made of wood or covered wood the values can be obtained from the figure below, as a function of the type of wood and the thickness of the frame. This values can be used if a more accurate value is not known. By determining the thickness of frame made of wood, an eventual cover made of metal or plastic is neglected. If the frame have varying thickness, the average value can be used. Having coupled frames (two or more separate glazings) the total thickness of the frame can be used.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/u-frame.gif" alt="Transmission coefficient Uframe in W/m2K for frames made of wood or covered wood.">
 <figcaption>Transmission coefficient Uframe in W/m2K for frames made of wood or covered wood.</figcaption>
 </figure>
