@@ -1,3 +1,5 @@
+<div style="text-align: center;">
+
 # BSim Brugervejledning
 
 <figure id="center_img">
@@ -11,3 +13,10 @@
 
 
 *BSim (Building Simulation) er et integreret edb-værktøj til projektering af bygninger og installationer.*
+
+<br>
+
+<br>
+
+*Copyright © Statens Byggeforskningsinstitut (SBi), 1999-2013*
+</div>

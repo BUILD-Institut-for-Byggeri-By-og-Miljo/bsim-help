@@ -3,7 +3,7 @@
 # BSim User Guide
 
 <figure id="center_img">
-  <img src="24Miscellaneous/assets/frontpage figure.png" alt="">
+<img src="24Miscellaneous/assets/frontpage figure.png" alt="">
   <figcaption></figcaption>
 </figure>
 
@@ -13,4 +13,9 @@
 
 *BSim (Building Simulation) is an integrated computer-aided design and simulation tool for the design of buildings and building services systems.*
 
+<br>
+
+<br>
+
+*Copyright © Statens Byggeforskningsinstitut (SBi), 1999-2013*
 </div>
