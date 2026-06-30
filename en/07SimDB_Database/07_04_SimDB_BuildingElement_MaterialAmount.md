@@ -9,5 +9,5 @@ The third tab only contains data used in connection with LCA analyses and is not
 </figure>
 
 See also:
-*   [Tab BuildingElement](07_02_SimDB_BuildingElement.md)
-*   [Tab ConstructionLayer](07_03_SimDB_BuildingElement_ConstructionLayer.md)
+*   [Tab BuildingElement](../07SimDB_Database/07_02_SimDB_BuildingElement.md)
+*   [Tab ConstructionLayer](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)
