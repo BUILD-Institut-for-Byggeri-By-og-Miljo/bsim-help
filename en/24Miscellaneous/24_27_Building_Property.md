@@ -13,7 +13,7 @@
 
 *   *Rotation* is the rotation of the model. A positive value will rotate a North facing face towards East.
 
-*   *Height:* Is the total height of the building. This number is used when simulating natural ventilation to calculate the correct wind pressure if only a part of the building have been modeled.
+*   *Height:* Is the total height of the building. This number is used when simulating natural ventilation to calculate the correct wind pressure if only a part of the building has been modeled.
 
 *   *Current Building* tells BSim which building (if more than one exists in the model) to simulate in XSun and tsbi5.
 
