@@ -13,7 +13,7 @@ A face can be moved only if it is selected. A selected face is indicated by a re
 </figure>
 
 
-*   *Distance* specifies how many metres (positive number) the face is to be moved.
+*   *Distance* specifies how many meters (positive number) the face is to be moved.
 
 *   *Options*:
 

@@ -43,7 +43,7 @@ E<sub>h</sub> < E<sub>opt</sub>:                     LDP = (1-VLDP<su
 
 VGDP = VLDP<sub>min</sub>
 
-*   E<sub>h</sub> er belysningsstyrken på horisontalplan (arbejdsplan),
+*   E<sub>h</sub> er belysningsstyrken på horisontalplanet (arbejdsplan),
 
 *   E<sub>opt</sub> er den ønskede (optimale) belysningsstyrke på arbejdsplanet (eller arbejdsobjektet), som afhænger af den aktuelle arbejdsopgave,
 
@@ -51,7 +51,7 @@ VGDP = VLDP<sub>min</sub>
 
 *   VLDP<sub>min</sub> er den laveste værdi som diskomfortindekset kan antage (typisk 0,2).
 
-Ved behov for regulering pga. blænding afhænger reguleringsformen af afskærmningstypen. For typen *Venetian* (blind) søges belysningsstyrken i det valgte referencepunkt (normalt lodret plan ved øjets position) reduceret netop så meget, at blændingsgrænsen overholdes. Regulering sker ud fra opslag i en tabel, og ud fra den valgte indstilling af lamellerne kan den aktuelle solafskærningsfaktor og dermed solindfaldet beregnes.
+Ved behov for regulering pga. blænding afhænger reguleringsformen af afskærmningstypen. For typen *Venetian* (blind) søges belysningsstyrken i det valgte referencepunkt (normalt lodret plan ved øjets position) reduceret netop så meget, at blændingsgrænsen overholdes. Regulering sker ud fra opslag i en tabel, og ud fra den valgte indstilling af lamellerne kan den aktuelle solafskærmningsfaktor og dermed solindfaldet beregnes.
 
 For typerne *Curtain* eller *Screen* trækkes afskærmningen helt for, og den nye belysningsstyrke beregnes ud fra reduktionsfaktorerne gardin. Afskærmningens indstilling er ved starten af hvert tidsstep (halvtime) ligesom i forrige tidsstep. Hvis blændingskriteriet er overholdt, undersøges det, om afskærmningen kan åbnes mere for at opnå en højere belysningsstyrke i det andet referencepunkt (normalt på vandret arbejdsplan) samt for at opnå størst muligt udsyn.
 

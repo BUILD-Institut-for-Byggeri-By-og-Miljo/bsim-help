@@ -10,14 +10,14 @@ This tab only contains a U-value and only appears when materials from [SfB](../2
 
 According to the Danish norm [DS418, amendment 1](../20The_Mathematical_basis/20_28_Literature.md) the following values can be used as U-values for window frames.
 
-For frames made of wood or covered wood the values can be obtained from the figure below, as a function of the type of wood and the thickness of the frame. This values can be used if a more accurate value is not known. By determining the thickness of frame made of wood, an eventual cover made of metal or plastic is neglected. If the frame have varying thickness, the average value can be used. Having coupled frames (two or more separate glazings) the total thickness of the frame can be used.
+For frames made of wood or covered wood the values can be obtained from the figure below, as a function of the type of wood and the thickness of the frame. These values can be used if a more accurate value is not known. By determining the thickness of frame made of wood, an eventual cover made of metal or plastic is neglected. If the frame has varying thickness, the average value can be used. For coupled frames (two or more separate glazings) the total thickness of the frame can be used.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/u-frame.gif" alt="Transmission coefficient Uframe in W/m2K for frames made of wood or covered wood.">
 <figcaption>Transmission coefficient Uframe in W/m2K for frames made of wood or covered wood.</figcaption>
 </figure>
 
-For frames made of plastic or metal the transmission coefficients given in the following table can be used, unless a more accurate value is known. For PUR-profilers a metal bearing is expected to be covered wit at least 5 mm polyuretan foam. For PVC-profiles it is anticipated that there will be metal enforcement in a maximum of one chamber, and that the distance between the surface in all chambers is at least 5 mm. The transmission coefficient for metal profiles with broken cold-bridge depends strongly on the actual design and must thus be determined for each profile individually.
+For frames made of plastic or metal the transmission coefficients given in the following table can be used, unless a more accurate value is known. For PUR-profilers a metal bearing is expected to be covered with at least 5 mm polyurethane foam. For PVC-profiles it is anticipated that there will be metal reinforcement in a maximum of one chamber, and that the distance between the surface in all chambers is at least 5 mm. The transmission coefficient for metal profiles with broken cold-bridge depends strongly on the actual design and must thus be determined for each profile individually.
 
 | Profile                | W/m²K |
 |--------------------------|--------|
@@ -35,16 +35,16 @@ $$
 U = \frac{1}{\frac{1}{U_u} + \frac{1}{U_i}}
 $$
 
-where *U<sub>u</sub>* and *U<sub>i</sub>* is the transmission coefficient for respectively the external and the internal part of the window.
+where *U<sub>u</sub>* and *U<sub>i</sub>* are the transmission coefficients for the external and the internal part of the window, respectively.
 
  
 
 See also:
 
-*   [Tab Material](07_11_SimDB_BuildingMaterial_Material.md)
-*   [Tab Thermal](07_12_SimDB_BuildingMaterial_Thermal.md)
-*   [Tab Moisture](07_14_SimDB_BuildingMaterial_Moisture.md)
-*   [Tab Environment](07_07_SimDB_BuildingMaterial_Environment.md)
-*   [Tab Glazing](07_10_SimDB_BuildingMaterial_Glazing.md)
-*   [Tab UserDefined](07_16_SimDB_BuildingMaterial_UserDefined.md)
-*   [Tab Frame](07_09_SimDB_BuildingMaterial_Frame.md)
+*   [Tab Material](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md)
+*   [Tab Thermal](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)
+*   [Tab Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
+*   [Tab Environment](../07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.md)
+*   [Tab Glazing](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
+*   [Tab UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)
+*   [Tab Frame](../07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.md)

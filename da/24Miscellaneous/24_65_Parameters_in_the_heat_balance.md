@@ -2,13 +2,13 @@
 
 # Parametre i varmebalancen
 
-I varmebalancen findes en række parametre som oplyser om de forskellige energibidrag (kWh) - navngivet som qXxxxxxxx - til varmebalancen for bygningen eller de enkelte termiske zoner. Derudover findes en række parameter som er af almen interesse for indeklimaet.
+I varmebalancen findes en række parametre, som oplyser om de forskellige energibidrag (kWh) - navngivet som qXxxxxxxx - til varmebalancen for bygningen eller de enkelte termiske zoner. Derudover findes en række parametre, som er af almen interesse for indeklimaet.
 
 *   *tOutdoor mean* er middelværdien (for den valgte tidsmæssige opløsning) af udeluftens temperatur.
 
 *   *tOp mean* er middelværdien af den operative temperatur i bygningen eller den valgte termiske zone.
 
-*   *AirChange* viser det gennemsnitlige luftskifte som luftskifter pr. time i bygningen eller zonen.
+*   *AirChange* viser det gennemsnitlige luftskifte, som luftskifter pr. time, i bygningen eller zonen.
 
 *   *Rel. Moisture* er den gennemsnitlige relative luftfugtighed som % relativ fugtighed i bygningen eller zonen.
 
@@ -16,7 +16,7 @@ I varmebalancen findes en række parametre som oplyser om de forskellige energib
 
 *   *PAQ* viser det beregnede [oplevede indeklima](/24Miscellaneous/24_65_Parameters_in_the_heat_balance.md).
 
-*   *Hours > 21, Hour > 25, Hour > 28 og Hour < 20* viser antallet af timer med en operativ temperatur over hhv. under en given temperaturgrænse (grænsen kan ændres på [*Options* ](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)fanebladet) i den valgte termiske zone inden for den valgte opløsning på tidsskalaen, fx uge eller måned. Hvis hele modellen er valgt, vises ingen værdier for indetemperaturer over hhv. under temperaturgrænser.
+*   *Hours > 21, Hour > 25, Hour > 28 og Hour < 20* viser antallet af timer med en operativ temperatur over henholdsvis under en given temperaturgrænse (grænsen kan ændres på fanebladet [*Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)) i den valgte termiske zone inden for den valgte opløsning på tidsskalaen, fx uge eller måned. Hvis hele modellen er valgt, vises ingen værdier for indetemperaturer over henholdsvis under temperaturgrænser.
 
 *   *FanPow* viser den afsatte elektriske energi (kWh) i ventilatorerne i ventilationsanlæg (bygning/termisk zone). Effekten er beregnet på baggrund af den givne trykstigning (indblæsning og udsugning).
 
@@ -28,7 +28,7 @@ I varmebalancen findes en række parametre som oplyser om de forskellige energib
 
 *   *ClCoil* viser den energimængde (kWh) som er afsat i ventilationsanlæggenes køleflade for at køle indblæsningsluften.
 
-*   *Humidif* viser den energimængde (kWh) som er gået til et befugte luften i ventilationsanlæggene.
+*   *Humidif* viser den energimængde (kWh), som er gået til at befugte luften i ventilationsanlæggene.
 
 *   *FloorHeat* viser den mængde energi (kWh) som er afsat i konstruktionerne som gulvvarme.
 

@@ -8,7 +8,7 @@
 
 Reset
 
-*   Ved klik på *Reset*-knappen skifter parametrene tilbede til standardværdierne som er indlejret i BSim.
+*   Ved klik på *Reset*-knappen skifter parametrene tilbage til standardværdierne som er indlejret i BSim.
 
 <figure id="center_img">
 <img src="./assets/stdvalues1.gif" alt="Fanebladet General under tsbi5 options.">

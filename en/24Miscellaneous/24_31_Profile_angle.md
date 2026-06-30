@@ -3,7 +3,7 @@
 
 # Profile angle
 
-As the angle of incidence depends both on the solar height and the solar azimuth we operate with the so-called profile angle Q defined as the angle of incidence projected on a vertical normal plane for the actual face. The profile angle can be calculated from the solar height and the difference between solar and wall azimuth as:
+As the angle of incidence depends both on the solar height and the solar azimuth, we operate with the so-called profile angle Q defined as the angle of incidence projected on a vertical normal plane for the actual face. The profile angle can be calculated from the solar height and the difference between solar and wall azimuth as:
 
  
 
@@ -17,7 +17,7 @@ hvor
 
 *   *$\gamma$* is the solar azimuth minus the wall azimuth
 
-In the figures below, the profile angle is shown as a function of the time of the day for different orientations of the WinDoor and for different months (the 21. in each month). It is seen that e.g. for the orientation South is the profile angle constant through the day at spring and autumn equinox, March 21. and September 21.
+In the figures below, the profile angle is shown as a function of the time of day for different orientations of the WinDoor and for different months (the 21. in each month). It is seen that e.g. for the orientation South is the profile angle constant through the day at spring and autumn equinox, March 21. and September 21.
 
 
 <figure id="center_img">

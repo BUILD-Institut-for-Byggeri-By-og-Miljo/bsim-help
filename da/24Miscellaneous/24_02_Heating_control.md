@@ -2,7 +2,7 @@
 
 # Opvarmning - Varmeregulering
 
-Reguleringskurven er defineret som en sammenhængende, brudt linie, bestående af tre rette liniestykker. Kurven forbinder to punkter:
+Reguleringskurven er defineret som en sammenhængende, brudt linje, bestående af tre rette linjestykker. Kurven forbinder to punkter:
 
 P1 = (Max Power , Design Temp) og P2 = (Min Power , Te Min)
 
@@ -12,13 +12,13 @@ $$ P_{heating} = P_{min} + (P_{max} - P_{min}) \cdot \frac{t_0 - t_{min}}{t_{des
 
 <figure id="center_img">
 <img src="./assets/heatingctrl.gif" alt="Definition af reguleringen (Heating | HeatCoolCtrl) for en radiator. Den røde kurve viser den til rådighed værende effekt som en funktion af udetemperaturen med de inddata som er givet. Den blå kurve viser den uregulerbare del af varmeafgivelsen (angivet på fanebladet 'Heating'). Kurverne opdateres når fokus skifter fra et inddatafelt til et andet.">
-<figcaption>Definition af reguleringen (Heating | HeatCoolCtrl) for en radiator. Den røde kurve viser den til rådighed værende effekt som en funktion af udetemperaturen med de inddata som er givet. Den blå kurve viser den uregulerbare del af varmeafgivelsen (angivet på fanebladet "Heating"). Kurverne opdateres når fokus skifter fra et inddatafelt til et andet.</figcaption>
+<figcaption>Definition af reguleringen (Heating | HeatCoolCtrl) for en radiator. Den røde kurve viser den til rådighed værende effekt som en funktion af udetemperaturen med de inddata som er givet. Den blå kurve viser den uregulerbare del af varmeafgivelsen (angivet på fanebladet "Heating"). Kurverne opdateres, når fokus skifter fra et inddatafelt til et andet.</figcaption>
 </figure>
 
 
 *Factor* angiver, at kun en vis del af den beregnede effekt er til rådighed inden for de til reguleringen knyttede tidsplaner. Faktoren kan også benyttes ved specifikation af simple reguleringssystemer (fx manuel shuntventil), hvor varmeeffekten reguleres efter årstiden. Standardværdien for *Factor* er 1,0.
 
-*Set Point* angiver indstillingen af rumtermostaten. Den temperatur som søges opretholdt, er den operative temperatur i sensor zonen.
+*Set Point* angiver indstillingen af rumtermostaten. Den temperatur, som søges opretholdt, er den operative temperatur i sensor zonen.
 
 *Design Temp* angiver den dimensionerende udetemperatur for radiatoren.
 

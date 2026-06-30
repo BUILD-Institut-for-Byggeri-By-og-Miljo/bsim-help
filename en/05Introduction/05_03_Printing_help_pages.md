@@ -8,7 +8,7 @@
 <figcaption>Selection of text size in MS Internet Explorer is done from the "View" menu.</figcaption>
 </figure>
 
-Some help pages contain graphics, which are too wide to be printed on A4 paper in landscape. This pages will be truncated (text and graphics) at the right side of the paper. This problem can be omitted if the printer's scaling of graphics is changed to e.g. 75%. This can be done by selecting printer *Properties* from the Windows print dialog box and the *Advanced* tab. The setting will be retained ONLY for as long as the current browser session continues.
+Some help pages contain graphics, which are too wide to be printed on A4 paper in landscape. These pages will be truncated (text and graphics) at the right side of the paper. This problem can be omitted if the printer's scaling of graphics is changed to e.g. 75%. This can be done by selecting printer *Properties* from the Windows print dialog box and the *Advanced* tab. The setting will be retained ONLY for as long as the current browser session continues.
 
 This function is dependent on the selected printer and the printer driver installed on the PC for controlling printing. It is therefore impossible to guarantee that printing results will be perfect with all system configurations.
 

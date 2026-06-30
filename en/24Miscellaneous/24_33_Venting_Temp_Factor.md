@@ -16,4 +16,4 @@
 
 *Epsilon* is the dimensionless factor for correcting the "thermal efficiency" of the venting. If the inlet and outlet openings are positioned in such a way that they short-circuit, the thermal effect on the zone will be greatly reduced compared with full mixing of the incoming air. It can be very difficult to assess the size of the "mixing factor", but experience indicates that it will often be 0.5-0.9.
 
-The calculated temperature factor *(TmpFactor)* is shown on the right of the dialog box. Each time the *Calculate* button is pressed a calculation of the temperaure factor is performed using the current values.
+The calculated temperature factor *(TmpFactor)* is shown on the right of the dialog box. Each time the *Calculate* button is pressed a calculation of the temperature factor is performed using the current values.

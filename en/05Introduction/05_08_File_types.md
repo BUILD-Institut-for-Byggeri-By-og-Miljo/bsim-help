@@ -18,7 +18,7 @@ The BSim program package uses the following file types:
 | *.rad                | Export of model geometry to be used in *Radiance*. This export facility can only be activated when *SimView* is active. |
 | *.rif                | Export of controls for the use of the model in *Radiance*. This export facility can only be activated when *SimView* is active. |
 | *.wdf                | Definition file for conversion of climate data in text format (ASCII) to the binary format used by BSim. |
-| *.epw                | Text file with climate data in EnergyPlus format. This format can be converted directly to the binary format used by BSim, using a build-in function in BSim from version 2002. |
+| *.epw                | Text file with climate data in EnergyPlus format. This format can be converted directly to the binary format used by BSim, using a built-in function in BSim from version 2002. |
 | *model_name*.b98       | Models saved from the *Bv98* program. |
 
 <br>
@@ -30,6 +30,6 @@ In addition to this, two database files are distributed with the program package
 |         |  |
 |-----------------|-------------|
 | *BSim2003.mdb*    | Database that comes with *BSim* and in addition to the content of *MoistDat.mdb* holds updated values for glass and tables with information for simulation of solar cells. |
-| *MoistDat.mdb*    | Contains the standard database for the *BSim*. This database contains the same information as the *SbiData* database, plus information on the moisture properties of all building materials. |
-| *SbiData.mdb*     | Contains the standard database. This database will be updated (overwritten) with updates of the program. The database is write protected and **no** new components or materials must be added in this database. |
+| *MoistDat.mdb*    | Contains the standard database for *BSim*. This database contains the same information as the *SbiData* database, plus information on the moisture properties of all building materials. |
+| *SbiData.mdb*     | Contains the standard database. This database will be updated (overwritten) with updates of the program. The database is write protected and **no** new components or materials must be added to this database. |
 | *Empty.mdb*       | Empty database containing the structure used in *BSim*. |

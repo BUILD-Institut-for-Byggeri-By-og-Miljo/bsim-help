@@ -8,8 +8,8 @@
 
 
 <figure id="center_img">
-<img src="./assets/Insertdefaults.gif" alt="The constructions are divided into the displayed groups. Only checked groups will be up-dated/overwritten with the selected default constructions in the Insert Default Options dialog.">
-<figcaption>The constructions are divided into the displayed groups. Only checked groups will be up-dated/overwritten with the selected default constructions in the Insert Default Options dialog.</figcaption>
+<img src="./assets/Insertdefaults.gif" alt="The constructions are divided into the displayed groups. Only checked groups will be updated/overwritten with the selected default constructions in the Insert Default Options dialog.">
+<figcaption>The constructions are divided into the displayed groups. Only checked groups will be updated/overwritten with the selected default constructions in the Insert Default Options dialog.</figcaption>
 </figure>
 
 

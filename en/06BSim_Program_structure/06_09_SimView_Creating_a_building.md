@@ -4,8 +4,8 @@
 A building can be created or added by right-clicking in the window with the geometric model view. This calls up the *SimView* menu, where the *Add Building* option should be selected (*<u>E</u>dit* | *Add* | *Building* can also be used). When a building is first created, it will contain one space. This really means that a building is created at the same time as the first space.
 
 <figure id="center_img">
-<img src="./assets/AddBuilding.GIF" alt="Dialog (Building) for definition af bygning.">
-<figcaption>Dialog (Building) for definition af bygning.</figcaption>
+<img src="./assets/AddBuilding.GIF" alt="Dialog (Building) for definition of bygning.">
+<figcaption>Dialog (Building) for definition of bygning.</figcaption>
 </figure>
 
 The dialog box for creating a building contains 10 fields for entering data:
@@ -40,11 +40,11 @@ Attention **must** be paid to this convention when defining the geometry of the 
 
 See also:
 
-*   [Creating a building](06_09_SimView_Creating_a_building.md)
+*   [Creating a building](../06BSim_Program_structure/06_09_SimView_Creating_a_building.md)
 
 *   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
 
-*   [Default constructions](../24Miscellaneous/24_28_Insert_Default_Options.md)
+*   [Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md)
 
 *   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
 
@@ -54,7 +54,7 @@ See also:
 
 *   [Editing the model geometry](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
 
-*   [Solar light factors for WinDoors](../09SimView/09_07_WinDoor_Property.md)
+*   [Solar light factors for WinDoors](../09SimView/09_07_Windoor_property.md)
 
 *   [Adding an opening or WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 

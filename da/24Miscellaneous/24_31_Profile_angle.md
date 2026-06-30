@@ -14,7 +14,7 @@ hvor
 
 *   γ er solens azimut minus væggens azimut
 
-På er profilvinklen som funktion af tidspunktet på dagen vist ved forskellige orienteringer af vinduet og for forskellige måneder (den 21. i månederne). Det ses fx, at for orienteringen syd er profilvinklen konstant hele døgnet ved forårs- og efterårsjævndøgn, den 21. marts og 21. september.
+På figuren er profilvinklen som funktion af tidspunktet på dagen vist ved forskellige orienteringer af vinduet og for forskellige måneder (den 21. i månederne). Det ses fx, at for orienteringen syd er profilvinklen konstant hele døgnet ved forårs- og efterårsjævndøgn, den 21. marts og 21. september.
 
 <figure id="center_img">
 <img src="./assets/profil_fig1.gif" alt="">

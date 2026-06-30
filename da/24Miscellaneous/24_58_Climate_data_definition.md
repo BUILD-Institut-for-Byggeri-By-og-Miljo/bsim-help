@@ -8,11 +8,11 @@
 </figure>
 
 
-Dialogen definerer hvordan inddata skal opfattes og behandles inden konvertering til binært format. Hver linie har formen:
+Dialogen definerer, hvordan inddata skal opfattes og behandles, inden konvertering til binært format. Hver linje har formen:
 
 * 'parameter' nummer konstant faktor 'enhed'*
 
-og kan læses: værdien i position nummer i en linie tildeles parameter som:
+og kan læses: værdien i position nummer i en linje tildeles parameter som:
 
 * Parameter = faktor * (værdi - konstant) [*enhed*]
 
@@ -22,7 +22,7 @@ Parameter kan angives i en af enhederne (i parentes).
 
 *   *Ambient Temp.* - Udetemperatur (C) eller (F).
 
-*   *Dew Point Temp.* - Dugpunktstemperatur (C) eller (F).
+*   *Dew Point Temp.* - Dugpunktstemperatur (°C) eller (°F).
 
 *   *Rel. Humidity* - Relativ fugtighed, angivet som (%) eller rent tal (-).
 
@@ -30,9 +30,9 @@ Parameter kan angives i en af enhederne (i parentes).
 
 *   *Entalphy* - Enthalpi (kJ/kg).
 
-*   *Normal Radiation* - Normal stråling (W/m2) eller (J/cm²).
+*   *Normal Radiation* - Normal stråling (W/m²) eller (J/cm²).
 
-*   *Diffuce Radiation* - Diffus stråling på vandret (W/m²) eller (J/cm²).
+*   *Diffuse Radiation* - Diffus stråling på vandret (W/m²) eller (J/cm²).
 
 *   *Global Radiation* - Global stråling på vandret (W/m²) eller (J/cm²).
 
@@ -50,7 +50,7 @@ Parameter kan angives i en af enhederne (i parentes).
 
 *   *Cloud cover* - Skydække, angivet som (oktas), dvs. 0-8 eller rent tal (-).
 
-*   *Wind Speed* - Vind hastighed (m/s) eller (knob).
+*   *Wind Speed* - Vindhastighed (m/s) eller (knob).
 
 *   *Wind Direction* - Vindretning i grader (nord = 0°, øst = 90°).
 

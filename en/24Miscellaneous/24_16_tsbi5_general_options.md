@@ -29,6 +29,6 @@ Stabilization before simulation
 *   *Max Iterations*: Indicates the maximum number of iterations/days to carry out in advance of the real (saved results) simulation. The simulation starts when the stabilization criteria for the temperature or the maximum number of initial iterations has been reached.
 
 <br>
-Diffuce Solar Radiation Transmittance
+Diffuse Solar Radiation Transmittance
 
-*   *Fraction*: Gives the fraction of diffuse radiation entering a thermal zone through WinDoors facing the ambient, which can be transferred to an other thermal zone via internal WinDoors and openings. If "0" (zero) is given, the diffuse radiation will be distributed according to the individual area of the WinDoor/Opening compared to the total internal wall area.
+*   *Fraction*: Gives the fraction of diffuse radiation entering a thermal zone through WinDoors facing the ambient, which can be transferred to another thermal zone via internal WinDoors and openings. If "0" (zero) is given, the diffuse radiation will be distributed according to the individual area of the WinDoor/Opening compared to the total internal wall area.

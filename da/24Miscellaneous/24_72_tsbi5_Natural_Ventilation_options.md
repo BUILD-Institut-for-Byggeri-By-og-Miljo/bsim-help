@@ -12,13 +12,13 @@ Siden er under opbygning! 
 <img src="./assets/SIGN.gif" width=35>
 
 
-**OBS:** Standardværdier bør **kun** ændres med stor forsigtighed! Når der klikkes "OK" gemmes de aktuelle værdier og benyttes i ALLE simuleringer indtil de ændres igen.
+**OBS:** Standardværdier bør **kun** ændres med stor forsigtighed! Når der klikkes på "OK", gemmes de aktuelle værdier og benyttes i ALLE simuleringer, indtil de ændres igen.
 
-Fanebladet Natural Ventilation er reserveret særlige data i forbindelse med multizone (mzm) simulering af naturlig ventilation *([Venting](../11Systems/11_18_Systems_Venting.md))* i BSim.
+Fanebladet Natural Ventilation er reserveret til særlige data i forbindelse med multizone (mzm) simulering af naturlig ventilation *([Venting](../11Systems/11_18_Systems_Venting.md))* i BSim.
 
 Reset
 
-*   Ved klik på *Reset-knappen* skifter parametrene tilbage til standardværdierne som er indlejret i BSim.
+*   Ved klik på *Reset-knappen* skifter parametrene tilbage til standardværdierne, som er indlejret i BSim.
 
 <figure id="center_img">
 <img src="./assets/stdvalues2.gif" alt="Fanebladet Natural Ventilation under tsbi5 + Edit + Options.">
@@ -47,9 +47,9 @@ Convective Heat Transfer Model
 
 Solve Pressure Equation - beskriver konvergenskriterierne for multizonemodellen.
 
-*   MaxDif: En løsning antages for fundet når trykforskellen mellem to på hinanden følgende iterationer er mindre end angivet i inddatafeltet.
+*   MaxDif: En løsning antages for fundet, når trykforskellen mellem to på hinanden følgende iterationer er mindre end angivet i inddatafeltet.
 
-*   Max Iterations: Der kan maksimalt gennemføres det antal iterationer som er givet i feltet.
+*   Max Iterations: Der kan maksimalt gennemføres det antal iterationer, som er givet i feltet.
 
 Mzm Heat Balance - beskriver konvergenskriterierne mellem multizonemodellen og den sædvanlige termiske simulering.
 

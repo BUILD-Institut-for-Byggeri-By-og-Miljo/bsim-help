@@ -13,7 +13,7 @@ Ved tryk på knappen med dobbelt-pilen ">>" åbnes en dialog til valg af eksiste
 
 <figure id="center_img">
 <img src="./assets/MW3.JPG" alt="Databasen 'SbiData.mdb' er den database som leveres med BSim og opdateres ved programopdateringer.  'MoistDat.mdb' leveres sammen med BSim og indeholder futgttekniske egenskaber for materialerne i 'SbiData.mdb'.">
-<figcaption>Databasen "SbiData.mdb" er den database som leveres med BSim og opdateres ved programopdateringer. "MoistDat.mdb" leveres sammen med BSim og indeholder futgttekniske egenskaber for materialerne i "SbiData.mdb".</figcaption>
+<figcaption>Databasen "SbiData.mdb" er den database som leveres med BSim og opdateres ved programopdateringer. "MoistDat.mdb" leveres sammen med BSim og indeholder fugttekniske egenskaber for materialerne i "SbiData.mdb".</figcaption>
 </figure>
 
 [Næste >](../24Miscellaneous/24_53_Projekt_Wizard_3.md) dialog i Wizard'en

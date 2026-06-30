@@ -2,7 +2,7 @@
 
 # Fan coil regulering
 
-Med *fan coil* *regulering* af kølingen i BSim er det muligt at tage hensyn til at effektafgivelsen er afhængig af temperaturdifferencen mellem kølefladen (kølemediet) og rumluften. Denne regulering svarer til den regulering som typisk benyttes i forbindelse med *fan* *coils* eller *kølebafler*.
+Med fan coil-regulering af kølingen i BSim er det muligt at tage hensyn til, at effektafgivelsen er afhængig af temperaturdifferencen mellem kølefladen (kølemediet) og rumluften. Denne regulering svarer til den regulering, som typisk benyttes i forbindelse med *fan* *coils* eller *kølebafler*.
 
 Den køleeffekt som kan afsættes i den termiske zone er:
 
@@ -31,10 +31,10 @@ hvor:
 
 *Design Temp* angiver den zone-temperatur, ved hvilken køleradiatoren opnår sin maksimale ydelse, [*Max Power*](../11Systems/11_09_Systems_cooling.md).
 
-*T Cool* angiver mideltemperaturen for kølemediet.
+*T Cool* angiver middeltemperaturen for kølemediet.
 
-På grafen ses den til rådighed værende køleeffekt som en funktion af zonetemperaturen ved de givne inddata som for den aktuelle regulering. Det er kun på den del af kurven som ligger mellem Set Point og Design Temp (dvs. kun hvis kølekapaciteten ikke er tilstrækkelig til at holde indetemparaturen på det ønskede sætpunkt), at den muligt afstatte effekt fra Fan-coil'en reguleres efter hældningen på kurven.
+På grafen ses den til rådighedværende køleeffekt som en funktion af zonetemperaturen for de givne inddata for den aktuelle regulering. Det er kun på den del af kurven, som ligger mellem Set Point og Design Temp (dvs. kun hvis kølekapaciteten ikke er tilstrækkelig til at holde indetemperaturen på det ønskede sætpunkt), at den afsatte effekt fra fan coil'en reguleres efter kurvens hældning.
 
 <div id="gray_background">
-Den afsatte effekt ved FanCoilCtrl i resultatloggen (qCooling) kan i visse tilfælde med meget varierende belastninger (også solindfald) vise en højere værdi end den som kan beregnes ud fra resultatloggens indetemperatur og de givne inddata. Det skyldes at den indetemperatur som vises i resultatloggen er den temperatur som er beregnes ved udgangen af det sidste tidsskridt i timen. Indetemperaturen kan være højere i de mellemliggende tidsskridt. qCooling beregnes i hvert tidsskridt i timen.
+Den afsatte effekt ved FanCoilCtrl i resultatloggen (qCooling) kan i visse tilfælde med meget varierende belastninger (også solindfald) vise en højere værdi end den, som kan beregnes ud fra resultatloggens indetemperatur og de givne inddata. Det skyldes, at den indetemperatur, som vises i resultatloggen, er den temperatur, som beregnes ved udgangen af det sidste tidskridt i timen. Indetemperaturen kan være højere i de mellemliggende tidskridt. qCooling beregnes i hvert tidskridt i timen.
 </div>

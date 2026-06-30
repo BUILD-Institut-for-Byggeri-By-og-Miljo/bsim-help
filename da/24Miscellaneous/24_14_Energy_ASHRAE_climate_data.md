@@ -2,7 +2,7 @@
 
 # Energy+/ASHRAE klimadata
 
-Det er muligt at hente og/eller konvertere klimadata i det format som benyttes af programmet EnergyPlus direkte i BSim fra version 2002. Disse klimadata er genereret af ASHRAE og stilles til rådighed for egen brug i forbindelse med simulering af energi og indeklima i bygninger. Betingelserne for at bruge disse klimadata kan ses på den Internet-side hvor de kan hentes, læses i de zip-arkiver hvor klimafilerne ligger eller ses her.
+Det er muligt at hente og/eller konvertere klimadata i det format som benyttes af programmet EnergyPlus direkte i BSim fra version 2002. Disse klimadata er genereret af ASHRAE og stilles til rådighed for egen brug i forbindelse med simulering af energi og indeklima i bygninger. Betingelserne for at bruge disse klimadata kan ses på den Internetside hvor de kan hentes, læses i de zip-arkiver hvor klimafilerne ligger eller ses her.
 
 På siten findes klimadata fra mere end 800 lokaliteter i EnergyPlus format — 295 lokaliteter i USA, 55 i Canada, og mere end 450 lokaliteter i 93 lande over hele verden.
 
@@ -22,9 +22,9 @@ Dialogen for hjemtagning og konvertering af klimadata i energy+ formatet (*.epw)
 
 Download
 
-*   Ved klik på *Download*-knappen åbnes den standard Internet browser som er konfigureret på pc'en på en Internet-side som indeholder link til amerikanske, canadiske og internationale klimafiler i energy+ format.
+*   Ved klik på *Download*-knappen åbnes den standard Internetbrowser som er konfigureret på pc'en på en Internetside som indeholder link til amerikanske, canadiske og internationale klimafiler i energy+ format.
 
-*   Gå til den klimafil som ønskes hentet og gem den til egen pc ved hjælp af kommandoerne i din Internet-browser. Når den eller de filer som ønskes er gemt på egen pc som *.epw eller *.zip filer, kan forbindelsen til Internettet afbrydes.
+*   Gå til den klimafil som ønskes hentet og gem den til egen pc ved hjælp af kommandoerne i din Internetbrowser. Når den eller de filer som ønskes er gemt på egen pc som *.epw eller *.zip filer, kan forbindelsen til Internettet afbrydes.
 
 Unzip and Select
 
@@ -34,9 +34,9 @@ Unzip and Select
 
 Convert to BSim format
 
-*   De valgte klimadata konverteres til BSim's binære format ved tryk på *Convert*-knappen. Når konverteringen er gennemført vises et vindue med et sammendrag af de kilmadata som ligger i den konverterede fil. Vinduet lukkes ved tryk på krydset i øverste højre hjørne.
+*   De valgte klimadata konverteres til BSim's binære format ved tryk på *Convert*-knappen. Når konverteringen er gennemført vises et vindue med et sammendrag af de klimadata som ligger i den konverterede fil. Vinduet lukkes ved tryk på krydset i øverste højre hjørne.
 
-*   Konverteringen sker på samme måde som for den [manuelle konvertering](/24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md) af klima filer til BSim's format. I samme mappe som klimafilen er placeret, opretter BSim en *.wdf (Weather Definition File), med den information som er nødvendig for at konvertere fra *.epw til *.dry formatet.
+*   Konverteringen sker på samme måde som for den [manuelle konvertering](/24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md) af klimafiler til BSim's format. I samme mappe som klimafilen er placeret, opretter BSim en *.wdf (Weather Definition File), med den information som er nødvendig for at konvertere fra *.epw til *.dry formatet.
 
 *   Dialogen forlades ved tryk på *OK*-knappen.
 

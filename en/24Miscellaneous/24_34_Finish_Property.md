@@ -9,18 +9,18 @@
 
 
 *   *Rcomb*: The combined (radiation and convection) thermal surface resistance for the surface [see default values](#default-values-table).
-*   **NB:** When a finish is facing ground, the combined external surface resistance is automatically changed to 1.5 m²K/W. This value must be changed (according to the Danish standard DS418 2002:06 - Calculation of heat loss from buildings) if the soil is included in the material layers of the construction or if the construction is placed more then 0.5 meters below terrain.
+*   **NB:** When a finish is facing ground, the combined external surface resistance is automatically changed to 1.5 m²K/W. This value must be changed (according to the Danish standard DS418 2002:06 - Calculation of heat loss from buildings) if the soil is included in the material layers of the construction or if the construction is placed more than 0.5 meters below terrain.
 *   *Rconv*: The convective surface resistance for the surface [see default values](#default-values-table).
 *   *Z*: Resistance for moisture transport through the surface [see default values](#default-values-table).
-*   *Facing:* At the external face of a face, it is possible to define what is on this side of the construction. On this side any thermal zone or ground-zone can be given. This is a simple way of defining virtual zones with the temperature and moisture conditions as the actual thermal zone or as defined in the [ground](24_26_Ground.md) definition.
-*   *Locality* hold information about exposure of surfaces facing the ambient. The field is inactive for faces facing a room.
-    *   *Horizon*: At the external face of constructions, is is possible to define a local skyline which differs from the general skyline, defined under [Site](24_25_Site_Property.md).
+*   *Facing:* At the external face of a face, it is possible to define what is on this side of the construction. On this side any thermal zone or ground-zone can be given. This is a simple way of defining virtual zones with the temperature and moisture conditions as the actual thermal zone or as defined in the [ground](../24Miscellaneous/24_26_Ground.md) definition.
+*   *Locality* holds information about exposure of surfaces facing the ambient. The field is inactive for faces facing a room.
+    *   *Horizon*: At the external face of constructions, it is possible to define a local skyline which differs from the general skyline, defined under [Site](../24Miscellaneous/24_25_Site_Property.md).
     *   *Wind Exposure*: Indicates the wind exposure of the surface:
     *   Semi-exposed - partly exposed to the wind.
     *   Exposed - fully exposed to the wind.
     *   Sheltered - sheltered from the wind.
     *   *Filtration Air Flow*: Using this parameter it is possible to give the air-flow in and out of the construction through leaks. The parameter is a factor for the wind speed.
-*   *Wind Pressure Coefficient, Cp*: The two buttons, *Top* and *Bottom*, opens a [dialog](24_35_Wind_pressure_coefficient_for_crevices.md) for defining the wind pressure coefficients at the top and bottom of a vertical, ventilated crevice located inside a construction facing the ambient. The coefficients are used to calculate the air exchange in the crevice, dependant on the wind pressure at the exterior face of the construction.
+*   *Wind Pressure Coefficient, Cp*: The two buttons, *Top* and *Bottom*, open a [dialog](../24Miscellaneous/24_35_Wind_pressure_coefficient_for_crevices.md) for defining the wind pressure coefficients at the top and bottom of a vertical, ventilated crevice located inside a construction facing the ambient. The coefficients are used to calculate the air exchange in the crevice, dependent on the wind pressure at the exterior face of the construction.
 
 If the surface resistance for a surface (*Rcomb*), the convective (*Rconv*) surface resistance or the moisture resistance is specified as 0 in the *Finish Property* dialog box, the default values are used.
 

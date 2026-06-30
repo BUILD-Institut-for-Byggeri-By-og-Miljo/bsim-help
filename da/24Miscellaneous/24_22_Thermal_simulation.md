@@ -9,7 +9,7 @@ Den termiske simulering af bygningens *termiske zoner* foregår i programmet *ts
 <figcaption>Den aktuelle bygning markeres med fed skrift i træ-visningen.</figcaption>
 </figure>
 
-Den aktuelle bygning kan vælges/ændres ved, at højre-klikke på den bygning som skal være den aktuelle og markere i feltet *Current Building*. Ved denne handling fjernes samme markering fra den bygning som tidligere var den aktuelle bygning.
+Den aktuelle bygning kan vælges/ændres ved at højreklikke på den bygning, som skal være den aktuelle, og markere i feltet *Current Building*. Ved denne handling fjernes samme markering fra den bygning, som tidligere var den aktuelle bygning.
 
 <figure id="center_img">
 <img src="./assets/BuildingProperty.gif" alt="Building Property dialogen giver mulighed for valg af aktuel bygning.">
