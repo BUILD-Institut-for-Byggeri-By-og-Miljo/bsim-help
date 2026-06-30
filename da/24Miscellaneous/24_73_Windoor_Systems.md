@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Windoor systemer
+# Windoor-systemer
 
 
 Følgende systemer kan tilknyttes enhver Windoor:

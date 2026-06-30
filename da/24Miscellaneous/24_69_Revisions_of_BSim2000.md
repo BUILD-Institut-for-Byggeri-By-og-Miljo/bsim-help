@@ -2,7 +2,7 @@
 
 # Tidligere revisioner i BSim
 
-*Informationer på denne side er primært ment som en dokumentation af de ændringer som er sket med programmet for udviklerne, men kan også bruges til bedre at forstå forskelle i resultatet opnået med forskellige versioner af programmet.*
+*Informationerne på denne side er primært ment som en dokumentation af de ændringer, som er sket med programmet, for udviklerne, men kan også bruges til bedre at forstå forskelle i resultater opnået med forskellige versioner af programmet.*
 
  
 
@@ -26,13 +26,13 @@
 
 **2,2,4,3**
 
-*   *SimView*: Rettet, at udskrift af varmebalance mangler kolonne.
+*   *SimView*: Rettet, at udskriften af varmebalancen manglede en kolonne.
 
  
 
 **2,2,3,29**
 
-*   *tsbi5*: Konvertering vejrdata, format af vindretning rettet.
+*   *tsbi5*: Konvertering af vejrdata, format af vindretning rettet.
 
  
 
@@ -50,7 +50,7 @@
 
 **2,2,2,4**
 
-*   *tsbi5*: Konvertering af vejrdata, rettes skydække/fraction.
+*   *tsbi5*: Konvertering af vejrdata, skydække/fraction rettet.
 
  
 

@@ -23,7 +23,7 @@
 
 Eksempel på klimadata i fast format.
 
-Dataformatet beskrives fra venstre mod højre i feltet *Fixed columns from left to right* som bredden (antal tegn, inkl. blanke) af hver kolonne. Ovenstående beskrives fx som: 
+Dataformatet beskrives fra venstre mod højre i feltet *Fixed columns from left to right* som bredden (antal tegn, inkl. blanktegn) af hver kolonne. Ovenstående beskrives fx som: 
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |----|----|----|----|----|----|----|----|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
