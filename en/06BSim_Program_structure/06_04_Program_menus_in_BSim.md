@@ -1,5 +1,5 @@
 # Program menus in BSim
-As in other Windows programs there are a number of buttons at the top of the program window that call up various menus when clicked with the mouse or if Alt is pressed followed by the underlined letter in the name of the desired menu, e.g. Alt-f to open the <u>F</u>ile menu.
+As in other Windows programs there are a number of buttons at the top of the program window that call up various menus when clicked with the mouse or if Alt is pressed followed by the underlined letter in the name of the desired menu, e.g. Alt-F to open the <u>F</u>ile menu.
 
 The individual functions of the *BSim* menus are described below:
 

@@ -18,9 +18,9 @@ Comparison of results from different models
 
 Material properties for new materials in the database
 
-*   If a new material is defined in the database all available input fields <u>must</u> be filled in for the new material. If a new material is defined in a database with moisture transport properties, these fields <u>must</u> be filled in. Does that not happen, the results from a simulation - also simulations without moisture transport - will be faulty as the new material is simulated as an layer of air in the construction. <span id="red_text"> From BSim version 4,6,7,12 it will be considered an error and simulations can not run until all material properties are defined. </span>
+*   If a new material is defined in the database all available input fields <u>must</u> be filled in for the new material. If a new material is defined in a database with moisture transport properties, these fields <u>must</u> be filled in. Does that not happen, the results from a simulation - also simulations without moisture transport - will be faulty as the new material is simulated as a layer of air in the construction. <span id="red_text"> From BSim version 4.6.7.12 it will be considered an error and simulations cannot run until all material properties are defined. </span>
 
-*   By clicking the *About*-button in [*SimDB* ](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)a dialog opens showing the properties of the current database. In the example below the database contains information about moisture transport (Moisture), photovoltaic solar cells (Pv Arrays), and detailed calculation of the glass temperature in windows (Glazing Extra).
+*   By clicking the *About*-button in [*SimDB*](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)a dialog opens showing the properties of the current database. In the example below the database contains information about moisture transport (Moisture), photovoltaic solar cells (Pv Arrays), and detailed calculation of the glass temperature in windows (Glazing Extra).
 
 <figure id="center_img">
 <img src="./assets/about_simdb.jpg" alt="">
@@ -33,7 +33,7 @@ Heat transfer coefficient (lambda) in simulations with *tsbi5*
 
 Time steps in simulations with *tsbi5*
 
-*   The number of time steps per hour expresses how fast temperature and moisture changes due to influence from systems and climate. At the beginning of each simulation *tsbi5* calculates the required number of time steps to make a stable simulation. A large number do thus mean that the model is sensitive for changes in loads. If the selected number of time steps (at the Options tab of *tsbi5*) is less than the required number of time steps, a warning is shown with the necessary number of time steps.
+*   The number of time steps per hour expresses how fast temperature and moisture changes due to influence from systems and climate. At the beginning of each simulation *tsbi5* calculates the required number of time steps to make a stable simulation. A large number does thus mean that the model is sensitive for changes in loads. If the selected number of time steps (at the Options tab of *tsbi5*) is less than the required number of time steps, a warning is shown with the necessary number of time steps.
 
 <figure id="center_img">
 <img src="./assets/timestep.jpg" alt="">
@@ -49,15 +49,15 @@ Especially in connection with advanced simulation of moisture transport in the c
 
 Comparison of results
 
-*   In some cases BSim shows the error message like "The selected file must be located in the folder 'x:\xxxxxxxxxxx' like the current log" when a new file is opened for [comparison of the results in the current results file](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md). BSim think that the two result files are located in different folders and can thus not be compared. The phenomenon occurs on some types of local networks. It is possible to work around the problem by ensuring that all folders in the actual path is named by no more than 8 characters and without spaces or special characters.
+*   In some cases BSim shows the error message like "The selected file must be located in the folder 'x:\xxxxxxxxxxx' like the current log" when a new file is opened for [comparison of the results in the current results file](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md). BSim thinks that the two result files are located in different folders and can thus not be compared. The phenomenon occurs on some types of local networks. It is possible to work around the problem by ensuring that all folders in the actual path is named by no more than 8 characters and without spaces or special characters.
 
  
 
 Solar distribution at sub-faces
 
-*   With *XSun* turned <u>on</u> at the [*Options* ](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)tab for simulations with tsbi5, direct solar incidence will be distributed geometrically correct to all sub-faces of a face (e.g. a floor divided into several sub-faces).
+*   With *XSun* turned <u>on</u> at the [*Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) tab for simulations with tsbi5, direct solar incidence will be distributed geometrically correct to all sub-faces of a face (e.g. a floor divided into several sub-faces).
 
-*   If XSun is <u>turned of</u> solar incidence will be distributed according to the individual areas of the sub-faces and the distribution key given at the [*ThermalZone Property*](../10Thermal_zones/10_01_Thermal_Zone_property.md) dialog.
+*   If XSun is <u>turned off</u> solar incidence will be distributed according to the individual areas of the sub-faces and the distribution key given at the [*ThermalZone Property*](../10Thermal_zones/10_01_Thermal_Zone_property.md) dialog.
 
 *   The influence from solar will thus be the same (per m²) for all sub-faces - floors, walls and ceilings, no matter where in the room the sub-face is located (e.g. at an internal wall or by a window).
 
@@ -67,20 +67,20 @@ Faces/rooms with large glass areas
 
 *   If a simulation of the internal longwave heat exchange is to be modelled in a thermal zone or a face with large amounts of glass, care needs to taken when making the geometry and the building constructions.
 
-*   *Geometry* should if possible be made in a way that the glass only occupies a minor part of the total area of a face in a thermal zone or face. E.g. a U-shaped thermal zone with a large window at the buttom of the U, along the facade, can be made as shown in the figure below.
+*   *Geometry* should if possible be made in a way that the glass only occupies a minor part of the total area of a face in a thermal zone or face. E.g. a U-shaped thermal zone with a large window at the bottom of the U, along the facade, can be made as shown in the figure below.
 
 <figure id="center_img">
 <img src="./assets/glassfacade.gif" alt="">
 <figcaption></figcaption>
 </figure>
 
-*   The model to teh right gives a more stabil simulation than the model to the right, as there is a larger area around the window to distribute the longwave radiation to.
+*   The model to the right gives a more stable simulation than the model to the left, as there is a larger area around the window to distribute the longwave radiation to.
 
 *   *Constructions* should always be made without layers of no influence on the results of the thermal simulation. E.g. a thin maerial layer with high thermal conductivity at the outside, should be replaced with a layer of paint with the same surface characteristics as *ExtConstFinish*.
 
 PV-calculations
 
-*   If no PV-material have been attributed to the PV-areas of the model, data for standard poly-chrystalline silicon is used in the calculations (system efficiency 10 % and no proportional reduction of yield because of partial shading).
+*   If no PV-material has been attributed to the PV-areas of the model, data for standard poly-chrystalline silicon is used in the calculations (system efficiency 10 % and no proportional reduction of yield because of partial shading).
 
 
 Creation of faces in SimDxf
@@ -96,20 +96,20 @@ It is planned, at a later time, to implement radiative heat exchange with other 
 
  
 
-[VAV-control](../11Systems/11_11_Systems_VAV.md) and [cooling ceilings](../11Systems/11_09_Systems_cooling.md)
+[VAV-control](../11Systems/11_26_Ventilation_VAV_control.md) and [cooling ceilings](../11Systems/11_09_Systems_cooling.md)
 
 *   Cooling from ceilings or "cooling radiators" should **not** be modeled in conjunction with VAV-control of the ventilation system. This combination will cause too high cooling demands, as the increased air-flow will **not** be reduced to the normal air-flow, if the set-point for the cooling ceiling is passed. The best estimate of the cooling requirement is obtained by modeling a cooling coil in the ventilation system.
 
  
 Internal WinDoors
 
-*   When internal WinDoors (WinDoors between thermal zones and rooms or other thermal zones) are to be simulated, a tick-mark should be placed at *XSun Distribution* on the [*Options* ](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)tab [*tsbi5*](../13tsbi5_thermal_simulation/13_01_tsbi5.md). It is though possible to make a simulation without using XSun solar distribution, but the results can <u>only</u> be used a rough estimates.
+*   When internal WinDoors (WinDoors between thermal zones and rooms or other thermal zones) are to be simulated, a tick-mark should be placed at *XSun Distribution* on the [*Options* ](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)tab [*tsbi5*](../13tsbi5_thermal_simulation/13_01_tsbi5.md). It is though possible to make a simulation without using XSun solar distribution, but the results can <u>only</u> be used as rough estimates.
 
  
 
 Long-wave radiative heat exchange between internal surfaces
 
-*   It is <u>only</u> possible to simulate long-wave radiative exchange in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md) in those rooms, which are convex. It is possible to create a concave thermal zone by putting together convex rooms in the same thermal zone - this configurations is legal.
+*   It is <u>only</u> possible to simulate long-wave radiative exchange in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md) in those rooms, which are convex. It is possible to create a concave thermal zone by putting together convex rooms in the same thermal zone - this configuration is legal.
 
 *   Simulating long-wave radiative heat exchange between internal surfaces is turned on and off using the *Longwave Radiation* option on the [Options tab](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) in tsbi5. See also: Long-wave radiation to the sky.
 
@@ -119,7 +119,7 @@ Daylight calculations in [SimLight](../15SimLight_Daylight_calculations/15_01_Da
 
 1.  It is <u>only</u> possible to calculate daylight using SimLight in convex rooms.
 
-2.  In the calculations of SimLight <u>no</u> consideration are made to eventual neighbor rooms, say WinDoors in internal faces are treated as if they was facing the outdoor.
+2.  In the calculations of SimLight <u>no</u> considerations are made to eventual neighbor rooms, say WinDoors in internal faces are treated as if they were facing the outdoors.
 
 3.  It is <u>only</u> possible to calculate daylight in SimLight in rooms with <u>rectangular</u> WinDoors.
 
@@ -127,19 +127,19 @@ Daylight calculations in [SimLight](../15SimLight_Daylight_calculations/15_01_Da
 
 Air-balance
 
-*   If an un-balanced air-stream is introduced in any thermal zone, this will automatically be balanced with in- or exfiltration of air from the outdoors in the tsbi5 simulations. This happens even if the thermal zone have <u>no</u> direct connection (faces) to the outdoors.
+*   If an un-balanced air-stream is introduced in any thermal zone, this will automatically be balanced with infiltration or exfiltration of air from the outdoors in the tsbi5 simulations. This happens even if the thermal zone has <u>no</u> direct connection (faces) to the outdoors.
 
  
 
 Systems
 
-*   <u>Only</u> one system (except [mixing](../11Systems/11_10_systems_mixing.md)) can be present in a thermal zone at the time. Different control strategies can occur at different [time definitions](../11Systems/11_17_Systems_Time.md), but <u>only</u> one system can be active at any time.
+*   <u>Only</u> one system (except [mixing](../11Systems/11_10_systems_mixing.md)) can be present in a thermal zone at a time. Different control strategies can occur at different [time definitions](../11Systems/11_17_Systems_Time.md), but <u>only</u> one system can be active at any time.
 
  
 
 [XSun video](../14XSun_Analysis_of_incident_solar_radiation/14_03_XSun_video.md) recording
 
-*   Recording and replaying video sequences happens in the same size of window as BSim had during the recording (do not use full screen windows). If focus changes from BSim to any other application , i.e. using Alt + Tab, that part of this application located within the size of the BSim window will be recorded in stead of the XSun animation.
+*   Recording and replaying video sequences happens in the same size of window as BSim had during the recording (do not use full screen windows). If focus changes from BSim to any other application, i.e. using Alt + Tab, that part of this application located within the size of the BSim window will be recorded instead of the XSun animation.
 
  
 

@@ -3,7 +3,7 @@
 # Help structure
 
 
-Help is based on a design allowing direct access to the Danish Building Research Institute's website plus the BSim web site.
+Help is based on a design allowing direct access to the Danish Building Research Institute's website plus the BSim website.
 
 <figure id="center_img">
 <img src="./assets/help_help.gif" alt="Links at the top right-hand corner of the help pages.">
@@ -17,7 +17,7 @@ At the top right of every help page the logo of Danish Building Research Institu
 <figcaption>Buttons at the toolbar of the help-pages.</figcaption>
 </figure>
 
-At the top of the help pages there is a toolbar, giving access to some functions. The label of some buttons depend on the current language version of the operating system.
+At the top of the help pages there is a toolbar, giving access to some functions. The label of some buttons depends on the current language version of the operating system.
 
 *   *Home* opens a standard start page in the help file, holding information on terms of delivery and liability.
 
@@ -29,7 +29,7 @@ At the top of the help pages there is a toolbar, giving access to some functions
 
 *   *Headwords* opens the list of headwords in help.  
 
-In the left side of the User's Guide, three tabs are found: *Contents*, *Search* and *Favorites* (may wary depending on the actual language version of MS-Windows on your PC). If none of these are shown, they can be revealed by pressing the *Show* button at the top left in the toolbar.
+In the left side of the User's Guide, three tabs are found: *Contents*, *Search* and *Favorites* (may vary depending on the actual language version of MS-Windows on your PC). If none of these are shown, they can be revealed by pressing the *Show* button at the top left in the toolbar.
 
 <figure id="center_img">
 <img src="./assets/vis_faner.gif" alt="Show tabs in BSim User's Guide.">
@@ -37,7 +37,7 @@ In the left side of the User's Guide, three tabs are found: *Contents*, *Search*
 </figure>
 
 
-*   *<u>C</u>ontents* shows an overview of the chapters of the User's Guide. It possible to maneuver in the User's Guide by clicking the mouse in the tree.
+*   *<u>C</u>ontents* shows an overview of the chapters of the User's Guide. It is  possible to maneuver in the User's Guide by clicking the mouse in the tree.
 
 *   *<u>S</u>earch* offers the opportunity of free text search in the entire User's Guide. It is among others possible to search the name of any dialog (shown left on the title bar of the dialog, i.e. "BSim User's Guide"). Dialogs called by clicking buttons in other dialogs are named as: parent dialog name | dialog name.  
 
@@ -50,4 +50,4 @@ The search can be refined using the three options at the bottom of the search wi
 
 *   In *<u>Favorites</u>* it is possible to save links to pages often used.
 
-Generally graphics are used as illustrations of different functions in the program in terms of screen dumps and drawings. Some of these graphic elements contain hot-spots, leading on to other help pages or somewhere else in the same page, where the topic is described more detailed. Graphics with hot-spots are marked with a thin blue frame. It is not possible to see in which parts of the graphic the hot-spots are, but when moving the cursor over the graphic, the shape of the cursor changes to a hand <img src="./assets/MouseOver.gif" width=15> when located over a hotspot.
+Generally graphics are used as illustrations of different functions in the program in terms of screen dumps and drawings. Some of these graphic elements contain hot-spots, leading on to other help pages or somewhere else in the same page, where the topic is described in more detail. Graphics with hot-spots are marked with a thin blue frame. It is not possible to see in which parts of the graphic the hot-spots are, but when moving the cursor over the graphic, the shape of the cursor changes to a hand <img src="./assets/MouseOver.gif" width=15> when located over a hotspot.
