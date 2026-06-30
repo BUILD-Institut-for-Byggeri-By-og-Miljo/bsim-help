@@ -6,9 +6,9 @@ An alternative to *ModelList* is the [*ModelDoc*](../24Miscellaneous/24_29_Model
 
 If *ModelList* has been selected from the toolbar or if the user is working in *XSun*, *tsbi5* or *SimLight*, the displayed information can be output directly on a printer.
 
-<img src="./assets/STOP.GIF" width=15> An icon like a stop sign at the beginning of a line indicates that there may be an error or data are missing. Double-clicking or Ctrl-click on the line shifts the focus to the object in question in the hierarchical summary. Right-click the object in the tree to edit or add data. The summary can be updated by clicking the *ModelList* icon again. Click [here](06_08_Error_messages.md) to see explanations on the [error messages](06_08_Error_messages.md) in *ModelList*.
+<img src="./assets/STOP.GIF" width=15> An icon like a stop sign at the beginning of a line indicates that there may be an error or data are missing. Double-clicking or Ctrl-clicking on the line shifts the focus to the object in question in the hierarchical summary. Right-click the object in the tree to edit or add data. The summary can be updated by clicking the *ModelList* icon again. Click [here](../06BSim_Program_structure/06_08_Error_messages.md) to see explanations on the error messages in *ModelList*.
 
-It is <u>not</u> possible to carry out a tsbi5 simulation if the *ModelList* is open or closed as an icon.
+It is <u>not</u> possible to carry out a tsbi5 simulation if the *ModelList* is open or minimized as an icon.
 
 The following table explains what the individual icons in the model list and tree summary mean:
 
@@ -87,15 +87,15 @@ When a system is deactivated in SimView, it appears in *ModelList* with its resp
 
 See also:
 
-*   [Creating a building](06_09_SimView_Creating_a_building.md)
+*   [Creating a building](../06BSim_Program_structure/06_09_SimView_Creating_a_building.md)
 *   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
-*   [Default constructions](../09SimView/09_06_Construction_Property.md)
+*   [Default constructions](../09SimView/09_06_Construction_property.md)
 *   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
 *   [Creating thermal zones](../10Thermal_zones/10_01_Thermal_Zone_property.md)
 *   [Systems in thermal zones](../11Systems/11_01_Systems.md)
 *   [Editing the model geometry](../09SimView/09_02_SimView_Editing_the_model_geometry.md)
-*   [Solar light factors for WinDoors](../09SimView/09_07_WinDoor_Property.md)
-*   [Adding an opening or WinDoor](../09SimView/09_07_WinDoor_Property.md)
+*   [Solar light factors for WinDoors](../09SimView/09_07_WinDoor_property.md)
+*   [Adding an opening or WinDoor](../09SimView/09_07_WinDoor_property.md)
 *   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
 *   [Climate data and ground](../09SimView/09_10_Climate_data.md)
-*   [Printing a model](06_07_SimView_Printing_a_model.md)
+*   [Printing a model](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md)

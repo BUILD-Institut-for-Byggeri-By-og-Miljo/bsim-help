@@ -12,18 +12,18 @@
 | Ctrl-S          | Save the model                                                           | SimView               |
 | Ctrl-V          | Paste copy                                                               |                |
 | DELETE          | Delete current object                                                    | SimView               |
-| Down arrow      | Move eye in graphical view up                                            | SimView, XSun         |
-| F1              | Context sensitive help to the active window. To make sure this window is the active, left-click the desired window. | BSim              |
+| Down arrow      | Move eye up in graphical view                                            | SimView, XSun         |
+| F1              | Context sensitive help to the active window. To make sure this window is the active one, left-click the desired window. | BSim              |
 | Shift-F1        | Context-sensitive help (not currently working)                           |                       |
 | F6              | Go to next window                                                        | SimView               |
 | Shift-F6        | Return to previous window                                                | SimView               |
 | Ctrl-HOME       | Display next period                                                      | tsbi5                 |
 | Ctrl-INSERT     | Copy                                                                     |                       |
 | Shift-INSERT    | Paste copy                                                               |                       |
-| Left arrow      | Move eye in graphical view to the right                                  | SimView, XSun         |
+| Left arrow      | Move eye to the right in graphical view                                  | SimView, XSun         |
 | Ctrl-left arrow | Display previous period                                                  | tsbi5                 |
-| Right arrow     | Move eye in graphical view to the left                                   | SimView, XSun         |
-| Up arrow        | Move eye in graphical view down                                          | SimView, XSun         |
+| Right arrow     | Move eye to the left in graphical view                                   | SimView, XSun         |
+| Up arrow        | Move eye down in graphical view                                          | SimView, XSun         |
 | Shift-down arrow| Moves to the next / previous object in the tree                          | SimView, tsbi5, XSun  |
 | Shift-up arrow  | Moves to the next / previous object in the tree                          | SimView, tsbi5, XSun  |
 | Ctrl-X          | Delete current object                                                    | SimView               |

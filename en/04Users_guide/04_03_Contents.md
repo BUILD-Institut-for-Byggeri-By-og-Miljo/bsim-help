@@ -69,7 +69,7 @@
 
 *   [Export of model to Be10](../09SimView/09_15_Export_to_BE10.html)
 
-*   [Exporting data to Radiance](../18Radiance_Visualisation_og_the_building/18_01_Radiance_visualisation.md)  
+*   [Exporting data to Radiance](../18Radiance_Visualisation_og_the_building/18_01_Exporting_data_to_Radiance.md)  
 
 *   [The mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md)
 

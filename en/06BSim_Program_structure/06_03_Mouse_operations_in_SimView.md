@@ -6,14 +6,14 @@
 
 *Right-clicking* in the tree structure reveals the properties of the actual object, and the properties can be altered. By right-clicking a building construction or a building material the database dialog will open with the actual building construction or material in focus.
 
-By *dragging, <u>with</u> the left mouse button pressed* the order for the thermal zones can be changed. The order determines the simulation order of the thermal zones.
+By *dragging, <u>with</u> the left mouse button pressed* the order of the thermal zones can be changed. The order determines the simulation order of the thermal zones.
  
 
 **Geometry**
 
-A building can be added to an existing building (i.e. an new story) by dragging - using the mouse - an existing (in the model) building to the building to be extended. The moved building can only be recreated by using the Undo-function.
+A building can be added to an existing building (i.e. a new story) by dragging - using the mouse - an existing (in the model) building to the building to be extended. The moved building can only be recreated by using the Undo-function.
 
-A [room is moved to a thermal zone](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md) by dragging it to an existing thermal zone. A room in a thermal zone can be removed by dragging it back to the building where it belongs. If a thermal zone is deleted using the Delete-button, the rooms are automatic moved back to the building where it belongs.
+A [room is moved to a thermal zone](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md) by dragging it to an existing thermal zone. A room in a thermal zone can be removed by dragging it back to the building where it belongs. If a thermal zone is deleted using the Delete-button, the rooms are automatically moved back to the building where it belongs.
 
  
 **Constructions and materials**
@@ -25,7 +25,7 @@ Building elements (constructions, windows and doors) as well as finish materials
 
 Systems in a thermal zone or connected to a WinDoor can be moved or copied to an other thermal zone by using the mouse to drag the object to a new position. Only systems of the same type (thermal zone or WinDoor) can be dropped in a new position. If the Ctrl-button is pressed during the dragging, a copy is created. If an equivalent system already exists in the thermal zone where the system is dropped, it will only be overwritten after active acceptance.
 
-The order that the systems occurs in the tree structure is the same as the order in the tsbi5 simulation. If the order need to be changed, it can be done by dragging one system to the system that is to follow the current. A system can be removed from the model by pressing the Delete-button.
+The order that the systems occur in the tree structure is the same as the order in the tsbi5 simulation. If the order needs to be changed, it can be done by dragging one system to the system that is to follow the current. A system can be removed from the model by pressing the Delete-button.
  
 
 ### **Operations in the graphics**
@@ -42,7 +42,7 @@ If the *mouse cursor is held over a marked corner point, the name and coordinate
 
 *Right-clicking* (outside a marked corner point) causes the most frequently used menu options to be displayed.
 
-*Right-clicking a marked corner point* brings up a dialog box in which the point's coordinates can be edited. Changing the coordinates in this way can make faces of which the point is part skew, i.e. not all the points defining the face are in the same plane. *Skew faces will be displayed in yellow*. It is assumed in all the calculation programs that all the faces in the model are plane.
+*Right-clicking a marked corner point* brings up a dialog box in which the point's coordinates can be edited. Changing the coordinates in this way can make faces of which the point is part skew, i.e. not all the points defining the face are in the same plane. *Skew faces will be displayed in yellow*. It is assumed in all the calculation programs that all the faces in the model are planar.
 
 By *holding Ctrl down, a marked corner point can be dragged* to another position with the mouse. This can also cause faces to become skew. A corner point <u>cannot</u> be dragged in the spatial view.
 
