@@ -39,3 +39,4 @@
 | Venting           | [Venting](../11Systems/11_18_Systems_Venting.md). |
 | WinDoor           | A collective term for [windows](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md) and doors. |
 | Wizard            | A *“wizard”* that sets up a wide range of standard parameters with just a few clicks. |
+ 
