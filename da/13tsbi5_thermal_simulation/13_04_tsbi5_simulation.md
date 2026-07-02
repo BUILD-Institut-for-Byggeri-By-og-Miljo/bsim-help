@@ -7,7 +7,7 @@ Fanebladet *Simulation* indeholder to knapper - en til start og en til stop af s
 Den rækkefølge, hvori de termiske zoner gennemregnes, bestemmes af deres rækkefølge i træet (oppefra og ned). Det er muligt at ændre rækkefølgen ved at organisere (træk med venstre knap på musen holdt nede) de termiske zoner til den ønskede rækkefølge.   
 Dette har fx betydning hvis der skal simuleres luftoverførsel (mixing) fra en termisk zone til en anden og videre til en tredje. Hvis temperaturen i den første zone er faldet på grund af *venting* kan luftoverførslen til de efterfølgende termiske zoner stoppes på grund af setpunktet for mixingen.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/Ts5-sim.jpg" alt="På fanebladet 'Simulation' startes og stoppes simuleringen. Under simuleringen vises udetemperaturen samt den operative temperatur for modellens termiske zoner.">
 <figcaption>På fanebladet 'Simulation' startes og stoppes simuleringen. Under simuleringen vises udetemperaturen samt den operative temperatur for modellens termiske zoner.</figcaption>
 </figure>

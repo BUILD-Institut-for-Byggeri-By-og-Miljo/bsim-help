@@ -58,7 +58,7 @@ Overgangsisolansen sættes på flader defineres jf. [DS 418](../20The_Mathematic
 
 Alle ydervægge er opbygget ens, med en lagdeling som beskrevet i nedenstående figur. Ved beskrivelsen af lagdelingen i konstruktionerne, er det vigtigt at bemærke, at lagene beskrives således, at det første lag vender mod side 1 og det sidste lag mod side 2.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/EKS43.GIF" alt="Beskrivelse af konstruktioner i alle ydervægge." style="width:100%; max-width:none;"> 
 <figcaption>Beskrivelse af konstruktioner i alle ydervægge.</figcaption>
 </figure>
@@ -82,7 +82,7 @@ Væggen er en 1-stens teglmur, med tykkelsen 0,108 m og ét lag af materialet '*
 Gulvet, som er vist i den følgende figur, består af 150 mm beton oven på 100 mm mineraluld, klasse 39. Der ønskes i dette eksempel en simpel beregning af varmetabet til jord, som blot antages at have en fast temperatur på 10 °C hele året. Til selve gulvkonstruktionen medregnes et jordlag på 1,0 m, og som overgangsisolans til dybereliggende jordlag regnes med en værdi på 1,0 m² K/W.
 
 
-<figure id="center_img" style="overflow-x:auto;">
+<figure id="image_linewidth" style="overflow-x:auto;">
   <img src="./assets/EKS44.GIF" alt="Beskrivelse af konstruktioner i alle ydervægge." style="width:100%; max-width:none;">
   <figcaption>Beskrivelse af konstruktioner i alle ydervægge.</figcaption>
 </figure>

@@ -19,7 +19,7 @@ For lokaler med store rumhøjder og varmekilder placeret i flere niveauer, vil d
 
 Der gøres opmærksom på, at en brugbar tilnærmelse af temperaturgradientens forløb i nogle tilfælde kun kan opnås ved introduktion af et stykkevist lineært temperaturprofil, hvilket "Kappa-modellen" i sin nuværende form ikke er i stand til.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/KAPPAM1.GIF " alt="Tabel 1. Bestemmelse af tilnærmet vertikal temperaturfordeling i tilfælde af stratificeret strømning. Resultaterne er blandt andet baseret på Ryberg og Bech (1997).">
 <figcaption>Tabel 1. Bestemmelse af tilnærmet vertikal temperaturfordeling i tilfælde af stratificeret strømning. Resultaterne er blandt andet baseret på Ryberg og Bech (1997).</figcaption>
 </figure>
@@ -80,7 +80,7 @@ I praksis vil man skulle skønne k efter et kendskab til varmekilderne i et give
 
 En anden mulighed er at "kalibrere" temperaturforløbet iterativt ved hjælp af CFD-simulering. Her anslås først en værdi af κ, hvorved BSim kan beregne den konvektive varmestrøm fra de indvendige overflader. Varmestrømmene anvendes som randbetingelse i CFD-simuleringen, der returnerer det vertikale temperaturforløb, som nu kan anvendes til at korrigere den først anslåede værdi af κ, osv.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/inflkappa.gif" alt="Figur 1. Dimensionsløs vertikal temperaturfordeling ved tre forskellige værdier af k svarende til de tre forskellige slags varmekilder i tabel 1.">
 <figcaption>Figur 1. Dimensionsløs vertikal temperaturfordeling ved tre forskellige værdier af k svarende til de tre forskellige slags varmekilder i tabel 1.</figcaption>
 </figure>

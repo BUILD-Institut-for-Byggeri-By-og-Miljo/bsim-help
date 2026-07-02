@@ -21,7 +21,7 @@ For high rooms with heat sources positioned on several levels, the linear vertic
 Please note that in some cases a useful approximation of the temperature gradient's progression can only be obtained by introducing a partially linear temperature profile, something which the "Kappa Model" in its present form is not capable of.
 
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/KAPPAM1.GIF" alt="Table 1. Determining approximated vertical temperature distribution in the case of stratified flow. The results are based partly on Ryberg and Bech (1997).">
 <figcaption>Table 1. Determining approximated vertical temperature distribution in the case of stratified flow. The results are based partly on Ryberg and Bech (1997).</figcaption>
 </figure>
@@ -81,7 +81,7 @@ In practice it should be possible to estimate κ based on a knowledge of the hea
 Another option is to "calibrate" the temperature progression interactively using CFD simulation. First a value of κ is estimated, enabling BSim to calculate the convective heat flow from the internal surfaces. The heat flows are used as a boundary condition in the CFD simulation, which returns the vertical temperature progression, which can now be used to correct the value of κ first estimated, and so on.
 
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/inflkappa.gif" alt="Figure 1. Dimensionless vertical temperature distribution for three different values of κ corresponding to the three different types of heat source in table 1.">
 <figcaption>Figure 1. Dimensionless vertical temperature distribution for three different values of κ corresponding to the three different types of heat source in table 1.</figcaption>
 </figure>

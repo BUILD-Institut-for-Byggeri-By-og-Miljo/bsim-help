@@ -9,7 +9,7 @@ This may be important if an air-flow (mixing) is to be simulated from one therma
 
 
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/Ts5-sim.jpg" alt="The simulation is started and stopped on the 'Simulation' tab. The outdoor temperature and the operative temperature for the model's thermal zones are displayed during the simulation.">
 <figcaption>The simulation is started and stopped on the "Simulation" tab. The outdoor temperature and the operative temperature for the model's thermal zones are displayed during the simulation.</figcaption>
 </figure>

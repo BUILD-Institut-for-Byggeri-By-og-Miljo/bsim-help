@@ -8,11 +8,11 @@
 
 ### **7,14,mm,dd**
 
-*   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
+*   Tilføjet referencer til beregning af [solstråling på udvendinge overflader](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
 *   Opdateret sider om [tilmelding til BSim forum](../23Internet/23_01_Join_the_debate_and_information_forum.md) og [send en e-mail til BSim listen](../05Introduction/05_09_Questions_via_e-mail.md) with correct information about the list at AAU.
 
-*   Rettet formel for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md).
+*   Rettet formel for beregning af udvendig konvektiv overgangsmodstand i [theori for bereging af langbølget stråling til himlen](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md)
 
 *   Ændret download link for [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) til SBi's website.
 

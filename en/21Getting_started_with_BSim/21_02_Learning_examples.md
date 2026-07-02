@@ -60,7 +60,7 @@ The internal surface resistance is set to 0.13 m² K/W and the external surface 
 #### **Outer walls**
 All outer walls have the same construction with layers as described in the figure below. When describing the layers in the constructions it is important to notice that the layers are described so that the first layer faces towards face 1 and last layer towards face 2.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/eks43.gif" alt="Description of constructions in all outer walls.">
 <figcaption>Description of constructions in all outer walls.</figcaption>
 </figure>
@@ -79,7 +79,7 @@ The wall is a one stone brick wall with a thickness of 0.108 m and one layer of 
 #### **Floor construction**
 The floor, as shown in the figure, consists of 150 mm concrete over 100 mm rockwool, class 39. For this example only a simplified calculation of the heat loss to the ground is performed, the ground being assumed to have a fixed temperature of 10 °C the whole year. A 1.0 m layer of earth is included with the floor and a value of 1.0 m² K/W is assumed for surface resistance to deeper layers.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/eks44.gif" alt="Description of the floor construction.">
 <figcaption>Description of the floor construction.</figcaption>
 </figure>
