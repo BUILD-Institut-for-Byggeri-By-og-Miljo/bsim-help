@@ -19,7 +19,7 @@ In the figure below an example of the window collecting the data about the syste
 <figcaption>Dialog for the input of system control strategies.</figcaption>
 </figure>
 
-#### Controls are defined as follows dependant on the selected **Mode** of operation:
+#### Controls are defined as follows dependent on the selected **Mode** of operation:
 
 <div id="gray_background">
 All four control modes can be activated, just running at different times depending on the room conditions and the set-points. If more than one mode of operation is active for the same time definition, there is a risk that the *system will be commuting between e.g. a heating and a cooling mode - with the complications this may cause*.
@@ -40,7 +40,7 @@ Available controls:
 
 - *Sensor Zone [-]:* This field enables to set the thermal zone whose mean temperature is used by the system in order to define whether the cooling system has to run. The mean temperature of the sensor zone is compared with *"Room Set Point"*, and, consequently, it is defined whether the system must cool.
 
-- *Delta DP Temp [°C]:* It defines the temperature difference between the minimum water supply temperature and the dew point temperature inside the controlling zone, according with the following equation:
+- *Delta DP Temp [°C]:* It defines the temperature difference between the minimum water supply temperature and the dew point temperature inside the controlling zone, according to the following equation:
 
   $$
   \theta_{Water}^{Supply, Min} = \theta_{Zone}^{DewPoint} + \text{DeltaDPTemp} \tag{1}
@@ -137,7 +137,7 @@ Available controls:
 
    - *Design Flow [kg/s]:* It is the water mass flow to be used when the current control is acting.
 
-   - *Min Outd. Temp [°C]:* It is not used in the present running mode, since the water supply temperature is set basing on the indoor operative and outdoor temperatures, according to the following equation:
+   - *Min Outd. Temp [°C]:* It is not used in the present running mode, since the water supply temperature is set based on the indoor operative and outdoor temperatures, according to the following equation:
 
         $$
         \theta_W = 0.52 \cdot (20 - \theta_{Ext}) + 20 - 1.6 \cdot (\theta_{Op} - 22) \tag{2}
@@ -220,4 +220,4 @@ Available controls:
 
 ---
 
-See also the [mathematical basic for the system.](../20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md)
+See also the [mathematical basis for the system.](../20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md)

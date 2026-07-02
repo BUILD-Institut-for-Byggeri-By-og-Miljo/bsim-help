@@ -20,7 +20,7 @@ Default values are used in a number of locations in BSim if nothing else is give
 
 ### **Thermal surface resistance**
 
-If nothing else is given a fixed surface resistances for finishes facing outdoors and respectively a thermal zone is used. The default values for the surface resistances and the convective heat transfer coefficients are shown in the table below.
+If nothing else is given a fixed surface resistance for finishes facing outdoors and respectively a thermal zone is used. The default values for the surface resistances and the convective heat transfer coefficients are shown in the table below.
 
 
 | **Internal surface resistance**| **Value** | **Unit** |
@@ -46,7 +46,7 @@ If nothing else is given a fixed surface resistances for finishes facing outdoor
 
 <br>
 
-If simulation of long wave radiation (in / out) at the *Options* tab of *tsbi5*, a convective surface resistance will be calculated dynamically, dependant on the temperature difference between the surface and the air and the wind speed at the outside surfaces.
+If simulation of long wave radiation (in / out) at the *Options* tab of *tsbi5*, a convective surface resistance will be calculated dynamically, dependent on the temperature difference between the surface and the air and the wind speed at the outside surfaces.
 
 #### **Light technical properties**
 
@@ -66,7 +66,7 @@ If a space is placed **outside** a *thermal zone*, given the same temperature as
 
 <h3 id="Photovoltaic panels"><strong>Photovoltaic panels (PV)</strong></h3>
 
-If no "material" is selected for areas with PV, a standard system is assumed consisting mono cristalline silicon cells, a good electrical layout and a proper AC/DC inverter. The default values for this are:
+If no "material" is selected for areas with PV, a standard system is assumed consisting of monocrystalline silicon cells, a good electrical layout and a proper AC/DC inverter. The default values for this are:
 
 | **Variable**                     | **Value** |
 |----------------------------------|-----------|

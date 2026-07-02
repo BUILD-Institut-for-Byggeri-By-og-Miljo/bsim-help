@@ -10,7 +10,7 @@ This page gives a short description of the manual conversion of climate data.
 
 ### **Weather data**
 
-Weather data must be supplied as hourly values, day by day for a whole year, or day by day for periods of a year. Data must exist as hourly values for the different parameters, line by line in an ASCII-file, stated in sequence from January 1st. (or the first day of the first period) ordered in sequence of the day numbers in the year. The name of weather file to be used in BSim will be the same as the name of the ASCII-file except for the extension, which will be DRY or TRY. Data **must** be given with increasing time definition, eventually with gabs. If one for instance wishes to make a climate file from October to March, data must be present from January to March, then a gab and the data from October to December.
+Weather data must be supplied as hourly values, day by day for a whole year, or day by day for periods of a year. Data must exist as hourly values for the different parameters, line by line in an ASCII-file, stated in sequence from January 1st. (or the first day of the first period) ordered in sequence of the day numbers in the year. The name of weather file to be used in BSim will be the same as the name of the ASCII-file except for the extension, which will be DRY or TRY. Data **must** be given with increasing time definition, eventually with gaps. If one for instance wishes to make a climate file from October to March, data must be present from January to March, then a gap and the data from October to December.
 
 The following data are used by tsbi5:
 
@@ -36,7 +36,7 @@ A definition file is created in the interface for converting climate data to the
 
     *   *Free*: Free format means that the hourly values are set up line by line in a fixed sequence and separated by at least one blank, space, or tabulator sign.
 
-    *   *Fixed*: Fixed column where hourly values exist line by line in fast a fixed sequence in fixed columns with or without separating signs.  
+    *   *Fixed*: Fixed column where hourly values exist line by line in a fixed sequence in fixed columns with or without separating signs.  
 <div id="gray_background"> 
 *NB: If data contains non-numerical information at the same lines as the hourly data, this format is the only format that can be used.* 
 </div>
@@ -61,7 +61,7 @@ A definition file is created in the interface for converting climate data to the
 
 *   *Altitude*: Height above sea level for measuring station.
 
-In the rows of the sheet the individual parameters in the data file is defined one by one in the [*Weather Data Definition Row dialog*](24_58_Climate_data_definition.md), say which parameter, scaling and unit, as well as the relative position (parameter number or column number) in the line counted from left to right.
+In the rows of the sheet the individual parameters in the data file are defined one by one in the [*Weather Data Definition Row dialog*](24_58_Climate_data_definition.md), say which parameter, scaling and unit, as well as the relative position (parameter number or column number) in the line counted from left to right.
 
 The following data **must** be present in the ASCII file for converting to a binary climate file:
 
@@ -75,16 +75,16 @@ Further the following can be given:
 
 *   One parameter for the humidity of the air (dew point temperature, relative humidity, absolute moisture content or enthalpy). *If no data is given for the humidity of the air, zero will be used*.
 
-*   Cloud cover will be calculated by the program from data for solar radiation and humidity if If no data is given.
+*   Cloud cover will be calculated by the program from data for solar radiation and humidity if no data is given.
 
-*   Wind speed and wind direction. *If no data is given for the humidity of the air, zero will be used*. Needed if simulation of single zone natural ventilation is going to be performed.
+*   Wind speed and wind direction. *If no data is given for the wind speed and wind direction, zero will be used*. Needed if simulation of single zone natural ventilation is going to be performed.
 
 *   Atmospheric pressure. Needed if simulation of multi zone natural ventilation is going to be performed.  
     *If the atmospheric pressure is given as 0 or omitted from input data, a fixed value calculated from the altitude above sea level is being used. It is thus still possible to simulate natural ventilation using the multi zone model, but with limited accuracy.*
 
 #### **Format of input data**
 
-Conversion of climate data depend on existence of input data in the following units:
+Conversion of climate data depends on existence of input data in the following units:
 
 | **Parameter** | **Unit(s)** |
 |--------------|-------------|

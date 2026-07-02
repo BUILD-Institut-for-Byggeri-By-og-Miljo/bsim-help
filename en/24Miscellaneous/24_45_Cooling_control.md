@@ -18,5 +18,5 @@
 
 *Te Min* specifies the outdoor temperature at which the available cooling output achieves its minimum. The available cooling power is controlled linearly between *Te Min* and *Design Temp*, while outside this interval it is *Min Power* and *Max Power* respectively. The output is 0 outside the set time definitions.
 
-*Sensor Zone* tells the program in which zone the sensor for controlling the cooling system is located. Selecting (*None*) is the same as selecting the zone itself, and the system can thus be coiped/moved from one zone to another without changes.
+*Sensor Zone* tells the program in which zone the sensor for controlling the cooling system is located. Selecting (*None*) is the same as selecting the zone itself, and the system can thus be copied/moved from one zone to another without changes.
 

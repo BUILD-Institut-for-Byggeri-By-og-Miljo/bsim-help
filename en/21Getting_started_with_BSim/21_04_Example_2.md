@@ -12,9 +12,9 @@ The program is started as described in [example 1](21_03_Example_1.md) by select
 **Save model under new name** <br>
 To save the existing model and still be able to modify data or carry on working on the file, a copy of the model is saved under a new name by first clicking on the *Save as* entry of the File menu. The path dialog will now reappear, showing the current path as well as the model name EX1. By moving the cursor to the name field, the new name can be typed in as EX2: The new name is confirmed by clicking on the OK-button.
 
-All kinds of heat and moisture loads, systems, equipments, plants, etc. are designated in BSim as "systems", of which the following types are defined: People load, equipment, moisture and infiltration, for which the user defines the temerature variation as well as lighting, venting, heating, cooling and ventilation, for which a form of control can be described which aims to achieve certain indoor climate requirements. The systems for the building models which can be set up in BSim must therefore be defined in accordance with this classification.
+All kinds of heat and moisture loads, systems, equipments, plants, etc. are designated in BSim as "systems", of which the following types are defined: People load, equipment, moisture and infiltration, for which the user defines the temperature variation as well as lighting, venting, heating, cooling and ventilation, for which a form of control can be described which aims to achieve certain indoor climate requirements. The systems for the building models which can be set up in BSim must therefore be defined in accordance with this classification.
 
-Most systems in BSim are attached to thermal zone - except systems connected to a WinDoor, namely solar shading and night shutters. This means that <u>all</u> spaces in a thermal zone vill have the same simulated temperature.
+Most systems in BSim are attached to thermal zone - except systems connected to a WinDoor, namely solar shading and night shutters. This means that <u>all</u> spaces in a thermal zone will have the same simulated temperature.
 
 For the simple building, for which data has been recorded in example 1, the actual "systems" are described in the table below:
 
@@ -85,7 +85,7 @@ Data for the equipment is typed in as shown in the following dialog.
 </figure>
 
 
-The *Heat Load* is typed in as 0.185 kW and the convective part of the heat transfer to air is set to 0.8, as the majority of the heat produces in the PC is removed by ventilation by means of a small fan. The schedule is defined locally by the following controls and time definitions:
+The *Heat Load* is typed in as 0.185 kW and the convective part of the heat transfer to air is set to 0.8, as the majority of the heat produced in the PC is removed by ventilation by means of a small fan. The schedule is defined locally by the following controls and time definitions:
 
 
 | Day profile: | 100 % |   | week | day | time |
@@ -147,7 +147,7 @@ The Daylight limit parameter, which is set to 0.15 (kW) indicates the limit for 
 
  
 **Schedule** <br>
-The control of the lighting systems can be defined by selecting on of the (in this case) two control tabs. The different control strategies are described in detail in the [lighting section](../11Systems/11_03_Systems_Lighting.md).
+The control of the lighting systems can be defined by selecting one of the (in this case) two control tabs. The different control strategies are described in detail in the [lighting section](../11Systems/11_03_Systems_Lighting.md).
 
 <figure id="center_img">
 <img src="./assets/light-lightctrl.gif" alt="">
@@ -172,12 +172,12 @@ $$
 
 * *c<sub>t</sub>* is a constant, which especially depends on the size of the openings and the difference between the inlet and outlet openings   
 
-* *c<sub>w</sub>* is a constant, which especially is dependant on the tightness of the building, the geometry and the location compared to other buildings and the topography / roughness of the ambient   
+* *c<sub>w</sub>* is a constant, which especially is dependent on the tightness of the building, the geometry and the location compared to other buildings and the topography / roughness of the ambient   
 
 * *w* is the wind speed, m/s   
  
 
-Venting is described in more details in the [venting section](../11Systems/11_18_Systems_Venting.md).
+Venting is described in more detail in the [venting section](../11Systems/11_18_Systems_Venting.md).
 
 In the current case, the values for the formula constants are assumed to be as shown in the next dialog picture. The constants in the above formula can be difficult to ascertain since they are to a high degree dependent on the building's form, tightness and siting.
 
@@ -238,7 +238,7 @@ In this example, the three system types: 'Mixing', "Cooling" and "Ventilation" a
 
  
 #### **Documentation of data for the model** <br>
-Before saving the data or exiting the program or carrying out a simulation, the building model ought to be checked for possible errors or deficiencies. First, press the [*ModelList* ](../09SimView/09_04_Documentation_of_model.md)icon at the [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md) to control all data entered for the model. If a message comes regarding missing or incomplete data then these must be typed in or corrected. It is possible to jump directly to most faulty objects in the tree structure by double clicking the stop-sign of the errous object in the model list.
+Before saving the data or exiting the program or carrying out a simulation, the building model ought to be checked for possible errors or deficiencies. First, press the [*ModelList* ](../09SimView/09_04_Documentation_of_model.md)icon at the [toolbar](../06BSim_Program_structure/06_05_SimView_Toolbar.md) to control all data entered for the model. If a message comes regarding missing or incomplete data then these must be typed in or corrected. It is possible to jump directly to most faulty objects in the tree structure by double clicking the stop-sign of the erroneous object in the model list.
 
  
 **Save model** <br>
@@ -267,25 +267,25 @@ In the *ThermalZones* data group, parameters relating to the indoor climate are 
 
  
 **Start simulation** <br>
-Simulation is started by clicking the *Start*-button on the *Simulation* tab. Before the actual simulation is begun, the model is checked to see whether there are any errors in the building model's data and if this is the case, a message will appear. Linke in the [*ModelList* ](../09SimView/09_04_Documentation_of_model.md)one can double-click the line to jump directly to the errous object in the tree structure.
+Simulation is started by clicking the *Start*-button on the *Simulation* tab. Before the actual simulation is begun, the model is checked to see whether there are any errors in the building model's data and if this is the case, a message will appear. Like in the [*ModelList* ](../09SimView/09_04_Documentation_of_model.md)one can double-click the line to jump directly to the erroneous object in the tree structure.
 
 When the model is complete, simulation starts with BSim calculating and writing on the screen the recommended number of time steps per hour, which will normally be determined by a thin layer with small mass or a layer with high thermal conductivity in one of the model's construction types. If the calculated minimum number of time steps is larger than the actual, the program will ask if the calculated or the actual number of time steps are to be used. If the calculated minimum number of time steps is greater than 6-10, consideration should be made as to whether the relevant layer can be left out or just defined as an extra insulation in the construction.
 
-The simulation starts with the first of the given dates in the simulation period, using the first day in the period repeatedly until stability, expressed as te difference between the indoor temperature (in hour 15, in each thermal zone) in two successive day loops do not differ more than 0.1 °C.
+The simulation starts with the first of the given dates in the simulation period, using the first day in the period repeatedly until stability, expressed as the difference between the indoor temperature (in hour 15, in each thermal zone) in two successive day loops do not differ more than 0.1 °C.
 
 During the simulation a graph with the ambient temperature and the operative temperature of each thermal zone is shown. This is done to offer the possibility of terminating the simulation if the results is wide of the mark.
 
 
 **Termination of the simulation** <br>
-The simulation can be immediately interrupted by clicking the *Stop-button*. Then the simulation is temporarily halted and the program request confirmation that the simulation is to be interrupted.
+The simulation can be immediately interrupted by clicking the *Stop-button*. Then the simulation is temporarily halted and the program requests confirmation that the simulation is to be interrupted.
 
 
 #### **Results** <br>
-After the simulation, the results can be analyzed in various ways via the tabs: [*HeatBalanace*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md), [*Parameters* ](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)and *[Tables](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)*.
+After the simulation, the results can be analyzed in various ways via the tabs: [*HeatBalance*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md), [*Parameters* ](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)and *[Tables](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)*.
 
  
 #### **Heat balance for thermal zones** <br>
-By selecting the *HeatBalanace* tab, an overview of the heat balance for the whole building or the individual thermal zones can be obtained week by week, month by month or for the entire simulation period, depending on the selection in the first selection-menu (to the top left of the dialog). The heat balances are calculated from daily summations, which is always stored during the simulation.
+By selecting the *HeatBalance* tab, an overview of the heat balance for the whole building or the individual thermal zones can be obtained week by week, month by month or for the entire simulation period, depending on the selection in the first selection-menu (to the top left of the dialog). The heat balances are calculated from daily summations, which is always stored during the simulation.
 
 In this case 'month' is selected as 'Time scale', and the heat balance is calculated on monthly basis.
 
@@ -293,7 +293,7 @@ The meaning of the abbreviations in the heat balance, i.e. qHeating, qCooling, q
 
 
 **Simple statistic for temperatures and air change** <br>
-The number number of hours with the operative temperatures above or below selected temperature levels (see *Stat, hour* on the *Options* tab) are stored during the simulations. Further the average outdoor and indoor operative temperature and the air changes rate are calculated for each thermal zone.
+The number of hours with the operative temperatures above or below selected temperature levels (see *Stat, hour* on the *Options* tab) are stored during the simulations. Further the average outdoor and indoor operative temperature and the air changes rate are calculated for each thermal zone.
 
 As temperature limits the default values are: 20 °C as lower limit (count of number of hours with operative temperature below 20 °C) and 21 °C, 24 °C and 26 °C as the upper limits (count of hours with operative temperature above 21 °C, 24 °C and 26 °C respectively). The temperature limits can be changed by the input fields in *Stat, hour* on the *Options* tab, but in advance of a simulation.
 
@@ -312,7 +312,7 @@ In the third (top button row) selection-menu it is possible to select to see the
 #### **Parameters** <br>
 On the *Parameters*-tab the parameters to analyze on hourly basis can be selected, which part of the simulation period to analyze and which part of the building (which thermal zones) and if the results are to be shown as numbers or as graphics.
 
-On the *Parameters* tab no list with parameters are exists. This only applies that no lists with parameters to analyze have been defined yet. By clicking the *New*-button, a new parameter list is created and the desired parameters can be added to the list. By clicking the top selection-menu on the tab, it is possible to select from which thermal zone to pick the results to the parameter list. The individual parameters are grouped into different groups, which is selected in the second selection-menu of the tab. When the appropriate thermal zone and the appropriate group of parameters have been selected a list of parameters for that zone and group is revealed in the large window at the bottom left of the dialog. By putting at tick-mark at the left of each desired parameter, it is transferred to the parameter list window (bottom right). In this case first click the thermal zone in the top selection-menu and then on the *IndoorClimate* group in the second selection-menu. In the bottom window the parameter *Top* is selected by putting a tick-mark next to its name. Normally there will be more than one thermal zone i a model, and therefore the parameter is identified both by its name and the name of the thermal zone where it belongs, in this case 'Box-room'.
+On the *Parameters* tab no list with parameters are exists. This only applies that no lists with parameters to analyze have been defined yet. By clicking the *New*-button, a new parameter list is created and the desired parameters can be added to the list. By clicking the top selection-menu on the tab, it is possible to select from which thermal zone to pick the results to the parameter list. The individual parameters are grouped into different groups, which is selected in the second selection-menu of the tab. When the appropriate thermal zone and the appropriate group of parameters have been selected a list of parameters for that zone and group is revealed in the large window at the bottom left of the dialog. By putting at tick-mark at the left of each desired parameter, it is transferred to the parameter list window (bottom right). In this case first click the thermal zone in the top selection-menu and then on the *IndoorClimate* group in the second selection-menu. In the bottom window the parameter *Top* is selected by putting a tick-mark next to its name. Normally there will be more than one thermal zone in a model, and therefore the parameter is identified both by its name and the name of the thermal zone where it belongs, in this case 'Box-room'.
 
 <figure id="center_img">
 <img src="./assets/tsbi5Parametres.GIF" alt="Dialog (tsbi5 | Parameters) for selection of parameters for the results analyses on hourly basis.">
@@ -325,9 +325,9 @@ Next, click the mouse on the parameter group '*Outdoor*', from which the paramet
  
 
 **Parameters from several building models** <br>
-The defined parameter list "Temperatures" now includes to parameters, namely the operative temperature in the zone "Shoebox" and the outdoor temperature from the climate data, or the virtual zone "Outdoor".
+The defined parameter list "Temperatures" now includes two parameters, namely the operative temperature in the zone "Shoebox" and the outdoor temperature from the climate data, or the virtual zone "Outdoor".
 
-It is possible to define parameter lists holding parameters from different models for which simulations as been carried out. By clicking the *Open New Model* button, a dialog is opened for selection of other models (<u>only</u> in the current path) with result logs, from where parameters can be selected. This will often be interesting when comparison of temperature and energy conditions of two alternative designs of a planned building are to be discussed.
+It is possible to define parameter lists holding parameters from different models for which simulations are been carried out. By clicking the *Open New Model* button, a dialog is opened for selection of other models (<u>only</u> in the current path) with result logs, from where parameters can be selected. This will often be interesting when comparison of temperature and energy conditions of two alternative designs of a planned building are to be discussed.
 
 Normally, several parameter lists are defined for each building model, with choice of parameters depending on what is of particular interest in the case in question. Often, a list with all links in the energy balance as well as indoor temperatures, if any, will be able to provide important information regarding which conditions have the greatest influence on the dimensioned conditions. In this example, a second parameter list may be useful when reviewing the results, e.g. named "Energy balance", and containing in all 9 parameters:
 
@@ -349,7 +349,7 @@ In the results table on the *Tables tab* a number of selection-menus and buttons
 
  
 #### **Hour values** <br>
-The graphics shows that the indoor temperature reaches 21 °C at hour 9 as desired.
+The graphics show that the indoor temperature reaches 21 °C at hour 9 as desired.
 
 On the other hand, it is more interesting to see whether this is also the case after a weekend set-back in a cold period. Therefore "leaf" through the days until the following Monday, in this case 8th January.
 
@@ -357,7 +357,7 @@ The days around 7<sup>th</sup>-8<sup>th</sup> January are one of the coldest pe
 
 
 #### **Results in graphic format** <br>
-The <img src="./assets/garfikknap.gif" width=30> button offers the possibility of selecting to show te results as curves for temperatures, powers, etc. as a function of time. The program now shows the temperature curve for the first day in the result period. Clicking the arrow-buttons at the bottom of the tab 'leafs' through the result curves to January 8<sup>th</sup>. The curves show how the indoor temperature rises from the level of 17 °C during the cooling period to the set-point of 21 °C, which is not reached until hour 11. By right-clicking in the graphic, a menu is shown, allowing to copy or edit the graphic results. The results can be read and reproduced by other Windows-based programs, e.g. word processing and spread-sheet programs.
+The <img src="./assets/garfikknap.gif" width=30> button offers the possibility of selecting to show the results as curves for temperatures, powers, etc. as a function of time. The program now shows the temperature curve for the first day in the result period. Clicking the arrow-buttons at the bottom of the tab 'leafs' through the result curves to January 8<sup>th</sup>. The curves show how the indoor temperature rises from the level of 17 °C during the cooling period to the set-point of 21 °C, which is not reached until hour 11. By right-clicking in the graphic, a menu is shown, allowing to copy or edit the graphic results. The results can be read and reproduced by other Windows-based programs, e.g. word processing and spread-sheet programs.
 
 In the section about the [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md) tab of tsbi5 a more detailed description of the results analyses and links to description of the possibilities for [manipulating the graphics](../13tsbi5_thermal_simulation/13_12_Modifying_the_graphical_presentation_of_results.md) are found.
 

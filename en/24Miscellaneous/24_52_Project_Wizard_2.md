@@ -3,7 +3,7 @@
 
 # Project Wizard 2
 
-Once the project has been named, a database has to be selected as the starting point for the model's database. An existing database, which is copied as a local database, has to be selected.
+Once the project has been named, a database must be selected as the starting point for the model's database. An existing database, which is copied as a local database, has to be selected.
 
 <figure id="center_img">
 <img src="./assets/mw2.jpg" alt="Choosing an existing database as the basis for a local database.">

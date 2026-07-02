@@ -2,7 +2,7 @@
 
 # WinDoor overhangs and side-fins 
 
-The dialogs for defining overhangs and side-fins describes the shading object relatively to the WinDoor by its distance from the nearest edge of the glass and the distance from the outer face of the face to the outer edge of the overhang.
+The dialogs for defining overhangs and side-fins describe the shading object relative to the WinDoor by its distance from the nearest edge of the glass and the distance from the outer face of the wall to the outer edge of the overhang.
 
 <div style="display: flex; gap: 20px; justify-content: center;">
 

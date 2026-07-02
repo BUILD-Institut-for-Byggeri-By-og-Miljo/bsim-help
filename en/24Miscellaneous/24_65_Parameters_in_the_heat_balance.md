@@ -2,7 +2,7 @@
 
 # Parameters in the heat balance
 
-At the HeatBalance tab a number of parameters are found informing about the different contributions (qXxxxxxxx in kWh) to the heat balance for the building or the individual thermal zones. Additional to this there are a number of parameters of common interest for the evaluation of the indoor climate and the gross energy consumption.
+At the HeatBalance tab a number of parameters are found informing about the different contributions (qXxxxxxxx in kWh) to the heat balance for the building or the individual thermal zones. In addition to this there are a number of parameters of common interest for the evaluation of the indoor climate and the gross energy consumption.
 
 *   *tOutdoor mean* is the average value (in the selected time scale) of the ambient temperature.
 
@@ -16,7 +16,7 @@ At the HeatBalance tab a number of parameters are found informing about the diff
 
 *   *PAQ* shows the calculated [Perceived indoor Air Quality](../20The_Mathematical_basis/20_19_PAQ.md).
 
-*   *Hours > 21, Hour > 25, Hour > 28 and Hour < 20* shows the number of hours with an operative indoor temperature above and below certain given limits (the limits can be changed at the *[Options](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)* tab) in the selected thermal zone within the selected time resolution, e.g. week or month. If the entire model is selected, no values are shown.
+*   *Hours > 21, Hour > 25, Hour > 28 and Hour < 20* show the number of hours with an operative indoor temperature above and below certain given limits (the limits can be changed at the *[Options](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)* tab) in the selected thermal zone within the selected time resolution, e.g. week or month. If the entire model is selected, no values are shown.
 
 *   *FanPow* shows the used electrical energy (kWh) for running the fans in the ventilation system(s). The used power is calculated based on the given pressure rise in the ducts (inlet and outlet).
 
@@ -36,7 +36,7 @@ At the HeatBalance tab a number of parameters are found informing about the diff
 
 *   *HeatPump* is the energy added (kWh) from a heat pump.
 
-*   *HeatPumpElCons* is the use of electricity (kWh) in the heat pump.
+*   *HeatPumpElCons* is the amount of electricity used (kWh) in the heat pump.
 
 <figure id="center_img">
 <img src="./assets/varmebalance.gif" alt="">

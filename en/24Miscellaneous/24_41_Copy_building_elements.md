@@ -2,7 +2,7 @@
 
 # Copy building elements
 
-It is possible to create a copy of an existing building element from the [database](24_40_SimDb_BuildingElement.md) as basis for creation of private building elements, almost similar to the copied one.
+It is possible to create a copy of an existing building element from the [database](24_40_SimDb_BuildingElement.md) as a basis for creation of private building elements, almost similar to the copied one.
 
 <figure id="center_img">
 <img src="./assets/copy_buildingelement.gif" alt="Dialog (Copy BuildingElement) for copying building elements in the database.">
@@ -14,9 +14,9 @@ The dialog offers the possibility of giving a number to create a new unique [SfB
 
 At the bottom of the dialog it is possible to select what should occur in the copy of the building element. A tick-mark on *MaterialLayers* will include the individual material layers and their thickness, and a tick-mark at *MaterialAmount* will further include information on the material consumption for 1 m² of the construction (used in conjunction with eventual future life cycle analyses).
 
-The rest of the fields in the dialog is information on the building element to be copied as it's SfB-number (here: 21.10.31) and it's name (here: Br 39I100 Br).
+The rest of the fields in the dialog are information on the building element to be copied as its SfB-number (here: 21.10.31) and its name (here: Br 39I100 Br).
 
-When the copy have been created it must be edited and a dialog offering this opportunity will open.
+When the copy has been created it must be edited and a dialog offering this opportunity will open.
 
 <figure id="center_img">
 <img src="./assets/edit_buildingelement.jpg" alt="Dialog for editing a copied building element.">
@@ -24,6 +24,6 @@ When the copy have been created it must be edited and a dialog offering this opp
 </figure>
 
 
-First of all the name of the new building element should be changed to reflect the new construction. Data on the tabs [*ConstructionLayer* ](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)and [*MaterialAmount* ](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)must be changed in a way that they matches the new construction.
+First of all the name of the new building element should be changed to reflect the new construction. Data on the tabs [*ConstructionLayer* ](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)and [*MaterialAmount* ](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)must be changed in a way that they match the new construction.
 
 *Unit* gives the unit and *Lifetime* the expected lifetime for the new construction in relation to the material amount data given on the *MaterialAmount* tab.

@@ -12,7 +12,7 @@ These rows have the syntax:
 
 *   *Parameter* number constant factor 'unit'
 
-and can be read: the value in position number in a line is give to parameter as:
+and can be read: the value in position number in a line is given to parameter as:
 
 *   Parameter = factor * (value - constant) [unit]
 
@@ -26,7 +26,7 @@ and can be read: the value in position number in a line is give to parameter as:
 
 *   *Humidity Ratio* - Absolute moisture content (kg/kg).
 
-*   *Entalphy* - Enthalpy (kJ/kg).
+*   *Enthalphy* - Enthalpy (kJ/kg).
 
 *   *Normal Radiation* - Normal radiation (W/m²) or (J/cm²).
 
@@ -38,13 +38,13 @@ and can be read: the value in position number in a line is give to parameter as:
 
     *   One of the following combinations of solar radiation **must** be given:
 
-    *   Normal radiation + Diffuse radiation on horizontal.
+    *   Normal radiation + Diffuse radiation on the horizontal.
 
-    *   Normal radiation + Global radiation on horizontal.
+    *   Normal radiation + Global radiation on the horizontal.
 
-    *   Global radiation on horizontal + Diffuse radiation on horizontal.
+    *   Global radiation on horizontal + Diffuse radiation on the horizontal.
 
-    *   Diffuse radiation on horizontal + Direct radiation on horizontal.
+    *   Diffuse radiation on horizontal + Direct radiation on the horizontal.
 
 *   *Cloud cover* - Cloud cover, given as (octas), say 0-8 or a fraction (-).
 *   *Wind Speed* - Wind speed (m/s) or (knot).

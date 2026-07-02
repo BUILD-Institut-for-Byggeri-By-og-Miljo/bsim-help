@@ -38,7 +38,7 @@ The windows in the actual building lie partly in the shadow of another building,
 
 #### **Typing in data for shadows**
 
-The external shadow is described by inserting a new building in the model. This can happen either as an existing project or by creation of a new building - which is done in this example. Double-click in the plan drawing (marked as a cross) to select a reference point where the new building is to be drawn from. Select *Add Building* from the *SimView* menu. If the reference point is not located 100 % correct, the correct co-ordinates can be inputted in the building dialog:
+The external shadow is described by inserting a new building in the model. This can happen either as an existing project or by creation of a new building - which is done in this example. Double-click in the plan drawing (marked as a cross) to select a reference point where the new building is to be drawn from. Select *Add Building* from the *SimView* menu. If the reference point is not located 100 % correct, the correct co-ordinates can be input in the building dialog:
 
 <figure id="center_img">
 <img src="./assets/EKS349A.jpg" alt="Input of the size and rotation of a new building.">
@@ -80,7 +80,7 @@ Placing a tick-mark next to *SolarShading* adds the system solar shading to the 
 </figure>
 
 
-For the shading coefficient - *Shading coeff*. - the value 0.35 is entered, corresponding to a an internal, white curtain. Note that "shading coefficient" is a popularly accepted designation, which is defined as the relationship between the solar radiation through the pane with solar shading and the solar radiation through the pane without solar shading (between 0 and 1). The name is thus somewhat misleading, since it expresses how much radiation passes the through the solar shading (and not how much is shaded) so that a low figure is an expression of effective shading.
+For the shading coefficient - *Shading coeff*. - the value 0.35 is entered, corresponding to an internal, white curtain. Note that "shading coefficient" is a popularly accepted designation, which is defined as the relationship between the solar radiation through the pane with solar shading and the solar radiation through the pane without solar shading (between 0 and 1). The name is thus somewhat misleading, since it expresses how much radiation passes through the solar shading (and not how much is shaded) so that a low figure is an expression of effective shading.
 
 The second parameter which must be entered for the shading is *Max Sun*, which indicates a limit for the solar radiation through 1 m² of the current window, above which the solar shading is activated. The value of this parameter must be selected with regard to the total window area, the solar shading for the remaining windows in the zone as well as the shape of the zone and the placing of work places in relation to the windows.
 
@@ -109,7 +109,7 @@ The values of the next two parameters in the dialog *Sun Limit* and *Temp. Max* 
 
 In this case the value 0.8 (kW) is entered. The total window pane area for the two windows is approx. 7.4 m² (2 x 1.8 x 2.05) and the sun limit therefore corresponds to approx. 108 W/m². For the temperature limit, Temp. Max the value 24.5 (°C) is entered.
 
-This means: First the program checks if the solar radiation at the internal face of the WinDoor exceeds the limit of 180 W/m². If this is the case, the solar shading comes into use, depending on the *Control Form* given at the *ShadingCtrl* tab. Then the program check if the operative temperature in the thermal zone is above 24,5 °C and if the total solar incidence through all WinDoors in the thermal zone exceeds 800 W. If this is the case the solar shading comes into use, depending on the *Control Form*, in this case just so much (as *Continuous* control is selected) that the limit - if possible - for the operative temperature is maintained.
+This means: First the program checks if the solar radiation at the internal face of the WinDoor exceeds the limit of 180 W/m². If this is the case, the solar shading comes into use, depending on the *Control Form* given at the *ShadingCtrl* tab. Then the program checks if the operative temperature in the thermal zone is above 24,5 °C and if the total solar incidence through all WinDoors in the thermal zone exceeds 800 W. If this is the case the solar shading comes into use, depending on the *Control Form*, in this case just so much (as *Continuous* control is selected) that the limit - if possible - for the operative temperature is maintained.
 
 The last input field, *SF4 shading*, defines the "solar light factor" for the window, when the solar shading is completely drawn. The solar light factor is defined for a given reference point in the room, and expresses the ratio between the daylight illuminance level at the reference point and the simultaneous illuminance outdoors on the surface of the facade, cf [Algorithms for calculation of solar radiation and daylight](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
@@ -117,7 +117,7 @@ For unshaded windows, the solar light factor will normally vary considerably thr
 
 Note that whilst the illuminance at any point in the room is reduced proportionally with the light transmittance figure for the window and with (1 - the solar shading factor) for the shading, the solar light factor expresses at a given point in the room, how much the illuminance at precisely this point is changed by using the solar shading. The average illuminance in the room will always drop when the solar shading is drawn, but some types of shading (e.g. reflective Venetian blinds), which even out the light variation throughout the room, so that the illuminance is increased at the back of the room, when the solar shading is used. The purpose with such shading is to reduce the illuminance difference (which can cause uncomfortable glare) by the window and at the same time to improve the daylight utilization at the back of the room, so that the need for artificial lighting is reduced.
 
-When the solar shading is partly drawn for the window, the daylight illuminance at a given point is calculated as a weighted value of the illuminance for portion af the window which is shaded and the illuminance of the other, unshaded part of the window.
+When the solar shading is partly drawn for the window, the daylight illuminance at a given point is calculated as a weighted value of the illuminance for portion of the window which is shaded and the illuminance of the other, unshaded part of the window.
 
 In the present example, it has been decided to let the artificial lighting be controlled simply according to the solar radiation through the windows (cf. [example 2](21_04_Example_2.md)) and the value of the solar light factor [SF4](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md) will therefore not be used. The general principle is, however, that all parameters for components and systems used must be assigned a value, so here the value 0 is entered.
 
@@ -197,7 +197,7 @@ In the schedule it is possible to specify 5 different forms of control:
 
  
 
-In principle, different forms of control can be used within the various time definitions, as a new control strategy is selected by first creating a new *Schedule* and the clicking *Use this*.
+In principle, different forms of control can be used within the various time definitions, as a new control strategy is selected by first creating a new *Schedule* and then clicking *Use this*.
 
  
 
@@ -226,13 +226,13 @@ A description of the different control types is given in the section entitled [V
 
 #### **Save building model**
 
-All the data for the building have now been entered, and the model must therefore be saved. Before doing so, a control should be carried out to ensure that the model is complete by clicking the *ModelList* icon at the toolbar. If errors or deficiencies are found in the data, the program will give information about these, and otherwise all the data are (formally) in order. At the start of this example, the model's name was defined as "EX3" and the model must now be saved again under this name by clicking on the Save entry in the *File*-menu (short cut: Ctrl+s).
+All the data for the building have now been entered, and the model must therefore be saved. Before doing so, a control should be carried out to ensure that the model is complete by clicking the *ModelList* icon at the toolbar. If errors or deficiencies are found in the data, the program will give information about these, and otherwise all the data are (formally) in order. At the start of this example, the model's name was defined as "EX3" and the model must now be saved again under this name by clicking on the Save entry in the *File*-menu (shortcut: Ctrl+S).
 
  
 
 #### **Simulation**
 
-A simulation is now to be undertaken in order to compare the indoor climate and energy consumption for the new model (EKS3) with that of the old model ([EX2](21_04_Example_2.md)).
+A simulation is now to be undertaken in order to compare the indoor climate and energy consumption for the new model (EX3) with that of the old model ([EX2](21_04_Example_2.md)).
 
  
 
@@ -283,11 +283,11 @@ A closer analysis of the 24-hour temperature sequence is shown in the screen pri
 
 It is possible to create parameter lists with parameters from different models so that, for example, it is possible to compare alternative project solutions. In this case the thermal indoor climates in EX2 and EX3 are compared.
 
-Clicking the New-button, at the Parameters tab creates a new parameter list. In this case, the name "Temp-compar" can be used for the list. By clicking in the groups (above the left window) a list of parameter groups is revealed as usual. From this the parameters from the actual model (EKS3) can be selected. Here the group 'Indoor' is selected and the parameter operative temperature *OpTmp* selecetd.
+Clicking the New-button, at the Parameters tab creates a new parameter list. In this case, the name "Temp-compar" can be used for the list. By clicking in the groups (above the left window) a list of parameter groups is revealed as usual. From this the parameters from the actual model (EX3) can be selected. Here the group 'Indoor' is selected and the parameter operative temperature *OpTmp* selected.
 
 A simple comparison is now desired of the sequence of the operative temperature in EX3 and EX2. In order to select the result parameters from EX2, click the *Open New Model*-button and a summary will appear of the models in the <u>current</u> path for which a result file (file type *.G97 ) is present. It is <u>only</u> possible to compare results from models located in the <u>same</u> path as the actual model.
 
-By clicking on the model name "EX2" this model is selected, and parameters can be chosen here as normally. In the case shown, the *OpTmp* parameter from EX2 has been selected. A simple parameter list has thus been created from the two models, and both schedule and graphic printouts of the hourly values can be carried out as usual. The parameter names from the "strange" model is indicated in the parameter list with a preceding model name and a "@" in advance of the parameter name.
+By clicking on the model name "EX2" this model is selected, and parameters can be chosen here as normally. In the case shown, the *OpTmp* parameter from EX2 has been selected. A simple parameter list has thus been created from the two models, and both schedule and graphic printouts of the hourly values can be carried out as usual. The parameter names from the "strange" model are indicated in the parameter list with a preceding model name and a "@" in advance of the parameter name.
 
 
 <figure id="center_img">
@@ -298,7 +298,7 @@ By clicking on the model name "EX2" this model is selected, and parameters can b
 
 Printouts for a summer day and a winter day of the operative temperature and surface temperatures for the two examples. It can be seen that the program assigns each of the selected models a number, so that model EX3 corresponds to the parameter name and EX2 corresponds to ex2@ plus the parameter name.
 
-The selected winter day is a day with high solar radiation and it can be seen that in EX3, the temperature exceeds the set point of 21 °C, because there is no shadows from neighboring buildings and the windows have no solar shading. For the selected summer day, the temperature in EX2 is 3 degrees higher than found in EX3, because solar shading, venting and ventilation have been defined in EX3.
+The selected winter day is a day with high solar radiation and it can be seen that in EX3, the temperature exceeds the set point of 21 °C, because there is no shadow from neighboring buildings and the windows have no solar shading. For the selected summer day, the temperature in EX2 is 3 degrees higher than found in EX3, because solar shading, venting and ventilation have been defined in EX3.
 
 
 <figure id="center_img">

@@ -25,7 +25,7 @@ use or inability to use this data.
 
 ADDITIONAL LICENSE CONDITIONS: This Product is also intended for use in 
 software or other programmed information. You may embed some or all of the 
-program and data contained within in another work for personal use without 
+program and data contained within another work for personal use without 
 written permission of ASHRAE.  
 
 If a derivative work is to be sold, traded or have a commercial value otherwise 

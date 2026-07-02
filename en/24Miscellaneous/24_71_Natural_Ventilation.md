@@ -5,7 +5,7 @@
 
 The module to simulate natural ventilation using the multi-zone model (mzm) is for the time being in beta test and results obtained using this module must, as always, be looked upon with natural skepticism.
 
-Any feed-back to the module given at bsim-support@sbi.dk is appreciated!
+Any feedback to the module given at bsim-support@sbi.dk is appreciated!
 
  
 
@@ -28,5 +28,5 @@ Opening
 
     *   The sketch at the right of the dialog illustrates BSim's perception of the opening and the input data.
 
-*   *Ka*: The inlet air handling unit box [constant](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) is used calculation of night cooling by natural ventilation.
+*   *Ka*: The inlet air handling unit box [constant](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) is used in the calculation of night cooling by natural ventilation.
 

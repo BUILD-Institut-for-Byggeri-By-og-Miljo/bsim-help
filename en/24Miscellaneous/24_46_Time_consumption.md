@@ -2,7 +2,7 @@
 
 # Time consumption
 
-Typical time consumption in different stages of the simulation process of a building. The real time consumption will vary significant depending on the project and the complexity of the model, but the proportion between the two user types are somewhat correct.
+Typical time consumption in different stages of the simulation process of a building. The real time consumption will vary significantly depending on the project and the complexity of the model, but the proportion between the two user types are somewhat correct.
 
 
 |                     | Experienced | Novice     |
