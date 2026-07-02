@@ -29,27 +29,27 @@ It is possible to simulate more than one year with repeated use of the same clim
 
     *   *Long-wave Rad to Sky*: Flag for calculation of the long-wave radiation from the exterior of the building to the sky.
 
-    *   *Long-wave Radiation*: Flag for calculating long-wave radiation exchange. When using long-wave radiation exchange, the surface resistances will be [variable, and temperature dependant](../20The_Mathematical_basis/20_11_Natural_convection_at_surfaces.md).
+    *   *Long-wave Radiation*: Flag for calculating long-wave radiation exchange. When using long-wave radiation exchange, the surface resistances will be [variable and temperature dependent](../20The_Mathematical_basis/20_11_Natural_convection_at_surfaces.md).
 
     *   *XSun* distribution: Flag for calculating sun distribution using [*XSun*](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md).
 
-    *   *Moisture Transport*: Flag for simulating the moisture transport in the constructions (requires that the moisture properties of the layers in the constructions are defined). The possibility is <u>only</u> accessible if a database containing moisture conditions for the materials is attached the model.
+    *   *Moisture Transport*: Flag for simulating the moisture transport in the constructions (requires that the moisture properties of the layers in the constructions are defined). The possibility is <u>only</u> accessible if a database containing moisture conditions for the materials is attached to the model.
 
-    *   *Latent Heat*: Flag indicating the a simulation of the latent heat-flow is to be simulated as moisture moves in the constructions.
+    *   *Latent Heat*: Flag indicating that a simulation of the latent heat flow is to be performed as moisture moves in the constructions.
 
     *   *GlazingTemp* (BSim from version 2002): Indicates that the model for detailed simulation of the glazing temperature is to be used. Requires an extended database.
 
     *   *Thermal Bridge*: Indicates that U-values will be corrected according to the difference between internal and external surface area of faces to enable simulation of [thermal bridges](../24Miscellaneous/24_63_Geometric_Thermal_Bridges.md).
 
-    *   *Time steps (/h)*: Number of time steps per hour. If the number of time steps are less than required to obtain a stable simulation a warning will be shown and a recommended number of time steps is shown. Especially in connection with advanced simulation of moisture transport in the constructions, it is important to ensure that the right number of time steps are used!
+    *   *Time steps (/h)*: Number of time steps per hour. If the number of time steps is less than required to obtain a stable simulation, a warning will be shown and a recommended number of time steps is shown. Especially in connection with advanced simulation of moisture transport in the constructions, it is important to ensure that the right number of time steps are used!
 
-    *   *Layer thick*: is the maximum thickness of sub-division of material layers, used in conjunction with moisture transport simulations.
+    *   *Layer thick*: Maximum thickness of subdivision of material layers, used in conjunction with moisture transport simulations.
 
-    *   *Solar Rad. Model* is a selection dialog allowing to select different models for calculating the solar radiation on an inclined surface. This options is not active!
+    *   *Solar Rad. Model* is a selection dialog allowing selection of different models for calculating the solar radiation on an inclined surface. This option is not active.
 
-    *   *Reg. System Time Step*: This flag makes it possible to control all systems on time-step basis in stead of hour basis. This option is implemented to ensure backwards compatibility with results from old (prior to version 6,11,1,14) simulations.
+    *   *Reg. System Time Step*: This flag makes it possible to control all systems on a time-step basis instead of an hourly basis. This option is implemented to ensure backwards compatibility with results from old (prior to version 6,11,1,14) simulations.
 
-*   *Save in Log*: Groups of parameter to be saved on an hourly basis.
+*   *Save in Log*: Groups of parameters to be saved on an hourly basis.
 
     *   *Weather*: Data from the outdoor climate.
 
@@ -63,8 +63,8 @@ It is possible to simulate more than one year with repeated use of the same clim
 
 *   *Stat, hour*: Allows the operative temperature to be determined at which tsbi5 is to count hours above and below four temperature limits. These data can be used to assess the thermal indoor climate.
 
-*   *Weather Data*: Using this flag, it is possible to interrupt the simulation at the turn of the year (the field is only active if simulation over the turn of the year is selected) and locate a new climate data file to be used until next turn of the year. The new climate data file is located using the standard dialog for opening a file in WIndows.   
-If *Cancel* is pressed in the *Open* dialog, simulation will continue with the same climate data file as selected in the previous year.
+*   *Weather Data*: Using this flag, it is possible to interrupt the simulation at the turn of the year (the field is only active if simulation over the turn of the year is selected) and locate a new climate data file to be used until the next turn of the year. The new climate data file is located using the standard dialog for opening a file in Windows.   
+If *Cancel* is pressed in the *Open* dialog, the simulation will continue with the same climate data file as selected in the previous year.
 
 See also:
 

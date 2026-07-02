@@ -17,9 +17,9 @@ In this type of control a room sensor controls the system components in series (
 
 *Cooling Set Pnt:* Specifies the set point for the room temperature during cooling. If cooling is required, the control function will increase cooling recovery (if it has been defined as greater than 0) and then the output of the cooling coil as much as necessary (up to maximum output) to keep the room temperature at the selected set point. The cooling set point should always be higher than the heating set point to prevent the system from oscillating between heating and cooling.
 
-*Air Hum:* Specifies the desired absolute moisture content of the supply air. This parameter is only significant if a humidifier has been defined in the system. Dehumidification will not therefore take place in this type of control.
+*Air Hum:* Specifies the desired absolute moisture content of the supply air. This parameter is only significant if a humidifier has been defined in the system. Dehumidification will therefore not take place in this type of control.
 
-*Master Zone:* Defines that the room temperature in the actual zone is being controlled according to the conditions in a other thermal zone. The inlet temperature in the actual zone is determined by the heating need in the Master Zone.
+*Master Zone:* Defines that the room temperature in the actual zone is controlled according to the conditions in another thermal zone. The inlet temperature in the actual zone is determined by the heating need in the Master Zone.
 
 
 See also:

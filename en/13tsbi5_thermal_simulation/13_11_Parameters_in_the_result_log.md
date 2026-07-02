@@ -4,7 +4,7 @@
 
 
 <div id="gray_background">
-Values saved in the result log represent snap-shots of the calculated conditions at the end of the last time step in each hour, unless anything else is given for the individual parameter.
+Values saved in the result log represent snapshots of the calculated conditions at the end of the last time step in each hour, unless anything else is given for the individual parameter.
 </div>
 
 
@@ -210,8 +210,8 @@ These parameters are **only** accessible in the results log if a tick mark has b
 | *qCon1* & *qCon2* | Convective contribution on surface 1 respectively 2 of the construction, W/m². (Can be exported as boundary conditions for CFD programs). *qCon* is positive if the thermal zone gains energy. *qCon* is not calculated for face sides facing outdoors. |
 | *qHeat* | Energy emitted inside constructions from floor heating systems, kWh. |
 | *qRad1* & *qRad2* | Long-wave radiative contribution on face 1 and 2 of constructions from all radiative sources (equipment, heating, cooling, people, lighting and sun through WinDoors) of the thermal zone, W/m². *qRad* is positive if the surface gains energy. |
-| *qPvGross* *) | Electrical yield from solar cells integrated in the construction <u>without</u> considering reduction because of shading, kW. The parameter will <u>only</u> be shown if the construction contains solar cells <u>and</u> the result log from the PV simulation in *SimPv* is open via the *Open New Model* function on the *Parameters* tab in *tsbi5*. The results file from the PV simulation has the same name as the model followed by *"#pv"*. |
-| *qPvNet* *) | Electrical yield from solar cells integrated in the construction, kW. The parameter will <u>only</u> be shown if the construction contains solar cells <u>and</u> the result log from the PV simulation in *SimPv* is open via the *Open New Model* function on the *Parameters* tab in *tsbi5*. The results file from the PV simulation has the same name as the model followed by *"#pv"*.|
+| *qPvGross* *) | Electrical yield from solar cells integrated in the construction <u>without</u> considering reduction because of shading, kW. The parameter will <u>only</u> be shown if the construction contains solar cells <u>and</u> the result log from the PV simulation in *SimPV* is open via the *Open New Model* function on the *Parameters* tab in *tsbi5*. The results file from the PV simulation has the same name as the model followed by *"#pv"*. |
+| *qPvNet* *) | Electrical yield from solar cells integrated in the construction, kW. The parameter will <u>only</u> be shown if the construction contains solar cells <u>and</u> the result log from the PV simulation in *SimPV* is open via the *Open New Model* function on the *Parameters* tab in *tsbi5*. The results file from the PV simulation has the same name as the model followed by *"#pv"*.|
 | *RSurf1* & *RSurf2* | The combined (radiation and convection) thermal surface resistance for the face, m²K/W. If the option long wave radiation was turned on during the simulation, the values will vary. If this is not the case, BSim will use the values defined for the individual face, or the [default values](../24Miscellaneous/24_67_Default_values.md) if nothing is given.|
 | *SensorTmp* | Is the temperature of the sensor, located in a construction with floor heating, °C. |
 | *SkyRad* <sup>M</sup> | Diffuse solar irradiation (on side facing outdoors), kW/m². |
@@ -221,7 +221,7 @@ These parameters are **only** accessible in the results log if a tick mark has b
 | *MC01, MC02, …* *) | Moisture content in nodes through constructions, kg/kg. |
 | *RH01, RH02, …* *) | Relative moisture content in nodes through constructions, –. |
 
-Parameters marked with *) do <u>only</u> occur if the simulation have been performed using the moisture model or the module for calculation of electric yield from solar cells.
+Parameters marked with *) <u>only</u> occur if the simulation has been performed using the moisture model or the module for calculation of electric yield from solar cells.
 
 
 
@@ -237,7 +237,7 @@ These parameters are **only** accessible in the result log if a tick mark has be
 |---|---|
 | CondRisc1<sup>M</sup> | Indicator for [risk of condensation](../24Miscellaneous/24_66_Risk_of_condensation.md) at the surface facing the thermal zone, -. |
 | CondRisc2<sup>M</sup> | Indicator for [risk of condensation](../24Miscellaneous/24_66_Risk_of_condensation.md) at the surface not facing the thermal zone, often towards the outdoor, -. |
-| ExtIllum | External lighting level at the surface of the WinDoor. The value is being used for the solar shading control SensorCtrl, - |
+| ExtIllum | External lighting level at the surface of the WinDoor. The value is used for the solar shading control SensorCtrl, - |
 | GrossSun<sup>M</sup> | Solar irradiation on the exterior side of WinDoors transparent area, kW. |
 | NetSun<sup>M</sup> | Solar radiation transmitted through WinDoors transparent area, kW. |
 | ShadFrac<sup>M</sup> | Fraction of WinDoor shaded by overhangs, side-fins and shadows, -. |
@@ -252,6 +252,6 @@ These parameters are **only** accessible in the result log if a tick mark has be
 | WinIllum<sup>M</sup> | Illuminance in the reference point from daylight through the actual WinDoor, lux. |
 | WinIllum2 | Illuminance in the secondary<sup>1)</sup> reference point from daylight through the actual WinDoor, lux. |
 
-Parameters marked with *) do only occur if the simulation has been performed using the BSim module (NatVent) for simulation of natural ventilation.
+Parameters marked with *) only occur if the simulation has been performed using the BSim module (NatVent) for simulation of natural ventilation.
 
 1\) The secondary reference point is defined and used in combination with calculation and transfer of solar light factors using [SimLight](../15SimLight_Daylight_calculations/15_02_Daylight_calculation_at_a_point.md).

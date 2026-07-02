@@ -12,7 +12,7 @@ Danish Building Research Institute
 
 #### **INTRODUCTION**
 
-Only natural ventilation is treated, and there will be distinguished between single sided ventilation, cross ventilation, bouncy ventilation and a combination of the two latter. Only one zone is considered in the simulations and only exchange of air to the ambient. Mixing is thus <span style="text-decoration: underline;">not</span> part of the simulations. It is assumed that the number, size, location and orientation of the openings are known.
+Only natural ventilation is treated, and the analysis distinguishes between single-sided ventilation, cross ventilation, buoyancy ventilation, and a combination of the last two. Only one zone is considered in the simulations and only exchange of air with the ambient occurs. Mixing is thus <span style="text-decoration: underline;">not</span> part of the simulations. It is assumed that the number, size, location, and orientation of the openings are known.
 
 For simple simulations the following expression is used:
 
@@ -24,7 +24,7 @@ where:
 
 *   *q<sub>Vv</sub>* is the volume flow due to wind, m³/s,
 
-*   *q<sub>VT</sub>* is the volume flow due to bouncy , m³/s
+*   *q<sub>VT</sub>* is the volume flow due to buoyancy, m³/s
 
 *   *c<sub>v</sub>* is a constant, determined by building and wind conditions,
 
@@ -36,7 +36,7 @@ where:
 
  
 
-Equation (1) is an approximated expression when both wind and bouncy occurs and there are more than two openings. The flow direction is determined by the sign of c<sub>v</sub> and ΔT. Positive values are used is the flow is upwards in the zone. Bouncy alone occurs at calm, i.e. v<sub>10</sub> = 0, which is assumed to be the case when v<sub>10</sub> < 1,0 m/s. In the case of only wind, ΔT = 0.
+Equation (1) is an approximate expression when both wind and buoyancy occur and there are more than two openings. The flow direction is determined by the sign of c<sub>v</sub> and ΔT. Positive values are used if the flow is upwards in the zone. Buoyancy alone occurs at calm conditions, i.e. v<sub>10</sub> = 0, which is assumed to be the case when v<sub>10</sub> < 1.0 m/s. In the case of only wind, ΔT = 0.
 
  
 
@@ -55,11 +55,11 @@ Only an approximated expression exists for single sided ventilation, and the acc
 </figure>
 
 
-If vertical, parabolic air speed distribution is assumed over the opening, equation (1) can be used with:
+If a vertical, parabolic air speed distribution is assumed over the opening, equation (1) can be used with:
 
 $$ c_T = \frac{1}{3} C_d A \left( \frac{gh}{T_i} \right)^{1/2} \tag{2} $$
 
-hvor:
+where:
 
 *   C<sub>d</sub> is discharge coefficient for the opening (user/library),
 
@@ -70,17 +70,17 @@ hvor:
 **Several vertical openings in different levels. Thermal bouncy.**  
 Equal to the conditions given in bouncy ventilation, which will be treated later.
 
-**One single, vertical opening. Thermal bouncy and wind.**   
-Equation (1) can be used with c<sub>v</sub> = 0,03A and c<sub>T</sub> = 0,05h½A.
+**One single, vertical opening. Thermal buoyancy and wind.**   
+Equation (1) can be used with c<sub>v</sub> = 0.03 A and c<sub>T</sub> = 0.05 h^{1/2} A.
 
-**One single, horizontal opening. Termal bouncy.**
+**One single, horizontal opening. Thermal buoyancy.**
 
 <figure id="center_img">
 <img src="./assets/nvt_img2.gif" alt="">
 <figcaption></figcaption>
 </figure>
 
-**Equation (1) can be used with:
+**Equation (1) can be used with:**
 
 <div style="text-align:center">
 
@@ -217,7 +217,7 @@ The location of the neutral plane is determined by the mass balance equation:
 
 $$ \sum_{j=1}^{n} C_{d,j} A_j |H_0 - H_j|^½ \frac{H_0 - H_j}{|H_0 - H_j|} = 0 \tag{11} $$
 
-The square-root part expresses the air-flow speed and the fraction ensures the sign of the flow in a way that flow though openings below the neutral plane is positive and vice versa. The equation is solved numerically.   
+The square-root part expresses the air-flow speed and the fraction ensures the sign of the flow in a way that flow through openings below the neutral plane is positive and vice versa. The equation is solved numerically.   
 c<sub>T</sub> can then be determined by:
 
 $$ c_T = \sum_{j=1}^{n_0} C_{d,j} A_j \left( \frac{2 (H_0 - H_j) g}{T_i} \right)^½ \tag{12} $$
@@ -239,15 +239,15 @@ for A<sub>1</sub> < A<sub>2</sub>:
 
 $$ H_2 - H_1 = H \geq \frac{h_2}{2} + \frac{4}{9} \left( \frac{C_{d2}A_2}{C_{d1}A_1} \right)^2 h_2 \tag{14} $$
 
-hvor:
+where:
 
 *   *H* is the vertical distance between the two openings, m,
 
 *   *h<sub>1</sub>* is the opening height of the lower opening, m,
 
-*   *h<sub>2 </sub>* is the opening height of the upper opening, m.
+*   *h<sub>2</sub>* is the opening height of the upper opening, m.
 
-*In the case of more than two openings* a good approximation of the volume flow can be calculated of equation (13) and (14) is true when index 1 referrers to the lowest opening and index 2 to highest opening. At the same time all openings in-between must have opening heights lass than the minor of A<sub>1</sub> and A<sub>2</sub>.
+*In the case of more than two openings,* a good approximation of the volume flow can be calculated if equations (13) and (14) are true when index 1 refers to the lowest opening and index 2 to the highest opening. At the same time, all openings in between must have opening heights less than the smaller of A<sub>1</sub> and A<sub>2</sub>.
 
  
 

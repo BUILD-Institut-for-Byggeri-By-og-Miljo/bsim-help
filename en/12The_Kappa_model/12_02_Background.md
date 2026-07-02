@@ -7,7 +7,7 @@
 
 When energy and comfort conditions in ventilated rooms are calculated, it has traditionally been a very widespread assumption that the air in the room in question is completely mixed. The immediate incentive for this assumption is that it greatly facilitates the calculations, whether done manually or using computer programs. This assumption was also used in tsbi3.
 
-In the case of complete mixing there would in theory be no gradients for either temperature or concentration distribution in a room. In other words, the temperature and concentration would in principle be the same throughout and therefore the same close to the air inlet as in the vicinity of sources of heat and contamination, to name two extremes. In short, it is being claimed that the condition of the exhaust air is representative of conditions elsewhere in the room.
+In the case of complete mixing there would in theory be no gradients for either temperature or concentration distribution in a room. In other words, the temperature and concentration would in principle be the same throughout and thus the same close to the air inlet as in the vicinity of sources of heat and contamination, to name two extremes. In short, the condition of the exhaust air is claimed to be representative of conditions elsewhere in the room.
 
 In relatively low-ceiling rooms with mechanical ventilation based on the mixing principle used in many offices, for example, this assumption would normally be very good.
 
@@ -19,7 +19,7 @@ In rooms ventilated according to the displacement principle, on the other hand, 
 
 In buildings with natural or hybrid ventilation and in high-ceilinged rooms where ventilation is modest, the conditions will often be the same as in rooms with mechanical ventilation based on the displacement principle (Howarth, 1985; Kato et al., 1995; Niemelä and Koskela, 1996; Heiselberg et al., 1998).
 
-Development over the last decade has therefore moved in the direction of there being a clearly growing need to be able to take vertical temperature gradients into account.
+Over the last decade, the development of building simulation has therefore moved toward a clearly growing need to account for vertical temperature gradients.
 
  
 
@@ -39,7 +39,7 @@ In the same way, solar radiation on surfaces will have a great influence on loca
 
 If a detailed definition of the local fields in a room is required, e.g. air speed, temperature or contamination concentration, numerical flow calculations have to be carried out using CFD (Computational Fluid Dynamics) - alternatively a reduced or full scale model can be built and measurements taken.
 
-The quality of CFD simulations is very much dependent on it being possible to set sufficiently good boundary conditions, e.g. the convective heat flow from a sunlit wall surface. Programs for thermal building simulation like BSim are obvious tools for use in defining boundary conditions for CFD simulations. The models must, however, be sufficiently well developed and able to allow for temperature gradients, incident solar radiation and long-wave radiation exchange, etc., to a suitable extent. The generation of good boundary conditions for CFD simulations is therefore a further incentive for implementing a model for temperature gradients.
+The quality of CFD simulations depends on the ability to define sufficiently good boundary conditions, e.g. the convective heat flow from a sunlit wall surface. Programs for thermal building simulation like BSim are obvious tools for defining boundary conditions for CFD simulations. The models must, however, be sufficiently well developed and able to allow for temperature gradients, incident solar radiation and long-wave radiation exchange, etc., to a suitable extent. The generation of good boundary conditions for CFD simulations is therefore a further incentive for implementing a model for temperature gradients.
 
  
 

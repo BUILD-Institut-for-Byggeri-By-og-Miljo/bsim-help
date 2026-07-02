@@ -28,7 +28,7 @@ In the daylight type of control the desired lighting level is defined at the ref
 
 *Lighting Type* is the drop-down list box for selecting the lighting type, with it being possible to choose incandescent lamps or fluorescent tubes. The type is important in connection with lighting control, as the heating power given off is not proportional to the light emitted. The type of light source has to be defined because the ratio between power and light varies differently for the two types.
 
-The type can be either incandescent or fluorescent. The type is of significance regarding light control as the power consumed is not proportional with the light emitted. The ratio between power and lumen output is for incandescent sources calculated according to:
+The type can be either incandescent or fluorescent. The type is important for light control because the power consumed is not proportional to the light emitted. The ratio between power and lumen output for incandescent sources is calculated according to:
 
 $$ P = 0.01 \cdot \left( -53.2 \cdot f^2 + 125.296 \cdot f + 27.56 \right) \cdot \text{genlight} \tag{1} $$
 
@@ -49,7 +49,7 @@ $ \text{genlight} $        is the nominal lighting level, lux
 For further information see: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
 *Solar Limit* is used in connection with lighting control on the basis of the total incident solar radiation in the zone. If the incident solar radiation is less than the value for Daylight Limit, the general lighting is assumed to be on within the relevant time definition. Please note that the Factor parameter (specified under control in the schedule) for the current period will be multiplied by the power value entered for general lighting.  
-     Solar Limit is the same parameter as defined at the tab "LightCtrl". If a value is defined (different from 0) on this tab (Lighting), this value is being used and the value defined on the LightCtrl tab is not being used.
+     Solar Limit is the same parameter as defined on the *LightCtrl* tab. If a value is defined (different from 0) on the *Lighting* tab, that value is used and the value defined on the *LightCtrl* tab is ignored.
 
 *Exhaust Part* is the proportion (between 0 and 1) of the power given off by the general lighting that is removed with the ventilation system's exhaust air, e.g. because air is extracted directly through the light fittings (integrated systems) or above a false ceiling in which the light fittings are mounted. Extraction of lighting heat only works when the ventilation system is in operation.
 
@@ -57,7 +57,7 @@ The power transferred from the general lighting in this way is converted into an
 
 There are basically two forms of control ([Light Control](../24Miscellaneous/24_09_Light_Control.md) and [Daylight Control](../24Miscellaneous/24_10_Daylight_Control.md)) that can be used in the same thermal zone for different time definitions.
 
-Please note that only the general lighting is controlled, whereas "tasking lighting" is always regarded as being on within the specified time definitions.
+Please note that only the general lighting is controlled, whereas *task lighting* is always regarded as being on within the specified time definitions.
 
 See also:
 *   Tab [*LightCtrl*](../24Miscellaneous/24_09_Light_Control.md)

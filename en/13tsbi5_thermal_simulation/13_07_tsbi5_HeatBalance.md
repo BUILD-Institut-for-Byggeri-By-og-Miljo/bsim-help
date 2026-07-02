@@ -13,11 +13,11 @@ The *HeatBalance* tab contains a summary of the individual components of the hea
 </figure>
 
 
-At the top of the tab there are four drop-down list boxes in which the options for displaying the heat balance can be selected. The left-hand list box is used to give the year to show. This option is only available if a period of more years have being simulated. In the second drop-down menu it is possible to select the resolution for the displayed period, i.e. whether the heat balance should be calculated per *week* or per *month* in the columns. The middle list box is used to change between *hours* and percent when counting hours over and above certain temperatures (see rows labeled: *Hours > 21, Hours > 24, Hours > 26 and Hours < 20*). The temperature limits for the count can be changed on the *Options* tab. Counting is performed during simulation and it is thus not possible to extract the number of hours inside a certain time definition, e.g. working hours. If this is needed, it must be done at the [tables tab](13_09_tsbi5_Tables.md). The temperature limits for counting hours can be changed at the *Options* tab. The right-hand menu is used to specify whether the whole building (*TotalBuilding*) or just a single *thermal zone* is to be displayed in the cells below.
+At the top of the tab there are four drop-down list boxes in which the options for displaying the heat balance can be selected. The left-hand list box is used to give the year to show. This option is only available if a period of more than one year has been simulated. In the second drop-down menu it is possible to select the resolution for the displayed period, i.e. whether the heat balance should be calculated per *week* or per *month* in the columns. The middle list box is used to change between *hours* and percent when counting hours over and above certain temperatures (see rows labeled: *Hours > 21, Hours > 24, Hours > 26 and Hours < 20*). The temperature limits for the count can be changed on the *Options* tab. Counting is performed during simulation and it is thus not possible to extract the number of hours inside a certain time definition, e.g. working hours. If this is needed, it must be done at the [*Tables* tab](13_09_tsbi5_Tables.md). The temperature limits for counting hours can be changed on the *Options* tab. The right-hand menu is used to specify whether the whole building (*TotalBuilding*) or just a single *thermal zone* is to be displayed in the cells below.
 
 The first column always shows a total for the entire period simulated. The subsequent columns show the heat balance by the week or month.
 
-It is possible to save the content of the heat balance table in an external text file for further analyses, e.g. in a spread sheet tool, by pressing "Alt + X" and then selecting name and location for the text file.
+It is possible to save the content of the heat balance table in an external text file for further analysis, e.g. in a spreadsheet tool, by pressing "Alt + X" and then selecting the name and location for the text file.
 
 An explanation of the individual parameters in the heat balance is found in [*Parameters in the heat balance*](../24Miscellaneous/24_65_Parameters_in_the_heat_balance.md).
 
@@ -37,11 +37,11 @@ If <u>a single column is highlighted</u> the presentation of the results will st
 
 *   Go to next period
 
-*   [*Yscale* ](../24Miscellaneous/24_50_Graph_scale.md)opens a dialog for fixing the Y-axis or changing the view of the graphs.
+*   [*Yscale* ](../24Miscellaneous/24_50_Graph_scale.md) opens a dialog for fixing the Y-axis or changing the view of the graphs.
 
 *   Close the graphical presentation of the results.
 
-Right clicking the graphical results, a dialog occurs offering the possibility of [modifying the graphical presentation of results](13_12_Modifying_the_graphical_presentation_of_results.md).
+Right-clicking the graphical results opens a dialog offering the possibility of [modifying the graphical presentation of results](13_12_Modifying_the_graphical_presentation_of_results.md).
 
 See also:
 

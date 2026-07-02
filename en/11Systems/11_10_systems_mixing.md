@@ -15,9 +15,9 @@ Mixing is defined as air exchange between thermal zones and spaces in the model.
 
 *From Zone* indicates from which thermal zone or room the air flow enters the actual thermal zone.
 
-**Note:** Any unbalanced air-flows (from any system influencing the air-flow in a thermal zone) will be balanced automatic in tsbi5 by infiltration or exfiltration to the outdoor - no matter if the thermal zone is completely surrounded by other rooms or thermal zones.
+**Note:** Any unbalanced air-flows (from any system influencing the air-flow in a thermal zone) will be balanced automatically in tsbi5 by infiltration or exfiltration to the outdoor - no matter if the thermal zone is completely surrounded by other rooms or thermal zones.
 
-**Note:** It is possible to select mixing from a fictive zone (a room with the same thermal conditions as a real thermal zone, but not part of the simulation) adjacent to the thermal zone to receive the air-flow. It is though <u>not</u> possible to have more than one mixing from any thermal zone, and a fictive zone is considered as being the same as the thermal zone that it have the same conditions as. Therefore, mixing will <u>only</u> occur from the real thermal zone.
+**Note:** It is possible to select mixing from a fictive zone (a room with the same thermal conditions as a real thermal zone, but not part of the simulation) adjacent to the thermal zone to receive the air-flow. It is, though, <u>not</u> possible to have more than one mixing from any thermal zone, and a fictive zone is considered as being the same as the thermal zone that it has the same conditions as. Therefore, mixing will <u>only</u> occur from the real thermal zone.
 
 Using the [control action](../24Miscellaneous/24_11_Mixing_Control.md) it is possible to control a desired heat (or cold) transfer from an adjoining zone to the current zone. Mixing is controlled on/off with a percentage of the air flow defined in the relevant day profile.
 

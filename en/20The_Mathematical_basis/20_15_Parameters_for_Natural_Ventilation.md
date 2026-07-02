@@ -4,9 +4,9 @@
 
 <div style="text-align:center">
 
-The module to simulate natural ventilation using the multi-zone model (mzm) is for the time being in beta test and results obtained using this module must, as always, be looked upon with natural skepticism.
+The module to simulate natural ventilation using the multi-zone model (mzm) is currently in beta test, and results obtained with this module should be viewed with natural skepticism.
 
-Any feed-back to the module given at [bsim-support@sbi.dk](mailto:bsim-support@sbi.dk) is appreciated!
+Any feedback on the module sent to [bsim-support@sbi.dk](mailto:bsim-support@sbi.dk) is appreciated.
 
 </div>
  
@@ -23,19 +23,19 @@ The value can be determined according to [By og Byg (SBi), Direction 202](20_28_
 
 **Resistance, contraction and discharge coefficients**
 
-The volume flow through an opening is not only dependant on the pressure difference but also friction, contraction and opening area.
+The volume flow through an opening depends not only on the pressure difference but also on friction, contraction and opening area.
 
 The friction is characterized by the resistance factor ζ. If the resistance factor is known, the flow speed coefficient can be determined from:
 
 $$ C_v = \frac{1}{\sqrt{1+\zeta}} \tag{1} $$
 
-For the discharge coefficient is found (according to equation 9.3):
+The discharge coefficient is found (according to equation 9.3):
 
 $$ C_d = C_v C_k = \frac{C_k}{\sqrt{1+\zeta}} \tag{2} $$
 
-For a normal ventilation opening without ducts the friction will be limited and correspond to a resistance value of 0.05 - 0.1. The contraction coefficient is 0.6 - 0.7 if the opening have sharp edges and it approaches 1.0 if the opening have rounded edges.
+For a normal ventilation opening without ducts, the friction is limited and corresponds to a resistance value of 0.05–0.1. The contraction coefficient is 0.6–0.7 if the opening has sharp edges, and it approaches 1.0 if the opening has rounded edges.
 
-For more complicated openings the friction, and discharge coefficient can be determined from the average flow speed of volume flow, measured as a function of the pressure difference over the opening. The average flow speed v<sub>m</sub> in the opening is determined from:
+For more complicated openings, the friction and discharge coefficient can be determined from the average flow velocity, measured as a function of the pressure difference across the opening. The average flow speed v<sub>m</sub> in the opening is determined from:
 
 $$ v_m = v_k \left( \frac{A_k}{A} \right) = v_k C_k = \frac{q_v}{A} \tag{3} $$
 
@@ -51,17 +51,17 @@ For the discharge coefficient is found by inserting in equation 9.32 in equation
 
 $$ C_d = C_k \frac{v_k}{\sqrt{\frac{2 \Delta p}{\rho}}} = \frac{v_m}{\sqrt{\frac{2 \Delta p}{\rho}}} \tag{5} $$
 
-From the volume flow can, by inserting equation 9.31 into equation 9.32 and 9.33, the following connection between resistance value, discharge coefficient and volume flow be found:
+From the volume flow, by inserting equation 9.31 into equations 9.32 and 9.33, the following relationship between resistance value, discharge coefficient and volume flow can be found:
 
 $$ 1 + \zeta = \frac{2 \Delta p}{\rho} \left( \frac{C_k A}{q_v} \right)^2 \tag{6} $$
 
 $$ C_d = \frac{1}{\sqrt{\frac{2 \Delta p}{\rho}}} \cdot \frac{q_v}{A} \tag{7} $$
 
-For WinDoor openings, where the volume flow can be controlled by an operate-able part of the WinDoor, the literature sometimes give large resistance numbers which varies by the degree of opening in a way that the larges resistance number occurs at the smallest degree of opening. The high, varying, values is caused by the fact that the resistance number in these cases includes, not only friction, but also remaining dynamic pressure in the air beam plus the contraction coefficient and the reduction in air volume through the fully open WinDoor.
+For WinDoor openings, where the volume flow can be controlled by an operable part of the WinDoor, the literature sometimes gives large resistance numbers that vary with the degree of opening, with the largest resistance number occurring at the smallest opening. The high, varying values are caused by the fact that the resistance number in these cases includes not only friction but also remaining dynamic pressure in the air beam, the contraction coefficient, and the reduction in air volume through the fully open WinDoor.
 
-For WinDoor openings an discharge coefficient C<sub>d</sub> = 0.7 is often assumed.
+For WinDoor openings, a discharge coefficient C<sub>d</sub> = 0.7 is often assumed.
 
-For inlet and outlet openings the discharge coefficient is determined from a coupling between pressure difference and average air velocity. The outlet opening consists as a example of a grid towards the room, a outlet duct and a grid in the chimney. With a measured average air velocity of 1.0 m/s and a pressure difference at 11 Pa C<sub>d</sub> is found from equation 9.33:
+For inlet and outlet openings the discharge coefficient is determined from a coupling between pressure difference and average air velocity. The outlet opening consists, for example, of a grid toward the room, an outlet duct, and a grid in the chimney. With a measured average air velocity of 1.0 m/s and a pressure difference of 11 Pa, C<sub>d</sub> is found from equation 9.33:
 
 $$ C_d = \frac{1.0}{\sqrt{\frac{2 \cdot 11}{1.2}}} = 0.23 $$
 
@@ -77,8 +77,8 @@ The value is determined according to [Danvak basic book, chapter 7](20_28_Litera
 
 | **Opening** | **Conditions** | **Ka** |
 |------------|---------------|--------|
-| Circular | 2,5 m/s < v<sub>0</sub> < 7,5 m/s<br>7,5 m/s < v<sub>0</sub> < 50 m/s | 8,0<br>10,0 |
-| Rectangular<br>distance x > 6 multiplied by width | width/height = 1<br>width/height = 5<br>width/height = 10<br>width/height = 20 | 9,2<br>8,8<br>8,5<br>7,9 |
+| Circular | 2.5 m/s < v<sub>0</sub> < 7.5 m/s<br>7.5 m/s < v<sub>0</sub> < 50 m/s | 8.0<br>10.0 |
+| Rectangular<br>distance x > 6 multiplied by width | width/height = 1<br>width/height = 5<br>width/height = 10<br>width/height = 20 | 9.2<br>8.8<br>8.5<br>7.9 |
 
 
 Read more in [Danvak basic book](20_28_Literature.md) (In Danish).

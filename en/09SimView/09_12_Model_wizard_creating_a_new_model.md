@@ -30,4 +30,4 @@ Related subjects:
 *   [Printing a model](../10Thermal_zones/10_09_SimView_Printing_a_model.md)
 
 See also:
-*   [SimView menu](../06BSim_Program_structure/06_06_SimView_Menu.md)
+*   [SimView menu](../06BSim_Program_structure/06_06_SimView_Menu.md) 

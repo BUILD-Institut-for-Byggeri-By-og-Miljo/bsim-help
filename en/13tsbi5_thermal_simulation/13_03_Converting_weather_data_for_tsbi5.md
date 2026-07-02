@@ -2,7 +2,7 @@
 
 # Converting weather data for tsbi5
 
-Weather data to be used by tsbi5 must exist in a special binary format. Weather data supplied as ASCII-files can be converted to this binary tsbi5-format by use of the *tsbi5* | *File* | *Weather Data* | *Convert*.
+Weather data to be used by tsbi5 must exist in a special binary format. Weather data supplied as ASCII files can be converted to this binary tsbi5 format by use of the *tsbi5* | *File* | *Weather Data* | *Convert*.
 
 An [automatic function](../24Miscellaneous/24_14_Energy_ASHRAE_climate_data.md) for converting energy+/ASHRAE climate data files to the binary BSim format has been implemented in BSim from version 2002, using the *tsbi5* | *File* | *Weather Data* | *ASHRAE* command.
 
@@ -10,7 +10,7 @@ This page gives a short description of the manual conversion of climate data.
 
 ### **Weather data**
 
-Weather data must be supplied as hourly values, day by day for a whole year, or day by day for periods of a year. Data must exist as hourly values for the different parameters, line by line in an ASCII-file, stated in sequence from January 1st. (or the first day of the first period) ordered in sequence of the day numbers in the year. The name of weather file to be used in BSim will be the same as the name of the ASCII-file except for the extension, which will be DRY or TRY. Data **must** be given with increasing time definition, eventually with gabs. If one for instance wishes to make a climate file from October to March, data must be present from January to March, then a gap and the data from October to December.
+Weather data must be supplied as hourly values, day by day for a whole year, or day by day for periods of a year. Data must exist as hourly values for the different parameters, line by line in an ASCII file, stated in sequence from January 1st (or the first day of the first period) ordered by day number in the year. The name of the weather file to be used in BSim will be the same as the name of the ASCII file except for the extension, which will be DRY or TRY. Data **must** be given with increasing time definition, including gaps. If one, for instance, wishes to make a climate file from October to March, data must be present from January to March, then a gap, and then data from October to December.
 
 The following data are used by tsbi5:
 
@@ -42,8 +42,8 @@ A definition file is created in the interface for converting climate data to the
 
     *   *Free*: Free format means that the hourly values are set up line by line in a fixed sequence and separated by at least one blank, space, or tabulator sign.
 
-    *   *Fixed*: Fixed column where hourly values exist line by line in fast a fixed sequence in fixed columns with or without separating signs.  
-*NB: If data contains non-numerical information at the same lines as the hourly data, this format is the only format that can be used.*
+    *   *Fixed*: Fixed column where hourly values exist line by line in a fixed sequence in fixed columns with or without separating signs.  
+*NB: If data contains non-numerical information on the same lines as the hourly data, this format is the only format that can be used.*
 
     *   *Time+free*: Is a special free format. One line giving the date is placed before the 24 hourly values.
 
@@ -77,7 +77,7 @@ Further the following can be given:
 
 *   One parameter for the humidity of the air (dew point temperature, relative humidity, absolute moisture content or enthalpy). *If no data is given for the humidity of the air, zero will be used*.
 
-*   Cloud cover will be calculated by the program from data for solar radiation and humidity if If no data is given.
+*   Cloud cover will be calculated by the program from data for solar radiation and humidity if no data is given.
 
 *   Wind speed and wind direction. *If no data is given for the humidity of the air, zero will be used*. Needed if simulation of single zone natural ventilation is going to be performed.
 

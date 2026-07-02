@@ -3,14 +3,14 @@
 # SimView - Editing the model geometry
 The geometry of real buildings cannot always be described using simple boxes. It is therefore necessary to be able to edit the constructed geometry.
 
-A face can be split by first splitting two of its *edges*. This is done by selecting the edge (easiest in the 3D view), double click or shift-left-click at the edge, right-clicking and selecting the *Split Edge* menu option. A similar procedure is used for the other edge(s) to be split. This action inserts a new vertex in th center of the edge. If one of the end points (vertexes) of the edge is selected as well, a diallog allowing the user to give the distance from that end point to the new vertx, say the lenght of the new edge:
+A face can be split by first splitting two of its *edges*. This is done by selecting the edge (easiest in the 3D view), double-clicking or shift-left-clicking the edge, right-clicking and selecting the *Split Edge* menu option. A similar procedure is used for the other edge(s) to be split. This action inserts a new vertex in the center of the edge. If one of the end points (vertices) of the edge is selected as well, a dialog allows the user to give the distance from that end point to the new vertex, namely the length of the new edge:
 
 <figure id="center_img">
 <img src="./assets/split_edge.gif" alt="">
 <figcaption></figcaption>
 </figure>
 
-A similar approach can be used for the rest of the edges that are to be splitted.
+A similar approach can be used for the rest of the edges that are to be split.
 
 If two new *vertices* are selected (double click or shift-left-click) in the same face, an *edge* can be added between them using the *Add Edge* command from the *SimView* menu.
 

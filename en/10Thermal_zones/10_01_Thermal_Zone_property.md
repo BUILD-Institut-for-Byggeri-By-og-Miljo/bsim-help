@@ -7,7 +7,7 @@ A building model consists of a number of spaces that have been described geometr
 
 If all the spaces in a building model are described thermally, including those outside thermal zones, the entire model can be transferred for calculation in the *Be18*. A model can therefore be used simultaneously for simple calculation in *Be18* and detailed simulation in tsbi5.
 
-A thermal zone is created by right-clicking the building in the tree summary and clicking the Insert Thermal Zone button. Rooms are attached to thermal zones by dragging (while pressing the left mouse button) it to the desired thermal zone in the tree structure.
+A thermal zone is created by right-clicking the building in the tree summary and clicking the Insert Thermal Zone button. Rooms are attached to thermal zones by dragging them (while pressing the left mouse button) to the desired thermal zone in the tree structure.
 
 The dialog box for defining the global properties for thermal zones is called up by right-clicking the thermal zone in the tree summary on the left in SimView.
 

@@ -13,7 +13,7 @@ Henrik Ryberg     <a href="https://www.sweco.dk/">Grontmij | Carl Bro as</a>
 
 </div>
 
-The following memorandum provides documentation of the "Kappa Model" in BSim *(tsbi5),* a simple model that can make approximate allowance for temperature gradients in rooms. It will start with a brief explanation of the purpose of the said model, then the model itself will be presented, and finally implementation of the model will be discussed.
+The following memorandum provides documentation for the "Kappa Model" in BSim *(tsbi5),* a simple model that can approximately account for temperature gradients in rooms. It begins with a brief explanation of the model's purpose, then presents the model itself, and finally discusses its implementation.
 
 *   [Input in SimView](12_05_The_Kappa_Model_input_data.md)
 *   [Background](12_02_Background.md)

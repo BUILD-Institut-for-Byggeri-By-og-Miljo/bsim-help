@@ -13,7 +13,7 @@ In *BSim* it is possible to attach default constructions to all the building ele
 
 *   ExtConstructions: Constructions with one side to the open air.
 
-*   IntConstuctions: Constructions with both sides to spaces.
+*   IntConstructions: Constructions with both sides to spaces.
 
 *   ExtWindoor: Windows and doors with one side to the open air.
 

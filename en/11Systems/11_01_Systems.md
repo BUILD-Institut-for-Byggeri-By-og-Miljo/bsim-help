@@ -14,7 +14,7 @@ All systems in *BSim* are controlled on the basis of an operative temperature in
 
 All the installations and loads that impact on the thermal indoor climate must be defined for a building model. In what follows they are all covered by the term components.
 
-Components are described by simplified models of the physical installations, loads, etc. The relevant variations, control strategies, etc., are described separately as a *control action* on the component. By way of an example, [people load](11_13_Systems_Persons.md), i.e. the heat and moisture load from people in a zone, is described as the maximum number of people of a given type, is specified as one person's heat and moisture emissions at a given activity level. Variations in the people load over the year and day are specified as a control action, in this instance a day profile, i.e. a percentage daily variation in the people load.
+Components are described by simplified models of the physical installations, loads, etc. The relevant variations, control strategies, etc., are described separately as a *control action* on the component. By way of example, [people load](11_13_Systems_Persons.md), i.e. the heat and moisture load from people in a zone, is described as the maximum number of people of a given type and specified as one person's heat and moisture emissions at a given activity level. Variations in the people load over the year and day are specified as a control action, in this instance a day profile, i.e. a percentage daily variation in the people load.
 
 The following table provides a summary of elements with their possible attached components and control actions. In cases where a component can have more than one type of control, control types that can be used when choosing the control action are also specified.
 
@@ -63,11 +63,11 @@ The check boxes next to the individual systems have three functions:
 
 *   The first time an empty box is clicked, the system is added to the thermal zone, with this being indicated by a black tick in a white box, e.g. *Cooling, Equipment* and *Heating.* The system appears in the tree summary <u> without </u> a "+" in front of it as long as a schedule has not been defined.
 
-*   The second time the box is clicked, the system is deactivated in the tsbi5 simulation, with this being indicated by a grey tick in a grey box, e.g. Mixing. When a system has been deactivated it will <u>not</u> be checked for faults and will not appear in [ModelList](../10Thermal_zones/10_09_SimView_Printing_a_model.md) The system is displayed in the tree structure as the existing icon with a red cross through it..
+*   The second time the box is clicked, the system is deactivated in the tsbi5 simulation, with this being indicated by a grey tick in a grey box, e.g. Mixing. When a system has been deactivated it will <u>not</u> be checked for faults and will not appear in [ModelList](../10Thermal_zones/10_09_SimView_Printing_a_model.md). The system is displayed in the tree structure as the existing icon with a red cross through it.
 
-*   At third click in the box, the tick mark is removed and the box left empty. When OK is pressed, existing systems without tick-marks, will be suggested deleted as systems for the thermal zone.
+*   At the third click in the box, the tick mark is removed and the box left empty. When OK is pressed, existing systems without tick marks are suggested for deletion from the thermal zone.
 
-The selected systems are displayed as sub-items under the thermal zone in the tree summary. The order that the systems occurs in the tree structure is the same as the order in the tsbi5 simulation. If the order need to be changed, it can be done by dragging one system to the system that is to follow the current.
+The selected systems are displayed as sub-items under the thermal zone in the tree summary. The order in which the systems occur in the tree structure is the same as the order in the tsbi5 simulation. If the order needs to be changed, it can be done by dragging one system to follow the current one.
 
 
 <figure id="center_img">
@@ -78,7 +78,7 @@ The selected systems are displayed as sub-items under the thermal zone in the tr
 
 In the user interface this structure is reflected in the dialog boxes for the individual components, with all components having a [Schedule](11_02_Systems_schedule.md) tab, which can be selected to define the schedule to be used for the specific component. In the *Schedule* dialog box the schedule is displayed as a connected pair of [time definition](11_17_Systems_Time.md) and control.
 
-The order of the control/schedule pairs in the summary dialog box is very important, with it being used in a simulation to determine which control action has to be used together with the particular component. At a given time (at the beginning of each hour) the schedule is run through in the order in which it is shown on the summary tab *(Schedule).* In the case of the first pair where the specified time falls within the time definition, the relevant control action will be used together with its component. If, of the other hand, the specified time does not fall within any time definition in the schedule, the relevant component will not be activated at all, i.e. there will be no impact on indoor climate at the time in question.
+The order of the control/schedule pairs in the summary dialog box is very important, with it being used in a simulation to determine which control action has to be used together with the particular component. At a given time (at the beginning of each hour) the schedule is run through in the order in which it is shown on the summary tab *(Schedule).* In the case of the first pair where the specified time falls within the time definition, the relevant control action will be used together with its component. If, on the other hand, the specified time does not fall within any time definition in the schedule, the relevant component will not be activated at all, i.e. there will be no impact on indoor climate at the time in question.
 
 Once the desired systems have been added to the thermal zone, the definitions can be edited by right-clicking the system in the tree summary. This opens a dialog box for defining the particular system.
 
@@ -105,7 +105,7 @@ Systems connected to thermal zones:
 *   [Cooling](11_09_Systems_cooling.md)
 *   [Ventilation](11_21_Systems_Ventilation.md)
 
-To a WinDoor two types of systems can be selected via their respective entries in the WinDoor dialog: [Shutter](11_15_Systems_shutter.md) and [Shading](11_16_Systems_shading.md). In additions to this, information about solar light factors concerning daylight conditions can be defined in connection to the control of the system [Lighting](11_03_Systems_Lighting.md).
+To a WinDoor two types of systems can be selected via their respective entries in the WinDoor dialog: [Shutter](11_15_Systems_shutter.md) and [Shading](11_16_Systems_shading.md). In addition to this, information about solar light factors concerning daylight conditions can be defined in connection with control of the [Lighting](11_03_Systems_Lighting.md) system.
 
 Systems connected to WinDoor:
 *   [Shutter](11_15_Systems_shutter.md)

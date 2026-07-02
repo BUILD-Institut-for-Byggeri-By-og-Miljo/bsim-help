@@ -14,16 +14,16 @@ November 2001
 
 **Moisture calculations in constructions with multiple material and/or moisture resistance**
 
-An automatic generation of the calculation grid in connection with moisture calculations takes place when more materials are located near the interal surface and/or when a vapour barrier or layer of paint occurs before or between the material layers.
+An automatic generation of the calculation grid in connection with moisture calculations takes place when more materials are located near the internal surface and/or when a vapour barrier or layer of paint occurs before or between the material layers.
 
-1. By moving from one material to an other in the order of material layers, the automatic sub-division of control volumes continues, but with a new development in the layer thickness. If the border zone between layer I and II analysed. If s<sub>I</sub> is the thickness of the first control volume after the layer border would have had, if material I has continued, the thickness of the first control volume in material II is:
+1. By moving from one material to another in the order of material layers, the automatic subdivision of control volumes continues, but with a new development in the layer thickness. When the border zone between layer I and II is analysed, and if s<sub>I</sub> is the thickness the first control volume after the layer border would have had if material I had continued, the thickness of the first control volume in material II is:
 
 $$ 
 S_{II} = \frac{s_{36.7 \%, II}}{s_{36.7 \%, I}} \cdot s_I \tag{1} 
 $$  
-where s36,7% is the effective moisture penetration depth of the materials, mineral wool behind a gypsum board will for example have much higher control volumes than normal.
+where s<sub>36.7 %, II</sub> and s<sub>36.7 %, I</sub> are the effective moisture penetration depths of materials II and I. For example, mineral wool behind a gypsum board will have much larger control volume thicknesses than normal.
 
-2. For materials behind "single moisture resistance", e.g. layers of paint on the surface facing the indoor environment or a vapour barrier between two material layers in the construction do not need to have a thickness of the control volumes a slender as else. The following layer thickness is used for the first control volume behind a single moisture resistance:
+2. For materials behind a "single moisture resistance", e.g. layers of paint on the surface facing the indoor environment or a vapour barrier between two material layers in the construction, the control volumes do not need to be as slender as otherwise. The following layer thickness is used for the first control volume behind a single moisture resistance:
 
 $$ 
 s_{II} = first \cdot Z_{VR} \cdot \delta_{II} \tag{2} $$  
@@ -34,7 +34,7 @@ s_{II} = first \cdot Z_{VR} \cdot \delta_{II} \tag{2} $$
 
 The thickness of the control volume can thus be scaled up as usual according to the selected "Factor".
 
-s<sub>II</sub> can be equal to the maximum calculated size and the in paragraph 1 found value (if there is an other material in front of the vapour barrier).
+s<sub>II</sub> can be equal to the maximum calculated size or the value found in paragraph 1 (if there is another material in front of the vapour barrier).
 
-Finally, the thickness of the control volume must be equal to the minimum of the above found values and the value normally used in tsbi5 according to desired "Layer thick" on the *Options* tab of tsbi5.
+Finally, the thickness of the control volume must be equal to the minimum of the above values and the value normally used in tsbi5 according to the desired "Layer thickness" on the *Options* tab of tsbi5.
 

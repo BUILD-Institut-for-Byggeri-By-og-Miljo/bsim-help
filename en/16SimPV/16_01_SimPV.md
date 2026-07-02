@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="../style.css">
 
 # SimPV
-SimPv is a tool for making a simple calculation of the electrical yield from a building integrated solar cell (PV) system.
+SimPV is a tool for making a simple calculation of the electrical yield from a building-integrated solar cell (PV) system.
 
 SimPv has been implemented as a module in BSim as an integrated part of XSun.
 
-Areas with solar cells is [added to the model](16_02_Adding_solar_cells_to_the_model.md) in the same way as WinDoors.
+Areas with solar cells are [added to the model](16_02_Adding_solar_cells_to_the_model.md) in the same way as WinDoors.
 
 <figure id="center_img">
 <img src="./assets/SIMPV.JPG" alt="Calculation of the power output from a building integrated pv-system is summarised over the months of the calculation period for each construction with PV.">
@@ -18,7 +18,7 @@ Areas with solar cells is [added to the model](16_02_Adding_solar_cells_to_the_m
 
 *   *End* gives the last day of the calculation period.
 
-*   *Time-step* gives the number of time-steps in each hour of the calculation period. Climate data are given as constant values hour by hour. It is thus only the shaded part of the PV-panels which changes from timestep to timestep within the same hour.
+*   *Time-step* gives the number of time steps in each hour of the calculation period. Climate data are given as constant values hour by hour. It is thus only the shaded part of the PV panels that changes from time step to time step within the same hour.
 
 **Calculation**
 
@@ -26,16 +26,16 @@ Areas with solar cells is [added to the model](16_02_Adding_solar_cells_to_the_m
 
 *   *Stop* terminates the calculation before the *End*-date.
 
-*   *No shading reduction* offers the possibility of calculating the yeld from the PV-panels as if no shadows strikes the cells. The difference between the yeld with and without shadows express the *performance ratio*.
+*   *No shading reduction* offers the possibility of calculating the yield from the PV panels as if no shadows strike the cells. The difference between the yield with and without shadows expresses the *performance ratio*.
 
-*   *Create Hour Log* offers the possibility to save the results from *SimPv* in a results file (*modelname#pv*) that can be merged into the ordinary results handling routines for *tsbi5* using the *Open New Model* function from the [*Parametres*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) tab.
+*   *Create Hour Log* offers the possibility to save the results from *SimPV* in a results file (*modelname#pv*) that can be merged into the ordinary results handling routines for *tsbi5* using the *Open New Model* function from the [*Parameters*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) tab.
 
-*   At the botton of the field the process of the calculation is shown.
+*   At the bottom of the field the process of the calculation is shown.
 
-**Note:** If no PV-material have been attributed to the PV-areas of the model, data for standard poly-chrystalline silicon is used in the calculations (system efficiency 10 % and no proportional reduction of yield because of partial shading).
+**Note:** If no PV material has been assigned to the PV areas of the model, data for standard polycrystalline silicon is used in the calculations (system efficiency 10% and no proportional reduction of yield because of partial shading).
 
-*Copy to Clipboard* saves the contents of the table to the working memory of the PC. The copy can be used in other programs, e.g. spreadsheet programs, using the *Insert* function for further handling.
+*Copy to Clipboard* saves the contents of the table to the clipboard. The copy can be used in other programs, e.g. spreadsheet programs, using the *Insert* function for further handling.
 
 *Finish* closes the dialog.
 
-Table shows in the first collumn the monthly yeald from all constructions with PV in the model. The following collumns shows the yield from the individual costructions with PV. At the bottom the sum over the calculation period is shown for each collumn.
+The table shows in the first column the monthly yield from all constructions with PV in the model. The following columns show the yield from the individual constructions with PV. At the bottom the sum over the calculation period is shown for each column.

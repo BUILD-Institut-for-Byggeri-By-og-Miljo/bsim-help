@@ -4,12 +4,12 @@
 
 <div style="text-align:center">
 
-*Under the terms of the license agreement Danish Building Research Institute is unfortunately not permitted to supply the original help for the ActiveX application used to create the graphical presentation of the results. Therefore the most important facilities for modifying the graphical presentation of the calculation results from tsbi5 are examined in this section.*
+*Under the terms of the license agreement, Danish Building Research Institute is unfortunately not permitted to supply the original help for the ActiveX application used to create the graphical presentation of the results. Therefore, the most important facilities for modifying the graphical presentation of the calculation results from tsbi5 are examined in this section.*
 
 </div>
 
 
-Right-clicking in the graphical presentation of the results opens a menu for modifying the graphics. The menu contains three options for modifying the graphical presentation: [Chart Designer](13_13_Chart_Designer.md) and [Wizard](13_14_Chart_Wizard.md).
+Right-clicking in the graphical presentation of the results opens a menu for modifying the graphics. The menu contains options for modifying the graphical presentation, including [Chart Designer](13_13_Chart_Designer.md) and [Wizard](13_14_Chart_Wizard.md).
 
 <figure id="center_img">
 <img src="./assets/CHARTD.GIF" alt="The menu is opened by right-clicking in the graphical presentation.">

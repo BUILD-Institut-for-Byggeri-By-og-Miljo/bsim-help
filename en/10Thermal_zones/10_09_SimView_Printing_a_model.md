@@ -5,7 +5,7 @@ An alternative to *ModelList* is the [ModelDoc](../24Miscellaneous/24_77_ModelDo
 
 If *ModelList* has been selected from the toolbar or if the user is working in *XSun*, *tsbi5* or *SimLight*, the displayed information can be output directly on a printer.
 
-<img src="./assets/STOP.GIF" width=15> An icon like a stop sign at the beginning of a line indicates that there may be an error or data are missing. Double-clicking or Ctrl-click on the line shifts the focus to the object in question in the hierarchical summary. Right-click the object in the tree to edit or add data. The summary can be updated by clicking the *ModelList* icon again. Click [here](../06BSim_Program_structure/06_08_Error_messages.md) to see explanations on the [error messages](../06BSim_Program_structure/06_08_Error_messages.md) in *ModelList*.
+<img src="./assets/STOP.GIF" width=15> An icon like a stop sign at the beginning of a line indicates that there may be an error or data are missing. Double-clicking or Ctrl-clicking on the line shifts the focus to the object in question in the hierarchical summary. Right-click the object in the tree to edit or add data. The summary can be updated by clicking the *ModelList* icon again. Click [here](../06BSim_Program_structure/06_08_Error_messages.md) to see explanations on the [error messages](../06BSim_Program_structure/06_08_Error_messages.md) in *ModelList*.
 
 It is <u>not</u> possible to carry out a tsbi5 simulation if the *ModelList* is open or closed as an icon.
 

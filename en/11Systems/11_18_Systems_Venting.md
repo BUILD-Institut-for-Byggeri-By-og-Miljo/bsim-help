@@ -20,7 +20,7 @@ $$ n_{out,air} = n_0 + c_t \cdot (t_i - t_o)^{tp} + c_v \cdot v \tag{1} $$
 
  
 
-Venting control simulates windows or ventilation openings being opened if the temperature exceeds a user-defined set point. When there is a tendency for the set point to be exceeded, the natural ventilation is increased as much as necessary to maintain the desired temperature, but only up to a user-defined maximum air change.
+Venting control simulates windows or ventilation openings opening if the temperature exceeds a user-defined set point. When there is a tendency for the set point to be exceeded, the natural ventilation is increased as much as necessary to maintain the desired temperature, but only up to a user-defined maximum air change.
 
 Unlike with infiltration, venting is defined in such a way that the air flow leaving the thermal zone (to the outdoor air) is the same as that entering the thermal zone (from the outdoor air). Venting is therefore in (air) balance by definition and consequently will not influence the amount of infiltration or exfiltration, cf. section entitled [Infiltration](11_08_Systems_Infiltration.md).
 
@@ -42,11 +42,11 @@ Clicking the [*TmpFactor* ](../24Miscellaneous/24_33_Venting_Temp_Factor.md)butt
 
 *Max AirChange* expresses the maximum air change permitted during ventilation. If the air change calculated using the equation goes above this value, it will be corrected to the maximum value.
 
-*Max Wind* is only used in connection with the module (from BSim version 2002) for simulation of natural ventilation and expresses the maximum wind speed, below which natural ventilation may occour. If *Max Wind* is set to 0, natural ventilation can be active at any wind speed.
+*Max Wind* is only used in connection with the module (from BSim version 2002) for simulation of natural ventilation and expresses the maximum wind speed below which natural ventilation may occur. If *Max Wind* is set to 0, natural ventilation can be active at any wind speed.
 
 *Sensor Zone* indicates the thermal zone where the operative temperature will be used for controlling the venting in the actual thermal zone. This, for instance, could be the temperature of an office determining the venting in an atria.
 
-*Natural Ventilation* (from BSim version 2002) The desired model for natural ventilation can be selected from the list given under *Natural Ventilation.* Just above the list, BSim suggest - from the given model geometry - the most appropriate natural ventilation model for the zone. One of the followgin can be selected:
+*Natural Ventilation* (from BSim version 2002) The desired model for natural ventilation can be selected from the list given under *Natural Ventilation.* Just above the list, BSim suggests — from the given model geometry — the most appropriate natural ventilation model for the zone. One of the following can be selected:
 
 | Mode | Description |
 |------|-------------|
@@ -57,7 +57,7 @@ Clicking the [*TmpFactor* ](../24Miscellaneous/24_33_Venting_Temp_Factor.md)butt
 | [Combined](../20The_Mathematical_basis/20_12_Natural_ventilation.md) | General model, see [overview](../20The_Mathematical_basis/20_12_Natural_ventilation.md)! |
 
 
-The venting [*schedule*](11_02_Systems_schedule.md) defines connected sets of[ control](../24Miscellaneous/24_08_Venting_Control.md) and time definition. In ordinary rooms where people are present venting will simulate windows being opened by the users when the indoor temperature becomes too hot, in which case venting will normally only be "active" during the building's hours of use. In large buildings with equipment for automatic venting when the set point for a temperature is exceeded, it must be assessed whether the achievable air change is dependent on the time of the day and year.
+The venting [*schedule*](11_02_Systems_schedule.md) defines connected sets of [control](../24Miscellaneous/24_08_Venting_Control.md) and time definitions. In ordinary rooms where people are present, venting will simulate windows being opened by the users when the indoor temperature becomes too hot, in which case venting will normally only be "active" during the building's hours of use. In large buildings with equipment for automatic venting when the set point for a temperature is exceeded, it must be assessed whether the achievable air change is dependent on the time of day and year.
 
 See also:
 *   [Tab VentingCtrl](../24Miscellaneous/24_08_Venting_Control.md)   

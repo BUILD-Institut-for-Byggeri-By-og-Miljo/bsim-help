@@ -16,7 +16,7 @@ August 3, 2000
 
 The orthodox expressions to find the heat transfer coefficient, α<sub>c</sub>, W/m²K are based on empirical correlations, mainly using dimensionless numbers.
 
-The expressions also employ a characteristic length *L*, which for vertical surfaces (walls) is the height of the surface [m]. For horizontal surfaces (floors and ceilings), *L* can be taken as the average of the length and width (the square root of the area may be a reasonable and simpler approximation, although it is not probably not strictly "legal").
+The expressions also employ a characteristic length *L*, which for vertical surfaces (walls) is the height of the surface [m]. For horizontal surfaces (floors and ceilings), *L* can be taken as the average of the length and width. The square root of the area may be a reasonable and simpler approximation, although it is not strictly exact.
 
 Then the dimensionless numbers must be calculated. (Note: The following is according to the conventional theory. *A simpler way* to calculate the α<sub>c</sub>‘s, is described next page.)
 
@@ -58,7 +58,7 @@ $$ \alpha_c = \frac{0.0257}{L} \cdot Nu \tag{4} $$
 
 #### **A simpler way**
 
-All the above has to be carried out for every surface and every time step. It may take too long time to calculate. If it can be quickly determined for the actual surfaces, what are the conditions for the flow to be either turbulent or laminar, then some computational work can be saved. This can be done by looking at some of the equations above, but now in a reverse order, so the criteria are expressed directly by a ΔT~L relation. Also, some simpler expressions may be used to calculate α<sub>c</sub>, so the calculation of dimensionless numbers can be saved
+All the above has to be carried out for every surface and every time step. It may take too long to calculate. If it can be quickly determined for the actual surfaces whether the flow is turbulent or laminar, then some computational work can be saved. This can be done by looking at some of the equations above in reverse order, so the criteria are expressed directly by a ΔT–L relation. Also, some simpler expressions may be used to calculate α<sub>c</sub>, avoiding the calculation of dimensionless numbers.
 
 ##### **For vertical surfaces:**
 
@@ -103,7 +103,7 @@ The relationship between β<sub>v</sub> and β<sub>p</sub> is:
 
 $$ \beta_{p} = \frac{\beta_{v}}{R_{v} \cdot T} \;  kg/(m^2\cdot s\cdot Pa) \tag{11} $$
 
-Where R<sub>v</sub> is the gas constant for water vapour (461,5 J/kg·K), and *T* is the absolute temperature. Thus the following relation holds for β<sub>p</sub>:
+Where R<sub>v</sub> is the gas constant for water vapour (461.5 J/kg·K), and *T* is the absolute temperature. Thus the following relation holds for β<sub>p</sub>:
 
 $$ \beta_p = \frac{\alpha_c}{5.60\cdot 10^5 \cdot T} \tag{12} $$
 

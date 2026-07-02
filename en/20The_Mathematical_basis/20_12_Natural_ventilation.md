@@ -5,7 +5,7 @@ Simulation of natural ventilation in the module for BSim requires[ input at vari
 
 Natural ventilation can be activated at thermal zone level.
 
-In the calculations BSim considers only Windoors/opening to the exterior.
+In the calculations, BSim considers only WinDoors/openings to the exterior.
 
 The model to use can be automatically selected by BSim.
 
@@ -27,11 +27,11 @@ $$
 One pair of openings in one face, in the same vertical level. <br>
 Thermal buoyancy and wind:
 $$
-c_V = 0{,}03A
+c_V = 0.03 \, A
 $$
 
 $$
-c_T = 0{,}05 h^{1/2} A
+c_T = 0.05 \, h^{1/2} \, A
 $$
 
 <figure id="center_img">
@@ -45,11 +45,11 @@ One pair of openings in a non vertical face. <br>
 Thermal buoyancy:
 
 $$
-c_T = 0{,}06A \left( \frac{gA^{1/2}}{T_i} \right)^{1/2} \quad \text{for } h/A^{1/2} < 0{,}1
+c_T = 0.06 \, A \left( \frac{gA^{1/2}}{T_i} \right)^{1/2} \quad \text{for } h/A^{1/2} < 0.1
 $$
 
 $$
-c_T = 0{,}18A \left( \frac{gh}{T_i} \right)^{1/2} \quad \text{for } 0{,}1 < h/A^{1/2} < 0{,}7
+c_T = 0.18 \, A \left( \frac{gh}{T_i} \right)^{1/2} \quad \text{for } 0.1 < h/A^{1/2} < 0.7
 $$
 
 Wind:
@@ -78,7 +78,7 @@ $$
 Wind:
 
 $$
-c_V = 0{,}03A
+c_V = 0.03 \, A
 $$
 
 <figure id="center_img">

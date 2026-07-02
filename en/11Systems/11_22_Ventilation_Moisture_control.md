@@ -10,7 +10,7 @@ If the moisture content of the air supplied to the system is too high, the air i
 
 2.  If the desired relative humidity is to be achieved, the temperature set point must also be achieved, which means that, if the radiator (heating or cooling radiator) helps to maintain the temperature, the set point for the radiator must be the same as the temperature set point in the moisture control.
 
-3.  The temperature set point is used as a heating set point and so dehumidification of the air will not work in interaction with cooling proper in the system's cooling coil
+3.  The temperature set point is used as a heating set point and so dehumidification of the air will not work in interaction with proper cooling in the system's cooling coil.
 
 If the moisture content of the air supplied to the system is too low, the air will be humidified in a steam humidifier if one has been defined.
 

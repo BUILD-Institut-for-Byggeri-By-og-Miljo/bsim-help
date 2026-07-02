@@ -12,7 +12,7 @@ The following systems can help to raise the temperature:
 
 *   [Ventilation system (heat recovery, heating coil)](11_21_Systems_Ventilation.md)
 
-The system with the highest set point is activated first, but in such a way that the limits on the available powers and on supply temperatures are always complied with (if possible).
+The system with the highest set point is activated first, but in such a way that the limits on the available power and on supply temperatures are always complied with (if possible).
 
 **Example**
 
@@ -99,9 +99,9 @@ Cooling set point 25,0 °C</td>
 
  
 
-The controller for the ventilation system will try to keep the supply temperature down to 16.0°C, but initially without switching on the cooling coil. This supply temperature can therefore only be maintained as long as the outdoor temperature is lower than 16.0°C less the temperature rise in the system.
+The controller for the ventilation system will try to keep the supply temperature down to 16.0°C, but initially without switching on the cooling coil. This supply temperature can therefore only be maintained as long as the outdoor temperature is lower than 16.0°C minus the temperature rise in the system.
 
-Shading is not included in the prioritization of the control functions in quite the same way as the other systems. In the first place shading will always be activated if the incident solar radiation through the window to which it is attached would otherwise exceed the Max. sun limit value. The shading will also always be activated if the calculated room temperature without control exceeds the shading's Temp. Max. temperature limit, irrespective of whether this set point is higher than another.
+Shading is not included in the prioritization of the control functions in quite the same way as the other systems. In the first place, shading will always be activated if the incident solar radiation through the window to which it is attached would otherwise exceed the Max. sun limit value. The shading will also always be activated if the calculated room temperature without control exceeds the shading's Temp. Max. temperature limit, irrespective of whether this set point is higher than another.
 
 The control priority will therefore be as follows:
 

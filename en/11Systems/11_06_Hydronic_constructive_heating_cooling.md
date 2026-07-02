@@ -14,11 +14,11 @@
 
 *   Make sure that the thickness of the layers above the floor heating pipes is bigger than the external pipe diameter!
 
-*   Use different names for constructions in different thermal zones that hosts a floor heating system!
+*   Use different names for constructions in different thermal zones that host a floor heating system!
 
  
 
-The input data to be entered by the user consist in data regarding the building construction where pipes are going to be placed and in data regarding the pipe and the circuit. Moreover, additional input data may be required, depending on the type of slab to be simulated.
+The input data to be entered by the user consist of data regarding the building construction where pipes are going to be placed and data regarding the pipe and the circuit. Moreover, additional input data may be required, depending on the type of slab to be simulated.
 
 In the figure below, the window dialog collecting the main input data for the description of the slab is shown:
 
@@ -56,9 +56,9 @@ The computation tool can calculate the thermal behavior of various kinds of radi
 
 *Some kinds of radiant systems that can be described via the current computation tool.*
 
-In particular, G type and X1 type require some more indications:
+In particular, the G type and X1 type require some additional information:
 
-*   G type. The type G is characterized by a metal plate enclosing the pipes by half the circumference. In the case "G type" is chosen, then two additional values have to be set:
+*   G type. The G type is characterized by a metal plate enclosing the pipes by half the circumference. If the "G type" is chosen, two additional values have to be set:
 
     *   The thickness of the metal plate [m]
 
@@ -66,7 +66,7 @@ In particular, G type and X1 type require some more indications:
 
     *   Additionally, the pipe level must be set where the metal plate is. In fact, in this case, the active layer is not where the pipes are placed, since the heating/cooling action is performed along the metal plate. As a consequence, in the example of Fig. 3, the pipe level is placed between the floor covering and the insulation layer.
 
-*   X1 type. In the case the user uses a radiant surface of kind X1, then no additional value must be entered, but the description of the layers constituting the slab must be modified, so that the presence of voids can be described. In fact, the layer of concrete embedding the voids must be characterized by virtual values of thermal conductivity and density. In particular, assumed T [m] is the pipe distance and s0 [m] is the maximum width of each void, then the resulting thermal properties of the layer embedding the voids must be corrected as shown in the figure below:
+*   X1 type. If the user uses a radiant surface of kind X1, then no additional value must be entered, but the description of the layers constituting the slab must be modified so that the presence of voids can be described. The layer of concrete embedding the voids must be characterized by virtual values of thermal conductivity and density. In particular, if T [m] is the pipe distance and s0 [m] is the maximum width of each void, then the resulting thermal properties of the layer embedding the voids must be corrected as shown in the figure below:
 
 Original:
 
@@ -101,8 +101,8 @@ Then, the main data regarding the pipe and the circuit are collected in the wind
 
 *   Thermal conductivity of the pipe wall [W/(m·K)]
 
-The last parameter to be entered is the maximum radiant surface area per circuit [m²]. It is useful in order to take into account the presence of various similar circuits in the same radiant surface. As a consequence, the pipe is split into various circuits, basing on the ratio between the radiant surface area and the maximum area per circuit. The default value is 10 m² when nothing is specified.
+The last parameter to be entered is the maximum radiant surface area per circuit [m²]. It is useful to take into account the presence of various similar circuits in the same radiant surface. As a consequence, the pipe is split into various circuits based on the ratio between the radiant surface area and the maximum area per circuit. The default value is 10 m² when nothing is specified.
 
-See also the [mathematical basic for the system](../20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md).
+See also the [mathematical basis for the system](../20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md).
 
  

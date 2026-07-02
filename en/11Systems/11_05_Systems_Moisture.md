@@ -11,7 +11,7 @@ The software's [standard model](../20The_Mathematical_basis/20_04_Moisture_balan
 </figure>
 
 
-It is possible to select among two different functions for moisture liberation in the thermal zone. At the top of the dialog the user can choose a steam humidification, which is independent of the indoor climate condition (temperature and moisture content) of the thermal zone. At the bottom of the dialog it is possible (from BSim version 2002) to choose a moisture liberation analogue to the one found from a free water surface, i.e. in an indoor swimming pool. Only one of the two moisture liberation functions can be active.
+It is possible to select among two different functions for moisture liberation in the thermal zone. At the top of the dialog the user can choose steam humidification, which is independent of the indoor climate condition (temperature and moisture content) of the thermal zone. At the bottom of the dialog it is possible (from BSim version 2002) to choose a moisture liberation analogue to the one found from a free water surface, i.e. in an indoor swimming pool. Only one of the two moisture liberation functions can be active.
 
 *Load*
 
@@ -19,11 +19,11 @@ It is possible to select among two different functions for moisture liberation i
 
 *Swimming Bath* (from BSim version 3.2.7.25)
 
-*   Two functions, *Shah* or *Smith* can determine the moisture liberation. Both functions depend among others on the air velocity atthe water surface. When choosing *Disabled* one collective moisture liberation will be used as described under *Load.*
+*   Two functions, *Shah* or *Smith*, can determine the moisture liberation. Both functions depend, among others, on the air velocity at the water surface. When choosing *Disabled*, one collective moisture liberation will be used as described under *Load.*
 
 *   The air velocity parallel to the water surface is given as the average value over the time definition. The value is corrected according to the selected day profile. The air velocity is not used in the Shah model.
 
-*   Under Cons. *Representing the Water* the construction representing the water surface must be selected.
+*   Under Cons. *Representing the Water*, the construction representing the water surface must be selected.
 
 The moisture liberation is calculated according to the equations below:
 
@@ -38,7 +38,7 @@ The moisture liberation is calculated according to the equations below:
 
 
 
-For the number of persons N is used the number of persons defined for the thermal zone under [PeopleLoad](11_13_Systems_Persons.md).
+For the number of persons N, the number of persons defined for the thermal zone under [PeopleLoad](11_13_Systems_Persons.md) is used.
 
 where:
 
@@ -56,7 +56,7 @@ where:
 
  
 
-The moisture and air balances are described in greater detail in [the mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md.md).
+The moisture and air balances are described in greater detail in [the mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md).
 
 [The schedule](11_02_Systems_schedule.md) defines connected sets of control and [time definition](11_17_Systems_Time.md). "Moisture load" control is of the [day profile](11_04_Systems_DayProfile.md) type, with the variation over the hours of the day being specified in percent.
 

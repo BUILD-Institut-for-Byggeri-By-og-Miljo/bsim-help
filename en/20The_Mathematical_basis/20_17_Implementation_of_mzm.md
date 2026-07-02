@@ -2,11 +2,11 @@
 
 # Implementation of mzm
 
-Implementation of mzm in BSim is described in this part of the documentation. The description starts with a section on making models in BSim that utilizes the multi-zone model for natural ventilation. Take-off is made from the single-zone model with an explanation of the important issues to take into account when creating a building model. Then there is a presentation of the [new issues specially related to mzm](20_12_Natural_ventilation.md).
+Implementation of mzm in BSim is described in this part of the documentation. The description starts with a section on making models in BSim that utilize the multi-zone model for natural ventilation. Take-off is made from the single-zone model with an explanation of the important issues to take into account when creating a building model. Then there is a presentation of the [new issues specially related to mzm](20_12_Natural_ventilation.md).
 
-After presenting the model making there is a description of how the equation system is set up, including generation of spanning trees and loops and the making of calculation matrices .
+After presenting the model making, there is a description of how the equation system is set up, including generation of spanning trees and loops and the making of calculation matrices.
 
-This part ends with a description of how the equation system are to be solved.
+This part ends with a description of how the equation system is to be solved.
 
  
 
@@ -30,19 +30,19 @@ Additional issues compared to the single zone model is:
 
 **<span id="windprofile">Choice of wind profile</span>**
 
-At building level (Site) a wind profile have to be selected. This is used to calculate the wind velocity in other heights than 10 meters, where the wind velocity in weather data is being measured.
+At building level (Site) a wind profile has to be selected. This is used to calculate the wind velocity at heights other than 10 meters, where the wind velocity in weather data is measured.
 
 According to British Standard the wind velocity is calculated as:
 
 $$ V_h = V_ {10} \cdot k \cdot h^{\alpha} \tag{1} $$
 
-hvor: 
+where: 
 
-*V<sub>h</sub>* is the wind velocity in height h [m/s]   
+*V<sub>h</sub>* is the wind velocity at height h [m/s]   
 *V<sub>10</sub>* is the measured wind velocity 10 meters above the free terrain [m/s]   
 *h* is the actual height above terrain [m]   
-*k* is a factor dependant on the terrain, <a href="#table1">Table 1</a> [-]   
-*α* is an exponent, dependant in the terrain, <a href="#table1">Table 1</a> [-]
+*k* is a factor dependent on the terrain, <a href="#table1">Table 1</a> [-]   
+*α* is an exponent dependent on the terrain, <a href="#table1">Table 1</a> [-]
 
 
 | Terrain type                          | k    | α    |
@@ -56,7 +56,7 @@ hvor: 
 
 **<span id="thermalzones">Choice of thermal zones</span>**
 
-Using the single zone model it is necessary to consider which of the rooms in the building that must be part of the thermal zones. In a normal thermal simulation rooms with the same thermal characteristics can be merged together in the same thermal zone. This is for instance the case for offices having the same orientation, as shown with the blue circles in <a href="#figure1">Figure 1</a>. Modeling cross ventilation will as a contract require division of the rooms into thermal zones as indicated by the red circles.
+Using the single zone model it is necessary to consider which rooms in the building must be part of the thermal zones. In a normal thermal simulation, rooms with the same thermal characteristics can be merged together in the same thermal zone. This is, for instance, the case for offices having the same orientation, as shown with the blue circles in <a href="#figure1">Figure 1</a>. Modeling cross ventilation will, as a rule, require division of the rooms into thermal zones as indicated by the red circles.
 
 <div id="center_img">
 <figure id="figure1">
@@ -67,13 +67,13 @@ Using the single zone model it is necessary to consider which of the rooms in th
 
 **<span id="openings">Definitions on openings</span>**
 
-To be able to calculate the natural ventilation it is necessary to define the openings that air flows through. BSim have two types of openings; openings and WinDoor's. Openings are holes in the constructions and can not be controlled - they are always fully open. WinDoor's covers windows and doors, and the degree of opening for these openings can be controlled.
+To be able to calculate the natural ventilation it is necessary to define the openings that air flows through. BSim has two types of openings: openings and WinDoor's. Openings are holes in the constructions and cannot be controlled—they are always fully open. WinDoor's cover windows and doors, and the degree of opening for these openings can be controlled.
 
-As a default, openings are activated flow elements, while WinDoor's are not. The dialogs for giving constants and activation of WinDoor's are shown in F. Both types of openings are modeled by means of discharge coefficients, and must thus have a Cd-value.
+By default, openings are activated flow elements, while WinDoor's are not. The dialogs for giving constants and activation of WinDoor's are shown in F. Both types of openings are modeled by means of discharge coefficients, and must thus have a Cd-value.
 
-For WinDoors the open-able fraction of the WinDoor have to be defined, and in which relative height the centre of this open-able fraction is located. A WinDoor have a limited number of degrees of opening, which cen be specified by the user. If 10 degrees of opening is being used, the active part of the WinDoor can thus be 0, 10, 20, … % of the open-able area.
+For WinDoors the open-able fraction of the WinDoor has to be defined, and the relative height of the centre of this open-able fraction must be specified. A WinDoor has a limited number of degrees of opening, which can be specified by the user. If 10 degrees of opening are used, the active part of the WinDoor can thus be 0, 10, 20, … % of the open-able area.
 
-Only openings in the thermal envelope need to be defined as the single zone model assumes that all rooms in the same thermal zone is connected in one single open space. It must therefore be considered if there are flow resistances between the individual rooms of the thermal zone as these are not part of the simulations. Resistances from internal openings can be added at the openings of the thermal envelope.
+Only openings in the thermal envelope need to be defined as the single zone model assumes that all rooms in the same thermal zone are connected in a single open space. It must therefore be considered whether there are flow resistances between the individual rooms of the thermal zone, as these are not part of the simulations. Resistances from internal openings can be added at the openings of the thermal envelope.
 
 <div id="center_img">
 <figure id="figure2">
@@ -104,9 +104,9 @@ CP-values is defined for three different degree of wind exposure due to the surr
 
 **<span id="controlventilation">Control of natural ventilation</span>**
 
-The single zone model is activated from by using the system [Venting](../11Systems/11_18_Systems_Venting.md). [Venting](../11Systems/11_18_Systems_Venting.md) is a natural cooling system and will only come into action if the temperature in the thermal zone that is being used as the controlling zone exceeds the defined set-point.
+The single zone model is activated by using the system [Venting](../11Systems/11_18_Systems_Venting.md). [Venting](../11Systems/11_18_Systems_Venting.md) is a natural cooling system and will only come into action if the temperature in the thermal zone used as the controlling zone exceeds the defined set-point.
 
-If there is need for cooling, BSim calculates how much outside air is needed and chooses the degree of opening that provides an air flow closest possible to the needed air-flow. The control works in the same way if [*Venting* ](../11Systems/11_18_Systems_Venting.md)is controlled according to a CO<sub>2</sub> set-point.
+If cooling is needed, BSim calculates how much outside air is required and chooses the degree of opening that provides an airflow closest possible to the needed airflow. The control works in the same way if [*Venting*](../11Systems/11_18_Systems_Venting.md) is controlled according to a CO<sub>2</sub> set-point.
 
  
 
@@ -116,7 +116,7 @@ In this section issues that have changed in a model where mzm is being used comp
 
 **Thermal zones**
 
-By implementing the multi-zone model division into thermal zones can by advantage be made according to the boue circles shown in <a href="#figure1">Figure 1</a>, which is the thermal most correct. If it was possible to give CP-values for each opening, it would be necessary to divide all rooms into one thermal zone, as shown in <a href="#figure4">Figure 4</a>.
+By implementing the multi-zone model, division into thermal zones can advantageously be made according to the blue circles shown in <a href="#figure1">Figure 1</a>, which is the most correct thermally. If it were possible to give CP-values for each opening, it would be necessary to divide all rooms into one thermal zone, as shown in <a href="#figure4">Figure 4</a>.
 
 <div id="center_img">
 <figure id="figure4">
@@ -135,9 +135,9 @@ In this section there is a description of changes in BSim (tsbi5) to make it pos
 
 #### **Iterations**
 
-The largest singe change is introduction of iterations in tsbi5, which was not needed earlier.
+The largest single change is the introduction of iterations in tsbi5, which was not needed earlier.
 
-It has been necessary to implement three iterations in conjunction to:
+It has been necessary to implement three iterations in conjunction with:
 
 *   Multi-zone model
 
@@ -145,9 +145,9 @@ It has been necessary to implement three iterations in conjunction to:
 
 *   Control of WinDoor's
 
-Implementation of iterations means that the user needs to (should) decide one's attitude to the convergence criteria and the maximum number of allowed iterations.
+Implementation of iterations means that the user needs to decide on the convergence criteria and the maximum number of allowed iterations.
 
-The dialog box that define these issues are shown in <a href="#figure5">Figure 5</a>. For the two first iterations a convergence criteria and a maximum number of iterations must be given. This will ensure that the simulation do run wild. In the third iteration, control of the WinDoor's, the maximum number of opening fractions plus additional opening control to determine max number of iterations. The three iterations are described in section [Control of mzm](20_18_Control_systems_in_the_multi-zone_model.md).
+The dialog box that defines these issues is shown in <a href="#figure5">Figure 5</a>. For the first two iterations, a convergence criterion and a maximum number of iterations must be given. This will ensure that the simulation does not run wild. In the third iteration, control of the WinDoor's, the maximum number of opening fractions and additional opening control determine the maximum number of iterations. The three iterations are described in section [Control of mzm](20_18_Control_systems_in_the_multi-zone_model.md).
 
 <div id="center_img">
 <figure id="figure5">
@@ -158,9 +158,9 @@ The dialog box that define these issues are shown in <a href="#figure5">Figure 5
 
 **Imbalance in mechanical ventilation**
 
-Mzm takes into account imbalance in the mechanical ventilation air in such a way that differences between inlet and outlet air is included in the mass balance of mzm.
+Mzm takes into account imbalance in the mechanical ventilation air in such a way that differences between inlet and outlet air are included in the mass balance of mzm.
 
-This means that exhaust ventilation, eg from toilets and kitchens will be handled correctly if mzm is activate for the thermal zones in question. The change compared to the single zone model, is that air inlet to a zone do not need to be ambient air. This means that air to a thermal zone with exhaust ventilation will come from one or more adjacent thermal zones and be transported through the building before it ends in the exhaust ventilation duct.
+This means that exhaust ventilation, e.g. from toilets and kitchens, will be handled correctly if mzm is activated for the thermal zones in question. The change compared to the single zone model is that air inlet to a zone does not need to be ambient air. This means that air to a thermal zone with exhaust ventilation can come from one or more adjacent thermal zones and be transported through the building before it ends in the exhaust ventilation duct.
 
 **Adaptations in the source code**
 
@@ -179,7 +179,7 @@ In this section there is a description of how the loops are made. The section ha
 *   <a href="#IndependentLoops">Making of independent loops</a>
 
 **<span id="Identification">Identification of nodes and arches</span>**
-In this section there is a description on how nodes and arches are made based in the BSim model. The purpose for making nodes and arches is to connect the thermal zones through openings where mzm can be activated.
+In this section there is a description of how nodes and arches are made based on the BSim model. The purpose of making nodes and arches is to connect the thermal zones through openings where mzm can be activated.
 
 In the making of nodes and arches all openings and WinDoor's with an area larger than 0 are taken into consideration.
 
@@ -212,10 +212,10 @@ The following arches are made:
 *   between zone nodes and the internal node of all opening nodes in the zone
 
 **Lists with nodes and arches**  
-Two lists are made, one with all nodes and one with all arches. The lists can be shown by clicking "check" from the "[Simulation](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)" tab of tsbi5. The lists are called "Nodes" "Arches".
+Two lists are made, one with all nodes and one with all arches. The lists can be shown by clicking "check" from the "[Simulation](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)" tab of tsbi5. The lists are called "Nodes" and "Arches".
 
 **<span id="SpanningTree">Making of a spanning tree</span>**
-Making of a spanning tree must include those zones that are connected to the ambient, eventually via other adjacent zones. This means that air-flow between zones can not be calculated if they are are not connected to the ambient, see <a href="#figure7">Figure 7</a>.
+Making of a spanning tree must include those zones that are connected to the ambient, eventually via other adjacent zones. This means that air-flow between zones cannot be calculated if they are not connected to the ambient, see <a href="#figure7">Figure 7</a>.
 
 <div id="center_img">
 <figure id="figure7">
@@ -224,7 +224,7 @@ Making of a spanning tree must include those zones that are connected to the amb
 </figure>
 </div>
 
-By making a spanning tree it has been chosen always to start in the node for the ambient. The tree is made from the following rules according to ([Savić et al. 1996](20_28_Literature.md)), called "depth-first-search". N is the number of nodes and P is the number of pipes (arches). The calculation of the spanning tree can be explained as follows:
+By making a spanning tree it has been chosen always to start at the node for the ambient. The tree is made from the following rules according to ([Savić et al. 1996](20_28_Literature.md)), called "depth-first-search". N is the number of nodes and P is the number of pipes (arches). The calculation of the spanning tree can be explained as follows:
 <br>
 
 
@@ -274,7 +274,7 @@ By making a spanning tree it has been chosen always to start in the node for the
 
 
 
-*The lists A<sub>t</sub> and C are saved and a list with arches not used in the spanning tree, A<sub>ct</sub>, a so-called ”co-tree”. This list are used by making of the loops.*
+The lists A<sub>t</sub> and C are saved and a list with arches not used in the spanning tree, A<sub>ct</sub>, a so-called "co-tree". This list is used for making the loops.
 
  
 
@@ -311,13 +311,13 @@ Calculation routines are:
 
 **Routines ensuring correct creation of spanning tree**
 
-A reduction of the lists are made so they only contains nodes and arches that belongs to multi-zones. Those zone nodes which was used in the creation of the spanning tree are multi-zones and the remaining zones are not. The lists "Nodes" and "Arches" are reduced so they only contains nodes from multi-zones, the ambient and arches connected to openings between multi-zones and the ambient.
+A reduction of the lists is made so they only contain nodes and arches that belong to multi-zones. Those zone nodes that were used in the creation of the spanning tree are multi-zones and the remaining zones are not. The lists "Nodes" and "Arches" are reduced so they only contain nodes from multi-zones, the ambient, and arches connected to openings between multi-zones and the ambient.
 
-If all arches have been used in the creation of the tree, the model will not contain any lops and the mzm will thus not be activated. This situation complies to the case where arch no. 1, 3, 6 and 7 are missing in <a href="#figure8">Figure 8</a> and it will thus be impossible to create a loop.
+If all arches have been used in the creation of the tree, the model will not contain any loops and the mzm will thus not be activated. This situation corresponds to the case where arch no. 1, 3, 6 and 7 are missing in <a href="#figure8">Figure 8</a>, making it impossible to create a loop.
 
 #### **Creation of loops**
 
-Creation of loops is made from the "breath-first-search" rules (Savić et al. 1996). The routines for creation of the loops is explained in the following:
+Creation of loops is made from the "breadth-first-search" rules (Savić et al. 1996). The routines for creation of the loops are explained in the following:
 
 
 
@@ -358,15 +358,15 @@ A list with all loops is saved in the variable L.
 
 The number of loops to be made is equal to the number of arches in Act. For each arch in Act a loop with the least possible number of arches is made. The loop is made solely by using arches from the spanning tree. This means that no other arch is part of Act.
 
-The way tings are made id described below. With take-off from <a href="#figure8">Figure 8</a>, (f) the description of a loop for arch no. 1 is made:
+The way things are made is described below. With take-off from <a href="#figure8">Figure 8</a>, (f) the description of a loop for arch no. 1 is made:
 
 
 
 1.  Start with any arch from *A<sub>ct</sub>* (g1)
 
-2.  Chose one of the nodes of the arch (k1)
+2.  Choose one of the nodes of the arch (k1)
 
-3.  Find all arches connecting node k1 and that belongs to the spanning tree (g2). Number them sequentially (#1)
+3.  Find all arches connecting node k1 that belong to the spanning tree (g2). Number them sequentially (#1)
 
 4.  Repeat point 2 and 3 until the other node from the starting arch is found (k2)   
 
@@ -376,9 +376,9 @@ The way tings are made id described below. With take-off from <a href="#figure8"
 
     3.  k2, k6 ⇒ Node k2 found
 
-5.  The end-points of the arch is found by going backwards through the lists with the arches.   
+5.  The end-points of the arch are found by going backwards through the lists with the arches.   
 
-    1.  From node k2 chose arches with #3 that belongs to node k2 ⇒ g4
+    1.  From node k2 choose arches with #3 that belong to node k2 ⇒ g4
 
     2.  From node k4 chose arches with #2 that belongs to node k4 ⇒ g5
 
@@ -394,25 +394,25 @@ As all possible paths are used every time at every node, it will always be the l
 
 **Making of overriding loop system**
 
-At the beginning of the simulation an the overriding loop system is made - the loop system that exist when all openings are open and all multi-zones are activated. This system constitutes the starting point for making loop systems during the simulation.
+At the beginning of the simulation the overriding loop system is made—the loop system that exists when all openings are open and all multi-zones are activated. This system constitutes the starting point for making loop systems during the simulation.
 
 **Making of loop-system on hourly level**
 
-At the start of every hour a loop system is made that is based on those zones and openings that has been activated for the actual hour. The making of the loop system is done from the overriding loop system. This means that only zones which can be handled by mzm are treated.
+At the start of every hour a loop system is made that is based on those zones and openings that have been activated for the actual hour. The making of the loop system is done from the overriding loop system. This means that only zones which can be handled by mzm are treated.
 
 **Making of loop systems at time step level**
 
 At time step level WinDoor's can shift status from open to closed or the opposite way due to the control of the openings. In case of shifts, the loop system is made again.
 
-The possibility of thermal zones shifting category are also taken into account, eg a multi-zone can become a single-zone by closing of openings.
+The possibility of thermal zones shifting category is also taken into account, e.g. a multi-zone can become a single-zone by closing openings.
 
  
 
 ### **Making of calculation matrices**
 
-In this section a description of creation of the calculation matrices is given. The calculation matrices is made from the actual loop system, the characteristics of zones and openings, and the driving pressure from wind and temperature gradients.
+In this section a description of the creation of the calculation matrices is given. The calculation matrices are made from the actual loop system, the characteristics of zones and openings, and the driving pressure from wind and temperature gradients.
 
-By making the matrices a simplified version of the loops are being used. The arches that connect zone nodes with openings gives no resistance and are therefore excluded from the matrices, see <a href="#figure9">Figure 9</a>.
+By making the matrices, a simplified version of the loops is used. The arches that connect zone nodes with openings give no resistance and are therefore excluded from the matrices, see <a href="#figure9">Figure 9</a>.
 
 The calculation matrices are made with air flows as the unknown factor. This is most convenient as this is used in the calculation of the resistance through the individual opening and takes part in the preservation of the mass balance.
 
@@ -473,7 +473,7 @@ The collective equation system consists of two parts. One part for loops ensurin
 
 $$ [M_1][V_1] = [V_2] \tag{6} $$
 
-hvor:
+where:
 
 *M* is a matrix  
 *V* is a vector

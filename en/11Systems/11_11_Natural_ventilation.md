@@ -3,7 +3,7 @@
 # Natural Ventilation, System
 *The module to simulate natural ventilation using the multi-zone model (mzm) is for the time being in beta test and results obtained using this module must, as always, be looked upon with natural skepticism.*
 
-*Any feed-back to the module given at bsim-support@sbi.dk is appreciated!*
+*Any feedback to the module given at bsim-support@sbi.dk is appreciated!*
 
  
 
@@ -19,7 +19,7 @@ Simulation of natural ventilation using the module for BSim requires input to th
 *   <a href="#ventingctrl">VentingCtrl</a>
 *   <a href="#newresult">New result</a>
 
-Natural ventilation can be activated on thermal zone level.
+Natural ventilation can be activated at the thermal zone level.
 
 In the simulations only WinDoors/Openings facing the ambient are taken into account. The most suitable model can be identified automatically by BSim.
 
@@ -48,7 +48,7 @@ Natural ventilation is implemented as a special kind of Venting (airing) in an e
 **<span id="finish">Finish</span>**
 
 <figure id="center_img">
-<img src="./assets/finish_property.gif" alt="In the Finish Property dialog, simuleringen of natural ventilation is connected to 'Wind Exposure'.">
+<img src="./assets/finish_property.gif" alt="In the Finish Property dialog, simulation of natural ventilation is connected to 'Wind Exposure'.">
 <figcaption>In the Finish Property dialog, simulation of natural ventilation is connected to 'Wind Exposure'.</figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ Natural ventilation is implemented as a special kind of Venting (airing) in an e
 
 *   *Cd:* The air [discharge coefficient Cd](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) is found according to [Direction 202, page 70-71](../20The_Mathematical_basis/20_28_Literature.md). Typical values range from 0.62 to 0.70.
 
-*   *[Ka](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md):* This parameter is being used for calculation of the penetration depth of outside air in a room and thus the part of the ceiling that is directly influenced by outdoor air entering the room through a opening.
+*   *[Ka](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md):* This parameter is used to calculate the penetration depth of outside air in a room and thus the part of the ceiling that is directly influenced by outdoor air entering the room through an opening.
 
 In the simulations the full (geometrical) area of the opening is used.
 
@@ -87,13 +87,13 @@ In the simulations the full (geometrical) area of the opening is used.
 
 *   *Cnt:* The center of the opening (0-1) is located in the distance Cnt*H above the lower edge of the window, where H is the height of the window. The width of the opening is assumed to be equal to the width of the window.
 
-*   *Afrac:* The fraction of the actual window area that can be opened. If *Afrac* = 0 the window can not be opened, and can thus not contribute to the natural ventilation of the thermal zone.
+*   *Afrac:* The fraction of the actual window area that can be opened. If *Afrac* = 0 the window cannot be opened, and can thus not contribute to the natural ventilation of the thermal zone.
 
     *   The sketch at the right illustrates BSim's perception of the opening and the input data.
 
 *   *Ka:* This [parameter](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) is being used for calculation of the penetration depth of outside air in a room and thus the part of the ceiling that is directly influenced by outdoor air entering the room through a opening.
 
-As wind pressure coefficients - that depends on the orientation and the wind direction of the openings - values are used according to [Direction 202, Appendix A, page 109-110.](../20The_Mathematical_basis/20_28_Literature.md)
+As wind pressure coefficients depend on the orientation and wind direction of the openings, values are used according to [Direction 202, Appendix A, page 109-110.](../20The_Mathematical_basis/20_28_Literature.md)
 
  
 
@@ -119,9 +119,9 @@ As wind pressure coefficients - that depends on the orientation and the wind dir
 
     *   <span style="text-decoration: underline;">*Cross:*</span> Openings in two faces in same level (cross ventilation).
 
-    *   *Combined Two Levels*: Openings in more levels in two non- parallel faces.
+    *   *Combined Two Levels*: Openings in more levels in two non-parallel faces.
 
-    *   *Combined:* Openi*ngs* in more levels in more than two faces (combined bouncy and cross ventilation).
+    *   *Combined:* Openings in more levels in more than two faces (combined buoyancy and cross ventilation).
 
 **<span id="ventingctrl">VentingCtrl</span>**
 
@@ -137,7 +137,7 @@ As wind pressure coefficients - that depends on the orientation and the wind dir
 
 *   *Factor:* Part of the maximal air flow, that can come into action.
 
-#### **<span id="newresult">New parametres in the result log</span>**
+#### **<span id="newresult">New parameters in the result log</span>**
 
 **Under thermal zone/Air Balance:**
 

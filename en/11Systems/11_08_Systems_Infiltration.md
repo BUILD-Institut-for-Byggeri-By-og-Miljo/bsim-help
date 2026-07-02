@@ -35,7 +35,7 @@ Infiltration is always calculated as an outdoor air flow into the thermal zone. 
 
 *WindFactor (c<sub>v</sub> )* specifies the dependence of the air change on wind. The equation assumes that the air change is proportional to the wind speed. In the case of small, impervious buildings in a sheltered location the factor will be around 0.05 - 0.1, whereas for large, exposed buildings it can be up to 0.4.
 
-At the right of the input fields, under the buttons two information fields shows the infiltration for a wind speed of 4 m/s and a temperature difference between in and out of 4 respectively 10 °C.
+At the right of the input fields, under the buttons, two information fields show the infiltration for a wind speed of 4 m/s and a temperature difference between in and out of 4 °C and 10 °C, respectively.
 
 [The schedule](11_02_Systems_schedule.md) defines connected sets of control and time definition. Several schedules can be specified, making it possible to define different day variations at different times of the year. It can normally be assumed that the air change from infiltration is greatest when the building is in use, i.e. at times when people are in the building, external doors are being opened and closed and internal doors are open. Infiltration control is of the [day profile](11_04_Systems_DayProfile.md) type.
 

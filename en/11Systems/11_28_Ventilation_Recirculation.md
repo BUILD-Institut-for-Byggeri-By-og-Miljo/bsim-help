@@ -12,9 +12,9 @@
 
 *   *Min Return Ratio* is the minimum share of re-circulated air in the ventilation system.
 *   *Max Return Ratio* is the maximum share of re-circulated air in the ventilation system.
-*   *Setp CO2* is the set-point for the CO<sub>2</sub>-level in the zone, which the ventilation system should try to meet. If *Setp CO2* = 0 the system do not control towards a certain CO<sub>2</sub>-level.
+*   *Setp CO2* is the set-point for the CO<sub>2</sub>-level in the zone, which the ventilation system should try to meet. If *Setp CO2* = 0 the system does not control towards a certain CO<sub>2</sub>-level.
 *   *Setp Humid* is the set-point for the moisture content in the indoor air, which the ventilation system should try to meet. If the moisture content of the indoor air is below the set-point, the humidifier starts to bring the humidity up to the desired level. If *Setp Humid* = 0 the system is not controlled towards a minimum humidity level of the indoor air.
-*   *Setp Dehumid* is the set-point for the moisture content in the indoor air, which the ventilation system should try to meet. If the moisture content of the indoor air is above the set-point, the de-humidifier starts to bring the humidity down to the desired level. If *Setp Humid* = 0 the system is not controlled towards a maximum humidity level of the indoor air.
+*   *Setp Dehumid* is the set-point for the moisture content in the indoor air, which the ventilation system should try to meet. If the moisture content of the indoor air is above the set-point, the de-humidifier starts to bring the humidity down to the desired level. If *Setp Dehumid* = 0 the system is not controlled towards a maximum humidity level of the indoor air.
 *   *Min Inlet Temp* is the lowest acceptable temperature of the inlet air to the zone.
 *   *Max Inlet Temp* is the highest acceptable temperature of the inlet air to the zone.
 *   *Setp Temp* is the desired operative temperature of the zone.

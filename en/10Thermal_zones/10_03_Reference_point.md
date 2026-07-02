@@ -9,8 +9,8 @@ The actual reference point is shown in SimView as a <span id="pink_text"> X</spa
 
 
 <figure id="center_img">
-<img src="./assets/show_ref_point.gif" alt="The reference point is shown as a X in SimView.">
-<figcaption>The reference point is shown as a <span id="pink_text"> X </span> in SimView.</figcaption>
+<img src="./assets/show_ref_point.gif" alt="The reference point is shown as an X in SimView.">
+<figcaption>The reference point is shown as an <span id="pink_text"> X </span> in SimView.</figcaption>
 </figure>
 
 
@@ -23,7 +23,7 @@ Reference points are made for each separate room in the building model by right-
 <figcaption>Reference points are created by right-clicking the room and selecting Ref Points.</figcaption>
 </figure>
 
-Doing this will open a dialog with information about the coordinates for the actual reference point. Clicking New will create a new reference point with the coordinates for the actual reference point. REMEMBER to attribute a good name to the new reference point making it easy to identify it when needed in the control strategies for systems.
+Doing this opens a dialog with information about the coordinates for the actual reference point. Clicking New will create a new reference point with the coordinates for the actual reference point. Remember to give the new reference point a good name so it is easy to identify when needed in the control strategies for systems.
 
 
 
@@ -36,10 +36,10 @@ Doing this will open a dialog with information about the coordinates for the act
     *   X: X-coordinate of the reference point.
     *   Y: Y-coordinate of the reference point.
     *   Z: Z-coordinate of the reference point.
-*   *Normal to plane*: Defines a vector perpendicular to a plane in the room, pointing in the positive direction at which the reference point is located. A normal vector with the values 0,0,1 represents a horizontal plane where the reference point looks upwards.
-    *   *dx:* X-coordinate the normal vector to the reference plane.
-    *   *dy:* Y-coordinate the normal vector to the reference plane.
-    *   *dz:* Z-coordinate the normal vector to the reference plane.
+*   *Normal to plane*: Defines a vector perpendicular to a plane in the room, pointing in the positive direction at which the reference point is located. A normal vector with the values 0,0,1 represent a horizontal plane where the reference point looks upwards.
+    *   *dx:* X-coordinate of the normal vector to the reference plane.
+    *   *dy:* Y-coordinate of the normal vector to the reference plane.
+    *   *dz:* Z-coordinate of the normal vector to the reference plane.
 *   *New:* Creates a new reference point with "0" for all values, except dz.
 *   *Copy:* Creates a new reference point as a copy of the current reference point.
 *   *Delete:* Deletes the current reference point from the model.   

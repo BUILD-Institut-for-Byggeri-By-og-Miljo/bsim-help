@@ -6,7 +6,7 @@
 Faces do not only consist of non-translucent parts, they also include openings, windows and doors. A new term has been introduced in *BSim*. This term covers both windows and doors, as they behave the same in simulation contexts. Openings are dealt with under the same heading because their geometric position is defined in the same way and a *WinDoor* is basically added in an opening.
 
 
-The position in a face is chosen by first selecting a corner point (*vertex*) in the face – normally the point in the face with the smallest x or y-coordinate in the direction of the face. A vertex is selected by left-clicking a vertex in the 3D-view while pressing the Shift--button. Alternatively you can double left-click, without activating the Shift-button. This point becomes the origin in a temporary, local system of coordinates in which the opening or WinDoor is positioned. A selected point is displayed as a black square with a black frame around it. An *edge* – normally the bottom of the face – also has to be selected as the local x-axis from which to define the position. Selection of an edge is made similar to the procedure described above for a vertex. A selected edge is displayed as a green line.
+The position in a face is chosen by first selecting a corner point (*vertex*) in the face – normally the point in the face with the smallest x or y-coordinate in the direction of the face. A vertex is selected by left-clicking a vertex in the 3D view while pressing the Shift key. Alternatively you can double left-click, without activating the Shift key. This point becomes the origin in a temporary, local system of coordinates in which the opening or WinDoor is positioned. A selected point is displayed as a black square with a black frame around it. An *edge* – normally the bottom of the face – also has to be selected as the local x-axis from which to define the position. Selection of an edge is made similar to the procedure described above for a vertex. A selected edge is displayed as a green line.
 
 Then right-click in the geometric view and select the *Add Opening* or *Add WinDoor* menu option to open the dialog box for defining the position in the face.
 
@@ -37,7 +37,7 @@ If a WinDoor is to be placed in the center of a surface with the same distance t
 
 The geometric description of a WinDoor (frames, bars, overhang and side fins together with connected systems - shutters and solar shading) is entered by right-clicking the object in the tree summary, which opens the [Windoor Property](../09SimView/09_07_WinDoor_Property.md) dialog box.
 
-A specific window is attached to the model by dragging it from the [database](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md)to the right place in the model's tree summary.
+A specific window is attached to the model by dragging it from the [database](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md) to the right place in the model's tree summary.
 
 Systems connected to WinDoors:
 

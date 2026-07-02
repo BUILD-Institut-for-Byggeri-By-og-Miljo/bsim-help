@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Moisture balance for a zone
-The moisture balance for a zone is calculated according to the same principle as for the zone's heat balance, although slightly fewer sources are reckoned with for moisture exchange. The zone's moisture contribution arises from people, other moisture loads in the zone, as well as the moisture contribution which can be in connection with three forms of air induction: [infiltration](../11Systems/11_08_Systems_Infiltration.md), [venting](../11Systems/11_18_Systems_Venting.md) and (mechanical) [ventilation](../11Systems/11_21_Systems_Ventilation.md) and finally, the moisture contribution which can arise by induction of air from neighboring zones, [mixing](../11Systems/11_10_systems_mixing.md). In the simple moisture model, dehumidification of the room by condensation in the zone is not reckoned with, neither on cold surfaces of WinDoors or constructions nor on the surface of the cooling coil. These transport functions can be handled in a[ detailed model](20_05_Detailed_Moisture_balance.md) for moisture transport in the construction available in BSim from version 2002.
+The moisture balance for a zone is calculated according to the same principle as for the zone's heat balance, although slightly fewer sources are reckoned with for moisture exchange. The zone's moisture contribution arises from people, other moisture loads in the zone, and from three forms of air induction: [infiltration](../11Systems/11_08_Systems_Infiltration.md), [venting](../11Systems/11_18_Systems_Venting.md), and (mechanical) [ventilation](../11Systems/11_21_Systems_Ventilation.md). Finally, moisture can also be induced from neighboring zones by [mixing](../11Systems/11_10_systems_mixing.md). In the simple moisture model, dehumidification of the room by condensation in the zone is not reckoned with, neither on cold surfaces of WinDoors or constructions nor on the surface of the cooling coil. These transport functions can be handled in a [detailed model](20_05_Detailed_Moisture_balance.md) for moisture transport in the construction available in BSim from version 2002.
 
 The most significant difference, seen in comparison with the principle for setting up the heat balance, is the fact that no consideration is made regarding the exchange of moisture with the constructions' materials due to their hygroscopic properties.
 
@@ -9,7 +9,7 @@ The most significant difference, seen in comparison with the principle for setti
 
 #### **Moisture production in the zone**
 
-Moisture induction from people and different forms of humidification is gathered in one parameter, G<sub>air,load</sub>, which indicates the mass of aqueous vapor induced to the air per time unit (kg/h). This volume is controlled by the moisture producing systems' schedules and controls.
+Moisture induction from people and different forms of humidification is gathered in one parameter, G<sub>air,load</sub>, which indicates the mass of aqueous vapor induced to the air per time unit (kg/h). This mass is controlled by the moisture-producing systems' schedules and controls.
 
  
 
@@ -21,7 +21,7 @@ $$
 G_{air, vent} = n_{ventin} \cdot V \cdot \rho_{air} \cdot (x_{ventin} - x_{air}) \tag{1} 
 $$    
 
-*G<sub>air,load</sub>* is the heat induction during air exchange with outside air, kg/h
+*G<sub>air,load</sub>* is the moisture induction during air exchange with outside air, kg/h
 
 *n<sub>ventin</sub>* is the air exchange by supply air ventilation (inlet), 1/h
 

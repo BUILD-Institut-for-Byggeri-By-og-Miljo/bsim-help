@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # SimDB - BuildingMaterial, Glazing
-The *Glazing* and [*UserDefined*](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)tabs belong together and contain information concerned with transparent materials that are used as part of a WinDoor and form part of simulations with *tsbi5* or *Bv98*. These tabs are **only** displayed for materials from [SfB](../24Miscellaneous/24_39_SfB_in_BSim.md) material group "a".
+The *Glazing* and [*UserDefined*](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md) tabs belong together and contain information concerned with transparent materials that are used as part of a WinDoor and form part of simulations with *tsbi5* or *Bv98*. These tabs are **only** displayed for materials from [SfB](../24Miscellaneous/24_39_SfB_in_BSim.md) material group "a".
 
 <figure id="center_img">
 <img src="./assets/dbglazing.gif" alt="Data for the glass part of a WinDoor (Edit Material | Glazing). At the bottom the curve for the angle of incidence dependence of the heat and light transmittance.">

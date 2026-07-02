@@ -3,10 +3,9 @@
 # The Kappa Model, input data
 
 
- 
+Input data for the Kappa Model is defined for the thermal zone where it is to be used. A [value](12_03_The_Kappa_Model_Model_description.md) of κ must be defined, together with the height above the floor at which the operative temperature in the thermal zone is to be calculated.
 
-Input data for the Kappa Model is defined for the thermal zone where it is to be used. A [value](12_03_The_Kappa_Model_Model_description.md) must be defined for kappa and a height above the floor at which the operative temperature in the thermal zone is to be calculated.
-
+A value 
 
 <figure id="center_img">
 <img src="./assets/tz_property.gif" alt="Input data for the Kappa Model is specified as a value of Kappa, a height above the floor (SensorHgt) at which the operative temperature is to be calculated and the share (TiFraction) of indoor air temperature used in calculating the operative temperature.">

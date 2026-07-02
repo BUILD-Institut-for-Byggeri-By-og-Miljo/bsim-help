@@ -4,8 +4,8 @@
 
 The *Simulation* tab has two buttons – one to start the simulation and one to stop it. It also contains a graph, which displays the outdoor temperature and the operative temperature in the model's *thermal zones* continuously.
 
-The order in which the thermal zones are simulated are given by their order in the tree (top-down). It is possible to change the simulation order of the thermal zones by re-organizing (drag and drop) the order in the tree to the desired order.   
-This may be important if an air-flow (mixing) is to be simulated from one thermal zone to an other and then on to a third. If the temperature in the first thermal zone drops because of *Venting* the air-flow to the following zones might stop because of a mixing set-point.
+The order in which the thermal zones are simulated is given by their order in the tree (top-down). It is possible to change the simulation order of the thermal zones by re-organizing (drag and drop) the order in the tree to the desired order.   
+This may be important if an air-flow (mixing) is to be simulated from one thermal zone to another and then on to a third. If the temperature in the first thermal zone drops because of *Venting*, the air-flow to the following zones might stop because of a mixing set-point.
 
 
 
@@ -20,9 +20,9 @@ It is possible to change the order of the thermal zones by dragging them to a ne
 
 Below the interactive graph of the ambient and the thermal zone temperatures four buttons are found:
 
-*   The *Start* button initiates the simulation beginning with the first date of the simulation period give at the [*Options* ](13_02_tsbi5_options.md)tab. <u>Note</u> it is not possible to carry out a tsbi5 simulation if the *[ModelList](../10Thermal_zones/10_09_SimView_Printing_a_model.md)* window is open or closed as a icon.
+*   The *Start* button initiates the simulation beginning with the first date of the simulation period given at the [*Options* ](13_02_tsbi5_options.md) tab. <u>Note</u> it is not possible to carry out a tsbi5 simulation if the *[ModelList](../10Thermal_zones/10_09_SimView_Printing_a_model.md)* window is open or closed as an icon.
 
-*   The *Check* button runs a syntactic check of the model to see if all necessary information to carry out a simulation is present. Eventual missing data will be reported in the *[ModelList](../10Thermal_zones/10_09_SimView_Printing_a_model.md)* window. No error messages do though not mean that the model is correct, but only that all necessary information to carry out a simulation is given. This function is also called when ever a simulation is initiated from the *Start* button. If the moisture model is active, information about the automatic sub-division of the material layers in the constructions are given.
+*   The *Check* button runs a syntactic check of the model to see if all necessary information to carry out a simulation is present. Eventual missing data will be reported in the *[ModelList](../10Thermal_zones/10_09_SimView_Printing_a_model.md)* window. No error messages do not, though, mean that the model is correct, but only that all necessary information to carry out a simulation is given. This function is also called whenever a simulation is initiated from the *Start* button. If the moisture model is active, information about the automatic sub-division of the material layers in the constructions is given.
 
 *   The *Stop* button can be used to interrupt the simulation before the *Last Day* of the simulation period given on the [*Options* ](13_02_tsbi5_options.md)tab.
 
@@ -30,9 +30,9 @@ Below the interactive graph of the ambient and the thermal zone temperatures fou
 
 Below the buttons, information about the estimated remaining time to carry out the simulation for the given period is shown.
 
-When the simulation starts, an initialization of the model is made and the real simulation will only start when the [stability criterion](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md) if fulfilled or the maximum number of iterations/days is reached. The maximum allowed number of iterations can be given in the menu *[Edit | Options ](../24Miscellaneous/24_16_tsbi5_general_options.md)*
+When the simulation starts, an initialization of the model is made and the real simulation will only start when the [stability criterion](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md) is fulfilled or the maximum number of iterations/days is reached. The maximum allowed number of iterations can be given in the menu *[Edit | Options ](../24Miscellaneous/24_16_tsbi5_general_options.md)*
 
-If the maximum number of iterations/days is reached before meeting the stability criterion, the dialog below will be shown. The dialog also show information about the parameters used for calculating the [stability criterion](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md).
+If the maximum number of iterations/days is reached before meeting the stability criterion, the dialog below will be shown. The dialog also shows information about the parameters used for calculating the [stability criterion](../24Miscellaneous/24_17_Stability_criterion_for_starting_simulations.md).
 
 
 

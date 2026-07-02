@@ -26,7 +26,7 @@ Niemelä,R., Koskela,H. (1996): Air Flow Patterns in a Large Industrial Hall wit
 
 Ryberg, H., Bech, S.E.B. (1997): Vertical Temperature Distribution in Displacement Ventilated Rooms - An Experimental Study, Afgangsprojekt, Instituttet for Bygningsteknik, Aalborg Universitet.
 
-Schild,P.G. (1996): CFD Analysis of an Atrium, using a Conjugate Heat Transfer Model Incorporating Long-Wave and Solar Radiation, Proceedings of Roomvent ´96, 5th International Conference on Air Distribution in Rooms, Vol. 2, pp. 185-194, Yokohama, Japan.
+Schild, P.G. (1996): CFD Analysis of an Atrium, using a Conjugate Heat Transfer Model Incorporating Long-Wave and Solar Radiation, Proceedings of Roomvent ´96, 5th International Conference on Air Distribution in Rooms, Vol. 2, pp. 185-194, Yokohama, Japan.
 
 Skistad, H. (1994): Displacement Ventilation, ISBN 0 471 95089 0, John Wiley & Sons Inc.
 

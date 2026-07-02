@@ -11,8 +11,8 @@ $$
 where
 
 *cc*     is the cloud cover fraction, [0-1].   
-*T<sub>e</sub>*     is the ambient air temperature in degree Kelvin.  
-*T<sub>d</sub>*   is the dew point temperature of the ambient air in degree Kelvin.
+*T<sub>e</sub>*     is the ambient air temperature in Kelvin.  
+*T<sub>d</sub>*   is the dew point temperature of the ambient air in Kelvin.
 
  
 Long wave radiative exchange from the exterior surfaces of the building is simulated to this temperature.

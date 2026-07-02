@@ -17,7 +17,7 @@ WinDoors are defined in the same database structure as all other constructions, 
 
         *   For layer 3 (panel) field 2 defines the size of the panel of the remaining area - when the frame has been subtracted from the opening area.
 
-*   The table at the bottom of the dialog shows the order of the material "layers". In a WinDoor the order is **important**. First "layer" **must** be the glass, second "layer" **must** be the frame and third "layer" **must** be the panel. The panel do not need to occur in all WinDoor definitions, but only in those with a [layout](../24Miscellaneous/24_30_SimView_Insert_Windoor.md), equal to that of a door. It is possible to change the order of the material "layers" by dragging, while pressing the left mouse button, the layer to a new position in the table.
+*   The table at the bottom of the dialog shows the order of the material "layers". In a WinDoor the order is **important**. First "layer" **must** be the glass, second "layer" **must** be the frame and third "layer" **must** be the panel. The panel do not need to occur in all WinDoor definitions, but only in those with a [layout](../24Miscellaneous/24_30_SimView_Insert_WinDoor.md), equal to that of a door. It is possible to change the order of the material "layers" by dragging, while pressing the left mouse button, the layer to a new position in the table.
 
 *   At the bottom right an information field on how to understand the table at the left-hand side is shown.
 

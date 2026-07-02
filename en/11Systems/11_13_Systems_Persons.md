@@ -21,7 +21,7 @@ There are two fields in the dialog box.
 
 *   *Moist. Gen.* indicates the relevant moisture release from the given number of people and "people type".
 
-*   *CO2 Gen.* Informs about the amount of CO<sub>2</sub> released by the total number of persons in a thermal zone per. hour.
+*   *CO2 Gen.* Indicates the amount of CO<sub>2</sub> released by the total number of persons in a thermal zone per hour.
 
 People Type
 
@@ -35,7 +35,7 @@ People Type
 
     *   q<sub style="letter-spacing: -0.01em;">v,CO2</sub><span style="letter-spacing: -0.01em;"> is the CO</span><sub style="letter-spacing: -0.01em;">2</sub><span style="letter-spacing: -0.01em;">-flow, l/h,</span> 
 
-    *   M is the metobolism, met.
+    *   M is the metabolism, met.
 
 
 | Activity / Clothing | Dry heat [W] Bsim input | Evaporation [g/h] | Evaporation [W] |

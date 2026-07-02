@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # Daylight calculation on a plane
-It is possible to calculate the incident daylight on a plane. Clicking *Calculate illumination on plane* will open a dialog box in which the coordinates for a corner of the calculation plane (origin of the plane) and the coordinates for its neighboring corners have to be entered. A right-handed system of coordinates must be used, i.e. the angle of rotation between the first and second directions of the calculation plane must be greater than 0° and less than 180°. The calculation grid spacing in the two directions of the plane must also be specified. The software is designed is such a way that the orientations of the calculation plane and the reference plane are independent of each other. The normal vector of the calculation plane is calculated on the basis of the principal directions selected, while that of the reference plane is selected in the main dialog box. This makes it possible, for example, to calculate the incident light on a number of horizontal reference planes at different heights at the same time.
+It is possible to calculate the incident daylight on a plane. Clicking *Calculate illumination on plane* will open a dialog box in which the coordinates for a corner of the calculation plane (origin of the plane) and the coordinates for its neighboring corners have to be entered. A right-handed system of coordinates must be used, i.e. the angle of rotation between the first and second directions of the calculation plane must be greater than 0° and less than 180°. The calculation grid spacing in the two directions of the plane must also be specified. The software is designed in such a way that the orientations of the calculation plane and the reference plane are independent of each other. The normal vector of the calculation plane is calculated on the basis of the principal directions selected, while that of the reference plane is selected in the main dialog box. This makes it possible, for example, to calculate the incident light on a number of horizontal reference planes at different heights at the same time.
 
 <figure id="center_img">
 <img src="./assets/dgl03.gif" alt="Defining a calculation plane in the space.">
@@ -22,7 +22,7 @@ The results can be shown either as graphics or as tables, individually for the f
 <figcaption>Daylight factor calculated with SimLight and shown as tables.</figcaption>
 </figure>
 
-The *Copy to clipboard* button will pass a copy of either the graph or the table to the clipboard for insertion in an other MS-Windows program.
+The *Copy to clipboard* button will pass a copy of either the graph or the table to the clipboard for insertion in another MS-Windows program.
 
 <div id="gray_background">
 <em>

@@ -75,7 +75,7 @@ The ventilation system is assumed to have no more than one heating coil. This me
 
 *Max Power:* The maximum power that can be given off by the ventilation system's heating coil. The heating requirement for the ventilation air by the heating coil is calculated on the basis of the selected control strategy and the selected temperature set points. Optimum control functioning is assumed, i.e. full modulation of heat emission within the current time step.
 
-*Heat Pump:* The heat pump can not be activated as a source for the ventilation system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) has been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU).
+*Heat Pump:* The heat pump cannot be activated as a source for the ventilation system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) has been installed. PackCalc has been developed by IPU Technology development at Danish Technical University (DTU).
 
  
 
@@ -87,7 +87,7 @@ The cooling coil is assumed to have a constant temperature that is independent o
 
 *Surface temperature:* The surface temperature of the cooling temperature, which is used to calculate how much moisture precipitates on the cooling coil. The temperature is assumed to be constant and greater than 0°C.
 
-*Cooling:* Activates the central cooling system as a source for cooling in the ventilation system. Central cooling can not be activated as a source for the ventilation system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) has been installed. PackCalc has been developed by IPU Teknology development at Danish Technical University (DTU).
+*Cooling:* Activates the central cooling system as a source for cooling in the ventilation system. Central cooling cannot be activated as a source for the ventilation system until the external program [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) has been installed. PackCalc has been developed by IPU Technology development at Danish Technical University (DTU).
 
  
 
@@ -107,7 +107,7 @@ Specifies where the air for the ventilation system is taken from. The air can be
 
 #### **Schedule:** 
 
-For each ventilation system a control strategy has to be defined in one or more [schedules](11_02_Systems_schedule.md). A schedule is the term in general use in the software for a connected set of control and time definition. A precise distinction is therefore made between the system's physical components, which in principle can be found in a manufacturer's catalogue, and the control function, which can be established using control equipment that works automatically or is operated manually together with the system. The control strategy can, for example, include a change in the supply air temperature. the supply temperature curve, adjustment of damper functions, e.g. bypassing heat recovery in summer, or shutting off the flow of water to the heating or cooling coil.
+For each ventilation system a control strategy has to be defined in one or more [schedules](11_02_Systems_schedule.md). A schedule is the term in general use in the software for a connected set of control and time definitions. A precise distinction is therefore made between the system's physical components, which in principle can be found in a manufacturer's catalogue, and the control function, which can be established using control equipment that works automatically or is operated manually together with the system. The control strategy can, for example, include a change in the supply air temperature curve, adjustment of damper functions, e.g. bypassing heat recovery in summer, or shutting off the flow of water to the heating or cooling coil.
 
  
 

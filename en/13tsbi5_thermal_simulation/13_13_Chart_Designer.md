@@ -2,7 +2,7 @@
 
 # Chart Designer
 
-In the <u>Chart Designer</u> dialog box it is possible to modify the general layout of the current graph. It is advisable to use Wizard, however, to change the appearance from bar diagram to pie chart, for example. For every option on the left of the window there are a number of tabs (on the right), which allow the data relating to the option to be changed.
+In the <u>Chart Designer</u> dialog box it is possible to modify the general layout of the current graph. It is advisable to use Wizard, however, to change the appearance from a bar diagram to a pie chart, for example. For every option on the left of the window there are a number of tabs on the right, which allow the data relating to the option to be changed.
 
 
 <figure id="center_img">
@@ -73,7 +73,7 @@ Clicking on the name of the individual series (see figure) brings up four tabs (
 </figure>
 
 
-In *Options* the series can be hidden (*Hide Series*) or excluded from data (*Exclude Series*). It is also possible to plot a series on the secondary Y-axis, thereby improving the resolution of some series, e.g. by plotting on a secondary Y-axis that only displays values between 500 and 500 kWh (<u>only</u> works for bar charts as in the heat diagram, for example). See formatting of <a href="#yaxis">secondary Y-axis</a>.
+In *Options* the series can be hidden (*Hide Series*) or excluded from data (*Exclude Series*). It is also possible to plot a series on the secondary Y-axis, thereby improving the resolution of some series, e.g. by plotting on a secondary Y-axis that only displays values between 0 and 500 kWh (<u>only</u> works for bar charts as in the heat diagram, for example). See formatting of <a href="#yaxis">secondary Y-axis</a>.
 
 
 <figure id="center_img">
@@ -82,7 +82,7 @@ In *Options* the series can be hidden (*Hide Series*) or excluded from data (*Ex
 </figure>
 
 
-The appearance of an individual series can be changed on the *Lines* tab. The line type (dashes, dots or dashes and dots) can be changed in the *Style* list box, the *Width* is specified in *points*, and the colour can be selected from the *Color* list box. There are eight different styles to choose from to make it easier to differentiate between the different parameters when the graphics are reproduced on a black and white printer.
+The appearance of an individual series can be changed on the *Lines* tab. The line type (dashes, dots or dashes and dots) can be changed in the *Style* list box, the *Width* is specified in *points*, and the color can be selected from the *Color* list box. There are eight different styles to choose from to make it easier to differentiate between the different parameters when the graphics are reproduced on a black and white printer.
 
 On the *Statistics* tab it is possible to select the statistics to be displayed for the individual series in the graph. Selecting a point in the *Show* dialog box draws one or more horizontal lines to mark the values on the Y-axis. The options along the graph's X-axis are: minimum value (*Minimum*), maximum value (*Maximum*), mean value (*Mean*), standard deviation (*Standard Deviation*) and a linear approximation of the plotted points (*Regression*). It is also possible to select style and color for the individual statistical variable.
 
