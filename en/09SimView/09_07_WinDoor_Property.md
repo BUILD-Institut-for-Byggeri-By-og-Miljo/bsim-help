@@ -18,8 +18,8 @@ The following characteristics can be defined to describe a WinDoor:
 *   *Recess (m)*: The retraction of the glass in relation to the outside of the wall in meters. If Recess = 0 is given, shading will be calculated as if the glazing was located parallel to the inner face of the construction. If the glass is to be placed parallel to the outer face of the construction, a small value (larger than 0.0001) must be given. <span id="red_text"> **NB**: Recess <u>only</u> works if [XSun solar distribution](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) is turned on. </span>
 
 *   *Select Systems*: It is possible to select three systems to be linked to the WinDoor object:  
-[Regulation](../24Miscellaneous/24_62_Regulation.md) (of natural ventilation)
 
+[Regulation](../24Miscellaneous/24_62_Regulation.md) (of natural ventilation)
 [Shutter](../11Systems/11_15_Systems_shutter.md) (for night insulation)  
 [SolarShading](../11Systems/11_16_Systems_shading.md) (for reducing the risk of overheating).   
 
