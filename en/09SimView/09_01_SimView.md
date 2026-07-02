@@ -1,5 +1,5 @@
 # SimView
-*SimView* contains a simple editor for creating and editing data models. To get the best out of the model editor, it is necessary to understand how it works. The individual programs are designed to handle a convex three-dimensional geometry. In other words, from any point in the space it must be possible to "see" all the other surfaces in the space to obtain a correct calculation. If, for example, an L-shaped [thermal zone](../10Thermal_zones/10_01_Thermal_Zone_property.md) is to be created, it is easiest to construct it in the form of two rectangular spaces with an opening that fills the entire interface between them.
+*SimView* contains a simple editor for creating and editing data models. To get the most out of the model editor, you need to understand how it works. SimView is designed to handle convex three-dimensional geometry. In other words, from any point in the space you must be able to "see" all other surfaces to obtain a correct calculation. For example, when creating an L-shaped [thermal zone](../10Thermal_zones/10_01_Thermal_Zone_property.md), it is easiest to build it as two rectangular spaces joined by an opening that spans their interface.
 
  
 
@@ -11,7 +11,6 @@ Related subjects:
 *   [SimView - Creating a space](09_15_SimView_Creating_a_space.md)
 *   [SimView - Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md)
 *   [SimView - Creating thermal zones](../10Thermal_zones/10_01_Thermal_Zone_property.md)
-*   [SimView - Creating a space](09_15_SimView_Creating_a_space.md)
 *   [SimView - Systems](../11Systems/11_01_Systems.md)
 *   [SimView - Editing the model geometry](09_02_SimView_Editing_the_model_geometry.md)
 *   [SimView - Adding an opening or WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)

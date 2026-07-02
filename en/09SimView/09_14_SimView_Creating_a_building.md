@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 # SimView - Creating a building
-A building can be created or added by right-clicking in the window with the geometric model view. This calls up the *SimView* menu, where the *Add Building* option should be selected (*<u>E</u>dit* | *<u>A</u>dd* |*Building* can also be used). When a building is first created, it will contain one space. This really means that a building is created at the same time as the first space.
+ A building can be created or added by right-clicking in the window with the geometric model view. This calls up the *SimView* menu, where the *Add Building* option should be selected (*<u>E</u>dit* | *<u>A</u>dd* | *Building* can also be used). When a building is first created, it will contain one space. This really means that a building is created at the same time as the first space.
 
 <figure id="center_img">
 <img src="./assets/AddBuilding.gif" alt="Dialog box for defining a building.">

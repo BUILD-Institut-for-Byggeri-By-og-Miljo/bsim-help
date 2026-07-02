@@ -57,7 +57,7 @@
 
     *   [Heat balance](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
 
-    *   [Hour values](../13tsbi5_thermal_simulation/13_04_Parameters_in_the_output_log.md)
+    *   [Hour values](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md)
 
     *   [Export of model to tsbi3](../13tsbi5_thermal_simulation/13_06_tsbi5_Exporting_to_tsbi3.md)
 
@@ -67,13 +67,11 @@
 
 *   [CAD drawings as a basis for geometry](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md)
 
-*   [Export of model to Be10](../09SimView/09_15_Export_to_BE10.html)
-
 *   [Exporting data to Radiance](../18Radiance_Visualisation_og_the_building/18_01_Exporting_data_to_Radiance.md)  
 
 *   [The mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md)
 
-*   [Algorithms for calculation of solar radiation and daylight](../20The_Mathematical_Basis/20_11_Solar_and_daylight_algorithms.md)
+*   [Algorithms for calculation of solar radiation and daylight](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
-*   [Literature](../22Revisions/23_01_Literature.md)
+*   [Literature](../20The_Mathematical_Basis/20_28_Literature.md)
 
