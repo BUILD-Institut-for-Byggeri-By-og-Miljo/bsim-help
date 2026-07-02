@@ -14,7 +14,7 @@ Den samlede oversigt for et system ses på fanen tidsplan *(Schedule).*
 
 *tsbi5 gennemløber listen oppefra (se følgende figur), hvorfor det kan være nyttigt, at kunne bytte om på rækkefølgen af systemerne. Det gøres med tryk på knapperne "Move Up" (flyt op) og "Move Down" (flyt ned).*
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/schedule_time.gif" alt="Listen med de forskellige tidsangivelser (schedules) gennemløbes fra toppen."> 
 <figcaption>Listen med de forskellige tidsangivelser (schedules) gennemløbes fra toppen.</figcaption>
 </figure>
