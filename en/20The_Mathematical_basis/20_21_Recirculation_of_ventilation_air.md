@@ -13,7 +13,7 @@ Recirculation of ventilation air happens according to the pseudo-code shown belo
 </figure>
 
 
-The numbers in the figure refers to the general description of the state of the air in ventilation the system and building. Recirculation (Return air) can control the conditions in the thermal zone by:
+The numbers in the figure refer to the general description of the state of the air in the ventilation system and building. Recirculation (return air) can control the conditions in the thermal zone by:
 
 *   changing the share of return air (the share between the air flows 5a/11)
 
@@ -25,17 +25,17 @@ The numbers in the figure refers to the general description of the state of the 
 
 ### **Input to ventilation systems**
 
-In the present general data, the existing fan equals fan 1: supply and 2: exhaust. Two additional fans must be added: 3: return and 4: intake. Normally the current return fan will be placed as fan 2 in the figure above.
+In the present general data, the existing fans correspond to fan 1: supply and fan 2: exhaust. Two additional fans must be added: fan 3: return and fan 4: intake. Normally the current return fan will be placed as fan 2 in the figure above.
 
-It should be considered if MinHeatRec and MaxCoolRec should be moved to the control tab later on (in some cases they can be considered being control parameters).
+It should be considered whether MinHeatRec and MaxCoolRec should be moved to the control tab later on (in some cases they can be considered control parameters).
 
 ### **Input to recirculation: ReturnairCtrl**
 
 | **Parameter**       | **Unit** | **Meaning** |
 |---------------------|----------|-------------|
-| MinSupplyRatio      | 0–1,0    | Lower value for share of nominal inlet air flow. The proportion between SupplyAir and Exhaust is kept constant when Supply is being changed. |
-| MinReturnRatio      | 0–1,0    | Lower limit for share of recirculated air compared to Supply |
-| MaxReturnRatio      | 0–1,0    | Upper limit for share of recirculated air compared to Supply |
+| MinSupplyRatio      | 0–1.0    | Lower value for share of nominal inlet air flow. The proportion between SupplyAir and Exhaust is kept constant when Supply is changed. |
+| MinReturnRatio      | 0–1.0    | Lower limit for share of recirculated air compared to Supply |
+| MaxReturnRatio      | 0–1.0    | Upper limit for share of recirculated air compared to Supply |
 | SetP CO₂            | ppm      | Upper limit for CO₂ content in zone air |
 | SetPHumid           | %        | Lower limit for relative humidity in zone air |
 | SetPDehumid         | %        | Upper limit for relative humidity in zone air |
@@ -93,27 +93,27 @@ value in the zone (4) above SetP CO<sub>2</sub>:
 
 ### **Control of moisture**
 
-Conversion of SetPHumid and SetPDehumid to values of relative humidity at temperature SetPTemp. If the value in the zone (4) is above SetPHumid and below SetPDehumid: no control
+Conversion of SetPHumid and SetPDehumid to values of relative humidity at temperature SetPTemp. If the value in the zone (4) is above SetPHumid and below SetPDehumid: no control.
 
-value in the zone (4) below SetPHumid:   
+Value in the zone (4) below SetPHumid:   
 control
 
-1.  (increase of ReturnRatio - can hardly be a situation that occurs)
+1.  increase ReturnRatio (rarely occurs)
 
-2.  humidification via Humidifier (9 → 10) with a check that the state of the indoor air do not go above the saturation curve for air state 9
+2.  humidification via humidifier (9 → 10) with a check that the state of the indoor air does not go above the saturation curve for air state 9
 
-3.  if the saturation curve is reached: increase of SupplyRatio (- calculate how much!)
+3.  if the saturation curve is reached: increase SupplyRatio (calculate how much)
 
-4.  humidification via Humidifier (9 → 10) with a check that the state of the indoor air do not go above the saturation curve for air state 9
+4.  humidification via humidifier (9 → 10) with a check that the state of the indoor air does not go above the saturation curve for air state 9
 
-value in zone (4) above SetPDehumid:   
+Value in zone (4) above SetPDehumid:   
 control
 
-1.  if ZoneAirHum > OutdoorAirHum: reduction of ReturnRatio
+1.  if ZoneAirHum > OutdoorAirHum: reduce ReturnRatio
 
-2.  when/if ReturnRatio = MinReturnRatio: increase of SupplyRatio
+2.  when/if ReturnRatio = MinReturnRatio: increase SupplyRatio
 
-3.  when/if SupplyRatio = 1: start cooling coil for de-humidification (6 → 7)
+3.  when/if SupplyRatio = 1: start cooling coil for dehumidification (6 → 7)
 
  
 
@@ -122,9 +122,9 @@ control
 Value in zone (4) is below (ZoneAirTemp - DeltaT):   
 *Control*
 
-1.  start heating coil until ZoneAirTemp = SetPTemp (7 → 8)
+1.  start the heating coil until ZoneAirTemp = SetPTemp (7 → 8)
 
-2.  start radiator until ZoneAirTemp = SetPTemp
+2.  start the radiator until ZoneAirTemp = SetPTemp
 
 Value in zone (4) is above (ZoneAirTemp + DeltaT):
 
@@ -132,4 +132,4 @@ Value in zone (4) is above (ZoneAirTemp + DeltaT):
 
 1.  if ClCoil > MaxCoolPower (negative): increase cooling power (6 → 7)
 
-2.  if the zone indoor air humidity goes below SetPHumid: start humidifier (9 → 10)
+2.  if the zone indoor air humidity goes below SetPHumid: start the humidifier (9 → 10)

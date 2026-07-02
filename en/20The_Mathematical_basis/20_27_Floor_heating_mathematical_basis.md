@@ -37,11 +37,11 @@ Hydronic radiant systems embedded in building structures imply 2D thermal fields
 
 To sum up, in order to decrease the calculation time and maintain good accuracy, appropriate simplifications must be conceived.
 
-The most important simplifications performed in the development of the current module are summarized in the following:
+The most important simplifications in the current module are summarized below:
 
-1. 2D simplification. The effects of the 2D thermal field due to the presence of the pipes are described by means of a thermal resistance coupling the pipe external surface with the pipe level in the slab. In a few words, this makes it possible to shift from a 2D calculation domain to a 1D one.
+1. 2D simplification. The effects of the 2D thermal field due to the presence of the pipes are represented by a thermal resistance coupling the pipe external surface with the pipe level in the slab. This allows a shift from a 2D calculation domain to a 1D one.
 
-2. The e-NTU method for the description of the variation of the water temperature along the circuit. The variation of the water temperature along the pipes is described by means of e-NTU theory, widely used in the calculation of performances for heat exchangers.
+2. The ε-NTU method for the description of the water temperature variation along the circuit. The water temperature change along the pipes is described using ε-NTU theory, which is widely used in heat exchanger performance calculations.
 
  
 
@@ -50,11 +50,11 @@ The most important simplifications performed in the development of the current m
 
 <h3 id="status-of-the-art"><strong>2.1. Status of the art before the current research</strong></h3>
 
-The main concept regarding the degeneration of the 2D thermal field into a 1D one is here explained.
+The main concept for reducing the 2D thermal field to a 1D model is explained here.
 
-Starting from previous studies of Glück[1, 2], Dorer, Koschenz and Lehmann [3, 4, 5] reached a simple model for the accurate description of the thermal behavior of thermally activated building systems in steady state conditions. Such a model is frequently called "Resistance Method" and describes the relation between the supply water temperature and the average temperature at the pipes level in terms of a series of thermal resistances. The involved resistances describe the following phenomena:
+Starting from previous studies by Glück[1, 2], Dorer, Koschenz, and Lehmann [3, 4, 5] developed a simple model for describing the thermal behavior of thermally activated building systems in steady-state conditions. This model is frequently called the "Resistance Method" and describes the relation between supply water temperature and the average temperature at pipe level using a series of thermal resistances. The involved resistances represent the following phenomena:
 
-*   Decrease/increase in water temperature due to the flow of water along the circuit (thermal resistance R<sub>z</sub>). In a few words, this thermal resistance connects the supply water temperature with the logarithmic mean water temperature along the pipe circuit. Hence, the logarithmic mean water temperature may be assumed as a reference for the estimation of the heat exchange between the water and the inner surface of the pipe.
+*   Decrease/increase in water temperature due to flow along the circuit (thermal resistance R<sub>z</sub>). This resistance connects the supply water temperature with the logarithmic mean water temperature along the pipe circuit, which may then be used as a reference for estimating heat exchange between the water and the pipe's inner surface.
 
 *   Temperature gradient from the logarithmic mean temperature of the water to the mean temperature of the inner surface of the pipe. It is basically due to the convection heat transfer (thermal resistance R<sub>w</sub>).
 
@@ -76,14 +76,14 @@ R<sub>x</sub> is the most interesting part of the model. In fact, it is shown th
 <figcaption>Figure 2 - Reference model and generic temperature profile along the pipes level.</figcaption>
 </figure>
 
-The analytical solution was obtained by Glück. That consists in the formula:
+The analytical solution was obtained by Glück and is expressed by the formula:
 
 <figure id="center_img">
 <img src="./assets/fh_eq1.gif" alt="">
 <figcaption></figcaption>
 </figure>
 
-, where
+where
  
 
 $$ U_1 = \left( \frac{1}{h_1} + \frac{s_1}{\lambda_s} \right)^{-1} $$
@@ -102,7 +102,7 @@ $$ g_2(n) = \frac{\frac{\frac{h_2}{\lambda_s} \cdot P + 2 \cdot \pi \cdot n}{\f
 
  
 
-Dorer, Koschenz and Lehmann demonstrated that, in the case of conductive materials (such as concrete), under conditions:
+Dorer, Koschenz, and Lehmann demonstrated that for conductive materials such as concrete, under the conditions:
 
 $$ \begin{cases}  
 \frac{s_1}{P} > 0.3 \\  
@@ -110,20 +110,20 @@ $$ \begin{cases}
 \frac{d_p}{P} < 0.2  
 \end{cases}  $$
 
-The formula by Glück can be simplified with low effect on accuracy and the following equation is obtained:
+Glück's formula can be simplified with little effect on accuracy, yielding:
 
 $$ R_x = \frac{P \cdot \ln \left( \frac{P}{\pi \cdot d_p} \right)}{2 \cdot \pi \cdot \lambda_s} $$
 
-Unfortunately, such a method was derived assuming the condition of steady state thermal conditions. Following research (De Carli, Koschenz, Olesen and Scarpa[6]) was performed in order to check the accuracy of such a model even in the description of unsteady state thermal behavior of thermally activated building systems. The research showed that such a model can be extended to unsteady state conditions with negligible loss in accuracy. In fact, the time constant of the material region around the pipes is low, so that unsteady state behavior takes a short time and the steady state solution may be acquired as a good approximation, especially if the whole running period is considered.
+This method was derived assuming steady-state thermal conditions. Subsequent research by De Carli, Koschenz, Olesen, and Scarpa[6] assessed the accuracy of the model for unsteady thermal behavior in thermally activated building systems. The research showed that the model can be extended to unsteady conditions with negligible loss of accuracy. The material region around the pipes has a low time constant, so unsteady behavior decays quickly and the steady-state solution is a good approximation, especially over the full simulation period.
 
 <h3 id="contribution-current-research"><strong>2.2. The contribution of the current research</strong></h3>
 
 <h4 id="method"><strong>2.2.1. Method</strong></h4>  
-Even the further development of the "Resistance Method" was still bound to the limitations imposed by the analytical solution by Glück (i.e. the presence of homogeneous material around the pipe) and the ones assumed in order to simplify Glück's solution into
+Further development of the "Resistance Method" was still bound by the limitations of Glück's analytical solution (for example, homogeneous material around the pipe) and the assumptions used to simplify Glück's solution into
 
 $$ R_x = \frac{P \cdot \ln \left( \frac{P}{\pi \cdot d_p} \right)}{2 \cdot \pi \cdot \lambda_s} $$
 
-Such limitations were defined in order to obtain an easy-to-use formula, but, basing on these limitations, the model can be used only for the description of thermally activated building systems, with pipes deeply embedded in a thick concrete layer. Even limitations in pipe spacing and water mass flow rate are present. But the aim of the current research is to describe the thermal behavior of any kind of radiant heating/cooling system. However, the main concept was really appreciable, so the first part of the current research was dedicated to test the possibility to extend such a model to more complex conditions.
+Such limitations were defined in order to obtain an easy-to-use formula, but, based on these limitations, the model can be used only for the description of thermally activated building systems, with pipes deeply embedded in a thick concrete layer. Even limitations in pipe spacing and water mass flow rate are present. But the aim of the current research is to describe the thermal behavior of any kind of radiant heating/cooling system. However, the main concept was really appreciable, so the first part of the current research was dedicated to test the possibility to extend such a model to more complex conditions.
 
 For that purpose, the thermal behaviors of various kinds of slabs were examined via a 2D calculation tool and via a 1D model connected to the water temperature via a proper thermal resistance, under unsteady state conditions.
 
@@ -149,9 +149,9 @@ The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were consi
 <figcaption>Type G</figcaption>
 </figure>
 
-The simulations were aimed at the study of the thermal behavior of the entire deck, from the floor and ceiling surfaces to the external surface of the pipe, thus neglecting the rest of the pipe. In fact, the rest of the pipe can be modeled as a mere thermal resistance, since its "memory effect" due to thermal inertia is assumed to be negligible.
-As a general rule, in all types, the air cavities were not considered as conductive regions, thus their edges were considered adiabatic.
-In the following figure the analyzed geometries are shown. They have been analyzed via fine and coarse meshes.
+The simulations studied the thermal behavior of the entire deck, from the floor and ceiling surfaces to the pipe external surface, while neglecting the remainder of the pipe. The remainder of the pipe is modeled as a thermal resistance because its thermal inertia is assumed negligible.
+As a general rule, all air cavities were treated as non-conductive regions, so their edges were considered adiabatic.
+The following figures show the analyzed geometries, each examined with fine and coarse meshes.
 
 <h4> 1. Type A </h4>
 <figure id="center_img">
@@ -212,9 +212,9 @@ The 2D calculations and the 1D model have been contrasted by comparing the corre
 <figcaption>Figure 5 - Boundary conditions.</figcaption>
 </figure>
 
-The first part of the simulation period shows the difference in the thermal dynamic behavior. Such a comparison is performed in terms of heat flows (through the floor, ceiling and pipe surfaces), temperatures (mean temperature at the pipe level, that is along the pipe spacing, but the diameter of the pipe), and perceived thermal resistance (between the temperature at the external side of the pipe and the mean temperature at the pipe level).
+The first part of the simulation period shows the difference in dynamic thermal behavior. The comparison is performed in terms of heat flows (through the floor, ceiling, and pipe surfaces), temperatures (mean temperature at pipe level, i.e. averaged over the pipe spacing), and perceived thermal resistance (between the external pipe surface temperature and the mean temperature at pipe level).
 
-In the end of each simulation, constant boundary conditions were imposed, in order to reach the steady state behavior.
+At the end of each simulation, constant boundary conditions were imposed to reach steady-state behavior.
 
 In order to summarize the 2D thermal domain by means of a 1D model, the thermal resistance derived from the 2D simulation (acquired under steady state conditions) was used as a constant thermal resistance in the 1D model, placed at the pipe level and acting during the all simulation period. Thus, the same boundary conditions as in 2D simulations are imposed and the heat flows and temperatures of the 1D model are compared with the 2D ones. If they approach each other, then the 2D model can be substituted by a 1D model where the thermal resistance acting between the pipe level and the external surface of the pipe is derived from a 2D model running under steady state conditions.
 
@@ -222,21 +222,21 @@ After materials, geometries and boundary conditions were inputted, the 2D progra
 
 $$ R_{1D} = \frac{\theta_{PipeLevel} - \theta_{Pipe}}{P \cdot \dot Q_{Pipe}} $$
 
-Obviously, such a value varies during the simulation period, since it is derived from time-dependent variables. Anyway, for us, the reference value will be the one acquired under steady state conditions, assuming it is a good approximation for the description of the thermal behavior of the zone embedding the pipes in unsteady state conditions as well. Such a hypothesis can be justified also looking at the diagrams in APPENDIX A showing the variation of the thermal resistance during the simulation period. In fact, such value varies, but remains close to the one acquired under steady state conditions.
+This resistance varies during the simulation period because it is derived from time-dependent variables. However, the reference value is taken from steady-state conditions, assuming it is a good approximation for the unsteady thermal behavior of the slab embedding the pipes. This hypothesis is supported by the diagrams in APPENDIX A showing the variation of thermal resistance during the simulation period; the value varies but remains close to the steady-state value.
 
-In the end, an obvious remark: in the case of "Type G", the pipe level is placed in the position corresponding to the plate, since it is the horizontal plane that is connected to the pipe by means of the smallest thermal resistance.
+For Type G, the pipe level is placed at the plate position, since that horizontal plane is connected to the pipe by the smallest thermal resistance.
 
-The 1D model used for the simulations is based on finite control volumes. It has the same boundary conditions as the previously examined 2D model. The only difference regards the imposition of the temperature on the external side of the pipe. In fact, in the 1D model it is not possible to distinguish the external side of the pipe from the rest of the deck. Thus, it is substituted by a thermal resistance that is derived from the 2D calculations, as explained a few lines above.
+The 1D model used for the simulations is based on finite control volumes and uses the same boundary conditions as the 2D model. The only difference is the treatment of the temperature on the pipe's external surface. In the 1D model the external pipe surface cannot be distinguished from the rest of the slab, so it is represented by a thermal resistance derived from the 2D calculations, as explained above.
 
-In the end, heat flows and temperatures are calculated via the 1D model and compared with the results obtained by means of the 2D simulation code.
+Finally, heat flows and temperatures are calculated with the 1D model and compared with results from the 2D simulation code.
 
  
 
 <h2 id="epsilon-ntu-method"><strong>3. THE e-NTU METHOD FOR THE DESCRIPTION OF THE VARIATION OF THE WATER TEMPERATURE ALONG THE CIRCUIT</strong></h2>
 
-The Efficiency-NTU (Number of Transfer Units) method has been used for the description of the heat exchange between the water supply temperature and the average temperature at the pipe level. At this point, the module developed for BSim is deviating from the "Resistance Method". In fact, the "Resistance Method" uses the thermal resistance R<sub>z</sub> in order to describe the variation of the water temperature along the circuit.
+The Efficiency-NTU (Number of Transfer Units) method is used to describe heat exchange between the water supply temperature and the average temperature at the pipe level. In this respect, the module developed for BSim deviates from the "Resistance Method," which uses the thermal resistance R<sub>z</sub> to describe water temperature variation along the circuit.
 
-In the model developed for this calculation module, the e-NTU method was applied by considering the pipe level at constant temperature along the circuit. That is a consistent with BSim approach, since BSim considers constant temperatures for the whole surface.
+In the developed model, the ε-NTU method is applied by assuming the pipe level has a uniform temperature along the circuit. This is consistent with the BSim approach, which assumes constant temperatures over the entire surface.
 
 <h3 id="grounds-epsilon-ntu"><strong>3.1. Grounds of the e-NTU method</strong></h3>
 
@@ -271,7 +271,7 @@ where the previous subscripts have the following meanings:
    In = Supply side   
    Out = Return side
 
-From the previous distinction between the two fluids, we may even derive the value 
+From this distinction between the two fluids, we may derive:
 
 $ R = \frac{(\dot m \cdot c_p)_{Min}}{(\dot m \cdot c_p)_{Max}} $ that may be equal to $ R = \frac{(\dot m \cdot c_p)_{H}}{(\dot m \cdot c_p)_{C}} $ or $ R = \frac{(\dot m \cdot c_p)_{C}}{(\dot m \cdot c_p)_{H}} $ , depending on the thermal capacities of the 2 flows.
 
@@ -283,7 +283,7 @@ so that
 
 $$ \dot{Q} = (\dot{m} \cdot c_p)_{H} \cdot (\theta_{H,\text{In}} - \theta_{H,\text{Out}}) = (\dot{m} \cdot c_p)_{C} \cdot (\theta_{C,\text{Out}} - \theta_{C,\text{In}}) = U \cdot A \cdot \text{LMTD} $$
 
-At this point, it is necessary to split the treatment in (at least) two parts. In fact, depending on the kind of relative fluid flows (pure counter flow, pure parallel flow, pure cross flow, and consequent combinations), LMTD, Q and Q<sub>max</sub> must be expressed in different ways. For our purposes, the treatment is limited to the cases of counter flow and parallel flow:
+The treatment must be split into at least two cases. Depending on the type of relative fluid flow (pure counter flow, pure parallel flow, pure cross flow, or combinations), LMTD, Q, and Q<sub>max</sub> are expressed differently. For our purposes, the treatment is limited to counter flow and parallel flow:
 
 <h3> Fluids in pure counter flow </h3>
 
@@ -356,7 +356,7 @@ $ \varepsilon = \frac{1 - e^{[-NTU (1 + R)]}}{1 + R} $
 
 <h3 id="epsilon-ntu-developed-model"><strong>3.2. The e-NTU method in the developed model</strong></h3>
 
-At this point, the two argumentations are joined together. In the present case, in fact, by assuming the pipe level has a uniform temperature,
+The two arguments are joined here. In the present case, by assuming the pipe level has a uniform temperature,
 
 $$ (\dot m \cdot c_p)_{Max} \rightarrow \infty \Rightarrow R \rightarrow 0 \Rightarrow \varepsilon \equiv 1 - e^{-NTU} = 1 - e ^{- \frac{U \cdot A}{(\dot m \cdot c_p)_{Min}}} $$
 
@@ -364,7 +364,7 @@ Then, for radiant heating/cooling systems, the efficiency assumes the following 
 
 $$ \varepsilon \equiv 1- e^{ - \frac{A_{Floor}}{(R_w + R_r + R_x) \cdot (\dot m \cdot c_p)_{Water}}} $$
 
-It makes it possible to calculate the heat flow from/to the water to/from the pipe level of the slab, in an easy way. In fact, it is given by:
+This makes it possible to calculate the heat flow between the water and the pipe level of the slab easily. It is given by:
 
 $$ \dot Q = \varepsilon \cdot (\dot m \cdot c_p)_{Water} \cdot (\theta_{Water, in} - \theta_{PipeLevel}) $$
 
@@ -374,7 +374,7 @@ $$ \dot Q = \varepsilon \cdot (\dot m \cdot c_p)_{Water} \cdot (\theta_{Water, i
 
 <h4 id="thermal-resistance-rw"><strong>3.3.1. The calculation of thermal resistance R<sub>w</sub></strong></h4>
 
-Heat transfer coefficient corresponding to the convection heat transfer, referred to 1 m² of internal surface of the pipe:
+Heat transfer coefficient for convective heat transfer, referred to 1 m² of the pipe's internal surface:
 
 $$ h_{WaterConv} = \frac{2040. \cdot \left( 1. + 0.015 \cdot \theta_{Water} \right) \cdot v_{Water}^{0.87}}{d_{PipeInt}^{0.13}} $$
 
@@ -397,7 +397,7 @@ $$ h_{PipeWall} = \frac{2 \cdot \lambda_{PipeWall}}{d_{PipeInt} \cdot \ln \left(
 
 Then, the value of R<sub>p</sub> can be calculated, referring to 1 m² of floor:
 
-$$ R_{PipeWall, Floor} = \frac{T_{Pipe}}{\pi} \cdot \frac{\ln \left( \frac{d_{PipeExt}}{d_{PipeInd}} \right)}{2 \cdot \lambda_{PipeWall}} $$
+$$ R_{PipeWall, Floor} = \frac{T_{Pipe}}{\pi} \cdot \frac{\ln \left( \frac{d_{PipeExt}}{d_{PipeInt}} \right)}{2 \cdot \lambda_{PipeWall}} $$
 
 <h4 id="thermal-resistance-rx"><strong>3.3.3. The calculation of thermal resistance R<sub>x</sub></strong></h4>
 
@@ -407,11 +407,11 @@ $$ R_{Pipe \rightarrow PipeLevel, Floor} = \frac{\frac{T}{2} \cdot \left( \theta
 
 <h3 id="calculation-u"><strong>3.4. The calculation U</strong></h3>
 
-The previous resistances allow us to calculate heat transfer coefficient U needed by ε-NTU method:
+The previous resistances allow us to calculate the heat transfer coefficient U needed by the ε-NTU method:
 
 $$ U = \frac{1}{R_{Pipe \rightarrow PipeLevel, Floor} + R_{PipeWall, Floor} + R_{WaterConv, Floor}} $$
 
-That is the connection between the water and the average (and uniform) temperature of the slab at the pipe level and is considered to be constant along the water flow.
+This is the connection between the water and the average (uniform) temperature of the slab at pipe level, and it is considered constant along the water flow.
 
 Finally, the heat flowing from/to the water to/from the pipe level along the whole circuit may be calculated through the following equation:
 
@@ -421,9 +421,9 @@ $$ \dot Q = \varepsilon \cdot (\dot m \cdot c_p)_{Water} \cdot \left( \theta_{Wa
 
 To sum up, the calculation process performed by the present module acts as follows:
 
-* The module receives by BSim the values of geometrical and material data. In a few words, the values stored in the window dialog of Figure 7 are acquired and processed.
+* The module receives from BSim the geometrical and material data. The values stored in the window dialog of Figure 7 are acquired and processed.
 
-*  The 2D shape given through the above-mentioned data is collected and temperatures are imposed on the surfaces of the pipe, floor and ceiling.
+*  The 2D geometry defined by these data is assembled and temperatures are imposed on the surfaces of the pipe, floor, and ceiling.
 
 *   The heat flows due to the imposed boundary conditions are calculated, through the 2D simulation engine.
 
@@ -444,13 +444,13 @@ To sum up, the calculation process performed by the present module acts as follo
 <figcaption>Figure 7 - Input data for geometry and materials.</figcaption>
 </figure>
 
-In APPENDIX A, the results obtained from the simulations are compared. In these diagrams, the results pertaining to the real geometry with a fine mesh are shown by dotted lines, whereas the ones referring to the simplified geometry with rough mesh are characterized by continuous lines. In the end, the results given by the 1D model are distinguished by means of "X" markers.
+In APPENDIX A, the results obtained from the simulations are compared. In these diagrams, the results for the real geometry with a fine mesh are shown by dotted lines, while those for the simplified geometry with a coarse mesh are shown by continuous lines. The results from the 1D model are distinguished by "X" markers.
 
-It is easy to see that the three cases are really close each-other. In particular, the accuracy in heat flow prediction is always perfect, even in the most particular cases ("Type X1" and "Type G"). Instead, the mean temperature at the pipe level can go further from the fine mesh results, but it still remains within accuracy ranges to be considered absolutely acceptable ("Type X1" and "Type G").
+The three cases are very close to each other. In particular, heat flow prediction is highly accurate, even for the more challenging cases ("Type X1" and "Type G"). The mean temperature at pipe level may deviate more from the fine mesh results, but it still remains within acceptable accuracy ranges for these cases.
 
-The accuracy of the 1D -> 2D simplification was checked varying both the temperature at the external surface of the pipe and the ones of floor and ceiling. This is a critic situation, since the application of a variable temperature profile on the pipe makes the effects in the pipe level are stronger than varying only the floor and ceiling temperatures. In fact, if only floor and ceiling temperatures are varied, the effects at the pipe level are softened by the thermal inertia and resistance of the whole deck, whereas in this case the influence of the temperature variation is acted really close to the pipe level.
+The accuracy of the 1D-to-2D simplification was checked by varying both the temperature at the external pipe surface and the temperatures of the floor and ceiling. This is a critical situation because applying a variable temperature profile at the pipe surface has a stronger effect at pipe level than varying only floor and ceiling temperatures. If only floor and ceiling temperatures are varied, the effects at pipe level are softened by the thermal inertia and resistance of the whole slab, whereas in this case the temperature variation acts much closer to the pipe level.
 
-In the end, as regards the calculation time, it must be considered that, in order to calculate the thermal resistance to be applied in the 1D model, the 2D model must be executed only once (with a length of the time step equal to some millions of seconds, for instance, thus the terms depending on time are reduced to zero and the steady-state behavior can be predicted at once). From the diagrams, it is also clear that the 2D simulations (now used only for calculating the thermal resistance to be imposed at the pipe level of the 1D model) can be performed using the simplified geometry with coarse mesh. In a few words, the time needed for the calculation pre-processing (necessary in order to define the 1D thermal resistance) will be really short (maximum one or two seconds).
+Regarding calculation time, the 2D model must be executed only once to calculate the thermal resistance applied in the 1D model. This can be done with a very long time step (for example, millions of seconds), so the time-dependent terms are effectively reduced to zero and steady-state behavior is obtained directly. The diagrams also show that the 2D simulations used to calculate the thermal resistance for the 1D model can be performed with simplified geometry and a coarse mesh. In other words, the preprocessing time needed to define the 1D thermal resistance is very short, typically one or two seconds.
 
 <h2 id="bibliography"><strong>5. BIBLIOGRAPHY</strong></h2>
 

@@ -21,7 +21,7 @@ There are a number of golden rules that should be observed when constructing mod
 
 In the section with [learning examples](21_02_Learning_examples.md) three examples are found. These examples guides the first-time user through a simple creation of a building geometry, over addition of systems to the model and the first simulation with the tsbi5 program.
 
-Before using the program it is recommended to get aquatinted with the [structure of BSim](../06BSim_Program_structure/06_01_Structure_of_BSim.md).
+Before using the program it is recommended to get acquainted with the [structure of BSim](../06BSim_Program_structure/06_01_Structure_of_BSim.md).
 
 *   A number of [short-cuts](../05Introduction/05_06_Shortcut_keys.md) exists in *BSim*.
 

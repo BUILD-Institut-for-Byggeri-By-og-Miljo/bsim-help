@@ -36,7 +36,7 @@ More recent measurements, for example in Denmark, [[Petersen, 1982](20_28_Litera
 
 This solar radiation model described below is the one named Lund on the [Options tab of tsbi5](). All solar radiation models in BSim are named after their author and described in the following references: 
 
-*   Muneer T. (1989). *Algorithms for estimating hourly solar irradiation on slopes*. Journal of Building Services, Enginering, Research and Technology 10(2).
+*   Muneer T. (1989). *Algorithms for estimating hourly solar irradiation on slopes*. Journal of Building Services, Engineering, Research and Technology 10(2).
 
 *   Lund H. (1979). *Revised splitting procedure for calculation of direct normal radiation and diffuse radiation*. Thermal Insulation Laboratory (now BYG*DTU), Technical University of Denmark, Lyngby, DENMARK.
 
@@ -44,11 +44,11 @@ This solar radiation model described below is the one named Lund on the [Options
 
 *   Petersen E.
 
-The total solar incidence on a surface can be regarded to consist of 3 contributions, i.e.:
+The total solar incidence on a surface can be regarded as consisting of three contributions, namely:
 
 *   direct solar radiation (from the sun)
 
-*   radiation from the sky (diffuse sky radiation) r
+*   radiation from the sky (diffuse sky radiation)
 
 *   reflected radiation from the surface of the ground
 
@@ -100,8 +100,8 @@ $$
 
 The direct solar radiation and sky radiation reflected from the surface of the earth are calculated from:
 
-$$ 
-E_\gamma = 0{,}5 \cdot (1 - \cos \gamma) \cdot \rho \cdot E_g \tag{7} 
+$$
+E_\gamma = 0.5 \cdot (1 - \cos \gamma) \cdot \rho \cdot E_g \tag{7}
 $$
 
 where
@@ -190,7 +190,7 @@ With normally used window sizes and room dimensions, general, indicative values 
 
 In the following, formulas are given for calculation of the solar light factors for the inter-reflected contributions to SF1-SF4, and here, curves are shown both the direct contributions, for the inter-reflected contributions as well as for the total factors, from which normative values for the four solar light factors can determined.
 
-As an example, a room with a facade of 4 m x 2.8 m and a window with a glazed area of 20 %, 40 %, 60 % and 90 % of the internal facade area. The room's depth is 6 m. Reflections from the ceiling, walls and floor are respectively 0.7, 0.4 and 0.1. The solar light factors are calculated at a point on a horizontal surface 0.85 m above the floor and on the room's middle axis, at right angles to the facade.
+As an example, consider a room with a facade of 4 m x 2.8 m and a window with a glazed area of 20 %, 40 %, 60 % and 90 % of the internal facade area. The room's depth is 6 m. Reflections from the ceiling, walls and floor are 0.7, 0.4 and 0.1, respectively. The solar light factors are calculated at a point on a horizontal surface 0.85 m above the floor and on the room's middle axis, at right angles to the facade.
 
 A pre-requisite for using the curves is primarily that the windows, for which solar light factors are indicated in BSim are more or less evenly spread over the room's facade(s). If there are several windows in the same facade, it must be decided whether the solar light factors for one window must (or can) represent all the windows in the facade, or whether factors must be indicated for the individual windows.
 
@@ -222,7 +222,7 @@ The variation of SF1 in the room will be very dependent on where the light sourc
 </figure>
 
 
-The variation of SF1 as a function of the depth of the room is shown in 1 for window areas comprising 20% (lowest curves), respectively 90% of the facade (upper curves).
+The variation of SF1 as a function of the depth of the room is shown in Figure f.2 for window areas comprising 20% (lowest curves) and 90% of the facade (upper curves).
 
 It is apparent that the factor SF1 is increased slightly in smaller rooms, but the variation is comparatively little. It must be noted that the direct sky radiation in the calculations is assumed to strike the floor. Under this assumption, the solar light factor is directly proportional to the floor's reflectance, which is set to 0.1 in the calculations. With higher levels of reflectance, SF1 can thus be calculated directly by multiplying the value shown by the actual reflectance divided by 0.1.
 
@@ -236,15 +236,15 @@ It is apparent that the factor SF1 is increased slightly in smaller rooms, but t
 
 According to the definition of the solar light factor, there is the following connection between SF and the daylight factor DF:
 
-$$ 
-SF = \frac{E_v}{E_f} \cdot DF \tag{9} 
+$$
+SF = \frac{E_v}{E_f} \cdot DF \tag{9}
 $$
 
-Hvor: 
+where: 
 
-*E<sub>v </sub>* is the illuminance on the horizontal plane
+*E<sub>v</sub>* is the illuminance on the horizontal plane
 
-*E<sub>f </sub>* is the illuminance on the window surface
+*E<sub>f</sub>* is the illuminance on the window surface
 
 If the daylight factor for sky radiation, DF2 is known, then SF2 for the CIE-overcast sky is calculated from the following:
 

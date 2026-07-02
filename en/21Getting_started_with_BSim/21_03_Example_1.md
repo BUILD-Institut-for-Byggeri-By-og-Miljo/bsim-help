@@ -17,7 +17,7 @@ To create a new model, the mouse pointer is moved to the menu *File* | *New*, an
 <figcaption>First dialog for creating a new project.</figcaption>
 </figure>
 
-Doing this calls upon a [wizard](../09SimView/09_12_Model_wizard_creating_a_new_model.md) for creation of a new model. The name (top input line) and the path (bottom input line) to the new model must be given in the first dialog box. The The name of the new model is typed in the name field, in this case 'EX1'. In the path field the following can be typed:
+Doing this calls upon a [wizard](../09SimView/09_12_Model_wizard_creating_a_new_model.md) for creation of a new model. The name (top input line) and the path (bottom input line) to the new model must be given in the first dialog box. The name of the new model is typed in the name field, in this case 'EX1'. In the path field the following can be typed:
 
 C:\Program Files\Statens Byggeforskningsinstitut\BSim\Models
 
@@ -74,16 +74,16 @@ In the 3D drawing it is possible to control-click (left click on the mouse while
 
 **Input of data for windows**
 
-Select the face (Ctrl+left-click) facing South (if convenient rename it to 'SouthWall'). Select a local origin (double left-click or Shift+left-click one of the vertexes) of a coordinate system in the face where the window is to be inserted. Select an axis (double left-click or Shift+left-click on an edge) in the local coordinate system. Open the [SimView-menu](../06BSim_Program_structure/06_06_SimView_Menu.md) and select the entry *Add WinDoor* to define the geometry and the location of the window in the WinDoor dialog.
+Select the face (Ctrl+left-click) facing South (if convenient rename it to 'SouthWall'). Select a local origin (double left-click or Shift+left-click one of the vertices) of a coordinate system in the face where the window is to be inserted. Select an axis (double left-click or Shift+left-click on an edge) in the local coordinate system. Open the [SimView-menu](../06BSim_Program_structure/06_06_SimView_Menu.md) and select the entry *Add WinDoor* to define the geometry and the location of the window in the WinDoor dialog.
 
 <figure id="center_img">
 <img src="./assets/AddWindoor.gif" alt="Dialog for adding windows and doors (WinDoor) to a face. The illustration at the bottom right of the dialog shows how the WinDoor is located in the local coordinate system.">
 <figcaption>Dialog for adding windows and doors (WinDoor) to a face. The illustration at the bottom right of the dialog shows how the WinDoor is located in the local coordinate system.</figcaption>
 </figure>
 
-The width of the window opening is 2.0 m and the height 2.25 m. The distance from the floor (*Offset*) is 1,55 m (floor thickness + 30 cm distance from floor surface to bottom of the window) and the distance from the side wall (*Dist.*) is 0.808 m (exterior wall thickness + distance from the wall). The standard value 1 for number of windows and 0.2 for distance between identical WinDoors should no be changed in this example.
+The width of the window opening is 2.0 m and the height 2.25 m. The distance from the floor (*Offset*) is 1,55 m (floor thickness + 30 cm distance from floor surface to bottom of the window) and the distance from the side wall (*Dist.*) is 0.808 m (exterior wall thickness + distance from the wall). The standard value 1 for number of windows and 0.2 for distance between identical WinDoors should not be changed in this example.
 
-To define the geometry around the window in detail, right-click the object WinDoor in the tree structure and the WinDoor property dialog will open. In this dialog the local geometry (recess, overhangs and sidefins), systems connected to that WinDoor and solar light factors can be defined. Type 0.1 meter for the recess of the glass compared to the outer surface of the facade. The dialog is closed by clicking the the OK-button.
+To define the geometry around the window in detail, right-click the object WinDoor in the tree structure and the WinDoor property dialog will open. In this dialog the local geometry (recess, overhangs and sidefins), systems connected to that WinDoor and solar light factors can be defined. Type 0.1 meter for the recess of the glass compared to the outer surface of the facade. The dialog is closed by clicking the OK-button.
 
 <figure id="center_img">
 <img src="./assets/eks13.jpg" alt="Dialog (WinDoor Property) for definition of local geometry, systems and solar light factors for a windoor. A stop sign will occur if no WinDoor construction is attached.">
@@ -125,7 +125,7 @@ It is always recommended to make a copy of the element to change, in this case t
 </figure>
 
 
-When the new building element have got an unique SfB-number the *Edit BuildingElement* dialog of the database will open. On the first tab (*BuildingElement*) the name of the construction is changed so it reflects the new construction. After this one should jump to the second tab (*ConstructionLayer*). To obtain a description of the input fields in [*BuildingElement*](../07SimDB_Database/07_02_SimDB_BuildingElement.md), [*ConstructionLayer* ](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)and [*MaterialAmount* ](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)please refer to the description of the database SimDB.
+When the new building element has got a unique SfB-number the *Edit BuildingElement* dialog of the database will open. On the first tab (*BuildingElement*) the name of the construction is changed so it reflects the new construction. After this one should jump to the second tab (*ConstructionLayer*). To obtain a description of the input fields in [*BuildingElement*](../07SimDB_Database/07_02_SimDB_BuildingElement.md), [*ConstructionLayer* ](../07SimDB_Database/07_03_SimDB_BuildingElement_ConstructionLayer.md)and [*MaterialAmount* ](../07SimDB_Database/07_04_SimDB_BuildingElement_MaterialAmount.md)please refer to the description of the database SimDB.
 
 <figure id="center_img">
 <img src="./assets/edit_buildingelement_1.gif" alt="On the second tab (ConstructionLayer) in the dialog Edit BuildingElement the material layers in the construction can be changed.">

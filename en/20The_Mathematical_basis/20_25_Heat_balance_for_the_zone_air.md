@@ -2,7 +2,7 @@
 
 # Heat balance for the zone air
 
-The heat balance for the air in a zone does not make allowance for the heat capacity of the air which means that the air momentarily adjusts itself to alterations in the surroundings. The following influences on the air's thermal condition are differentiated:
+The heat balance for the air in a zone does not make allowance for the heat capacity of the air, which means that the air instantaneously adjusts to changes in the surroundings. The following influences on the air's thermal condition are differentiated:
 
 *   <a href="#heat-flows-from-adjoining-constructions">Heat flows from adjoining constructions</a>
 
@@ -10,7 +10,7 @@ The heat balance for the air in a zone does not make allowance for the heat capa
 
 *   <a href="#heat-flows-through-windoors">Heat flows through windoors</a>
 
-*   <a href="#solar-radiation">Solar radiation through windoors (of which only a limited amount is assumed to be induced to the air)</a>
+*   <a href="#solar-radiation">Solar radiation through windoors (only a limited portion is assumed to be transferred to the air)</a>
 
 *   <a href="#air-supplied-to-the-zone">Thermal contribution from various heat loads and systems</a>
 
@@ -20,7 +20,7 @@ The heat balance for the air in a zone does not make allowance for the heat capa
 
 *   <a href="#air-supplied-to-the-zone">Air transferred by from other zones (mixing)</a>
 
-In connection with the contributions to the heat balance from the various forms for air flows, it must be noted that the program always ensures that there is air balance for each zone, i.e. that equally large air volumes in the zone are supplied and extracted. User-selected data, which would lead to imbalance will thus bring about an increase of the air quantity by infiltration or exfiltration so that balance is achieved.
+In connection with the contributions to the heat balance from the various forms of air flow, it must be noted that the program always ensures air balance for each zone, i.e. equally large air volumes are supplied and extracted. User-selected data that would lead to imbalance thus causes an increase in air quantity by infiltration or exfiltration so that balance is achieved.
 
  
 
@@ -60,7 +60,7 @@ T<sub>air,side2 </sub>is the air temperature on the opposite side of the constr
 
 <h4 id="heat-flows-through-windoors"><strong>Heat flows through windoors</strong></h4>
 
-Windoors is not attributed any thermal capacity, and heat flows through these types of sub-surfaces are assumed to take place between the air nodes on each side of the sub-surface, so that the heat flow from zone 1 to zone 2 (positive or negative) are calculated from the formula:
+Windoors are not attributed any thermal capacity, and heat flows through these types of sub-surfaces are assumed to take place between the air nodes on each side of the sub-surface, so that the heat flow from zone 1 to zone 2 (positive or negative) is calculated from the formula:
 
 $$ \Phi_{air,win/door} = \sum_{windows \; + \; doors} A_{win/door} \cdot U_{win/door} \cdot \left( T_1 - T_2 \right) \tag{3} $$
 
@@ -94,7 +94,7 @@ The calculation of Φ<sub>sol</sub> is described in [[Petersen, 1982](20_28_Li
 
 <h4 id="air-supplied-to-the-zone"><strong>Air supplied to the zone</strong></h4>
 
-The air supplied to the zone can originate from four different types of '[systems](../11Systems/11_01_Systems.md)' entitled: [Mixing](../11Systems/11_10_systems_mixing.md), [infiltration](../11Systems/11_08_Systems_Infiltration.md), [venting](../11Systems/11_18_Systems_Venting.md) and (mechanical) [ventilation](../11Systems/11_21_Systems_Ventilation.md). The effect of each of these individual contributions on the air's heat balance depends on the volume flow and on the temperature of the air which is supplied to the zone. In the heat balance, each term is determined individually, since they are all calculated on the basis of a formula corresponding to next formula allowing for the variations which are determined by schedules for the individual systems.:
+The air supplied to the zone can originate from four different types of '[systems](../11Systems/11_01_Systems.md)' entitled: [Mixing](../11Systems/11_10_systems_mixing.md), [infiltration](../11Systems/11_08_Systems_Infiltration.md), [venting](../11Systems/11_18_Systems_Venting.md) and (mechanical) [ventilation](../11Systems/11_21_Systems_Ventilation.md). The effect of each of these contributions on the air's heat balance depends on the volume flow and the temperature of the air supplied to the zone. In the heat balance, each term is determined individually, since they are all calculated on the basis of a formula like the following, allowing for the variations determined by schedules for the individual systems:
 
  
 
@@ -110,17 +110,17 @@ V is the volume of the zone, m³
 
 c<sub>p</sub> is the specific thermal capacity of air, J/kg K
 
-When calculating the air's density no allowance is made for the actual temperature, since a constant density is anticipated, calculated at 15 °C and on the basis of the actual height above sea level.
+When calculating air density, no allowance is made for the actual temperature, since a constant density is used, calculated at 15 °C and based on the actual height above sea level.
 
  
 
 #### **Heat contribution from systems**
 
-These contributions originate from the following systems: people, equipment, lighting as well as actual heating and cooling systems in the zone. The systems' thermal influence on the air in the zone varies according to defined schedules, including the actual systems' control strategies which aim to maintain the desired thermal condition. During the description of systems, it is also defined how great a proportion of the heat dissipation is induced to the air, and how great a proportion is induced to the zone's surfaces by longwave radiation. In the present description, all the systems' heat dissipation is considered as one, as described by the magnitude Fair,syst.
+These contributions originate from the following systems: people, equipment, lighting as well as actual heating and cooling systems in the zone. The systems' thermal influence on the air in the zone varies according to defined schedules, including the actual systems' control strategies which aim to maintain the desired thermal condition. During the description of systems, it is also defined how great a proportion of the heat dissipation is induced to the air, and how great a proportion is induced to the zone's surfaces by longwave radiation. In the present description, all systems' heat dissipation is considered as a single term, described by the magnitude Φ<sub>air,syst</sub>.
 
 #### **The zone's total heat balance**
 
-The zone's total heat balance can now be defined by setting the sum of all the above mentioned heat contributions equal to zero, since with the stationary calculation method, heat will not be accumulated in the zone's air. On this basis, the equation in the next formula can be set up for calculation of the air temperature in the actual time-step.
+The zone's total heat balance can now be defined by setting the sum of all the above-mentioned heat contributions equal to zero, since with the steady-state calculation method, heat is not accumulated in the zone's air. On this basis, the equation in the next formula can be set up for calculation of the air temperature in the current time-step.
 
 
 $$

@@ -20,7 +20,7 @@ The examples describe how the building model can be gradually built up, how the 
 
 [EX3](21_05_Example_3.md)    Further elaboration of the building model, addition of shadows, modification of glazing type and addition of solar shading devices and ventilation systems. New simulation, modification of hour-log, analysis of results, and comparison with earlier results, definition of parameter lists, print-outs in tables and graphics.
 
-When going through the examples it is a assumed that the user has read the section regarding the [central user interface (SimView)](../09SimView/09_01_SimView.md)
+When going through the examples it is assumed that the user has read the section regarding the [central user interface (SimView)](../09SimView/09_01_SimView.md)
 <span id="red_text">
 and can use the mouse and keyboard confidently
 </span>
@@ -90,7 +90,7 @@ The roof is a cassette construction which on the inside consists of 22 mm pine w
  
 
 #### **Windows**
-Two identical windows are to be found in the south wall, placed as shown in the figure below. The window pane is an ordinary air-filled double glazed low energy pane, and the frame is asumed to be a 100 mm wooden frame the whole way round. The U-value for the total window construction is 1.6 W/(m²K).
+Two identical windows are to be found in the south wall, placed as shown in the figure below. The window pane is an ordinary air-filled double glazed low energy pane, and the frame is assumed to be a 100 mm wooden frame the whole way round. The U-value for the total window construction is 1.6 W/(m²K).
 
 The window is recessed slightly from the facade, so that the window's exterior surface lies 0.1 m deeper than the facade. This is being described via the entry *Overhang/sidefins* in the Windoor property dialog.
 

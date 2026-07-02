@@ -10,38 +10,38 @@ BYG*DTU  <br>
 
 </div>
 
-$$ \text{TempFactSky} = \frac{\left( t_{\text{new}}[1] + 273{,}15 + th_{\text{abs}} \right)^{3}}{2} \tag{1} $$
-$$ \text{TempFactOut} = \frac{\left( t_{\text{new}}[1] - t_{\text{out}} + 546{,}3 \right)^{3}}{2} \tag{2} $$
+$$ \text{TempFactSky} = \frac{\left( t_{\text{new}}[1] + 273.15 + th_{\text{abs}} \right)^{3}}{2} \tag{1} $$
+$$ \text{TempFactOut} = \frac{\left( t_{\text{new}}[1] - t_{\text{out}} + 546.3 \right)^{3}}{2} \tag{2} $$
 
 where
 
-$$ th_{abs} = \left( (1-cc) \cdot 9{,}36 e^{-6} t_{out,abs}^6 + cc \cdot td_{abs} \right)^{0{,}25} \tag{3} $$
+$$ th_{abs} = \left( (1-cc) \cdot 9.36 e^{-6} t_{out,abs}^6 + cc \cdot td_{abs} \right)^{0.25} \tag{3} $$
 
- is the absolute outdoor dew point temperature,
+is the absolute outdoor dew point temperature,
 
-$$ td_{abs} = td + 273{,}15 \tag{4} $$
+$$ td_{abs} = td + 273.15 \tag{4} $$
 
- is the outdoor dry bulb temperature,
+is the outdoor dew point temperature in Kelvin,
 
-$$ td_{out,abs} = t_{out} + 273{,}15 \tag{5} $$
+$$ td_{out,abs} = t_{out} + 273.15 \tag{5} $$
 
 cc is the cloud cover as decimal number.
 
-Heat transfer coefficient for radiation exchange between the exterior surface and the sky.
+The heat transfer coefficient for radiation exchange between the exterior surface and the sky is calculated as:
 
-$$ h_{rad,sky} = \frac{1 + \cos (h)}{2} + (1 - \varepsilon_{ground}) \cdot \frac{1 - \cos (h)}{2} \cdot \varepsilon_{warm} \\ \cdot \sigma \cdot TempFactSky \tag{6} $$
+$$ h_{rad,sky} = \left[ \frac{1 + \cos(h)}{2} + (1 - \varepsilon_{ground}) \cdot \frac{1 - \cos(h)}{2} \cdot \varepsilon_{warm} \right] \cdot \sigma \cdot TempFactSky \tag{6} $$
 
 where
 
-ε<sub>warm </sub>the is long wave emissivity of exterior surface,  
-σ is Stefan-Boltzmann constant (5,6697e<sup>-8</sup> W/m²K<sup>4</sup>),  
-ε<sub>ground</sub> is the long wave emissivity of exterior ground (0,90).
+ε<sub>warm</sub> is the long wave emissivity of the exterior surface,  
+σ is the Stefan-Boltzmann constant (5.6697e<sup>-8</sup> W/m²K<sup>4</sup>),  
+ε<sub>ground</sub> is the long wave emissivity of the exterior ground (0.90).
 
-In the heat balance of the exterior surface the following are added to the coefficients of the equation system for the first exterior node point:
+In the heat balance of the exterior surface, the following are added to the coefficients of the equation system for the first exterior node point:
 
-$$ b[1] + = h_{rad,sky} + h_{rad,out} \tag{7} $$
+$$ b[1] += h_{rad,sky} + h_{rad,out} \tag{7} $$
 
-$$ d[1]+ = h_{rad,out} \cdot t_{out} + h_{rad,sky} \cdot (th_{abs} + 273{,}15) \tag{8} $$
+$$ d[1] += h_{rad,out} \cdot t_{out} + h_{rad,sky} \cdot (th_{abs} + 273.15) \tag{8} $$
 
 ####  
 
@@ -51,7 +51,7 @@ Next to calculating the long wave radiation effects, the heat transfers coeffici
 
 $$ h[1] = \frac{1}{outside[1] \cdot m[1] + \frac{1}{h_{conv} + rx[1]}} \tag{9} $$
 
-where outside[1]*m[1] is the thermal resistance in the between from the node point to the surface, if the node point is not exactly at the surface (in tsbi5, m[1] is zero), rx[1] is possible "extra" surface resistance at the surface - normally zero, and h<sub>conv</sub> is calculated from the wind speed v (m/s) as:
+where outside[1]*m[1] is the thermal resistance between the node point and the surface, if the node point is not exactly at the surface (in tsbi5, m[1] is zero). rx[1] is a possible "extra" surface resistance at the surface—normally zero. h<sub>conv</sub> is calculated from the wind speed v (m/s) as:
 
 if v ≤ 5 then
 

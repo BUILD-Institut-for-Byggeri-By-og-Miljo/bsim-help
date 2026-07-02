@@ -8,7 +8,7 @@ Department of Computer Science Princeton University
 
 #### **Abstract**
 
-Form factors are used in radiosity to describe the fraction of diffusely reflected light leaving one surface and arriving at another. They are a fundamental geometric property used for computation. Many special configurations admit closed form solutions. However, the important case of the form factor between two polygons in three space has had no known closed form solution. We give such a solution for the case of general (planar, convex or concave, possibly containing holes) polygons.
+Form factors are used in radiosity to describe the fraction of diffusely reflected light leaving one surface and arriving at another. They are a fundamental geometric property used for computation. Many special configurations admit closed form solutions. However, the important case of the form factor between two polygons in three-dimensional space has had no known closed form solution. We give such a solution for the case of general (planar, convex or concave, possibly containing holes) polygons.
 
 **CR Categories and Subject Descriptors**: I.3.7 [Computer Graphics]: Three-Dimensional Graphics and Realism – Radiosity; J.2 [Physical Sciences and Engineering]: Engineering.
 
@@ -48,7 +48,15 @@ $$ 4 \pi A_{P_{1}} F_{P_{1} P_{2}}=\sum_{E_{i} E_{j}} \cos \angle E_{i} E_{j} \i
 
  
 
-Ignoring the factor cos $ \angle $ E<sub>i</sub>E<sub>j</sub> we are left with the task of giving a solution to integrals of the general form $ \int_{0}^{c_2} \; \int_{0}^{c_0} $ . ln f(s; t) ds dt. c<sub>0</sub> and c<sub>2</sub> are the lengths of the edges over which a given double contour integral is taken and f(s; t) = s2 + c<sub>1</sub>st + t<sup>2</sup> + c<sub>3</sub>s + c<sub>4</sub>t + c<sub>5</sub> is the bi-quadratic form which arises from the expansion of the dot product (see Table 2 for definitions of all variables). If the two line segments lie in a common plane we can factor f(s; t) into two bi-linear forms and a solution is readily obtained with standard integration tables (see [9]). Lines in general position lead to the following result:
+Ignoring the factor $\cos \angle E_i E_j$ we are left with the task of giving a solution to integrals of the general form
+
+$$ \int_{0}^{c_2} \int_{0}^{c_0} \ln f(s,t) \, ds \, dt. $$
+
+$c_0$ and $c_2$ are the lengths of the edges over which a given double contour integral is taken, and
+
+$$ f(s,t) = s^2 + c_1 s t + t^2 + c_3 s + c_4 t + c_5 $$
+
+is the bi-quadratic form that arises from the expansion of the dot product (see Table 2 for the definitions of all variables). If the two line segments lie in a common plane, we can factor $f(s,t)$ into two bi-linear forms and a solution is readily obtained with standard integration tables (see [9]). Lines in general position lead to the following result:
 
 $$ \int_{0}^{c_{2}} \int_{0}^{c_0} \ln f(s, t) d s d t $$
 
@@ -67,7 +75,7 @@ $$
 
 $$ \left.\left.\left.-\mathrm{L}\left(c_{17}(s)\right)(t)-\mathrm{L}\left(c_{18}(s)\right)(t)\right)\right]\left.\right|_{s=0} ^{s=c_{0}}\right\}\left.\right|_{t=\sqrt{\frac{c_{13}}{c_{13}}}} ^{t=\sqrt{\frac{c_{13}+c_{2}}{c_{13}+c_{2}}}} \tag{3} $$
 
-where k(s) $ \in $ {-1; 0; 1} according to the particular branchcut of the complex logarithm choosen in L. The auxiliary functions G, H, L, and M are given in Table 1.
+where k(s) $ \in $ \{-1; 0; 1\} according to the particular branch cut of the complex logarithm chosen in L. The auxiliary functions G, H, L, and M are given in Table 1.
 
  
 
@@ -177,7 +185,7 @@ $$ c_{18}(s) = \frac{-c_{15} - \sqrt{c_{15}^2 - 4 |c_{16}(s)|^2}}{2 i c_{16}(s)}
 </figure>
 
 
-**Figure 1:** Geometry for two rectangles sharing a common edge with an enclosing angle of θ. The graphs show the form factor as a function of θ for edge ratios l = a/b of 0,2, 0,4, 0,6, 0,8, and 1,0.
+**Figure 1:** Geometry for two rectangles sharing a common edge with an enclosing angle of θ. The graphs show the form factor as a function of θ for edge ratios $l = a/b$ of 0.2, 0.4, 0.6, 0.8, and 1.0.
 
  
 
