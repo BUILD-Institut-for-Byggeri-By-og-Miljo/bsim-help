@@ -71,7 +71,7 @@ Direct solar radiation will produce a bright spot somewhere in the room, and the
 
 In the figure sunlight factor SF1 is shown for a room of 6 meters in depth with varying window size, expressed as the area of the glazing as a percentage of the entire (internal) area of the facade.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/sf1-8m.jpg" alt="Solar light factor SF1 for the direct radiation component of the daylight in a room with a depth of 8 meters with different window areas.">
 <figcaption>Solar light factor SF1 for the direct radiation component of the daylight in a room with a depth of 8 meters with different window areas.</figcaption>
 </figure>
@@ -86,7 +86,7 @@ The two components of solar light factor SF2 from the direct and inter-reflected
 
 The sum of the two components is shown in the following figure, which illustrates the solar light factors for a room of 8 meters in depth with different window areas.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/sf2-8m.jpg" alt="Solar light factor SF2 for the diffuse sky radiation component of the daylight in a room with a depth of 8 meters with different window areas.">
 <figcaption>Solar light factor SF2 for the diffuse sky radiation component of the daylight in a room with a depth of 8 meters with different window areas.</figcaption>
 </figure>
@@ -95,7 +95,7 @@ The sum of the two components is shown in the following figure, which illustrate
 
 SF3 determines the component represented by sunlight reflected from the surface of the ground and includes both the diffuse sky light and direct sunlight components. Diffuse reflection from the surface of the ground is assumed. The characteristic feature of the reflected component is that it must strike other surfaces in the room first, in particular the ceiling, before reaching the point. This factor therefore only includes components made up of the inter-reflected portion of the light (the point on the work surface cannot "see" any radiation directly from the ground).
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/sf3-8m.jpg" alt="Solar light factor SF3 for the reflected radiation component of the daylight in a room of 8 metres in depth with different window areas.">
 <figcaption>Solar light factor SF3 for the reflected radiation component of the daylight in a room of 8 metres in depth with different window areas.</figcaption>
 </figure>
@@ -111,7 +111,7 @@ If shading is used and the light is "diffused" after it passes the shading, *SF4
 
 The light from the shading represents a direct component SF4<sub>d</sub> and an inter-reflected component SF4<sub>i</sub> in the illuminance, which can be determined separately as described in: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/sf4-8m.jpg" alt="Solar light factor SF4 for sunlight diffused through shading for a room of 8 metres in depth with different window percentages.">
 <figcaption>Solar light factor SF4 for sunlight diffused through shading for a room of 8 metres in depth with different window percentages.</figcaption>
 </figure>

@@ -67,7 +67,7 @@ Den direkte sol vil give en lysende plet et sted i lokalet, og det reflekterede 
 
 Figuren nedenfor viser eksempler på beregnede værdier af SF1 på arbejdsplanet i en linie midt i rummet for forskellige vinduesstørrelser og som funktion af afstanden fra vinduet (jf. ([Johnsen, Grau & Christensen, 1993](../20The_Mathematical_Basis/20_28_Literature.md)).
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/SF1-8M.JPG" alt="Vinduesstørrelsen er angivet som rudens procentvise andel af den samlede facade (glasprocent GP), og SF1 er proportional med denne glasprocent og med reflektansen for den flade, som det direkte sollys rammer (Rf,sol). SF1 er omvendt proportional med rummets samlede overfladeareal og med faktoren (1 - Rmid), hvor Rmid er middelreflektansen for alle rummets overflader."> 
 <figcaption>Vinduesstørrelsen er angivet som rudens procentvise andel af den samlede facade (glasprocent GP), og SF1 er proportional med denne glasprocent og med reflektansen for den flade, som det direkte sollys rammer (R<sub>f,sol</sub>). SF1 er omvendt proportional med rummets samlede overfladeareal og med faktoren (1 - R<sub>mid</sub>), hvor R<sub>mid</sub> er middelreflektansen for alle rummets overflader.</figcaption>
 </figure>
@@ -83,7 +83,7 @@ De to bidrag til sollysfaktoren SF2 fra henholdsvis den direkte og den interrefl
 
 Summen af de to bidrag er vist på den følgende figur, der viser sollysfaktorerne for et 8 meter dybt lokale med forskellige vinduesarealer.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/SF2-8M.JPG" alt="Sollysfaktoren SF2 for den diffuse himmelstrålings bidrag til dagslyset i et lokale med dybden 8 meter ved forskellige vinduesarealer."> 
 <figcaption>Sollysfaktoren SF2 for den diffuse himmelstrålings bidrag til dagslyset i et lokale med dybden 8 meter ved forskellige vinduesarealer.</figcaption>
 </figure>
@@ -92,7 +92,7 @@ Summen af de to bidrag er vist på den følgende figur, der viser sollysfaktorer
 
 SF3 bestemmer bidraget fra det reflekterede sollys fra jordoverfladen, og heri indgår både bidraget fra diffust himmellys og fra direkte sollys. Der regnes med diffus refleksion fra jordoverfladen. Det reflekterede bidrag er karakteriseret ved, at lyset først skal ramme andre flader i lokalet, især loftet, inden det når punktet. Denne faktor indeholder derfor kun bidrag fra den interreflekterede del af lyset (punktet i arbejdsplanet kan ikke "se" nogen stråling direkte fra jorden).
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/SF3-8M.JPG" alt="Sollysfaktoren SF3 for den reflekterede strålings bidrag til dagslyset i et lokale med dybden 8 meter ved forskellige vinduesarealer."> 
 <figcaption>Sollysfaktoren SF3 for den reflekterede strålings bidrag til dagslyset i et lokale med dybden 8 meter ved forskellige vinduesarealer.</figcaption>
 </figure>
@@ -107,7 +107,7 @@ Når der anvendes en solafskærmning og lyset "diffuseres" efter passagen af afs
 
 Lyset fra solafskærmningen giver et direkte bidrag SF4<sub>d</sub> og et interreflekteret bidrag SF4<sub>i</sub> til belysningsstyrken, der kan bestemmes hver for sig som beskrevet i [algoritmer for beregning af solstråling og dagslys](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/SF4-8M.JPG" alt="Sollysfaktoren SF4 for sollys, der diffuseres gennem en solafskærmning for et 8 meter dybt lokale ved forskellige vinduesprocenter. ">
 <figcaption>Sollysfaktoren SF4 for sollys, der diffuseres gennem en solafskærmning for et 8 meter dybt lokale ved forskellige vinduesprocenter.</figcaption>
 </figure>
