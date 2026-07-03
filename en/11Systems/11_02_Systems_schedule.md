@@ -8,7 +8,7 @@ The order of the control/schedule pairs *(DayProfile/Time)* on the summary tab i
 
 The overall summary for a system can be viewed on the *Schedule* tab.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/Schedule.gif" alt="The Schedule dialog box displays the combinations of control (DayProfile or control) and Time that are attached to the current system.">
 <figcaption>The Schedule dialog box displays the combinations of control (DayProfile or control) and Time that are attached to the current system.</figcaption>
 </figure>
