@@ -10,7 +10,7 @@ In earlier versions of BSim, the description of solar shading was limited to a f
 
 BSim can simulate normal Venetian blinds located internally or externally as shading factors (g-values) are pre-defined in built-in tables for Venetian blinds having different values of reflectance. It is a premise that the Venetian blind is being used in combination with a low energy glazing. To be able to simulate other type of slate based shading devices, e.g. glazed slates, a possibility for the user to define their own slate based shading devices in external tables. The tables must contain information about the g-value as a function of the tilt of the slates, the profile angle and a reduction factor for daylight as a function of the slate tilt (overcast sky). The format of the tables is given in the figure below.
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/shading_externalFile.png" alt="">
 <figcaption></figcaption>
 </figure>
