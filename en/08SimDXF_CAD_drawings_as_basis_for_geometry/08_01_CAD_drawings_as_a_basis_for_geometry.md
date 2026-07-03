@@ -2,13 +2,13 @@
 
 # CAD drawings as a basis for geometry
 
-
+<div style="text-align:center">
 SimDXF is a simple tool for importing CAD drawings in DXF format as base for constructing the geometric description of building models in BSim.
 
 
-One floor of a multi-storey building can be imported via SimDXF at a time. If more floors need to be created in the same model, it is necessary to create each floor separately and insert the new floor(s) in the current project in SimView. By doing this, the model gets more buildings (one for each new floor). It is **only** possible to simulate one building at a time (current building) in tsbi5. By dragging (in the tree structure of [SimView](../09SimView/09_01_SimView.md)) the new building(s) to the current building, these floors (buildings) are added to the actual model and can be simulated simultaneously in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md). Occasionally, it will be necessary to move the new floors (i.e. upwards) in the model, using the [Move](../09SimView/09_13_SimView_Move.md) command from the SimView-menu.
+One floor of a multi-storey building can be imported via SimDXF at a time. If more floors need to be created in the same model, it is necessary to create each floor separately and insert the new floor(s) in the current project in SimView. By doing this, the model gets more buildings (one for each new floor). It is <strong>only</strong> possible to simulate one building at a time (current building) in tsbi5. By dragging (in the tree structure of [SimView](../09SimView/09_01_SimView.md)) the new building(s) to the current building, these floors (buildings) are added to the actual model and can be simulated simultaneously in [tsbi5](../13tsbi5_thermal_simulation/13_01_tsbi5.md). Occasionally, it will be necessary to move the new floors (i.e. upwards) in the model, using the [Move](../09SimView/09_13_SimView_Move.md) command from the SimView-menu.
 
-
+</div>
 
 
 CAD drawings of a building's floor plans can be used as the basis for constructing data models in BSim. CAD drawings must be saved in *DXF* format and should contain as little superfluous information as possible for the sake of clarity.

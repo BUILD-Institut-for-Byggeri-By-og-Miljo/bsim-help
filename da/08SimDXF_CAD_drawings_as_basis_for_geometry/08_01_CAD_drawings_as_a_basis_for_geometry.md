@@ -12,7 +12,7 @@ Der kan importeres en etage ad gangen via SimDXF. Hvis der ønskes oprettet en m
 
  
 
-
+<div style="text-align:center">
 SimDXF er et simpelt værktøj til import af cad tegninger i DXF-format som grundlag for opbygning af den geometriske beskrivelse af bygningsmodeller i BSim.
 
 Der kan importeres en etage ad gangen via SimDXF. Hvis der ønskes oprettet en model med mere end en etage er det nødvendigt at oprette hver etage for sig i SimDXF, og 
@@ -22,7 +22,7 @@ etage nummer 2 og følgende i SimView. Herved fås en model med flere bygninger 
 <a href="../13tsbi5_thermal_simulation/13_01_tsbi5.md">tsbi5</a>. Det kan være nødvendigt at flytte nye etager (fx. opad) i modellen med kommandoen 
 <a href="../09SimView/09_13_SimView_Move.md">Move</a> fra SimView-menuen.
 
-
+</div>
 
 Cad-tegninger af en bygnings etageplaner kan benyttes som grundlag for opbygning af datamodellerne i *BSim*. Cad-tegninger skal være gemt i *dxf*-format og bør for overskuelighedens skyld indeholde så få overflødige informationer som muligt.
 

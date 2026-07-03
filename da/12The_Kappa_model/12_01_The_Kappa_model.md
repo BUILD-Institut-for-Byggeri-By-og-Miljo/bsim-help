@@ -3,13 +3,9 @@
 # Kappa-modellen
 <div style="text-align:center">
 
-<strong> The Kappa Model </strong>
-<br>
-
 Henrik Brohus, Aalborg University   <a href="https://www.en.build.aau.dk/">Department of Building Technology and Structural Engineering</a>
-<br>
 Henrik Ryberg     <a href="https://www.sweco.dk/">Grontmij | Carl Bro as</a>
-
+<br>
 </div>
 
 **Kappa-modellen – en simpel model for tilnærmet bestemmelse af vertikal temperaturfordeling i rum**
