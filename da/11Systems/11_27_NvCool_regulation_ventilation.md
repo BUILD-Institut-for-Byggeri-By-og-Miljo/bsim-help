@@ -2,9 +2,11 @@
 
 # NvCool-regulering, Ventilation
 
+<div align="center">
 *Morten Stender Christensen & Olaf Bruun Jørgensen, [Esbensen Rådgivende Ingeniører](https://www.dem.dk/)*
 
 *Iver Holm Iversen, [IndeKlimaMiljø](https://www.ikm.dk/)*
+</div>
 
 NvCool-regulering, er ligesom VAV-regulering, en ventilationsregulering efter en rumføler, der primært benyttes ved rum med ventilation og kølebehov i en stor del af driftstiden. NvCool-reguleringen er udviklet til EFP-projektet *"Naturlig ventilation med varmegenindvinding og Køling"*. Ved naturlig ventilation er der ikke noget elforbrug til ventilation og derfor ønskes der - ved høje indetemperaturer - ofte at fjerne varmen ved forøget udluftning frem for aktiv køling af indtagsluften.
 
