@@ -25,7 +25,7 @@
 | Options           | *Muligheder*, normalt for definition af diverse standardværdier for modellen og for programmerne. |
 | People            | Systemet [*personer*](../11Systems/11_13_Systems_Persons.md) giver en varmebelastning til den termiske zone hvor de er tilknyttet. |
 | Recess            | *Tilbagetrækning* af glasset i et vindue eller dør i forhold til facadens yderside. |
-| Room              | Et rum i modellen. Et *rum* **kan** ligge i en termisk zone, og kun *rum* i termiske zoner medtages i simuleringer med tsbi5. Alle *rum*, også uden for termiske zoner, medtages i modellen når den hentes ind i [Be10](../19BSim_and_other_windows_programs/19_01_BSim_and_other_Windows_programs.md)-programmet. |
+| Room              | Et rum i modellen. Et *rum* **kan** ligge i en termisk zone, og kun *rum* i termiske zoner medtages i simuleringer med tsbi5. Alle *rum*, også uden for termiske zoner, medtages i modellen når den hentes ind i [Be10]()-programmet. |
 | Schedule          | En tidsplan er en samling af par af reguleringer og tidsangivelser, der tilsammen udgør reguleringsstrategien for et system. |
 | Shading           | [Solafskærmning](../11Systems/11_16_Systems_shading.md). |
 | Shutter           | [Skodder](../11Systems/11_15_Systems_shutter.md), normalt opfattet som natskodder, men kan også bruges til at afskære solindfaldet helt eller delvist inden for en given [tidsangivelse](../11Systems/11_17_Systems_Time.md). |
