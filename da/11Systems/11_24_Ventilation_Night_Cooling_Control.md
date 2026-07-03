@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Natkøling, Ventilation
+# Ventilation, *Natkøling*
 
 Denne form for regulering vil ofte være kombineret med en af de øvrige typer. Den primære funktion vil normalt være at ventilere de(n) aktuelle zone(r) uden for brugstiden for at køle bygningsmassen ned, således at behovet for mekanisk køling (via køleflade) elimineres eller reduceres væsentligt.
 

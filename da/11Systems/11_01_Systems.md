@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# SimView - Systemer
+# *SimView* - Systemer
 
 Et system består af den generelle fysiske komponent, beskrevet ved en simpel matematisk model, samt en tidsplan, der angiver variationer, styringsstrategier m.m., defineret ved sammenhørende par af regulering og tidsangivelse, jf. figuren.
 

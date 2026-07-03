@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Varmepumpe, System
+# Systems, *Varmepumpe*
 
 I dialogen angives data for en eventuel varmepumpe til rumopvarmning. Dataene bestemmes i henhold til relevante europæiske standarder.
 

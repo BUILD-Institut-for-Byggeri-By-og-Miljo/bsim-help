@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Shading, System
+# Systems, *Shading*
 
 Til hvert vindue i en BSim-model kan der tilknyttes en solafskærmning, som beskrives gennem data i dialogen vist i figuren. Afskærmningen beskrives ved nogle ganske få parametre, der beskriver de fysiske egenskaber, som vist i tabellen.
 

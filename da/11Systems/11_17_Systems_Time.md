@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Time, System
+# Systems, *Time*
 
 I alle former for tidsplaner til systemer indgår der én eller flere tidsangivelser. Hver tidsangivelse er knyttet sammen med netop én regulering og angiver, hvornår systemet skal fungere med denne regulering.
 

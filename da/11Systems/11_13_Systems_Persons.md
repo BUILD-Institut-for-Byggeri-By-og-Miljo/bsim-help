@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Persons, System
+# Systems, *Persons*
 Modellen beskriver varme og fugtafgivelse fra personer, som opholder sig i den aktuelle termiske zone. Antallet kan variere med tiden, hvilket beskrives under tidsplanen som en procentdel af det nominelle eller maksimale antal i en given time. Bemærk at latent varme, der er bundet til vanddamp, ikke angives som varmeafgivelse, da programmet selv tager hensyn hertil ved beregning af køling, kondensforhold mv.
 
 Varmeafgivelsen fra personer antages fordelt ligeligt mellem stråling og konvektion.

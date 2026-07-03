@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Equipment, System
+# Systems, *Equipment*
 
 Modellen beskriver varmeafgivelse i den aktuelle termiske zone fra maskiner, apparater, udstyr m.m. Under tidsplanen kan variationen over døgnet, ugen og året defineres. Bemærk, at varmeafgivelse fra belysning defineres særskilt i [belysningsdialogen](../11Systems/11_03_Systems_Lighting.md).
 

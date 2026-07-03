@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Indblæsningsstyring, Ventilation
+# Ventilation, *Indblæsningsstyring*
 
 Indblæsningsstyring er en styring af indblæsningstemperaturen som funktion af udetemperaturen (udekompensering). Reguleringskurven består af tre sammenhængende liniestykker, og fastlægges ved definition af to punkter samt hældningen på linierne uden for disse punkter, jf. figuren i dialogen. Regulering af komponenternes ydelse sker i serie, således at den ønskede indblæsningstemperatur søges opnået ved først at regulere genvinderen, dernæst varme- eller kølefladen.
 

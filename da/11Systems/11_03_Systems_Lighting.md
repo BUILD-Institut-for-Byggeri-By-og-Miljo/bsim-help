@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../style.css">
 
 
-# Lighting, System
+# Systems, *Lighting*
 Belysningssystemet er opdelt i en generel, almen loftsbelysning *(General Lighting)* samt en arbejdspladsbelysning kaldet særlys *(Task Lighting)*. Reguleringen af de to belysningstyper er forskellig, idet arbejdspladsbelysningen altid antages tændt inden for tidsangivelserne i tidsplanen, mens almenbelysningen tændes og slukkes efter det aktuelle behov. Den definerede belysningseffekt omsættes til varme.
 
 Varmeafgivelsen fra belysning - minus evt. andel som udsuges gennem armaturet (Exhaust Part) - antages afgivet ved stråling som fordeles ligeligt efter overfladernes arealer.   

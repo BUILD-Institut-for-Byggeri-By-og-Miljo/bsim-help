@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Shutter, System
+# Systems, *Shutter*
 
 Skodden er primært tænkt som en natskodde, der lukkes for den aktuelle WinDoor, når udetemperaturen er under en vis værdi. Virkningen er, at U-værdien for den aktuelle WinDoor forbedres og at solindfaldet reduceres, evt. til 0.
 

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Systems, *DayProfile*
+# System, *DayProfile*
 
 The most frequently used control is of the day profile type, which is described below. The other control types are described under the individual systems to which they can be attached.
 

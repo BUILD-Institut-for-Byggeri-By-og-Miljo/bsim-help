@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# VAV-regulering, Ventilation
+# Ventilation, *VAV-regulering*
 
 VAV-regulering (Variable Air Volume) er en anden form for regulering efter en rumføler, der primært benyttes ved rum med kølebehov i en stor del af driftstiden. Funktionen er, at rumføleren ved faldende varmebehov og stigende kølebehov regulerer varmeflade, genvinder og volumenstrøm (fx via spjældmotor) i serie for at opnå den ønskede rumtemperatur. Ved fortsat stigende kølebehov vil regulatoren åbne for kølefladen, når setpunktet for køling overskrides. Ligesom ved rumtemperaturregulering bør der indlægges en dødzone mellem setpunkterne. Når indblæsningstemperaturen kommer under minimum setpunktet for indblæsningsføleren, vil denne overstyre rumføleren, således at minimumværdien for indblæsningstemperaturen ikke underskrides.
 

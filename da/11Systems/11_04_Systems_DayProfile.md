@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# DayProfile, System
+# Systems, *DayProfile*
 Den hyppigst anvendte regulering er af typen døgnprofil, som beskrives nedenfor. De øvrige reguleringstyper beskrives under de enkelte systemer, hvortil de kan knyttes.
 
 For hver periode af døgnet, hvor der ønskes specificeret en bestemt belastning indlæses belastningen som et heltal med %-tegn efterfulgt af timeperioden, hvori denne belastning skal være gældende. Efter hver timeangivelse og før en efterfølgende procentangivelse skal der være mellemrum.

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Mixing, System
+# Systems, *Mixing*
 
 Mixing er defineret som en luftudveksling mellem termiske zoner og rum i modellen som støder op til hinanden (har mindst en flade fælles). Det er dog ikke muligt at mixe <u>fra</u> et rum der er defineret som havende samme temperatur som den termiske zone der ønskes mixet <u>til</u>.
 

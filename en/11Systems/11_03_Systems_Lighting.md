@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Systems, *Lighting*
+# System, *Lighting*
 
 The lighting system is divided into general ceiling lighting (*General Lighting*) and workstation lighting referred to as *Task Lighting*. The two lighting types are controlled differently, with the workstation lighting always being assumed to be on within the time specifications in the schedule, while the general lighting is switched on and off as required. The defined lighting power is converted into heat.
 

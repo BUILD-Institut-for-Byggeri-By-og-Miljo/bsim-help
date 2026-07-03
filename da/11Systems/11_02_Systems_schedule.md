@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Schedule, System
+# Systems, *Schedule*
 I brugergrænsefladen afspejles strukturen at systemerne i dialogerne for de enkelte komponenter, idet der for alle komponenter findes et faneblad Schedule, som definerer tidsplanen, der skal anvendes for den konkrete komponent.
 
 Rækkefølgen af regulering/tidsplan-parrene (*DayProfile/Time*) på oversigtsfanebladet er af stor betydning, idet den under en simulering bestemmer den regulering, der skal anvendes sammen med den aktuelle komponent. Til et givet tidspunkt (ved starten af hver time) gennemløbes tidsplanen i den rækkefølge, der er vist i oversigtsfanebladet. Ved det første par af regulering/tidsangivelse, hvor det givne tidspunkt falder inden for tidsangivelsen, vil den tilhørende regulering blive anvendt sammen med dens komponent. Hvis det givne tidspunkt derimod ikke falder inden for nogen tidsangivelse i tidsplanen, vil det bevirke, at den tilhørende komponent ikke aktiveres, hvorfor der ikke vil være nogen indeklimamæssig påvirkning på det pågældende tidspunkt.

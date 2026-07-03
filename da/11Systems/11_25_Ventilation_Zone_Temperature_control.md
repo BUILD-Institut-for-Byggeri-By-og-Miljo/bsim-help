@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Rumtemperaturregulering, Ventilation
+# Ventilation, *Rumtemperaturregulering*
 
 Angiver en regulering, hvor en rumføler (via en reguleringscentral) regulerer anlægskomponenterne i serie. I reguleringsfunktionen indgår et setpunkt for opvarmning og et setpunkt for køling, hvorimellem der er en 'dødzone', således at der kan opnås en økonomisk regulering, hvor anlægget ikke pendler mellem opvarmning og køling. I reguleringen indgår også en indblæsningsføler med setpunkter for minimum og maksimum indblæsningstemperatur. Ved overskridelse af disse setpunkter overtager indblæsningsføleren reguleringen for at holde indblæsningstemperaturen inden for det ønskede interval.
 

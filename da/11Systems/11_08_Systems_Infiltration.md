@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Infiltration, System
+# Systems, *Infiltration*
 Infiltration er utilsigtet eller ukontrolleret lufttilførsel gennem utætheder i bygningens klimaskærm. I modellen for infiltrationen indgår tre led i beregningen: Et grundluftskifte plus et led, der er afhængigt af differensen mellem inde og udetemperatur, plus et led, der er afhængigt af vindhastigheden:
 
 $$ n_{udeluft} = n_0 + c_t \cdot \left( t_i - t_u \right)^{tp} + c_v \cdot v \tag{1} $$

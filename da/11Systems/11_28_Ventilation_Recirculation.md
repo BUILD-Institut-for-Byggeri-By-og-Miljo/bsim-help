@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Recirkulation, Ventilation
+# Ventilation *Recirkulation*
 
 Regulering af ventilationen med henblik på udnyttelse af recirkulation.
 

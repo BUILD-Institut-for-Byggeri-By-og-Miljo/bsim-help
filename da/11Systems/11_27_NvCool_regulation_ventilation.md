@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# NvCool-regulering, Ventilation
+# Ventilation, *NvCool-regulering*
 
 <div style="text-align:center">
 

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Venting, System
+# Systems, *Venting*
 
 Udluftningen kan benyttes til at definere funktionen af alle former for naturlig ventilation, dvs. tilsigtet ventilering af zonen via ventiler, vinduer eller andre åbninger til det fri. Den simpleste form for naturlig ventilation sker ved åbning af vinduer, og modellen kan både simulere et 'fast' luftskifte, som kun varierer med forskellen mellem inde- og udetemperaturen og af vindhastigheden, og et luftskifte, som reguleres for at opretholde en ønsket indetemperatur.
 

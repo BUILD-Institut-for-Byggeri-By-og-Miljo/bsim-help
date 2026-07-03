@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Fugtregulering, Ventilation
+# Ventilation, *Fugtregulering*
 
 Denne reguleringsform kan primært benyttes, hvor der i perioder er behov for at affugte rumluften. Ud fra temperatursetpunktet omregnes den ønskede relative fugtighed til en ønsket absolut fugtighed. Herudfra beregnes det, hvad det absolutte fugtindhold i indblæsningsluften skal være for at opnå den ønskede fugtighed i zonen.
 

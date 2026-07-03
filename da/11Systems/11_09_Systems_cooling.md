@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Cooling, System
+# Systems, *Cooling*
 
 Modellen simulerer en termostatstyret køleradiator, fx et køleloft eller en anden køleflade placeret inde i den aktuelle termiske zone. Modellen svarer til den, der er beskrevet under opvarmning. Funktionen er dog her at køle rummet, dvs. ved tendens til overtemperatur i den termiske zone, at regulere køleydelsen således, at temperaturen så vidt muligt holdes på det valgte kølesetpunkt.
 

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Heating, System
+# Systems, *Heating*
 
 Modellen simulerer en termostatreguleret radiator eller konvektor. Den primære funktion i modellen er at bestemme hvor stor en effekt, radiatoren skal afgive for at hæve temperaturen til den ønskede setpunktstemperatur, defineret i reguleringen. Termostatens føler påvirkes dels af indelufttemperaturen og dels af overfladetemperaturerne.
 

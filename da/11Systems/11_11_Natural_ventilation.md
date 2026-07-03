@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../style.css">
 
-# Naturlig ventilation, System
+# Systems, *Naturlig ventilation*
 
 *Modulet til simulering af naturlig ventilation med multi-zone modellen (mzm) er i øjeblikket udsendt i beta-test og resultater opnået med modulet skal, som altid, betragtes med sund skepsis.*
 

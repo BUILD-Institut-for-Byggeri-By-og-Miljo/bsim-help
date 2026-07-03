@@ -41,6 +41,7 @@
 
 #center_img img {
   width: 75%;
+  border: 10px solid red;   /* Dette er en test for at se om lortet virker */
   text-align: center;
   display: block;
   margin: 0 auto;
