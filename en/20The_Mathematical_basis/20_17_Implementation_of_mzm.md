@@ -640,7 +640,7 @@ An integration is made for each zone being part of the loop and for outdoor if t
 
  
 
-#### **Driving pressure from wind**
+#### Driving pressure from wind
 
 A loop may contain the node for the ambient. If the loop do not contain the node for the ambient, it is an internal loop and the driving pressure thus not influenced by the wind. If the loop contains the ambient node, there will always be a contribution from the wind. This is because the loop starts outdoors and afterwards enters the building to finally returning to the ambient. As there is only one node for the ambient, a loop will never cross the therma envelope more than twice, see <a href="#figure9">Figure 9</a>.
 
@@ -677,7 +677,7 @@ The determination of the driving pressure in a bulleted list form looks like:
 
  
 
-#### **Total driving pressure**
+#### Total driving pressure
 
 The total driving pressure is the summation of all driving pressures from wind and temperature gradients:
 
@@ -693,7 +693,7 @@ $$
 
  
 
-#### **Making of resistances**
+#### Making of resistances
 
 That total resistance in a loop depends on the flow volume. The flow volume will always be exactly that size that the resistance in the loop is equal to the driving pressure.
 
@@ -734,7 +734,7 @@ $$
 
  
 
-### **Solving the equation system**
+### Solving the equation system
 
 The total equation system is given by:
 
@@ -755,7 +755,7 @@ $$ C = \frac{Q \cdot \rho}{C_d^2 \cdot A^2 \cdot 2} \tag{21} $$
 
 As all resistances can not be zero, the flow, Q, must be different from zero. A guess on the flow through the openings is being made. In the first calculation all flows are set equal to 1. In the following calculations the flow from the previous calculation is being used.
 
-#### **Solving method for the equation system**
+#### Solving method for the equation system
 
 A simple Gauss reduction is being used to solve the equation system and coded with information from [William et al. (2002)](20_28_Literature.md) as a starting point.
 
@@ -777,7 +777,7 @@ The solving routine, given as a bulleted list, is as follows:
 7.  Point 4 to 6 repeated until convergence of the equation system is found
 
 
-#### **Convergence criteria**
+#### Convergence criteria
 
 The convergence criteria is calculated according to the equation below. The driving pressure is compared to the resistance over the opening, calculated according to <a href="#eq18">Equation 18</a>. The maximum deviation must be less than the convergence criteria "MaxDif".
 
