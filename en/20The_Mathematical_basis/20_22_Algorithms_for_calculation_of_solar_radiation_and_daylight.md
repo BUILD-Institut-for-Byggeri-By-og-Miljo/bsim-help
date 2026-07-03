@@ -34,7 +34,7 @@ More recent measurements, for example in Denmark, [[Petersen, 1982](20_28_Litera
 
 <h3 id="solar-radiation"><strong>Solar radiation</strong></h3>
 
-This solar radiation model described below is the one named Lund on the [Options tab of tsbi5](). All solar radiation models in BSim are named after their author and described in the following references: 
+This solar radiation model described below is the one named Lund on the [Options tab of tsbi5](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md). All solar radiation models in BSim are named after their author and described in the following references: 
 
 *   Muneer T. (1989). *Algorithms for estimating hourly solar irradiation on slopes*. Journal of Building Services, Engineering, Research and Technology 10(2).
 

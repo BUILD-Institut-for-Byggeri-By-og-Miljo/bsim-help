@@ -32,7 +32,7 @@ The expression, shown graphically in the figure below, illustrate that there are
 
 #### **Visual discomfort probability due to low lighting levels at the working plane**
 
-The probability to experience visual discomfort due to glare must be evaluated in combination with the probability for visual discomfort due to low lighting levels on the working plane. An expression for experienced visual discomfort due to low lighting levels on the working plans is developed by [Lindelöf](../20The_Mathematical_Basis/20_28_Literature.md):
+The probability to experience visual discomfort due to glare must be evaluated in combination with the probability for visual discomfort due to low lighting levels on the working plane. An expression for experienced visual discomfort due to low lighting levels on the working plans is developed by [Lindelöf](../20The_Mathematical_basis/20_28_Literature.md):
 
 E<sub>h</sub> < 10 (lux):                VGDP = 1,0
 
