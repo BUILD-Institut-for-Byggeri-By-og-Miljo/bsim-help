@@ -17,26 +17,6 @@
 
 }
 
-/*
-#center_img {
-  text-align: center;
-}
-
-.center_img {
-  text-align: center;
-}
-
-#center_img img {
-  width: 600px;/* changed from max-width: 300px   
-}
-
-#center_img figcaption {
-  margin-top: 0.5em;
-  font-style: italic;
-  color: #929090;
-}
- */
-
 #pink_text {
   color: rgb(253, 35, 184);
 
@@ -72,3 +52,6 @@
   text-align: center;
   color: #929090;
 }
+
+
+
