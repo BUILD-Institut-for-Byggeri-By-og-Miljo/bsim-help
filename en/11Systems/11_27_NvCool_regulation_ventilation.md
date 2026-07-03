@@ -18,13 +18,13 @@ In the aforementioned EFP project, a system for natural ventilation and cooling 
 The difference between a VAV-control and an NvCool-control is that the VAV-control increases the air volume linearly at a set point, e.g. 24 °C, while the NvCool-control will start by increasing the air flow exponentially (rapidly at first and then less) and at a lower indoor temperature (e.g. 22 °C). In this way a high air flow is achieved in advance of reaching an over temperature — a kind of "preventive cooling." 
 
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/NvCoolFig1.gif" alt="Air-change when using NvCool-control compared to air-change when using a traditional VAV-control.">
 <figcaption>Air-change when using NvCool-control compared to air-change when using a traditional VAV-control.</figcaption>
 </figure>
 
 
-<figure id="center_img">
+<figure id="image_linewidth">
 <img src="./assets/NvCoolFig2.gif" alt="Differences in results using VAV- and NvCool-control in simulations with BSim.">
 <figcaption>Differences in results using VAV- and NvCool-control in simulations with BSim.</figcaption>
 </figure>
