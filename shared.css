@@ -17,7 +17,7 @@
 
 }
 
-
+/*
 #center_img {
   text-align: center;
 }
@@ -27,7 +27,7 @@
 }
 
 #center_img img {
-  width: 600px;/* changed from max-width: 300px */  
+  width: 600px;/* changed from max-width: 300px   
 }
 
 #center_img figcaption {
@@ -35,6 +35,7 @@
   font-style: italic;
   color: #929090;
 }
+ */
 
 #pink_text {
   color: rgb(253, 35, 184);
@@ -50,6 +51,21 @@
 }
 
 #image_linewidth figcaption {
+  margin-top: 0.5em;
+  font-style: italic;
+  text-align: center;
+  color: #929090;
+}
+
+
+
+#center_img img {
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+#center_img figcaption {
   margin-top: 0.5em;
   font-style: italic;
   text-align: center;
