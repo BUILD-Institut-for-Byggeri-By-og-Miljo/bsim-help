@@ -12,7 +12,7 @@ Programs defined in this way will be opened by clicking the new button at the to
 
 In the dialog the following buttons are shown:
 
-*   *Move <u>U</u>p* moves the highlighted (here [Hd98](../17Hd98_Heating_Demand_Calculation/17_01_Calculating_with_Hd98.md)) one position up in the list.
+*   *Move <u>U</u>p* moves the highlighted one position up in the list.
 
 *   *<u>A</u>dd*... opens a dialog to locate the desired new toolbar program in the path of the local PC.
 

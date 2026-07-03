@@ -32,7 +32,7 @@ A corresponding variation can be forced on the moisture content in the ground or
 
 You can create as many "Ground" as you like, and use them as virtual zones facing face sides where you do not wish a detailed simulation of the thermal conditions at both face sides.
 
-According to the [Danish norm DS418, amendment 4](../20The_Mathematical_Basis/20_28_Literature.md), the dimensioning ground temperature under an unheated building and in deep layers of soil around a heated building be defined to 10 °C (In Denmark).
+According to the [Danish norm DS418, amendment 4](../20The_Mathematical_basis/20_28_Literature.md), the dimensioning ground temperature under an unheated building and in deep layers of soil around a heated building be defined to 10 °C (In Denmark).
 
 Slab-on-ground constructions must thus be created in a way that a part of the ground below the building is part of the construction. The transmission coefficient (U-value) for a slab-on-ground or a basement wall directly towards the ground can be determined from the formula:
 
