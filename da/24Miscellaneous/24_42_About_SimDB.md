@@ -9,7 +9,7 @@ Ved klik på *About* knappen vises information om den valgte database.
 <figcaption>Dialog som viser information om den valgte database.</figcaption>
 </figure>
 
-Til højre i dialogen vises information om de ekstra data som findes i den valgte database. Nogle af disse data er nødvendige for at benytte forskellige faciliteter i BSim2002 samt nogle udvidelsesmoduler:
+Til højre i dialogen vises information om de ekstra data som findes i den valgte database. Nogle af disse data er nødvendige for at benytte forskellige faciliteter i BSim samt nogle udvidelsesmoduler:
 
 *   *Moisture* er nødvendig for at kunne simulere fugtforholdene i modellens konstruktioner. Udvidelsesmodul.
 

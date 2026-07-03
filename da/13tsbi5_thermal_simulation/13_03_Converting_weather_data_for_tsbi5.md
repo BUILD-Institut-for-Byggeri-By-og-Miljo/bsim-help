@@ -4,7 +4,7 @@
 
 Vejrdata, som skal bruges i forbindelse med tsbi5, skal findes i et specielt (binært) format. Vejrdata, der findes som ASCII-filer, kan konverteres til tsbi5-format med *tsbi5* | *File* | *Weather data* | *Convert* kommandoen. Denne funktion beskrives i det følgende.
 
-Det er også muligt at hente og direkte konvertere klimadata i energy+ / ASHRAE format (*.epw) fra Internettet ved en [specialfunktion](../24Miscellaneous/24_14_Energy_ASHRAE_climate_data.md) i BSim2002 via indgangen *tsbi5* | *File* | *Weather data* | *ASHRAE*.
+Det er også muligt at hente og direkte konvertere klimadata i energy+ / ASHRAE format (*.epw) fra Internettet ved en [specialfunktion](../24Miscellaneous/24_14_Energy_ASHRAE_climate_data.md) i BSim via indgangen *tsbi5* | *File* | *Weather data* | *ASHRAE*.
 
 ### **Vejrdata**
 

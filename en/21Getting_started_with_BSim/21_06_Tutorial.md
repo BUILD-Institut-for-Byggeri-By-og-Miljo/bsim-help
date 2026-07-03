@@ -3,7 +3,7 @@
 # Tutorial
 
 
-In August 2001, a tutorial for BSim was developed. At that time, version 2.1.8.7 of the BSim2000 program was used. Although many changes have been made since then, many functions remain the same, and the tutorial can provide new users of BSim with a good introduction to the basic concepts and functionality.
+In August 2001, a tutorial for BSim was developed. At that time, version 2.1.8.7 of BSim was used. Although many changes have been made since then, many functions remain the same, and the tutorial can provide new users of BSim with a good introduction to the basic concepts and functionality.
 
 The tutorial was prepared at BYG-DTU by:
 

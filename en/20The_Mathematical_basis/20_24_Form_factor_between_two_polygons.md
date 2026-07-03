@@ -48,15 +48,7 @@ $$ 4 \pi A_{P_{1}} F_{P_{1} P_{2}}=\sum_{E_{i} E_{j}} \cos \angle E_{i} E_{j} \i
 
  
 
-Ignoring the factor $\cos \angle E_i E_j$ we are left with the task of giving a solution to integrals of the general form
-
-$$ \int_{0}^{c_2} \int_{0}^{c_0} \ln f(s,t) \, ds \, dt. $$
-
-$c_0$ and $c_2$ are the lengths of the edges over which a given double contour integral is taken, and
-
-$$ f(s,t) = s^2 + c_1 s t + t^2 + c_3 s + c_4 t + c_5 $$
-
-is the bi-quadratic form that arises from the expansion of the dot product (see Table 2 for the definitions of all variables). If the two line segments lie in a common plane, we can factor $f(s,t)$ into two bi-linear forms and a solution is readily obtained with standard integration tables (see [9]). Lines in general position lead to the following result:
+Ignoring the factor cos $ \angle $ E<sub>i</sub>E<sub>j</sub> we are left with the task of giving a solution to integrals of the general form $ \int_{0}^{c_2} \; \int_{0}^{c_0} $ . ln f(s; t) ds dt. c<sub>0</sub> and c<sub>2</sub> are the lengths of the edges over which a given double contour integral is taken and f(s; t) = s2 + c<sub>1</sub>st + t<sup>2</sup> + c<sub>3</sub>s + c<sub>4</sub>t + c<sub>5</sub> is the bi-quadratic form which arises from the expansion of the dot product (see Table 2 for definitions of all variables). If the two line segments lie in a common plane we can factor f(s; t) into two bi-linear forms and a solution is readily obtained with standard integration tables (see [9]). Lines in general position lead to the following result:
 
 $$ \int_{0}^{c_{2}} \int_{0}^{c_0} \ln f(s, t) d s d t $$
 

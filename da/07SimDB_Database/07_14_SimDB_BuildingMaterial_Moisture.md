@@ -53,4 +53,4 @@ Se også:
 
  
 
-*   [Godt i gang med BSim2000](../21Getting_started_with_BSim/21_01_Constructing_a_model.md)
+*   [Godt i gang med BSim](../21Getting_started_with_BSim/21_01_Constructing_a_model.md)

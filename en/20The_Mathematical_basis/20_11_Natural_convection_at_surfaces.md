@@ -88,7 +88,7 @@ $$ \alpha_c = 0.59 \left(\frac{\Delta T}{L} \right)^{0.25} \; W/m^2 K \tag{9} $$
 
 (Reference for the above expressions: ASHRAE Fundamentals Handbook, 2001)
 
-The above equations are used rather directly in *BSim2000*. They are the convective heat transfer coefficients that are used in parallel to the algorithms for heat transfer by radiation when the option *Longwave Radiation* is chosen for the simulation.
+The above equations are used rather directly in *BSim*. They are the convective heat transfer coefficients that are used in parallel to the algorithms for heat transfer by radiation when the option *Longwave Radiation* is chosen for the simulation.
 
 ####   
 **Moisture Transfer Coefficient**
