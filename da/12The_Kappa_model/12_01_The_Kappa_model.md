@@ -1,15 +1,18 @@
 <link rel="stylesheet" href="../style.css">
 
 # Kappa-modellen
-
-
-#### **Kappa-modellen – en simpel model for tilnærmet bestemmelse af vertikal temperaturfordeling i rum**
-
 <div style="text-align:center">
-*Henrik Brohus, Aalborg Universitet, [Instituttet for Byggeri og Anlæg](https://www.en.build.aau.dk/)*
 
-*Henrik Ryberg, [Grontmij | Carl Bro as](https://www.sweco.dk/)*
+<strong> The Kappa Model </strong>
+<br>
+
+Henrik Brohus, Aalborg University   <a href="https://www.en.build.aau.dk/">Department of Building Technology and Structural Engineering</a>
+<br>
+Henrik Ryberg     <a href="https://www.sweco.dk/">Grontmij | Carl Bro as</a>
+
 </div>
+
+**Kappa-modellen – en simpel model for tilnærmet bestemmelse af vertikal temperaturfordeling i rum**
 
 Følgende notat er en dokumentation af "Kappa-modellen" i BSim (tsbi5), en simpel model som tilnærmet kan tage højde for vertikale temperaturgradienter i rum. Der vil indledningsvis kort blive redegjort for formålet med nævnte model, dernæst præsenteres selve modellen og endelig behandles implementeringen af modellen.
 
