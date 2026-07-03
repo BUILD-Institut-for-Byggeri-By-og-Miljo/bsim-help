@@ -6,7 +6,7 @@ In the user interface the structure is reflected by the systems in the dialog bo
 
 The order of the control/schedule pairs *(DayProfile/Time)* on the summary tab is very important, with it being used in a simulation to determine which control action has to be used together with the current component. At a given time (at the beginning of each hour) the schedule is run through in the order in which it is shown on the summary tab. In the case of the first control/time definition pair where the specified time falls within the time definition, the relevant control action will be used together with its component. If, on the other hand, the specified time does not fall within any time definition in the schedule, the effect will be that the relevant component is not activated at all, so there will be no impact on indoor climate at the time in question.
 
-The overall summary for a system can be viewed on the *Schedule* tab.
+The overall summary for a system can be viewed on the *Schedule* tab. -
 
 <figure id="center_img">
 <img src="./assets/Schedule.gif" alt="The Schedule dialog box displays the combinations of control (DayProfile or control) and Time that are attached to the current system.">
