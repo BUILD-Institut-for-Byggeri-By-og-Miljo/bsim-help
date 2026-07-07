@@ -3,7 +3,7 @@
 # Udskrift af hjælpesider
 
 
-<figure id="center_img">
+<figure id="center_img_orig_size">
 <img src="./assets/ie_textsize.gif" alt="Valg af tekststørrelse i MS Internet Explorer sættes fra menuen Vis.">
 <figcaption>Valg af tekststørrelse i MS Internet Explorer sættes fra menuen "Vis".</figcaption>
 </figure>

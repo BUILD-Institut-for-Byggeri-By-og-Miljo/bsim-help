@@ -3,7 +3,7 @@
 # Printing help pages
 
 
-<figure id="center_img">
+<figure id="center_img_orig_size">
 <img src="./assets/ie_textsize.gif" alt="Selection of text size in MS Internet Explorer is done from the 'View' menu.">
 <figcaption>Selection of text size in MS Internet Explorer is done from the "View" menu.</figcaption>
 </figure>

@@ -5,7 +5,7 @@
  
 Hjælpeteksten er opbygget omkring det design, som giver adgang til Statens Byggeforskningsinstituts hjemmeside på dansk og engelsk samt BSim's hjemmeside.
 
-<figure id="center_img">
+<figure id="center_img_orig_size">
 <img src="./assets/help_help.gif" alt="Trykknapper i øverste højre hjørne af hjælpesiderne.">
 <figcaption>Trykknapper i øverste højre hjørne af hjælpesiderne.</figcaption>
 </figure>

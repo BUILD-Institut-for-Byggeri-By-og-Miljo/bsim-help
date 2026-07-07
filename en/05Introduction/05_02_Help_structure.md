@@ -5,7 +5,7 @@
 
 Help is based on a design allowing direct access to the Danish Building Research Institute's website plus the BSim website.
 
-<figure id="center_img">
+<figure id="center_img_orig_size">
 <img src="./assets/help_help.gif" alt="Links at the top right-hand corner of the help pages.">
 <figcaption>Links at the top right-hand corner of the help pages.</figcaption>
 </figure>
