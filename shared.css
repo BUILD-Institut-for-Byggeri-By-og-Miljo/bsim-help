@@ -40,8 +40,7 @@
 
 
 #center_img img {
-  width: 75%;
-  border: 10px solid red;   /* Dette er en test for at se om lortet virker */
+  width: 70%;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -55,4 +54,17 @@
 }
 
 
+
+#center_img_orig_size img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#center_img_orig_size figcaption {
+  margin-top: 0.5em;
+  font-style: italic;
+  text-align: center;
+  color: #929090;
+}
 
