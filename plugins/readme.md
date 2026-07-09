@@ -1,1 +1,6 @@
-
+- Honkit er open source under Apache-2.0 licensen: https://github.com/honkit/honkit
+- 	Man kan bygge plugins (eller hente dem der er lavet til Gitbook) (se mappen “plugins” i BSim Help repo) til at udbygge funktionalitet.
+- 	Nuværende plugins:
+- 	Category accordion: Laver accordions i sidemenuen baseret på mappe som kategori og .md-filer inde i mappen som children.
+-	MathJax fix: MathJax virkede ikke rigtigt sammen med md-til-html-converteren i Honkit, fordi Markdown-parseren ødelagde formlernes specialtegn. Dette script finder og gemmer derfor alle MathJax-formler før konverteringen og indsætter dem igen bagefter — pakket ind i MathJax-syntaks — så de kan renderes korrekt i den færdige HTML.
+- 	Remove-honkit-footer: Fjerner et element hvor der stod “Published with Honkit”
