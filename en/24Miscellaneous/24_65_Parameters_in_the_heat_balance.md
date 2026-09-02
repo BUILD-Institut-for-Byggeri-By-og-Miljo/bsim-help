@@ -14,7 +14,7 @@ At the HeatBalance tab a number of parameters are found informing about the diff
 
 *   *Co2* shows the average content in ppm of CO<sub>2</sub> in the indoor air.
 
-*   *PAQ* shows the calculated [Perceived indoor Air Quality](../20The_Mathematical_basis/20_19_PAQ.md).
+*   *PAQ* shows the calculated [Perceived indoor Air Quality](../20The_Mathematical_Basis/20_19_PAQ.md).
 
 *   *Hours > 21, Hour > 25, Hour > 28 and Hour < 20* show the number of hours with an operative indoor temperature above and below certain given limits (the limits can be changed at the *[Options](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)* tab) in the selected thermal zone within the selected time resolution, e.g. week or month. If the entire model is selected, no values are shown.
 

@@ -19,7 +19,7 @@ The tab Natural Ventilation gives access to definition of parameters for the ope
 
 Opening
 
-*   *Cd*: [Discharge coefficient](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) determined by the geometry of the WinDoor/opening. Typical values range from 0.62 to 0.7.
+*   *Cd*: [Discharge coefficient](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) determined by the geometry of the WinDoor/opening. Typical values range from 0.62 to 0.7.
 
 *   *Cnt*: Is the geometrical center of the opening (0-1). The center is located in the distance *Cnt*H* above the lower edge of the WinDoor, where H is the total height of the WinDoor.   
 *Example*: For a WinDoor with horizontal opening and fixing at the top, the center of the opening will be located approx. 20 % above the bottom of the WinDoor (rectangular, horizontal opening at the bottom and triangular openings at the sides) and the *Cnt*-value is thus 0.2.
@@ -28,5 +28,5 @@ Opening
 
     *   The sketch at the right of the dialog illustrates BSim's perception of the opening and the input data.
 
-*   *Ka*: The inlet air handling unit box [constant](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) is used in the calculation of night cooling by natural ventilation.
+*   *Ka*: The inlet air handling unit box [constant](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) is used in the calculation of night cooling by natural ventilation.
 

@@ -40,7 +40,7 @@ Geometry
 
 Convective Heat Transfer Model
 
-*   *ka value:* The [Ka value](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md) for openings ([Danvak Basic-book, chapter 7](../20The_Mathematical_basis/20_28_Literature.md)).
+*   *ka value:* The [Ka value](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md) for openings ([Danvak Basic-book, chapter 7](../20The_Mathematical_Basis/20_28_Literature.md)).
 
 *   *Inlet Air Angle*: Spread angle of the air jet.
 

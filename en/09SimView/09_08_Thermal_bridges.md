@@ -14,6 +14,6 @@ It is also possible to add the effect of point shaped thermal bridges in a face 
 
 <u>**Clear All**</u> deletes the content of the table.
 
-The influence of thermal bridges in the energy balance is described in the [theory section](../20The_Mathematical_basis/20_25_Heat_balance_for_the_zone_air.md).
+The influence of thermal bridges in the energy balance is described in the [theory section](../20The_Mathematical_Basis/20_25_Heat_balance_for_the_zone_air.md).
 
 It is also possible to simulate [geometric thermal bridges](../24Miscellaneous/24_63_Geometric_Thermal_Bridges.md), i.e. thermal bridges caused by the difference in internal and external surface area at outward corners where the insulation layer bends around the corner without a decrease in thickness.

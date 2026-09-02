@@ -12,11 +12,11 @@
 
 ### **7.14.mm.dd**
 
-*   Added references for calculation of [solar radiation on external surfaces](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
+*   Added references for calculation of [solar radiation on external surfaces](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).
 
 *   Updated pages about [signing up for the BSim forum](../23Internet/23_01_Join_the_debate_and_information_forum.md) and [send an e-mail to the BSim list](../05Introduction/05_09_Questions_via_e-mail.md) with correct information about the list at AAU.
 
-*   Corrected formula for calculation of external convective heat transfer resistance in [theory for calculation of long-wave radiation to the sky](../20The_Mathematical_basis//20_23_Calculation_of_long_wave_radiation_to_the_sky.md).
+*   Corrected formula for calculation of external convective heat transfer resistance in [theory for calculation of long-wave radiation to the sky](../20The_Mathematical_Basis//20_23_Calculation_of_long_wave_radiation_to_the_sky.md).
 
 *   Changed download link for [PackCalc](../24Miscellaneous/24_01_PackCalc_Cooling.md) to SBi's website.
 
@@ -61,7 +61,7 @@
 
 *   Added description to list of [parametres](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) on how qTransmiso is calculated.
 
-*   Added [warning](../09SimView/09_07_WinDoor_Property.md) of using Overhangs and Sidefins in combination with XSun solar distribution.
+*   Added [warning](../09SimView/09_07_Windoor_property.md) of using Overhangs and Sidefins in combination with XSun solar distribution.
 
 *   Added "[on horizontal](../24Miscellaneous/24_58_Climate_data_definition.md)" for solar data to be converted to BSim format.
 
@@ -77,7 +77,7 @@
 
 *   Added description of insert graphics from [SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md) via Clipboard in recent versions of MS-Office-programs.
 
-*   Extended the description of [Recess for Windoor](../09SimView/09_07_WinDoor_Property.md).
+*   Extended the description of [Recess for Windoor](../09SimView/09_07_Windoor_property.md).
 
 *   Corrected the equation for [infiltration](../11Systems/11_08_Systems_Infiltration.md) from Danish to English nomenclature.
 
@@ -91,7 +91,7 @@
 
 *   Added link to [linear thermal bridges](../09SimView/09_08_Thermal_bridges.md) from page with information about[ geometric thermal bridges](../24Miscellaneous/24_63_Geometric_Thermal_Bridges.md).
 
-*   Added information about adding a warning: Impossible geometry for [Windoors](../09SimView/09_07_WinDoor_Property.md).
+*   Added information about adding a warning: Impossible geometry for [Windoors](../09SimView/09_07_Windoor_property.md).
 
 *   Corrected wrong information about building rotation on[ Building Property](../24Miscellaneous/24_27_Building_Property.md).
 
@@ -134,7 +134,7 @@
 
 *   Updated graphic and added information about new parameter in [heat balance parameters](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md) and [heat balance](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) (FloorCool).
 en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
-*   Added information that *Sidefin* and *Overhang* do not work in combination with [XSun solar distribution](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) at the [WinDoor property help](../09SimView/09_07_WinDoor_Property.md).
+*   Added information that *Sidefin* and *Overhang* do not work in combination with [XSun solar distribution](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) at the [WinDoor property help](../09SimView/09_07_Windoor_property.md).
 
 *   Updated graphics and added information about the buttons *Table Values* and *Remove Table* ([definition of solar shading in an external file](../11Systems/11_16_Systems_shading.md)) from [solar shading](../11Systems/11_16_Systems_shading.md).
 
@@ -168,13 +168,13 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   Added link to [PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md) from [main entry](../07SimDB_Database/07_06_SimDB_BuildingMaterial.md) to material part of SimDb.
 
-*   Made [NatVent](../11Systems/11_11_Natural_ventilation.md) tab under [Windoor property](../09SimView/09_07_WinDoor_Property.md) with link to[ thermal bridges](../09SimView/09_08_Thermal_bridges.md).
+*   Made [NatVent](../11Systems/11_11_Natural_ventilation.md) tab under [Windoor property](../09SimView/09_07_Windoor_property.md) with link to[ thermal bridges](../09SimView/09_08_Thermal_bridges.md).
 
 *   Created new page with description of [thermal bridges](../09SimView/09_08_Thermal_bridges.md) along the edges of a construction or a WinDoor.
 
-*   Updated description of [properties for a construction](../09SimView/09_06_Construction_Property.md) with information about thermal bridges.
+*   Updated description of [properties for a construction](../09SimView/09_06_Construction_property.md) with information about thermal bridges.
 
-*   Updated theory for [zone air heat balance](../20The_Mathematical_basis/20_25_Heat_balance_for_the_zone_air.md)
+*   Updated theory for [zone air heat balance](../20The_Mathematical_Basis/20_25_Heat_balance_for_the_zone_air.md)
 
 *   Update of [system description](../11Systems/11_06_Hydronic_constructive_heating_cooling.md) for constructive heating/cooling re. Massimiliano Scarpa.
 
@@ -232,7 +232,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   Created new page for description of [heat pumps](../11Systems/11_20_Heat_pump.md).
 
-*   Created new page with information on the [mathematical background for hydronic heating and cooling of constructions](../20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md).
+*   Created new page with information on the [mathematical background for hydronic heating and cooling of constructions](../20The_Mathematical_Basis/20_27_Floor_heating_mathematical_basis.md).
 
 *   Created new page with information on [hydronic heating and cooling in constructions](../11Systems/11_06_Hydronic_constructive_heating_cooling.md).
 
@@ -240,7 +240,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   Revised description of [SolarCtrl](../24Miscellaneous/24_04_Shading_Control.md).
 
-*   Corrected [building description](../20The_Mathematical_basis/20_02_Building_description_and_definition_of_nodes_in_constructions.md) and removed text indicating that BSim do not contain full 3D geometry.
+*   Corrected [building description](../20The_Mathematical_Basis/20_02_Building_description_and_definition_of_nodes_in_constructions.md) and removed text indicating that BSim do not contain full 3D geometry.
 
 *   Added description of how to download a ["digest" from users information forum](../23Internet/23_01_Join_the_debate_and_information_forum.md).
 
@@ -256,7 +256,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   Created new page with information on [building model updates](../22Revisions/22_02_Building_model_updates.md) for check of compatibility with old building models. Created link to the page under section revisions.
 
-*   Replaced "ring" with "loop" and "stretching" with "spanning" several places at [Implementation of mzm](../20The_Mathematical_basis/20_17_Implementation_of_mzm.md).
+*   Replaced "ring" with "loop" and "stretching" with "spanning" several places at [Implementation of mzm](../20The_Mathematical_Basis/20_17_Implementation_of_mzm.md).
 
 *   Added information about the constant Ka on the pages:
 
@@ -264,7 +264,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
     *   [tsbi5 Natural Ventilation options](../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md)
 
-    *   [Parameters for natural ventilation](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md)
+    *   [Parameters for natural ventilation](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md)
 
     *   [Natural ventilation](../11Systems/11_11_Natural_ventilation.md)
 
@@ -298,15 +298,15 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   Added new pages with theory on multi-zone natural ventilation:
 
-    *   [mzm](../20The_Mathematical_basis/20_14_The_multizone_model.md)
+    *   [mzm](../20The_Mathematical_Basis/20_14_The_multizone_model.md)
 
-    *   [implementation in BSim](../20The_Mathematical_basis/20_17_Implementation_of_mzm.md)
+    *   [implementation in BSim](../20The_Mathematical_Basis/20_17_Implementation_of_mzm.md)
 
     *   [control of natural ventilation](../11Systems/11_11_Natural_ventilation.md)
 
     *   [systems for air change](../11Systems/11_21_Systems_Ventilation.md)
 
-    *   [parameters for natural ventilation](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md)
+    *   [parameters for natural ventilation](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md)
 
 *   Added information about standard location for climate files when clicking *Browse* from [*Site*-property.](../24Miscellaneous/24_25_Site_Property.md)
 
@@ -328,7 +328,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*tsbi5\tsbi5_nvoptions_page.htm*](../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md) & [*system\natural_ventilation.htm*](../11Systems/11_11_Natural_ventilation.md) & [*simview\nat_vent.htm*](../11Systems/11_11_Natural_ventilation.md): Link to new page with information about how Cd and Ka are determined and a disclaimer on mzm in beta-test.
 
-*   [*theory\mzm_cd_ka.htm*](../20The_Mathematical_basis/20_15_Parameters_for_Natural_Ventilation.md): New page with information about Ka from Danvak basic book and on Cd from SBi Direction 202, page 70-71. Added disclaimer on mzm in beta-test.
+*   [*theory\mzm_cd_ka.htm*](../20The_Mathematical_Basis/20_15_Parameters_for_Natural_Ventilation.md): New page with information about Ka from Danvak basic book and on Cd from SBi Direction 202, page 70-71. Added disclaimer on mzm in beta-test.
 
 ### **5.6.8.4**
 
@@ -348,7 +348,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*tsbi5\climate.htm*:](../24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md) Added units and information
 
-*   [*theory\theory_solar_and_daylight.htm*:](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)  Added references to solar radiation models and the name of the documented model <span id="red_text"> (only two references). </span>
+*   [*theory\theory_solar_and_daylight.htm*:](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)  Added references to solar radiation models and the name of the documented model <span id="red_text"> (only two references). </span>
 
 *   [*limitations.htm*:](../05Introduction/05_05_Limitations.md) Corrected text on limitations for solar distribution with XSun.
 
@@ -362,7 +362,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*systems\recirculation_ctrl.htm*:](../11Systems/11_28_Ventilation_Recirculation.md) New page with description of new control strategy for ventilation systems with recirculation of air.
 
-*   [*theory\recirculation.htm*:](../20The_Mathematical_basis/20_21_Recirculation_of_ventilation_air.md) New page about the programming of a control strategy for ventilation systems with recirculation of indoor air.
+*   [*theory\recirculation.htm*:](../20The_Mathematical_Basis/20_21_Recirculation_of_ventilation_air.md) New page about the programming of a control strategy for ventilation systems with recirculation of indoor air.
 
 *   [*systems\systems_persons.htm*:](../11Systems/11_13_Systems_Persons.md) Added convective/radiative distribution key.
 
@@ -376,7 +376,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*applications\bv98.htm*:]() Added information about end of use for Hd98 and reference to Be06 instead.
 
-*   [*litteratur.htm*:](../20The_Mathematical_basis/20_28_Literature.md) Added reference to Danvak Basic-book (In Danish).
+*   [*litteratur.htm*:](../20The_Mathematical_Basis/20_28_Literature.md) Added reference to Danvak Basic-book (In Danish).
 
 *   [*tsbi5\tsbi5_nvoptons_page.htm*:](../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md) Updated graphics and added information to the input fields.
 
@@ -394,9 +394,9 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*simlight\simlight_plan.htm*:](../15SimLight_Daylight_calculations/15_03_Daylight_calculation_on_a_plane.md) Updated description of conditions for calculation.
 
-*   [*theory\theory_longwave_exterior.htm*:](../20The_Mathematical_basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md) Updated page with theory for long wave radiative heat exchange between external surfaces and the sky.
+*   [*theory\theory_longwave_exterior.htm*:](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md) Updated page with theory for long wave radiative heat exchange between external surfaces and the sky.
 
-*   [*theory\theory_longwave_surfaces.htm*:](../20The_Mathematical_basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md) Updated page with theory for long wave radiative heat exchange between internal surfaces.
+*   [*theory\theory_longwave_surfaces.htm*:](../20The_Mathematical_Basis/20_23_Calculation_of_long_wave_radiation_to_the_sky.md) Updated page with theory for long wave radiative heat exchange between internal surfaces.
 
 *   [*tsbi5\par-list.htm*:](../13tsbi5_thermal_simulation/13_11_Parameters_in_the_result_log.md) qCon are not calculated on external side of surfaces. Added definition of *RSurf* and *SensorTmp*.
 
@@ -446,7 +446,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*simdb\simdb-be-windoor.htm*:](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md) Updated table with line-losses.
 
-*   [*litteratur.htm*:](../20The_Mathematical_basis/20_28_Literature.md) Updated reference to DS418. Added reference to Danish *.DRY climate files.
+*   [*litteratur.htm*:](../20The_Mathematical_Basis/20_28_Literature.md) Updated reference to DS418. Added reference to Danish *.DRY climate files.
 
 *   [*systems\natural_ventilation.htm*:](../11Systems/11_11_Natural_ventilation.md) Added info. about climate data must contain data for the wind speed to simulate natural ventilation.
 
@@ -494,11 +494,11 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*tsbi5\tsbi5_options.htm*:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Added link to *Edit* + *Options*.
 
-*   [*simview\simview-add_windoor.htm*:](../09SimView/24_30_SimView_Insert_WinDoor.md) Added link to *Regulation*.
+*   [*simview\simview-add_windoor.htm*:](../09SimView/24_30_SimView_Insert_Windoor.md) Added link to *Regulation*.
 
 *   [*systems\systems_windoor.htm*:](../11Systems/24_73_Windoor_Systems.md) New page for systems on WinDoors. Moved navigation of *Shutter* and *Solar Shading* to this page from [add](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md).
 
-*   [*simview\windoor_property.htm*:](../09SimView/09_07_WinDoor_Property.md) Updated graphic. Added link to Regulation for natural ventilation.
+*   [*simview\windoor_property.htm*:](../09SimView/09_07_Windoor_property.md) Updated graphic. Added link to Regulation for natural ventilation.
 
 *   [*tsbi5\tsbi5_nvoptions_page.htm*:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) New page with info about multi-zone natural ventilation standard parameters (under construction). Added to navigation structure under tsbi5/Options.
 
@@ -548,7 +548,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 ### **4.4.8.11**
 
-*   [*litteratur.htm:*](../20The_Mathematical_basis/20_28_Literature.md) Added link to papers about BSim in full length at the Internet.
+*   [*litteratur.htm:*](../20The_Mathematical_Basis/20_28_Literature.md) Added link to papers about BSim in full length at the Internet.
 
 *   [*simview\simview_options.htm:*](../09SimView/09_16_SimView_Options.md) Added description of local saving of undo files.
 

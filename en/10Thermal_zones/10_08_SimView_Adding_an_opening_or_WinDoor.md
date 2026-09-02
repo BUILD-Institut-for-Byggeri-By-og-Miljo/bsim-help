@@ -33,9 +33,9 @@ Windows and openings cannot be positioned right at the edge of constructions tha
 
 Every time *Apply* is clicked, an object *(Opening* or *WinDoor)* with the specified geometry is added. It is therefore a good idea to create all openings and *WinDoors* belonging to the same face from this dialog box in one go.
 
-If a WinDoor is to be placed in the center of a surface with the same distance to all edges, the [Insert Windoor](../24Miscellaneous/24_30_SimView_Insert_WinDoor.md) function should be used instead.
+If a WinDoor is to be placed in the center of a surface with the same distance to all edges, the [Insert Windoor](../24Miscellaneous/24_30_SimView_Insert_Windoor.md) function should be used instead.
 
-The geometric description of a WinDoor (frames, bars, overhang and side fins together with connected systems - shutters and solar shading) is entered by right-clicking the object in the tree summary, which opens the [Windoor Property](../09SimView/09_07_WinDoor_Property.md) dialog box.
+The geometric description of a WinDoor (frames, bars, overhang and side fins together with connected systems - shutters and solar shading) is entered by right-clicking the object in the tree summary, which opens the [Windoor Property](../09SimView/09_07_Windoor_property.md) dialog box.
 
 A specific window is attached to the model by dragging it from the [database](../07SimDB_Database/07_05_Material_layers_for_BuildingConstruction_WinDoor.md) to the right place in the model's tree summary.
 

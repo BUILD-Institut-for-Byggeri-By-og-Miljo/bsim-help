@@ -3,7 +3,7 @@
 # Systems, *Moisture*
 Dialog box for specifying moisture load in the current thermal zone, apart from moisture from people.
 
-The software's [standard model](../20The_Mathematical_basis/20_04_Moisture_balance_for_a_zone.md) for moisture calculations is very simple, with no account being taken of moisture absorption and adsorption by the space's surfaces or moisture transport and moisture accumulation in materials. This phenomenon can be dealt with in the module for detailed simulating of the [hygro-thermal conditions](../20The_Mathematical_basis/20_05_Detailed_Moisture_balance.md) in a thermal zone.
+The software's [standard model](../20The_Mathematical_Basis/20_04_Moisture_balance_for_a_zone.md) for moisture calculations is very simple, with no account being taken of moisture absorption and adsorption by the space's surfaces or moisture transport and moisture accumulation in materials. This phenomenon can be dealt with in the module for detailed simulating of the [hygro-thermal conditions](../20The_Mathematical_Basis/20_05_Detailed_Moisture_balance.md) in a thermal zone.
 
 <figure id="center_img">
 <img src="./assets/moisture.gif" alt="Dialog box for defining moisture load.">
@@ -56,7 +56,7 @@ where:
 
  
 
-The moisture and air balances are described in greater detail in [the mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md).
+The moisture and air balances are described in greater detail in [the mathematical basis](../20The_Mathematical_Basis/20_01_The_Mathematical_Basis.md).
 
 [The schedule](11_02_Systems_schedule.md) defines connected sets of control and [time definition](11_17_Systems_Time.md). "Moisture load" control is of the [day profile](11_04_Systems_DayProfile.md) type, with the variation over the hours of the day being specified in percent.
 

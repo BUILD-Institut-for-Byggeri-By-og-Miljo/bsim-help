@@ -46,7 +46,7 @@ $ f $                     is the desired lighting level in fraction o
 
 $ \text{genlight} $        is the nominal lighting level, lux
 
-For further information see: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
+For further information see: [Algorithms for calculating solar radiation and daylight.](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 
 *Solar Limit* is used in connection with lighting control on the basis of the total incident solar radiation in the zone. If the incident solar radiation is less than the value for Daylight Limit, the general lighting is assumed to be on within the relevant time definition. Please note that the Factor parameter (specified under control in the schedule) for the current period will be multiplied by the power value entered for general lighting.  
      Solar Limit is the same parameter as defined on the *LightCtrl* tab. If a value is defined (different from 0) on the *Lighting* tab, that value is used and the value defined on the *LightCtrl* tab is ignored.

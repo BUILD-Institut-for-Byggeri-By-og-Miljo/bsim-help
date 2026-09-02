@@ -29,7 +29,7 @@ It is possible to simulate more than one year with repeated use of the same clim
 
     *   *Long-wave Rad to Sky*: Flag for calculation of the long-wave radiation from the exterior of the building to the sky.
 
-    *   *Long-wave Radiation*: Flag for calculating long-wave radiation exchange. When using long-wave radiation exchange, the surface resistances will be [variable and temperature dependent](../20The_Mathematical_basis/20_11_Natural_convection_at_surfaces.md).
+    *   *Long-wave Radiation*: Flag for calculating long-wave radiation exchange. When using long-wave radiation exchange, the surface resistances will be [variable and temperature dependent](../20The_Mathematical_Basis/20_11_Natural_convection_at_surfaces.md).
 
     *   *XSun* distribution: Flag for calculating sun distribution using [*XSun*](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md).
 

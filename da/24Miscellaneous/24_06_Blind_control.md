@@ -20,7 +20,7 @@ Det er vigtigt at bemærke, at afskærmningsfaktoren for afskærmningen er den "
 | SlatAngle Close     | Hældningen på afskærmningens lameller i lukket position.                                                                                                     | 30–90°                          | 90                |
 | OverClose Angle     | Tillæg til cut-off vinkel, som kun benyttes ved Cut-off strategi (reducerer antal reguleringer hvis > 0).                                                    | 0–5°                            | 0                 |
 | CutOff Strategy     | Reguleringsstrategi, hvor lamellerne indstilles så direkte sol netop udelukkes (cut-off).                                                                    | til / fra                       | fra               |
-| [Ref. Point](www.help.bsim.dk)          | Mulighed for at vælge et foruddefineret [referencepunkt](www.help.bsim.dk) hvor dagslysniveauet bestemmer styringen af solafskærmningen.                                         | —                               | —                 |
+| [Ref. Point](../10Thermal_zones/10_03_Reference_point.md)          | Mulighed for at vælge et foruddefineret [referencepunkt](../10Thermal_zones/10_03_Reference_point.md) hvor dagslysniveauet bestemmer styringen af solafskærmningen.                                         | —                               | —                 |
 
 Den totale soltransmittans ved en given vinkel (β) på afskærmningens lameller bestemmes af:
 

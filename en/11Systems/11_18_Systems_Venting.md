@@ -51,10 +51,10 @@ Clicking the [*TmpFactor* ](../24Miscellaneous/24_33_Venting_Temp_Factor.md)butt
 | Mode | Description |
 |------|-------------|
 | **(Disabled)** | The original model used for venting in previous versions of BSim. |
-| **(Automatic)** | BSim selects, from the zone geometry (see [overview](../20The_Mathematical_basis/20_12_Natural_ventilation.md) with used/possible geometries), the model to use. |
-| [Single Sided](../20The_Mathematical_basis/20_12_Natural_ventilation.md)<br>[Cross](../20The_Mathematical_basis/20_12_Natural_ventilation.md) | See [overview](../20The_Mathematical_basis/20_12_Natural_ventilation.md)! |
-| [Combined Two](../20The_Mathematical_basis/20_12_Natural_ventilation.md)<br>[Levels](../20The_Mathematical_basis/20_12_Natural_ventilation.md) |  |
-| [Combined](../20The_Mathematical_basis/20_12_Natural_ventilation.md) | General model, see [overview](../20The_Mathematical_basis/20_12_Natural_ventilation.md)! |
+| **(Automatic)** | BSim selects, from the zone geometry (see [overview](../20The_Mathematical_Basis/20_12_Natural_ventilation.md) with used/possible geometries), the model to use. |
+| [Single Sided](../20The_Mathematical_Basis/20_12_Natural_ventilation.md)<br>[Cross](../20The_Mathematical_Basis/20_12_Natural_ventilation.md) | See [overview](../20The_Mathematical_Basis/20_12_Natural_ventilation.md)! |
+| [Combined Two](../20The_Mathematical_Basis/20_12_Natural_ventilation.md)<br>[Levels](../20The_Mathematical_Basis/20_12_Natural_ventilation.md) |  |
+| [Combined](../20The_Mathematical_Basis/20_12_Natural_ventilation.md) | General model, see [overview](../20The_Mathematical_Basis/20_12_Natural_ventilation.md)! |
 
 
 The venting [*schedule*](11_02_Systems_schedule.md) defines connected sets of [control](../24Miscellaneous/24_08_Venting_Control.md) and time definitions. In ordinary rooms where people are present, venting will simulate windows being opened by the users when the indoor temperature becomes too hot, in which case venting will normally only be "active" during the building's hours of use. In large buildings with equipment for automatic venting when the set point for a temperature is exceeded, it must be assessed whether the achievable air change is dependent on the time of day and year.

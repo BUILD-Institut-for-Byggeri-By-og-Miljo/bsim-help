@@ -36,7 +36,7 @@ These parameters are **only** accessible in the results log if a tick mark has b
 
 | Parameter | Description |
 |---------|-------------|
-| *AtmPres* | Atmospheric pressure, Pascal. If the atmospheric pressure is constant equal to 0, natural ventilation can still be simulated using the [multi-zone model](../20The_Mathematical_basis/20_14_The_multizone_model.md), but with reduced accuracy. |
+| *AtmPres* | Atmospheric pressure, Pascal. If the atmospheric pressure is constant equal to 0, natural ventilation can still be simulated using the [multi-zone model](../20The_Mathematical_Basis/20_14_The_multizone_model.md), but with reduced accuracy. |
 | *CldCover* | Cloud cover, octas (8 = fully overcast, 0 = clear sky). |
 | *DifRad* | Diffuse solar radiation on horizontal, kW/m². |
 | *ExtTmp* | Outdoor (dry bulb) air temperature, °C. |
@@ -68,7 +68,7 @@ These parameters are **only** accessible in the result log if a tick mark has be
 | *ElecLight* | Illuminance from electric lighting in a reference point of a given plane, lux. |
 | *GrossSun*<sup>M</sup> | Total solar radiation through WinDoors in the zone, kW. |
 | *HumRatio* | Humidity ratio, kg water vapor / kg dry air. |
-| *PAQ* | [Perceived indoor air quality](../20The_Mathematical_basis/20_19_PAQ.md), –. |
+| *PAQ* | [Perceived indoor air quality](../20The_Mathematical_Basis/20_19_PAQ.md), –. |
 | *RelHumid* | Relative humidity, %. |
 | *Ti* | Indoor air temperature, °C in the height TopHeight above floor level, °C. |
 | *Tmrt* | Mean radiant (area-weighted surface temperature) temperature , °C. |

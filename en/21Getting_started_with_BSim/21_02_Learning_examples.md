@@ -7,7 +7,7 @@ By means of 3 examples, the model's structure is described as well as simulation
 
 A more summarized description of the individual steps of creating a [building model](21_01_Constructing_a_model.md) is found as a ordered row of links to pages in this User's Guide.
 
-... order to enable the user to become acquainted with the most important functions of the program, a simple building is used as an example, for which a BSim-model is gradually built up. This means that not all the details of the program are described by examples. For a more detailed explanation of the individual parts of the building model, e.g. subjects which are not dealt with here, reference should be made to the description of the individual dialogs as well as [The mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md).
+... order to enable the user to become acquainted with the most important functions of the program, a simple building is used as an example, for which a BSim-model is gradually built up. This means that not all the details of the program are described by examples. For a more detailed explanation of the individual parts of the building model, e.g. subjects which are not dealt with here, reference should be made to the description of the individual dialogs as well as [The mathematical basis](../20The_Mathematical_Basis/20_01_The_Mathematical_Basis.md).
 
  
 
@@ -45,7 +45,7 @@ Even though there are two rooms in the building, it is counted as one zone in th
 
 
 ####  **Boundary conditions**
-For the outdoor climate, data from the [Danish Design Reference Year](../20The_Mathematical_basis/20_28_Literature.md), DRY are used, from which the necessary weather parameters are found in BSim format in the file named CPH.DRY.
+For the outdoor climate, data from the [Danish Design Reference Year](../20The_Mathematical_Basis/20_28_Literature.md), DRY are used, from which the necessary weather parameters are found in BSim format in the file named CPH.DRY.
 
 As regards all external walls as well as the roof, one side faces the outdoor air. The floor is in contact with a virtual zone (the ground) with a fixed temperature of 10 °C.
 
@@ -53,7 +53,7 @@ The reflectance of solar radiation from the surroundings is 0.20. The external s
 
 
 **Surface resistances** <br>
-The internal surface resistance is set to 0.13 m² K/W and the external surface resistance towards the outdoor air to 0.04 m² K/W, cf. the [Danish Standard DS 418](../20The_Mathematical_basis/20_28_Literature.md), whilst the surface resistance towards "deeper earth layers" is reckoned to be 1.0 m² K/W.
+The internal surface resistance is set to 0.13 m² K/W and the external surface resistance towards the outdoor air to 0.04 m² K/W, cf. the [Danish Standard DS 418](../20The_Mathematical_Basis/20_28_Literature.md), whilst the surface resistance towards "deeper earth layers" is reckoned to be 1.0 m² K/W.
 
  
 

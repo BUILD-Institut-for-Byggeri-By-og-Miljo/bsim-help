@@ -1,1 +1,103 @@
-# BSim
+# BSim Help
+
+Kildetekst til BSim-hjælpen: en tosproget [HonKit](https://github.com/honkit/honkit)-bog
+(`da/` = dansk, `en/` = engelsk) på ca. 250 sider pr. sprog, fordelt på 20 nummererede
+kapitelmapper. Den byggede bog i `_book/` er det, BSim-hjælpevieweren
+(`BuildHelpViewer.exe`) viser — **offline**, uden nogen netværksadgang.
+
+> Denne fil er skrevet til vedligeholderen af hjælpeteksten. Selve viewer-programmet
+> ligger i et andet repo (`BUILD Tools/semantic-embedded-help`).
+
+---
+
+## Repoets indhold
+
+| Sti | Hvad det er |
+|---|---|
+| `da/`, `en/` | Bogens kildetekst. Én mappe pr. kapitel, én `.md`-fil pr. side, billeder i `assets/` ved siden af siderne. |
+| `da/SUMMARY.md`, `en/SUMMARY.md` | Indholdsfortegnelsen — **en side der ikke står her, kommer ikke med i bogen**. |
+| `LANGS.md` | Sprogliste; styrer sprogvælgeren og rod-`index.html`. |
+| `book.json` | HonKit-konfiguration: plugins og den `<head>`-kode der indlæser MathJax og `styles.css`. |
+| `plugins/` | Vendored (indlejrede) HonKit-plugins — se nedenfor. |
+| `mathjax/` | Vendored MathJax 3 (es5) — se "Offline-krav". |
+| `topic-map/` | Oversættelsestabel fra den gamle CHM-hjælps emne-stier til sider i denne bog — se nedenfor. |
+| `copy-static.js` | Efterbygningstrin: kopierer `mathjax/` ind i `_book/` og fejler, hvis en bygget side stadig peger på et CDN. |
+| `_book/` | Byggeresultatet. **Er checket ind** i dette repo, fordi BSim-installeren tager det direkte herfra. |
+
+---
+
+## Byg bogen
+
+Kræver Node.js 18 eller nyere (`copy-static.js` bruger `fs.cpSync`, som kræver >= 16.7).
+
+```
+npm ci
+npm run build
+```
+
+`npm run build` kører `honkit build && node copy-static.js`. Resultatet lander i `_book/`.
+
+Til skrivearbejde:
+
+```
+npm run serve
+```
+
+`honkit serve` giver live-genindlæsning, men serverer **ikke** `mathjax/` (den mappe
+lægges først på plads af `copy-static.js`), så formler vises ikke i preview.
+Kør `npm run build` for at se den rigtige side.
+
+### `_book/` skal genbygges før hver BSim-udgivelse
+
+`_book/` er commitet i repoet, og BSim-installeren kopierer det som det er. Et forældet
+`_book/` betyder, at brugerne får gammel hjælpetekst — uden nogen fejlmeddelelse.
+Derfor: **kør `npm ci && npm run build` og commit det opdaterede `_book/`, hver gang
+hjælpeteksten skal med i en BSim-release.**
+
+---
+
+## Offline-krav
+
+Vieweren serverer `_book/` gennem en WebView2 *virtual host* uden netværk. Alt, en side
+henviser til, skal derfor ligge inde i `_book/`. Konkret:
+
+* **MathJax er vendored.** MathJax 3.2.2 (`es5/tex-chtml-full.js` + skrifttyperne i
+  `es5/output/chtml/fonts/woff-v2/`, ca. 1,7 MB) ligger i `mathjax/` og kopieres til
+  `_book/mathjax/` af `copy-static.js`. `book.json` indlæser scriptet via en sti, der
+  regnes ud fra sidens eget `gitbook/style.css`-link, så den virker i alle sidedybder
+  (`/index.html`, `/{sprog}/index.html`, `/{sprog}/{kapitel}/side.html`).
+  Hent **ikke** MathJax fra jsdelivr eller et andet CDN igen.
+* **`language-picker`-pluginet er vendored.** Det lå tidligere som en git-URL i
+  `book.json` og blev hentet fra GitHub ved installation; nu ligger det i
+  `plugins/language-picker/` og er en `file:`-afhængighed i `package.json`.
+  De øvrige plugins (`category-accordion`, `mathjax-fix`, `remove-honkit-footer`)
+  har altid ligget i `plugins/`.
+* **Ingen CDN-referencer i det byggede output.** `copy-static.js` gennemsøger alle
+  HTML-filer i `_book/` og afbryder bygningen, hvis den finder en URL til jsdelivr,
+  cdnjs, unpkg, Google Fonts m.fl. Tilføj derfor aldrig et `<script src="https://...">`
+  eller en webfont-`<link>` til `book.json` eller til en side.
+
+---
+
+## `topic-map/`
+
+BSim beder om hjælp med en emne-sti fra den gamle CHM-hjælp (fx
+`simview\pwizard2.htm`). `topic-map/bsim-topic-map.txt` oversætter den slags nøgler til
+en side i denne bog, uden sprogpræfiks:
+
+```
+simview\pwizard2.htm=24Miscellaneous/24_52_Projekt_Wizard_2.html
+```
+
+Vieweren sætter selv `da/` eller `en/` foran. **Derfor skal hver side have præcis samme
+filnavn i `da/` og `en/`, tegn for tegn, også med hensyn til store og små bogstaver** —
+ellers virker opslaget kun på det ene sprog (og går i stykker på et case-sensitivt
+filsystem). Se `topic-map/README.md` for formatet og for hvordan udkastet genereres.
+
+Når du omdøber eller flytter en side:
+
+1. omdøb den i **både** `da/` og `en/` med samme stavemåde,
+2. ret linket i begge `SUMMARY.md`,
+3. ret alle interne links, der peger på siden (`grep -r "gammelt_filnavn" da/ en/`),
+4. ret stien i `topic-map/bsim-topic-map.txt`, hvis siden er nævnt der,
+5. kør `npm run build`.

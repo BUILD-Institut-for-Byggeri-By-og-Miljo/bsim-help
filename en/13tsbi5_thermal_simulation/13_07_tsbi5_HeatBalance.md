@@ -37,7 +37,7 @@ If <u>a single column is highlighted</u> the presentation of the results will st
 
 *   Go to next period
 
-*   [*Yscale* ](../24Miscellaneous/24_50_Graph_scale.md) opens a dialog for fixing the Y-axis or changing the view of the graphs.
+*   [*Yscale* ](../24Miscellaneous/24_50_Graph_Scale.md) opens a dialog for fixing the Y-axis or changing the view of the graphs.
 
 *   Close the graphical presentation of the results.
 

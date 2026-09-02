@@ -103,6 +103,6 @@ Then, the main data regarding the pipe and the circuit are collected in the wind
 
 The last parameter to be entered is the maximum radiant surface area per circuit [m²]. It is useful to take into account the presence of various similar circuits in the same radiant surface. As a consequence, the pipe is split into various circuits based on the ratio between the radiant surface area and the maximum area per circuit. The default value is 10 m² when nothing is specified.
 
-See also the [mathematical basis for the system](../20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md).
+See also the [mathematical basis for the system](../20The_Mathematical_Basis/20_27_Floor_heating_mathematical_basis.md).
 
  

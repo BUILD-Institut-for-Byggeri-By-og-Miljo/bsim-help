@@ -10,7 +10,7 @@ When a new model is created by clicking "New" on the toolbar or selecting "New" 
 
 The name chosen will also be the name of the local version of the database linked to the project. It is also possible to choose an alternative location for the project's files by clicking the double arrow ">>". A project may **not** be called "SbiData" or "data".
 
-[Next >](../24Miscellaneous/24_52_Project_Wizard_2.md) dialog of the project wizard
+[Next >](../24Miscellaneous/24_52_Projekt_Wizard_2.md) dialog of the project wizard
 
 Default data have now been included in the model and [a building can be created](09_14_SimView_Creating_a_building.md).
 

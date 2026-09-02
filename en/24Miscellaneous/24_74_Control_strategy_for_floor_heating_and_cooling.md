@@ -220,4 +220,4 @@ Available controls:
 
 ---
 
-See also the [mathematical basis for the system.](../20The_Mathematical_basis/20_27_Floor_heating_mathematical_basis.md)
+See also the [mathematical basis for the system.](../20The_Mathematical_Basis/20_27_Floor_heating_mathematical_basis.md)

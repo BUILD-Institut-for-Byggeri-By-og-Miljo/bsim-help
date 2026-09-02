@@ -59,7 +59,7 @@ The BSim program to which the specified description belongs is indicated at the 
     *   [Shading](../11Systems/11_16_Systems_shading.md)
     *   [Shutters](../11Systems/11_15_Systems_shutter.md)
 
-*   A face is [filled](../24Miscellaneous/24_30_SimView_Insert_WinDoor.md)  with a window or opening in *SimView*.
+*   A face is [filled](../24Miscellaneous/24_30_SimView_Insert_Windoor.md)  with a window or opening in *SimView*.
 
 *   [Shadows from the surroundings](../10Thermal_zones/10_05_Shadows_from_the_surroundings.md) are added to the model in *SimView*.
 

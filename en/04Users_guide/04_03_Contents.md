@@ -69,7 +69,7 @@
 
 *   [Exporting data to Radiance](../18Radiance_Visualisation_og_the_building/18_01_Exporting_data_to_Radiance.md)  
 
-*   [The mathematical basis](../20The_Mathematical_basis/20_01_The_Mathematical_Basis.md)
+*   [The mathematical basis](../20The_Mathematical_Basis/20_01_The_Mathematical_Basis.md)
 
 *   [Algorithms for calculation of solar radiation and daylight](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md)
 

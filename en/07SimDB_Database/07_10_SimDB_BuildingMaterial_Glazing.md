@@ -12,7 +12,7 @@ The meaning of the fields in this dialog is:
 
 *   *Heat Transmittance*:
 
-    *   *Normal*: Solar energy transmittance ([g-value](../20The_Mathematical_basis/20_28_Literature.md)) for solar radiation normal to the glass pane. If more detailed information (especially used when modeling transparent insulation materials) is known for the solar energy transmittance at different angles of incidence, this **can** be given at the [UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md) tab.
+    *   *Normal*: Solar energy transmittance ([g-value](../20The_Mathematical_Basis/20_28_Literature.md)) for solar radiation normal to the glass pane. If more detailed information (especially used when modeling transparent insulation materials) is known for the solar energy transmittance at different angles of incidence, this **can** be given at the [UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md) tab.
 
     *   *Diffuse*: Solar energy transmittance for diffuse radiation. If no exact value is known, "0" should be given, as the program assumes a transmittance for diffuse solar radiation (reflected from surroundings, i.e. neighbor buildings, ground, clouds etc.) equal to the transmittance for direct radiation at an angle of incidence of 60 °. If a value different from "0" is given, it should be less than the value given for the transmittance of direct solar radiation.
 
