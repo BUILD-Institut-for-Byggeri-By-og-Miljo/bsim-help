@@ -4,6 +4,7 @@
     "gitbook-plugin-head-append": "^1.1.1",
     "gitbook-plugin-language-picker": "file:plugins/language-picker",
     "gitbook-plugin-mathjax-fix": "file:plugins/mathjax-fix",
+    "gitbook-plugin-page-toc": "file:plugins/page-toc",
     "gitbook-plugin-remove-honkit-footer": "file:plugins/remove-honkit-footer",
     "honkit": "^6.0.3"
   },

@@ -1,28 +1,176 @@
-.book-summary ul.summary li.accordion-header {
+/* ------------------------------------------------------------------
+ * BSim help -- left sidebar, Starlight-inspired.
+ *
+ * NOTE: the HonKit theme sets `html { font-size: 62.5% }`, so 1rem = 10px
+ * here.  All sizes below are therefore written in px on purpose -- do not
+ * "modernise" them to rem without adjusting the numbers.
+ * ------------------------------------------------------------------ */
+
+.book-summary {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background: #fafafa;
+  border-right: 1px solid #e6e8ec;
+  color: #3b3f47;
+}
+
+/* ---- search box ------------------------------------------------- */
+
+.book-summary #book-search-input {
+  padding: 0;
+  margin: 12px 12px 8px;
+  background: transparent;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.book-summary #book-search-input input,
+.book-summary #book-search-input input:hover,
+.book-summary #book-search-input input:focus {
+  width: 100%;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 7px 10px;
+  color: #17181c;
+  background: #fff;
+  border: 1px solid #d5d8de;
+  border-radius: 6px;
+  box-shadow: none;
+  outline: 0;
+}
+
+.book-summary #book-search-input input:focus {
+  border-color: #2b5fc7;
+  box-shadow: 0 0 0 2px rgba(43, 95, 199, 0.15);
+}
+
+/* ---- summary list ----------------------------------------------- */
+
+.book-summary ul.summary {
+  padding: 0 8px 16px;
+  margin: 0;
+  list-style: none;
+}
+
+/* dividers and the "Published with HonKit" link add nothing here */
+.book-summary ul.summary li.divider,
+.book-summary ul.summary li > a.gitbook-link,
+.book-summary ul.summary li:has(> a.gitbook-link) {
+  display: none;
+}
+
+/* ---- group header ----------------------------------------------- */
+
+.book-summary ul.summary > li.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 2px 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #17181c;
+  text-transform: none;
   cursor: pointer;
   user-select: none;
-  position: relative;
-  padding-right: 1.5em;
+  -webkit-user-select: none;
+  border-radius: 4px;
 }
 
-.book-summary ul.summary li.accordion-header::after {
-  content: '\25BE';
-  position: absolute;
-  right: 0.75em;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: transform 0.25s ease;
-  font-size: 0.75em;
+.book-summary ul.summary > li.header:first-child {
+  margin-top: 0;
 }
 
-.book-summary ul.summary li.accordion-header[aria-expanded="false"]::after {
-  transform: translateY(-50%) rotate(-90deg);
+.book-summary ul.summary > li.header:hover {
+  color: #2b5fc7;
 }
+
+.book-summary ul.summary > li.header .accordion-title {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.book-summary ul.summary > li.header .accordion-caret {
+  flex: none;
+  width: 1em;
+  height: 1em;
+  transition: transform 0.2s ease-in-out;
+}
+
+.book-summary ul.summary > li.header[aria-expanded="true"] .accordion-caret {
+  transform: rotate(90deg);
+}
+
+/* ---- item list --------------------------------------------------- */
 
 .book-summary ul.summary ul.accordion-section {
   list-style: none;
+  margin: 2px 0 0 8px;
+  padding: 0 0 0 8px;
+  border-left: 1px solid #e2e4e9;
+}
+
+.book-summary ul.summary ul.accordion-section[hidden] {
+  display: none;
+}
+
+.book-summary ul.summary ul.accordion-section > li.chapter > a,
+.book-summary ul.summary ul.accordion-section > li.chapter > span {
+  display: block;
+  padding: 3px 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #3b3f47;
+  border-radius: 4px;
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
+  text-decoration: none;
+}
+
+.book-summary ul.summary ul.accordion-section > li.chapter > a:hover {
+  color: #000;
+  background: #f0f1f4;
+  text-decoration: none;
+}
+
+.book-summary ul.summary ul.accordion-section > li.chapter.active > a,
+.book-summary ul.summary ul.accordion-section > li.chapter.active > a:hover {
+  color: #fff;
+  font-weight: 600;
+  background: #2b5fc7;
+  text-decoration: none;
+}
+
+/* chapters that are not inside a group (should not happen, but be safe) */
+.book-summary ul.summary > li.chapter > a {
+  display: block;
+  padding: 3px 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #3b3f47;
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+}
+
+@media print {
+  .book-summary { display: none; }
+}
+
+/* the theme's `li span` rule forces nowrap+ellipsis -- group labels wrap */
+.book-summary ul.summary > li.header > span.accordion-title {
+  display: block;
   padding: 0;
-  margin: 0;
-  overflow: hidden;
-  transition: max-height 0.25s ease;
+  min-width: 0;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  overflow-wrap: anywhere;
+  background: none;
+  color: inherit;
 }

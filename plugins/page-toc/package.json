@@ -1,0 +1,6 @@
+{
+  "name": "gitbook-plugin-page-toc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": { "gitbook": ">=3.0.0" }
+}

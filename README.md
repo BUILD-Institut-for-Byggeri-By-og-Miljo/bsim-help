@@ -70,8 +70,15 @@ henviser til, skal derfor ligge inde i `_book/`. Konkret:
 * **`language-picker`-pluginet er vendored.** Det lå tidligere som en git-URL i
   `book.json` og blev hentet fra GitHub ved installation; nu ligger det i
   `plugins/language-picker/` og er en `file:`-afhængighed i `package.json`.
-  De øvrige plugins (`category-accordion`, `mathjax-fix`, `remove-honkit-footer`)
+  De øvrige plugins (`category-accordion`, `page-toc`, `mathjax-fix`, `remove-honkit-footer`)
   har altid ligget i `plugins/`.
+* **Udseendet styres af to små client-side plugins.** `category-accordion` giver den
+  kompakte venstremenu (gruppeoverskrifter med chevron, indrykkede sider bag en tynd streg,
+  aktiv side som blå pille, husker åbne grupper i sessionStorage). `page-toc` bygger panelet
+  "På denne side" af sidens `h2`/`h3` (vises kun ved ≥ 1200 px og mindst to overskrifter) og
+  erstatter de store frem/tilbage-pile med en kompakt Forrige/Næste-række. Begge er ren CSS/JS
+  uden byggetrin, så HonKit-bygningen og publiceringen til help.bsim.dk er uændret.
+  Bemærk: HonKit-temaet sætter `html { font-size: 62.5% }`, så 1 rem = 10 px i plugin-CSS'en.
 * **Ingen CDN-referencer i det byggede output.** `copy-static.js` gennemsøger alle
   HTML-filer i `_book/` og afbryder bygningen, hvis den finder en URL til jsdelivr,
   cdnjs, unpkg, Google Fonts m.fl. Tilføj derfor aldrig et `<script src="https://...">`

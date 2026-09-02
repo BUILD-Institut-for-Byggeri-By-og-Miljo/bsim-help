@@ -3,7 +3,7 @@
 Kildetekst til BSim-hjælpen: en tosproget [HonKit](https://github.com/honkit/honkit)-bog
 (`da/` = dansk, `en/` = engelsk) på ca. 250 sider pr. sprog, fordelt på 20 nummererede
 kapitelmapper. Den byggede bog i `_book/` er det, BSim-hjælpevieweren
-(`BuildHelpViewer.exe`) viser — **offline**, uden nogen netværksadgang.
+(`BSimHelp.exe`) viser — **offline**, uden nogen netværksadgang.
 
 > Denne fil er skrevet til vedligeholderen af hjælpeteksten. Selve viewer-programmet
 > ligger i et andet repo (`BUILD Tools/semantic-embedded-help`).

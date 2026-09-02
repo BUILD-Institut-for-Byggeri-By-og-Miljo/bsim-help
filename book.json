@@ -7,7 +7,8 @@
         "language-picker",
         "mathjax-fix",
         "head-append",
-        "category-accordion"
+        "category-accordion",
+        "page-toc"
     ],
     "pluginsConfig": {
         "head-append": {
