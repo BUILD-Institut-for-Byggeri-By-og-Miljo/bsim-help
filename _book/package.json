@@ -2,13 +2,14 @@
   "devDependencies": {
     "gitbook-plugin-category-accordion": "file:plugins/category-accordion",
     "gitbook-plugin-head-append": "^1.1.1",
-    "gitbook-plugin-language-picker": "^0.1.0",
+    "gitbook-plugin-language-picker": "file:plugins/language-picker",
     "gitbook-plugin-mathjax-fix": "file:plugins/mathjax-fix",
     "gitbook-plugin-remove-honkit-footer": "file:plugins/remove-honkit-footer",
     "honkit": "^6.0.3"
   },
   "scripts": {
-    "build": "honkit build",
+    "build": "honkit build && node copy-static.js",
+    "copy-static": "node copy-static.js",
     "serve": "honkit serve"
   },
   "name": "bsim",
