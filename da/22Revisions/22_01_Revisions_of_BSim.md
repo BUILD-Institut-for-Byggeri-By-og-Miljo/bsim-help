@@ -5,6 +5,12 @@
 
 *Informationer på denne side er primært ment som en dokumentation af de ændringer som er sket med programmet for udviklerne, men kan også bruges til bedre at forstå forskelle i resultatet opnået med forskellige versioner af programmet.*
 
+**7,26,mm,dd**
+
+*   SimView: Windows-hjælpen (HTML Help/CHM) er erstattet af et nyt hjælpevindue (BuildHelpViewer/WebView2), som viser denne hjælpebog lokalt. F1 virker uændret i alle dialoger. Hvis hjælpen ikke er installeret, åbnes onlinehjælpen på [help.bsim.dk](https://help.bsim.dk) i stedet.
+
+*   SimView: Nyt menupunkt "Online Help" i Help-menuen.
+
  
 
 **7,13,9,24** 

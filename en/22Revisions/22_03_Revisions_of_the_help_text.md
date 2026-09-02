@@ -10,6 +10,22 @@
  </div>
 
 
+### **7.26.mm.dd**
+
+*   The help is now delivered as this help book, both online at [help.bsim.dk](https://help.bsim.dk) and offline in BSim's new help window; the old CHM files are discontinued. Formulas and search now also work without an internet connection.
+
+*   Page names have been harmonised between Danish and English, so switching language always lands on the corresponding page.
+
+*   The page [SimDB - BuildingMaterial, PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md) is now built correctly (spelling error in the file name corrected).
+
+*   Corrected the formula rendering configuration (MathJax), which failed on every page.
+
+*   Corrected dead link to the [reference point](../10Thermal_zones/10_03_Reference_point.md) in [Blind control](../24Miscellaneous/24_06_Blind_control.md).
+
+*   Added a topic map connecting BSim's F1 topics to the pages of the help book.
+
+*   Removed obsolete test pages.
+
 ### **7.14.mm.dd**
 
 *   Added references for calculation of [solar radiation on external surfaces](../20The_Mathematical_Basis/20_22_Algorithms_for_calculation_of_solar_radiation_and_daylight.md).

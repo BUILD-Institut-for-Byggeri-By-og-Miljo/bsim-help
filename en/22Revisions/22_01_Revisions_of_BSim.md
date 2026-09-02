@@ -10,6 +10,12 @@
 
 <br>
 
+**7,26,mm,dd**
+
+*   *SimView*: The Windows Help (HTML Help/CHM) has been replaced by a new help window (BuildHelpViewer/WebView2) showing this help book locally. F1 works unchanged in all dialogs. If the help is not installed, the online help at [help.bsim.dk](https://help.bsim.dk) opens instead.
+
+*   *SimView*: New menu item "Online Help" in the Help menu.
+
 **7,13,9,24** 
 
 *   *SimView*: File/Browse, corrected error under Windows 7.
