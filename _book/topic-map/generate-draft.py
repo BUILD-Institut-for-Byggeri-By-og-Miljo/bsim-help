@@ -601,8 +601,13 @@ HEADER = """\
 #              Look-ups should be case-insensitive: F1Help.h mixes
 #              "Systems\\..." and "systems\\...".
 #   <slug>     Page path relative to the language root, without the language
-#              prefix, e.g. 24Miscellaneous/24_25_Site_Property.html.  The same
-#              slug is used for da/ and en/ -- the viewer prefixes the language.
+#              prefix, e.g. Miscellaneous/Site_Property.html.  The same slug is
+#              used for da/ and en/ -- the viewer prefixes the language.
+#              NOTE: these are the CLEAN slugs of the published book.  The
+#              markdown sources keep their chapter/page numbers
+#              (da/24Miscellaneous/24_25_Site_Property.md) for ordering, but
+#              copy-static.js strips them from _book/ at build time, so the
+#              slug here must be the stripped one.
 #   #anchor    Present only when the old fragment maps onto a real anchor of
 #              the target page; otherwise the page is opened at the top.
 #
@@ -618,8 +623,29 @@ HEADER = """\
 """
 
 
+CLEAN_CHAPTER_RE = re.compile(r"^\d+")
+CLEAN_PAGE_RE = re.compile(r"^\d+_\d+_")
+
+
+def clean_slug(slug):
+    """Source slug -> published slug.
+
+    The markdown sources keep the chapter/page numbers because that is what
+    orders the pages in GitHub and VS Code, but copy-static.js strips them
+    from _book/ at build time (24Miscellaneous/24_25_Site_Property ->
+    Miscellaneous/Site_Property).  The viewer resolves F1 topics against the
+    BUILT book, so the map has to carry the stripped names.
+    """
+    parts = slug.split("/")
+    parts[0] = CLEAN_CHAPTER_RE.sub("", parts[0])
+    parts[-1] = CLEAN_PAGE_RE.sub("", parts[-1])
+    if not parts[0] or not parts[-1]:
+        raise ValueError("slug %r is empty after stripping its numbers" % slug)
+    return "/".join(parts)
+
+
 def slug_to_html(slug):
-    return slug + ".html"
+    return clean_slug(slug) + ".html"
 
 
 def emit(results, pages, repo, out_path):

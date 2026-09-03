@@ -1,0 +1,4190 @@
+
+<!DOCTYPE HTML>
+<html lang="da" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Gulvvarme, matematisk grundlag · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-category-accordion/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-toc/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles.css">
+        
+    
+
+        
+
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Literature.html" />
+    
+    
+    <link rel="prev" href="Heat_transmission_in_constructions.html" />
+    
+
+<script>window.MathJax = { tex: { inlineMath: [['\\(','\\)'],['$','$']], displayMath: [['\\[','\\]'],['$$','$$']], packages: {'[+]': ['ams','textmacros']}, processEscapes: true }, options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] } };</script>
+<script>(function(){var l=document.querySelector('link[rel="stylesheet"][href$="gitbook/style.css"]');var base=l?l.getAttribute('href').replace(/gitbook\/style\.css$/,''):'./';var root=new URL(base||'./',document.baseURI).toString();var s=document.createElement('script');s.id='MathJax-script';s.async=false;s.src=root+'mathjax/es5/tex-chtml-full.js';document.head.appendChild(s);})();</script>
+<script>(function(){function cleanNBSP(root){var t=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null,false);var n;while((n=t.nextNode())){if(n.nodeValue.indexOf('\u00A0')!==-1){n.nodeValue=n.nodeValue.replace(/\u00A0/g,' ');}}}function ts(){if(window.MathJax&&window.MathJax.typesetPromise){cleanNBSP(document.body);return window.MathJax.typesetPromise();}}function bind(){if(window.gitbook&&gitbook.events){gitbook.events.bind('page.change',ts);}document.addEventListener('DOMContentLoaded',ts);}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',bind);}else{bind();}})();</script>
+<script>document.addEventListener('DOMContentLoaded',function(){var l=document.createElement('link');l.rel='stylesheet';l.href=new URL('styles.css', document.baseURI).toString();document.head.appendChild(l);});</script>
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Brugervejledning</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Users_guide/Colophone.html">
+            
+                <a href="../Users_guide/Colophone.html">
+            
+                    
+                    Kolofon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Users_guide/Foreword.html">
+            
+                <a href="../Users_guide/Foreword.html">
+            
+                    
+                    Forord
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Users_guide/Contents.html">
+            
+                <a href="../Users_guide/Contents.html">
+            
+                    
+                    BSim - Brugervejledning
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Introduktion</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../Introduction/Terms_of_delivery_and_liability.html">
+            
+                <a href="../Introduction/Terms_of_delivery_and_liability.html">
+            
+                    
+                    Leveringsbetingelser og ansvarsforhold
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../Introduction/Help_structure.html">
+            
+                <a href="../Introduction/Help_structure.html">
+            
+                    
+                    Opbygning af hjælp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../Introduction/Printing_help_pages.html">
+            
+                <a href="../Introduction/Printing_help_pages.html">
+            
+                    
+                    Udskrift af hjælpesider
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../Introduction/Reader_guidelines.html">
+            
+                <a href="../Introduction/Reader_guidelines.html">
+            
+                    
+                    Læsevejledning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../Introduction/Limitations.html">
+            
+                <a href="../Introduction/Limitations.html">
+            
+                    
+                    Begrænsninger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="../Introduction/Shortcut_keys.html">
+            
+                <a href="../Introduction/Shortcut_keys.html">
+            
+                    
+                    Genvejstaster
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="../Introduction/Dictionary.html">
+            
+                <a href="../Introduction/Dictionary.html">
+            
+                    
+                    Ordbog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="../Introduction/File_types.html">
+            
+                <a href="../Introduction/File_types.html">
+            
+                    
+                    Filtyper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="../Introduction/Questions_via_e-mail.html">
+            
+                <a href="../Introduction/Questions_via_e-mail.html">
+            
+                    
+                    Spørgsmål via e-mail
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="../Introduction/Virus.html">
+            
+                <a href="../Introduction/Virus.html">
+            
+                    
+                    Virus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">BSim Programstruktur</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../BSim_Program_structure/Structure_of_BSim.html">
+            
+                <a href="../BSim_Program_structure/Structure_of_BSim.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../BSim_Program_structure/About_BSim.html">
+            
+                <a href="../BSim_Program_structure/About_BSim.html">
+            
+                    
+                    About BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../BSim_Program_structure/Mouse_operations_in_SimView.html">
+            
+                <a href="../BSim_Program_structure/Mouse_operations_in_SimView.html">
+            
+                    
+                    Operationer med musen i SimView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../BSim_Program_structure/Program_menus_in_BSim.html">
+            
+                <a href="../BSim_Program_structure/Program_menus_in_BSim.html">
+            
+                    
+                    Programmenuer i BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../BSim_Program_structure/SimView_Toolbar.html">
+            
+                <a href="../BSim_Program_structure/SimView_Toolbar.html">
+            
+                    
+                    SimView - Værktøjsbjælken
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../BSim_Program_structure/SimView_Menu.html">
+            
+                <a href="../BSim_Program_structure/SimView_Menu.html">
+            
+                    
+                    SimView - Menu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../BSim_Program_structure/SimView_Printing_a_model.html">
+            
+                <a href="../BSim_Program_structure/SimView_Printing_a_model.html">
+            
+                    
+                    SimView - Udskrift af model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../BSim_Program_structure/Error_messages.html">
+            
+                <a href="../BSim_Program_structure/Error_messages.html">
+            
+                    
+                    Fejlmeddelelser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../BSim_Program_structure/SimView_Creating_a_building.html">
+            
+                <a href="../BSim_Program_structure/SimView_Creating_a_building.html">
+            
+                    
+                    SimView - Oprette en bygning
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimDB Database</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../SimDB_Database/The_SimDB_database.html">
+            
+                <a href="../SimDB_Database/The_SimDB_database.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../SimDB_Database/SimDB_BuildingElement.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingElement.html">
+            
+                    
+                    SimDB - BuildingElement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../SimDB_Database/SimDB_BuildingElement_ConstructionLayer.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingElement_ConstructionLayer.html">
+            
+                    
+                    SimDB - BuildingElement, ConstructionLayer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../SimDB_Database/SimDB_BuildingElement_MaterialAmount.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingElement_MaterialAmount.html">
+            
+                    
+                    SimDB - BuildingElement, MaterialAmount
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="../SimDB_Database/Material_layers_for_BuildingConstruction_WinDoor.html">
+            
+                <a href="../SimDB_Database/Material_layers_for_BuildingConstruction_WinDoor.html">
+            
+                    
+                    Materialelag for WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="../SimDB_Database/SimDB_BuildingMaterial.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial.html">
+            
+                    
+                    SimDB - BuildingMaterial
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="../SimDB_Database/SimDB_BuildingMaterial_Environment.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_Environment.html">
+            
+                    
+                    SimDB - BuildingMaterial, Environment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="../SimDB_Database/SimDB_BuildingMaterial_Finish.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_Finish.html">
+            
+                    
+                    SimDB - BuildingMaterial, Finish
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="../SimDB_Database/SimDB_BuildingMaterial_Frame.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_Frame.html">
+            
+                    
+                    SimDB - BuildingMaterial, Frame
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="../SimDB_Database/SimDB_BuildingMaterial_Glazing.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_Glazing.html">
+            
+                    
+                    SimDB - BuildingMaterial, Glazing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="../SimDB_Database/SimDB_BuildingMaterial_Material.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_Material.html">
+            
+                    
+                    SimDB - BuildingMaterial, Material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="../SimDB_Database/SimDB_BuildingMaterial_Thermal.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_Thermal.html">
+            
+                    
+                    SimDB - BuildingMaterial, Thermal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.13" data-path="../SimDB_Database/SimDB_BuildingMaterial_PCM.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_PCM.html">
+            
+                    
+                    SimDB - BuildingMaterial, PCM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="../SimDB_Database/SimDB_BuildingMaterial_Moisture.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_Moisture.html">
+            
+                    
+                    SimDB - BuildingMaterial, Moisture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.15" data-path="../SimDB_Database/SimDB_PV-materials.html">
+            
+                <a href="../SimDB_Database/SimDB_PV-materials.html">
+            
+                    
+                    SimDB - PV-materialer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.16" data-path="../SimDB_Database/SimDB_BuildingMaterial_UserDefined.html">
+            
+                <a href="../SimDB_Database/SimDB_BuildingMaterial_UserDefined.html">
+            
+                    
+                    SimDB - BuildingMaterial, UserDefined
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Cad tegninger som grundlag for geometri</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/CAD_drawings_as_a_basis_for_geometry.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/CAD_drawings_as_a_basis_for_geometry.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Opening_a_DXF_drawing.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Opening_a_DXF_drawing.html">
+            
+                    
+                    SimDXF - Åbne DXF-tegning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Selecting_the_DXF_filter.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Selecting_the_DXF_filter.html">
+            
+                    
+                    SimDXF - Vælg DXF-filter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Adding_as_an_application.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Adding_as_an_application.html">
+            
+                    
+                    SimDXF - Tilføje som applikation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Faces.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Faces.html">
+            
+                    
+                    SimDXF - Flader
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Spaces.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Spaces.html">
+            
+                    
+                    SimDXF - Rum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Drawing_revisions.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Drawing_revisions.html">
+            
+                    
+                    SimDXF - Tegningsrevisioner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_WinDoor.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_WinDoor.html">
+            
+                    
+                    SimDXF - WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Creating_nodes.html">
+            
+                <a href="../SimDXF_CAD_drawings_as_basis_for_geometry/SimDXF_Creating_nodes.html">
+            
+                    
+                    SimDXF - oprette knuder (nodes)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimView</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../SimView/SimView.html">
+            
+                <a href="../SimView/SimView.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../SimView/SimView_Editing_the_model_geometry.html">
+            
+                <a href="../SimView/SimView_Editing_the_model_geometry.html">
+            
+                    
+                    SimView - Redigere modelgeometrien
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../SimView/Property_dialogs_in_SimView.html">
+            
+                <a href="../SimView/Property_dialogs_in_SimView.html">
+            
+                    
+                    Property dialoger i SimView
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../SimView/Documentation_of_model.html">
+            
+                <a href="../SimView/Documentation_of_model.html">
+            
+                    
+                    Dokumentation af model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="../SimView/Sim_View_Virtual_zones.html">
+            
+                <a href="../SimView/Sim_View_Virtual_zones.html">
+            
+                    
+                    SimView - fiktive zoner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="../SimView/Construction_property.html">
+            
+                <a href="../SimView/Construction_property.html">
+            
+                    
+                    Construction Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="../SimView/Windoor_property.html">
+            
+                <a href="../SimView/Windoor_property.html">
+            
+                    
+                    WinDoor Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="../SimView/Thermal_bridges.html">
+            
+                <a href="../SimView/Thermal_bridges.html">
+            
+                    
+                    Kuldebroer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="../SimView/SimView_Non_default_constructions.html">
+            
+                <a href="../SimView/SimView_Non_default_constructions.html">
+            
+                    
+                    SimView - Ikke-standard konstruktioner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="../SimView/Climate_data.html">
+            
+                <a href="../SimView/Climate_data.html">
+            
+                    
+                    Klimadata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" data-path="../SimView/Model_information.html">
+            
+                <a href="../SimView/Model_information.html">
+            
+                    
+                    Modeloplysninger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" data-path="../SimView/Model_wizard_creating_a_new_model.html">
+            
+                <a href="../SimView/Model_wizard_creating_a_new_model.html">
+            
+                    
+                    Model wizard - oprette en ny model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13" data-path="../SimView/SimView_Move.html">
+            
+                <a href="../SimView/SimView_Move.html">
+            
+                    
+                    SimView - Move
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14" data-path="../SimView/SimView_Creating_a_building.html">
+            
+                <a href="../SimView/SimView_Creating_a_building.html">
+            
+                    
+                    SimView - Oprette en bygning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.15" data-path="../SimView/SimView_Creating_a_space.html">
+            
+                <a href="../SimView/SimView_Creating_a_space.html">
+            
+                    
+                    SimView - Oprette et rum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.16" data-path="../SimView/SimView_Options.html">
+            
+                <a href="../SimView/SimView_Options.html">
+            
+                    
+                    SimView - Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Termiske zoner</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../Thermal_zones/Thermal_Zone_property.html">
+            
+                <a href="../Thermal_zones/Thermal_Zone_property.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../Thermal_zones/SimView_Adding_spaces_to_thermal_zones.html">
+            
+                <a href="../Thermal_zones/SimView_Adding_spaces_to_thermal_zones.html">
+            
+                    
+                    Tilføje rum til termiske zoner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../Thermal_zones/Reference_point.html">
+            
+                <a href="../Thermal_zones/Reference_point.html">
+            
+                    
+                    Referencepunkt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../Thermal_zones/SimView_Editing_the_model_geometry.html">
+            
+                <a href="../Thermal_zones/SimView_Editing_the_model_geometry.html">
+            
+                    
+                    Redigere modelgeometri
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="../Thermal_zones/Shadows_from_the_surroundings.html">
+            
+                <a href="../Thermal_zones/Shadows_from_the_surroundings.html">
+            
+                    
+                    Skygger fra omgivelser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" data-path="../Thermal_zones/SimView_Default_constructions.html">
+            
+                <a href="../Thermal_zones/SimView_Default_constructions.html">
+            
+                    
+                    Standardkonstruktioner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" data-path="../Thermal_zones/Solar_light_factors_for_WinDoors.html">
+            
+                <a href="../Thermal_zones/Solar_light_factors_for_WinDoors.html">
+            
+                    
+                    Sollysfaktorer for WinDoors
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8" data-path="../Thermal_zones/SimView_Adding_an_opening_or_WinDoor.html">
+            
+                <a href="../Thermal_zones/SimView_Adding_an_opening_or_WinDoor.html">
+            
+                    
+                    Tilføje åbning eller WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9" data-path="../Thermal_zones/SimView_Printing_a_model.html">
+            
+                <a href="../Thermal_zones/SimView_Printing_a_model.html">
+            
+                    
+                    Udskrift af model
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Systemer</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../Systems/Systems.html">
+            
+                <a href="../Systems/Systems.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../Systems/Systems_schedule.html">
+            
+                <a href="../Systems/Systems_schedule.html">
+            
+                    
+                    Schedule, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="../Systems/Systems_Lighting.html">
+            
+                <a href="../Systems/Systems_Lighting.html">
+            
+                    
+                    Lighting, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="../Systems/Systems_DayProfile.html">
+            
+                <a href="../Systems/Systems_DayProfile.html">
+            
+                    
+                    DayProfile, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="../Systems/Systems_Moisture.html">
+            
+                <a href="../Systems/Systems_Moisture.html">
+            
+                    
+                    Moisture, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="../Systems/Hydronic_constructive_heating_cooling.html">
+            
+                <a href="../Systems/Hydronic_constructive_heating_cooling.html">
+            
+                    
+                    Gulvvarme, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="../Systems/Floor_Heating_Control.html">
+            
+                <a href="../Systems/Floor_Heating_Control.html">
+            
+                    
+                    Gulvvarmeregulering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="../Systems/Systems_Infiltration.html">
+            
+                <a href="../Systems/Systems_Infiltration.html">
+            
+                    
+                    Infiltration, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.9" data-path="../Systems/Systems_cooling.html">
+            
+                <a href="../Systems/Systems_cooling.html">
+            
+                    
+                    Cooling, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.10" data-path="../Systems/systems_mixing.html">
+            
+                <a href="../Systems/systems_mixing.html">
+            
+                    
+                    Mixing, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.11" data-path="../Systems/Natural_ventilation.html">
+            
+                <a href="../Systems/Natural_ventilation.html">
+            
+                    
+                    Naturlig ventilation, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.12" data-path="../Systems/Systems_Heating.html">
+            
+                <a href="../Systems/Systems_Heating.html">
+            
+                    
+                    Heating, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.13" data-path="../Systems/Systems_Persons.html">
+            
+                <a href="../Systems/Systems_Persons.html">
+            
+                    
+                    Persons, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.14" data-path="../Systems/Control_priority_for_systems.html">
+            
+                <a href="../Systems/Control_priority_for_systems.html">
+            
+                    
+                    Reguleringsprioritet for systemer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.15" data-path="../Systems/Systems_shutter.html">
+            
+                <a href="../Systems/Systems_shutter.html">
+            
+                    
+                    Shutter, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.16" data-path="../Systems/Systems_shading.html">
+            
+                <a href="../Systems/Systems_shading.html">
+            
+                    
+                    Shading, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.17" data-path="../Systems/Systems_Time.html">
+            
+                <a href="../Systems/Systems_Time.html">
+            
+                    
+                    Time, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.18" data-path="../Systems/Systems_Venting.html">
+            
+                <a href="../Systems/Systems_Venting.html">
+            
+                    
+                    Venting, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.19" data-path="../Systems/Systems_Equipment.html">
+            
+                <a href="../Systems/Systems_Equipment.html">
+            
+                    
+                    Equipment, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.20" data-path="../Systems/Heat_pump.html">
+            
+                <a href="../Systems/Heat_pump.html">
+            
+                    
+                    Varmepumpe, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.21" data-path="../Systems/Systems_Ventilation.html">
+            
+                <a href="../Systems/Systems_Ventilation.html">
+            
+                    
+                    Ventilation, System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.22" data-path="../Systems/Ventilation_Moisture_control.html">
+            
+                <a href="../Systems/Ventilation_Moisture_control.html">
+            
+                    
+                    Fugtregulering, Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.23" data-path="../Systems/Ventilation_Inlet_Control.html">
+            
+                <a href="../Systems/Ventilation_Inlet_Control.html">
+            
+                    
+                    Indblæsningsstyring, Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.24" data-path="../Systems/Ventilation_Night_Cooling_Control.html">
+            
+                <a href="../Systems/Ventilation_Night_Cooling_Control.html">
+            
+                    
+                    Natkøling, Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.25" data-path="../Systems/Ventilation_Zone_Temperature_control.html">
+            
+                <a href="../Systems/Ventilation_Zone_Temperature_control.html">
+            
+                    
+                    Rumtemperaturregulering, Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.26" data-path="../Systems/Ventilation_VAV_control.html">
+            
+                <a href="../Systems/Ventilation_VAV_control.html">
+            
+                    
+                    VAV-regulering, Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.27" data-path="../Systems/NvCool_regulation_ventilation.html">
+            
+                <a href="../Systems/NvCool_regulation_ventilation.html">
+            
+                    
+                    NvCool-regulering, Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.28" data-path="../Systems/Ventilation_Recirculation.html">
+            
+                <a href="../Systems/Ventilation_Recirculation.html">
+            
+                    
+                    Recirkulation, Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Kappamodellen</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../The_Kappa_model/The_Kappa_model.html">
+            
+                <a href="../The_Kappa_model/The_Kappa_model.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" data-path="../The_Kappa_model/Background.html">
+            
+                <a href="../The_Kappa_model/Background.html">
+            
+                    
+                    Baggrund
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" data-path="../The_Kappa_model/The_Kappa_Model_Model_description.html">
+            
+                <a href="../The_Kappa_model/The_Kappa_Model_Model_description.html">
+            
+                    
+                    Kappa-modellen - modelbeskrivelse
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" data-path="../The_Kappa_model/The_Kappa_Model_implementation_in_tsbi5.html">
+            
+                <a href="../The_Kappa_model/The_Kappa_Model_implementation_in_tsbi5.html">
+            
+                    
+                    Kappa-modellen - Implementering i tsbi5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" data-path="../The_Kappa_model/The_Kappa_Model_input_data.html">
+            
+                <a href="../The_Kappa_model/The_Kappa_Model_input_data.html">
+            
+                    
+                    Kappa-modellen, inddata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.6" data-path="../The_Kappa_model/The_Kappa_Model_Nomenclature.html">
+            
+                <a href="../The_Kappa_model/The_Kappa_Model_Nomenclature.html">
+            
+                    
+                    Kappa-modellen - Nomenklatur
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.7" data-path="../The_Kappa_model/The_Kappa_Model_References.html">
+            
+                <a href="../The_Kappa_model/The_Kappa_Model_References.html">
+            
+                    
+                    Kappa-modellen - Referencer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tsbi5 Termisk simulering</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../tsbi5_thermal_simulation/tsbi5.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../tsbi5_thermal_simulation/tsbi5_options.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5_options.html">
+            
+                    
+                    tsbi5 - Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../tsbi5_thermal_simulation/Converting_weather_data_for_tsbi5.html">
+            
+                <a href="../tsbi5_thermal_simulation/Converting_weather_data_for_tsbi5.html">
+            
+                    
+                    Konvertering af vejrdata til tsbi5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="../tsbi5_thermal_simulation/tsbi5_simulation.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5_simulation.html">
+            
+                    
+                    tsbi5 - Simulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="../tsbi5_thermal_simulation/tsbi5_Batch.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5_Batch.html">
+            
+                    
+                    tsbi5 batch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="../tsbi5_thermal_simulation/tsbi5_Exporting_to_tsbi3.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5_Exporting_to_tsbi3.html">
+            
+                    
+                    tsbi5 - Eksport til tsbi3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="../tsbi5_thermal_simulation/tsbi5_HeatBalance.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5_HeatBalance.html">
+            
+                    
+                    tsbi5 - HeatBalance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.8" data-path="../tsbi5_thermal_simulation/tsbi5_Parameters.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5_Parameters.html">
+            
+                    
+                    tsbi5 - Parameters
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.9" data-path="../tsbi5_thermal_simulation/tsbi5_Tables.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5_Tables.html">
+            
+                    
+                    tsbi5 - Tables
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.10" data-path="../tsbi5_thermal_simulation/tsbi5_Exporting_to_CFD_program.html">
+            
+                <a href="../tsbi5_thermal_simulation/tsbi5_Exporting_to_CFD_program.html">
+            
+                    
+                    tsbi5 - Eksport til CFD program
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.11" data-path="../tsbi5_thermal_simulation/Parameters_in_the_result_log.html">
+            
+                <a href="../tsbi5_thermal_simulation/Parameters_in_the_result_log.html">
+            
+                    
+                    Parametre i resultatloggen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.12" data-path="../tsbi5_thermal_simulation/Modifying_the_graphical_presentation_of_results.html">
+            
+                <a href="../tsbi5_thermal_simulation/Modifying_the_graphical_presentation_of_results.html">
+            
+                    
+                    Ændring af den grafiske afbildning af resultater
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.13" data-path="../tsbi5_thermal_simulation/Chart_Designer.html">
+            
+                <a href="../tsbi5_thermal_simulation/Chart_Designer.html">
+            
+                    
+                    Chart Designer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.14" data-path="../tsbi5_thermal_simulation/Chart_Wizard.html">
+            
+                <a href="../tsbi5_thermal_simulation/Chart_Wizard.html">
+            
+                    
+                    Chart Wizard
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">XSun Solberegning</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../XSun_Analysis_of_incident_solar_radiation/Analysis_of_incident_solar_radiation_with_XSun.html">
+            
+                <a href="../XSun_Analysis_of_incident_solar_radiation/Analysis_of_incident_solar_radiation_with_XSun.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="../XSun_Analysis_of_incident_solar_radiation/XSun_menu.html">
+            
+                <a href="../XSun_Analysis_of_incident_solar_radiation/XSun_menu.html">
+            
+                    
+                    XSun menu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="../XSun_Analysis_of_incident_solar_radiation/XSun_video.html">
+            
+                <a href="../XSun_Analysis_of_incident_solar_radiation/XSun_video.html">
+            
+                    
+                    XSun video
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimLight Dagslysberegning</li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../SimLight_Daylight_calculations/Daylight_calculations_with_SimLight.html">
+            
+                <a href="../SimLight_Daylight_calculations/Daylight_calculations_with_SimLight.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="12.2" data-path="../SimLight_Daylight_calculations/Daylight_calculation_at_a_point.html">
+            
+                <a href="../SimLight_Daylight_calculations/Daylight_calculation_at_a_point.html">
+            
+                    
+                    Dagslysberegning i et punkt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="12.3" data-path="../SimLight_Daylight_calculations/Daylight_calculation_on_a_plane.html">
+            
+                <a href="../SimLight_Daylight_calculations/Daylight_calculation_on_a_plane.html">
+            
+                    
+                    SimLight - Dagslysberegning i et plan
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimPV</li>
+        
+        
+    
+        <li class="chapter " data-level="13.1" data-path="../SimPV/SimPV.html">
+            
+                <a href="../SimPV/SimPV.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.2" data-path="../SimPV/Adding_solar_cells_to_the_model.html">
+            
+                <a href="../SimPV/Adding_solar_cells_to_the_model.html">
+            
+                    
+                    Indsætte solceller i modellen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.3" data-path="../SimPV/PV_property.html">
+            
+                <a href="../SimPV/PV_property.html">
+            
+                    
+                    PV property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.4" data-path="../SimPV/SimDB_PV_materials.html">
+            
+                <a href="../SimPV/SimDB_PV_materials.html">
+            
+                    
+                    SimDB - PV-materialer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Radiance Visualisering</li>
+        
+        
+    
+        <li class="chapter " data-level="14.1" data-path="../Radiance_Visualisation_og_the_building/Exporting_data_to_Radiance.html">
+            
+                <a href="../Radiance_Visualisation_og_the_building/Exporting_data_to_Radiance.html">
+            
+                    
+                    Eksport af data til Radiance
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Andre windowsprogrammer</li>
+        
+        
+    
+        <li class="chapter " data-level="15.1" data-path="../BSim_and_other_windows_programs/BSim_and_other_Windows_programs.html">
+            
+                <a href="../BSim_and_other_windows_programs/BSim_and_other_Windows_programs.html">
+            
+                    
+                    BSim og andre Windows programmer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Det matematiske grundlag</li>
+        
+        
+    
+        <li class="chapter " data-level="16.1" data-path="The_Mathematical_Basis.html">
+            
+                <a href="The_Mathematical_Basis.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.2" data-path="Building_description_and_definition_of_nodes_in_constructions.html">
+            
+                <a href="Building_description_and_definition_of_nodes_in_constructions.html">
+            
+                    
+                    Bygningsopfattelse, knudepunktsinddeling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.3" data-path="daylight_calculations_in_simlight.html">
+            
+                <a href="daylight_calculations_in_simlight.html">
+            
+                    
+                    SimLight teori
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.4" data-path="Moisture_balance_for_a_zone.html">
+            
+                <a href="Moisture_balance_for_a_zone.html">
+            
+                    
+                    Fugtbalancen for en zone
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.5" data-path="Detailed_Moisture_balance.html">
+            
+                <a href="Detailed_Moisture_balance.html">
+            
+                    
+                    Detailed moisture balance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.6" data-path="Automatic_net_generation.html">
+            
+                <a href="Automatic_net_generation.html">
+            
+                    
+                    Automatisk netinddeling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.7" data-path="Moisture_transport_with_hysteresis.html">
+            
+                <a href="Moisture_transport_with_hysteresis.html">
+            
+                    
+                    Moisture Transport with Hysteresis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.8" data-path="Effective_Moisture_Penetration_Depth,_and_Automatic_Grid_Generation_in_BSim2000_for_Moisture_Calculations.html">
+            
+                <a href="Effective_Moisture_Penetration_Depth,_and_Automatic_Grid_Generation_in_BSim2000_for_Moisture_Calculations.html">
+            
+                    
+                    Effective Moisture Penetration Depth, and Automatic Grid Generation in BSim for Moisture Calculations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.9" data-path="Calculation_of_the_glass_temperature.html">
+            
+                <a href="Calculation_of_the_glass_temperature.html">
+            
+                    
+                    Beregning af glastemperatur
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.10" data-path="Sky_temperature.html">
+            
+                <a href="Sky_temperature.html">
+            
+                    
+                    Himmeltemperatur
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.11" data-path="Natural_convection_at_surfaces.html">
+            
+                <a href="Natural_convection_at_surfaces.html">
+            
+                    
+                    Natural convection at surfaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.12" data-path="Natural_ventilation.html">
+            
+                <a href="Natural_ventilation.html">
+            
+                    
+                    Naturlig ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.13" data-path="Extract_from_by_og_byg_direction_202.html">
+            
+                <a href="Extract_from_by_og_byg_direction_202.html">
+            
+                    
+                    Uddrag fra By og Byg Anvisning 202
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.14" data-path="The_multizone_model.html">
+            
+                <a href="The_multizone_model.html">
+            
+                    
+                    Multizone modellen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.15" data-path="Parameters_for_Natural_Ventilation.html">
+            
+                <a href="Parameters_for_Natural_Ventilation.html">
+            
+                    
+                    Parametre til naturlig ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.16" data-path="System_for_air_exchange.html">
+            
+                <a href="System_for_air_exchange.html">
+            
+                    
+                    Systemer til luftudveksling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.17" data-path="Implementation_of_mzm.html">
+            
+                <a href="Implementation_of_mzm.html">
+            
+                    
+                    Implementering af mzm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.18" data-path="Control_systems_in_the_multi-zone_model.html">
+            
+                <a href="Control_systems_in_the_multi-zone_model.html">
+            
+                    
+                    Regulering af multizone modellen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.19" data-path="PAQ.html">
+            
+                <a href="PAQ.html">
+            
+                    
+                    PAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.20" data-path="SimPV_Theory.html">
+            
+                <a href="SimPV_Theory.html">
+            
+                    
+                    SimPV - Beregningsforudsætninger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.21" data-path="Recirculation_of_ventilation_air.html">
+            
+                <a href="Recirculation_of_ventilation_air.html">
+            
+                    
+                    Recirkulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.22" data-path="Algorithms_for_calculation_of_solar_radiation_and_daylight.html">
+            
+                <a href="Algorithms_for_calculation_of_solar_radiation_and_daylight.html">
+            
+                    
+                    Algoritmer til beregning af solstråling og dagslys
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.23" data-path="Calculation_of_long_wave_radiation_to_the_sky.html">
+            
+                <a href="Calculation_of_long_wave_radiation_to_the_sky.html">
+            
+                    
+                    Calculation of long wave radiation to the sky
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.24" data-path="Form_factor_between_two_polygons.html">
+            
+                <a href="Form_factor_between_two_polygons.html">
+            
+                    
+                    On the Form Factor between Two Polygons
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.25" data-path="Heat_balance_for_the_zone_air.html">
+            
+                <a href="Heat_balance_for_the_zone_air.html">
+            
+                    
+                    Varmebalance for luften i en zone
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.26" data-path="Heat_transmission_in_constructions.html">
+            
+                <a href="Heat_transmission_in_constructions.html">
+            
+                    
+                    Varmetransport i konstruktionerne
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="16.27" data-path="Floor_heating_mathematical_basis.html">
+            
+                <a href="Floor_heating_mathematical_basis.html">
+            
+                    
+                    Gulvvarme, matematisk grundlag
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="16.28" data-path="Literature.html">
+            
+                <a href="Literature.html">
+            
+                    
+                    Litteratur
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Godt i gang med BSim</li>
+        
+        
+    
+        <li class="chapter " data-level="17.1" data-path="../Getting_started_with_BSim/Constructing_a_model.html">
+            
+                <a href="../Getting_started_with_BSim/Constructing_a_model.html">
+            
+                    
+                    Oversigt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.2" data-path="../Getting_started_with_BSim/Learning_examples.html">
+            
+                <a href="../Getting_started_with_BSim/Learning_examples.html">
+            
+                    
+                    Indlæringseksempler
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.3" data-path="../Getting_started_with_BSim/Example_1.html">
+            
+                <a href="../Getting_started_with_BSim/Example_1.html">
+            
+                    
+                    Eksempel 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.4" data-path="../Getting_started_with_BSim/Example_2.html">
+            
+                <a href="../Getting_started_with_BSim/Example_2.html">
+            
+                    
+                    Eksempel 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.5" data-path="../Getting_started_with_BSim/Example_3.html">
+            
+                <a href="../Getting_started_with_BSim/Example_3.html">
+            
+                    
+                    Eksempel 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="17.6" data-path="../Getting_started_with_BSim/Tutorial.html">
+            
+                <a href="../Getting_started_with_BSim/Tutorial.html">
+            
+                    
+                    Tutorial
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Revisioner</li>
+        
+        
+    
+        <li class="chapter " data-level="18.1" data-path="../Revisions/Revisions_of_BSim.html">
+            
+                <a href="../Revisions/Revisions_of_BSim.html">
+            
+                    
+                    Revisioner af BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.2" data-path="../Revisions/Building_model_updates.html">
+            
+                <a href="../Revisions/Building_model_updates.html">
+            
+                    
+                    Opdatering af bygningsmodel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.3" data-path="../Revisions/Revisions_of_the_help_text.html">
+            
+                <a href="../Revisions/Revisions_of_the_help_text.html">
+            
+                    
+                    Revisioner af hjælpeteksten
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Internet</li>
+        
+        
+    
+        <li class="chapter " data-level="19.1" data-path="../Internet/Join_the_debate_and_information_forum.html">
+            
+                <a href="../Internet/Join_the_debate_and_information_forum.html">
+            
+                    
+                    Tilmelding til debatforum
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Menuer</li>
+        
+        
+    
+        <li class="chapter " data-level="20.1" data-path="../Miscellaneous/File.html">
+            
+                <a href="../Miscellaneous/File.html">
+            
+                    
+                    File
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.2" data-path="../Miscellaneous/Edit.html">
+            
+                <a href="../Miscellaneous/Edit.html">
+            
+                    
+                    Edit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.3" data-path="../Miscellaneous/Application.html">
+            
+                <a href="../Miscellaneous/Application.html">
+            
+                    
+                    Application
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.4" data-path="../Miscellaneous/XSun.html">
+            
+                <a href="../Miscellaneous/XSun.html">
+            
+                    
+                    XSun
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.5" data-path="../Miscellaneous/View.html">
+            
+                <a href="../Miscellaneous/View.html">
+            
+                    
+                    View
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.6" data-path="../Miscellaneous/Thermal_simulation.html">
+            
+                <a href="../Miscellaneous/Thermal_simulation.html">
+            
+                    
+                    Termisk simulering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.7" data-path="../Miscellaneous/Help.html">
+            
+                <a href="../Miscellaneous/Help.html">
+            
+                    
+                    Help
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.8" data-path="../Miscellaneous/SimView_Tree_Menu.html">
+            
+                <a href="../Miscellaneous/SimView_Tree_Menu.html">
+            
+                    
+                    SimView - træ-menu
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.9" data-path="../Miscellaneous/Insert_Default_Options.html">
+            
+                <a href="../Miscellaneous/Insert_Default_Options.html">
+            
+                    
+                    Insert Default Options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.10" data-path="../Miscellaneous/Model_DOC.html">
+            
+                <a href="../Miscellaneous/Model_DOC.html">
+            
+                    
+                    Model DOC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.11" data-path="../Miscellaneous/Visualising_with_DirectX.html">
+            
+                <a href="../Miscellaneous/Visualising_with_DirectX.html">
+            
+                    
+                    Visualisering med DirectX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.12" data-path="../Miscellaneous/SimView_Insert_Windoor.html">
+            
+                <a href="../Miscellaneous/SimView_Insert_Windoor.html">
+            
+                    
+                    SimView - Insert Windoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.13" data-path="../Miscellaneous/Move_Building.html">
+            
+                <a href="../Miscellaneous/Move_Building.html">
+            
+                    
+                    Move: Bygninger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.14" data-path="../Miscellaneous/Move_Face.html">
+            
+                <a href="../Miscellaneous/Move_Face.html">
+            
+                    
+                    Move: Flader
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.15" data-path="../Miscellaneous/Move_WinDoor.html">
+            
+                <a href="../Miscellaneous/Move_WinDoor.html">
+            
+                    
+                    Move: WinDoor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.16" data-path="../Miscellaneous/Projekt_Wizard_2.html">
+            
+                <a href="../Miscellaneous/Projekt_Wizard_2.html">
+            
+                    
+                    Projekt Wizard 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.17" data-path="../Miscellaneous/Projekt_Wizard_3.html">
+            
+                <a href="../Miscellaneous/Projekt_Wizard_3.html">
+            
+                    
+                    Projekt Wizard 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Egenskabsdialoger</li>
+        
+        
+    
+        <li class="chapter " data-level="21.1" data-path="../Miscellaneous/Site_Property.html">
+            
+                <a href="../Miscellaneous/Site_Property.html">
+            
+                    
+                    Site Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.2" data-path="../Miscellaneous/Ground.html">
+            
+                <a href="../Miscellaneous/Ground.html">
+            
+                    
+                    Jord (Ground)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.3" data-path="../Miscellaneous/Building_Property.html">
+            
+                <a href="../Miscellaneous/Building_Property.html">
+            
+                    
+                    Building Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.4" data-path="../Miscellaneous/Room_property.html">
+            
+                <a href="../Miscellaneous/Room_property.html">
+            
+                    
+                    Room Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.5" data-path="../Miscellaneous/Finish_Property.html">
+            
+                <a href="../Miscellaneous/Finish_Property.html">
+            
+                    
+                    Finish Property
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.6" data-path="../Miscellaneous/WinDoor_Override.html">
+            
+                <a href="../Miscellaneous/WinDoor_Override.html">
+            
+                    
+                    WinDoor Override
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.7" data-path="../Miscellaneous/WinDoor_overhangs_and_side-fins.html">
+            
+                <a href="../Miscellaneous/WinDoor_overhangs_and_side-fins.html">
+            
+                    
+                    Udhæng og sidefinner
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.8" data-path="../Miscellaneous/Windoor_Systems.html">
+            
+                <a href="../Miscellaneous/Windoor_Systems.html">
+            
+                    
+                    Windoor systemer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.9" data-path="../Miscellaneous/Geometric_Thermal_Bridges.html">
+            
+                <a href="../Miscellaneous/Geometric_Thermal_Bridges.html">
+            
+                    
+                    Kuldebroer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.10" data-path="../Miscellaneous/Profile_angle.html">
+            
+                <a href="../Miscellaneous/Profile_angle.html">
+            
+                    
+                    Profilvinkel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.11" data-path="../Miscellaneous/Standard_tables_for_slate_based_shading_systems.html">
+            
+                <a href="../Miscellaneous/Standard_tables_for_slate_based_shading_systems.html">
+            
+                    
+                    Standardtabeller for lamel-afskærmninger
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.12" data-path="../Miscellaneous/Wind_pressure_coefficient_for_crevices.html">
+            
+                <a href="../Miscellaneous/Wind_pressure_coefficient_for_crevices.html">
+            
+                    
+                    Vindtrykkoefficient for spalter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.13" data-path="../Miscellaneous/Model_information.html">
+            
+                <a href="../Miscellaneous/Model_information.html">
+            
+                    
+                    Model information
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.14" data-path="../Miscellaneous/ModelDocumentation.html">
+            
+                <a href="../Miscellaneous/ModelDocumentation.html">
+            
+                    
+                    Model documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.15" data-path="../Miscellaneous/Description.html">
+            
+                <a href="../Miscellaneous/Description.html">
+            
+                    
+                    Beskrivelse
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="21.16" data-path="../Miscellaneous/Default_values.html">
+            
+                <a href="../Miscellaneous/Default_values.html">
+            
+                    
+                    Standardværdier
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Regulering</li>
+        
+        
+    
+        <li class="chapter " data-level="22.1" data-path="../Miscellaneous/PackCalc_Cooling.html">
+            
+                <a href="../Miscellaneous/PackCalc_Cooling.html">
+            
+                    
+                    PackCalc (Køling)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.2" data-path="../Miscellaneous/Heating_control.html">
+            
+                <a href="../Miscellaneous/Heating_control.html">
+            
+                    
+                    Opvarmning - Varmeregulering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.3" data-path="../Miscellaneous/Shutter_Control.html">
+            
+                <a href="../Miscellaneous/Shutter_Control.html">
+            
+                    
+                    Skodderegulering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.4" data-path="../Miscellaneous/Shading_Control.html">
+            
+                <a href="../Miscellaneous/Shading_Control.html">
+            
+                    
+                    Regulering efter solindfald og temperatur
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.5" data-path="../Miscellaneous/External_sensor_control.html">
+            
+                <a href="../Miscellaneous/External_sensor_control.html">
+            
+                    
+                    Regulering efter lysføler på facaden
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.6" data-path="../Miscellaneous/Blind_control.html">
+            
+                <a href="../Miscellaneous/Blind_control.html">
+            
+                    
+                    Regulering med lameller efter solindfald og direkte solstråling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.7" data-path="../Miscellaneous/Glare_Control.html">
+            
+                <a href="../Miscellaneous/Glare_Control.html">
+            
+                    
+                    Regulering efter blændingsforhold og belysningsstyrke
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.8" data-path="../Miscellaneous/Venting_Control.html">
+            
+                <a href="../Miscellaneous/Venting_Control.html">
+            
+                    
+                    Udluftningskontrol
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.9" data-path="../Miscellaneous/Light_Control.html">
+            
+                <a href="../Miscellaneous/Light_Control.html">
+            
+                    
+                    Belysning - Light control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.10" data-path="../Miscellaneous/Daylight_Control.html">
+            
+                <a href="../Miscellaneous/Daylight_Control.html">
+            
+                    
+                    Belysning - Daylight Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.11" data-path="../Miscellaneous/Mixing_Control.html">
+            
+                <a href="../Miscellaneous/Mixing_Control.html">
+            
+                    
+                    Mixing regulering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.12" data-path="../Miscellaneous/Cooling_control.html">
+            
+                <a href="../Miscellaneous/Cooling_control.html">
+            
+                    
+                    Cooling control
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.13" data-path="../Miscellaneous/Room_Temperature.html">
+            
+                <a href="../Miscellaneous/Room_Temperature.html">
+            
+                    
+                    Rumtemperatur
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.14" data-path="../Miscellaneous/Fan_coil_control.html">
+            
+                <a href="../Miscellaneous/Fan_coil_control.html">
+            
+                    
+                    Fan coil regulering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.15" data-path="../Miscellaneous/Regulation.html">
+            
+                <a href="../Miscellaneous/Regulation.html">
+            
+                    
+                    Regulation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.16" data-path="../Miscellaneous/Control_strategy_for_floor_heating_and_cooling.html">
+            
+                <a href="../Miscellaneous/Control_strategy_for_floor_heating_and_cooling.html">
+            
+                    
+                    Regulering af gulvvarme
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.17" data-path="../Miscellaneous/Venting_Temp_Factor.html">
+            
+                <a href="../Miscellaneous/Venting_Temp_Factor.html">
+            
+                    
+                    Udluftnings temperaturfaktor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.18" data-path="../Miscellaneous/Natural_Ventilation.html">
+            
+                <a href="../Miscellaneous/Natural_Ventilation.html">
+            
+                    
+                    Naturlig Ventilation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.19" data-path="../Miscellaneous/tsbi5_Natural_Ventilation_options.html">
+            
+                <a href="../Miscellaneous/tsbi5_Natural_Ventilation_options.html">
+            
+                    
+                    tsbi5 Natural Ventilation options
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">SimDB og SimDXF</li>
+        
+        
+    
+        <li class="chapter " data-level="23.1" data-path="../Miscellaneous/SfB_in_BSim.html">
+            
+                <a href="../Miscellaneous/SfB_in_BSim.html">
+            
+                    
+                    SfB i BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.2" data-path="../Miscellaneous/SimDb_BuildingElement.html">
+            
+                <a href="../Miscellaneous/SimDb_BuildingElement.html">
+            
+                    
+                    SimDb BuildingElement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.3" data-path="../Miscellaneous/Copy_building_elements.html">
+            
+                <a href="../Miscellaneous/Copy_building_elements.html">
+            
+                    
+                    Kopier bygningselementer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.4" data-path="../Miscellaneous/About_SimDB.html">
+            
+                <a href="../Miscellaneous/About_SimDB.html">
+            
+                    
+                    About SimDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.5" data-path="../Miscellaneous/Sorption_desorption.html">
+            
+                <a href="../Miscellaneous/Sorption_desorption.html">
+            
+                    
+                    Sorption/desorption
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.6" data-path="../Miscellaneous/SimDb_Glazing_Additional_data.html">
+            
+                <a href="../Miscellaneous/SimDb_Glazing_Additional_data.html">
+            
+                    
+                    SimDb - Glazing, Additional data
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.7" data-path="../Miscellaneous/About_SimDXF.html">
+            
+                <a href="../Miscellaneous/About_SimDXF.html">
+            
+                    
+                    About SimDXF
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.8" data-path="../Miscellaneous/SimDXF_Create_help_lines.html">
+            
+                <a href="../Miscellaneous/SimDXF_Create_help_lines.html">
+            
+                    
+                    SimDXF - oprette hjælpelinier
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">tsbi5 og klimadata</li>
+        
+        
+    
+        <li class="chapter " data-level="24.1" data-path="../Miscellaneous/Energy_ASHRAE_climate_data.html">
+            
+                <a href="../Miscellaneous/Energy_ASHRAE_climate_data.html">
+            
+                    
+                    Energy+/ASHRAE klimadata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.2" data-path="../Miscellaneous/ASHRAE.html">
+            
+                <a href="../Miscellaneous/ASHRAE.html">
+            
+                    
+                    Ashrae
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.3" data-path="../Miscellaneous/tsbi5_general_options.html">
+            
+                <a href="../Miscellaneous/tsbi5_general_options.html">
+            
+                    
+                    tsbi5 general options
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.4" data-path="../Miscellaneous/Stability_criterion_for_starting_simulations.html">
+            
+                <a href="../Miscellaneous/Stability_criterion_for_starting_simulations.html">
+            
+                    
+                    Stabilitetskriterie for indsvingning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.5" data-path="../Miscellaneous/Time_consumption.html">
+            
+                <a href="../Miscellaneous/Time_consumption.html">
+            
+                    
+                    Tidsforbrug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.6" data-path="../Miscellaneous/tsbi5_graph.html">
+            
+                <a href="../Miscellaneous/tsbi5_graph.html">
+            
+                    
+                    tsbi5 graf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.7" data-path="../Miscellaneous/Graph_Scale.html">
+            
+                <a href="../Miscellaneous/Graph_Scale.html">
+            
+                    
+                    Graph Scale
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.8" data-path="../Miscellaneous/Converting_weather_data_for_tsbi5.html">
+            
+                <a href="../Miscellaneous/Converting_weather_data_for_tsbi5.html">
+            
+                    
+                    Konvertering af vejrdata til tsbi5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.9" data-path="../Miscellaneous/Climate_data_definition.html">
+            
+                <a href="../Miscellaneous/Climate_data_definition.html">
+            
+                    
+                    Klimadata definition
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.10" data-path="../Miscellaneous/Climate_data_fixed_format.html">
+            
+                <a href="../Miscellaneous/Climate_data_fixed_format.html">
+            
+                    
+                    Klimadata, fast format
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.11" data-path="../Miscellaneous/tsbi5_moisture.html">
+            
+                <a href="../Miscellaneous/tsbi5_moisture.html">
+            
+                    
+                    tsbi5 - Fugt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.12" data-path="../Miscellaneous/Risk_of_condensation.html">
+            
+                <a href="../Miscellaneous/Risk_of_condensation.html">
+            
+                    
+                    Kondensrisiko
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.13" data-path="../Miscellaneous/Parameters_in_the_heat_balance.html">
+            
+                <a href="../Miscellaneous/Parameters_in_the_heat_balance.html">
+            
+                    
+                    Parametre i varmebalancen
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Diverse</li>
+        
+        
+    
+        <li class="chapter " data-level="25.1" data-path="../Miscellaneous/Revisions_of_BSim2000.html">
+            
+                <a href="../Miscellaneous/Revisions_of_BSim2000.html">
+            
+                    
+                    Tidligere revisioner i BSim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="25.2" data-path="../Miscellaneous/Setting_up_applications.html">
+            
+                <a href="../Miscellaneous/Setting_up_applications.html">
+            
+                    
+                    Opsætning af applikationer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Gulvvarme, matematisk grundlag</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <link rel="stylesheet" href="../style.css"></link>
+
+<h1 id="gulvvarme">Gulvvarme</h1>
+<p align="center">
+<strong>RADIANT HEATING/COOLING MODULE FOR BSim</strong> <br></br>  
+<strong>Theoretical reference</strong> <br></br>
+<strong>By Massimiliano Scarpa</strong>
+</p>
+
+<h2 id="context"><strong>Context</strong></h2>
+<ol>
+<li><a href="#main-concepts">MAIN CONCEPTS</a>   </li>
+<li><a href="#2d-simplification">2D SIMPLIFICATION</a><br></br>2.1. <a href="#status-of-the-art">Status of the art before the current research</a><br></br>2.2. <a href="#contribution-current-research">The contribution of the current research</a><br></br>2.2.1. <a href="#method">Method</a></li>
+<li><p><a href="#epsilon-ntu-method">THE ε-NTU METHOD FOR THE DESCRIPTION OF THE VARIATION OF THE WATER TEMPERATURE ALONG THE CIRCUIT</a><br></br>3.1. <a href="#grounds-epsilon-ntu">Grounds of the ε-NTU method</a><br></br>3.2. <a href="#epsilon-ntu-developed-model">The ε-NTU method in the developed model</a><br></br>3.3 <a href="#thermal-resistances">The calculation of thermal resistances R<sub>w</sub>, R<sub>p</sub> and R<sub>x</sub></a><br></br>3.3.1 <a href="#thermal-resistance-rw">The calculation of thermal resistance R<sub>w</sub></a><br></br>3.3.2 <a href="#thermal-resistance-rp">The calculation of thermal resistance R<sub>p</sub></a><br></br>3.3.3 <a href="#thermal-resistance-rx">The calculation of thermal resistance R<sub>x</sub></a><br></br>3.4. <a href="#calculation-u">The calculation U</a></p>
+</li>
+<li><p><a href="#global-view">GLOBAL VIEW OF THE WHOLE MODULE</a>   </p>
+</li>
+<li><a href="#bibliography">BIBLIOGRAPHY</a>   </li>
+<li><a href="#appendix-a">APPENDIX A</a></li>
+</ol>
+<h2 id="main-concepts"><strong>1. MAIN CONCEPTS</strong></h2>
+
+<p>Hydronic radiant systems embedded in building structures imply 2D thermal fields, due to the presence of the pipes. As a consequence, the description of radiant heating/cooling systems should involve the calculation of 2D heat flows, so that long calculation times would be required. Moreover, the thermal field varies along the flow direction, since the water decreases/increases its own temperature and consequently the heat transfer to the rest of the slab decreases.</p>
+<p>To sum up, in order to decrease the calculation time and maintain good accuracy, appropriate simplifications must be conceived.</p>
+<p>The most important simplifications performed in the development of the current module are summarized in the following:</p>
+<ol>
+<li><p>2D simplification. The effects of the 2D thermal field due to the presence of the pipes are described by means of a thermal resistance coupling the pipe external surface with the pipe level in the slab. In a few words, this makes it possible to shift from a 2D calculation domain to a 1D one.</p>
+</li>
+<li><p>The e-NTU method for the description of the variation of the water temperature along the circuit. The variation of the water temperature along the pipes is described by means of e-NTU theory, widely used in the calculation of performances for heat exchangers.</p>
+</li>
+</ol>
+<h2 id="2d-simplification"><strong>2. 2D SIMPLIFICATION</strong></h2>
+
+<h3 id="status-of-the-art"><strong>2.1. Status of the art before the current research</strong></h3>
+
+<p>The main concept regarding the degeneration of the 2D thermal field into a 1D one is here explained.</p>
+<p>Starting from previous studies of Glück[1, 2], Dorer, Koschenz and Lehmann [3, 4, 5] reached a simple model for the accurate description of the thermal behavior of thermally activated building systems in steady state conditions. Such a model is frequently called "Resistance Method" and describes the relation between the supply water temperature and the average temperature at the pipes level in terms of a series of thermal resistances. The involved resistances describe the following phenomena:</p>
+<ul>
+<li><p>Decrease/increase in water temperature due to the flow of water along the circuit (thermal resistance R<sub>z</sub>). In a few words, this thermal resistance connects the supply water temperature with the logarithmic mean water temperature along the pipe circuit. Hence, the logarithmic mean water temperature may be assumed as a reference for the estimation of the heat exchange between the water and the inner surface of the pipe.</p>
+</li>
+<li><p>Temperature gradient from the logarithmic mean temperature of the water to the mean temperature of the inner surface of the pipe. It is basically due to the convection heat transfer (thermal resistance R<sub>w</sub>).</p>
+</li>
+<li><p>Temperature gradient from the mean temperature of the inner surface of the pipe to the mean temperature of the outer surface of the pipe (thermal resistance R<sub>p</sub>). It is due to conduction heat transfer through the pipe wall.</p>
+</li>
+<li><p>Temperature gradient from the mean temperature of the outer surface of the pipe to the mean temperature at the pipe level (thermal resistance R<sub>x</sub>).</p>
+</li>
+</ul>
+<p>The significance of such a simplification is summarized by means of the following figure.</p>
+<figure id="center_img">
+<img src="assets/fh_fig1.gif" alt="Figure 1 - Background concept of the 'Resistance Method'."></img>
+<figcaption>Figure 1 - Background concept of the "Resistance Method".</figcaption>
+</figure>
+
+<p>R<sub>x</sub> is the most interesting part of the model. In fact, it is shown that, in certain conditions, the relation between the pipe and the pipe level can be described via a formula derived from the analytical solution of the 2D thermal domain shown in Figure 2:</p>
+<figure id="center_img">
+<img src="assets/fh_fig2.gif" alt="Figure 2 - Reference model and generic temperature profile along the pipes level."></img>
+<figcaption>Figure 2 - Reference model and generic temperature profile along the pipes level.</figcaption>
+</figure>
+
+<p>The analytical solution was obtained by Glück. That consists in the formula:</p>
+<p><span class="mathjax-block">\[
+\begin{array}{l}
+\theta(x,y) = \theta_1
++ \frac{\frac{1}{h}\cdot \frac{s_1 - y}{\lambda_s}}{\frac{1}{U_1} + \frac{1}{U_2}} (\theta_2 - \theta_1)
+- \Gamma \left[
+\theta_3 - \theta_1 - \frac{U_2}{U_1 + U_2}(\theta_2 - \theta_1)
+\right] \\
+\quad \cdot
+\left[
+\frac{\pi}{P}
+\left(
+\frac{U_1 - U_2}{U_1 + U_2} y
+- \frac{2\lambda_s}{U_1 + U_2}
++ |y|
+\right)
+- \sum_{n=1}^{\infty} \frac{1}{n}
+\left(
+e^{- \frac{2\pi n}{P}|y|}
++ g_1(n)e^{- \frac{2\pi n}{P}y}
++ g_2(n)e^{\frac{2\pi n}{P}y}
+\right)
+\cos\left(\frac{2\pi n}{P} x\right)
+\right]
+\end{array}
+\]</span></p>
+<!--- 
+<figure id="center_img">
+<img src="./assets/fh_eq1.gif" alt="">
+<figcaption></figcaption>
+</figure>
+--->
+<p>, where</p>
+<p><span class="mathjax-block">\[
+U_1 = \left( \frac{1}{h_1} + \frac{s_1}{\lambda_s} \right)^{-1}
+\]</span></p>
+<p><span class="mathjax-block">\[
+U_2 = \left( \frac{1}{h_2} + \frac{s_2}{\lambda_s} \right)^{-1}
+\]</span></p>
+<p> and</p>
+<p><span class="mathjax-block">\[
+g_1(n) = \frac{\frac{\frac{h_1}{\lambda_s} \cdot P + 2 \cdot \pi \cdot n}{\frac{h_1}{\lambda_s} \cdot P - 2 \cdot \pi \cdot n}\cdot e^{\frac{-4\cdot \pi \cdot n}{P} \cdot s_2} - e^{ \frac{-4\cdot \pi \cdot n}{P} \cdot (s_1+ s_2)}}{e^{ \frac{-4\cdot \pi \cdot n}{P} \cdot (s_1+ s_2)} - \frac{\frac{h_1}{\lambda_s} \cdot P + 2 \cdot \pi \cdot n}{\frac{h_1}{\lambda_s} \cdot P - 2 \cdot \pi \cdot n}\cdot\frac{\frac{h_2}{\lambda_s} \cdot P + 2 \cdot \pi \cdot n}{\frac{h_2}{\lambda_s} \cdot P - 2 \cdot \pi \cdot n}}
+\]</span></p>
+<p><span class="mathjax-block">\[
+g_2(n) = \frac{\frac{\frac{h_2}{\lambda_s} \cdot P + 2 \cdot \pi \cdot n}{\frac{h_2}{\lambda_s} \cdot P - 2 \cdot \pi \cdot n}\cdot e^{\frac{-4\cdot \pi \cdot n}{P} \cdot s_1} - e^{ \frac{-4\cdot \pi \cdot n}{P} \cdot (s_1 + s_2)}}{e^{ \frac{-4\cdot \pi \cdot n}{P} \cdot (s_1+ s_2)} - \frac{\frac{h_1}{\lambda_s} \cdot P + 2 \cdot \pi \cdot n}{\frac{h_1}{\lambda_s} \cdot P - 2 \cdot \pi \cdot n}\cdot\frac{\frac{h_2}{\lambda_s} \cdot P + 2 \cdot \pi \cdot n}{\frac{h_2}{\lambda_s} \cdot P - 2 \cdot \pi \cdot n}}
+\]</span></p>
+<p>Dorer, Koschenz and Lehmann demonstrated that, in the case of conductive materials (such as concrete), under conditions:</p>
+<p><span class="mathjax-block">\[
+\begin{cases}  
+\frac{s_1}{P} &gt; 0.3 \\  
+\frac{s_2}{P} &gt; 0.3 \\  
+\frac{d_p}{P} &lt; 0.2  
+\end{cases}
+\]</span></p>
+<p>The formula by Glück can be simplified with low effect on accuracy and the following equation is obtained:</p>
+<p><span class="mathjax-block">\[
+R_x = \frac{P \cdot \ln \left( \frac{P}{\pi \cdot d_p} \right)}{2 \cdot \pi \cdot \lambda_s}
+\]</span></p>
+<p>Unfortunately, such a method was derived assuming the condition of steady state thermal conditions. Following research (De Carli, Koschenz, Olesen and Scarpa[6]) was performed in order to check the accuracy of such a model even in the description of unsteady state thermal behavior of thermally activated building systems. The research showed that such a model can be extended to unsteady state conditions with negligible loss in accuracy. In fact, the time constant of the material region around the pipes is low, so that unsteady state behavior takes a short time and the steady state solution may be acquired as a good approximation, especially if the whole running period is considered.</p>
+<h3 id="contribution-current-research"><strong>2.2. The contribution of the current research</strong></h3>
+
+<h4 id="method"><strong>2.2.1. Method</strong></h4>  
+Even the further development of the "Resistance Method" was still bound to the limitations imposed by the analytical solution by Glück (i.e. the presence of homogeneous material around the pipe) and the ones assumed in order to simplify Glück's solution into
+
+<span class="mathjax-block">\[
+R_x = \frac{P \cdot \ln \left( \frac{P}{\pi \cdot d_p} \right)}{2 \cdot \pi \cdot \lambda_s}
+\]</span>
+
+Such limitations were defined in order to obtain an easy-to-use formula, but, basing on these limitations, the model can be used only for the description of thermally activated building systems, with pipes deeply embedded in a thick concrete layer. Even limitations in pipe spacing and water mass flow rate are present. But the aim of the current research is to describe the thermal behavior of any kind of radiant heating/cooling system. However, the main concept was really appreciable, so the first part of the current research was dedicated to test the possibility to extend such a model to more complex conditions.
+
+For that purpose, the thermal behaviors of various kinds of slabs were examined via a 2D calculation tool and via a 1D model connected to the water temperature via a proper thermal resistance, under unsteady state conditions.
+
+The radiant systems called "Type A", "Type E", "Type X1" and "Type G" were considered:
+
+<figure id="center_img">
+<img src="assets/fh_fig4.gif" alt="Type A"></img>
+<figcaption>Type A</figcaption>
+</figure>
+<br></br>
+<figure id="center_img">
+<img src="assets/fh_fig5.gif" alt="Type E"></img>
+<figcaption>Type E</figcaption>
+</figure>
+<br></br>
+<figure id="center_img">
+<img src="assets/fh_fig6.gif" alt="Type X1"></img>
+<figcaption>Type X1</figcaption>
+</figure>
+<br></br>
+<figure id="center_img">
+<img src="assets/fh_fig7.gif" alt="Type G"></img>
+<figcaption>Type G</figcaption>
+</figure>
+
+The simulations were aimed at the study of the thermal behavior of the entire deck, from the floor and ceiling surfaces to the external surface of the pipe, thus neglecting the rest of the pipe. In fact, the rest of the pipe can be modeled as a mere thermal resistance, since its "memory effect" due to thermal inertia is assumed to be negligible.
+As a general rule, in all types, the air cavities were not considered as conductive regions, thus their edges were considered adiabatic.
+In the following figure the analyzed geometries are shown. They have been analyzed via fine and coarse meshes.
+
+<h4 id="1-type-a-"> 1. Type A </h4>
+<figure id="center_img">
+<img src="assets/fh_fig8.gif" alt="1.1 Real geometry and fine mesh"></img>
+<figcaption>1.1 Real geometry and fine mesh</figcaption>
+</figure>
+<br></br>
+Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br></br>Material 2: s=0.10, λ=1.600, ρ=2300, c<sub>p</sub>=900<br></br>Material 3: s=0.25, λ=0.039, ρ=50, c<sub>p</sub>=850<br></br>Pipe: d<sub>e</sub>=0.02 m<br></br>Pipe spacing: P = 0.3 m 
+<figure id="center_img">
+<img src="assets/fh_fig9.gif" alt="1.2 Simplified geometry and rough mesh"></img>
+<figcaption>1.2 Simplified geometry and rough mesh</figcaption>
+</figure>
+
+<h4 id="2-type-e-"> 2. Type E </h4>
+<figure id="center_img">
+<img src="assets/fh_fig10.gif" alt="2.1 Real geometry and fine mesh"></img>
+<figcaption>2.1 Real geometry and fine mesh</figcaption>
+</figure>
+<br></br>
+Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br></br>Material 2: s=0.07, λ=1.200, ρ=2000, c<sub>p</sub>=900<br></br>Material 3: s=0.03, λ=0.040, ρ=100, c<sub>p</sub>=850<br></br>Material 4: s=0.20, λ=1.600, ρ=2300, c<sub>p</sub>=900<br></br>Pipe: d<sub>e</sub>=0.02 m<br></br>Pipe spacing: P = 0.3 m
+
+<figure id="center_img">
+<img src="assets/fh_fig11.gif" alt="2.2 Simplified geometry and rough mesh"></img>
+<figcaption>2.2 Simplified geometry and rough mesh</figcaption>
+</figure>
+<h4 id="3-type-x1-"> 3. Type X1 </h4>
+<figure id="center_img">
+<img src="assets/fh_fig12.gif" alt="3.1 Real geometry and fine mesh"></img>
+<figcaption>3.1 Real geometry and fine mesh</figcaption>
+</figure>
+<br></br>
+Material 1: s=0.06, λ=0.200, ρ=300, c<sub>p</sub>=2500<br></br>Material 2: s=0.05, λ=0.040, ρ=100, c<sub>p</sub>=850<br></br>Material 3: s=0.30, λ=1.600, ρ=2300, c<sub>p</sub>=900<br></br>Pipe: d<sub>e</sub>=0.02 m<br></br>Pipe spacing: P = 0.3 m
+<figure id="center_img">
+<img src="assets/fh_fig13.gif" alt="3.2 Simplified geometry and rough mesh"></img>
+<figcaption>3.2 Simplified geometry and rough mesh</figcaption>
+</figure>
+
+<h4 id="4-type-g-"> 4. Type G </h4>
+<figure id="center_img">
+<img src="assets/fh_fig14.gif" alt="4.1 Real geometry and fine mesh"></img>
+<figcaption>4.1 Real geometry and fine mesh</figcaption>
+</figure>
+<br></br>
+Material 1: s=0.02, λ=0.170, ρ=600, c<sub>p</sub>=2500<br></br>Material 2: s=0.04, λ=0.200, ρ=300, c<sub>p</sub>=2500<br></br>Material 3: s=0.10, λ=0.039, ρ=50, c<sub>p</sub>=850<br></br>Material 4: s=0.12, λ=1.600, ρ=2300, c<sub>p</sub>=900<br></br>Plate: s=0.0005, λ=200, ρ=2700, c<sub>p</sub>=900<br></br>Pipe: d<sub>e</sub>=0.02 m<br></br>Pipe spacing: P = 0.3 m
+
+<figure id="center_img">
+<img src="assets/fh_fig15.gif" alt="4.2 Simplified geometry and rough mesh"></img>
+<figcaption>4.2 Simplified geometry and rough mesh</figcaption>
+</figure>
+
+
+
+
+The 2D calculations and the 1D model have been contrasted by comparing the corresponding thermal behaviors along a period with imposed temperatures at the surfaces of the floor, ceiling and pipe. In Figure 5, an example of temperature profiles used in the comparison is shown:
+
+<figure id="center_img">
+<img src="assets/fh_fig16.gif" alt="Figure 5 - Boundary conditions."></img>
+<figcaption>Figure 5 - Boundary conditions.</figcaption>
+</figure>
+
+The first part of the simulation period shows the difference in the thermal dynamic behavior. Such a comparison is performed in terms of heat flows (through the floor, ceiling and pipe surfaces), temperatures (mean temperature at the pipe level, that is along the pipe spacing, but the diameter of the pipe), and perceived thermal resistance (between the temperature at the external side of the pipe and the mean temperature at the pipe level).
+
+In the end of each simulation, constant boundary conditions were imposed, in order to reach the steady state behavior.
+
+In order to summarize the 2D thermal domain by means of a 1D model, the thermal resistance derived from the 2D simulation (acquired under steady state conditions) was used as a constant thermal resistance in the 1D model, placed at the pipe level and acting during the all simulation period. Thus, the same boundary conditions as in 2D simulations are imposed and the heat flows and temperatures of the 1D model are compared with the 2D ones. If they approach each other, then the 2D model can be substituted by a 1D model where the thermal resistance acting between the pipe level and the external surface of the pipe is derived from a 2D model running under steady state conditions.
+
+After materials, geometries and boundary conditions were inputted, the 2D program starts the simulation. The focus in the analysis of results was on the mean temperature at the pipe level, the perceived thermal resistance between the external surface of the pipe and the pipe level, and the heat flows passing through the floor, the ceiling and the pipe. These results were used in the comparisons and in the calculation of the thermal resistance to be applied in the 1D model as well. In fact, the thermal resistance perceived by the deck between the external surface of the pipe and the pipe level can be expressed by the following equation:
+
+<span class="mathjax-block">\[
+R_{1D} = \frac{\theta_{PipeLevel} - \theta_{Pipe}}{P \cdot \dot Q_{Pipe}}
+\]</span>
+
+Obviously, such a value varies during the simulation period, since it is derived from time-dependent variables. Anyway, for us, the reference value will be the one acquired under steady state conditions, assuming it is a good approximation for the description of the thermal behavior of the zone embedding the pipes in unsteady state conditions as well. Such a hypothesis can be justified also looking at the diagrams in APPENDIX A showing the variation of the thermal resistance during the simulation period. In fact, such value varies, but remains close to the one acquired under steady state conditions.
+
+In the end, an obvious remark: in the case of "Type G", the pipe level is placed in the position corresponding to the plate, since it is the horizontal plane that is connected to the pipe by means of the smallest thermal resistance.
+
+The 1D model used for the simulations is based on finite control volumes. It has the same boundary conditions as the previously examined 2D model. The only difference regards the imposition of the temperature on the external side of the pipe. In fact, in the 1D model it is not possible to distinguish the external side of the pipe from the rest of the deck. Thus, it is substituted by a thermal resistance that is derived from the 2D calculations, as explained a few lines above.
+
+In the end, heat flows and temperatures are calculated via the 1D model and compared with the results obtained by means of the 2D simulation code.
+
+
+
+<h2 id="epsilon-ntu-method"><strong>3. THE e-NTU METHOD FOR THE DESCRIPTION OF THE VARIATION OF THE WATER TEMPERATURE ALONG THE CIRCUIT</strong></h2>
+
+The Efficiency-NTU (Number of Transfer Units) method has been used for the description of the heat exchange between the water supply temperature and the average temperature at the pipe level. At this point, the module developed for BSim is deviating from the "Resistance Method". In fact, the "Resistance Method" uses the thermal resistance R<sub>z</sub> in order to describe the variation of the water temperature along the circuit.
+
+In the model developed for this calculation module, the e-NTU method was applied by considering the pipe level at constant temperature along the circuit. That is a consistent with BSim approach, since BSim considers constant temperatures for the whole surface.
+
+<h3 id="grounds-epsilon-ntu"><strong>3.1. Grounds of the e-NTU method</strong></h3>
+
+For the following treatment, we may refer to the following figure.
+
+<figure id="center_img">
+<img src="assets/fh_fig17.gif" alt="Figure 6 - Temperature variations in fluids in parallel and counter flow ideal heat exchangers."></img>
+<figcaption>Figure 6 - Temperature variations in fluids in parallel and counter flow ideal heat exchangers.</figcaption>
+</figure>
+
+The ε-NTU method is mainly based on two definitions:
+<br></br>
+*   Efficiency
+
+<span class="mathjax-block">\[
+\varepsilon = \frac{\text{Actual heat transfer}}{\text{Theoretical max heat transfer}} = \frac{\dot Q}{\dot Q_{max}}
+\]</span>
+
+*   Number of Transfer Units:
+
+<span class="mathjax-block">\[
+\text{NTU} = \frac{U \cdot A}{(\dot m \cdot c_p)_{min}}
+\]</span>
+
+Where \(&nbsp;(\dot m \cdot c_p)_{min} \) is the minimum thermal capacity between the two flows.
+
+In other words, it refers to the flow that is expected to sustain the maximum variation in temperature, since:
+
+<span class="mathjax-block">\[
+\dot Q =&nbsp;(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out}) =&nbsp;(\dot m \cdot c_p)_{C}&nbsp;\cdot (\theta_{C,Out} - \theta_{C,In})
+\]</span>
+
+where the previous subscripts have the following meanings:   
+   H = Hot fluid   
+   C = Cold fluid   
+   In = Supply side   
+   Out = Return side
+
+From the previous distinction between the two fluids, we may even derive the value 
+
+\( R = \frac{(\dot m \cdot c_p)_{Min}}{(\dot m \cdot c_p)_{Max}} \) that may be equal to \(&nbsp;R = \frac{(\dot m \cdot c_p)_{H}}{(\dot m \cdot c_p)_{C}} \) or \(&nbsp;R = \frac{(\dot m \cdot c_p)_{C}}{(\dot m \cdot c_p)_{H}} \) , depending on the thermal capacities of the 2 flows.
+
+The temperatures of the fluids vary along the heat exchanger, so even the temperature difference between the fluids varies along the heat exchanger. In order to have a temperature difference that makes it possible to sum up the temperature differences along the whole length of the exchanger, the logarithmic mean temperature difference is defined (LMTD):
+
+<span class="mathjax-block">\[
+\text{LMTD} = \frac{\Delta \theta_2 - \Delta \theta_1}{\ln \left(\frac{\Delta \theta_2}{\Delta \theta_1}\right)}
+\]</span>
+
+so that
+
+<span class="mathjax-block">\[
+\dot{Q} = (\dot{m} \cdot c_p)_{H} \cdot (\theta_{H,\text{In}} - \theta_{H,\text{Out}}) = (\dot{m} \cdot c_p)_{C} \cdot (\theta_{C,\text{Out}} - \theta_{C,\text{In}}) = U \cdot A \cdot \text{LMTD}
+\]</span>
+
+At this point, it is necessary to split the treatment in (at least) two parts. In fact, depending on the kind of relative fluid flows (pure counter flow, pure parallel flow, pure cross flow, and consequent combinations), LMTD, Q and Q<sub>max</sub> must be expressed in different ways. For our purposes, the treatment is limited to the cases of counter flow and parallel flow:
+
+<h3 id="fluids-in-pure-counter-flow-"> Fluids in pure counter flow </h3>
+
+Definition of maximum heat flow deliverable between the fluids: 
+
+<br></br>
+
+\( \dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In}) \)
+
+<br></br>
+
+As a consequence,
+
+<br></br>
+
+\(&nbsp;\varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} =&nbsp;\frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} \)
+
+<br></br>
+
+Moreover,
+
+<br></br>
+
+\(&nbsp;\text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,In}) -&nbsp;(\theta_{H,In} - \theta_{C,Out})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,In})}{(\theta_{H,In} - \theta_{C,Out})} \right)}  \)
+
+<br></br>
+
+As a consequence,
+
+<br></br>
+
+\(&nbsp;\varepsilon = \frac{1 - e^{[-NTU (1 - R)]}}{1 - R \cdot e^{[-NTU (1 - R)]}}&nbsp;\)
+
+
+
+
+<h3 id="fluids-in-pure-parallel-flow-"> Fluids in pure parallel flow </h3>
+
+Definition of maximum heat flow deliverable between the fluids:
+
+<br></br>
+
+\(&nbsp;\dot Q_{Max} = (\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,Out}) \)
+
+<br></br>
+
+As a consequence,
+
+<br></br>
+
+\(&nbsp;\varepsilon = \frac{(\dot m \cdot c_p)_{H} \cdot (\theta_{H,In} - \theta_{H,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} =&nbsp;\frac{(\dot m \cdot c_p)_{C} \cdot (\theta_{C,In} - \theta_{C,Out})}{(\dot m \cdot c_p)_{Min} \cdot (\theta_{H,In} - \theta_{C,In})} \)
+
+<br></br>
+
+Moreover,
+
+<br></br>
+
+\(&nbsp;\text{LMTD} = \frac{(\theta_{H,Out} - \theta_{C,Out}) -&nbsp;(\theta_{H,In} - \theta_{C,In})}{\ln \left( \frac{(\theta_{H,Out} - \theta_{C,Out})}{(\theta_{H,In} - \theta_{C,In})} \right)}&nbsp;\)
+
+<br></br>
+
+As a consequence,
+
+<br></br>
+
+\(&nbsp;\varepsilon = \frac{1 - e^{[-NTU (1 + R)]}}{1 + R}&nbsp;\)
+
+
+
+<h3 id="epsilon-ntu-developed-model"><strong>3.2. The e-NTU method in the developed model</strong></h3>
+
+At this point, the two argumentations are joined together. In the present case, in fact, by assuming the pipe level has a uniform temperature,
+
+<span class="mathjax-block">\[
+(\dot m \cdot c_p)_{Max} \rightarrow \infty \Rightarrow R \rightarrow 0 \Rightarrow \varepsilon \equiv 1 - e^{-NTU} = 1 - e ^{- \frac{U \cdot A}{(\dot m \cdot c_p)_{Min}}}
+\]</span>
+
+Then, for radiant heating/cooling systems, the efficiency assumes the following shape:
+
+<span class="mathjax-block">\[
+\varepsilon \equiv 1- e^{ - \frac{A_{Floor}}{(R_w + R_r + R_x) \cdot (\dot m \cdot c_p)_{Water}}}
+\]</span>
+
+It makes it possible to calculate the heat flow from/to the water to/from the pipe level of the slab, in an easy way. In fact, it is given by:
+
+<span class="mathjax-block">\[
+\dot Q = \varepsilon \cdot (\dot m \cdot c_p)_{Water} \cdot (\theta_{Water, in} - \theta_{PipeLevel})
+\]</span>
+
+
+
+<h3 id="thermal-resistances"><strong>3.3. The calculation of thermal resistances R<sub>w</sub>, R<sub>p</sub> and R<sub>x</sub></strong></h3>
+
+<h4 id="thermal-resistance-rw"><strong>3.3.1. The calculation of thermal resistance R<sub>w</sub></strong></h4>
+
+<p>Heat transfer coefficient corresponding to the convection heat transfer, referred to 1 m² of internal surface of the pipe:</p>
+<p><span class="mathjax-block">\[
+h_{WaterConv} = \frac{2040. \cdot \left( 1. + 0.015 \cdot \theta_{Water} \right) \cdot v_{Water}^{0.87}}{d_{PipeInt}^{0.13}}
+\]</span></p>
+<p>Then, considering that</p>
+<p><span class="mathjax-block">\[
+\frac{1m_{PipeSurface}^2}{1m_{FloorSurface}^2} = \frac{\pi \cdot d_{PipeInt}}{T_{Pipe}}
+\]</span></p>
+<p>the value of R<sub>w</sub> can be calculated, referring to 1m² of floor:</p>
+<p><span class="mathjax-block">\[
+h_{WaterConv, Floor} = h_{WaterConv} \cdot&nbsp;\frac{\pi \cdot d_{PipeInt}}{T_{Pipe}} =&nbsp; \frac{2040. \cdot \left( 1. + 0.015 \cdot \theta_{Water} \right) \cdot v_{Water}^{0.87}}{d_{PipeInt}^{0.13}} \cdot&nbsp; \frac{\pi \cdot d_{PipeInt}}{T_{Pipe}} \Rightarrow
+\]</span></p>
+<p><span class="mathjax-block">\[
+\Rightarrow R_W = \frac{d_{PipeInt}^{0.13}}{2040. \cdot \left( 1. + 0.015 \cdot \theta_{Water} \right) \cdot v_{Water}^{0.87}} \cdot \frac{T_{Pipe}}{\pi \cdot d_{PipeInt}}
+\]</span></p>
+<h4 id="thermal-resistance-rp"><strong>3.3.2. The calculation of thermal resistance R<sub>p</sub></strong></h4>
+Heat transfer coefficient corresponding to the conduction heat transfer through the pipe wall, referred to 1 m² of internal surface of the pipe:
+
+<span class="mathjax-block">\[
+h_{PipeWall} = \frac{2 \cdot \lambda_{PipeWall}}{d_{PipeInt} \cdot \ln \left( \frac{d_{PipeExt}}{d_{PipeInt}} \right)}
+\]</span>
+
+Then, the value of R<sub>p</sub> can be calculated, referring to 1 m² of floor:
+
+<span class="mathjax-block">\[
+R_{PipeWall, Floor} = \frac{T_{Pipe}}{\pi} \cdot \frac{\ln \left( \frac{d_{PipeExt}}{d_{PipeInd}} \right)}{2 \cdot \lambda_{PipeWall}}
+\]</span>
+
+<h4 id="thermal-resistance-rx"><strong>3.3.3. The calculation of thermal resistance R<sub>x</sub></strong></h4>
+
+<p>Thermal resistance R<sub>x</sub> corresponding to the fictitious conduction heat transfer:</p>
+<p><span class="mathjax-block">\[
+R_{Pipe \rightarrow PipeLevel, Floor} = \frac{\frac{T}{2} \cdot \left( \theta_{Pipe} - \theta_{PipeLevel} \right)}{Q_{Pipe}}
+\]</span></p>
+<h3 id="calculation-u"><strong>3.4. The calculation U</strong></h3>
+
+<p>The previous resistances allow us to calculate heat transfer coefficient U needed by ε-NTU method:</p>
+<p><span class="mathjax-block">\[
+U = \frac{1}{R_{Pipe \rightarrow PipeLevel, Floor} + R_{PipeWall, Floor} + R_{WaterConv, Floor}}
+\]</span></p>
+<p>That is the connection between the water and the average (and uniform) temperature of the slab at the pipe level and is considered to be constant along the water flow.</p>
+<p>Finally, the heat flowing from/to the water to/from the pipe level along the whole circuit may be calculated through the following equation:</p>
+<p><span class="mathjax-block">\[
+\dot Q = \varepsilon \cdot (\dot m \cdot c_p)_{Water} \cdot \left( \theta_{Water, In} - \theta_{PipeLevel} \right)
+\]</span></p>
+<h2 id="global-view"><strong>4. GLOBAL VIEW OF THE WHOLE MODULE</strong></h2>
+
+<p>To sum up, the calculation process performed by the present module acts as follows:</p>
+<ul>
+<li><p>The module receives by BSim the values of geometrical and material data. In a few words, the values stored in the window dialog of Figure 7 are acquired and processed.</p>
+</li>
+<li><p>The 2D shape given through the above-mentioned data is collected and temperatures are imposed on the surfaces of the pipe, floor and ceiling.</p>
+</li>
+<li><p>The heat flows due to the imposed boundary conditions are calculated, through the 2D simulation engine.</p>
+</li>
+<li><p>The fictitious thermal resistance Rx describing the conduction heat transfer between the pipe and the pipe level is calculated.</p>
+</li>
+<li><p>The thermal resistance due to conduction heat transfer through the pipe wall R<sub>p</sub> is calculated and added to the previously calculated Rx. A new instance of the 2D engine is called. Now it is used in order to prepare the thermal domain to be used at each time step of the simulation.</p>
+</li>
+<li><p>At each time step, the module receives inputs regarding heat loads and control strategy and parameters from BSim.</p>
+</li>
+<li><p>The water flow and temperature are defined by the module and fed as boundary conditions to the 2D engine, together with the heat flows acting on the floor and on the ceiling.</p>
+</li>
+<li><p>The 2D engine calculates the temperatures and heat flows through the slab. It gives back to BSim the main results of the calculation, in particular the temperature and flow rate of the water, together with the specific heat flow transferred from the pipe to the pipe level.</p>
+</li>
+<li><p>The action goes back to BSim and the 2D engine prepares to a new time step.</p>
+</li>
+</ul>
+<figure id="center_img">
+<img src="assets/floorHeat_waterSys.jpg" alt="Figure 7 - Input data for geometry and materials."></img>
+<figcaption>Figure 7 - Input data for geometry and materials.</figcaption>
+</figure>
+
+<p>In APPENDIX A, the results obtained from the simulations are compared. In these diagrams, the results pertaining to the real geometry with a fine mesh are shown by dotted lines, whereas the ones referring to the simplified geometry with rough mesh are characterized by continuous lines. In the end, the results given by the 1D model are distinguished by means of "X" markers.</p>
+<p>It is easy to see that the three cases are really close each-other. In particular, the accuracy in heat flow prediction is always perfect, even in the most particular cases ("Type X1" and "Type G"). Instead, the mean temperature at the pipe level can go further from the fine mesh results, but it still remains within accuracy ranges to be considered absolutely acceptable ("Type X1" and "Type G").</p>
+<p>The accuracy of the 1D -&gt; 2D simplification was checked varying both the temperature at the external surface of the pipe and the ones of floor and ceiling. This is a critic situation, since the application of a variable temperature profile on the pipe makes the effects in the pipe level are stronger than varying only the floor and ceiling temperatures. In fact, if only floor and ceiling temperatures are varied, the effects at the pipe level are softened by the thermal inertia and resistance of the whole deck, whereas in this case the influence of the temperature variation is acted really close to the pipe level.</p>
+<p>In the end, as regards the calculation time, it must be considered that, in order to calculate the thermal resistance to be applied in the 1D model, the 2D model must be executed only once (with a length of the time step equal to some millions of seconds, for instance, thus the terms depending on time are reduced to zero and the steady-state behavior can be predicted at once). From the diagrams, it is also clear that the 2D simulations (now used only for calculating the thermal resistance to be imposed at the pipe level of the 1D model) can be performed using the simplified geometry with coarse mesh. In a few words, the time needed for the calculation pre-processing (necessary in order to define the 1D thermal resistance) will be really short (maximum one or two seconds).</p>
+<h2 id="bibliography"><strong>5. BIBLIOGRAPHY</strong></h2>
+
+<ol>
+<li><p>B. Glück. 1982. Strahlungsheizung - Theorie und Praxis. Verlag C.F. Müller. Karlsruhe.</p>
+</li>
+<li><p>B. Glück. 1989. Wärmeübertragung, Wärmeabgabe von Raumheizflächen und Rohren. VEB Verlag für Bauwesen.  Berlin.</p>
+</li>
+<li><p>M. Koschenz and B. Lehmann. 2000. Thermoaktive Bauteilsysteme. EMPA. Dübendorf.</p>
+</li>
+<li><p>B. Lehmann, V. Dorer and M. Koschenz. 2007. Application range of thermally activated building systems tabs. Energy and Buildings, Volume 39, Issue 5, May 2007, Pages 593-598.</p>
+</li>
+<li><p>M. Koschenz and V Dorer. Interaction of an air system with concrete core conditioning. Energy and Buildings, Volume 30, Issue 2, June 1999, Pages 139-145.</p>
+</li>
+<li><p>M. De Carli, M. Koschenz, B. W. Olesen, M. Scarpa. Dynamic evaluation of the cooling capacity of Thermo-Active Building Systems. ASHRAE 2006. Chicago.</p>
+</li>
+</ol>
+<h2 id="appendix-a"><strong>6. APPENDIX A</strong></h2>
+
+<h4 id="type-a"><strong>TYPE A</strong></h4>
+<figure id="center_img">
+<img src="assets/fh_fig16a.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+<figure id="center_img">
+<img src="assets/fh_fig16.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+<h4 id="type-e"><strong>TYPE E</strong></h4>
+<figure id="center_img">
+<img src="assets/fh_fig17.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+<figure id="center_img">
+<img src="assets/fh_fig18.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+<h4 id="type-x1"><strong>TYPE X1</strong></h4>
+<figure id="center_img">
+<img src="assets/fh_fig19.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+<figure id="center_img">
+<img src="assets/fh_fig20.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+
+<p><strong>TYPE G</strong></p>
+<figure id="center_img">
+<img src="assets/fh_fig21.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+<figure id="center_img">
+<img src="assets/fh_fig22.gif" alt=""></img>
+<figcaption></figcaption>
+</figure>
+
+
+<p>It is important to note that the sudden variation of R in 2D simulations is caused by the sudden inversion of heat flow direction. Even with so high variations in R, the simulations performed by means of the 1D model show a great accuracy as well.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Heat_transmission_in_constructions.html" class="navigation navigation-prev " aria-label="Previous page: Varmetransport i konstruktionerne">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Literature.html" class="navigation navigation-next " aria-label="Next page: Litteratur">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Gulvvarme, matematisk grundlag","level":"16.27","depth":1,"next":{"title":"Litteratur","level":"16.28","depth":1,"path":"The_Mathematical_Basis/Literature.md","ref":"The_Mathematical_Basis/Literature.md","articles":[]},"previous":{"title":"Varmetransport i konstruktionerne","level":"16.26","depth":1,"path":"The_Mathematical_Basis/Heat_transmission_in_constructions.md","ref":"The_Mathematical_Basis/Heat_transmission_in_constructions.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","remove-honkit-footer","language-picker","mathjax-fix","head-append","category-accordion","page-toc"],"styles":{"website":"styles.css"},"pluginsConfig":{"mathjax-fix":{},"language-picker":{"grid-columns":3},"head-append":{"code":["<SCRIPTTAG>window.MathJax = { tex: { inlineMath: [['\\\\(','\\\\)'],['$','$']], displayMath: [['\\\\[','\\\\]'],['$$','$$']], packages: {'[+]': ['ams','textmacros']}, processEscapes: true }, options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] } };</SCRIPTTAG>","<SCRIPTTAG>(function(){var l=document.querySelector('link[rel=\"stylesheet\"][href$=\"gitbook/style.css\"]');var base=l?l.getAttribute('href').replace(/gitbook\\/style\\.css$/,''):'./';var root=new URL(base||'./',document.baseURI).toString();var s=document.createElement('script');s.id='MathJax-script';s.async=false;s.src=root+'mathjax/es5/tex-chtml-full.js';document.head.appendChild(s);})();</SCRIPTTAG>","<SCRIPTTAG>(function(){function cleanNBSP(root){var t=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null,false);var n;while((n=t.nextNode())){if(n.nodeValue.indexOf('\\u00A0')!==-1){n.nodeValue=n.nodeValue.replace(/\\u00A0/g,' ');}}}function ts(){if(window.MathJax&&window.MathJax.typesetPromise){cleanNBSP(document.body);return window.MathJax.typesetPromise();}}function bind(){if(window.gitbook&&gitbook.events){gitbook.events.bind('page.change',ts);}document.addEventListener('DOMContentLoaded',ts);}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',bind);}else{bind();}})();</SCRIPTTAG>","<SCRIPTTAG>document.addEventListener('DOMContentLoaded',function(){var l=document.createElement('link');l.rel='stylesheet';l.href=new URL('styles.css', document.baseURI).toString();document.head.appendChild(l);});</SCRIPTTAG>"]},"search-pro":{},"page-toc":{},"remove-honkit-footer":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"category-accordion":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"da","gitbook":"*"},"file":{"path":"The_Mathematical_Basis/Floor_heating_mathematical_basis.md","mtime":"2026-09-01T11:47:45.719Z","type":"markdown"},"gitbook":{"version":"6.0.3","time":"2026-09-03T10:00:25.316Z"},"basePath":"..","book":{"language":"da"}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-remove-honkit-footer/website.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-category-accordion/website.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc/website.js"></script>
+        
+    
+        
+        <script src="../../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

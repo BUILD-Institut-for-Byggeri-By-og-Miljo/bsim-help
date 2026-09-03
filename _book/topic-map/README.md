@@ -22,7 +22,7 @@ UTF-8, LF line endings, one entry per line:
   of the key when `F1Help.h` defines one:
 
   ```
-  Systems\natural_ventilation.htm#Opening=11Systems/11_11_Natural_ventilation.html
+  Systems\natural_ventilation.htm#Opening=Systems/Natural_ventilation.html
   ```
 
   `F1Help.h` writes these as C string literals with doubled backslashes
@@ -31,9 +31,15 @@ UTF-8, LF line endings, one entry per line:
   `F1Help.h` mixes `Systems\…` and `systems\…`.
 
 * **`<slug>`** — page path relative to the language root, *without* the
-  language prefix, e.g. `24Miscellaneous/24_25_Site_Property.html`. The viewer
+  language prefix, e.g. `Miscellaneous/Site_Property.html`. The viewer
   prepends `da/` or `en/` according to the user's language. The `.md` sources
   become `.html` in the built book.
+
+  **The slugs are the *clean* ones** — without the chapter/page numbers. The
+  markdown sources keep their numbers for ordering
+  (`da/24Miscellaneous/24_25_Site_Property.md`), but `copy-static.js` strips
+  them from `_book/` at build time and the viewer resolves topics against the
+  built book. See “Rene URL'er i den byggede bog” in the repo README.
 
 * **`#anchor`** — only present when the old fragment maps onto a real anchor of
   the target page. Otherwise the page opens at the top. (Currently no entry
@@ -50,7 +56,7 @@ UTF-8, LF line endings, one entry per line:
 
   ```
   # IDH_SITE_PROP  HIGH (score 6.79, runner-up 2.98)  -> Site Property
-  simview\site_property.htm=24Miscellaneous/24_25_Site_Property.html
+  simview\site_property.htm=Miscellaneous/Site_Property.html
   ```
 
   Confidence markers:

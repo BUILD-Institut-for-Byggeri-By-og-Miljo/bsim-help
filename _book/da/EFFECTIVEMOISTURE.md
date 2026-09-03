@@ -265,11 +265,11 @@ The expanding grid generation should only be carried out for layers that are adj
 # SimDB - BuildingMaterial, Frame
 <div id="da">
 
-Dette faneblad indeholder alene en U-værdi og fremkommer kun, når der er valgt materialer fra en af [SfB-materialegrupperne](/24Miscellaneous/24_08_SfB_building_classification.html) "b" eller "c". Værdien benyttes, hvis materialet indgår som en ramme-/karmkonstruktion (*frame*) eller en fyldning (*panel*) i en WinDoor.
+Dette faneblad indeholder alene en U-værdi og fremkommer kun, når der er valgt materialer fra en af [SfB-materialegrupperne](/Miscellaneous/24_08_SfB_building_classification.html) "b" eller "c". Værdien benyttes, hvis materialet indgår som en ramme-/karmkonstruktion (*frame*) eller en fyldning (*panel*) i en WinDoor.
 
 ![U-værdien for en ramme-/karmkonstruktion (Edit Material | Frame) eller en fyldning. Benyttes, når materialet indgår som en del af en WinDoor.](https://s3.amazonaws.com/outseta-production/10526/0-DBFRAME_a43bfc67-676c-4230-8ebc-3751c64fa042.GIF)
 
-I henhold til [DS418, tillæg 1](/23Internet/23_01_Literature.html) kan følgende værdier benyttes for U-værdien af vinduesrammer.
+I henhold til [DS418, tillæg 1](/Internet/23_01_Literature.html) kan følgende værdier benyttes for U-værdien af vinduesrammer.
 
 For rammer og karme af træ eller beklædt træ anvendes transmissionskoefficienten angivet i nedenstående figur, medmindre der er bestemt en nøjagtigere værdi. Ved bestemmelse af tykkelsen af rammer og karme af træ ses der bort fra eventuelle inddækninger af metal eller plast. ved forskellig tykkelse af fx ramme og karm anvendes middelværdien. Ved koblede rammer anvendes den samlede tykkelse af rammerne.
 
@@ -364,19 +364,19 @@ hvor *U<sub>u</sub>*  og *U<sub>i</sub>*  er transmissionskoefficienten for he
 
 Se også:
 
-*   [Faneblad Material](/07SimDB_Database/07_07_Building_material_material.html)
+*   [Faneblad Material](/SimDB_Database/07_07_Building_material_material.html)
 
-*   [Faneblad Moisture](/07SimDB_Database/07_06_Building_material_moisture.html)
+*   [Faneblad Moisture](/SimDB_Database/07_06_Building_material_moisture.html)
 
-*   [Faneblad Thermal](/07SimDB_Database/07_04_Building_material_thermal.html)
+*   [Faneblad Thermal](/SimDB_Database/07_04_Building_material_thermal.html)
 
-*   [Faneblad Environment](/07SimDB_Database/07_08_Building_material_environment.html)
+*   [Faneblad Environment](/SimDB_Database/07_08_Building_material_environment.html)
 
-*   [Faneblad Glazing](/07SimDB_Database/07_10_Building_material_glazing.html)
+*   [Faneblad Glazing](/SimDB_Database/07_10_Building_material_glazing.html)
 
-*   [Faneblad UserDefined](/07SimDB_Database/07_11_Building_material_user_defined.html)
+*   [Faneblad UserDefined](/SimDB_Database/07_11_Building_material_user_defined.html)
 
-*   [Faneblad Frame](/07SimDB_Database/07_12_Building_material_frame.html)
+*   [Faneblad Frame](/SimDB_Database/07_12_Building_material_frame.html)
 
  
 
@@ -390,11 +390,11 @@ Se også:
 
 <div id="en">
 
-This tab only contains a U-value and only appears when materials from [SfB](/24Miscellaneous/24_08_SfB_building_classification.html) material groups "b" or "c" have been selected. The value is used if the material forms part of a WinDoor as a frame construction or panel.
+This tab only contains a U-value and only appears when materials from [SfB](/Miscellaneous/24_08_SfB_building_classification.html) material groups "b" or "c" have been selected. The value is used if the material forms part of a WinDoor as a frame construction or panel.
 
 ![U-value for a frame construction or panel. Used when the material forms part of a WinDoor.](https://s3.amazonaws.com/outseta-production/10526/0-dbframe_b679b150-bc46-4d11-af92-15989150fe4b.gif)
 
-According to the Danish norm [DS418, amendment 1](/23Internet/23_01_Literature.html) the following values can be used as U-values for window frames.
+According to the Danish norm [DS418, amendment 1](/Internet/23_01_Literature.html) the following values can be used as U-values for window frames.
 
 For frames made of wood or covered wood the values can be obtained from the figure below, as a function of the type of wood and the thickness of the frame. This values can be used if a more accurate value is not known. By determining the thickness of frame made of wood, an eventual cover made of metal or plastic is neglected. If the frame have varying thickness, the average value can be used. Having coupled frames (two or more separate glazings) the total thickness of the frame can be used.
 
@@ -490,19 +490,19 @@ where *U<sub>u</sub>* and *U<sub>i</sub>* is the transmission coefficient for r
 
 See also:
 
-*   [Tab Material](/07SimDB_Database/07_07_Building_material_material.html)
+*   [Tab Material](/SimDB_Database/07_07_Building_material_material.html)
 
-*   [Tab Thermal](/07SimDB_Database/07_04_Building_material_thermal.html)
+*   [Tab Thermal](/SimDB_Database/07_04_Building_material_thermal.html)
 
-*   [Tab Moisture](/07SimDB_Database/07_06_Building_material_moisture.html)
+*   [Tab Moisture](/SimDB_Database/07_06_Building_material_moisture.html)
 
-*   [Tab Environment](/07SimDB_Database/07_08_Building_material_environment.html)
+*   [Tab Environment](/SimDB_Database/07_08_Building_material_environment.html)
 
-*   [Tab Glazing](/07SimDB_Database/07_10_Building_material_glazing.html)
+*   [Tab Glazing](/SimDB_Database/07_10_Building_material_glazing.html)
 
-*   [Tab UserDefined](/07SimDB_Database/07_11_Building_material_user_defined.html)
+*   [Tab UserDefined](/SimDB_Database/07_11_Building_material_user_defined.html)
 
-*   [Tab Frame](/07SimDB_Database/07_12_Building_material_frame.html)
+*   [Tab Frame](/SimDB_Database/07_12_Building_material_frame.html)
 
 </div>
 

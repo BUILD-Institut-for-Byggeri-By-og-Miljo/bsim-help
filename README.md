@@ -21,7 +21,7 @@ kapitelmapper. Den byggede bog i `_book/` er det, BSim-hjælpevieweren
 | `plugins/` | Vendored (indlejrede) HonKit-plugins — se nedenfor. |
 | `mathjax/` | Vendored MathJax 3 (es5) — se "Offline-krav". |
 | `topic-map/` | Oversættelsestabel fra den gamle CHM-hjælps emne-stier til sider i denne bog — se nedenfor. |
-| `copy-static.js` | Efterbygningstrin: kopierer `mathjax/` ind i `_book/` og fejler, hvis en bygget side stadig peger på et CDN. |
+| `copy-static.js` | Efterbygningstrin: kopierer `mathjax/` ind i `_book/`, fjerner kapitel-/sidenumrene fra det byggede output (se “Rene URL'er”) og fejler, hvis en bygget side stadig peger på et CDN. |
 | `_book/` | Byggeresultatet. **Er checket ind** i dette repo, fordi BSim-installeren tager det direkte herfra. |
 
 ---
@@ -53,6 +53,44 @@ Kør `npm run build` for at se den rigtige side.
 `_book/` betyder, at brugerne får gammel hjælpetekst — uden nogen fejlmeddelelse.
 Derfor: **kør `npm ci && npm run build` og commit det opdaterede `_book/`, hver gang
 hjælpeteksten skal med i en BSim-release.**
+
+---
+
+## Rene URL'er i den byggede bog
+
+**Kilderne er nummererede — det publicerede resultat er det ikke.**
+
+Kapitelmapper og sidefiler i `da/` og `en/` beholder deres numre, fordi det er dem,
+der giver rækkefølgen i GitHub og VS Code. `copy-static.js` fjerner numrene fra
+`_book/` efter hver bygning, så URL'erne på help.bsim.dk og i vieweren er rene:
+
+```
+kilde:   da/09SimView/09_09_SimView_Non_default_constructions.md
+bygget:  _book/da/SimView/SimView_Non_default_constructions.html
+```
+
+Reglen er:
+
+* en mappe **direkte** under `_book/da` eller `_book/en`, hvis navn begynder med
+  cifre, mister de cifre (`24Miscellaneous` → `Miscellaneous`);
+* en fil inde i sådan en mappe, hvis navn begynder med `NN_NN_`, mister det præfiks
+  (`24_25_Site_Property.html` → `Site_Property.html`);
+* alt andet røres ikke: `_book/gitbook/`, `_book/mathjax/`, `assets/`-mapperne og
+  filerne i sprogroden (`index.html`, `styles.css`, `search_plus_index.json`).
+
+Omdøbningen bygger en eksplicit tabel over gamle → nye navne fra filsystemet og
+retter derefter **alle** henvisninger i de byggede tekstfiler (HTML, søgeindekset
+`search_plus_index.json`, CSS/JS/XML/TXT/MD) ud fra den tabel — ikke med et generelt
+“fjern cifre”-regexp. Bygningen fejler, hvis to navne støder sammen efter
+afkortningen, eller hvis der bagefter stadig findes en henvisning til et gammelt navn.
+
+Konsekvenser, du skal huske:
+
+* **`topic-map/bsim-topic-map.txt` bruger de rene slugs** (`Miscellaneous/Site_Property.html`),
+  fordi vieweren slår op i den byggede bog.
+* Links **mellem** sider skrives i kilderne som hidtil, med numre
+  (`../09SimView/09_09_....md`) — de bliver rettet automatisk under bygningen.
+* Der laves **ingen** redirects fra de gamle, nummererede URL'er.
 
 ---
 
@@ -93,11 +131,12 @@ BSim beder om hjælp med en emne-sti fra den gamle CHM-hjælp (fx
 en side i denne bog, uden sprogpræfiks:
 
 ```
-simview\pwizard2.htm=24Miscellaneous/24_52_Projekt_Wizard_2.html
+simview\pwizard2.htm=Miscellaneous/Projekt_Wizard_2.html
 ```
 
-Vieweren sætter selv `da/` eller `en/` foran. **Derfor skal hver side have præcis samme
-filnavn i `da/` og `en/`, tegn for tegn, også med hensyn til store og små bogstaver** —
+Bemærk, at slug'en er den **rene** — uden kapitel-/sidenumre, se “Rene URL'er i den
+byggede bog” ovenfor. Vieweren sætter selv `da/` eller `en/` foran. **Derfor skal hver
+side have præcis samme filnavn i `da/` og `en/`, tegn for tegn, også med hensyn til store og små bogstaver** —
 ellers virker opslaget kun på det ene sprog (og går i stykker på et case-sensitivt
 filsystem). Se `topic-map/README.md` for formatet og for hvordan udkastet genereres.
 
@@ -106,5 +145,6 @@ Når du omdøber eller flytter en side:
 1. omdøb den i **både** `da/` og `en/` med samme stavemåde,
 2. ret linket i begge `SUMMARY.md`,
 3. ret alle interne links, der peger på siden (`grep -r "gammelt_filnavn" da/ en/`),
-4. ret stien i `topic-map/bsim-topic-map.txt`, hvis siden er nævnt der,
+4. ret stien i `topic-map/bsim-topic-map.txt`, hvis siden er nævnt der — husk, at
+   den bruger den **rene** slug uden numre,
 5. kør `npm run build`.
