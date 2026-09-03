@@ -146,16 +146,12 @@
   text-decoration: none;
 }
 
-/* chapters that are not inside a group (should not happen, but be safe) */
-.book-summary ul.summary > li.chapter > a {
-  display: block;
-  padding: 3px 8px;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #3b3f47;
-  white-space: normal;
-  overflow: visible;
-  overflow-wrap: anywhere;
+/* Chapters that are still direct children of ul.summary have not been
+   wrapped into a group yet (fresh page, or the split second after HonKit's
+   client-side swap).  Keep them invisible so the unprocessed list can never
+   flash; website.js moves every chapter into an .accordion-section. */
+.book-summary ul.summary > li.chapter {
+  display: none;
 }
 
 @media print {

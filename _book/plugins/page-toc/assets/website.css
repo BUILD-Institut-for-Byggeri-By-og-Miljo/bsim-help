@@ -60,6 +60,27 @@
   border-left-color: #2b5fc7;
 }
 
+/* ---- related topics ----------------------------------------------- */
+
+.page-toc h2.page-toc-related-title {
+  margin-top: 20px;
+}
+
+.page-toc ul.page-toc-related {
+  border-left: 0;
+}
+
+.page-toc ul.page-toc-related > li > a {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  color: #2b5fc7;
+}
+
+.page-toc ul.page-toc-related > li > a:hover {
+  text-decoration: underline;
+}
+
 /* ---- compact prev/next pagination -------------------------------- */
 
 .page-inner > .page-pagination {
@@ -175,6 +196,11 @@ body.with-search .page-inner > .page-pagination {
 }
 
 @media screen and (min-width: 1200px) {
+  /* the "Se også:" block now lives in the panel; hide the in-content copy */
+  .markdown-section .page-related-src {
+    display: none;
+  }
+
   /* keeps the gutter reserved on pages that have no headings */
   .book .book-body .body-inner .page-wrapper > .page-toc.page-toc-empty {
     visibility: hidden;

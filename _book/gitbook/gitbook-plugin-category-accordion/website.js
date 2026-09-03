@@ -17,6 +17,22 @@
 (function () {
   var STORE_PREFIX = 'bsim-sidebar:';
 
+  /* Last known scroll offset of .book-summary.  HonKit restores the offset
+     itself right after swapping the DOM, but at that moment the chapters are
+     still ungrouped (and hidden by our CSS guard), so the list is far too
+     short and the restore gets clamped to ~0.  We keep our own copy and
+     re-apply it once the groups are rebuilt; with the same groups open the
+     layout is identical, so the menu does not move. */
+  var lastSidebarScroll = null;
+
+  function trackSidebarScroll(pane) {
+    if (pane.dataset.scrollTracked) return;
+    pane.dataset.scrollTracked = '1';
+    pane.addEventListener('scroll', function () {
+      lastSidebarScroll = pane.scrollTop;
+    }, { passive: true });
+  }
+
   var CARET =
     '<svg class="accordion-caret" viewBox="0 0 24 24" width="16" height="16" ' +
     'aria-hidden="true" focusable="false" fill="none" stroke="currentColor" ' +
@@ -102,6 +118,15 @@
     });
 
     if (!activeLi) activeLi = summary.querySelector('li.chapter.active');
+
+    var pane = document.querySelector('.book-summary');
+    if (pane) {
+      if (!pane.dataset.scrollRestored) {
+        pane.dataset.scrollRestored = '1';
+        if (lastSidebarScroll !== null) pane.scrollTop = lastSidebarScroll;
+      }
+      trackSidebarScroll(pane);
+    }
     scrollActiveIntoView(activeLi);
   }
 
@@ -117,7 +142,30 @@
     pane.scrollTop = Math.max(0, offset);
   }
 
+  /* HonKit links to the book root as a directory ("..", "../"): the page
+     title in .book-header and the "Introduction" entry in the summary.  A
+     web server resolves that to index.html; the offline viewer's virtual
+     host serves files only and would show an empty error page.  Point such
+     links at index.html explicitly - harmless on the web, essential offline. */
+  function fixDirectoryLinks() {
+    var links = document.querySelectorAll('.book-summary a[href], .book-header a[href]');
+    Array.prototype.forEach.call(links, function (a) {
+      var href = a.getAttribute('href');
+      if (!href || /^(#|[a-z]+:)/i.test(href)) return;
+      var u;
+      try { u = new URL(href, document.baseURI); } catch (e) { return; }
+      if (u.origin !== window.location.origin) return;
+      if (u.pathname.charAt(u.pathname.length - 1) !== '/') return;
+      var fixedHref = href.replace(/\/?(?=(?:[?#]|$))/, '/index.html');
+      a.setAttribute('href', fixedHref);
+      if (a.parentNode && a.parentNode.dataset && a.parentNode.dataset.path === href) {
+        a.parentNode.dataset.path = fixedHref;
+      }
+    });
+  }
+
   function boot() {
+    fixDirectoryLinks();
     initAccordions();
   }
 
@@ -129,17 +177,55 @@
 
   if (window.gitbook && gitbook.events) {
     gitbook.events.bind('page.change', function () {
-      setTimeout(initAccordions, 0);
+      fixDirectoryLinks();
+      initAccordions();
     });
   }
 
-  /* HonKit swaps the whole .book element on client side navigation. */
+  /* HonKit swaps the whole .book element on client side navigation and
+     fires page.change later (asynchronously).  A MutationObserver callback
+     is a microtask: it runs right after the swap and BEFORE the browser
+     paints, so the raw, unprocessed sidebar is never shown.  Never defer
+     this with a timer - that caused a one-frame flash of the fully
+     expanded menu on every page change. */
   function watchBook() {
     var book = document.querySelector('.book');
     if (!book || !book.parentNode || !window.MutationObserver) return;
-    new MutationObserver(function () {
-      setTimeout(initAccordions, 0);
+    new MutationObserver(function (records) {
+      carryToolbar(records);
+      fixDirectoryLinks();
+      initAccordions();
     }).observe(book.parentNode, { childList: true });
+  }
+
+  /* The header toolbar (menu toggle, language picker, font settings) is not
+     part of the page HTML: HonKit creates the buttons with script and, on a
+     client-side page change, removes and re-creates them in its page.change
+     handler - which fires some time AFTER the DOM swap.  Until then the new
+     header is empty, so the icons visibly disappear and pop back in.  Move
+     the existing buttons from the outgoing page into the incoming header
+     before the first paint; HonKit's own re-creation then replaces them in
+     place without a visible gap. */
+  function carryToolbar(records) {
+    var oldBook = null;
+    var newBook = null;
+    Array.prototype.forEach.call(records || [], function (r) {
+      Array.prototype.forEach.call(r.removedNodes, function (n) {
+        if (n.nodeType === 1 && n.classList.contains('book')) oldBook = n;
+      });
+      Array.prototype.forEach.call(r.addedNodes, function (n) {
+        if (n.nodeType === 1 && n.classList.contains('book')) newBook = n;
+      });
+    });
+    if (!oldBook || !newBook) return;
+    var target = newBook.querySelector('.book-header');
+    if (!target || target.querySelector('.js-toolbar-action')) return;
+    var buttons = oldBook.querySelectorAll('.book-header .js-toolbar-action');
+    var anchor = target.querySelector('h1');
+    Array.prototype.forEach.call(buttons, function (b) {
+      if (anchor) target.insertBefore(b, anchor);
+      else target.appendChild(b);
+    });
   }
 
   if (document.readyState === 'loading') {
