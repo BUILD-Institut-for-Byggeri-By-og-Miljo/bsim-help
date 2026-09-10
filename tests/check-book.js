@@ -22,6 +22,14 @@
  *    error. BSim's own test suite (Tests/BSimTests/F1Help) checks the other
  *    direction: that every topic the app can send has an entry here.
  *
+ * 3. Every internal link on every page in the book (BSim issue #138).
+ *    The pages are the ones SUMMARY.md lists (plus README.md); for each of
+ *    them every [text](target.md) link must point at a file that exists, by a
+ *    relative path. The Danish "BSim - Brugervejledning" contents page had 38
+ *    links to file names from an older naming scheme - all dead, and nothing
+ *    in the build said so. Source files that SUMMARY.md does not list are
+ *    reported as notes and otherwise left alone: HonKit does not render them.
+ *
  * Exit code 1 when anything is wrong, with one line per finding.
  */
 
@@ -89,8 +97,12 @@ function checkRelatedTopics(languages) {
     let lists = 0;
     let links = 0;
 
+    /* Only pages that are in the book - a stray source file nobody can open
+       is reported by checkAllLinks as a note instead. */
     const files = [];
-    for (const lang of languages) walkMarkdown(path.join(repoRoot, lang), files);
+    for (const lang of languages) {
+        for (const p of bookPages(lang).values()) if (fs.existsSync(p)) files.push(p);
+    }
 
     for (const file of files) {
         pages += 1;
@@ -250,16 +262,120 @@ function checkTopicMap(languages) {
 }
 
 /* ---------------------------------------------------------------------------
+ * 3. Every internal link on every page in the book (BSim issue #138)
+ * ------------------------------------------------------------------------- */
+
+/* Blank out <!-- ... --> so a commented-out SUMMARY entry is not a link, while
+   keeping the line count so reported line numbers stay right. */
+function stripHtmlComments(text) {
+    return text.replace(/<!--[\s\S]*?-->/g, function (m) {
+        return m.replace(/[^\n]/g, '');
+    });
+}
+
+/* The pages HonKit renders for one language: SUMMARY.md's links, plus README.md
+   (the front page) and SUMMARY.md itself. Anything else under <lang>/ is copied
+   to _book as raw .md and is not a page anybody can open. */
+function bookPages(lang) {
+    const langDir = path.join(repoRoot, lang);
+    const pages = new Map();          /* lower-cased absolute path -> display path */
+    const add = function (p) { pages.set(path.resolve(p).toLowerCase(), p); };
+
+    for (const name of ['README.md', 'SUMMARY.md']) {
+        const p = path.join(langDir, name);
+        if (fs.existsSync(p)) add(p);
+    }
+
+    const summary = path.join(langDir, 'SUMMARY.md');
+    if (!fs.existsSync(summary)) return pages;
+
+    const text = stripHtmlComments(fs.readFileSync(summary, 'utf8'));
+    let m;
+    LINK_RE.lastIndex = 0;
+    while ((m = LINK_RE.exec(text)) !== null) {
+        const target = m[2].split('#')[0];
+        if (!target || SCHEME_RE.test(target)) continue;
+        add(path.resolve(langDir, target));
+    }
+    return pages;
+}
+
+function checkAllLinks(languages) {
+    const errors = [];
+    const notices = [];
+    let pages = 0;
+    let links = 0;
+
+    for (const lang of languages) {
+        const inBook = bookPages(lang);
+
+        /* Sources that are not in the book at all - worth knowing, not a failure. */
+        for (const f of walkMarkdown(path.join(repoRoot, lang), [])) {
+            if (!inBook.has(path.resolve(f).toLowerCase())) {
+                notices.push(rel(f) + '  -- not in SUMMARY.md, so not a page in the book (its links are not checked)');
+            }
+        }
+
+        for (const file of inBook.values()) {
+            if (!fs.existsSync(file)) {
+                errors.push(rel(path.join(repoRoot, lang, 'SUMMARY.md')) + '  -- lists a page that does not exist: ' + rel(file));
+                continue;
+            }
+            pages += 1;
+            const lines = stripHtmlComments(fs.readFileSync(file, 'utf8')).split(/\r?\n/);
+            const pageDir = path.dirname(file);
+
+            for (let i = 0; i < lines.length; i++) {
+                let m;
+                LINK_RE.lastIndex = 0;
+                while ((m = LINK_RE.exec(lines[i])) !== null) {
+                    const target = m[2];
+                    if (SCHEME_RE.test(target)) continue;
+                    const filePart = target.split('#')[0];
+                    if (filePart === '') continue;                      /* same-page anchor */
+                    links += 1;
+
+                    const where = rel(file) + ':' + (i + 1);
+                    const entry = '[' + m[1] + '](' + target + ')';
+
+                    if (filePart.startsWith('/')) {
+                        errors.push(where + '  ' + entry + '  -- root-absolute path; it leaves the book on help.bsim.dk and in the viewer, use a ../<chapter>/<page>.md path');
+                        continue;
+                    }
+
+                    let decoded = filePart;
+                    try { decoded = decodeURI(filePart); } catch (e) { /* keep as written */ }
+                    const targetAbs = path.resolve(pageDir, decoded);
+
+                    if (!fs.existsSync(targetAbs)) {
+                        let hint = '';
+                        if (/\.html?$/i.test(filePart) && fs.existsSync(targetAbs.replace(/\.html?$/i, '.md'))) {
+                            hint = ' (the source page is .md, link to that)';
+                        }
+                        errors.push(where + '  ' + entry + '  -- target does not exist' + hint);
+                    }
+                }
+            }
+        }
+    }
+
+    return { errors: errors, notices: notices, pages: pages, links: links };
+}
+
+/* ---------------------------------------------------------------------------
  * Report
  * ------------------------------------------------------------------------- */
 
 const languages = readLanguages();
 const related = checkRelatedTopics(languages);
 const topics = checkTopicMap(languages);
+const all = checkAllLinks(languages);
 
-console.log('check-book: languages ' + languages.join(', ') + '; ' + related.pages +
-            ' pages, ' + related.lists + ' related-topics lists with ' + related.links +
-            ' links; ' + topics.entries + ' topic-map entries.');
+console.log('check-book: languages ' + languages.join(', ') + '; ' + all.pages +
+            ' pages in the book with ' + all.links + ' internal links; ' + related.lists +
+            ' related-topics lists with ' + related.links + ' links; ' +
+            topics.entries + ' topic-map entries.');
+for (const n of all.notices) console.log('check-book: note ' + n);
 
 function report(title, errors) {
     if (!errors.length) {
@@ -270,10 +386,11 @@ function report(title, errors) {
     for (const e of errors) console.error('  ' + e);
 }
 
+report('every internal link on every page in the book resolves', all.errors);
 report('related-topics lists link to another, existing page', related.errors);
 report('topic map is unambiguous and every target is a source page', topics.errors);
 
-const total = related.errors.length + topics.errors.length;
+const total = all.errors.length + related.errors.length + topics.errors.length;
 if (total) {
     console.error('check-book: FAILED with ' + total + ' problem(s).');
     process.exit(1);

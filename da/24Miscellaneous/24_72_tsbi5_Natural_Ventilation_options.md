@@ -59,4 +59,4 @@ Mzm Heat Balance - beskriver konvergenskriterierne mellem multizonemodellen og d
 
 *   Max Iterations: Der kan maksimalt gennemføres det antal iterationer som er givet i feltet.
 
-Se også: [Regulering af multizone modellen](/24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md)
+Se også: [Regulering af multizone modellen](../24Miscellaneous/24_72_tsbi5_Natural_Ventilation_options.md)

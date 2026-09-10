@@ -49,7 +49,7 @@ Alle de regulerbare åbninger (vinduer og døre) har et entydigt antal åbningsg
 
  
 
-Alle ikke-regulerbare åbninger (huller) er pr. definition altid helt åbne. De er dog kun aktive i de perioder, hvor [*Venting*](../11Systems/11_06_Venting_system.md) er aktiveret. Når [*Venting*](../11Systems/11_06_Venting_system.md) ikke er aktiv, regner tsbi5 som om hullerne ikke findes.
+Alle ikke-regulerbare åbninger (huller) er pr. definition altid helt åbne. De er dog kun aktive i de perioder, hvor [*Venting*](../11Systems/11_18_Systems_Venting.md) er aktiveret. Når [*Venting*](../11Systems/11_18_Systems_Venting.md) ikke er aktiv, regner tsbi5 som om hullerne ikke findes.
 
 ## **Beregningsgang ved regulering**
 
@@ -69,7 +69,7 @@ Beregningsgangen ved reguleringen er beskrevet på punktform nedenfor.
 
 ### **Eksempel på beregningsgang ved regulering**
 
-På figur 4 er beregningsgang ved reguleringen vist. Der er taget udgangspunkt i en temperaturstyring af [Venting](../11Systems/11_06_Venting_system.md) og at der er tale om et køletilfælde.
+På figur 4 er beregningsgang ved reguleringen vist. Der er taget udgangspunkt i en temperaturstyring af [Venting](../11Systems/11_18_Systems_Venting.md) og at der er tale om et køletilfælde.
 
 De tal der er markeret med FED ud for mzm og varmebalancen er de værdier der beregnes og dem der ikke er fede er dem der bruges til beregningen. Alle temperaturer og luftmængder er fiktive. Det eneste der "rigtigt" er ændringens retning (op eller ned).
 

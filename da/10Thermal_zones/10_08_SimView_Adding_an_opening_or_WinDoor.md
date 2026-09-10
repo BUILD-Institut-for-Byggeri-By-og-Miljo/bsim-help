@@ -41,9 +41,9 @@ Et bestemt vindue knyttes til modellen ved at trække det fra [databasen](../07S
 
 Systemer tilknyttet en WinDoor:
 
-*   [Regulering](../11Systems/11_03_Regulation.md) (af naturlig ventilation)
-*   [Skodder](../11Systems/11_04_Shutter_System.md) (for reduktion af varmetab om natten)
-*   [Solafskærmning](../11Systems/11_05_Shading_System.md) (for reduktion af overhedning)
+*   [Regulering](../24Miscellaneous/24_62_Regulation.md) (af naturlig ventilation)
+*   [Skodder](../11Systems/11_15_Systems_shutter.md) (for reduktion af varmetab om natten)
+*   [Solafskærmning](../11Systems/11_16_Systems_shading.md) (for reduktion af overhedning)
 
 Se også:
 

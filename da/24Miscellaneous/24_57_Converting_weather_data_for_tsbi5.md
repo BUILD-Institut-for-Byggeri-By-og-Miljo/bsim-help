@@ -4,7 +4,7 @@
 
 Vejrdata, som skal bruges i forbindelse med tsbi5, skal findes i et specielt (binært) format. Vejrdata, der findes som ASCII-filer, kan konverteres til tsbi5-format med *tsbi5* | *File* | *Weather data* | *Convert* kommandoen. Denne funktion beskrives i det følgende.
 
-Det er også muligt at hente og direkte konvertere klimadata i energy+ / ASHRAE format (*.epw) fra Internettet ved en [specialfunktion](/24Miscellaneous/24_14_Energy_ASHRAE_climate_data.md) i BSim via indgangen *tsbi5* | *File* | *Weather data* | *ASHRAE*.
+Det er også muligt at hente og direkte konvertere klimadata i energy+ / ASHRAE format (*.epw) fra Internettet ved en [specialfunktion](../24Miscellaneous/24_14_Energy_ASHRAE_climate_data.md) i BSim via indgangen *tsbi5* | *File* | *Weather data* | *ASHRAE*.
 
 ### **Vejrdata**
 
@@ -45,7 +45,7 @@ En definitionsfil dannes via det interface, som findes for konvertering af klima
 
     *   *eec*: Variant af fast format. Data for solstråling angiver for time 24 en døgnsum, som nulstilles i den konverterede fil.
 
-*   [*Fixed columns from left to right*](/24Miscellaneous/24_61_Climate_data_fixed_format.md): I feltet angives placeringen af data i kolonner (index startende med 1 længst til venstre). Benyttes alene i forbindelse med formatet *Fixed*.
+*   [*Fixed columns from left to right*](../24Miscellaneous/24_61_Climate_data_fixed_format.md): I feltet angives placeringen af data i kolonner (index startende med 1 længst til venstre). Benyttes alene i forbindelse med formatet *Fixed*.
 
 *   *Skip lines*: Angiver antallet af linjer i toppen af ASCII-filen, som skal springes over, inden data starter.
 
@@ -59,7 +59,7 @@ En definitionsfil dannes via det interface, som findes for konvertering af klima
 
 *   *Altitude*: Højden over havet for målestationens placering.
 
-Med linjerne i skemaet defineres via en [dialog](/24Miscellaneous/24_58_Climate_data_definition.md) de enkelte parametre i linjerne i datafilen, dvs. hvilken parameter der er tale om, skalering og enhed samt dens relative position i linjen, kolonnenummer eller parameternummer regnet fra venstre mod højre.
+Med linjerne i skemaet defineres via en [dialog](../24Miscellaneous/24_58_Climate_data_definition.md) de enkelte parametre i linjerne i datafilen, dvs. hvilken parameter der er tale om, skalering og enhed samt dens relative position i linjen, kolonnenummer eller parameternummer regnet fra venstre mod højre.
 
 Følgende data **skal** som minimum være til stede for at der kan dannes en binær klimafil:
 

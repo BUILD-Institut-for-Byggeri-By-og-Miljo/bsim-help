@@ -4,7 +4,7 @@
 
 <div style="text-align:center">
 
-*Dialogen kaldes fra [Site](/24Miscellaneous/24_25_Site_Property.md) dialogen.*
+*Dialogen kaldes fra [Site](../24Miscellaneous/24_25_Site_Property.md) dialogen.*
 
 </div>
  

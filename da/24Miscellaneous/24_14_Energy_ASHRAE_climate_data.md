@@ -36,7 +36,7 @@ Convert to BSim format
 
 *   De valgte klimadata konverteres til BSim's binære format ved tryk på *Convert*-knappen. Når konverteringen er gennemført vises et vindue med et sammendrag af de klimadata som ligger i den konverterede fil. Vinduet lukkes ved tryk på krydset i øverste højre hjørne.
 
-*   Konverteringen sker på samme måde som for den [manuelle konvertering](/24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md) af klimafiler til BSim's format. I samme mappe som klimafilen er placeret, opretter BSim en *.wdf (Weather Definition File), med den information som er nødvendig for at konvertere fra *.epw til *.dry formatet.
+*   Konverteringen sker på samme måde som for den [manuelle konvertering](../24Miscellaneous/24_57_Converting_weather_data_for_tsbi5.md) af klimafiler til BSim's format. I samme mappe som klimafilen er placeret, opretter BSim en *.wdf (Weather Definition File), med den information som er nødvendig for at konvertere fra *.epw til *.dry formatet.
 
 *   Dialogen forlades ved tryk på *OK*-knappen.
 

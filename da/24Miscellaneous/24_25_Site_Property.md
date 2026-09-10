@@ -13,7 +13,7 @@ Dialogen åbnes ved at højreklikke på Site-ikonet <img src="./assets/Site.gif"
 
 *   *Browse*: Åbner en dialog for valg af klimadatafil. Ved siden af *Browse*-knappen vises information om de valgte klimadata. Hvis der ikke er valgt en klimadatafil eller BSim ikke kan finde filen, åbner dialogen i mappen *Climate*, som er/skal være en undermappe til den mappe hvor BSim er installeret.
 
-*   [Ground](/24Miscellaneous/24_26_Ground.md): Åbner en dialog for definition af den fiktive zone jord.
+*   [Ground](../24Miscellaneous/24_26_Ground.md): Åbner en dialog for definition af den fiktive zone jord.
 
 *   *Location* indeholder information, hentet fra klimadatafilen hvis en sådan er valgt, om placeringen af klimadata.
 

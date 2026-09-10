@@ -500,7 +500,7 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*systems\floor_heat_ctrl.htm*:](../11Systems/11_07_Floor_Heating_Control.md) Added information about qHeat as result from floor heating systems.
 
-*   [*systems\fan_coil_ctrl.htm*:](../11Systems/24_59_Fan_coil_control.md) Corrected Θ<sub>z</sub> to Θ<sub>i</sub> and elaborated the description on why qCooling can exceed the immediate apparent max-value.
+*   [*systems\fan_coil_ctrl.htm*:](../24Miscellaneous/24_59_Fan_coil_control.md) Corrected Θ<sub>z</sub> to Θ<sub>i</sub> and elaborated the description on why qCooling can exceed the immediate apparent max-value.
 
 ### **5.4.11.10**
 
@@ -510,9 +510,9 @@ en\13tsbi5_thermal_simulation\13_08_tsbi5_Parameters.md
 
 *   [*tsbi5\tsbi5_options.htm*:](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md) Added link to *Edit* + *Options*.
 
-*   [*simview\simview-add_windoor.htm*:](../09SimView/24_30_SimView_Insert_Windoor.md) Added link to *Regulation*.
+*   [*simview\simview-add_windoor.htm*:](../24Miscellaneous/24_30_SimView_Insert_Windoor.md) Added link to *Regulation*.
 
-*   [*systems\systems_windoor.htm*:](../11Systems/24_73_Windoor_Systems.md) New page for systems on WinDoors. Moved navigation of *Shutter* and *Solar Shading* to this page from [add](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md).
+*   [*systems\systems_windoor.htm*:](../24Miscellaneous/24_73_Windoor_Systems.md) New page for systems on WinDoors. Moved navigation of *Shutter* and *Solar Shading* to this page from [add](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md).
 
 *   [*simview\windoor_property.htm*:](../09SimView/09_07_Windoor_property.md) Updated graphic. Added link to Regulation for natural ventilation.
 

@@ -18,7 +18,7 @@ En WinDoor eller en åbning kan indsættes til udfyldning af en flade eller midt
 
 Se også:
 
-*   [Options](/24Miscellaneous/24_16_tsbi5_general_options.md)
+*   [Options](../24Miscellaneous/24_16_tsbi5_general_options.md)
 
 *   [Defaults](../07SimDB_Database/07_02_SimDB_BuildingElement.md)
 
@@ -34,7 +34,7 @@ Se også:
 
 *   [Add WinDoors](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 
-*   [Insert Windoor](/24Miscellaneous/24_30_SimView_Insert_Windoor.md)
+*   [Insert Windoor](../24Miscellaneous/24_30_SimView_Insert_Windoor.md)
 
 *   [Move](../09SimView/09_13_SimView_Move.md)
 

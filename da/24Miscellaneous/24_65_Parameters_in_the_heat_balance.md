@@ -14,7 +14,7 @@ I varmebalancen findes en række parametre, som oplyser om de forskellige energi
 
 *   *Co2* viser indholdet af CO<sub>2</sub> i ppm i indeluften.
 
-*   *PAQ* viser det beregnede [oplevede indeklima](/24Miscellaneous/24_65_Parameters_in_the_heat_balance.md).
+*   *PAQ* viser det beregnede [oplevede indeklima](../24Miscellaneous/24_65_Parameters_in_the_heat_balance.md).
 
 *   *Hours > 21, Hour > 25, Hour > 28 og Hour < 20* viser antallet af timer med en operativ temperatur over henholdsvis under en given temperaturgrænse (grænsen kan ændres på fanebladet [*Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)) i den valgte termiske zone inden for den valgte opløsning på tidsskalaen, fx uge eller måned. Hvis hele modellen er valgt, vises ingen værdier for indetemperaturer over henholdsvis under temperaturgrænser.
 
