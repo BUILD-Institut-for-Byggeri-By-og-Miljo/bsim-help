@@ -1,0 +1,26 @@
+name: Book checks
+
+# Structural checks on the help book sources - see tests/check-book.js:
+# "Relaterede emner" lists must link to another, existing page (BSim issue
+# #136), and every topic-map entry must resolve to a source page. Plain Node,
+# no dependencies, no HonKit build - so it runs in seconds on every branch.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-book:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check related-topics lists and topic map
+        run: node tests/check-book.js
