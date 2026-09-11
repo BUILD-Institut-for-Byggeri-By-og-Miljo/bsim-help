@@ -1,0 +1,3 @@
+# Kildefiler HonKit ikke skal kopiere med ind i _book (bogen der publiceres).
+.github
+tests

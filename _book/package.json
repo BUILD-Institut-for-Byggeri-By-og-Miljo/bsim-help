@@ -11,7 +11,8 @@
   "scripts": {
     "build": "honkit build && node copy-static.js",
     "copy-static": "node copy-static.js",
-    "serve": "honkit serve"
+    "serve": "honkit serve",
+    "test": "node tests/check-book.js"
   },
   "name": "bsim",
   "version": "1.0.0",
