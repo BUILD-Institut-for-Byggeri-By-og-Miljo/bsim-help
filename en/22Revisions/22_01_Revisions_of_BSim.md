@@ -365,7 +365,7 @@ SimView File/Mail Project To: check for xml, and database renamed from .mdb to .
 
 **4,6,7,12** 
 
-*   *SimView, DisDb5, Model*: Error if a material was undefined in the moisture part of the database (a exist in the thermal-table but not in the moisture-table). See [limitations](../05Introduction\05_05_Limitations.md).
+*   *SimView, DisDb5, Model*: Error if a material was undefined in the moisture part of the database (a exist in the thermal-table but not in the moisture-table). See [limitations](../05Introduction/05_05_Limitations.md).
 
 **4,6,6,23** 
 

@@ -18,7 +18,7 @@ Materialeegenskaber for nye materialer i databasen
 
 *   Skal der defineres et ny materiale i materialedelen af databasen <u>skal</u> alle tilgængelige felter udfyldes for det pågældende materiale. Hvis materialet defineres i en database med materialeværdier for fugttransport <u>skal</u> disse udfyldes. Sker det ikke vil resultaterne fra en simulering - også uden fugttransport - blive forkerte idet materialet vil blive opfattet som et luftlag i konstruktionen.<div id="red_text">Fra og med version 4,6,7,12 vil det blive betragtet som en fejl, og der kan ikke simuleres før alle materialeværdier er defineret.</div>
 
-*   Ved at klikke på *About*-knappen i [*SimDB*](../07SimDB_Database/07_14_SimDb_BuildingMaterial_Moisture.md) åbnes en dialog som viser egenskaberne for den valgte database. I nedenstående eksempel indeholder databasen materialedata for fugttransport (Moisture), solceller (Pv Arrays), og detaljeret simulering af glastemperaturen (Glazing Extra).
+*   Ved at klikke på *About*-knappen i [*SimDB*](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md) åbnes en dialog som viser egenskaberne for den valgte database. I nedenstående eksempel indeholder databasen materialedata for fugttransport (Moisture), solceller (Pv Arrays), og detaljeret simulering af glastemperaturen (Glazing Extra).
 
 <figure id="center_img">
 <img src="./assets/about_simdb.jpg " alt="Caption">
@@ -27,7 +27,7 @@ Materialeegenskaber for nye materialer i databasen
 
 Varmeledningsevne (lambda) i simuleringer med *tsbi5*
 
-*   Der benyttes en forskellig varmeledningsevne (lambda-værdi) anhængig af om "Moisture Transport" er slået eller fra på "Options" fanebladet af tsbi5. Hvis "Moisture Transport" er slået fra benyttes værdien fra "[Thermal](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)" fanebladet i SimDb. Hvis "Moisture Transport" er slået til benyttes værdien fra "[Moisture](../07SimDB_Database/07_14_SimDb_BuildingMaterial_Moisture.md)" fabelbadet.
+*   Der benyttes en forskellig varmeledningsevne (lambda-værdi) anhængig af om "Moisture Transport" er slået eller fra på "Options" fanebladet af tsbi5. Hvis "Moisture Transport" er slået fra benyttes værdien fra "[Thermal](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md)" fanebladet i SimDb. Hvis "Moisture Transport" er slået til benyttes værdien fra "[Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)" fabelbadet.
 
  
 

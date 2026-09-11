@@ -63,7 +63,7 @@
 
 *   [Daylight calculations with SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md)
 
-*   [BSim and other Windows programs](../19BSim_and_other_windows_programs/19_01_BSim_and_other_windows_programs.md)
+*   [BSim and other Windows programs](../19BSim_and_other_windows_programs/19_01_BSim_and_other_Windows_programs.md)
 
 *   [CAD drawings as a basis for geometry](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md)
 

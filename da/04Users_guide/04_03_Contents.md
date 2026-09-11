@@ -66,7 +66,7 @@
 
 *   [Dagslysberegninger med SimLight](../15SimLight_Daylight_calculations/15_01_Daylight_calculations_with_SimLight.md)
 
-*   [BSim og andre Windows programmer](../19BSim_and_other_windows_programs/19_01_BSim_and_other_windows_programs.md)
+*   [BSim og andre Windows programmer](../19BSim_and_other_windows_programs/19_01_BSim_and_other_Windows_programs.md)
 
 *   [Cad-tegninger som grundlag for geometri](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_01_CAD_drawings_as_a_basis_for_geometry.md)
 

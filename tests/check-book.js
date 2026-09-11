@@ -87,6 +87,40 @@ function rel(p) {
     return path.relative(repoRoot, p).split(path.sep).join('/');
 }
 
+/* fs.existsSync is case-insensitive on Windows and macOS, but help.bsim.dk and
+   the Linux CI runner are not: a link to SimDb_...md works on the author's PC
+   and is dead on the web. So every path component is matched against the real
+   directory listing, byte for byte. */
+const dirCache = new Map();
+function listing(dir) {
+    if (!dirCache.has(dir)) {
+        let names = null;
+        try { names = new Set(fs.readdirSync(dir)); } catch (e) { /* not a directory */ }
+        dirCache.set(dir, names);
+    }
+    return dirCache.get(dir);
+}
+function existsExact(absPath) {
+    const parts = path.resolve(absPath).split(path.sep);
+    let dir = parts[0] + path.sep;               /* drive or "/" */
+    for (let i = 1; i < parts.length; i++) {
+        if (parts[i] === '') continue;
+        const names = listing(dir);
+        if (!names || !names.has(parts[i])) return false;
+        dir = path.join(dir, parts[i]);
+    }
+    return true;
+}
+
+/* A link target must be a relative, forward-slash path: a backslash is not a
+   separator in a URL, and a leading slash leaves the book. Returns the problem
+   or null. */
+function targetProblem(filePart) {
+    if (filePart.includes('\\')) return 'backslash in the path; browsers do not treat it as a separator, use /';
+    if (filePart.startsWith('/')) return 'root-absolute path; it leaves the book on help.bsim.dk and in the viewer, use a ../<chapter>/<page>.md path';
+    return null;
+}
+
 /* ---------------------------------------------------------------------------
  * 1. Related-topics lists
  * ------------------------------------------------------------------------- */
@@ -149,8 +183,9 @@ function checkRelatedTopics(languages) {
                         continue;
                     }
 
-                    if (filePart.startsWith('/')) {
-                        errors.push(where + '  ' + entry + '  -- root-absolute path; the panel resolves links relative to the page, use ../<chapter>/<page>.md');
+                    const problem = targetProblem(filePart);
+                    if (problem) {
+                        errors.push(where + '  ' + entry + '  -- ' + problem);
                         continue;
                     }
 
@@ -163,7 +198,7 @@ function checkRelatedTopics(languages) {
                         continue;
                     }
 
-                    if (!fs.existsSync(targetAbs)) {
+                    if (!existsExact(targetAbs)) {
                         let hint = '';
                         if (/\.html?$/i.test(filePart)) {
                             const asMd = targetAbs.replace(/\.html?$/i, '.md');
@@ -347,8 +382,9 @@ function checkAllLinks(languages) {
                     const where = rel(file) + ':' + (i + 1);
                     const entry = '[' + m[1] + '](' + target + ')';
 
-                    if (filePart.startsWith('/')) {
-                        errors.push(where + '  ' + entry + '  -- root-absolute path; it leaves the book on help.bsim.dk and in the viewer, use a ../<chapter>/<page>.md path');
+                    const problem = targetProblem(filePart);
+                    if (problem) {
+                        errors.push(where + '  ' + entry + '  -- ' + problem);
                         continue;
                     }
 
@@ -356,7 +392,7 @@ function checkAllLinks(languages) {
                     try { decoded = decodeURI(filePart); } catch (e) { /* keep as written */ }
                     const targetAbs = path.resolve(pageDir, decoded);
 
-                    if (!fs.existsSync(targetAbs)) {
+                    if (!existsExact(targetAbs)) {
                         let hint = '';
                         if (/\.html?$/i.test(filePart) && fs.existsSync(targetAbs.replace(/\.html?$/i, '.md'))) {
                             hint = ' (the source page is .md, link to that)';
