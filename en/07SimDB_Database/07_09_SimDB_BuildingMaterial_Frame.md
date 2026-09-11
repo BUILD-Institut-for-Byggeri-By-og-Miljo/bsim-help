@@ -47,4 +47,3 @@ See also:
 *   [Tab Environment](../07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.md)
 *   [Tab Glazing](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 *   [Tab UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)
-*   [Tab Frame](../07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.md)

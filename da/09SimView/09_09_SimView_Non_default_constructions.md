@@ -13,7 +13,6 @@ Se også:
 *   [Oprette en bygning](../09SimView/09_14_SimView_Creating_a_building.md)
 *   [Tilføje et rum](../09SimView/09_15_SimView_Creating_a_space.md)
 *   [Standardkonstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md)
-*   [Tilknytte ikke-standardkonstruktioner](../09SimView/09_09_SimView_Non_default_constructions.md)
 *   [Oprette en termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md)
 *   [Tilføje rum til termiske zoner](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
 *   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems.md)

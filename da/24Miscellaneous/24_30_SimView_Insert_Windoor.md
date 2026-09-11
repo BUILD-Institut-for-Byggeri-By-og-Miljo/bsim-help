@@ -34,8 +34,6 @@ Se også:
 
 *   [Add WinDoors](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 
-*   [Insert Windoor](../24Miscellaneous/24_30_SimView_Insert_Windoor.md)
-
 *   [Move](../09SimView/09_13_SimView_Move.md)
 
 *   [Split Face](../09SimView/09_02_SimView_Editing_the_model_geometry.md)

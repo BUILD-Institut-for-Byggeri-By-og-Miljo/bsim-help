@@ -52,5 +52,3 @@ Se også:
 *   [Faneblad Glazing](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 
 *   [Faneblad UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)
-
-*   [Faneblad Frame](../07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.md)

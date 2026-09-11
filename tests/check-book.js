@@ -120,7 +120,16 @@ function checkRelatedTopics(languages) {
 
             lists += 1;
 
-            for (; j < lines.length && LIST_ITEM_RE.test(lines[j]); j++) {
+            /* Items may be separated by blank lines (a "loose" list); markdown
+               still renders them as ONE list, so the panel lifts all of them. */
+            for (; j < lines.length; j++) {
+                if (lines[j].trim() === '') {
+                    let k = j + 1;
+                    while (k < lines.length && lines[k].trim() === '') k++;
+                    if (k < lines.length && LIST_ITEM_RE.test(lines[k])) { j = k - 1; continue; }
+                    break;
+                }
+                if (!LIST_ITEM_RE.test(lines[j])) break;
                 let m;
                 LINK_RE.lastIndex = 0;
                 while ((m = LINK_RE.exec(lines[j])) !== null) {

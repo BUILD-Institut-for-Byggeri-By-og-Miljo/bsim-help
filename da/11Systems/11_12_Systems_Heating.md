@@ -32,6 +32,6 @@ Reguleringen af et varmeanlæg kan ske som traditionel [radiatorregulering](../1
 Se også
 
 *   Faneblad [Schedule](../11Systems/11_02_Systems_schedule.md)
-*   Faneblad [HeatCoolCtrl](../11Systems/11_12_Systems_Heating.md)
+*   Faneblad [HeatCoolCtrl](../24Miscellaneous/24_02_Heating_control.md)
 *   Faneblad [FloorHeatCtrl](../11Systems/11_07_Floor_Heating_Control.md)
 *   Faneblad [Time](../11Systems/11_17_Systems_Time.md)

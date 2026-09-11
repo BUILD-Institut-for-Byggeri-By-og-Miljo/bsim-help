@@ -25,6 +25,6 @@ Ved hjælp af [reguleringen](../11Systems/11_10_systems_mixing.md) er der muligh
 
 Se også:
 
-*   [Faneblad MixingCtrl](../11Systems/11_10_systems_mixing.md)
+*   [Faneblad MixingCtrl](../24Miscellaneous/24_11_Mixing_Control.md)
 *   [Faneblad Schedule](../11Systems/11_02_Systems_schedule.md)
 *   [Faneblad Time](../11Systems/11_17_Systems_Time.md)

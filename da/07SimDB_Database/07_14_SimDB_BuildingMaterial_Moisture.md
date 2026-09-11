@@ -40,8 +40,6 @@ Se også:
 
 *   [Faneblad PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md)
 
-*   [Faneblad Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
-
 *   [Faneblad Glazing](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 
 *   [Faneblad UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)

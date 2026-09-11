@@ -40,8 +40,6 @@ Attention **must** be paid to this convention when defining the geometry of the 
 
 See also:
 
-*   [Creating a building](../06BSim_Program_structure/06_09_SimView_Creating_a_building.md)
-
 *   [Creating a space](../09SimView/09_15_SimView_Creating_a_space.md)
 
 *   [Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md)

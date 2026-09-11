@@ -80,5 +80,3 @@ Se også:
 
 *   [Tilknytte klimadata og jord](../09SimView/09_10_Climate_data.md)
 
-*   [Udskrift af model](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md)
-

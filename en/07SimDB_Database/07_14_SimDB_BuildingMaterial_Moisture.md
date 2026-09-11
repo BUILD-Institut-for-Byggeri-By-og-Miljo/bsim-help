@@ -35,7 +35,6 @@ Lambda is the heat transfer coefficient for the material which is used when the 
 See also:
 
 *   [Tab Material](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md)
-*   [Tab Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
 *   [Tab Glazing](../07SimDB_Database/07_10_SimDB_BuildingMaterial_Glazing.md)
 *   [Tab UserDefined](../07SimDB_Database/07_16_SimDB_BuildingMaterial_UserDefined.md)
 *   [Tab Frame](../07SimDB_Database/07_09_SimDB_BuildingMaterial_Frame.md)

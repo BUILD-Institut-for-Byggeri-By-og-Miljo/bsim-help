@@ -68,7 +68,6 @@ If *Cancel* is pressed in the *Open* dialog, the simulation will continue with t
 
 See also:
 
-*   [Tab Options](13_02_tsbi5_options.md)
 *   [Options + Edit](../24Miscellaneous/24_16_tsbi5_general_options.md)
 *   [Tab Moisture](../24Miscellaneous/24_60_tsbi5_moisture.md)
 *   [Tab Simulation](13_04_tsbi5_simulation.md)

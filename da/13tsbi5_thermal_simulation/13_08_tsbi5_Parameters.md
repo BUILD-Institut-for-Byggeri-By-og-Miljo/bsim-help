@@ -46,5 +46,4 @@ Se også:
 *   [Faneblad *Moisture*](../24Miscellaneous/24_60_tsbi5_moisture.md)
 *   [Faneblad *Simulation*](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
 *   [Faneblad *HeatBalance*](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
-*   [Faneblad *Parametres*](../13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)
 *   [Faneblad *Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)

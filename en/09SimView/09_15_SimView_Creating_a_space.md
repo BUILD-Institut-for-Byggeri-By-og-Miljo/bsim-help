@@ -30,7 +30,6 @@ The four geometries are *Box, Cone, Copy of Current Space* and *Copy of whole St
 See also:
 
 *   [Creating a building](09_14_SimView_Creating_a_building.md)
-*   [Creating a space](09_15_SimView_Creating_a_space.md)
 *   [Default constructions](../10Thermal_zones/10_06_SimView_Default_constructions.md)
 *   [Non-default constructions](09_09_SimView_Non_default_constructions.md)
 *   [Creating thermal zones](../10Thermal_zones/10_01_Thermal_Zone_property.md)

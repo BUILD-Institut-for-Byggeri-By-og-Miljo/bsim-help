@@ -28,6 +28,6 @@ Da U-værdien for en WinDoor er defineret inklusive indvendig og udvendig overga
 
 Se også
 
-*   Faneblad [ShutterCtrl](../11Systems/11_15_Systems_shutter.md)
+*   Faneblad [ShutterCtrl](../24Miscellaneous/24_03_Shutter_Control.md)
 *   Faneblad [Schedule](../11Systems/11_02_Systems_schedule.md)
 *   Faneblad [Time](../11Systems/11_17_Systems_Time.md)

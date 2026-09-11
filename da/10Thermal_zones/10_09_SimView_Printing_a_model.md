@@ -134,4 +134,3 @@ Se også:
 *   [Tilføje en åbning eller WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 *   [Tilknytte fiktive zoner](../09SimView/09_05_Sim_View_Virtual_zones.md)
 *   [Tilknytte klimadata og jord](../09SimView/09_10_Climate_data.md)
-*   [Udskrift af model](../10Thermal_zones/10_09_SimView_Printing_a_model.md)

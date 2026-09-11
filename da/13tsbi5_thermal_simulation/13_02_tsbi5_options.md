@@ -67,7 +67,6 @@ Fanebladet *Options* indeholder forskellige valg for opsætning af den simulerin
 
 Se også:
 
-*   [Faneblad *Options*](../13tsbi5_thermal_simulation/13_02_tsbi5_options.md)
     *   [*Edit + Options*](../06BSim_Program_structure/06_04_Program_menus_in_BSim.md)
 *   [Faneblad *Moisture*](../24Miscellaneous/24_60_tsbi5_moisture.md)
 *   [Faneblad *Simulation*](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)

@@ -98,4 +98,3 @@ See also:
 *   [Adding an opening or WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 *   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)
 *   [Climate data and ground](../09SimView/09_10_Climate_data.md)
-*   [Printing a model](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md)

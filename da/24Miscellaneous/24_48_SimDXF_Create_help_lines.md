@@ -29,17 +29,17 @@ Konstruer *hjælpelinier* for de ønskede vægge og konstruktioner.
 
 Se også:
 
-*   [Vælg DXF-filter - Edit DXF-filter](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
+*   [Vælg DXF-filter - Edit DXF-filter](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_03_SimDXF_Selecting_the_DXF_filter.md)
 
 *   [Hent DXF-fil - Open DXF-file](../24Miscellaneous/24_47_About_SimDXF.md)
 
-*   [Knudepunkter (nodes)](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
+*   [Knudepunkter (nodes)](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_09_SimDXF_Creating_nodes.md)
 
-*   [Flade - Face](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
+*   [Flade - Face](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_05_SimDXF_Faces.md)
 
-*   [Rum - Room](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
+*   [Rum - Room](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_06_SimDXF_Spaces.md)
 
-*   [WinDoor](../24Miscellaneous/24_48_SimDXF_Create_help_lines.md)
+*   [WinDoor](../08SimDXF_CAD_drawings_as_basis_for_geometry/08_08_SimDXF_WinDoor.md)
 
 *   [Tegningsrevisioner](../24Miscellaneous/24_47_About_SimDXF.md)
 

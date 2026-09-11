@@ -32,7 +32,6 @@ See also:
 *   [Editing the model geometry](09_02_SimView_Editing_the_model_geometry.md)
 *   [Solar light factors for WinDoors](../10Thermal_zones/10_07_Solar_light_factors_for_WinDoors.md)
 *   [Adding an opening or WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
-*   [Virtual zones](09_05_Sim_View_Virtual_zones.md)
 *   [Climate data and ground](09_10_Climate_data.md)
 *   [Printing a model](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md)
 

@@ -20,8 +20,6 @@ Se også:
 
 *   [Faneblad Moisture](../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md)
 
-*   [Faneblad Environment](../07SimDB_Database/07_07_SimDB_BuildingMaterial_Environment.md)
-
  
 
 For materialelag til WinDoors

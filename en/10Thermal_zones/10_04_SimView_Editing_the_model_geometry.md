@@ -38,7 +38,6 @@ See also:
 *   [Non-default constructions](../09SimView/09_09_SimView_Non_default_constructions.md)
 *   [Creating thermal zones](10_01_Thermal_Zone_property.md)
 *   [Systems in thermal zones](../11Systems/11_01_Systems.md)
-*   [Editing the model geometry](10_04_SimView_Editing_the_model_geometry.md)
 *   [Solar light factors for WinDoors](10_07_Solar_light_factors_for_WinDoors.md)
 *   [Adding an opening or WinDoor](10_08_SimView_Adding_an_opening_or_WinDoor.md)
 *   [Virtual zones](../09SimView/09_05_Sim_View_Virtual_zones.md)

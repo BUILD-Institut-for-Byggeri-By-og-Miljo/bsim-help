@@ -61,7 +61,7 @@ Det bemærkes, at det kun er almenlyset, der reguleres, mens 'særlys' altid reg
 
 Se også
 
-*   Faneblad [LightCtr](../11Systems/11_03_Systems_Lighting.md)
-*   Faneblad [DaylightCtrl](../11Systems/11_03_Systems_Lighting.md)
+*   Faneblad [LightCtr](../24Miscellaneous/24_09_Light_Control.md)
+*   Faneblad [DaylightCtrl](../24Miscellaneous/24_10_Daylight_Control.md)
 *   Faneblad [Schedule](../11Systems/11_02_Systems_schedule.md)
 *   Faneblad [Time](../11Systems/11_17_Systems_Time.md)

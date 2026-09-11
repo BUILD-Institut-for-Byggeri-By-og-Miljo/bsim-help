@@ -53,8 +53,6 @@ Relaterede emner:
 
 *   [Oprette en ny model](../09SimView/09_12_Model_wizard_creating_a_new_model.md)
 
-*   [Værktøjsbjælken](../06BSim_Program_structure/06_05_SimView_Toolbar.md)
-
 *   [Oprette en bygning](../09SimView/09_14_SimView_Creating_a_building.md)
 
 *   [Tilføje et rum](../09SimView/09_15_SimView_Creating_a_space.md)

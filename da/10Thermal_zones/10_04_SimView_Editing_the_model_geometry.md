@@ -41,7 +41,6 @@ Se også:
 *   [Oprette en termisk zone](../10Thermal_zones/10_01_Thermal_Zone_property.md)
 *   [Tilføje rum til termiske zoner](../10Thermal_zones/10_02_SimView_Adding_spaces_to_thermal_zones.md)
 *   [Tilføje systemer til termiske zoner](../11Systems/11_01_Systems.md)
-*   [Redigere geometrien](../10Thermal_zones/10_04_SimView_Editing_the_model_geometry.md)
 *   [Tilføje konstruktioner](../10Thermal_zones/10_06_SimView_Default_constructions.md)
 *   [Tilføje en åbning eller WinDoor](../10Thermal_zones/10_08_SimView_Adding_an_opening_or_WinDoor.md)
 *   [Tilknytte fiktive zoner](../09SimView/09_05_Sim_View_Virtual_zones.md)
