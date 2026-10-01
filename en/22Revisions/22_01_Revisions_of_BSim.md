@@ -10,11 +10,53 @@
 
 <br>
 
-**7,26,mm,dd**
+**8,26,10,1**
 
-*   *SimView*: The Windows Help (HTML Help/CHM) has been replaced by a new help window (BuildHelpViewer/WebView2) showing this help book locally. F1 works unchanged in all dialogs. If the help is not installed, the online help at [help.bsim.dk](https://help.bsim.dk) opens instead.
+*First release since the development of BSim was resumed in 2026. The changes below are relative to version 7,23,5,31. Changes marked (results) can give simulation results that differ from earlier versions for the same models.*
+
+*   *SimView*: New program icon and new About dialog with the BSim and BUILD logos and updated contact information: support bsim-support@build.aau.dk, debate sbi-bsim@lists.aau.dk.
+
+*   *SimView*: New icons in the toolbar, the model tree, the menus and the title bar of dialogs and property windows. The user interface is drawn sharply on high-resolution screens, also when the screens use different scaling.
+
+*   *SimView*: The toolbar has *Clean model* and *Export to Radiance*. *Print*, *Print preview*, *Model documentation*, *ModelList*, *Export to Be10* and *Beat Tool* have left the toolbar and are still in the menus.
+
+*   *SimView*: *Beat*, *BSimBatch* and *Edit / Register* have been removed from the menus. Beat and BSimBatch remain in the installation folder.
+
+*   *SimView*: Help menu. *BUILD Home Page* opens build.aau.dk, *BSim Home Page* opens www.bsim.dk, *Mail to BSim* writes to support, and *Subscribe to BSim* opens the mailing list's subscription page. *Check for new update* reads the version information from versions.build.dk.
+
+*   *SimView*: The Windows Help (HTML Help/CHM) has been replaced by a new help window (BuildHelpViewer/WebView2) showing this help book locally. F1 works unchanged in all dialogs. If the help is not installed, the online help at [help.bsim.dk](https://help.bsim.dk) is opened instead.
 
 *   *SimView*: New menu item "Online Help" in the Help menu.
+
+*   *SimView*: The splash screen is no longer shown at start-up. New models are saved in the Documents folder by default.
+
+*   *License*: One license. Any valid BSim license gives access to all features, including the moisture model, PV, natural ventilation and Glazing-ex. License codes already issued work unchanged.
+
+*   *License*: The license is registered and removed in the program under *Help / License...*, which also lists the installed licenses and their expiry date. The expiry date is renewed online automatically. Without a valid license BSim starts, but only the Help menu can be used. The menus are unlocked as soon as a license is registered.
+
+*   *Installation*: New installer. BSim is installed in `Program Files (x86)\BUILD\BSim`, and the program file is now called BSim.exe.
+
+*   *SimDB*: If the project's database is not found at the registered path, the user is asked to choose a database. Previously BSim silently used a database with the same name next to the model. Fixed a database lookup that depended on how the model file was opened. The database window closes when the license is removed.
+
+*   *Model*: The people load (*PeopleLoad*) has fields for sensible and latent heat and for CO<sub>2</sub>, and the default values for people have been updated.
+
+*   *Tsbi5*: A user-defined solar absorptance on finish materials was ignored and is now used. (results)
+
+*   *Tsbi5*: Long-wave radiation exchange (*Longwave*): the view factors now take faces shading each other into account, also in concave rooms and between rooms connected by openings. (results)
+
+*   *Tsbi5*: Short-wave radiation is distributed in the zone in two steps. The first hit is the sun patch from XSun (without XSun, fixed fractions per face type), and the diffuse sun is distributed by view factors. Then the reflections are distributed between all faces. Sun through internal windows and holes passes on to the zone on the other side. (results)
+
+*   *Tsbi5*: The solar gain lost out through the windows (*Lost*) is now calculated instead of being a fixed 10 %. The field *Lost* has been removed, *ToAir* is 0 in new zones, and the field *Fraction* (diffuse sun through internal windows) has been removed. (results)
+
+*   *Tsbi5*: A-curves for glazings given in percent (a0 > 10) are converted automatically. An invalid A-curve is treated as missing, with a warning on the window.
+
+*   *XSun*: Changing *Floor* in the thermal zone now updates the solar distribution, and the distribution *ToFloor* is saved correctly.
+
+*   *SimLight*: Fixed the calculation of light reflected between faces. Daylight factors are transferred to windows with full precision. (results)
+
+*   *Weather data*: Conversion from EPW/ASHRAE and text no longer loses decimals depending on the Windows language settings. Leap years are set automatically on conversion, and missing weather days are reported.
+
+*   *BSimCLI*: New command-line program that runs simulations of .disxml models without a user interface.
 
 **7,13,9,24** 
 

@@ -5,13 +5,53 @@
 
 *Informationer på denne side er primært ment som en dokumentation af de ændringer som er sket med programmet for udviklerne, men kan også bruges til bedre at forstå forskelle i resultatet opnået med forskellige versioner af programmet.*
 
-**7,26,mm,dd**
+**8,26,10,1**
+
+*Første udgivelse siden videreudviklingen af BSim blev genoptaget i 2026. Ændringerne nedenfor er i forhold til version 7,23,5,31. Ændringerne markeret med (resultater) kan give andre simuleringsresultater end tidligere versioner for de samme modeller.*
+
+*   SimView: Nyt programikon og ny About-dialog med BSim- og BUILD-logo og opdaterede kontaktoplysninger: support bsim-support@build.aau.dk, debat sbi-bsim@lists.aau.dk.
+
+*   SimView: Nye ikoner i værktøjslinje, modeltræ, menuer og i titellinjen på dialoger og egenskabsvinduer. Brugerfladen tegnes skarpt på skærme med høj opløsning, også når skærmene har forskellig skalering.
+
+*   SimView: Værktøjslinjen har fået *Clean model* og *Export to Radiance*. *Print*, *Print preview*, *Model documentation*, *ModelList*, *Export to Be10* og *Beat Tool* er taget af værktøjslinjen og findes fortsat i menuerne.
+
+*   SimView: *Beat*, *BSimBatch* og *Edit / Register* er fjernet fra menuerne. Beat og BSimBatch ligger fortsat i installationsmappen.
+
+*   SimView: Help-menuen. *BUILD Home Page* åbner build.aau.dk, *BSim Home Page* åbner www.bsim.dk, *Mail to BSim* skriver til support, og *Subscribe to BSim* åbner tilmeldingssiden for mailinglisten. *Check for new update* henter versionsoplysningerne fra versions.build.dk.
 
 *   SimView: Windows-hjælpen (HTML Help/CHM) er erstattet af et nyt hjælpevindue (BuildHelpViewer/WebView2), som viser denne hjælpebog lokalt. F1 virker uændret i alle dialoger. Hvis hjælpen ikke er installeret, åbnes onlinehjælpen på [help.bsim.dk](https://help.bsim.dk) i stedet.
 
 *   SimView: Nyt menupunkt "Online Help" i Help-menuen.
 
- 
+*   SimView: Splash-skærmen vises ikke længere ved opstart. Nye modeller gemmes som standard i mappen Dokumenter.
+
+*   Licens: Én licens. Enhver gyldig BSim-licens giver adgang til alle funktioner, også fugtmodel, PV, naturlig ventilation og Glazing-ex. Allerede udstedte licenskoder virker uændret.
+
+*   Licens: Licensen registreres og fjernes i programmet under *Help / License...*, som også viser de installerede licenser og deres udløbsdato. Udløbsdatoen fornyes automatisk online. Uden gyldig licens starter BSim, men kun Help-menuen kan bruges. Menuerne låses op, så snart en licens registreres.
+
+*   Installation: Nyt installationsprogram. BSim installeres i `Program Files (x86)\BUILD\BSim`, og programfilen hedder nu BSim.exe.
+
+*   SimDB: Findes projektets database ikke på den registrerede sti, bliver brugeren bedt om at vælge en database. Tidligere tog BSim uden videre en database med samme navn ved siden af modellen. Rettet opslag af databasen, som afhang af, hvordan modelfilen blev åbnet. Databasevinduet lukkes, når licensen fjernes.
+
+*   Modellen: Personbelastning (*PeopleLoad*) har fået felter for tør og latent varme og for CO<sub>2</sub>, og standardværdierne for personer er opdateret.
+
+*   Tsbi5: Brugerdefineret solabsorptans på finish-materialer blev ignoreret og bruges nu. (resultater)
+
+*   Tsbi5: Langbølget strålingsudveksling (*Longwave*): view factors tager nu højde for flader, der skygger for hinanden, også i konkave rum og mellem rum forbundet af åbninger. (resultater)
+
+*   Tsbi5: Kortbølget stråling fordeles i zonen i to trin. Første træf er solpletten fra XSun (uden XSun faste andele pr. fladetype), og den diffuse sol fordeles efter view factors. Derefter fordeles refleksionerne mellem alle flader. Sol gennem indvendige vinduer og huller går videre til zonen på den anden side. (resultater)
+
+*   Tsbi5: Det solindfald, der tabes ud gennem vinduerne (*Lost*), beregnes nu i stedet for at være en fast andel på 10 %. Feltet *Lost* er fjernet, *ToAir* er 0 i nye zoner, og feltet *Fraction* (diffus sol gennem indvendige vinduer) er fjernet. (resultater)
+
+*   Tsbi5: A-kurver for ruder angivet i procent (a0 > 10) omregnes automatisk. En ugyldig A-kurve regnes som manglende med en advarsel på vinduet.
+
+*   XSun: Ændring af *Floor* i den termiske zone opdaterer nu solfordelingen, og fordelingen *ToFloor* gemmes korrekt.
+
+*   SimLight: Rettet beregningen af reflekteret lys mellem flader. Overførslen af dagslysfaktorer til vinduer sker med fuld præcision. (resultater)
+
+*   Vejrdata: Konvertering fra EPW/ASHRAE og tekst mister ikke længere decimaler afhængigt af Windows' sprogindstillinger. Skudår sættes automatisk ved konvertering, og manglende vejrdage rapporteres.
+
+*   BSimCLI: Nyt kommandolinjeprogram, der kører simuleringer af .disxml-modeller uden brugerflade.
 
 **7,13,9,24** 
 
