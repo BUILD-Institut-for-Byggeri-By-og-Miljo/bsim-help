@@ -10,9 +10,9 @@
 
 <br>
 
-**8,26,10,1**
+**8.26.10.1**
 
-*First release since the development of BSim was resumed in 2026. The changes below are relative to version 7,23,5,31. Changes marked (results) can give simulation results that differ from earlier versions for the same models.*
+*First release since the development of BSim was resumed in 2026. The changes below are relative to version 7.23.5.31. Changes marked (results) can give simulation results that differ from earlier versions for the same models.*
 
 *   *SimView*: New program icon and new About dialog with the BSim and BUILD logos and updated contact information: support bsim-support@build.aau.dk, debate sbi-bsim@lists.aau.dk.
 

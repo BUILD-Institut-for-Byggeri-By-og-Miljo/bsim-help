@@ -13,7 +13,7 @@ C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\Shortcut_key
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\Dictionary.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\File_types.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\Questions_via_e-mail.md
-C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\Virus.md
+C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\05_10_Virus.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\BSim_Program_structure\Structure_of_BSim.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\BSim_Program_structure\About_BSim.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\BSim_Program_structure\Mouse_operations_in_SimView.md

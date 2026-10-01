@@ -5,9 +5,9 @@
 
 *Informationer på denne side er primært ment som en dokumentation af de ændringer som er sket med programmet for udviklerne, men kan også bruges til bedre at forstå forskelle i resultatet opnået med forskellige versioner af programmet.*
 
-**8,26,10,1**
+**8.26.10.1**
 
-*Første udgivelse siden videreudviklingen af BSim blev genoptaget i 2026. Ændringerne nedenfor er i forhold til version 7,23,5,31. Ændringerne markeret med (resultater) kan give andre simuleringsresultater end tidligere versioner for de samme modeller.*
+*Første udgivelse siden videreudviklingen af BSim blev genoptaget i 2026. Ændringerne nedenfor er i forhold til version 7.23.5.31. Ændringerne markeret med (resultater) kan give andre simuleringsresultater end tidligere versioner for de samme modeller.*
 
 *   SimView: Nyt programikon og ny About-dialog med BSim- og BUILD-logo og opdaterede kontaktoplysninger: support bsim-support@build.aau.dk, debat sbi-bsim@lists.aau.dk.
 

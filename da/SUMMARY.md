@@ -19,7 +19,6 @@
 * [Ordbog](05Introduction/05_07_Dictionary.md)
 * [Filtyper](05Introduction/05_08_File_types.md)
 * [Spørgsmål via e-mail](05Introduction/05_09_Questions_via_e-mail.md)
-* [Virus](05Introduction/05_10_Virus.md)
 
 ----
 
