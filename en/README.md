@@ -1,21 +1,18 @@
-<div style="text-align: center;">
+<!-- The front page is HTML throughout: markdown inside an HTML block is not
+     parsed by HonKit, so headings and emphasis would show as plain text.
+     Layout: .frontpage in shared.css. Banner: make_frontpage.py. -->
+<div class="frontpage">
 
-# BSim User Guide
+<img class="frontpage-banner" src="24Miscellaneous/assets/frontpage_banner.png" alt="BSim – Building Simulation">
 
-<figure id="center_img">
-<img src="24Miscellaneous/assets/frontpage figure.png" alt="">
-  <figcaption></figcaption>
-</figure>
+<h1>BSim User Guide</h1>
 
-**Kim B. Wittchen, Kjeld Johnsen, Karl Grau & Jørgen Rose**
+<p class="frontpage-authors"><strong>Kim B. Wittchen, Kjeld Johnsen, Karl Grau &amp; Jørgen Rose</strong></p>
 
-<br>
+<p class="frontpage-description"><em>BSim (Building Simulation) is an integrated computer-aided design and simulation tool for the design of buildings and building services systems.</em></p>
 
-*BSim (Building Simulation) is an integrated computer-aided design and simulation tool for the design of buildings and building services systems.*
+<img class="frontpage-build" src="24Miscellaneous/assets/frontpage_build.png" alt="BUILD – Department of the Built Environment, Aalborg University">
 
-<br>
+<p class="frontpage-copyright">Copyright © Statens Byggeforskningsinstitut (SBi), 1999-2026</p>
 
-<br>
-
-*Copyright © Statens Byggeforskningsinstitut (SBi), 1999-2013*
 </div>

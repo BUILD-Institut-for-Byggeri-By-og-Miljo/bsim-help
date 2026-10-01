@@ -4,7 +4,7 @@
 
 Et **abonnement** er en rabatordning med mange fordele for dem, der vil sikre sig løbende orientering om væsentlige udgivelser inden for byggeforskningsområdet. Kontakt Statens Byggeforskningsinstitut og hør nærmere.
 
-Copyright ©: Statens Byggeforskningsinstitut (SBi), 1999-2009.
+Copyright ©: Statens Byggeforskningsinstitut (SBi), 1999-2026.
 
 Statens Byggeforskningsinstitut, SBi
 

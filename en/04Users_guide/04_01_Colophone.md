@@ -3,7 +3,7 @@
 
 **The Subscription** is a discount scheme offering many advantages to people wishing to be kept up to date on specific subjects within the building research field. Call Danish Building Research Institute for further information.
 
-Copyright ©: Danish Building Research Institute (SBi), 1999-2010.
+Copyright ©: Danish Building Research Institute (SBi), 1999-2026.
 
 Danish Building Research Institute, SBi  
 
