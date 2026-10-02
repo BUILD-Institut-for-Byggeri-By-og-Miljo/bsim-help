@@ -10,7 +10,7 @@
 
 <br>
 
-**8.26.10.1**
+**8.26.10.2**
 
 *First release since the development of BSim was resumed in 2026. The changes below are relative to version 7.23.5.31. Changes marked (results) can give simulation results that differ from earlier versions for the same models.*
 
@@ -43,12 +43,6 @@
 *   *Tsbi5*: A user-defined solar absorptance on finish materials was ignored and is now used. (results)
 
 *   *Tsbi5*: Long-wave radiation exchange (*Longwave*): the view factors now take faces shading each other into account, also in concave rooms and between rooms connected by openings. (results)
-
-*   *Tsbi5*: Short-wave radiation is distributed in the zone in two steps. The first hit is the sun patch from XSun (without XSun, fixed fractions per face type), and the diffuse sun is distributed by view factors. Then the reflections are distributed between all faces. Sun through internal windows and holes passes on to the zone on the other side. (results)
-
-*   *Tsbi5*: The solar gain lost out through the windows (*Lost*) is now calculated instead of being a fixed 10 %. The field *Lost* has been removed, *ToAir* is 0 in new zones, and the field *Fraction* (diffuse sun through internal windows) has been removed. (results)
-
-*   *Tsbi5*: A-curves for glazings given in percent (a0 > 10) are converted automatically. An invalid A-curve is treated as missing, with a warning on the window.
 
 *   *XSun*: Changing *Floor* in the thermal zone now updates the solar distribution, and the distribution *ToFloor* is saved correctly.
 

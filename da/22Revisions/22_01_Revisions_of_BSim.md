@@ -5,7 +5,7 @@
 
 *Informationer på denne side er primært ment som en dokumentation af de ændringer som er sket med programmet for udviklerne, men kan også bruges til bedre at forstå forskelle i resultatet opnået med forskellige versioner af programmet.*
 
-**8.26.10.1**
+**8.26.10.2**
 
 *Første udgivelse siden videreudviklingen af BSim blev genoptaget i 2026. Ændringerne nedenfor er i forhold til version 7.23.5.31. Ændringerne markeret med (resultater) kan give andre simuleringsresultater end tidligere versioner for de samme modeller.*
 
@@ -38,12 +38,6 @@
 *   Tsbi5: Brugerdefineret solabsorptans på finish-materialer blev ignoreret og bruges nu. (resultater)
 
 *   Tsbi5: Langbølget strålingsudveksling (*Longwave*): view factors tager nu højde for flader, der skygger for hinanden, også i konkave rum og mellem rum forbundet af åbninger. (resultater)
-
-*   Tsbi5: Kortbølget stråling fordeles i zonen i to trin. Første træf er solpletten fra XSun (uden XSun faste andele pr. fladetype), og den diffuse sol fordeles efter view factors. Derefter fordeles refleksionerne mellem alle flader. Sol gennem indvendige vinduer og huller går videre til zonen på den anden side. (resultater)
-
-*   Tsbi5: Det solindfald, der tabes ud gennem vinduerne (*Lost*), beregnes nu i stedet for at være en fast andel på 10 %. Feltet *Lost* er fjernet, *ToAir* er 0 i nye zoner, og feltet *Fraction* (diffus sol gennem indvendige vinduer) er fjernet. (resultater)
-
-*   Tsbi5: A-kurver for ruder angivet i procent (a0 > 10) omregnes automatisk. En ugyldig A-kurve regnes som manglende med en advarsel på vinduet.
 
 *   XSun: Ændring af *Floor* i den termiske zone opdaterer nu solfordelingen, og fordelingen *ToFloor* gemmes korrekt.
 
