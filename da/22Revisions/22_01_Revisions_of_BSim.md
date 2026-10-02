@@ -31,6 +31,10 @@
 
 *   Installation: Nyt installationsprogram. BSim installeres i `Program Files (x86)\BUILD\BSim`, og programfilen hedder nu BSim.exe.
 
+*   Installation: Findes en tidligere BSim, foreslår installationsprogrammet at opgradere den og viser, hvilken mappe der fjernes. Det er stadig muligt at installere ved siden af den tidligere version.
+
+*   Installation: Statuslinjen under installationen viser trinnene som almindelig tekst, fx "Kopierer nye filer", på installationsprogrammets sprog.
+
 *   SimDB: Findes projektets database ikke på den registrerede sti, bliver brugeren bedt om at vælge en database. Tidligere tog BSim uden videre en database med samme navn ved siden af modellen. Rettet opslag af databasen, som afhang af, hvordan modelfilen blev åbnet. Databasevinduet lukkes, når licensen fjernes.
 
 *   Modellen: Personbelastning (*PeopleLoad*) har fået felter for tør og latent varme og for CO<sub>2</sub>, og standardværdierne for personer er opdateret.

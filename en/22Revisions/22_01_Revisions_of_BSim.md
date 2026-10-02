@@ -36,6 +36,10 @@
 
 *   *Installation*: New installer. BSim is installed in `Program Files (x86)\BUILD\BSim`, and the program file is now called BSim.exe.
 
+*   *Installation*: If an earlier BSim is installed, the installer proposes to upgrade it and shows which folder will be removed. Installing alongside the earlier version is still possible.
+
+*   *Installation*: The status line during installation shows the steps as plain text, e.g. "Copying new files", in the installer's language.
+
 *   *SimDB*: If the project's database is not found at the registered path, the user is asked to choose a database. Previously BSim silently used a database with the same name next to the model. Fixed a database lookup that depended on how the model file was opened. The database window closes when the license is removed.
 
 *   *Model*: The people load (*PeopleLoad*) has fields for sensible and latent heat and for CO<sub>2</sub>, and the default values for people have been updated.
