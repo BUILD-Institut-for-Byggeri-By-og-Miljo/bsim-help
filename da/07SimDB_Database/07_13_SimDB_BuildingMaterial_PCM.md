@@ -16,7 +16,7 @@
 PCM Fanebladet indeholder oplysninger om materialets eventuelle faseskiftende egenskaber. For at aktivere et materiales faseskiftende egenskaber skal der i fanebladets tabel for "Lambda" være angivet værdier, ellers er PCM-egenskaberne ikke aktive i beregningerne. Øverst i fanebladet PCM er angivet om "lambda" er defineret for det pågældende materiale, og hvis dette er tilfældet benyttes lambdaværdierne angivet i tabellen som varmeledningsevne for materialet frem for den varmeledningsevne som er angivet på [Thermal fanebladet](../07SimDB_Database/07_12_SimDB_BuildingMaterial_Thermal.md). Herved kan varmeledningsevnen altså angives som værende afhængig af temperaturen.
 
 <figure id="center_img">
-<img src="./assets/pcm.gif " alt="PCM-egenskaber for bygningsmateriale.">
+<img src="./assets/pcm.gif" alt="PCM-egenskaber for bygningsmateriale.">
 <figcaption>PCM-egenskaber for bygningsmateriale.</figcaption>
 </figure>
 
@@ -25,14 +25,14 @@ I PCM-fanebladet vises hhv. smelte- og størknekurven for det faseskiftende mate
 Melting/Solidifying: Klikkes på Melting (Solidifying) knappen åbnes en tabel, hvori der indtastes sammenhørende værdier af enthalpi (J/kg) og temperatur (°C) for punkter på smelte (størkne) kurven for materialet. Værdierne indtastes i rækkefølge efter stigende temperatur.
 
 <figure id="center_img">
-<img src="./assets/melting_solidification.gif " alt="">
+<img src="./assets/melting_solidification.gif" alt="">
 <figcaption></figcaption>
 </figure>
 
 Lambda: Klikkes på Lambda knappen åbnes en tabel, hvori der indtastes værdi(er) af materialets varmeledningsevnekurve (W/mK) som funktion af temperaturen (°C). Indtastes der udelukkende én varmeledningsevne vil denne betragtes som konstant og uafhængig af temperaturen. Værdierne indtastes i rækkefølge med stigende temperatur.
 
 <figure id="center_img">
-<img src="./assets/lambda.gif " alt="">
+<img src="./assets/lambda.gif" alt="">
 <figcaption></figcaption>
 </figure>
 
