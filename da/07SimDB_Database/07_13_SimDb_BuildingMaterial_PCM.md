@@ -48,4 +48,4 @@ Ad. 1: Materialet er i en smelteproces og denne fortsætter så længe temperatu
 
 Ad. 2: Materialet er i en størkneproces og denne fortsætter så længe temperaturen falder. Størknekurven følges.
 
-Ad. 3: Materialet er i en overgangsfase mellem smeltning eller størkning. Der følges altid en vandret linje mellem de to kurver indtil enten smelte- eller størknekurven rammes igen. For tilstande mellem de to kurver fastlægges den samlede varmekapacitet for materialet ved lineær interpolation mellem den tilsvarende varmekapacitet for hhv. punktet på smeltekurven og punktet på størknekurven (varmekapaciteten bestemmes som hældningen af kurverne på det pågældende sted).
+Ad. 3: Materialet er i en overgangsfase mellem smeltning eller størkning. Der følges altid en vandret linje mellem de to kurver indtil enten smelte- eller størknekurven rammes igen. For tilstande mellem de to kurver fastlægges den samlede varmekapacitet for materialet ved lineær interpolation mellem den tilsvarende varmekapacitet for hhv. punktet på smeltekurven og punktet på størknekurven (varmekapaciteten bestemmes som hældningen af kurverne på det pågældende sted). 
