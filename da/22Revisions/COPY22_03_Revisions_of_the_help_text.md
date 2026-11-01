@@ -82,7 +82,7 @@ _Informationer på denne side indeholder referencer til de ændringersom er sket
 - Tilføjet information om gemning af resultater i [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md) ved "Alt + X".
 - Fjernet forbehold for fordampningsmodeller fra [vandoverflader](../11Systems/11_05_Systems_Moisture.md).  
 **6.9.8.24**
-- Tilføjet link til [PCM](../07SimDB_Database/07_13_SimDb_BuildingMaterial_PCM.md) fra [hovedindgang](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md) til materialedelen af SimDb.
+- Tilføjet link til [PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md) fra [hovedindgang](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md) til materialedelen af SimDb.
 - Opdateret [Windoor property](../09SimView/09_07_Windoor_property.md) med link til [NatVent](../11Systems/11_11_Natural_ventilation.md) og [kuldebroer](../09SimView/09_08_Thermal_bridges.md).
 - Opdateret
 
@@ -91,7 +91,7 @@ _Informationer på denne side indeholder referencer til de ændringersom er sket
 - Opdateret [teori for varmebalancen i et rum](../20The_Mathematical_Basis/20_25_Heat_balance_for_the_zone_air.md) med bidrag fra kuldebroer.
 - Opdateret [systembeskrivelse](../11Systems/11_06_Hydronic_constructive_heating_cooling.md) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
 - Opdateret [regulering](../11Systems/11_07_Floor_Heating_Control.md) af konstruktiv opvarmning/køling jf. Massimiliano Scarpa.
-- Tilføjet ny side med beskrivelse af [materialeegenskaber for faseskiftende materialer (PCM)](../07SimDB_Database/07_13_SimDb_BuildingMaterial_PCM.md).
+- Tilføjet ny side med beskrivelse af [materialeegenskaber for faseskiftende materialer (PCM)](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md).
 - Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [tables](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md) fanebladet under tsbi5.
 - Tilføjelse af tekst om oprettelse af timer over/under inden for en afgrænset tid på [varmebalancen](../13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md).
 - Tilføjet tekst til [NvCoolCtrl](../11Systems/11_27_NvCool_regulation_ventilation.md) af ventilation.
