@@ -16,6 +16,7 @@ The term virtual zones works as only those spaces located in thermal zones will 
 <figcaption>In the <a href="../24Miscellaneous/24_34_Finish_Property.md">Finish Property dialog</a> it is possible to select what is on the outdoors side of a construction.</figcaption>
 </figure>
 
+</br>
 
 **<span id="re2">Re 2)</span>** If a space is created next to a real thermal zone, it can be given a fixed [temperature variation](../24Miscellaneous/24_56_Room_Temperature.md) or the same indoor conditions as a real thermal zone. If the model is **not** going to be used in Bv98, the constructions in spaces outside thermal zones do not have to be defined. If the space is given the same indoor conditions as in the neighboring zone, the construction will be subject to symmetrical loads.
 

@@ -10,12 +10,14 @@ Begrebet fiktive zoner fungerer ved, at kun rum placeret i termiske zoner medtag
 
 **Ad 1)** Find den flade som skal vende side 2 imod en fiktiv zone. Højre-klik på "Finish" i træstrukturen for den side, som vender imod det fri, og vælge en termisk zone i stedet for "Outdoors". Herved oprettes en fiktiv zone som **altid** har samme temperatur- og fugtforhold som den termiske zone. De belastninger, som påvirker fladen i den valgte termiske zone, kopieres til den side, der vender imod den fiktive zone. Side 2 påvirkes således af den termiske zone uden at den termiske zone påvirkes direkte af fladens side 2. Vælges den fiktive zone på side 2 til at være den samme som på side 1 påvirkes konstruktionen symmetrisk.
 
+
+
 <figure id="center_img">
 <img src="./assets/finish_property.gif " alt="I Finish Property dialogen er det muligt at vælge hvad der skal være på den pågældende side af en flade.">
 <figcaption>I <a href="../24Miscellaneous/24_34_Finish_Property.md">Finish Property dialogen</a> er det muligt at vælge hvad der skal være på den pågældende side af en flade.</figcaption>
 </figure>
 
-
+</br>
 
 **Ad 2)** Hvis der oprettes et rum som støder op til en termisk zone, kan dette påtrykkes en fast [temperaturvariation](../24Miscellaneous/24_56_Room_Temperature.md) eller den samme temperatur som en termisk zone. Hvis modellen alene skal bruges til simulering med *tsbi5*, er det ikke nødvendigt at definere konstruktionerne for alle begrænsningsflader i et rum som ikke indgår i en termisk zone. Vælges naborummets temperatur lig med den termiske zones temperatur, vil konstruktionen som adskiller de to rum påvirkes symmetrisk.
 

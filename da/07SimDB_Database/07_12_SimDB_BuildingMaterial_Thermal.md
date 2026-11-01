@@ -4,7 +4,7 @@
 
 Fanebladet *Thermal* indeholder oplysninger om materialets termiske egenskaber, og vises for alle andre materialer end dem som er beliggende i [SfB-grupperne](../24Miscellaneous/24_39_SfB_in_BSim.md) a, b, c og 0, 1, ... .
 
-De termiske egenskaber er den termiske kapacitet C<sub>p  </sub>[J/kg K] og varmeledningsevnen l [W/m K]. Disse informationer benyttes kun, hvis materialet indgår i en bygningskonstruktion (ikke *WinDoor*), som benyttes i en simulering med *tsbi5*.
+De termiske egenskaber er den termiske kapacitet C<sub>p  </sub>[J/kg K] og varmeledningsevnen λ [W/m K]. Disse informationer benyttes kun, hvis materialet indgår i en bygningskonstruktion (ikke *WinDoor*), som benyttes i en simulering med *tsbi5*.
 
 <div id="gray_background">
 Uanset om "Moisture Transport" er slået til eller fra på "Options" fanebladet under simuleringer med tsbi5, benyttes den lambda-værdi som er givet på dette faneblad. Se også <a href="../07SimDB_Database/07_14_SimDB_BuildingMaterial_Moisture.md">Moisture</a>
