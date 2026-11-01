@@ -12,7 +12,7 @@ Begrebet fiktive zoner fungerer ved, at kun rum placeret i termiske zoner medtag
 
 <figure id="center_img">
 <img src="./assets/finish_property.gif " alt="I Finish Property dialogen er det muligt at vælge hvad der skal være på den pågældende side af en flade.">
-<figcaption>I Finish Property dialogen er det muligt at vælge hvad der skal være på den pågældende side af en flade.</figcaption>
+<figcaption>I <a href="../24Miscellaneous/24_34_Finish_Property.md">Finish Property dialogen</a> er det muligt at vælge hvad der skal være på den pågældende side af en flade.</figcaption>
 </figure>
 
 

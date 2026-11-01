@@ -13,7 +13,7 @@ The term virtual zones works as only those spaces located in thermal zones will 
 
 <figure id="center_img">
 <img src="./assets/finish_property.gif" alt="In the Finish Property dialog it is possible to select what is on the outdoors side of a construction.">
-<figcaption>In the Finish Property dialog it is possible to select what is on the outdoors side of a construction.</figcaption>
+<figcaption>In the <a href="../24Miscellaneous/24_34_Finish_Property.md">Finish Property dialog</a> it is possible to select what is on the outdoors side of a construction.</figcaption>
 </figure>
 
 

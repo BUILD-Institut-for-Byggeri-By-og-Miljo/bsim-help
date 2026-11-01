@@ -158,7 +158,7 @@
 
 ###   **6,9,8,24**
 
-*   Tilføjet link til [PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md) fra [hovedindgang](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md) til materialedelen af SimDb.
+*   Tilføjet link til [PCM](../07SimDB_Database/07_13_SimDB_BuildingMaterial_PCM.md) fra [hovedindgang](../07SimDB_Database/07_11_SimDB_BuildingMaterial_Material.md) til materialedelen af SimDB.
 
 *   Opdateret [Windoor property](../09SimView/09_07_Windoor_property.md) med link til [NatVent](../11Systems/11_11_Natural_ventilation.md) og [kuldebroer](../09SimView/09_08_Thermal_bridges.md).
 
