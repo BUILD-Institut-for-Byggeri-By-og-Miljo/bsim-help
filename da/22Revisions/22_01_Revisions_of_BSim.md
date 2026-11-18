@@ -15,6 +15,12 @@
 
 *   Installation: Filer med endelsen *.bsimxml* åbnes i BSim ved dobbeltklik. Eksempelmodellerne i mappen Models er gemt som *.bsimxml*.
 
+*   Vejrdata: Ny vejrfil *Climate\Danmark_2025.dry* med DMI's nutidige referenceår (Referenceår 2025), konverteret fra DMI's EPW-fil med BSims EPW-import. DMI's data er i UTC og er flyttet én time til dansk normaltid som i Be26. Der tages ikke højde for sommertid. Eksempelmodellerne bruger den og standarddatabasen *BSim2011.disdb*, så de kan åbnes og simuleres uden at vælge database eller vejrfil. De eksisterende vejrfiler følger fortsat med, så eksisterende modeller giver samme resultater som før.
+
+*   Vejrdata: Konverteringen af vejrdata skriver ikke længere tilfældige bytes i den ubrugte del af DRY-filens header, så samme kildefil altid giver samme DRY-fil.
+
+*   Modelfiler: Filhovedet indeholder kun filnavnet og ikke længere hele stien til filen på den computer, hvor modellen blev gemt.
+
 **8.26.10.2**
 
 *Første udgivelse siden videreudviklingen af BSim blev genoptaget i 2026. Ændringerne nedenfor er i forhold til version 7.23.5.31. Ændringerne markeret med (resultater) kan give andre simuleringsresultater end tidligere versioner for de samme modeller.*
