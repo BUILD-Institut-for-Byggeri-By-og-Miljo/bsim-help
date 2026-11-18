@@ -5,6 +5,16 @@
 
 *Informationer på denne side er primært ment som en dokumentation af de ændringer som er sket med programmet for udviklerne, men kan også bruges til bedre at forstå forskelle i resultatet opnået med forskellige versioner af programmet.*
 
+**8.26.11.18**
+
+*   SimView: Modeller gemmes med den nye filendelse *.bsimxml*. Indholdet er det samme XML-format som i *.disxml*, men ældre versioner af BSim viser ikke filerne i deres fildialog og åbner dem ikke ved dobbeltklik.
+
+*   SimView: Gemmes en model, der er åbnet fra en *.disxml*- eller *.dis*-fil, skrives en *.bsimxml*-fil i samme mappe, og den oprindelige fil ændres ikke. Statuslinjen oplyser om det.
+
+*   SimView, BSimCLI og BSimBatch: Modelfilen indeholder nu filformatets versionsnummer. En model gemt i et nyere filformat, end programmet kan læse, åbnes ikke, og der vises en besked.
+
+*   Installation: Filer med endelsen *.bsimxml* åbnes i BSim ved dobbeltklik. Eksempelmodellerne i mappen Models er gemt som *.bsimxml*.
+
 **8.26.10.2**
 
 *Første udgivelse siden videreudviklingen af BSim blev genoptaget i 2026. Ændringerne nedenfor er i forhold til version 7.23.5.31. Ændringerne markeret med (resultater) kan give andre simuleringsresultater end tidligere versioner for de samme modeller.*

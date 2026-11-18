@@ -19,7 +19,7 @@ På grundlag af den endelige bygningsmodel gennemføres et års simulering, og e
 
 **Hent eksisterende model og kopier over i nyt navn**
 
-Bygningsmodellen [EKS2](../21Getting_started_with_BSim/21_04_Example_2.md) hentes ind i BSim og gemmes under navnet 'EKS3' som beskrevet i [eksempel 2](../21Getting_started_with_BSim/21_04_Example_2.md). Den nye model (filen EKS3.DIS) benyttes herefter til den videre udbygning af bygningsmodellen.
+Bygningsmodellen [EKS2](../21Getting_started_with_BSim/21_04_Example_2.md) hentes ind i BSim og gemmes under navnet 'EKS3' som beskrevet i [eksempel 2](../21Getting_started_with_BSim/21_04_Example_2.md). Den nye model (filen EKS3.bsimxml) benyttes herefter til den videre udbygning af bygningsmodellen.
 
 ####  
 
@@ -224,7 +224,7 @@ Der ønskes nu foretaget en simulering for at sammenligne indeklima og energifor
 
 **Valg af parametre i 'time-log'**
 
-Ved kopiering af modellen fra EKS2 over i EKS3 (i starten af eksempel 3) kopieredes kun data for selve bygningsmodellen og parameterlisten (filen EKS3.DIS) det perioden for simulering og oplysninger (data) vedrørende time-log gemmes på den anvendte pc, kan simuleringen startes ved at skifte til fanebladet *Simulation* og klikke på knappen *Start*.
+Ved kopiering af modellen fra EKS2 over i EKS3 (i starten af eksempel 3) kopieredes kun data for selve bygningsmodellen og parameterlisten (filen EKS3.bsimxml) det perioden for simulering og oplysninger (data) vedrørende time-log gemmes på den anvendte pc, kan simuleringen startes ved at skifte til fanebladet *Simulation* og klikke på knappen *Start*.
 
  
 

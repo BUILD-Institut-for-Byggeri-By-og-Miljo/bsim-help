@@ -20,7 +20,7 @@ On the basis of the completed building model, a one year's simulation is carried
 
 #### **Read existing model and copy to a new name**
 
-Fetch the building model EX2 into BSim and save under the name "EX3" as described in [example 2](21_04_Example_2.md). The new model (the file EX3.DIS) is then used for further extension of the building model.
+Fetch the building model EX2 into BSim and save under the name "EX3" as described in [example 2](21_04_Example_2.md). The new model (the file EX3.bsimxml) is then used for further extension of the building model.
 
  
 
@@ -238,7 +238,7 @@ A simulation is now to be undertaken in order to compare the indoor climate and 
 
 **Selection of parameters in "hour-log"**
 
-By copying the model from [EX2](21_04_Example_2.md) over to EX3 (at the beginning of example 3) in addition to copying data for the current building model (the file EX3.DIS) also information (data) regarding hour-log, parameter lists etc. were copied into a new file named EKS3.G97.
+By copying the model from [EX2](21_04_Example_2.md) over to EX3 (at the beginning of example 3) in addition to copying data for the current building model (the file EX3.bsimxml) also information (data) regarding hour-log, parameter lists etc. were copied into a new file named EKS3.G97.
 
 As the simulation period is already defined from EX2, simulation can be started by clicking the Start-button at the Simulation tab of tsbi5. The simulation can be started by clicking the *Start*-button at the Simulation tab of tsbi5.
 

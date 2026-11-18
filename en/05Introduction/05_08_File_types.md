@@ -4,7 +4,8 @@ The BSim program package uses the following file types:
 
 |       |  |
 |----------------------|-------------|
-| *model_name*.dis       | *BSim* model files. |
+| *model_name*.bsimxml   | *BSim* model files. Models are saved in this format from version 8.26. Older versions of *BSim* do not show these files in their file dialog and do not open them on a double-click. |
+| *model_name*.disxml, *model_name*.dis | *BSim* model files saved by an older version. They can be opened, but saving writes the model as *model_name*.bsimxml in the same folder and leaves the original file unchanged. |
 | *model_name*.disdb     | New (2006) extension for BSim databases allowing the database to be sent as an attached file to an e-mail. |
 | *model_name*.mdb       | Component database for a model – normally created as a copy of *SbiData.mdb*, but can also be created as a copy of a private database. |
 | *model_name*.s97       | Heat balance results, created during simulation with *tsbi5*. |

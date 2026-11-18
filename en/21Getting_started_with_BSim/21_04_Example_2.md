@@ -363,7 +363,7 @@ In the section about the [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Ta
 
 
 #### **Save model and exit BSim** <br>
-The model is now saved via the *File* entry in main menu, by clicking on the *Save* field. When the model is saved, two files are created: one file containing all the building model's data (file name: EX2.DIS) and another file which contains data regarding simulation and result analysis (simulation period, hour-log parameters, parameter lists etc.).
+The model is now saved via the *File* entry in main menu, by clicking on the *Save* field. When the model is saved, two files are created: one file containing all the building model's data (file name: EX2.bsimxml) and another file which contains data regarding simulation and result analysis (simulation period, hour-log parameters, parameter lists etc.).
 
 Description of data input for external shadings and modifying the model for improvement of the building indoor climate and energy consumption is described in [example 3](21_05_Example_3.md), where you can continue directly.
 

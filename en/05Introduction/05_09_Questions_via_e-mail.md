@@ -24,7 +24,7 @@ When sending questions you are requested to follow the following advices:
 
 *   Describe the model with special emphasis on those parts giving the problems.
 
-*   Attach eventually the model- (*\<model name\>.dis*) and the database file (*\<model name\>.mdb*).
+*   Attach eventually the model- (*\<model name\>.bsimxml*) and the database file (*\<model name\>.mdb*).
 
 *   Try to reduce the complexity of the model to ease the understanding and to ensure that there is not an error elsewhere in the model causing the problems (giving unexpected results).
 

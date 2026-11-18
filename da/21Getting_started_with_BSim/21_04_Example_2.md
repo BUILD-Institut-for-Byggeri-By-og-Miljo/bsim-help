@@ -421,7 +421,7 @@ I afsnittet om [*Tables*](../13tsbi5_thermal_simulation/13_09_tsbi5_Tables.md)-f
 
 #### **Gem model og afslut BSim**
 
-Via *File*-menuen gemmes modellen nu ved at klikke på feltet *Save*. Når modellen gemmes, dannes der to filer, én fil som indeholder alle bygningsmodellens data (filnavn EKS2.DIS), og en anden som indeholder data vedrørende simulering og resultatbehandling (simuleringsperiode, timelogparametre, parameterlister etc.).
+Via *File*-menuen gemmes modellen nu ved at klikke på feltet *Save*. Når modellen gemmes, dannes der to filer, én fil som indeholder alle bygningsmodellens data (filnavn EKS2.bsimxml), og en anden som indeholder data vedrørende simulering og resultatbehandling (simuleringsperiode, timelogparametre, parameterlister etc.).
 
 Beskrivelse vedrørende dataindlæsning for skygger samt modificering af modellen med henblik på at forbedre bygningens indeklima og energiforbrug beskrives i [eksempel 3](../21Getting_started_with_BSim/21_05_Example_3.md), hvor der kan fortsættes direkte. Såfremt dataindlæsning og resultatbearbejdning ønskes afsluttet her, afsluttes programmet.
 

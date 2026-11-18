@@ -4,7 +4,8 @@ BSim programpakken anvender følgende filtyper:
 
 | Filformat            | Beskrivelse |
 |----------------------|-------------|
-| *modelnavn.dis*      | *BSim* model. |
+| *modelnavn.bsimxml*  | *BSim*-model. Fra version 8.26 gemmes modeller i dette format. Ældre versioner af *BSim* viser ikke filerne i deres fildialog og åbner dem ikke ved dobbeltklik. |
+| *modelnavn.disxml*, *modelnavn.dis* | *BSim*-model gemt med en ældre version. Modellen kan åbnes, men når den gemmes, skrives den som *modelnavn.bsimxml* i samme mappe, og den oprindelige fil ændres ikke. |
 | *modelnavn.disdb*    | Ny (2006) ekstension til *BSim* databaser, som sikrer at databasen kan sendes som vedhæftet fil i en e-mail. |
 | *modelnavn.mdb*      | Komponentdatabase for en bestemt model - oprettes standardmæssigt som en kopi af *SbiData.mdb*, men kan også dannes som en kopi af egne databaser. |
 | *modelnavn.s97*      | Varmebalancen dannet ved simulering med *tsbi5*. |

@@ -10,6 +10,16 @@
 
 <br>
 
+**8.26.11.18**
+
+*   *SimView*: Models are saved with the new file extension *.bsimxml*. The content is the same XML format as in *.disxml*, but older versions of BSim do not show these files in their file dialog and do not open them on a double-click.
+
+*   *SimView*: Saving a model opened from a *.disxml* or *.dis* file writes a *.bsimxml* file in the same folder and leaves the original file unchanged. The status bar says so.
+
+*   *SimView*, *BSimCLI* and *BSimBatch*: The model file now contains the version number of the file format. A model saved in a newer file format than the program can read is not opened, and a message is shown.
+
+*   Installation: Files with the extension *.bsimxml* open in BSim on a double-click. The example models in the Models folder are saved as *.bsimxml*.
+
 **8.26.10.2**
 
 *First release since the development of BSim was resumed in 2026. The changes below are relative to version 7.23.5.31. Changes marked (results) can give simulation results that differ from earlier versions for the same models.*
