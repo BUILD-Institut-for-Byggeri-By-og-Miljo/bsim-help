@@ -158,7 +158,7 @@
 * [tsbi5 - Options](13tsbi5_thermal_simulation/13_02_tsbi5_options.md)
 * [Konvertering af vejrdata til tsbi5](13tsbi5_thermal_simulation/13_03_Converting_weather_data_for_tsbi5.md)
 * [tsbi5 - Simulation](13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md)
-* [tsbi5 batch](13tsbi5_thermal_simulation/13_05_tsbi5_Batch.md)
+<!--* [tsbi5 Batch](13tsbi5_thermal_simulation/13_05_tsbi5_Batch.md) -->
 * [tsbi5 - Eksport til tsbi3](13tsbi5_thermal_simulation/13_06_tsbi5_Exporting_to_tsbi3.md)
 * [tsbi5 - HeatBalance](13tsbi5_thermal_simulation/13_07_tsbi5_HeatBalance.md)
 * [tsbi5 - Parameters](13tsbi5_thermal_simulation/13_08_tsbi5_Parameters.md)

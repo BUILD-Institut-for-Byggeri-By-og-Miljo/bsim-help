@@ -25,7 +25,6 @@ Værktøjsbjælken i *BSim* indeholder en række knapper med følgende funktione
 | <img src="./assets/18SimView - Værktøjsbjælken.png" width=50>| [Skift til *SimView*](../09SimView/09_01_SimView.md) |
 | <img src="./assets/19SimView - Værktøjsbjælken.png" width=50>| [Skift til *XSun*](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md) |
 | <img src="./assets/20SimView - Værktøjsbjælken.png" width=50>| [Skift til *tsbi5*](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md) |
-| <img src="./assets/21SimView - Værktøjsbjælken.png" width=50>| Start [tsbi5Batch](../13tsbi5_thermal_simulation/13_05_tsbi5_Batch.md) |
 | <img src="./assets/22SimView - Værktøjsbjælken.png" width=50>| Start "plug-in" applikation 1, her [*SimDXF*](../24Miscellaneous/24_47_About_SimDXF.md) |
 | <img src="./assets/23SimView - Værktøjsbjælken.png" width=50>| Start "plug-in" applikation 2 |
 | <img src="./assets/24SimView - Værktøjsbjælken.png" width=50>| [Start *SimDB*](../24Miscellaneous/24_42_About_SimDB.md) |
@@ -53,7 +52,7 @@ Følgende funktioner havde dedikerede knapper i værktøjsbjælken i den klassis
 | <img src="./assets/13SimView - Værktøjsbjælken.png" width=50>| Vis modellen som HTML i pc'ens standard internet browser som [model doc](../24Miscellaneous/24_29_Model_DOC.md) |
 | <img src="./assets/14SimView - Værktøjsbjælken.png" width=50>| Vis listning (dokumentation) for aktuelle visning, [ModelList](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md) |
 | <img src="./assets/15SimView - Værktøjsbjælken.png" width=50>| Eksport af bygningsmodellen for brug i Be18-programmet |
-| <img src="./assets/16SimView - Værktøjsbjælken.png" width=50>| Skift til værktøjet BEAT for miljøvurdering af bygningen |
+
 
 
 <img src="./assets/35SimView - Værktøjsbjælken.png" width=20> Vælg menupunktet View/*ModelList* eller klik på den tilhørende ikon. Herved åbnes et vindue, hvori modellens data vises linie for linie. I starten af hver linie vises et ikon, som angiver informationens type. Så længe dette vindue vises, kan modellen udskrives til printer. 

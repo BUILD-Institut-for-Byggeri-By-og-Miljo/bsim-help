@@ -25,7 +25,6 @@ The toolbar in **BSim** contains a number of buttons with the following function
 | <img src="./assets/18SimView - Værktøjsbjælken.png" width=50> | [Switch to **SimView**](../09SimView/09_01_SimView.md) |
 | <img src="./assets/19SimView - Værktøjsbjælken.png" width=50> | [Switch to **XSun**](../14XSun_Analysis_of_incident_solar_radiation/14_01_Analysis_of_incident_solar_radiation_with_XSun.md) |
 | <img src="./assets/20SimView - Værktøjsbjælken.png" width=50> | [Switch to **tsbi5**](../13tsbi5_thermal_simulation/13_04_tsbi5_simulation.md) |
-| <img src="./assets/21SimView - Værktøjsbjælken.png" width=50> | Start [**tsbi5Batch**](../13tsbi5_thermal_simulation/13_05_tsbi5_Batch.md) |
 | <img src="./assets/22SimView - Værktøjsbjælken.png" width=50> | Start plug-in application 1, in this case [**SimDXF**](../24Miscellaneous/24_47_About_SimDXF.md) (install via **Application** | **Setup**) |
 | <img src="./assets/23SimView - Værktøjsbjælken.png" width=50> | Start plug-in application 2, in this case **Notepad** (install via **Application** | **Setup**) |
 | <img src="./assets/24SimView - Værktøjsbjælken.png" width=50> | [Start **SimDB**](../24Miscellaneous/24_42_About_SimDB.md) |
@@ -53,7 +52,7 @@ The following functions had dedicated buttons in the toolbar in the classic vers
 | <img src="./assets/13SimView - Værktøjsbjælken.png" width=50> | Show the model using the standard internet browser in [model DOC](../24Miscellaneous/24_29_Model_DOC.md) format |
 | <img src="./assets/14SimView - Værktøjsbjælken.png" width=50> | Show listing (documentation) for current view, [**ModelList**](../06BSim_Program_structure/06_07_SimView_Printing_a_model.md) |
 | <img src="./assets/15SimView - Værktøjsbjælken.png" width=50> | Convert the building model to be used in the Danish building code energy frame compliance checker, Be18 (available in English and using customized weather data) |
-| <img src="./assets/16SimView - Værktøjsbjælken.png" width=50> | Open BEAT to perform environmental analyses |
+
 
 <br>
 
