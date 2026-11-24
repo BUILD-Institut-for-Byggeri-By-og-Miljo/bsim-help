@@ -3,27 +3,22 @@
 # Om BSim
 
 <figure id="center_img">
-<img src="./assets/about.jpg " alt="Dialogen vises ved klik på Help | About BSim.">
+<img src="./assets/about_new.png" alt="Dialogen vises ved klik på Help | About BSim.">
 <figcaption>Dialogen vises ved klik på Help | About BSim.</figcaption>
 </figure>
 
 Dialogen indeholder en række informationer, hvoraf nogle er afhængige af den aktuelle installation.
 
- 
+* Øverst, til højre for ikonet, vises den aktuelt kørende version af BSim. Versionsnummeret, her 8.26.11.18, refererer direkte til den dato, hvor nærværende opdatering er genereret, og skal læses som: BSim version 8, år 2026, den 18. november. Det er muligt at kontrollere, om den seneste version er installeret ved at besøge BSims hjemmeside på www.bsim.dk.
 
-*   Øverst, til højre for ikonet, vises den aktuelt kørende version af BSim. Versionsnummeret, her 3,2,8,2, refererer direkte til den dato hvor nærværende opdatering er genereret og skal læses som: BSim version 3, år 2002, den 2. august. Det er muligt at checke om man har den seneste version installeret ved at klikke på *Help* | *BSim20xx on the Web* ... | *Check for new update* ... .
+* Umiddelbart under findes et felt med informationer om BUILD, Department of the Built Environment ved Aalborg Universitet, herunder kontaktoplysninger.
 
-*   Umiddelbart under findes et fast felt med informationer om hvordan Statens Byggeforskningsinstitut kan kontaktes i forbindelse med BSim.
+* Under afsnittet *Contact* vises links til BSims hjemmeside, supportmail og debatforum.
 
-*   Til højre for ovenstående er et felt, *System Info*, som viser hvilket operativsystem som benyttes og i hvilken version samt versionen af MDAC. Der skal mindst være installeret en MDAC version 2,5 for at kunne afvikle BSim. Fra BSim version 3,2,8,2 vises følgende dialog når programmet startes, hvis MDAC ikke er installeret eller er for gammel.
+* Under afsnittet *System* vises information om det benyttede operativsystem samt versionen af MDAC. Der skal være installeret en kompatibel version af MDAC for at kunne afvikle BSim korrekt.
 
-<figure id="center_img">
-<img src="./assets/mdac-error.jpg " alt="DisView - About BSim">
-<figcaption>DisView - About BSim</figcaption>
-</figure>
+* Midt i dialogen findes en liste med de installerede BSim-moduler samt den fulde sti til de tilhørende filer. Hvis der højreklikkes på et modul, vises versionsnummeret.
 
-*   Klikkes der på *Yes* starter BSim, men er ikke fuld funktionsdygtigt. MDAC findes på BSim cd-rom'en under *Updates* for Windows eller på [www.bsim.dk](https://www.bsim.dk) under *Opdateringer + Opdateringer af styresystemet*.
+* Under afsnittet *Licensed to* findes information om installationens licens, herunder firmanavn eller licensindehaver samt licensnummer.
 
-*   I dialogens fulde bredde findes en liste med de BSim moduler som er installeret med den fulde sti til filerne. Hvis der højreklikkes på et modul vises versionsnummeret.
-
-*   I bunden af dialogen findes et felt med information om licensbetingelserne for installationen (firmanavn, licensnummer og hvilke ekstra moduler licensen givet mulighed for at benytte).
+* Nederst i dialogen vises copyright-information for den aktuelle BSim-version.
