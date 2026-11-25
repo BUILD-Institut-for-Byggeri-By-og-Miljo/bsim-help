@@ -3,7 +3,7 @@ C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\README.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\SUMMARY.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Users_guide\Colophone.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Users_guide\Foreword.md
-C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Users_guide\Contents.md
+C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Users_guide\04_03_Contents.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\Terms_of_delivery_and_liability.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\Help_structure.md
 C:\Users\halfd\OneDrive\Dokumenter\GitHub\bsim-help\en\Introduction\Printing_help_pages.md

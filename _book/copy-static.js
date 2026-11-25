@@ -8,7 +8,8 @@
  *   1. Copies the site-root assets into _book/.  HonKit only copies files that
  *      live underneath a language directory (da/, en/), so anything that has to
  *      be served from the SITE ROOT -- currently the vendored, offline copy of
- *      MathJax 3 -- has to be copied in afterwards.
+ *      MathJax 3 -- has to be copied in afterwards.  The BSim favicon goes over
+ *      HonKit's own (written by BSim's DISVIEW\RES\make_window_icons.py).
  *
  *   2. CLEAN URLs.  The authors keep the chapter/page numbers in the source file
  *      names (da/09SimView/09_09_SimView_Non_default_constructions.md) because
@@ -40,7 +41,8 @@ const bookDir = path.join(repoRoot, '_book');
 
 // [source (relative to repo root), destination (relative to _book)]
 const ENTRIES = [
-    ['mathjax', 'mathjax']
+    ['mathjax', 'mathjax'],
+    ['favicon.ico', 'gitbook/images/favicon.ico']
 ];
 
 // Windows: a freshly written directory is often still held open for a moment
@@ -68,6 +70,9 @@ function fail(msg) {
 }
 
 function countFiles(dir) {
+    if (!fs.statSync(dir).isDirectory()) {
+        return { files: 1, bytes: fs.statSync(dir).size };
+    }
     let n = 0;
     let bytes = 0;
     for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
