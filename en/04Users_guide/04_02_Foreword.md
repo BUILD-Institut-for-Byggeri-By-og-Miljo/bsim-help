@@ -17,6 +17,8 @@ Erwin Petersen of the Danish Building Research Institute developed a model for c
 
 Various persons have participated by developing different parts of BSim. These are mentioned in the help pages that are relevant for their parts of BSim.
 
+Thanks to Mads Reinholdt, Anders Grøn, Signe Lehmann and Halfdan Kirk, students at Aalborg University, who in 2025-2026 converted the help from the former CHM format to Markdown.
+
 All the models included in BSim have been evaluated either by analytical means, by comparison with equivalent models in other thermal simulation programs or by direct comparison with measuring results from different types of building. During these evaluations the software produced satisfactory calculation results, i.e. results with modest deviations from the theoretically correct, expected or measured values. The flexibility and number of possible combinations offered by the software are virtually infinite, however, so it will always be necessary to subject the results of calculations for complex buildings to a critical engineering assessment.
 
  

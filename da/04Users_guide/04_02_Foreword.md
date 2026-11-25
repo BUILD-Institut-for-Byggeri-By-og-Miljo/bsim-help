@@ -21,6 +21,8 @@ Erwin Petersen, Statens Byggeforskningsinstitut, har udviklet en model for bereg
 
 Forskellige personer har bidraget i udviklingen af dele af programmet. Disse er nævnt på de sider af hjælpen som omhandler den programdel som de har været ansvarlige for.
 
+Tak til Mads Reinholdt, Anders Grøn, Signe Lehmann og Halfdan Kirk, studerende på Aalborg Universitet, som i 2025-2026 konverterede hjælpen fra det tidligere CHM-format til Markdown.
+
 Alle de i *BSim* indgående modeller er evalueret enten på analytisk vis, ved sammenligning med tilsvarende modeller i andre termiske simuleringsprogrammer eller ved direkte sammenligning med måleresultater fra forskellige typer af bygninger. Ved disse evalueringer har programmet givet tilfredsstillende beregningsresultater, dvs. resultater med beskedne afvigelser fra de teoretisk korrekte, forventede eller målte værdier. Imidlertid er fleksibiliteten og kombinationsmulighederne i programmet næsten uendelige, hvorfor det altid vil være nødvendigt at underkaste resultaterne af beregninger på komplekse bygninger en kritisk ingeniørmæssig vurdering.
 
 <br><br>

@@ -4,7 +4,6 @@
 
 * [Kolofon](04Users_guide/04_01_Colophone.md)
 * [Forord](04Users_guide/04_02_Foreword.md)
-* [BSim - Brugervejledning](04Users_guide/04_03_Contents.md)
 
 ----
 
