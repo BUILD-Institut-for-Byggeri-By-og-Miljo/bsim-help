@@ -10,6 +10,34 @@
 
 <br>
 
+**8.26.11.25**
+
+*   Tsbi5, relative humidity: The relative humidity in the results (outdoor air and zones) is now calculated over water at all temperatures, as in DMI's and other weather data (the WMO convention). Previously it was calculated over ice below 0 °C, which gave up to about 7 percentage points too high relative humidity in frost. The moisture model still calculates over ice below 0 °C. (results)
+
+*   Weather data: The conversion from relative to absolute humidity uses the same saturation pressure and the same air pressure as the simulation: the hour's pressure from the weather data or, if missing, the standard pressure at the site's altitude. Previously a simplified polynomial and a fixed 1013 hPa were used. The relative humidity shown by BSim now matches the source data, within about 1 percentage point for DMI's reference year, where the EPW file gives the humidity in whole percent. Existing DRY files must be converted again to benefit from the correction.
+
+*   Weather data: *Climate\Danmark_2025.dry* has been converted again with the corrected conversion. Only the absolute humidity has changed. (results)
+
+*   Tsbi5, CO<sub>2</sub> from people: The contribution from people to the zone's CO<sub>2</sub> concentration was about 800 times too low, and the last CO<sub>2</sub> emission continued outside the people load's time profile. Both errors are corrected. Models with CO<sub>2</sub>-controlled ventilation (mechanical, natural and multizone) may get noticeably different energy and temperature results. (results)
+
+*   Tsbi5, solar distribution in the zone: The *Lost* field has been removed from the zone dialog. BSim now calculates how much solar radiation leaves again through the panes from the glazed area, the optics of the panes and the absorptance of the surfaces, and the radiation is reflected between the surfaces. A stored *Lost* value is read but not used, so results change, also with the default 0.1. A *.dis* file saved with this version cannot be opened in older versions; use *.bsimxml*. (results)
+
+*   Tsbi5, solar distribution in the zone: *ToAir* is 0 in new zones, so the solar radiation hits the surfaces unless a fraction is set for furniture and fittings. Existing models keep their value.
+
+*   XSun: The direct sun lands where the sun patch falls, also when *Longwave* is switched off. The sun patch is only calculated on surfaces the beam reaches from the inside, with the surface's real area, and only on the first surface the beam hits, also in concave rooms. If the patch hits a pane, part goes out, part is reflected and part is absorbed in the glass. Sun through internal windows and holes continues into the adjacent room, and the patches are weighted by the beam's cross-section. (results)
+
+*   XSun: The *Fraction* field for diffuse sun through internal windows has been removed, and a value stored in the program settings is ignored. The result depends only on the model file. (results)
+
+*   Tsbi5: An opening without glass lets all solar radiation through, and an opaque window lets none through. (results)
+
+*   Tsbi5, heating systems: The radiant part from radiators, floor heating, cooling and lighting is no longer lost at the change of hour and reaches the surfaces in the same time step. Two systems or lighting systems in the same zone are added instead of overwriting each other, and each tariff gets its own radiant part. Floor heating inside a construction without thermal delay now reaches the construction. (results)
+
+*   Tsbi5, constructions: With sky radiation (*lwsky*) and with air flowing in through the construction (filtration), heat no longer disappears from the external wall to 0 °C. With stratification, the zone's heat balance uses the air at the height of the surface. A window between two rooms in the same zone no longer gives a false heat capacity. (results)
+
+*   Tsbi5, results: New result columns *qHeatBal* (the zone's heat balance), *qFaceBal* (the construction's energy balance), *qConvGap* and the glass's solar radiation to the other side of the pane (*qSunGlassOut*, *qSunGlassAdj*).
+
+*   BSimCLI: New parameter `--options`, which overrides the model's simulation options. Exit code 32 if the options require something the database or the machine lacks. Only the building being simulated needs a *Site*.
+
 **8.26.11.18**
 
 *   *SimView*: Models are saved with the new file extension *.bsimxml*. The content is the same XML format as in *.disxml*, but older versions of BSim do not show these files in their file dialog and do not open them on a double-click.

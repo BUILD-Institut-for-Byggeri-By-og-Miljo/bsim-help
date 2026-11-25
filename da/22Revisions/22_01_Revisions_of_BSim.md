@@ -5,6 +5,34 @@
 
 *Informationer på denne side er primært ment som en dokumentation af de ændringer som er sket med programmet for udviklerne, men kan også bruges til bedre at forstå forskelle i resultatet opnået med forskellige versioner af programmet.*
 
+**8.26.11.25**
+
+*   Tsbi5, relativ fugt: Den relative fugt i resultaterne (udeluft og zoner) regnes nu over vand ved alle temperaturer, som i DMI's og andre vejrdata (WMO-konventionen). Tidligere blev den regnet over is under 0 °C, hvilket gav op til ca. 7 procentpoint for høj relativ fugt i frostvejr. Fugtmodellen regner fortsat over is under 0 °C. (resultater)
+
+*   Vejrdata: Ved konvertering regnes relativ fugt om til absolut fugt med samme mætningstryk og samme lufttryk som simuleringen: timens tryk fra vejrdataene eller, hvis det mangler, standardtrykket ved stedets højde. Tidligere blev der brugt et forenklet polynomium og fast 1013 hPa. Den relative fugt, BSim viser, svarer nu til kildedataene, med en afvigelse på højst ca. 1 procentpoint for DMI's referenceår, hvor EPW-filen angiver fugten i hele procent. Eksisterende DRY-filer skal konverteres igen for at få gavn af rettelsen.
+
+*   Vejrdata: *Climate\Danmark_2025.dry* er konverteret igen med den rettede omregning. Kun den absolutte fugt er ændret. (resultater)
+
+*   Tsbi5, CO<sub>2</sub> fra personer: Personernes bidrag til zonens CO<sub>2</sub>-koncentration var ca. 800 gange for lavt, og den sidste CO<sub>2</sub>-afgivelse fortsatte uden for personbelastningens tidsprofil. Begge fejl er rettet. Modeller med CO<sub>2</sub>-styret ventilation (mekanisk, naturlig og multizone) kan få mærkbart andre energi- og temperaturresultater. (resultater)
+
+*   Tsbi5, solfordeling i zonen: Feltet *Lost* er fjernet fra zonedialogen. BSim beregner nu, hvor meget sol der går ud igen gennem ruderne, ud fra glasareal, rudernes optik og fladernes absorptans, og solen reflekteres mellem fladerne. En gemt *Lost*-værdi læses, men bruges ikke, så resultaterne ændrer sig, også med standarden 0,1. En *.dis*-fil gemt med denne version kan ikke åbnes i ældre versioner; brug *.bsimxml*. (resultater)
+
+*   Tsbi5, solfordeling i zonen: *ToAir* er 0 i nye zoner, så solen rammer fladerne, medmindre der sættes en andel for møbler og inventar. Eksisterende modeller beholder deres værdi.
+
+*   XSun: Den direkte sol lander, hvor solpletten falder, også når *Longwave* er slået fra. Solpletten regnes kun på flader, strålen når indefra, med fladens rigtige areal, og kun på den første flade, strålen rammer, også i konkave rum. Rammer pletten en rude, går en del ud, en del reflekteres, og en del optages i glasset. Sol gennem indvendige vinduer og huller går videre til naborummet, og pletterne vægtes efter strålens tværsnit. (resultater)
+
+*   XSun: Feltet *Fraction* for diffus sol gennem indvendige vinduer er fjernet, og en gemt værdi i programindstillingerne ignoreres. Resultatet afhænger kun af modelfilen. (resultater)
+
+*   Tsbi5: En åbning uden glas slipper al sol igennem, og et uigennemsigtigt vindue slipper ingen igennem. (resultater)
+
+*   Tsbi5, varmeanlæg: Strålingsdelen fra radiatorer, gulvvarme, køling og lys går ikke længere tabt ved timeskift og når fladerne i samme tidsskridt. To anlæg eller lysanlæg i samme zone lægges sammen i stedet for at overskrive hinanden, og hver tarif får sin egen strålingsdel. Gulvvarme inde i en konstruktion uden termisk forsinkelse når nu konstruktionen. (resultater)
+
+*   Tsbi5, konstruktioner: Med himmelstråling (*lwsky*) og med luft ind gennem konstruktionen (filtration) forsvinder der ikke længere varme fra ydervæggen til 0 °C. Med stratificering regnes zonens varmebalance med luften i fladens højde. Et vindue mellem to rum i samme zone giver ikke længere en falsk varmekapacitet. (resultater)
+
+*   Tsbi5, resultater: Nye resultatkolonner *qHeatBal* (zonens varmebalance), *qFaceBal* (konstruktionens energibalance), *qConvGap* og glassets sol til rudens anden side (*qSunGlassOut*, *qSunGlassAdj*).
+
+*   BSimCLI: Ny parameter `--options`, der overskriver modellens simuleringsvalg. Exitkode 32, hvis valgene kræver noget, databasen eller maskinen mangler. Kun den bygning, der simuleres, skal have en *Site*.
+
 **8.26.11.18**
 
 *   SimView: Modeller gemmes med den nye filendelse *.bsimxml*. Indholdet er det samme XML-format som i *.disxml*, men ældre versioner af BSim viser ikke filerne i deres fildialog og åbner dem ikke ved dobbeltklik.
